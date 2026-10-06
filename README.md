@@ -1,6 +1,6 @@
 <div align="center">
 
-# DESIGN
+# DESIGN BRAIN
 
 **A reference library for AI to pull inspiration from, so what it builds looks modern and feels good to use.**
 
@@ -18,30 +18,29 @@ Every collection is plain files: markdown specs the AI can read, plus HTML previ
 
 | | Collection | What's inside | Status |
 |---|---|---|---|
-| 🎬 | [**Hyperframes Catalog**](Hyperframes%20Catalog) | 25 video looks: colors, type, components, caption styles | Live |
-| 🖥️ | [**Examples**](examples) | Landing page and website screenshots to reference | Live |
+| 🎬 | [**Hyperframe Video Example Catalog**](hyperframe-video-example-catalog) | 25 video looks: colors, type, components, caption styles | Live |
+| 📱 | [**App UI**](app-ui) | App screen designs to reference | Live |
 | 🌐 | Websites | Modern site layouts, sections, patterns | Coming |
-| 📱 | App UIs | Screens, navigation, components | Coming |
 | 🧭 | User journeys | Onboarding, signup, checkout, retention flows | Coming |
 | ✨ | Customer experience | Features and touchpoints that make people stay | Coming |
 
 ## Peek inside
 
-**Hyperframes Catalog** · click through to see all 25 looks
+**Hyperframe video examples** · click through to see all 25 looks
 
 <table>
 <tr>
-<td width="33%"><a href="Hyperframes%20Catalog/heygen-stripe"><img src="Hyperframes%20Catalog/heygen-stripe/reference-frames.jpg" alt="heygen-stripe"></a></td>
-<td width="33%"><a href="Hyperframes%20Catalog/k3-promo"><img src="Hyperframes%20Catalog/k3-promo/reference-frames.jpg" alt="k3-promo"></a></td>
-<td width="33%"><a href="Hyperframes%20Catalog/texture-launch"><img src="Hyperframes%20Catalog/texture-launch/reference-frames.jpg" alt="texture-launch"></a></td>
+<td width="33%"><a href="hyperframe-video-example-catalog/heygen-stripe"><img src="hyperframe-video-example-catalog/heygen-stripe/reference-frames.jpg" alt="heygen-stripe"></a></td>
+<td width="33%"><a href="hyperframe-video-example-catalog/k3-promo"><img src="hyperframe-video-example-catalog/k3-promo/reference-frames.jpg" alt="k3-promo"></a></td>
+<td width="33%"><a href="hyperframe-video-example-catalog/texture-launch"><img src="hyperframe-video-example-catalog/texture-launch/reference-frames.jpg" alt="texture-launch"></a></td>
 </tr>
 </table>
 
-**Examples**
+**App UI**
 
 <table>
-<tr><td width="33%"><img src="examples/BrightPulse.png" alt="BrightPulse"><br><sub>BrightPulse</sub></td><td width="33%"><img src="examples/CareNest.png" alt="CareNest"><br><sub>CareNest</sub></td><td width="33%"><img src="examples/FlowDesk.png" alt="FlowDesk"><br><sub>FlowDesk</sub></td></tr>
-<tr><td width="33%"><img src="examples/LearnGrid.png" alt="LearnGrid"><br><sub>LearnGrid</sub></td><td width="33%"><img src="examples/NorthMetric.png" alt="NorthMetric"><br><sub>NorthMetric</sub></td><td width="33%"><img src="examples/StudioBLoom.png" alt="StudioBLoom"><br><sub>StudioBLoom</sub></td></tr>
+<tr><td width="33%"><img src="app-ui/BrightPulse.png" alt="BrightPulse"><br><sub>BrightPulse</sub></td><td width="33%"><img src="app-ui/CareNest.png" alt="CareNest"><br><sub>CareNest</sub></td><td width="33%"><img src="app-ui/FlowDesk.png" alt="FlowDesk"><br><sub>FlowDesk</sub></td></tr>
+<tr><td width="33%"><img src="app-ui/LearnGrid.png" alt="LearnGrid"><br><sub>LearnGrid</sub></td><td width="33%"><img src="app-ui/NorthMetric.png" alt="NorthMetric"><br><sub>NorthMetric</sub></td><td width="33%"><img src="app-ui/StudioBLoom.png" alt="StudioBLoom"><br><sub>StudioBLoom</sub></td></tr>
 </table>
 
 ---

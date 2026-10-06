@@ -1,6 +1,6 @@
 <div align="center">
 
-# HYPERFRAMES CATALOG
+# HYPERFRAME VIDEO EXAMPLE CATALOG
 
 **25 ready-made video looks. Pick one. Copy it. Done.**
 
@@ -79,4 +79,4 @@ Click any image to open its folder.
 
 ---
 
-Full list with one-line descriptions: [`INDEX.md`](INDEX.md) · [Back to Design](../README.md)
+Full list with one-line descriptions: [`INDEX.md`](INDEX.md) · [Back to Design Brain](../README.md)
