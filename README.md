@@ -18,7 +18,7 @@ Every collection is plain files: markdown specs the AI can read, plus HTML previ
 
 | | Collection | What's inside | Status |
 |---|---|---|---|
-| 🎬 | [**Hyperframe Video Example Catalog**](hyperframe-video-example-catalog) | 25 video looks: colors, type, components, caption styles | Live |
+| 🎬 | [**Hyperframes Catalog**](hyperframes-catalog) | 25 video looks: colors, type, components, caption styles | Live |
 | 📱 | [**App UI**](app-ui) | App screen designs to reference | Live |
 | 🌐 | Websites | Modern site layouts, sections, patterns | Coming |
 | 🧭 | User journeys | Onboarding, signup, checkout, retention flows | Coming |
@@ -26,13 +26,13 @@ Every collection is plain files: markdown specs the AI can read, plus HTML previ
 
 ## Peek inside
 
-**Hyperframe video examples** · click through to see all 25 looks
+**Hyperframes Catalog** · click through to see all 25 looks
 
 <table>
 <tr>
-<td width="33%"><a href="hyperframe-video-example-catalog/heygen-stripe"><img src="hyperframe-video-example-catalog/heygen-stripe/reference-frames.jpg" alt="heygen-stripe"></a></td>
-<td width="33%"><a href="hyperframe-video-example-catalog/k3-promo"><img src="hyperframe-video-example-catalog/k3-promo/reference-frames.jpg" alt="k3-promo"></a></td>
-<td width="33%"><a href="hyperframe-video-example-catalog/texture-launch"><img src="hyperframe-video-example-catalog/texture-launch/reference-frames.jpg" alt="texture-launch"></a></td>
+<td width="33%"><a href="hyperframes-catalog/heygen-stripe"><img src="hyperframes-catalog/heygen-stripe/reference-frames.jpg" alt="heygen-stripe"></a></td>
+<td width="33%"><a href="hyperframes-catalog/k3-promo"><img src="hyperframes-catalog/k3-promo/reference-frames.jpg" alt="k3-promo"></a></td>
+<td width="33%"><a href="hyperframes-catalog/texture-launch"><img src="hyperframes-catalog/texture-launch/reference-frames.jpg" alt="texture-launch"></a></td>
 </tr>
 </table>
 

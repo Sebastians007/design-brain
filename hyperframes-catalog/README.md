@@ -1,6 +1,6 @@
 <div align="center">
 
-# HYPERFRAME VIDEO EXAMPLE CATALOG
+# HYPERFRAMES CATALOG
 
 **25 ready-made video looks. Pick one. Copy it. Done.**
 
