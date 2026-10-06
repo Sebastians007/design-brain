@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Dark Chat UI Explainer — Frame Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&family=Spline+Sans+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --canvas: #030404;
+        --sidebar: #070807;
+        --panel: #171717;
+        --elevated: #202020;
+        --pressed: #303030;
+        --ink: #f4f4f0;
+        --muted: #a7a7a2;
+        --quiet: #74746f;
+        --border: #2b2b2b;
+        --cyan: #06e3fa;
+        --green: #4fdb5e;
+        --success: #1f9d57;
+        --tile: #f2efe6;
+        --sans: "Hanken Grotesk", system-ui, sans-serif;
+        --mono: "Spline Sans Mono", ui-monospace, monospace;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { background: var(--canvas); }
+      body { font-family: var(--sans); color: var(--ink); -webkit-font-smoothing: antialiased; }
+      .label { font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+
+      section { padding: 96px 64px; max-width: 1360px; margin: 0 auto; }
+      .sec-head { display: flex; align-items: baseline; gap: 18px; border-bottom: 1px solid var(--border); padding-bottom: 14px; margin-bottom: 40px; flex-wrap: wrap; }
+      .sec-head .n { font-family: var(--mono); font-size: 13px; color: var(--muted); }
+      .sec-head h2 { font-weight: 700; font-size: 44px; line-height: 1; letter-spacing: -0.02em; }
+      .sec-head .sp { flex: 1; }
+      .sec-head .lab { font-family: var(--mono); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+
+      /* COVER */
+      .cover { min-height: 100vh; max-width: none; display: flex; flex-direction: column; justify-content: center; padding: 80px 64px 140px; position: relative; }
+      .cover .inner { max-width: 1160px; margin: 0 auto; width: 100%; }
+      .cover h1 { font-weight: 800; font-size: clamp(48px, 9vw, 132px); line-height: 0.98; letter-spacing: -0.04em; margin: 18px 0 26px; }
+      .cover .sub { max-width: 640px; font-size: 18px; line-height: 1.6; color: var(--muted); }
+      .cover .meta { position: absolute; left: 64px; right: 64px; bottom: 48px; display: flex; gap: 56px; flex-wrap: wrap; max-width: 1160px; margin: 0 auto; border-top: 1px solid var(--border); padding-top: 18px; }
+      .cover .meta .v { font-weight: 700; font-size: 24px; letter-spacing: -0.02em; }
+      .cover .meta .k { font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
+
+      /* SOURCE */
+      .ref { border: 1px solid var(--border); border-radius: 18px; overflow: hidden; background: var(--sidebar); }
+      .ref img { display: block; width: 100%; height: auto; }
+      .ref figcaption { padding: 12px 18px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+
+      /* PALETTE */
+      .swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 16px; }
+      .sw { border: 1px solid var(--border); border-radius: 14px; overflow: hidden; background: var(--sidebar); }
+      .sw .chip { height: 84px; border-bottom: 1px solid var(--border); }
+      .sw .name { padding: 12px 14px 2px; font-size: 14px; font-weight: 700; }
+      .sw .hex { padding: 0 14px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+      .sw .role { padding: 4px 14px 14px; font-size: 13px; color: var(--muted); line-height: 1.45; }
+
+      /* TYPE */
+      .type-row { display: grid; grid-template-columns: 240px 1fr; gap: 28px; align-items: center; padding: 26px 0; border-bottom: 1px solid var(--border); }
+      .type-row .tok { font-family: var(--mono); font-size: 13px; font-weight: 500; }
+      .type-row .m { font-size: 12px; color: var(--muted); margin-top: 4px; line-height: 1.4; }
+
+      /* COMPONENTS */
+      .cgrid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 28px; margin-bottom: 40px; }
+      .s4 { grid-column: span 4; } .s5 { grid-column: span 5; } .s6 { grid-column: span 6; } .s7 { grid-column: span 7; }
+      .cnote { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+      .composer { display: flex; align-items: center; gap: 12px; background: var(--panel); border-radius: 999px; padding: 12px 14px 12px 20px; font-size: 18px; color: var(--muted); }
+      .composer .ph { flex: 1; }
+      .composer .fast { font-size: 13px; font-weight: 500; color: var(--ink); }
+      .send { width: 36px; height: 36px; border-radius: 50%; background: var(--ink); color: var(--canvas); display: grid; place-items: center; font-weight: 800; flex: none; }
+      .menu { background: var(--elevated); border-radius: 16px; padding: 10px; }
+      .menu .row { display: flex; align-items: center; gap: 12px; padding: 10px 12px; font-size: 15px; font-weight: 500; border-radius: 12px; }
+      .menu .row.on { background: var(--pressed); }
+      .menu .mark { width: 22px; height: 22px; border-radius: 6px; background: linear-gradient(135deg, var(--cyan), var(--green)); flex: none; }
+      .toggle { margin-left: auto; width: 40px; height: 22px; border-radius: 999px; background: var(--ink); position: relative; flex: none; }
+      .toggle::after { content: ""; position: absolute; right: 3px; top: 3px; width: 16px; height: 16px; border-radius: 50%; background: var(--canvas); }
+      .checklist { background: var(--panel); border: 1px solid var(--border); border-radius: 16px; padding: 0 18px 16px; overflow: hidden; }
+      .checklist .bar { height: 3px; background: var(--cyan); margin: 0 -18px 14px; }
+      .checklist .gen { font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; color: var(--muted); margin-bottom: 12px; }
+      .checklist .it { display: flex; gap: 10px; align-items: center; font-size: 13px; color: var(--muted); text-decoration: line-through; padding: 5px 0; }
+      .checklist .it i { width: 9px; height: 9px; border-radius: 50%; background: var(--green); flex: none; }
+      .resultcard { background: var(--panel); border: 1px solid var(--border); border-radius: 14px; padding: 12px; }
+      .resultcard .hd { display: flex; justify-content: space-between; font-size: 12px; font-weight: 500; margin-bottom: 10px; }
+      .resultcard .hd span:last-child { font-family: var(--mono); color: var(--muted); }
+      .resultcard .tile { background: var(--tile); border-radius: 8px; padding: 22px 10px; text-align: center; color: #0b0b0b; }
+      .resultcard .tile .k { font-family: var(--mono); font-size: 9px; letter-spacing: 0.12em; color: #5d5d58; }
+      .resultcard .tile .f { font-weight: 800; font-size: 48px; letter-spacing: -0.04em; line-height: 1.1; }
+      .resultcard .link { margin-top: 10px; font-size: 12px; color: var(--muted); text-align: right; }
+      .think { display: flex; gap: 12px; align-items: center; color: var(--muted); font-size: 16px; }
+      .dots { display: grid; grid-template-columns: repeat(3, 5px); gap: 4px; }
+      .dots i { width: 5px; height: 5px; border-radius: 50%; background: var(--quiet); }
+      .bubble { display: inline-block; background: var(--elevated); border-radius: 14px; padding: 10px 16px; font-size: 15px; }
+      .prose p { font-size: 16px; line-height: 1.6; color: var(--ink); max-width: 46ch; }
+      .prose b { font-weight: 700; }
+      .prose h4 { font-weight: 700; font-size: 20px; margin: 0 0 6px; }
+      .stats { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--ink); }
+      .st { padding: 16px 12px 0 0; }
+      .st .f { font-weight: 800; font-size: 48px; letter-spacing: -0.04em; line-height: 1; }
+      .st .f.g { color: var(--success); }
+      .st .l { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-top: 6px; }
+      .agenda .row { display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid var(--border); }
+      .agenda .num { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+      .agenda .t { font-weight: 700; font-size: 20px; letter-spacing: -0.01em; }
+      .agenda .d { font-size: 12px; color: var(--muted); }
+      .timeline { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; padding-top: 18px; border-top: 1px solid var(--border); }
+      .timeline .y { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--green); }
+      .timeline .t { font-weight: 700; font-size: 20px; margin: 6px 0 4px; }
+      .timeline .x { font-size: 13px; color: var(--muted); line-height: 1.5; }
+      .imgph { aspect-ratio: 4/3; border: 1px dashed var(--quiet); border-radius: 16px; background: var(--panel); display: grid; place-items: center; }
+      .imgph span { font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+      .team { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+      .team .p { text-align: center; }
+      .team .ph { aspect-ratio: 1; border-radius: 50%; border: 1px solid var(--border); background: var(--elevated); display: grid; place-items: center; font-weight: 800; font-size: 40px; }
+      .team .nm { font-weight: 700; font-size: 18px; margin-top: 10px; }
+      .team .ro { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+
+      /* FRAMES */
+      .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(560px, 100%), 1fr)); gap: 40px 28px; }
+      .flabel { display: flex; gap: 10px; align-items: baseline; margin-bottom: 10px; font-size: 14px; flex-wrap: wrap; }
+      .flabel b { font-weight: 700; }
+      .flabel span { font-family: var(--mono); font-size: 11px; color: var(--muted); }
+      .frame { position: relative; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; border: 1px solid var(--border); background: var(--canvas); container-type: size; }
+      .wordmark { position: absolute; left: 12cqw; top: 11cqh; display: flex; align-items: center; gap: 1.2cqw; font-weight: 700; font-size: 5.2cqw; letter-spacing: -0.02em; }
+      .wordmark i { width: 5cqw; height: 5cqw; border: .5cqw solid var(--ink); border-radius: 50%; display: block; }
+      .fcomp { position: absolute; left: 2.4cqw; right: 2.4cqw; top: 47cqh; height: 15cqh; background: var(--panel); border-radius: 2.4cqw; display: flex; align-items: center; padding: 0 1.4cqw 0 2cqw; gap: 1.6cqw; font-size: 2.2cqw; color: var(--muted); }
+      .fcomp .ph { flex: 1; }
+      .fcomp .fast { font-size: 1.5cqw; font-weight: 500; color: var(--ink); }
+      .fcomp .snd { width: 6.2cqh; height: 6.2cqh; min-width: 6.2cqh; border-radius: 50%; background: var(--ink); color: var(--canvas); display: grid; place-items: center; font-weight: 800; font-size: 2.4cqw; }
+      .fcomp.low { top: auto; bottom: 5cqh; height: 12cqh; }
+      .cursor { position: absolute; width: 0; height: 0; border-left: 1.1cqw solid var(--ink); border-top: .5cqw solid transparent; border-bottom: 1.2cqw solid transparent; transform: rotate(-20deg); }
+      .fmenu { position: absolute; left: 36cqw; top: 66cqh; width: 33cqw; background: var(--elevated); border-radius: 1.6cqw; padding: 1cqw; }
+      .fmenu .r { display: flex; align-items: center; gap: 1.2cqw; padding: 1.2cqw 1.2cqw; font-size: 1.8cqw; font-weight: 500; }
+      .fmenu .mk { width: 2.4cqw; height: 2.4cqw; border-radius: .6cqw; background: linear-gradient(135deg, var(--cyan), var(--green)); }
+      .fmenu .tg { margin-left: auto; width: 4cqw; height: 2.2cqw; border-radius: 99px; background: var(--ink); position: relative; }
+      .fmenu .tg::after { content: ""; position: absolute; right: .3cqw; top: .3cqw; width: 1.6cqw; height: 1.6cqw; border-radius: 50%; background: var(--canvas); }
+      .fbubble { position: absolute; right: 8cqw; top: 22cqh; background: var(--elevated); border-radius: 1.6cqw; padding: 1.4cqw 2cqw; font-size: 2.1cqw; }
+      .fthink { position: absolute; left: 6cqw; top: 46cqh; display: flex; gap: 1.4cqw; align-items: center; font-size: 2.2cqw; color: var(--muted); }
+      .fthink .dots { grid-template-columns: repeat(3, .6cqw); gap: .5cqw; }
+      .fthink .dots i { width: .6cqw; height: .6cqw; }
+      .fprose { position: absolute; left: 14cqw; top: 8cqh; width: 52cqw; font-size: 2cqw; line-height: 1.55; }
+      .fprose h4 { font-weight: 700; font-size: 2.6cqw; margin-bottom: 1cqw; }
+      .fprose p { margin-bottom: 1.6cqw; }
+      .fprose b { font-weight: 700; }
+      .fcheck { position: absolute; left: 20cqw; right: 20cqw; top: 8cqh; bottom: 8cqh; background: var(--panel); border: 1px solid var(--border); border-radius: 1.8cqw; overflow: hidden; padding: 0 3cqw; }
+      .fcheck .bar { height: .5cqh; background: var(--cyan); margin: 0 -3cqw 3cqh; }
+      .fcheck .gen { font-family: var(--mono); font-size: 1.3cqw; letter-spacing: .14em; color: var(--muted); margin-bottom: 2.4cqh; }
+      .fcheck .it { display: flex; gap: 1.4cqw; align-items: center; font-size: 1.7cqw; color: var(--muted); text-decoration: line-through; padding: 1.2cqh 0; }
+      .fcheck .it i { width: 1.2cqw; height: 1.2cqw; border-radius: 50%; background: var(--green); flex: none; }
+      .fres { position: absolute; left: 22cqw; right: 22cqw; top: 6cqh; bottom: 6cqh; background: var(--panel); border: 1px solid var(--border); border-radius: 1.8cqw; padding: 1.8cqw; }
+      .fres .hd { display: flex; justify-content: space-between; font-size: 1.4cqw; font-weight: 500; margin-bottom: 1.4cqw; }
+      .fres .tile { position: absolute; left: 1.8cqw; right: 1.8cqw; top: 6cqh; bottom: 10cqh; background: var(--tile); border-radius: 1cqw; display: grid; place-items: center; text-align: center; color: #0b0b0b; }
+      .fres .tile .k { font-family: var(--mono); font-size: 1.1cqw; letter-spacing: .12em; color: #5d5d58; }
+      .fres .tile .f { font-weight: 800; font-size: 10cqw; letter-spacing: -.04em; line-height: 1; }
+      .fres .tile .f.g { color: var(--success); }
+      .fres .lk { position: absolute; right: 1.8cqw; bottom: 2cqh; font-size: 1.3cqw; color: var(--muted); }
+      .flock { position: absolute; inset: 0; display: grid; place-items: center; background: radial-gradient(circle at 25% 15%, rgba(31,157,87,.22), transparent 55%), var(--canvas); }
+      .flock .wordmark { position: static; font-size: 7cqw; }
+
+      /* RULES */
+      .dos { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+      .do-card { background: var(--sidebar); border: 1px solid var(--border); border-radius: 16px; padding: 26px 28px; }
+      .do-card h4 { font-weight: 700; font-size: 28px; margin-bottom: 12px; letter-spacing: -0.02em; }
+      .do-card.do h4 { color: var(--green); } .do-card.dont h4 { color: #ff8a80; }
+      .do-card ul { padding-left: 18px; line-height: 1.75; color: var(--muted); font-size: 15px; }
+
+      /* CAPTIONS */
+      .capdemo .bandline { position: absolute; left: 0; right: 0; bottom: 16.67cqh; border-top: 1px dashed var(--quiet); z-index: 2; }
+      .capdemo .bandtag { position: absolute; right: 3cqw; bottom: calc(16.67cqh + .7cqw); font-family: var(--mono); text-transform: uppercase; letter-spacing: .2cqw; font-size: 1cqw; color: var(--muted); z-index: 2; }
+      .capdemo .stage { position: absolute; left: 0; right: 0; bottom: 0; height: 16.67cqh; display: flex; align-items: center; justify-content: center; z-index: 4; }
+      .capdemo .pill { max-width: 80cqw; padding: 1.2cqw 2.8cqw 1.4cqw; background: var(--panel); border: 1px solid var(--border); border-radius: 3cqw; }
+      .capdemo .line { display: flex; flex-wrap: wrap; justify-content: center; gap: .1em .3em; font-weight: 500; font-size: 3cqw; line-height: 1.22; letter-spacing: -0.01em; }
+      .capdemo .w { display: inline-block; padding: 0 .1em; border-radius: .3em; color: #8c8c87; }
+      .capdemo .w.spoken { color: var(--ink); }
+      .capdemo .w.active { color: var(--canvas); background: var(--ink); }
+      .capdemo .mid { position: absolute; left: 0; right: 0; top: 0; bottom: 16.67cqh; display: grid; place-items: center; text-align: center; padding: 0 8cqw; font-weight: 700; font-size: 5cqw; letter-spacing: -0.03em; }
+
+      .foot { max-width: 1360px; margin: 0 auto; padding: 36px 64px 64px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-family: var(--mono); font-size: 12px; color: var(--muted); border-top: 1px solid var(--border); }
+
+      @media (max-width: 900px) {
+        section { padding: 64px 22px; }
+        .cover { padding: 64px 22px 160px; }
+        .cover .meta { left: 22px; right: 22px; gap: 24px; }
+        .dos, .type-row { grid-template-columns: 1fr; }
+        .cgrid > * { grid-column: span 12; }
+        .foot { padding: 28px 22px 48px; }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- COVER -->
+    <section class="cover">
+      <div class="inner">
+        <div class="label">Dark Chat UI Explainer — Frame System</div>
+        <h1>The UI<br />is the scene.</h1>
+        <div class="sub">
+          A faithful dark-mode chat app at video scale — near-black ground, rounded grey panels, a white
+          send button, a sans answer column, a green-dot checklist and one cream result tile.
+        </div>
+      </div>
+      <div class="meta">
+        <div class="m"><div class="v">1920 × 1080</div><div class="k">Frame</div></div>
+        <div class="m"><div class="v">Vol. 01</div><div class="k">Edition</div></div>
+        <div class="m"><div class="v">Black / White / Cream</div><div class="k">Palette</div></div>
+      </div>
+    </section>
+
+    <!-- SOURCE -->
+    <section>
+      <div class="sec-head"><span class="n">00</span><h2>The Source</h2><span class="sp"></span><span class="lab">12 sampled frames</span></div>
+      <figure class="ref">
+        <img src="reference-frames.jpg" alt="Twelve sampled frames from the dark chat UI explainer film" />
+        <figcaption>reference-frames.jpg — what this preset was written from. Compare the frames below against it.</figcaption>
+      </figure>
+    </section>
+
+    <!-- PALETTE -->
+    <section>
+      <div class="sec-head"><span class="n">01</span><h2>Palette</h2><span class="sp"></span><span class="lab">Monochrome + One Tile</span></div>
+      <div class="swatches">
+        <div class="sw"><div class="chip" style="background:#030404"></div><div class="name">Canvas</div><div class="hex">#030404</div><div class="role">Near-black ground of every scene.</div></div>
+        <div class="sw"><div class="chip" style="background:#070807"></div><div class="name">Sidebar</div><div class="hex">#070807</div><div class="role">Barely lifted surface.</div></div>
+        <div class="sw"><div class="chip" style="background:#171717"></div><div class="name">Panel</div><div class="hex">#171717</div><div class="role">Composer pill, checklist and player cards.</div></div>
+        <div class="sw"><div class="chip" style="background:#202020"></div><div class="name">Elevated</div><div class="hex">#202020</div><div class="role">Menus and the user chat bubble.</div></div>
+        <div class="sw"><div class="chip" style="background:#303030"></div><div class="name">Pressed</div><div class="hex">#303030</div><div class="role">Hover and pressed rows.</div></div>
+        <div class="sw"><div class="chip" style="background:#f4f4f0"></div><div class="name">Ink</div><div class="hex">#F4F4F0</div><div class="role">Text, send button, menu toggle.</div></div>
+        <div class="sw"><div class="chip" style="background:#a7a7a2"></div><div class="name">Muted</div><div class="hex">#A7A7A2</div><div class="role">Placeholders, done checklist rows.</div></div>
+        <div class="sw"><div class="chip" style="background:#74746f"></div><div class="name">Quiet</div><div class="hex">#74746F</div><div class="role">Decorative marks and upcoming states only.</div></div>
+        <div class="sw"><div class="chip" style="background:#2b2b2b"></div><div class="name">Border</div><div class="hex">#2B2B2B</div><div class="role">1px panel outlines.</div></div>
+        <div class="sw"><div class="chip" style="background:#06e3fa"></div><div class="name">Connector Cyan</div><div class="hex">#06E3FA</div><div class="role">Progress bar and connector mark.</div></div>
+        <div class="sw"><div class="chip" style="background:#4fdb5e"></div><div class="name">Connector Green</div><div class="hex">#4FDB5E</div><div class="role">Checklist dots.</div></div>
+        <div class="sw"><div class="chip" style="background:#1f9d57"></div><div class="name">Success</div><div class="hex">#1F9D57</div><div class="role">Final figure on the result tile.</div></div>
+        <div class="sw"><div class="chip" style="background:#f2efe6"></div><div class="name">Result Tile</div><div class="hex">#F2EFE6</div><div class="role">The one cream surface in the film.</div></div>
+      </div>
+    </section>
+
+    <!-- TYPOGRAPHY -->
+    <section>
+      <div class="sec-head"><span class="n">02</span><h2>Typography</h2><span class="sp"></span><span class="lab">Hanken Grotesk + Spline Sans Mono</span></div>
+      <div class="type-row"><div><div class="tok">headline</div><div class="m">Hanken Grotesk 700 · 60px · -0.02em</div></div><div><span style="font-weight:700;letter-spacing:-0.02em;font-size:clamp(36px,6vw,60px);line-height:1.05">Can you break down the upcoming IPO?</span></div></div>
+      <div class="type-row"><div><div class="tok">figure</div><div class="m">Hanken Grotesk 800 · 140px · -0.04em</div></div><div><span style="font-weight:800;letter-spacing:-0.04em;font-size:clamp(56px,10vw,120px);line-height:1">$0.9T</span></div></div>
+      <div class="type-row"><div><div class="tok">prose</div><div class="m">Hanken Grotesk 400 · 28px · 1.5 leading, bold lead-ins</div></div><div><span style="font-size:22px;line-height:1.5"><b>The most likely near-term outcome is a carve-out,</b> not all of the company. Frame it around the drivers.</span></div></div>
+      <div class="type-row"><div><div class="tok">ui</div><div class="m">Hanken Grotesk 500 · 1.55cqw</div></div><div><span style="font-weight:500;font-size:18px">Add connector</span></div></div>
+      <div class="type-row"><div><div class="tok">composer</div><div class="m">Hanken Grotesk 400 · 2.55cqw · muted</div></div><div><span style="font-size:24px;color:var(--muted)">Write a message…</span></div></div>
+      <div class="type-row"><div><div class="tok">caption</div><div class="m">Hanken Grotesk 500 · 40px · on dark rounded panel</div></div><div><span style="display:inline-block;background:var(--panel);border:1px solid var(--border);border-radius:28px;padding:10px 24px;font-weight:500;font-size:26px">Every click is a visible tap.</span></div></div>
+      <div class="type-row" style="border-bottom:0"><div><div class="tok">mono</div><div class="m">Spline Sans Mono 400 · labels, status</div></div><div><span style="font-family:var(--mono);font-size:14px;letter-spacing:.14em;color:var(--muted)">GENERATING · 7 OF 7</span></div></div>
+    </section>
+
+    <!-- COMPONENTS -->
+    <section>
+      <div class="sec-head"><span class="n">03</span><h2>Components</h2><span class="sp"></span><span class="lab">Flat · Rounded · Bordered</span></div>
+
+      <div class="cgrid">
+        <div class="s6">
+          <div class="cnote">Composer pill</div>
+          <div class="composer"><span class="ph">Write a message…</span><span class="fast">Fast ⌄</span><span class="send">↑</span></div>
+          <div class="cnote" style="margin-top:28px">Thinking + user bubble</div>
+          <div class="bubble">Can you break down the upcoming IPO?</div>
+          <div class="think" style="margin-top:16px"><span class="dots"><i></i><i></i><i></i><i></i><i></i><i></i></span>Thinking…</div>
+        </div>
+        <div class="s6">
+          <div class="cnote">Connector menu · white toggle</div>
+          <div class="menu">
+            <div class="row on"><span class="mark"></span>Connector name<span class="toggle"></span></div>
+            <div class="row">+ Add connector</div>
+          </div>
+          <div class="cnote" style="margin-top:28px">Answer prose</div>
+          <div class="prose"><h4>The big picture</h4><p>It is really three businesses under one roof. First thing to know — the <b>most likely near-term IPO</b> is a carve-out, not all of it.</p></div>
+        </div>
+      </div>
+
+      <div class="cgrid">
+        <div class="s4">
+          <div class="cnote">Checklist card</div>
+          <div class="checklist"><div class="bar"></div><div class="gen">GENERATING · 7 OF 7</div>
+            <div class="it"><i></i>Generate narrator scripts</div><div class="it"><i></i>Synthesize audio</div><div class="it"><i></i>Create visual section plan</div><div class="it"><i></i>Finalize and deliver video</div></div>
+        </div>
+        <div class="s4">
+          <div class="cnote">Result card</div>
+          <div class="resultcard"><div class="hd"><span>Connector · compose</span><span>&lt;/&gt;</span></div><div class="tile"><div class="k">IMPLIED VALUATION</div><div class="f">$1.0T</div></div><div class="link">Download full video ↗</div></div>
+        </div>
+        <div class="s4">
+          <div class="cnote">Stats cluster</div>
+          <div class="stats"><div class="st"><div class="f">7</div><div class="l">Steps</div></div><div class="st"><div class="f">1</div><div class="l">Tile</div></div><div class="st"><div class="f g">$1.0T</div><div class="l">Figure</div></div></div>
+        </div>
+      </div>
+
+      <div class="cgrid" style="margin-bottom:0">
+        <div class="s5">
+          <div class="cnote">Agenda rows</div>
+          <div class="agenda">
+            <div class="row"><span class="num">01</span><span class="t">Open the menu</span><span class="d">Tap plus</span></div>
+            <div class="row"><span class="num">02</span><span class="t">Enable the connector</span><span class="d">White toggle</span></div>
+            <div class="row" style="border-bottom:0"><span class="num">03</span><span class="t">Send the prompt</span><span class="d">White button</span></div>
+          </div>
+        </div>
+        <div class="s4">
+          <div class="cnote">Timeline</div>
+          <div class="timeline" style="grid-template-columns:1fr">
+            <div><div class="y">Step 1</div><div class="t">Prompt</div><div class="x">Typed into the composer.</div></div>
+            <div><div class="y">Step 2</div><div class="t">Generate</div><div class="x">Rows cross off.</div></div>
+          </div>
+        </div>
+        <div class="s3" style="grid-column:span 3">
+          <div class="cnote">Image placeholder</div>
+          <div class="imgph"><span>Visual Reference</span></div>
+        </div>
+      </div>
+      <div class="cgrid" style="margin-top:40px;margin-bottom:0">
+        <div class="s6">
+          <div class="cnote">Team frames</div>
+          <div class="team" style="max-width:300px"><div class="p"><div class="ph">A</div><div class="nm">Avery</div><div class="ro">Editor</div></div><div class="p"><div class="ph">M</div><div class="nm">Mori</div><div class="ro">Design</div></div></div>
+        </div>
+        <div class="s6">
+          <div class="cnote">Caption panel</div>
+          <span style="display:inline-block;background:var(--panel);border:1px solid var(--border);border-radius:28px;padding:10px 24px;font-weight:500;font-size:22px">Agents can now write HTML and render MP4s.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPOSITIONS -->
+    <section>
+      <div class="sec-head"><span class="n">04</span><h2>Frame Compositions</h2><span class="sp"></span><span class="lab">True 16:9 · cqw Scaled</span></div>
+      <div class="gallery">
+
+        <div><div class="flabel"><b>Brand + Composer</b><span>· wordmark top-left · composer · cursor on plus</span></div>
+          <div class="frame"><div class="wordmark"><i></i>Wordmark</div>
+            <div class="fcomp"><span>+</span><span class="ph">Ask anything</span><span class="fast">Fast ⌄</span><span class="snd">↑</span></div>
+            <div class="cursor" style="left:4cqw;top:58cqh"></div></div></div>
+
+        <div><div class="flabel"><b>Menu / Connector Toggle</b><span>· compact menu · white toggle</span></div>
+          <div class="frame"><div class="wordmark"><i></i>Wordmark</div>
+            <div class="fcomp"><span>×</span><span class="ph">Ask anything</span><span class="fast">Fast ⌄</span><span class="snd">↑</span></div>
+            <div class="fmenu"><div class="r"><span class="mk"></span>Connector name<span class="tg"></span></div><div class="r">+ Add connector</div></div>
+            <div class="cursor" style="left:63cqw;top:70cqh"></div></div></div>
+
+        <div><div class="flabel"><b>Typed Prompt</b><span>· composer fills · white send</span></div>
+          <div class="frame"><div class="wordmark"><i></i>Wordmark</div>
+            <div class="fcomp"><span>+</span><span class="ph" style="color:var(--ink)">Can you break down the IPO</span><span class="fast">Fast ⌄</span><span class="snd">↑</span></div></div></div>
+
+        <div><div class="flabel"><b>Chat + Thinking</b><span>· bubble right · dotted spinner left</span></div>
+          <div class="frame"><div class="fbubble">Can you break down the upcoming IPO?</div>
+            <div class="fthink"><span class="dots"><i></i><i></i><i></i><i></i><i></i><i></i></span>Thinking…</div>
+            <div class="fcomp low"><span class="ph">Write a message…</span><span class="snd">↑</span></div></div></div>
+
+        <div><div class="flabel"><b>Answer Scroll</b><span>· prose column · bottom composer</span></div>
+          <div class="frame"><div class="fprose"><h4>The big picture</h4><p>It is really three businesses under one roof: a launch near-monopoly, a fast-compounding consumer business and a generational moonshot.</p><p><b>Bottom line.</b> The IPO is less about rockets than about cash flow and optionality.</p></div>
+            <div class="fcomp low"><span class="ph">Write a message…</span><span class="snd">↑</span></div></div></div>
+
+        <div><div class="flabel"><b>Checklist</b><span>· seven rows · cyan progress bar</span></div>
+          <div class="frame"><div class="fcheck"><div class="bar"></div><div class="gen">GENERATING · 7 OF 7</div>
+            <div class="it"><i></i>Generate narrator scripts</div><div class="it"><i></i>Synthesize audio and metadata</div><div class="it"><i></i>Create visual section plan</div><div class="it"><i></i>Build worker group specification</div><div class="it"><i></i>Merge scenes into final output</div></div></div></div>
+
+        <div><div class="flabel"><b>Result Card</b><span>· cream tile · counting figure</span></div>
+          <div class="frame"><div class="fres"><div class="hd"><span>Connector · compose</span><span style="font-family:var(--mono);color:var(--muted)">&lt;/&gt;</span></div>
+            <div class="tile"><div><div class="k">IMPLIED VALUATION</div><div class="f g">$1.0T</div></div></div>
+            <div class="lk">Download full video ↗</div></div></div></div>
+
+        <div><div class="flabel"><b>Lockup</b><span>· centred mark on black</span></div>
+          <div class="frame"><div class="flock"><div class="wordmark"><i></i>Wordmark</div></div></div></div>
+
+      </div>
+      <p style="margin-top:28px;max-width:760px;color:var(--muted);line-height:1.6;font-size:14px">
+        These are HTML approximations of the treatments in <code>FRAME.md</code>. Brand marks are generic placeholders.
+      </p>
+    </section>
+
+    <!-- RULES -->
+    <section>
+      <div class="sec-head"><span class="n">05</span><h2>Frame Rules</h2><span class="sp"></span><span class="lab">Monochrome · Chrome-true</span></div>
+      <div class="dos">
+        <div class="do-card do">
+          <h4>Do</h4>
+          <ul>
+            <li>Sync every click to a sound; keep the composer aligned across hard cuts.</li>
+            <li>Count the figure up with a proxy tween, then punch scale 1.06 and flash green.</li>
+            <li>Keep everything on the dark canvas except the single cream result tile.</li>
+            <li>Make cursor taps and typing visible.</li>
+          </ul>
+        </div>
+        <div class="do-card dont">
+          <h4>Don't</h4>
+          <ul>
+            <li>Don't add warm colours outside the result tile.</li>
+            <li>Don't use generic purple or blue AI gradients.</li>
+            <li>Don't leave empty centred text without app chrome.</li>
+            <li>Don't colour anything beyond the connector mark and the success flash.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAPTIONS -->
+    <section>
+      <div class="sec-head"><span class="n">06</span><h2>Captions</h2><span class="sp"></span><span class="lab">Lower-third · Karaoke</span></div>
+      <div class="gallery">
+        <div><div class="flabel"><b>Active line</b><span>· spoken · current · upcoming</span></div>
+          <div class="frame capdemo">
+            <div class="mid">Ask for a video,<br />get a video.</div>
+            <div class="bandline"></div><div class="bandtag">Caption Band · 16.7%</div>
+            <div class="stage"><div class="pill"><div class="line">
+              <span class="w spoken">Ask</span><span class="w spoken">for</span><span class="w active">a</span><span class="w">video</span><span class="w">today.</span>
+            </div></div></div>
+          </div></div>
+        <div><div class="flabel"><b>Settled line</b><span>· all spoken · block cleared</span></div>
+          <div class="frame capdemo">
+            <div class="mid">Seven steps,<br />all checked.</div>
+            <div class="bandline"></div><div class="bandtag">Caption Band · 16.7%</div>
+            <div class="stage"><div class="pill"><div class="line">
+              <span class="w spoken">Seven</span><span class="w spoken">steps,</span><span class="w spoken">all</span><span class="w spoken">checked.</span>
+            </div></div></div>
+          </div></div>
+      </div>
+    </section>
+
+    <div class="foot">
+      <span>Dark Chat UI Explainer</span>
+      <span>Frame Showcase · The UI Is The Scene</span>
+    </div>
+  </body>
+</html>

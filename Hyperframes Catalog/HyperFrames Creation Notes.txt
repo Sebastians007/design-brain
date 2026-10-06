@@ -1,0 +1,102 @@
+POLICYREADINESS PROMO - CHANGES, IMPROVEMENTS, RECOMMENDATIONS
+================================================================
+Final video: renders/video.mp4  (1920x1080, 86.1s, H.264 + AAC, 24.4 MB)
+Source site: https://policyreadiness.com
+Saved builds: versions/ (latest = v8-long-cta-hold)
+
+
+WHAT WAS BUILT
+--------------
+- 8-frame promo: hook, the 8 questions, why it hurts, product reveal,
+  upload evidence, analyst review, apply with proof, call to action.
+- Real screenshots of the site (captured at 2x, cookie banner removed).
+- Voice: local Kokoro, "Heart" voice (af_heart). No music.
+- All copy comes from the site. Only real numbers used (2-minute check,
+  $299 / $799 / $1899 plans). No invented stats.
+
+
+HOW THE DIRECTION CHANGED
+-------------------------
+v1  30s, butter-yellow look from the agent-skills preset.
+    Rejected: too soft, no real screenshots.
+v2  Navy + electric blue (site brand), real screenshots, ~50s.
+v3  One continuous camera across one canvas, 3D node network for the
+    pain beat, callouts pinned to the real UI.
+v4  Voice switched to Heart.
+v5  Rewrote the script (setup -> point -> so-what) for more context per
+    frame. ~70s. Added a small label on each frame naming the step.
+v6  Added breathing room: ~1.2s of silence between lines, 2s before the
+    call to action, longer crossfade into it.
+v7  Last card held longer.
+v8  Last card (question, logo, check line, URL) holds ~8s, then fades.
+
+
+IMPROVEMENTS MADE ALONG THE WAY
+-------------------------------
+- Look: strict navy / blue / white. Green only = proven, red only = gap.
+  No yellow, no pastels.
+- Pacing: every frame ends on ~1.5s of stillness (a held read).
+- Voice lines no longer run back to back (that was the "rushing" feel).
+- Hero screenshot enlarged so its headline is readable.
+- Frame 7 rebalanced (network left, pricing right), no empty half.
+- Text contrast: all text checks pass WCAG AA (50/50).
+
+
+BUGS FOUND AND FIXED
+--------------------
+- Frames 6 and 7 rendered empty (timeline never registered). Fixed.
+- Frame 3 fact columns sat below their panel. Fixed.
+- Frame 6 label and tag unreadable over the white card. Gave them solid
+  navy backgrounds.
+- Frames 1, 2, 7 went blank during the added pauses. Extended their
+  timing so the finished frame holds.
+- Voice failed at first (tool used the wrong Python). Fixed by pointing
+  HYPERFRAMES_PYTHON at the Python 3.14 install.
+
+
+KNOWN LIMITS (NOT FIXED)
+------------------------
+- No music track (the music library needs a HeyGen sign-in).
+- Not reviewed by ear or by watching the final MP4 - checked through
+  snapshots, timings and automated checks only.
+- Zoomed screenshots in frames 3, 5, 6 are slightly soft (source image
+  is only 984px wide for the demo card).
+- Frame 4 hero screenshot text is small even after enlarging.
+- No monospace font file in the project, so hashes and the URL use the
+  machine's default mono font.
+- Frames end on a still hold, so the handoff between frames relies on
+  the built-in transitions (push-slide, zoom-through, crossfade) rather
+  than a true continuous camera flight.
+- A few design-check notes remain (intentional glow on frame 7, dimmed
+  opening line on the last card).
+- Length is 86s, well over the original 30s ask. It suits a website
+  or YouTube embed, not social feeds.
+
+
+RECOMMENDED NEXT STEPS (MOST VALUABLE FIRST)
+--------------------------------------------
+1. Add music: a quiet bed under the voice. Needs a HeyGen sign-in, or
+   supply a track. Mix it low under the narration.
+2. Watch the MP4 once and send timestamped notes on pacing, voice and
+   on-screen text.
+3. Cut shorter versions: ~30s for LinkedIn / X, and a 9:16 for Reels /
+   Shorts.
+4. Add captions for muted viewing (the script is ready).
+5. Re-capture the demo card and hero at higher resolution to sharpen the
+   zoomed shots.
+6. Optional: slow the voice slightly (about 0.92x) for more breathing
+   room inside sentences.
+7. Optional: freeze this look and structure as a reusable recipe for
+   other client videos.
+
+
+FILES
+-----
+renders/video.mp4        final render
+STORYBOARD.md            plan and shot-by-shot design
+SCRIPT.md                narration script
+frame.md                 design spec (PolicyReadiness Midnight)
+storyboard.html          layout sketch sheet
+assets/screens/          captured site screenshots
+assets/voice/            generated voice lines
+versions/                saved builds (v2 through v8, voice-michael)

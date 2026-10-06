@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Integration Community — Frame Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <style>
+      :root { --bg:#0A0A0C; --panel:#14141A; --line:#2E2E38; --line2:#8A8A99; --text:#FFFFFF; --muted:#A9A9B8; --body:#D2D2DC; --accent:#2EE59D; --ok:#2EE59D; --bad:#F08A6A; --sans: "Inter", system-ui, sans-serif; --head: "Inter Tight", "Inter", system-ui, sans-serif; --mono: "JetBrains Mono", ui-monospace, monospace; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html { background: var(--bg); }
+      body { font-family: var(--sans); color: var(--text); background: var(--bg); -webkit-font-smoothing: antialiased; }
+      .label { font-family: var(--mono); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+      section { position: relative; padding: 96px 64px; max-width: 1360px; margin: 0 auto; }
+      .sec-head { display: flex; align-items: baseline; gap: 18px; border-bottom: 1px solid var(--line); padding-bottom: 14px; margin-bottom: 40px; flex-wrap: wrap; }
+      .sec-head .n { font-family: var(--mono); font-size: 13px; color: var(--muted); }
+      .sec-head h2 { font-family: var(--head); font-weight: 800; font-size: 48px; line-height: 1; letter-spacing: -0.04em; }
+      .sec-head .sp { flex: 1; }
+      .sec-head .lab { font-family: var(--mono); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+      .cover { min-height: 100vh; max-width: none; display: flex; flex-direction: column; justify-content: center; padding: 80px 64px 160px; }
+      .cover .inner { max-width: 1160px; margin: 0 auto; width: 100%; }
+      .cover h1 { font-family: var(--head); font-weight: 800; font-size: clamp(48px, 9vw, 130px); line-height: 1; letter-spacing: -0.04em; margin: 18px 0 26px; }
+      .cover h1 em { font-style: normal; color: var(--accent); }
+      .cover .sub { max-width: 640px; font-size: 18px; line-height: 1.6; color: var(--body); }
+      .cover .meta { position: absolute; left: 64px; right: 64px; bottom: 48px; display: flex; gap: 48px; flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: 18px; }
+      .cover .meta .v { font-family: var(--head); font-weight: 700; font-size: 24px; }
+      .cover .meta .k { font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
+      .ref { border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--panel); }
+      .ref img { display: block; width: 100%; height: auto; }
+      .ref figcaption { padding: 12px 18px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+      .swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 16px; }
+      .sw { border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--panel); }
+      .sw .chip { height: 84px; border-bottom: 1px solid var(--line); }
+      .sw .name { padding: 12px 14px 2px; font-size: 14px; font-weight: 600; }
+      .sw .hex { padding: 0 14px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+      .sw .role { padding: 4px 14px 14px; font-size: 13px; color: var(--body); line-height: 1.45; }
+      .type-row { display: grid; grid-template-columns: 220px 1fr; gap: 28px; align-items: center; padding: 26px 0; border-bottom: 1px solid var(--line); }
+      .type-row .tok { font-family: var(--mono); font-size: 13px; font-weight: 500; }
+      .type-row .m { font-size: 12px; color: var(--muted); margin-top: 4px; line-height: 1.4; }
+      .cgrid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 28px; margin-bottom: 40px; }
+      .s3 { grid-column: span 3; } .s4 { grid-column: span 4; } .s5 { grid-column: span 5; } .s6 { grid-column: span 6; }
+      .cnote { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+      .agenda .row { display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: baseline; padding: 16px 0; border-bottom: 1px solid var(--line); }
+      .agenda .num, .agenda .d { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+      .agenda .t { font-family: var(--head); font-weight: 700; font-size: 22px; }
+      .stats { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--text); }
+      .st { padding: 18px 12px 0 0; }
+      .st .f { font-family: var(--head); font-weight: 800; font-size: 52px; line-height: 1; }
+      .st .l { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-top: 6px; }
+      .timeline { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; padding-top: 22px; }
+      .timeline::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 1px; background: var(--line); }
+      .timeline .y { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
+      .timeline .t { font-family: var(--head); font-weight: 700; font-size: 22px; margin: 6px 0 4px; }
+      .timeline .x { font-size: 13px; color: var(--body); line-height: 1.5; }
+      .imgph { aspect-ratio: 4/3; border: 1px dashed var(--line2); border-radius: 12px; display: grid; place-items: center; background: var(--panel); }
+      .imgph span { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+      .team { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+      .team .p { text-align: center; }
+      .team .ph { aspect-ratio: 1; border-radius: 16px; border: 1px solid var(--line); background: var(--panel); display: grid; place-items: center; font-family: var(--head); font-weight: 800; font-size: 40px; color: var(--accent); }
+      .team .nm { font-family: var(--head); font-weight: 700; font-size: 20px; margin-top: 10px; }
+      .team .ro { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+      .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(560px, 100%), 1fr)); gap: 40px 28px; }
+      .flabel { display: flex; gap: 10px; align-items: baseline; margin-bottom: 10px; font-size: 14px; flex-wrap: wrap; }
+      .flabel b { font-weight: 600; }
+      .flabel span { font-family: var(--mono); font-size: 11px; color: var(--muted); }
+      .frame { position: relative; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; border: 1px solid var(--line); container-type: size; }
+      .center { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; padding: 0 6cqw; }
+      .dos { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+      .do-card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 26px 28px; }
+      .do-card h4 { font-family: var(--head); font-weight: 700; font-size: 28px; margin-bottom: 12px; }
+      .do-card.do h4 { color: var(--ok); } .do-card.dont h4 { color: var(--bad); }
+      .do-card ul { padding-left: 18px; line-height: 1.75; color: var(--body); font-size: 15px; }
+      .capdemo .bandline { position: absolute; left: 0; right: 0; bottom: 16.67cqh; border-top: 1px dashed #8A8A99; z-index: 2; }
+      .capdemo .bandtag { position: absolute; right: 3cqw; bottom: calc(16.67cqh + .7cqw); font-family: var(--mono); text-transform: uppercase; letter-spacing: .2cqw; font-size: 1.1cqw; color: #8A8A99; z-index: 2; }
+      .capdemo .stage { position: absolute; left: 0; right: 0; bottom: 0; height: 16.67cqh; display: flex; align-items: center; justify-content: center; z-index: 4; }
+      .capdemo .pill { max-width: 82cqw; padding:1cqw 2.6cqw 1.1cqw; background:rgba(10,10,12,.82); border-radius:1cqw; }
+      .capdemo .line { display: flex; flex-wrap: wrap; justify-content: center; gap: .1em .3em; font-family: "Inter", sans-serif; font-weight: 700; font-size: 3cqw; line-height: 1.2; letter-spacing:-.01em; }
+      .capdemo .w { display: inline-block; padding: 0 .06em; color: rgba(255,255,255,.55); }
+      .capdemo .w.spoken { color: #FFFFFF; }
+      .capdemo .w.active { color: #2EE59D; }
+      .foot { max-width: 1360px; margin: 0 auto; padding: 36px 64px 64px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-family: var(--mono); font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); }
+      @media (max-width: 900px) {
+        section { padding: 64px 22px; }
+        .cover { padding: 64px 22px 200px; }
+        .cover .meta { left: 22px; right: 22px; gap: 20px; }
+        .dos, .type-row { grid-template-columns: 1fr; }
+        .cgrid > * { grid-column: span 12; }
+        .timeline { grid-template-columns: 1fr; }
+        .foot { padding: 28px 22px 48px; }
+      }
+
+
+      .gurl { font-family: var(--head); font-weight: 800; letter-spacing: -.04em; background: linear-gradient(90deg, #3B82F6, #8B5CF6); -webkit-background-clip: text; background-clip: text; color: transparent; }
+      .sc { border-radius: 12px; padding: 22px; min-height: 180px; border: 1px solid #2E2E38; font-family: var(--head); font-weight: 800; letter-spacing: -.04em; line-height: .98; }
+      .sc .a { font-size: 22px; color: #B6B6C8; } .sc .b { font-size: 30px; } .sc .k { font-size: 64px; }
+      .term { background: #0B0B12; border: 1px solid #2E2E38; border-radius: 12px; padding: 30px 22px 18px; font-family: var(--mono); font-size: 22px; }
+      .caret { display: inline-block; width: 10px; height: 1em; background: #35C8F0; vertical-align: -3px; margin-left: 4px; opacity: .6; }
+      .term .tc { font-family: var(--sans); font-size: 13px; text-align: center; margin-top: 34px; color: #D2D2DC; }
+      .wall { background:linear-gradient(160deg,#2A5BC4 0%,#6FA8E8 45%,#1E3A8A 100%); border-radius: 12px; padding: 24px; }
+      .win { background: #14141A; border-radius: 8px; overflow: hidden; border: 1px solid #2E2E38; }
+      .wbar { display: flex; gap: 5px; padding: 8px 10px; border-bottom: 1px solid #2E2E38; } .wbar i { width: 8px; height: 8px; border-radius: 50%; background: #5A5A68; display: block; }
+      .wbody { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 12px; } .tile { aspect-ratio: 4/3; background: #26262F; border-radius: 4px; }
+      .bk { position: relative; background: #0A0A0C; border: 1px solid #2E2E38; border-radius: 12px; padding: 44px 36px; text-align: center; }
+      .bb { position: absolute; width: 20px; height: 20px; border: 0 solid #fff; } .tl { left: 12px; top: 12px; border-width: 1px 0 0 1px; } .tr { right: 12px; top: 12px; border-width: 1px 1px 0 0; } .bl { left: 12px; bottom: 12px; border-width: 0 0 1px 1px; } .br { right: 12px; bottom: 12px; border-width: 0 1px 1px 0; }
+      .pc { position: relative; background: #050806; border: 1px solid #2E2E38; border-radius: 12px; padding: 28px 20px 18px; text-align: center; }
+      .pcard { width: 70%; margin: 0 auto; transform: rotate(-3deg); background: #26262F; border-radius: 8px; padding: 10px; } .pf { aspect-ratio: 16/9; background: #3A3A46; border-radius: 4px; }
+      .pc .cap { margin-top: 14px; font-weight: 600; font-size: 14px; }
+      .st-bg { position: absolute; inset: 0; font-family: "Inter Tight", "Inter", sans-serif; font-weight: 800; letter-spacing: -.04em; line-height: .97; }
+      .appw { position: absolute; background: #14141A; border: 1px solid #2E2E38; border-radius: .9cqw; }
+
+    </style>
+  </head>
+  <body>
+    <section class="cover">
+      <div class="inner">
+        <div class="label">Integration Community — Frame System</div>
+        <h1>One statement.<br><em>One world.</em></h1>
+        <div class="sub">A manifesto of heavy tight grotesk on flat colour grounds, one world per line and the key word twice as large, followed by a calm screen-recorded tutorial over a blue wallpaper and a corner-bracketed close.</div>
+      </div>
+      <div class="meta">
+        <div class="m"><div class="v">1920 × 1080</div><div class="k">Frame</div></div>
+        <div class="m"><div class="v">Community Cut</div><div class="k">Edition</div></div>
+        <div class="m"><div class="v">Navy / Black / Green</div><div class="k">Palette</div></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="n">00</span><h2>The Source</h2><span class="sp"></span><span class="lab">12 sampled frames</span></div>
+      <figure class="ref">
+        <img src="reference-frames.jpg" alt="Twelve sampled frames from the Integration Community film" />
+        <figcaption>reference-frames.jpg — what this preset was written from. Compare the frames below against it.</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="n">01</span><h2>Palette</h2><span class="sp"></span><span class="lab">Flat Grounds + HF Green</span></div>
+      <div class="swatches"><div class="sw"><div class="chip" style="background:#0E1030"></div><div class="name">Navy</div><div class="hex">#0E1030</div><div class="role">Statement card ground.</div></div><div class="sw"><div class="chip" style="background:#7B6CF0"></div><div class="name">Periwinkle</div><div class="hex">#7B6CF0</div><div class="role">Key word on navy.</div></div><div class="sw"><div class="chip" style="background:#0A0A0C"></div><div class="name">Black</div><div class="hex">#0A0A0C</div><div class="role">Black statement ground and this page.</div></div><div class="sw"><div class="chip" style="background:#0A1A12"></div><div class="name">Near-Black Green</div><div class="hex">#0A1A12</div><div class="role">Dark opener / close ground.</div></div><div class="sw"><div class="chip" style="background:#2EE59D"></div><div class="name">HF Green</div><div class="hex">#2EE59D</div><div class="role">Highlights, active caption word, scrub bar.</div></div><div class="sw"><div class="chip" style="background:#FCE3CC"></div><div class="name">Peach</div><div class="hex">#FCE3CC</div><div class="role">Warm card ground (only a blank ground is sampled).</div></div><div class="sw"><div class="chip" style="background:#3B82F6"></div><div class="name">Blue</div><div class="hex">#3B82F6</div><div class="role">Start of the URL gradient.</div></div><div class="sw"><div class="chip" style="background:#8B5CF6"></div><div class="name">Violet</div><div class="hex">#8B5CF6</div><div class="role">End of the URL gradient.</div></div><div class="sw"><div class="chip" style="background:#0B0B12"></div><div class="name">Terminal</div><div class="hex">#0B0B12</div><div class="role">Command-line ground.</div></div><div class="sw"><div class="chip" style="background:#35C8F0"></div><div class="name">Cmd Cyan</div><div class="hex">#35C8F0</div><div class="role">Command word.</div></div><div class="sw"><div class="chip" style="background:#F08A6A"></div><div class="name">Cmd Coral</div><div class="hex">#F08A6A</div><div class="role">Argument word.</div></div><div class="sw"><div class="chip" style="background:#FFFFFF"></div><div class="name">White</div><div class="hex">#FFFFFF</div><div class="role">Heavy statements and captions.</div></div></div>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="n">02</span><h2>Typography</h2><span class="sp"></span><span class="lab">Inter Tight + Inter + Mono</span></div>
+      <div class="type-row"><div><div class="tok">statement</div><div class="m">Inter Tight 800 · 130px · -0.04em</div></div><div class="spec"><span style="font-weight:800;letter-spacing:-.04em;font-size:clamp(40px,6vw,84px);line-height:.98">We didn't open source</span></div></div><div class="type-row"><div><div class="tok">key-word</div><div class="m">Inter Tight 800 · 260px · 2:1 with its line</div></div><div class="spec"><span style="font-weight:800;letter-spacing:-.04em;font-size:clamp(56px,10vw,140px);line-height:.95;color:#7B6CF0">time,</span></div></div><div class="type-row"><div><div class="tok">terminal</div><div class="m">JetBrains Mono 400 · 40px</div></div><div class="spec"><span style="font-family:var(--mono);font-size:clamp(20px,3vw,36px)"><span style="color:#7B6CF0">$</span> npx <span style="color:#35C8F0">hyperframes</span> <span style="color:#F08A6A">publish</span></span></div></div><div class="type-row"><div><div class="tok">caption</div><div class="m">Inter 700 · 24px · white on dark strip</div></div><div class="spec"><span style="display:inline-block;background:rgba(10,10,12,.82);border:1px solid #2E2E38;font-weight:700;font-size:22px;padding:8px 20px;border-radius:10px">Already have a project?</span></div></div><div class="type-row"><div><div class="tok">url-mono</div><div class="m">JetBrains Mono · 18px · white</div></div><div class="spec"><span style="font-family:var(--mono);font-size:18px">hyperframes.dev</span></div></div><div class="type-row"><div><div class="tok">gradient-url</div><div class="m">Inter Tight 800 · blue to violet text</div></div><div class="spec"><span class="gurl" style="font-size:clamp(36px,5vw,64px)">hyperframes.dev</span></div></div>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="n">03</span><h2>Components</h2><span class="sp"></span><span class="lab">Statements · Terminal · Demo</span></div>
+      
+<div class="cgrid">
+  <div class="s4"><div class="cnote">Statement card — navy</div><div class="sc" style="background:#0E1030"><div class="a">But</div><div class="b" style="color:#B6B6C8">at the same</div><div class="k" style="color:#7B6CF0">time,</div></div></div>
+  <div class="s4"><div class="cnote">Statement card — black</div><div class="sc" style="background:#050806"><div class="b">We didn't open source</div></div></div>
+  <div class="s4"><div class="cnote">Gradient URL</div><div class="sc" style="background:#0A0A0C;text-align:center;display:grid;place-items:center"><div><div style="font-size:15px;margin-bottom:6px">That's why today we're launching</div><div class="gurl" style="font-size:34px">hyperframes.dev</div></div></div></div>
+</div>
+<div class="cgrid">
+  <div class="s6"><div class="cnote">Terminal line + caption strip</div><div class="term"><span style="color:#7B6CF0">$</span> npx <span style="color:#35C8F0">hyperframes</span> <span style="color:#F08A6A">publish</span><span class="caret"></span><div class="tc">With one command, add your projects to the Playground.</div></div></div>
+  <div class="s6"><div class="cnote">Recorded demo window</div><div class="wall"><div class="win"><div class="wbar"><i></i><i></i><i></i></div><div class="wbody"><div class="tile"></div><div class="tile"></div><div class="tile"></div><div class="tile"></div></div></div></div></div>
+</div>
+<div class="cgrid" style="margin-bottom:0">
+  <div class="s4"><div class="cnote">Agenda rows</div><div class="agenda">
+    <div class="row"><span class="num">01</span><span class="t">Open</span><span class="d">The playground</span></div>
+    <div class="row"><span class="num">02</span><span class="t">Remix</span><span class="d">Any project</span></div>
+    <div class="row" style="border-bottom:0"><span class="num">03</span><span class="t">Publish</span><span class="d">One command</span></div></div></div>
+  <div class="s4"><div class="cnote">Stats cluster</div><div class="stats"><div class="st"><div class="f">1</div><div class="l">Command</div></div><div class="st"><div class="f">2:1</div><div class="l">Key-word scale</div></div><div class="st"><div class="f">4</div><div class="l">Corner brackets</div></div></div>
+    <div class="cnote" style="margin-top:28px">Timeline</div><div class="timeline"><div><div class="y">Part 1</div><div class="t">Manifesto</div></div><div><div class="y">Part 2</div><div class="t">Tutorial</div></div><div><div class="y">Part 3</div><div class="t">Close</div></div></div></div>
+  <div class="s4"><div class="cnote">Image placeholder + team frames</div><div class="imgph" style="margin-bottom:16px"><span>Visual Reference</span></div>
+    <div class="team"><div class="p"><div class="ph">A</div><div class="nm">Avery</div><div class="ro">Editor</div></div><div class="p"><div class="ph">M</div><div class="nm">Mori</div><div class="ro">Design</div></div></div></div>
+</div>
+<div class="cgrid" style="margin-top:40px;margin-bottom:0">
+  <div class="s6"><div class="cnote">Corner-bracket close</div><div class="bk"><div class="bb tl"></div><div class="bb tr"></div><div class="bb bl"></div><div class="bb br"></div><div style="font-weight:800;letter-spacing:-.04em;font-size:30px;line-height:1">the community<br>is open</div><div style="font-family:var(--mono);font-size:12px;margin-top:10px">example.dev</div></div></div>
+  <div class="s6"><div class="cnote">Presenter card</div><div class="pc"><div class="pcard"><div class="pf"></div></div><div class="cap">Since we launched,</div></div></div>
+</div>
+
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="n">04</span><h2>Frame Compositions</h2><span class="sp"></span><span class="lab">True 16:9 · cqw Scaled</span></div>
+      <div class="gallery"><div class="fw"><div class="flabel"><b>Glitch Presenter Card</b><span>· tilted card, matrix rain, caption</span></div><div class="frame" style="background:#050806;"><div style="position:absolute;left:0;top:0;bottom:0;width:14%;font-family:var(--mono);font-size:1.3cqw;line-height:1.3;color:#1E6B3A;overflow:hidden;word-break:break-all;opacity:.9">0110 1001 0011 1010 0101 1100 0110 1001 0011 1010 0101 1100 0110 1001 0011 1010 0101 1100</div><div style="position:absolute;left:18%;top:12%;width:56%;height:66%;transform:rotate(-3deg);background:#3A3A46;border-radius:1cqw"><div style="position:absolute;left:6%;top:30%;font-weight:800;font-size:3.2cqw;letter-spacing:-.04em;line-height:1">Let us know<br><span style="color:#2EE59D">below.</span></div></div><div class="appw" style="left:30%;right:22%;bottom:9%;background:rgba(10,10,12,.82);text-align:center;font-size:1.5cqw;font-weight:700;padding:.6cqw">Since we launched,</div></div></div><div class="fw"><div class="flabel"><b>Navy Statement</b><span>· key word big, periwinkle</span></div><div class="frame" style="background:#0E1030;"><div class="st-bg" style="left:8%;top:8%"><div style="font-size:5cqw;color:#B6B6C8">But</div><div style="font-size:9cqw;color:#B6B6C8">at the same</div><div style="font-size:17cqw;color:#7B6CF0">time,</div></div></div></div><div class="fw"><div class="flabel"><b>Black Statement</b><span>· heavy white sentence top-left</span></div><div class="frame" style="background:#0A0A0C;"><div class="st-bg" style="left:6%;top:8%;font-size:8cqw;color:#fff">We didn't open source</div></div></div><div class="fw"><div class="flabel"><b>Warm Blank Card</b><span>· flat cream/peach ground</span></div><div class="frame" style="background:#EFE8DC;"><div class="st-bg" style="left:8%;top:40%;font-size:8cqw;color:#2B2218">Learn together.</div></div></div><div class="fw"><div class="flabel"><b>Gradient URL</b><span>· lead-in + gradient domain</span></div><div class="frame" style="background:#0A0A0C;"><div class="center"><div><div style="font-size:3.2cqw;font-weight:500;margin-bottom:1.4cqw">That's why today we're launching</div><div class="gurl" style="font-size:8.6cqw">example.dev</div></div></div></div></div><div class="fw"><div class="flabel"><b>Terminal Command</b><span>· large mono line, caption strip</span></div><div class="frame" style="background:#0B0B12;"><div class="center"><div style="font-family:var(--mono);font-size:5cqw"><span style="color:#7B6CF0">$</span> npx <span style="color:#35C8F0">tool</span> <span style="color:#F08A6A">publish</span><span class="caret" style="width:.8cqw"></span></div></div><div style="position:absolute;left:0;right:0;bottom:9cqh;text-align:center;font-size:1.7cqw;font-weight:500">With one command, add your projects.</div></div></div><div class="fw"><div class="flabel"><b>Recorded Demo</b><span>· UI over wallpaper, caption pill</span></div><div class="frame" style="background:linear-gradient(160deg,#2A5BC4 0%,#6FA8E8 45%,#1E3A8A 100%);"><div class="appw" style="left:8%;right:8%;top:8%;bottom:20%"><div style="display:flex;gap:.5cqw;padding:.8cqw;border-bottom:1px solid #2E2E38"><i style="width:.8cqw;height:.8cqw;border-radius:50%;background:#5A5A68"></i><i style="width:.8cqw;height:.8cqw;border-radius:50%;background:#5A5A68"></i></div><div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1cqw;padding:1.4cqw"><div style="aspect-ratio:4/3;background:#26262F;border-radius:.4cqw"></div><div style="aspect-ratio:4/3;background:#26262F;border-radius:.4cqw"></div><div style="aspect-ratio:4/3;background:#26262F;border-radius:.4cqw"></div><div style="aspect-ratio:4/3;background:#26262F;border-radius:.4cqw"></div></div></div><div class="appw" style="left:50%;transform:translateX(-50%);bottom:5%;background:rgba(10,10,12,.82);font-size:1.9cqw;font-weight:700;padding:.7cqw 2cqw;white-space:nowrap">Already have a project?</div></div></div><div class="fw"><div class="flabel"><b>Editor Demo</b><span>· code panel beside preview</span></div><div class="frame" style="background:linear-gradient(160deg,#2A5BC4 0%,#6FA8E8 45%,#1E3A8A 100%);"><div class="appw" style="left:8%;right:8%;top:8%;bottom:8%;display:grid;grid-template-columns:1fr 1fr"><div style="background:#1E2330;font-family:var(--mono);font-size:.95cqw;color:#9FB0C8;padding:1.2cqw;line-height:1.7;border-radius:.9cqw 0 0 .9cqw">&lt;div class="card"&gt;<br>&nbsp;&nbsp;Video gets better<br>&lt;/div&gt;</div><div style="display:grid;place-items:center"><div style="background:#16603F;padding:1cqw 2cqw;font-weight:800;font-size:2cqw;color:#fff">Video gets better</div></div></div></div></div><div class="fw"><div class="flabel"><b>Bracketed Close</b><span>· two-line statement, mono URL</span></div><div class="frame" style="background:#0A0A0C;"><div style="position:absolute;left:5%;top:7%;width:4cqw;height:4cqw;border:solid #fff;border-width:1px 0 0 1px"></div><div style="position:absolute;right:5%;top:7%;width:4cqw;height:4cqw;border:solid #fff;border-width:1px 1px 0 0"></div><div style="position:absolute;left:5%;bottom:7%;width:4cqw;height:4cqw;border:solid #fff;border-width:0 0 1px 1px"></div><div style="position:absolute;right:5%;bottom:7%;width:4cqw;height:4cqw;border:solid #fff;border-width:0 1px 1px 0"></div><div class="center"><div><div class="st-bg" style="position:static;font-size:8cqw;color:#fff">the community<br>is open</div><div style="font-family:var(--mono);font-size:1.7cqw;margin-top:2.4cqw">example.dev</div></div></div></div></div></div>
+      <p style="margin-top:28px;max-width:760px;color:var(--body);line-height:1.6;font-size:14px">These are HTML approximations of the treatments in <code>FRAME.md</code>; they exist to check palette, type, spacing and mood against the source frames above. Generic placeholder marks stand in for real logos.</p>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="n">05</span><h2>Frame Rules</h2><span class="sp"></span><span class="lab">Energetic Then Calm</span></div>
+      <div class="dos">
+        <div class="do-card do"><h4>Do</h4><ul><li>Give each statement its own flat ground and keep text left-aligned and oversized.</li><li>Set the key word about twice as large, in the accent colour.</li><li>Keep the tutorial half quiet: slow cursor, word-synced captions.</li><li>Frame the close with four thin white corner brackets.</li><li>Use gradient text only for the URL.</li></ul></div>
+        <div class="do-card dont"><h4>Don't</h4><ul><li>Don't reuse a card palette twice in a row.</li><li>Don't centre statement text except on the end card.</li><li>Don't use the same ground and font on every card.</li><li>Don't add shadows to the cards.</li><li>Don't use real brand marks.</li></ul></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="n">06</span><h2>Captions</h2><span class="sp"></span><span class="lab">Lower-third · Karaoke</span></div>
+      <div class="gallery">
+        <div class="fw"><div class="flabel"><b>Active line</b><span>· spoken · current · upcoming</span></div>
+          <div class="frame capdemo" style="background:#0A0A0C;">
+            <div class="center" style="padding-bottom:12cqh"><div class="st-bg" style="position:static;font-size:6cqw;color:#fff">Built for teams<br>who ship.</div></div>
+            <div class="bandline"></div><div class="bandtag">Caption Band · 16.7%</div>
+            <div class="stage"><div class="pill"><div class="line"><span class="w spoken">Built</span><span class="w spoken">for</span><span class="w active">teams</span><span class="w">who</span><span class="w">ship.</span></div></div></div>
+          </div></div>
+        <div class="fw"><div class="flabel"><b>Settled line</b><span>· all spoken · marker cleared</span></div>
+          <div class="frame capdemo" style="background:#0A0A0C;">
+            <div class="center" style="padding-bottom:12cqh"><div class="st-bg" style="position:static;font-size:6cqw;color:#fff">Ship it<br><span style="color:#7B6CF0">today.</span></div></div>
+            <div class="bandline"></div><div class="bandtag">Caption Band · 16.7%</div>
+            <div class="stage"><div class="pill"><div class="line"><span class="w spoken">Ship</span><span class="w spoken">it</span><span class="w spoken">today.</span></div></div></div>
+          </div></div>
+      </div>
+    </section>
+
+    <div class="foot"><span>Integration Community</span><span>Frame Showcase · One Statement, One World</span></div>
+  </body>
+</html>

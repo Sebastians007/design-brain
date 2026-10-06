@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Claude Design Reel — Frame Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:wght@400&family=Source+Serif+4:wght@700&display=swap" rel="stylesheet" />
+    <style>
+:root {
+
+  --ground: #F3F4ED; --ink: #1A1A18; --muted: #66625A; --body: #34322C; --hair: #DCDBD5; --card: #FCFCF9;
+  --coral: #D97757; --navy: #0E1524; --near: #08090B; --kraft: #D6A15C; --chipbg: rgba(60,60,60,.85);
+  --tl: #1A1A18; --doc: #1A1A18; --dontc: #66625A; --bandc: #66625A; --bandt: #66625A;
+  --display: "Playfair Display", Georgia, serif; --dw: 400; --sans: "Inter", system-ui, sans-serif; --mono: "JetBrains Mono", ui-monospace, monospace;
+  --serif: "Source Serif 4", Georgia, serif;
+
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: var(--sans); color: var(--ink); background: var(--ground); -webkit-font-smoothing: antialiased; line-height: 1.4; }
+code { font-family: var(--mono); font-size: .92em; }
+.label { font-family: var(--mono); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+section { position: relative; padding: 96px 64px; max-width: 1360px; margin: 0 auto; }
+.sec-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; border-bottom: 1px solid var(--hair); padding-bottom: 14px; margin-bottom: 40px; }
+.sec-head .n { font-family: var(--mono); font-size: 13px; color: var(--muted); letter-spacing: .06em; }
+.sec-head h2 { font-family: var(--display); font-weight: var(--dw, 400); font-size: clamp(32px, 5vw, 48px); line-height: 1; letter-spacing: -.01em; }
+.sec-head .sp { flex: 1; }
+.sec-head .lab { font-family: var(--mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.cover { min-height: 100vh; max-width: none; display: flex; flex-direction: column; justify-content: center; padding: 80px 64px 56px; }
+.cover .inner { max-width: 1160px; margin: 0 auto; width: 100%; }
+.cover h1 { font-family: var(--display); font-weight: var(--dw, 400); font-size: clamp(48px, 10vw, 150px); line-height: .98; letter-spacing: -.02em; margin: 18px 0 26px; }
+.cover .sub { max-width: 640px; font-size: 18px; line-height: 1.6; color: var(--body); }
+.cover .meta { display: flex; flex-wrap: wrap; gap: 20px 56px; max-width: 1160px; width: 100%; margin: 56px auto 0; border-top: 1px solid var(--hair); padding-top: 18px; }
+.cover .meta .v { font-family: var(--display); font-weight: var(--dw, 400); font-size: 26px; }
+.cover .meta .k { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
+.ref { border: 1px solid var(--hair); overflow: hidden; background: var(--card); }
+.ref img { display: block; width: 100%; height: auto; }
+.ref figcaption { padding: 12px 18px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 16px; }
+.sw { border: 1px solid var(--hair); overflow: hidden; background: var(--card); }
+.sw .chip { height: 84px; border-bottom: 1px solid var(--hair); }
+.sw .name { padding: 12px 14px 2px; font-size: 14px; font-weight: 600; }
+.sw .hex { padding: 0 14px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.sw .role { padding: 4px 14px 14px; font-size: 13px; color: var(--body); line-height: 1.45; }
+.type-row { display: grid; grid-template-columns: 220px 1fr; gap: 28px; align-items: center; padding: 26px 0; border-bottom: 1px solid var(--hair); }
+.type-row .tok { font-family: var(--mono); font-size: 13px; font-weight: 500; }
+.type-row .m { font-size: 12px; color: var(--muted); margin-top: 4px; line-height: 1.4; }
+.spec { min-width: 0; overflow-wrap: anywhere; }
+.cgrid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 28px; margin-bottom: 40px; }
+.s3 { grid-column: span 3; } .s4 { grid-column: span 4; } .s5 { grid-column: span 5; } .s6 { grid-column: span 6; } .s8 { grid-column: span 8; }
+.cgrid > * { min-width: 0; }
+.cnote { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+.agenda .row { display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: baseline; padding: 16px 0; border-bottom: 1px solid var(--hair); }
+.agenda .num { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.agenda .t { font-family: var(--display); font-weight: var(--dw, 400); font-size: 22px; }
+.agenda .d { font-size: 12px; color: var(--muted); }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 2px solid var(--ink); }
+.st { padding: 18px 12px 0 0; }
+.st .f { font-family: var(--display); font-weight: var(--dw, 400); font-size: 52px; line-height: 1; }
+.st .l { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-top: 6px; }
+.timeline { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; padding-top: 22px; }
+.timeline::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 1px; background: var(--hair); }
+.timeline .y { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--tl); }
+.timeline .t { font-family: var(--display); font-weight: var(--dw, 400); font-size: 22px; margin: 6px 0 4px; }
+.timeline .x { font-size: 13px; color: var(--body); line-height: 1.5; }
+.imgph { aspect-ratio: 4/3; border: 1px dashed var(--muted); background: var(--card); display: grid; place-items: center; }
+.imgph span { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.team { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.team .p { text-align: center; }
+.team .ph { aspect-ratio: 1; border: 1px solid var(--hair); background: var(--card); display: grid; place-items: center; font-family: var(--display); font-weight: var(--dw, 400); font-size: 44px; }
+.team .nm { font-family: var(--display); font-weight: var(--dw, 400); font-size: 20px; margin-top: 10px; }
+.team .ro { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(560px, 100%), 1fr)); gap: 40px 28px; }
+.flabel { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; margin-bottom: 10px; font-size: 14px; }
+.flabel b { font-weight: 600; }
+.flabel span { font-family: var(--mono); font-size: 11px; color: var(--muted); letter-spacing: .04em; }
+.frame { position: relative; aspect-ratio: 16 / 9; overflow: hidden; border: 1px solid var(--hair); container-type: size; }
+.center { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; padding: 0 6cqw; }
+.dos { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.do-card { background: var(--card); border: 1px solid var(--hair); padding: 26px 28px; }
+.do-card h4 { font-family: var(--display); font-weight: var(--dw, 400); font-size: 30px; margin-bottom: 12px; }
+.do-card.do h4 { color: var(--doc); } .do-card.dont h4 { color: var(--dontc); }
+.do-card ul { padding-left: 18px; line-height: 1.75; color: var(--body); font-size: 15px; }
+.capdemo .bandline { position: absolute; left: 0; right: 0; bottom: 16.67cqh; border-top: 1px dashed var(--bandc); z-index: 2; }
+.capdemo .bandtag { position: absolute; right: 3cqw; bottom: calc(16.67cqh + .7cqw); font-family: var(--mono); text-transform: uppercase; letter-spacing: .2cqw; font-size: max(9px, .95cqw); color: var(--bandt); z-index: 2; }
+.capdemo .stage { position: absolute; left: 0; right: 0; bottom: 0; height: 16.67cqh; display: flex; align-items: center; justify-content: center; z-index: 4; }
+.capdemo .line { display: flex; flex-wrap: wrap; justify-content: center; }
+.note { margin-top: 28px; max-width: 760px; color: var(--body); line-height: 1.6; font-size: 14px; }
+.foot { max-width: 1360px; margin: 0 auto; padding: 36px 64px 64px; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; font-family: var(--mono); font-size: 12px; color: var(--muted); border-top: 1px solid var(--hair); }
+@media (max-width: 900px) {
+  section { padding: 64px 20px; }
+  .cover { padding: 56px 20px 40px; }
+  .dos, .type-row { grid-template-columns: 1fr; gap: 10px; }
+  .type-row { padding: 20px 0; }
+  .cgrid > * { grid-column: span 12; }
+  .foot { padding: 28px 20px 48px; }
+}
+
+
+.cd-chip { position: absolute; left: 50%; bottom: 6cqh; transform: translateX(-50%); background: var(--chipbg); color: #fff; font-weight: 700; font-size: 2.4cqw; padding: .6cqw 1.6cqw; border-radius: 1cqw; white-space: nowrap; z-index: 3; }
+.blk { background: var(--near); }
+.cream { background: #F0EEE6; }
+.title { font-family: var(--display); color: #fff; font-size: 6.4cqw; letter-spacing: -.01em; line-height: 1; }
+.date { font-family: var(--mono); font-size: max(8px, 1.1cqw); letter-spacing: .3em; text-transform: uppercase; color: #bdbdb8; margin-top: 1.6cqw; }
+.comp { position: absolute; left: 6cqw; right: 6cqw; top: 12cqh; height: 56cqh; background: var(--card); border: 1px solid var(--hair); border-radius: 2.4cqw; padding: 3.2cqw; font-family: var(--sans); font-size: 3.4cqw; color: var(--ink); text-align: left; box-shadow: 0 1cqw 3cqw rgba(60,50,30,.1); }
+.comp .row { position: absolute; left: 3cqw; right: 3cqw; bottom: 2.4cqw; display: flex; gap: 1.2cqw; align-items: center; }
+.ib { width: 4.4cqw; height: 4.4cqw; border: 1px solid var(--hair); border-radius: 1cqw; background: #fff; }
+.imp { border: 1px solid var(--hair); border-radius: 1cqw; padding: .8cqw 1.6cqw; font-size: 2cqw; background: #fff; }
+.snd { margin-left: auto; background: var(--coral); color: #fff; font-weight: 700; font-size: 2.2cqw; padding: 1cqw 2.4cqw; border-radius: 1cqw; }
+.curs { position: absolute; width: 0; height: 0; border-left: 1.4cqw solid transparent; border-right: 1.4cqw solid transparent; border-bottom: 3cqw solid #111; transform: rotate(-25deg); }
+.rail { position: absolute; left: 0; top: 0; bottom: 0; width: 30%; background: #F6F6F1; border-right: 1px solid var(--hair); padding: 2cqw; text-align: left; }
+.rail i { display: block; height: .7cqw; background: #cfcdc4; margin: 1.1cqw 0; border-radius: 1cqw; }
+.player { position: absolute; left: 32%; top: 12cqh; right: 2cqw; bottom: 8cqh; background: #0a0b10; display: grid; place-items: center; color: #fff; font-family: var(--display); font-size: 3cqw; opacity: 1; }
+.sws { position: absolute; left: 8cqw; top: 22cqh; display: flex; gap: 1.4cqw; }
+.sws i { display: block; width: 5.2cqw; height: 5.2cqw; border: 1px solid var(--hair); background: #fff; position: relative; }
+.sws i::after { content: ""; position: absolute; inset: .5cqw .5cqw 1.5cqw; background: var(--c); }
+.bb { position: absolute; left: 0; right: 0; top: 8cqh; text-align: center; font-family: var(--display); letter-spacing: .3em; font-size: 2.4cqw; text-transform: uppercase; }
+.sq { position: absolute; left: 8cqw; top: 46cqh; width: 11cqw; height: 11cqw; background: #0E0E0E; color: #fff; display: grid; place-items: center; font-family: var(--display); font-size: 6cqw; transform: rotate(-4deg); }
+.panel { position: absolute; background: #0f1218; border: 1px solid #232833; border-radius: .8cqw; padding: 1cqw; }
+.bar { display: inline-block; width: .9cqw; background: #E0A030; margin-right: .3cqw; vertical-align: bottom; }
+.tiles { position: absolute; inset: 0; display: grid; grid-template-columns: repeat(6, 1fr); grid-template-rows: repeat(4, 1fr); gap: .3cqw; background: #0a0a0e; }
+.tiles div { background: #11131a; display: grid; place-items: center; }
+.tiles i { display: block; border-radius: 50%; }
+.grad { position: absolute; inset: 0; background: linear-gradient(120deg, #F6C9A0 0%, #F08CC0 45%, #C8B8F5 100%); }
+.ph3 { position: absolute; top: 12cqh; width: 17cqw; height: 66cqh; border-radius: 2cqw; background: #fff; border: .45cqw solid #1a1a1a; padding: 2cqh 1.2cqw; text-align: left; }
+.ph3 i { display: block; height: .7cqh; background: #dcdcdc; margin: 1.4cqh 0; border-radius: 1cqh; }
+.navy { background: var(--navy); }
+.eb { font-family: var(--mono); font-size: max(8px, 1.2cqw); letter-spacing: .14em; text-transform: uppercase; color: #E0A030; }
+.clock { position: absolute; width: 11cqw; height: 11cqw; border-radius: 50%; border: 1px solid #2c3a5c; background: #121c33; }
+.clock::after { content: ""; position: absolute; left: 50%; top: 18%; width: 2px; height: 34%; background: #9fb4e8; transform-origin: bottom; transform: rotate(25deg); }
+.word { font-family: var(--serif); font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: #F2EBD9; font-size: 8cqw; line-height: 1; }
+.stamp { position: absolute; left: 50%; top: 48%; transform: translate(-50%,-50%) rotate(-12deg); background: var(--kraft); color: #2a1c0a; border: .35cqw solid #2a1c0a; padding: 1.6cqw 4cqw; text-align: center; font-family: var(--serif); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: 4.2cqw; line-height: 1.1; }
+.stamp small { display: block; font-size: 1.6cqw; letter-spacing: .3em; }
+.btnout { display: inline-block; border: 1px solid #8a8a84; color: #d6d6d0; font-family: var(--mono); font-size: max(8px, 1cqw); letter-spacing: .1em; text-transform: uppercase; padding: .6cqw 1.8cqw; border-radius: 99px; }
+.tag { font-family: var(--mono); font-size: max(8px, 1.3cqw); letter-spacing: .08em; color: #cfcfc8; }
+.capdemo .pill { max-width: 70cqw; padding: .7cqw 1.8cqw; background: var(--chipbg); border-radius: 1cqw; }
+.capdemo .line { gap: .1em .28em; font-family: var(--sans); font-weight: 700; font-size: 2.6cqw; line-height: 1.2; letter-spacing: -.01em; }
+.capdemo .w { display: inline-block; padding: 0 .08em; border-radius: .5cqw; color: rgba(255,255,255,.62); }
+.capdemo .w.spoken { color: #fff; }
+.capdemo .w.active { color: #fff; background: rgba(255,255,255,.22); }
+.chip-demo { display: flex; flex-direction: column; gap: 14px; align-items: flex-start; }
+.chip-demo .c { background: var(--chipbg); color: #fff; font-weight: 700; font-size: 20px; padding: 8px 18px; border-radius: 10px; }
+.comp-demo { background: var(--card); border: 1px solid var(--hair); border-radius: 24px; padding: 22px; }
+.comp-demo p { font-size: 18px; margin-bottom: 36px; }
+.comp-demo .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.comp-demo .snd { font-size: 15px; padding: 8px 18px; border-radius: 10px; }
+.comp-demo .imp { font-size: 14px; padding: 6px 14px; border-radius: 10px; }
+.comp-demo .ib { width: 34px; height: 34px; border-radius: 10px; }
+
+    </style>
+  </head>
+  <body>
+<section class="cover"><div class="inner"><div class="label">Claude Design Reel — Frame System</div><h1>Cream UI,<br />then the reel.</h1><div class="sub">Two worlds: a calm cream product UI with one coral Send button, and a dark cinematic reel where every full-frame scene carries a small dark chip caption. A black serif title opens it; a tracked serif wordmark and kraft stamp close it.</div></div><div class="meta"><div><div class="v">1920 × 1080</div><div class="k">Frame</div></div><div><div class="v">Edition 01</div><div class="k">Edition</div></div><div><div class="v">Cream / Ink / Coral</div><div class="k">Palette</div></div></div></section><section><div class="sec-head"><span class="n">00</span><h2>The Source</h2><span class="sp"></span><span class="lab">12 sampled frames</span></div>
+  <figure class="ref"><img src="reference-frames.jpg" alt="Twelve sampled frames from the Claude Design reel" /><figcaption>reference-frames.jpg — what this preset was written from. Compare the frames below against it.</figcaption></figure></section><section><div class="sec-head"><span class="n">01</span><h2>Palette</h2><span class="sp"></span><span class="lab">Cream + Ink + Coral</span></div><div class="swatches"><div class="sw"><div class="chip" style="background:#F3F4ED"></div><div class="name">Paper</div><div class="hex">#F3F4ED</div><div class="role">Home-base cream UI ground.</div></div><div class="sw"><div class="chip" style="background:#F0EEE6"></div><div class="name">Paper Warm</div><div class="hex">#F0EEE6</div><div class="role">Alternate cream for UI close-ups.</div></div><div class="sw"><div class="chip" style="background:#FCFCF9"></div><div class="name">Card</div><div class="hex">#FCFCF9</div><div class="role">Composer card fill.</div></div><div class="sw"><div class="chip" style="background:#1A1A18"></div><div class="name">Ink</div><div class="hex">#1A1A18</div><div class="role">Text on cream.</div></div><div class="sw"><div class="chip" style="background:#262521"></div><div class="name">Ink Soft</div><div class="hex">#262521</div><div class="role">Secondary dark text.</div></div><div class="sw"><div class="chip" style="background:#6E6A5E"></div><div class="name">Muted</div><div class="hex">#6E6A5E</div><div class="role">Labels and notes on cream.</div></div><div class="sw"><div class="chip" style="background:#DCDBD5"></div><div class="name">Hairline</div><div class="hex">#DCDBD5</div><div class="role">Card borders and dividers.</div></div><div class="sw"><div class="chip" style="background:#D97757"></div><div class="name">Coral</div><div class="hex">#D97757</div><div class="role">Send button and cursor accent only.</div></div><div class="sw"><div class="chip" style="background:#0E1524"></div><div class="name">Navy</div><div class="hex">#0E1524</div><div class="role">Product-feature card.</div></div><div class="sw"><div class="chip" style="background:#08090B"></div><div class="name">Near Black</div><div class="hex">#08090B</div><div class="role">Title plate and wordmark close.</div></div><div class="sw"><div class="chip" style="background:#6F7BFF"></div><div class="name">Beam</div><div class="hex">#6F7BFF</div><div class="role">Source-listed light-column tint; unconfirmed in samples.</div></div><div class="sw"><div class="chip" style="background:#F6C9A0"></div><div class="name">Peach</div><div class="hex">#F6C9A0</div><div class="role">Gradient-phone scene.</div></div><div class="sw"><div class="chip" style="background:#C8B8F5"></div><div class="name">Lavender</div><div class="hex">#C8B8F5</div><div class="role">Gradient-phone scene.</div></div><div class="sw"><div class="chip" style="background:#F08CC0"></div><div class="name">Pink</div><div class="hex">#F08CC0</div><div class="role">Gradient-phone scene.</div></div><div class="sw"><div class="chip" style="background:#9BE8D0"></div><div class="name">Mint</div><div class="hex">#9BE8D0</div><div class="role">Source-listed pastel; unconfirmed in samples.</div></div><div class="sw"><div class="chip" style="background:#D6A15C"></div><div class="name">Stamp Kraft</div><div class="hex">#D6A15C</div><div class="role">Rubber stamp badge.</div></div><div class="sw"><div class="chip" style="background:rgba(60,60,60,.85)"></div><div class="name">Pill Dark</div><div class="hex">rgba(60,60,60,.85)</div><div class="role">Translucent chip behind captions.</div></div></div></section><section><div class="sec-head"><span class="n">02</span><h2>Typography</h2><span class="sp"></span><span class="lab">Serif + Inter + Mono</span></div><div class="type-row"><div><div class="tok">title-serif</div><div class="m">Playfair Display 400 · 64px · white on black</div></div><div class="spec"><span style="font-family:var(--display);font-size:clamp(34px,6vw,72px);color:#fff;background:#08090B;padding:6px 22px;display:inline-block">Brand A × Brand B</span></div></div><div class="type-row"><div><div class="tok">eyebrow</div><div class="m">Inter 500 · 14px · 0.3em · caps</div></div><div class="spec"><span class="label" style="color:#1A1A18;letter-spacing:.3em">25 April 2026</span></div></div><div class="type-row"><div><div class="tok">ui</div><div class="m">Inter 400 · 22px</div></div><div class="spec"><span style="font-size:22px">Generate a 5 second cinematic intro video</span></div></div><div class="type-row"><div><div class="tok">pill</div><div class="m">Inter 700 · 26px · white on dark chip</div></div><div class="spec"><span style="display:inline-block;background:var(--chipbg);color:#fff;font-weight:700;font-size:26px;padding:8px 20px;border-radius:10px">describe a video</span></div></div><div class="type-row"><div><div class="tok">wordmark</div><div class="m">Source Serif 700 · 112px · 0.06em · caps</div></div><div class="spec"><span style="font-family:var(--serif);font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:clamp(30px,6vw,70px);color:#F2EBD9;background:#08090B;padding:6px 22px;display:inline-block">Hyper Frames</span></div></div><div class="type-row" style="border-bottom:0"><div><div class="tok">tagline</div><div class="m">JetBrains Mono 400 · 16px · 0.08em</div></div><div class="spec"><span style="font-family:var(--mono);font-size:16px;letter-spacing:.08em">Text in. Video out.</span></div></div></section><section><div class="sec-head"><span class="n">03</span><h2>Components</h2><span class="sp"></span><span class="lab">Flat Cream · Dark Chip · Coral Send</span></div>
+<div class="cgrid">
+  <div class="s4"><div class="cnote">Composer card</div><div class="comp-demo"><p>Generate a 5 second cinematic intro</p><div class="row"><span class="ib"></span><span class="ib"></span><span class="imp">Import</span><span class="snd" style="margin-left:auto">&#9655; Send</span></div></div></div>
+  <div class="s4"><div class="cnote">Agenda rows</div><div class="agenda">
+    <div class="row"><span class="num">01</span><span class="t">Cream UI</span><span class="d">Calm, flat</span></div>
+    <div class="row"><span class="num">02</span><span class="t">Reel scenes</span><span class="d">1.5–2.5s each</span></div>
+    <div class="row" style="border-bottom:0"><span class="num">03</span><span class="t">Stamped close</span><span class="d">Tracked serif</span></div></div></div>
+  <div class="s4"><div class="cnote">Stats cluster</div><div class="stats">
+    <div class="st"><div class="f">2</div><div class="l">Worlds</div></div>
+    <div class="st"><div class="f">1</div><div class="l">Chip per cut</div></div>
+    <div class="st"><div class="f">24</div><div class="l">Tile wall</div></div></div></div>
+</div>
+<div class="cgrid">
+  <div class="s5"><div class="cnote">Timeline</div><div class="timeline">
+    <div><div class="y">Open</div><div class="t">Serif title</div><div class="x">Black plate.</div></div>
+    <div><div class="y">Middle</div><div class="t">Prompt, reel</div><div class="x">Cream UI then dark scenes.</div></div>
+    <div><div class="y">Close</div><div class="t">Stamp</div><div class="x">Wordmark, badge.</div></div></div></div>
+  <div class="s3"><div class="cnote">Image placeholder</div><div class="imgph"><span>Visual reference</span></div></div>
+  <div class="s4"><div class="cnote">Team frames</div><div class="team">
+    <div class="p"><div class="ph">A</div><div class="nm">Avery</div><div class="ro">Editor</div></div>
+    <div class="p"><div class="ph">M</div><div class="nm">Mori</div><div class="ro">Design</div></div></div></div>
+</div>
+<div class="cgrid" style="margin-bottom:0">
+  <div class="s4"><div class="cnote">Pill (chip) caption</div><div class="chip-demo"><span class="c">describe a video</span><span class="c">and hit send</span></div></div>
+  <div class="s4"><div class="cnote">Rubber stamp</div><div class="frame blk"><div class="stamp">Made in<br>Brand Name<small>Apr · 2026</small></div></div></div>
+  <div class="s4"><div class="cnote">Clock card</div><div class="frame navy"><div style="position:absolute;left:7cqw;top:30cqh;text-align:left"><div class="eb">Feature 02</div><div style="color:#fff;font-weight:700;font-size:6cqw;line-height:1.05;margin-top:1.4cqw">Friday 5pm.</div></div><div class="clock" style="right:8cqw;top:34cqh"></div></div></div>
+</div></section><section><div class="sec-head"><span class="n">04</span><h2>Frame Compositions</h2><span class="sp"></span><span class="lab">True 16:9 · cqw Scaled</span></div><div class="gallery"><div class="fw"><div class="flabel"><b>Serif Title</b><span>· black plate · serif title · spaced date</span></div><div class="frame blk" style=""><div class="center"><div><div class="title">Brand A <span style="font-size:3.6cqw;color:#e08a70">×</span> Brand B</div><div class="date">25 April 2026</div></div></div></div></div><div class="fw"><div class="flabel"><b>Composer Close-Up</b><span>· cream card · typed prompt · Import · coral Send · chip</span></div><div class="frame cream" style=""><div class="comp">Generate a 5 second cinem<div class="row"><span class="ib"></span><span class="ib"></span><span class="ib"></span><span class="imp">Import</span><span class="snd">&#9655; Send</span></div></div><div class="curs" style="left:34%;top:42%"></div><div class="cd-chip">describe a video</div></div></div><div class="fw"><div class="flabel"><b>App Window</b><span>· left chat rail · dark output player</span></div><div class="frame " style="background:#F6F6F1"><div class="rail"><i style="width:40%"></i><i></i><i style="width:80%"></i><i style="width:60%"></i></div><div class="player">Preview</div></div></div><div class="fw"><div class="flabel"><b>Reel Scene: Brand Book</b><span>· cream collage · swatches · mark · chip</span></div><div class="frame cream" style=""><div class="bb">Brand Name — Brand Book</div><div class="sws"><i style="--c:#0E0E0E"></i><i style="--c:#1D3FA0"></i><i style="--c:#B33040"></i><i style="--c:#D8CF9A"></i><i style="--c:#ECE9E0"></i><i style="--c:#2E7A3A"></i></div><div class="sq">N</div><div class="cd-chip">colors, screenshots</div></div></div><div class="fw"><div class="flabel"><b>Reel Scene: Dashboard</b><span>· near-black · dense panels · chip</span></div><div class="frame blk" style=""><div class="panel" style="left:2%;top:4%;width:22%;height:90%"></div><div class="panel" style="left:26%;top:4%;width:30%;height:90%"><span style="color:#fff;font-size:4.4cqw;font-weight:500">10:40</span><div style="margin-top:2cqw;height:14cqh;display:flex;align-items:flex-end"><i class="bar" style="height:30%"></i><i class="bar" style="height:60%"></i><i class="bar" style="height:90%"></i><i class="bar" style="height:70%"></i><i class="bar" style="height:45%"></i><i class="bar" style="height:80%"></i></div></div><div class="panel" style="left:58%;top:4%;width:40%;height:90%"></div><div class="cd-chip">every element alive</div></div></div><div class="fw"><div class="flabel"><b>Tile Wall</b><span>· grid of micro-animation tiles · dark</span></div><div class="frame blk" style=""><div class="tiles"><div><i style="width:34%;height:34%;border:2px solid #3a5ad9"></i></div><div><i style="width:34%;height:34%;border:2px solid #7a3fd0"></i></div><div><i style="width:34%;height:34%;border:2px solid #d09a30"></i></div><div><i style="width:34%;height:34%;border:2px solid #2c9a8a"></i></div><div><i style="width:34%;height:34%;border:2px solid #c04070"></i></div><div><i style="width:34%;height:34%;border:2px solid #3a5ad9"></i></div><div><i style="width:34%;height:34%;border:2px solid #3a5ad9"></i></div><div><i style="width:34%;height:34%;border:2px solid #7a3fd0"></i></div><div><i style="width:34%;height:34%;border:2px solid #d09a30"></i></div><div><i style="width:34%;height:34%;border:2px solid #2c9a8a"></i></div><div><i style="width:34%;height:34%;border:2px solid #c04070"></i></div><div><i style="width:34%;height:34%;border:2px solid #3a5ad9"></i></div><div><i style="width:34%;height:34%;border:2px solid #3a5ad9"></i></div><div><i style="width:34%;height:34%;border:2px solid #7a3fd0"></i></div><div><i style="width:34%;height:34%;border:2px solid #d09a30"></i></div><div><i style="width:34%;height:34%;border:2px solid #2c9a8a"></i></div><div><i style="width:34%;height:34%;border:2px solid #c04070"></i></div><div><i style="width:34%;height:34%;border:2px solid #3a5ad9"></i></div><div><i style="width:34%;height:34%;border:2px solid #3a5ad9"></i></div><div><i style="width:34%;height:34%;border:2px solid #7a3fd0"></i></div><div><i style="width:34%;height:34%;border:2px solid #d09a30"></i></div><div><i style="width:34%;height:34%;border:2px solid #2c9a8a"></i></div><div><i style="width:34%;height:34%;border:2px solid #c04070"></i></div><div><i style="width:34%;height:34%;border:2px solid #3a5ad9"></i></div></div><div class="cd-chip">24 animations</div></div></div><div class="fw"><div class="flabel"><b>Gradient Mockups</b><span>· three phones · peach to lavender gradient</span></div><div class="frame " style=""><div class="grad"></div><div class="ph3" style="left:12%"><b style="font-size:1.6cqw">Photos</b><i></i><i style="width:60%"></i><i></i></div><div class="ph3" style="left:41%;border-color:#c0391b"><i></i><i style="width:70%"></i><i></i></div><div class="ph3" style="left:70%"><i></i><i style="width:50%"></i><i></i></div><div class="center" style="top:80cqh;align-items:start;color:#1a1a18;font-weight:700;font-size:2.6cqw">Outpace yesterday.</div></div></div><div class="fw"><div class="flabel"><b>Navy Feature Card</b><span>· navy · mono eyebrow · headline · clocks · chip</span></div><div class="frame navy" style=""><div style="position:absolute;left:7cqw;top:30cqh;text-align:left"><div class="eb">Feature 02 / Deadlines</div><div style="color:#fff;font-weight:700;font-size:5cqw;line-height:1.05;margin-top:1.4cqw">Friday 5pm.<br>But whose?</div></div><div class="clock" style="right:28cqw;top:34cqh"></div><div class="clock" style="right:15cqw;top:34cqh"></div><div class="clock" style="right:2cqw;top:34cqh"></div><div class="cd-chip">product features</div></div></div><div class="fw"><div class="flabel"><b>Wordmark</b><span>· black · tracked serif caps · tagline</span></div><div class="frame blk" style=""><div class="center"><div><div class="word">Hyper Frames</div></div></div><div class="center" style="top:36cqh"><div class="tag" style="color:#E0A07F">Brand.</div></div></div></div><div class="fw"><div class="flabel"><b>Stamped Wordmark</b><span>· wordmark · rule · kraft stamp · tagline · button</span></div><div class="frame blk" style=""><div class="center" style="padding-bottom:6cqh"><div class="word">Hyper Frames</div></div><div style="position:absolute;left:6cqw;right:6cqw;top:74cqh;border-top:1px solid #6a6a64"></div><div class="stamp">Made in<br>Brand Name<small>Apr · 2026</small></div><div class="center" style="top:60cqh;align-content:start;gap:1.4cqw"><div class="tag">Text in. Video out.</div><div class="btnout">Download skill</div></div></div></div></div><p class="note">HTML approximations of the treatments in <code>FRAME.md</code>. The real film shows full product screens and animation tiles; simple shapes here stand in for them to check palette, type and layout. Brand names and marks are generic placeholders.</p></section><section><div class="sec-head"><span class="n">05</span><h2>Frame Rules</h2><span class="sp"></span><span class="lab">Two Worlds · One Chip</span></div><div class="dos"><div class="do-card do"><h4>Do</h4><ul><li>Hard-cut reel scenes in 1.5–2.5s, swapping the chip caption each cut.</li><li>Keep the chip in the same bottom-centre band every cut.</li><li>Keep UI scenes cream, ink and coral only.</li><li>Stamp the badge in with an impact scale.</li></ul></div><div class="do-card dont"><h4>Don’t</h4><ul><li>Don’t mix UI and reel styles in one frame.</li><li>Don’t put a chip over text that says the same thing.</li><li>Don’t use coral outside the Send button and cursor accents.</li><li>Don’t skip the serif title or wordmark close.</li></ul></div></div></section><section><div class="sec-head"><span class="n">06</span><h2>Captions</h2><span class="sp"></span><span class="lab">Lower-third · Chip</span></div><div class="gallery"><div class="fw"><div class="flabel"><b>Active line</b><span>· spoken · current · upcoming</span></div><div class="frame cream capdemo"><div class="bb">Brand Name — Brand Book</div><div class="sws" style="top:20cqh"><i style="--c:#0E0E0E"></i><i style="--c:#1D3FA0"></i><i style="--c:#B33040"></i><i style="--c:#D8CF9A"></i></div><div class="bandline" style="border-color:#8a8a84"></div><div class="bandtag" style="color:#8a8a84">Caption Band · 16.7%</div><div class="stage" style="height:16.67cqh"><div class="pill"><div class="line"><span class="w spoken">typography,</span><span class="w active">all</span><span class="w ">connected</span></div></div></div></div></div><div class="fw"><div class="flabel"><b>Settled line</b><span>· all spoken · highlight cleared</span></div><div class="frame blk capdemo"><div class="panel" style="left:4%;top:6%;width:44%;height:60%"></div><div class="panel" style="left:52%;top:6%;width:44%;height:60%"></div><div class="bandline" style="border-color:#8a8a84"></div><div class="bandtag" style="color:#8a8a84">Caption Band · 16.7%</div><div class="stage" style="height:16.67cqh"><div class="pill"><div class="line"><span class="w spoken">every</span><span class="w spoken">element</span><span class="w spoken">alive</span></div></div></div></div></div></div></section><div class="foot"><span>Claude Design Reel</span><span>Frame Showcase · Calm UI, Showreel Punch</span></div>
+  </body>
+</html>

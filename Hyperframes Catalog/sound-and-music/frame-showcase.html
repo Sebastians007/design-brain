@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Cream Paper — Frame Showcase</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;800&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+:root { --bg:#F0EEE6; --surface:#FFFFFF; --ink:#262624; --muted:#5F5E57; --body:#3E3D38; --hair:#DCD8CC; --frame-bg:#F0EEE6;
+--hl:#A8472A; --do:#262624; --dont:#A8472A; --band:#6F6E66; --h-weight:800; --h-track:-0.03em;
+--display:"Hanken Grotesk",system-ui,sans-serif; --sans:"Hanken Grotesk",system-ui,sans-serif; --mono:"Spline Sans Mono",ui-monospace,monospace;
+--clay:#D97757; --term:#1F1F1E; --comp:#2C2C2B; --cream:#FBF7F0; --pink:#E8B7B0; }
+
+* { margin:0; padding:0; box-sizing:border-box; }
+html { background: var(--bg); }
+body { font-family: var(--sans); color: var(--ink); background: var(--bg); -webkit-font-smoothing: antialiased; }
+.label { font-family: var(--mono); font-size:12px; letter-spacing:.14em; text-transform:uppercase; color: var(--muted); }
+section { position:relative; padding:96px 64px; max-width:1360px; margin:0 auto; }
+.sec-head { display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 18px; border-bottom:1px solid var(--hair); padding-bottom:14px; margin-bottom:40px; }
+.sec-head .n { font-family:var(--mono); font-size:13px; color:var(--muted); }
+.sec-head h2 { font-family:var(--display); font-weight:var(--h-weight); font-size:clamp(34px,5vw,48px); line-height:1; letter-spacing:var(--h-track); }
+.sec-head .sp { flex:1; }
+.sec-head .lab { font-family:var(--mono); font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); }
+.cover { min-height:100vh; max-width:none; display:flex; flex-direction:column; justify-content:center; padding:80px 64px 160px; }
+.cover .inner { position:relative; max-width:1160px; margin:0 auto; width:100%; }
+.cover h1 { font-family:var(--display); font-weight:var(--h-weight); font-size:clamp(48px,9vw,132px); line-height:1; letter-spacing:var(--h-track); margin:18px 0 26px; }
+.cover h1 .hl { color: var(--hl); }
+.cover .sub { max-width:640px; font-size:18px; line-height:1.6; color:var(--body); }
+.cover .meta { position:absolute; left:64px; right:64px; bottom:48px; display:flex; flex-wrap:wrap; gap:18px 56px; max-width:1160px; margin:0 auto; border-top:1px solid var(--hair); padding-top:18px; }
+.cover .meta .v { font-family:var(--display); font-weight:var(--h-weight); font-size:24px; }
+.cover .meta .k { font-family:var(--mono); font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); margin-top:4px; }
+.ref { border:1px solid var(--hair); border-radius:10px; overflow:hidden; background:var(--surface); }
+.ref img { display:block; width:100%; height:auto; }
+.ref figcaption { padding:12px 18px; font-family:var(--mono); font-size:12px; color:var(--muted); }
+.swatches { display:grid; grid-template-columns:repeat(auto-fill,minmax(190px,1fr)); gap:16px; }
+.sw { border:1px solid var(--hair); border-radius:10px; overflow:hidden; background:var(--surface); }
+.sw .chip { height:84px; border-bottom:1px solid var(--hair); }
+.sw .name { padding:12px 14px 2px; font-size:14px; font-weight:600; }
+.sw .hex { padding:0 14px; font-family:var(--mono); font-size:12px; color:var(--muted); }
+.sw .role { padding:4px 14px 14px; font-size:13px; color:var(--body); line-height:1.45; }
+.type-row { display:grid; grid-template-columns:220px 1fr; gap:28px; align-items:center; padding:26px 0; border-bottom:1px solid var(--hair); }
+.type-row .tok { font-family:var(--mono); font-size:13px; font-weight:500; }
+.type-row .m { font-size:12px; color:var(--muted); margin-top:4px; line-height:1.4; }
+.cgrid { display:grid; grid-template-columns:repeat(12,1fr); gap:28px; margin-bottom:40px; }
+.s3{grid-column:span 3}.s4{grid-column:span 4}.s5{grid-column:span 5}.s6{grid-column:span 6}.s8{grid-column:span 8}
+.cnote { font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin-bottom:12px; }
+.gallery { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(560px,100%),1fr)); gap:40px 28px; }
+.flabel { display:flex; flex-wrap:wrap; gap:4px 10px; align-items:baseline; margin-bottom:10px; font-size:14px; }
+.flabel b { font-weight:600; }
+.flabel span { font-family:var(--mono); font-size:11px; color:var(--muted); letter-spacing:.04em; }
+.frame { position:relative; aspect-ratio:16/9; border-radius:8px; overflow:hidden; border:1px solid var(--hair); background:var(--frame-bg); container-type:size; }
+.dos { display:grid; grid-template-columns:1fr 1fr; gap:28px; }
+.do-card { background:var(--surface); border:1px solid var(--hair); border-radius:10px; padding:26px 28px; }
+.do-card h4 { font-family:var(--display); font-weight:var(--h-weight); font-size:30px; margin-bottom:12px; }
+.do-card.do h4 { color:var(--do); } .do-card.dont h4 { color:var(--dont); }
+.do-card ul { padding-left:18px; line-height:1.75; color:var(--body); font-size:15px; }
+.capdemo .bandline { position:absolute; left:0; right:0; bottom:16.67cqh; border-top:1px dashed var(--band); z-index:2; }
+.capdemo .bandtag { position:absolute; right:3cqw; bottom:calc(16.67cqh + .7cqw); font-family:var(--mono); text-transform:uppercase; letter-spacing:.2cqw; font-size:max(9px,.95cqw); color:var(--muted); z-index:2; }
+.capdemo .stage { position:absolute; left:0; right:0; bottom:0; height:16.67cqh; display:flex; align-items:center; justify-content:center; z-index:4; }
+.capdemo .line { display:flex; flex-wrap:wrap; justify-content:center; gap:.1em .3em; max-width:80cqw; }
+.foot { max-width:1360px; margin:0 auto; padding:36px 64px 64px; display:flex; flex-wrap:wrap; gap:8px 24px; justify-content:space-between; font-family:var(--mono); font-size:12px; color:var(--muted); border-top:1px solid var(--hair); }
+.note { margin-top:28px; max-width:760px; color:var(--body); line-height:1.6; font-size:14px; }
+@media (max-width:900px) {
+  section { padding:64px 20px; }
+  .cover { padding:64px 20px 200px; }
+  .cover .meta { left:20px; right:20px; gap:16px 28px; }
+  .gallery { grid-template-columns:1fr; }
+  .dos,.type-row { grid-template-columns:1fr; }
+  .cgrid>* { grid-column:span 12; }
+  .foot { padding:28px 20px 48px; }
+}
+
+
+.shadow { box-shadow:0 1.2cqw 3cqw rgba(38,38,36,.2); }
+.btn { position:absolute; display:flex; align-items:center; justify-content:center; gap:1.4cqw; background:var(--ink); color:var(--cream); font-weight:600; border-radius:1.8cqw; box-shadow:0 1.2cqw 3cqw rgba(38,38,36,.22); }
+.cur { position:absolute; z-index:3; }
+.prog { position:absolute; left:0; top:0; height:1.6cqh; background:var(--pink); }
+.stmt { position:absolute; font-weight:800; letter-spacing:-.03em; color:var(--ink); line-height:1.05; }
+.mid { position:absolute; font-weight:600; color:var(--ink); line-height:1.4; }
+.dark { position:absolute; inset:0; background:var(--term); }
+.cmp { position:absolute; background:var(--comp); border-radius:1cqw; color:#EFEADD; font-size:max(8px,1.5cqw); padding:2.2cqh 1.4cqw; }
+.cmp .caretb { display:inline-block; width:2px; height:1.8cqw; background:var(--clay); vertical-align:middle; }
+.chips { position:absolute; display:flex; gap:.8cqw; } .chips span { background:var(--comp); color:#EFEADD; font-size:max(7px,1.1cqw); padding:.5cqw 1.1cqw; border-radius:.6cqw; }
+.ctl { position:absolute; display:flex; gap:1.4cqw; font-size:max(7px,1cqw); color:#8C8B83; align-items:center; } .ctl b { font-weight:500; color:#E2B53F; background:#3a3224; padding:.2cqw .8cqw; border-radius:.4cqw; }
+.winx { position:absolute; background:var(--term); border-radius:1.4cqw; overflow:hidden; color:#EFEADD; box-shadow:0 1.4cqw 3.6cqw rgba(38,38,36,.25); }
+.winx .dots { position:absolute; left:1.4cqw; top:1.4cqw; display:flex; gap:.6cqw; } .winx .dots i { width:1cqw; height:1cqw; border-radius:50%; display:block; }
+/* components */
+.cbtn { display:inline-flex; align-items:center; gap:12px; background:var(--ink); color:var(--cream); font-weight:600; font-size:30px; padding:16px 28px; border-radius:18px; box-shadow:0 14px 34px rgba(38,38,36,.22); }
+.tw { background:var(--term); color:#EFEADD; border-radius:14px; padding:16px 18px 18px; font-family:var(--mono); font-size:13px; box-shadow:0 14px 36px rgba(38,38,36,.22); }
+.tw .dots { display:flex; gap:7px; margin-bottom:14px; } .tw .dots i { width:11px; height:11px; border-radius:50%; display:block; }
+.tw .cr { background:var(--comp); border-radius:9px; padding:12px; color:#8C8B83; margin-top:12px; } .tw .ch span { font-size:11px; background:var(--comp); padding:3px 9px; border-radius:6px; margin-right:6px; }
+.progd { height:8px; background:var(--pink); border-radius:0; }
+.pillc { display:inline-flex; gap:8px; align-items:center; background:var(--comp); color:#EFEADD; font-size:12px; padding:5px 12px; border-radius:6px; } .pillc b { font-weight:500; color:#E2B53F; background:#3a3224; padding:1px 8px; border-radius:4px; }
+.rowx { display:grid; grid-template-columns:44px 1fr auto; gap:12px; align-items:baseline; padding:16px 0; border-bottom:1px solid var(--hair); } .rowx .nn { font-family:var(--mono); font-size:12px; color:var(--muted); } .rowx .t { font-weight:600; font-size:22px; } .rowx .d { font-size:12px; color:var(--muted); }
+.tl { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; border-top:1px solid var(--ink); padding-top:18px; } .tl .y { font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--hl); } .tl .t { font-weight:600; font-size:22px; margin:6px 0 4px; } .tl .x { font-size:13px; color:var(--body); line-height:1.5; }
+.stats { display:grid; grid-template-columns:repeat(3,1fr); border-top:1px solid var(--ink); } .stats .f { font-weight:800; font-size:48px; letter-spacing:-.03em; padding-top:14px; } .stats .l { font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); }
+.imgph { aspect-ratio:4/3; border:1px dashed var(--hair); border-radius:14px; background:var(--surface); display:grid; place-items:center; } .imgph span { font-family:var(--mono); font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
+.team { display:grid; grid-template-columns:1fr 1fr; gap:16px; text-align:center; } .team .ph { aspect-ratio:1; border-radius:18px; border:1px solid var(--hair); background:var(--surface); display:grid; place-items:center; font-weight:800; font-size:40px; } .team .nm { font-weight:600; margin-top:8px; } .team .ro { font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); }
+.capdemo .w { display:inline-block; padding:0 .1em; border-radius:.5cqw; font-family:var(--sans); font-weight:600; font-size:3.2cqw; line-height:1.3; letter-spacing:-.01em; color:#5F5E57; }
+.capdemo .w.s { color:#262624; } .capdemo .w.a { color:#F0EEE6; background:#262624; }
+
+</style>
+</head>
+<body>
+<section class="cover"><div class="inner">
+<div class="label">Cream Paper — Frame System</div>
+<h1>Paper is<br />the <span class="hl">stage.</span></h1>
+<div class="sub">A witty product sting on flat cream paper: a chunky dark button with a speaker icon, an oversized cursor, heavy dark sans statements, dark terminal windows as the only dark objects, and one thin clay-pink progress line.</div>
+</div>
+<div class="meta">
+<div><div class="v">1920 × 1080</div><div class="k">Frame</div></div>
+<div><div class="v">Vol. 04</div><div class="k">Edition</div></div>
+<div><div class="v">Paper / Ink / Clay</div><div class="k">Palette</div></div>
+</div></section>
+
+<section>
+<div class="sec-head"><span class="n">00</span><h2>The Source</h2><span class="sp"></span><span class="lab">12 sampled frames</span></div>
+<figure class="ref"><img src="reference-frames.jpg" alt="Twelve sampled frames from the example video" /><figcaption>reference-frames.jpg — what this preset was written from. Compare the frames below against it.</figcaption></figure>
+</section>
+
+<section>
+<div class="sec-head"><span class="n">01</span><h2>Palette</h2><span class="sp"></span><span class="lab">Paper + Ink + Clay</span></div>
+<div class="swatches"><div class="sw"><div class="chip" style="background:#F0EEE6"></div><div class="name">Paper</div><div class="hex">#F0EEE6</div><div class="role">The stage for every scene.</div></div><div class="sw"><div class="chip" style="background:#262624"></div><div class="name">Ink</div><div class="hex">#262624</div><div class="role">Statements and the dark button.</div></div><div class="sw"><div class="chip" style="background:#6F6E66"></div><div class="name">Muted</div><div class="hex">#6F6E66</div><div class="role">Quiet secondary text.</div></div><div class="sw"><div class="chip" style="background:#DCD8CC"></div><div class="name">Hairline</div><div class="hex">#DCD8CC</div><div class="role">Dividers and borders.</div></div><div class="sw"><div class="chip" style="background:#D97757"></div><div class="name">Clay</div><div class="hex">#D97757</div><div class="role">Rationed accent: the pixel pet.</div></div><div class="sw"><div class="chip" style="background:#BF6044"></div><div class="name">Clay Press</div><div class="hex">#BF6044</div><div class="role">Pressed state of clay.</div></div><div class="sw"><div class="chip" style="background:#A8472A"></div><div class="name">Clay Text</div><div class="hex">#A8472A</div><div class="role">Clay used as text on paper (AA safe).</div></div><div class="sw"><div class="chip" style="background:#E89F7A"></div><div class="name">Clay Light</div><div class="hex">#E89F7A</div><div class="role">Light clay tint.</div></div><div class="sw"><div class="chip" style="background:#E8B7B0"></div><div class="name">Progress Pink</div><div class="hex">#E8B7B0</div><div class="role">Thin line across the top of the frame.</div></div><div class="sw"><div class="chip" style="background:#1F1F1E"></div><div class="name">Terminal</div><div class="hex">#1F1F1E</div><div class="role">Terminal windows.</div></div><div class="sw"><div class="chip" style="background:#2C2C2B"></div><div class="name">Composer</div><div class="hex">#2C2C2B</div><div class="role">Prompt box inside terminals.</div></div><div class="sw"><div class="chip" style="background:#FBF7F0"></div><div class="name">On Accent</div><div class="hex">#FBF7F0</div><div class="role">Cream label on the dark button.</div></div><div class="sw"><div class="chip" style="background:#EFEADD"></div><div class="name">Chip Text</div><div class="hex">#EFEADD</div><div class="role">Text on dark chips.</div></div><div class="sw"><div class="chip" style="background:#FFFFFF"></div><div class="name">White</div><div class="hex">#FFFFFF</div><div class="role">Cursor fill and the closing ground.</div></div></div>
+</section>
+
+<section>
+<div class="sec-head"><span class="n">02</span><h2>Typography</h2><span class="sp"></span><span class="lab">Hanken Grotesk + Mono</span></div>
+<div class="type-row"><div><div class="tok">big-line</div><div class="m">Hanken Grotesk 800 · 8cqw · −0.03em</div></div><div class="spec"><span style="font-size:clamp(34px,6vw,76px);font-weight:800;letter-spacing:-.03em;line-height:1.05">Video without sound is&hellip;</span></div></div><div class="type-row"><div><div class="tok">mid-line</div><div class="m">Hanken Grotesk 600 · 4.6cqw · 1.4 leading</div></div><div class="spec"><span style="font-size:clamp(22px,3vw,34px);font-weight:600;line-height:1.4">to use SFX or Music in HyperFrames</span></div></div><div class="type-row"><div><div class="tok">button</div><div class="m">Hanken Grotesk 600 · 5.25cqw · cream on ink</div></div><div class="spec"><span class="cbtn" style="font-size:clamp(20px,3vw,34px)">Click SFX</span></div></div><div class="type-row"><div><div class="tok">mono</div><div class="m">Spline Sans Mono 400 · 22px · terminals</div></div><div class="spec"><span style="font-family:var(--mono);font-size:18px">Describe a task&hellip;</span></div></div><div class="type-row"><div><div class="tok">label</div><div class="m">Spline Sans Mono · 0.14em · uppercase</div></div><div class="spec"><span class="label">Section · Eyebrow</span></div></div>
+</section>
+
+<section>
+<div class="sec-head"><span class="n">03</span><h2>Components</h2><span class="sp"></span><span class="lab">Button · Terminal · Pet</span></div>
+
+<div class="cgrid">
+ <div class="s4"><div class="cnote">Dark button</div><div class="cbtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" style="width:1.1em;height:1.1em"><path d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg> Click SFX</div></div>
+ <div class="s4"><div class="cnote">Terminal window</div><div class="tw"><div class="dots"><i style="background:#FF5F57"></i><i style="background:#FEBC2E"></i><i style="background:#28C840"></i></div><div class="ch"><span>Local</span><span>CC</span></div><div class="cr">Describe a task&hellip;</div><div style="margin-top:12px"><span class="pillc"><b>Auto</b> + Model High</span></div></div></div>
+ <div class="s4"><div class="cnote">Progress line + pixel pet</div><div style="background:var(--surface);border:1px solid var(--hair);border-radius:10px;padding:0 0 22px"><div class="progd" style="width:55%"></div><div style="padding:22px 22px 0;display:flex;justify-content:space-between;align-items:flex-end"><span style="font-weight:600">Clay is rationed.</span><svg viewBox="0 0 10 6" style="width:56px;height:auto;display:block" fill="#D97757" shape-rendering="crispEdges"><rect x="2" y="0" width="1" height="1"/><rect x="3" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="5" y="0" width="1" height="1"/><rect x="6" y="0" width="1" height="1"/><rect x="7" y="0" width="1" height="1"/><rect x="1" y="1" width="1" height="1"/><rect x="2" y="1" width="1" height="1"/><rect x="3" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="5" y="1" width="1" height="1"/><rect x="6" y="1" width="1" height="1"/><rect x="7" y="1" width="1" height="1"/><rect x="8" y="1" width="1" height="1"/><rect x="1" y="2" width="1" height="1"/><rect x="2" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="5" y="2" width="1" height="1"/><rect x="7" y="2" width="1" height="1"/><rect x="8" y="2" width="1" height="1"/><rect x="1" y="3" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="3" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="5" y="3" width="1" height="1"/><rect x="6" y="3" width="1" height="1"/><rect x="7" y="3" width="1" height="1"/><rect x="8" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="1" y="4" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="3" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="5" y="4" width="1" height="1"/><rect x="6" y="4" width="1" height="1"/><rect x="7" y="4" width="1" height="1"/><rect x="8" y="4" width="1" height="1"/><rect x="9" y="4" width="1" height="1"/><rect x="1" y="5" width="1" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="6" y="5" width="1" height="1"/><rect x="8" y="5" width="1" height="1"/></svg></div></div></div>
+</div>
+<div class="cgrid">
+ <div class="s4"><div class="cnote">Agenda rows</div><div><div class="rowx"><span class="nn">01</span><span class="t">Silence</span><span class="d">The joke</span></div><div class="rowx"><span class="nn">02</span><span class="t">SFX</span><span class="d">Clicks</span></div><div class="rowx" style="border-bottom:0"><span class="nn">03</span><span class="t">Music</span><span class="d">The bounce</span></div></div></div>
+ <div class="s4"><div class="cnote">Stats cluster</div><div class="stats"><div><div class="f">1</div><div class="l">Button</div></div><div><div class="f">1</div><div class="l">Sentence</div></div><div><div class="f">1</div><div class="l">Accent</div></div></div></div>
+ <div class="s4"><div class="cnote">Cursor</div><div style="display:flex;gap:24px;align-items:center"><span class="cbtn" style="font-size:22px;padding:12px 20px;position:relative"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" style="width:1.1em;height:1.1em"><path d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg> Click SFX</span><span style="width:44px;display:block"><svg viewBox="0 0 16 22" style="width:44px;height:auto"><path d="M1 1v17l4.5-4 3 7 3-1.4-3-6.8H15z" fill="#fff" stroke="#111" stroke-width="1.4" stroke-linejoin="round"/></svg></span></div></div>
+</div>
+<div class="cgrid" style="margin-bottom:0">
+ <div class="s5"><div class="cnote">Timeline — ink hairline</div><div class="tl"><div><div class="y">Act 1</div><div class="t">Silent</div><div class="x">Button clicked, no sound.</div></div><div><div class="y">Act 2</div><div class="t">Sound</div><div class="x">Clicks get SFX.</div></div><div><div class="y">Act 3</div><div class="t">Music</div><div class="x">The film hears itself.</div></div></div></div>
+ <div class="s3"><div class="cnote">Image placeholder</div><div class="imgph"><span>Visual reference</span></div></div>
+ <div class="s4"><div class="cnote">Team frames</div><div class="team"><div><div class="ph">A</div><div class="nm">Avery</div><div class="ro">Editor</div></div><div><div class="ph">M</div><div class="nm">Mori</div><div class="ro">Sound</div></div></div></div>
+</div>
+
+</section>
+
+<section>
+<div class="sec-head"><span class="n">04</span><h2>Frame Compositions</h2><span class="sp"></span><span class="lab">True 16:9 · cqw Scaled</span></div>
+<div class="gallery"><div class="fw"><div class="flabel"><b>Button + Cursor</b><span>· dark button centred · cursor over label · progress line</span></div><div class="frame "><div class="prog" style="width:33%"></div><div class="btn" style="left:29cqw;top:40cqh;width:42cqw;height:22cqh;font-size:5.25cqw"><span style="display:flex;width:5.5125cqw"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" style="width:1.1em;height:1.1em"><path d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg></span>Click SFX</div><div class="cur" style="left:44cqw;top:54cqh;width:3.4cqw"><svg viewBox="0 0 16 22" style="width:100%;height:auto"><path d="M1 1v17l4.5-4 3 7 3-1.4-3-6.8H15z" fill="#fff" stroke="#111" stroke-width="1.4" stroke-linejoin="round"/></svg></div></div></div><div class="fw"><div class="flabel"><b>Statement + Button</b><span>· a line above, the button below</span></div><div class="frame "><div class="btn" style="left:29cqw;top:52cqh;width:42cqw;height:22cqh;font-size:5.25cqw"><span style="display:flex;width:5.5125cqw"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" style="width:1.1em;height:1.1em"><path d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg></span>Click SFX</div><div class="cur" style="left:44cqw;top:66cqh;width:3.4cqw"><svg viewBox="0 0 16 22" style="width:100%;height:auto"><path d="M1 1v17l4.5-4 3 7 3-1.4-3-6.8H15z" fill="#fff" stroke="#111" stroke-width="1.4" stroke-linejoin="round"/></svg></div><div class="stmt" style="left:0;right:0;top:20cqh;text-align:center;font-size:5cqw">Video without sound is&hellip;</div></div></div><div class="fw"><div class="flabel"><b>Statement Right</b><span>· one line right of centre</span></div><div class="frame "><div class="mid" style="left:44cqw;right:6cqw;top:44cqh;font-size:3.3cqw;white-space:nowrap">to use SFX or Music in HyperFrames</div></div></div><div class="fw"><div class="flabel"><b>Terminal Composer</b><span>· dark composer · chips · pixel pet</span></div><div class="frame "><div class="dark"></div><div class="chips" style="left:8cqw;top:42cqh"><span>Local</span><span>CC</span></div><div class="cmp" style="left:8cqw;top:50cqh;width:84cqw;height:11cqh"><span class=caretb></span></div><div class="ctl" style="left:11cqw;top:64cqh"><b>Auto</b><span>+</span></div><div class="ctl" style="right:8cqw;top:64cqh"><span>Model</span><span>High</span></div><div style="position:absolute;right:11cqw;top:40.5cqh;width:7cqw"><svg viewBox="0 0 10 6" style="width:100%;height:auto;display:block" fill="#D97757" shape-rendering="crispEdges"><rect x="2" y="0" width="1" height="1"/><rect x="3" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="5" y="0" width="1" height="1"/><rect x="6" y="0" width="1" height="1"/><rect x="7" y="0" width="1" height="1"/><rect x="1" y="1" width="1" height="1"/><rect x="2" y="1" width="1" height="1"/><rect x="3" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="5" y="1" width="1" height="1"/><rect x="6" y="1" width="1" height="1"/><rect x="7" y="1" width="1" height="1"/><rect x="8" y="1" width="1" height="1"/><rect x="1" y="2" width="1" height="1"/><rect x="2" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="5" y="2" width="1" height="1"/><rect x="7" y="2" width="1" height="1"/><rect x="8" y="2" width="1" height="1"/><rect x="1" y="3" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="3" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="5" y="3" width="1" height="1"/><rect x="6" y="3" width="1" height="1"/><rect x="7" y="3" width="1" height="1"/><rect x="8" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="1" y="4" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="3" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="5" y="4" width="1" height="1"/><rect x="6" y="4" width="1" height="1"/><rect x="7" y="4" width="1" height="1"/><rect x="8" y="4" width="1" height="1"/><rect x="9" y="4" width="1" height="1"/><rect x="1" y="5" width="1" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="6" y="5" width="1" height="1"/><rect x="8" y="5" width="1" height="1"/></svg></div></div></div><div class="fw"><div class="flabel"><b>Typed Request</b><span>· prompt text typing</span></div><div class="frame "><div class="dark"></div><div class="chips" style="left:8cqw;top:42cqh"><span>Local</span><span>CC</span></div><div class="cmp" style="left:8cqw;top:50cqh;width:84cqw;height:11cqh">Perfect. Can <span class=caretb></span></div><div class="ctl" style="left:11cqw;top:64cqh"><b>Auto</b><span>+</span></div><div class="ctl" style="right:8cqw;top:64cqh"><span>Model</span><span>High</span></div><div style="position:absolute;right:11cqw;top:40.5cqh;width:7cqw"><svg viewBox="0 0 10 6" style="width:100%;height:auto;display:block" fill="#D97757" shape-rendering="crispEdges"><rect x="2" y="0" width="1" height="1"/><rect x="3" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="5" y="0" width="1" height="1"/><rect x="6" y="0" width="1" height="1"/><rect x="7" y="0" width="1" height="1"/><rect x="1" y="1" width="1" height="1"/><rect x="2" y="1" width="1" height="1"/><rect x="3" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="5" y="1" width="1" height="1"/><rect x="6" y="1" width="1" height="1"/><rect x="7" y="1" width="1" height="1"/><rect x="8" y="1" width="1" height="1"/><rect x="1" y="2" width="1" height="1"/><rect x="2" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="5" y="2" width="1" height="1"/><rect x="7" y="2" width="1" height="1"/><rect x="8" y="2" width="1" height="1"/><rect x="1" y="3" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="3" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="5" y="3" width="1" height="1"/><rect x="6" y="3" width="1" height="1"/><rect x="7" y="3" width="1" height="1"/><rect x="8" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="1" y="4" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="3" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="5" y="4" width="1" height="1"/><rect x="6" y="4" width="1" height="1"/><rect x="7" y="4" width="1" height="1"/><rect x="8" y="4" width="1" height="1"/><rect x="9" y="4" width="1" height="1"/><rect x="1" y="5" width="1" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="6" y="5" width="1" height="1"/><rect x="8" y="5" width="1" height="1"/></svg></div></div></div><div class="fw"><div class="flabel"><b>Terminal Window Chat</b><span>· user line right · status left</span></div><div class="frame "><div class="winx" style="left:10cqw;top:8cqh;width:80cqw;height:84cqh"><div class="dots"><i style="background:#FF5F57"></i><i style="background:#FEBC2E"></i><i style="background:#28C840"></i></div><div style="position:absolute;right:3cqw;top:14cqh;font-size:max(8px,1.2cqw)">Perfect. Can you find me a soundtrack with a nice bounce to it?</div><div style="position:absolute;left:3cqw;top:38cqh;font-size:max(8px,1.1cqw);color:#EFEADD">On it &mdash; searching the music library.</div><div style="position:absolute;left:3cqw;top:52cqh;font-size:max(7px,.9cqw);color:#8C8B83">3s &middot; thinking&hellip;</div><div class="chips" style="left:3cqw;top:66cqh"><span>Local</span><span>CC</span></div><div class="cmp" style="left:3cqw;right:3cqw;top:74cqh;height:9cqh"></div></div></div></div><div class="fw"><div class="flabel"><b>Word Swap</b><span>· Music and&hellip; words sliding</span></div><div class="frame "><div class="stmt" style="left:0;right:0;top:40cqh;text-align:center;font-size:7cqw;font-weight:800;display:flex;justify-content:center;gap:5cqw"><span>Music</span><span style="color:#6F6E66">and</span></div></div></div><div class="fw"><div class="flabel"><b>Mark</b><span>· black logo mark placeholder</span></div><div class="frame "><div style="position:absolute;inset:0;display:grid;place-items:center"><svg viewBox="0 0 40 24" style="width:18cqw"><path d="M2 12 L17 3 L17 21 Z" fill="#262624"/><path d="M23 3 L38 12 L23 21 Z" fill="#262624"/></svg></div></div></div><div class="fw"><div class="flabel"><b>Wordmark</b><span>· mark + wordmark placeholder</span></div><div class="frame "><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;gap:2cqw"><svg viewBox="0 0 40 24" style="width:9cqw"><path d="M2 12 L17 3 L17 21 Z" fill="#2BE05A"/><path d="M23 3 L38 12 L23 21 Z" fill="#23E1D0"/></svg><span style="font-weight:800;font-size:7cqw;letter-spacing:-.04em;color:#262624">Brand Name</span></div></div></div><div class="fw"><div class="flabel"><b>Gem</b><span>· lone iridescent gem on white</span></div><div class="frame "><div style="position:absolute;inset:0;background:#fff;display:grid;place-items:center"><svg viewBox="0 0 100 100" style="width:22cqw"><defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9b8cf5"/><stop offset="1" stop-color="#2BE0A5"/></linearGradient></defs><polygon points="50,6 94,50 50,94 6,50" fill="url(#g1)"/><polygon points="50,6 94,50 50,50" fill="#c6b8f7" opacity=".7"/><polygon points="6,50 50,50 50,94" fill="#23E1D0" opacity=".6"/></svg></div></div></div></div>
+<p class="note">These are HTML approximations of the treatments in <code>FRAME.md</code>; the cursor, pet and logo shapes are generic placeholders. They exist to check palette, type, spacing and mood against the source frames above.</p>
+</section>
+
+<section>
+<div class="sec-head"><span class="n">05</span><h2>Frame Rules</h2><span class="sp"></span><span class="lab">Paper · Ink · Rationed</span></div>
+<div class="dos"><div class="do-card do"><h4>Do</h4><ul><li>Keep paper as the stage; terminals and the button are the only dark objects.</li><li>Use one clay element per frame at most.</li><li>Click with a quick squash (scale 0.84) and a ripple ring.</li><li>Enter text waterfalls from the right; exit with a throw left then a hard cut.</li><li>Set statements in heavy dark sans (600-800).</li></ul></div><div class="do-card dont"><h4>Don't</h4><ul><li>Don't add a second accent colour.</li><li>Don't put statements on a dark ground.</li><li>Don't use more than one clay element per frame.</li><li>Don't decorate the paper; it stays flat.</li></ul></div></div>
+</section>
+
+<section>
+<div class="sec-head"><span class="n">06</span><h2>Captions</h2><span class="sp"></span><span class="lab">Lower-third · Karaoke</span></div>
+<div class="gallery"><div class="fw"><div class="flabel"><b>Active line</b><span>· spoken ink · current dark block · upcoming grey</span></div><div class="frame capdemo "><div class="btn" style="left:33cqw;top:24cqh;width:34cqw;height:24cqh;font-size:4.2cqw"><span style="display:flex;width:4.41cqw"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" style="width:1.1em;height:1.1em"><path d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg></span>Click SFX</div><div class="bandline"></div><div class="bandtag">Caption Band &middot; 16.7%</div><div class="stage"><div class="line"><span class="w s">Lets</span><span class="w s">add</span><span class="w s">sound</span><span class="w a">effects</span><span class="w ">for</span><span class="w ">the</span><span class="w ">mouse</span></div></div></div></div><div class="fw"><div class="flabel"><b>Settled line</b><span>· all spoken · block cleared</span></div><div class="frame capdemo "><div class="stmt" style="left:0;right:0;top:26cqh;text-align:center;font-size:5.4cqw">Video without sound is&hellip;</div><div class="bandline"></div><div class="bandtag">Caption Band &middot; 16.7%</div><div class="stage"><div class="line"><span class="w s">and</span><span class="w s">a</span><span class="w s">subtle</span><span class="w s">pulse</span><span class="w s">sound.</span></div></div></div></div></div>
+</section>
+
+<div class="foot"><span>Cream Paper</span><span>Frame Showcase · Paper Is The Stage · Clay Is Rationed</span></div>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Texture Launch — Frame Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@500;700&family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <style>
+:root {
+
+  --ground: #F6F5F1; --ink: #0A0A0A; --muted: #55554F; --body: #33332F; --hair: #D4D2C8; --card: #FFFFFF;
+  --yellow: #F0D020; --cobalt: #1050E0; --oxblood: #A02030;
+  --tl: #1050E0; --doc: #1050E0; --dontc: #A02030; --bandc: #55554F; --bandt: #55554F;
+  --display: "Inter", system-ui, sans-serif; --dw: 900; --sans: "Inter", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace;
+  --cond: "Anton", Impact, "Arial Black", sans-serif; --serif: Georgia, "Times New Roman", serif;
+
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: var(--sans); color: var(--ink); background: var(--ground); -webkit-font-smoothing: antialiased; line-height: 1.4; }
+code { font-family: var(--mono); font-size: .92em; }
+.label { font-family: var(--mono); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+section { position: relative; padding: 96px 64px; max-width: 1360px; margin: 0 auto; }
+.sec-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; border-bottom: 1px solid var(--hair); padding-bottom: 14px; margin-bottom: 40px; }
+.sec-head .n { font-family: var(--mono); font-size: 13px; color: var(--muted); letter-spacing: .06em; }
+.sec-head h2 { font-family: var(--display); font-weight: var(--dw, 400); font-size: clamp(32px, 5vw, 48px); line-height: 1; letter-spacing: -.01em; }
+.sec-head .sp { flex: 1; }
+.sec-head .lab { font-family: var(--mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.cover { min-height: 100vh; max-width: none; display: flex; flex-direction: column; justify-content: center; padding: 80px 64px 56px; }
+.cover .inner { max-width: 1160px; margin: 0 auto; width: 100%; }
+.cover h1 { font-family: var(--display); font-weight: var(--dw, 400); font-size: clamp(48px, 10vw, 150px); line-height: .98; letter-spacing: -.02em; margin: 18px 0 26px; }
+.cover .sub { max-width: 640px; font-size: 18px; line-height: 1.6; color: var(--body); }
+.cover .meta { display: flex; flex-wrap: wrap; gap: 20px 56px; max-width: 1160px; width: 100%; margin: 56px auto 0; border-top: 1px solid var(--hair); padding-top: 18px; }
+.cover .meta .v { font-family: var(--display); font-weight: var(--dw, 400); font-size: 26px; }
+.cover .meta .k { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
+.ref { border: 1px solid var(--hair); overflow: hidden; background: var(--card); }
+.ref img { display: block; width: 100%; height: auto; }
+.ref figcaption { padding: 12px 18px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 16px; }
+.sw { border: 1px solid var(--hair); overflow: hidden; background: var(--card); }
+.sw .chip { height: 84px; border-bottom: 1px solid var(--hair); }
+.sw .name { padding: 12px 14px 2px; font-size: 14px; font-weight: 600; }
+.sw .hex { padding: 0 14px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.sw .role { padding: 4px 14px 14px; font-size: 13px; color: var(--body); line-height: 1.45; }
+.type-row { display: grid; grid-template-columns: 220px 1fr; gap: 28px; align-items: center; padding: 26px 0; border-bottom: 1px solid var(--hair); }
+.type-row .tok { font-family: var(--mono); font-size: 13px; font-weight: 500; }
+.type-row .m { font-size: 12px; color: var(--muted); margin-top: 4px; line-height: 1.4; }
+.spec { min-width: 0; overflow-wrap: anywhere; }
+.cgrid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 28px; margin-bottom: 40px; }
+.s3 { grid-column: span 3; } .s4 { grid-column: span 4; } .s5 { grid-column: span 5; } .s6 { grid-column: span 6; } .s8 { grid-column: span 8; }
+.cgrid > * { min-width: 0; }
+.cnote { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+.agenda .row { display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: baseline; padding: 16px 0; border-bottom: 1px solid var(--hair); }
+.agenda .num { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.agenda .t { font-family: var(--display); font-weight: var(--dw, 400); font-size: 22px; }
+.agenda .d { font-size: 12px; color: var(--muted); }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 2px solid var(--ink); }
+.st { padding: 18px 12px 0 0; }
+.st .f { font-family: var(--display); font-weight: var(--dw, 400); font-size: 52px; line-height: 1; }
+.st .l { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-top: 6px; }
+.timeline { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; padding-top: 22px; }
+.timeline::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 1px; background: var(--hair); }
+.timeline .y { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--tl); }
+.timeline .t { font-family: var(--display); font-weight: var(--dw, 400); font-size: 22px; margin: 6px 0 4px; }
+.timeline .x { font-size: 13px; color: var(--body); line-height: 1.5; }
+.imgph { aspect-ratio: 4/3; border: 1px dashed var(--muted); background: var(--card); display: grid; place-items: center; }
+.imgph span { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.team { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.team .p { text-align: center; }
+.team .ph { aspect-ratio: 1; border: 1px solid var(--hair); background: var(--card); display: grid; place-items: center; font-family: var(--display); font-weight: var(--dw, 400); font-size: 44px; }
+.team .nm { font-family: var(--display); font-weight: var(--dw, 400); font-size: 20px; margin-top: 10px; }
+.team .ro { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(560px, 100%), 1fr)); gap: 40px 28px; }
+.flabel { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; margin-bottom: 10px; font-size: 14px; }
+.flabel b { font-weight: 600; }
+.flabel span { font-family: var(--mono); font-size: 11px; color: var(--muted); letter-spacing: .04em; }
+.frame { position: relative; aspect-ratio: 16 / 9; overflow: hidden; border: 1px solid var(--hair); container-type: size; }
+.center { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; padding: 0 6cqw; }
+.dos { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.do-card { background: var(--card); border: 1px solid var(--hair); padding: 26px 28px; }
+.do-card h4 { font-family: var(--display); font-weight: var(--dw, 400); font-size: 30px; margin-bottom: 12px; }
+.do-card.do h4 { color: var(--doc); } .do-card.dont h4 { color: var(--dontc); }
+.do-card ul { padding-left: 18px; line-height: 1.75; color: var(--body); font-size: 15px; }
+.capdemo .bandline { position: absolute; left: 0; right: 0; bottom: 16.67cqh; border-top: 1px dashed var(--bandc); z-index: 2; }
+.capdemo .bandtag { position: absolute; right: 3cqw; bottom: calc(16.67cqh + .7cqw); font-family: var(--mono); text-transform: uppercase; letter-spacing: .2cqw; font-size: max(9px, .95cqw); color: var(--bandt); z-index: 2; }
+.capdemo .stage { position: absolute; left: 0; right: 0; bottom: 0; height: 16.67cqh; display: flex; align-items: center; justify-content: center; z-index: 4; }
+.capdemo .line { display: flex; flex-wrap: wrap; justify-content: center; }
+.note { margin-top: 28px; max-width: 760px; color: var(--body); line-height: 1.6; font-size: 14px; }
+.foot { max-width: 1360px; margin: 0 auto; padding: 36px 64px 64px; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; font-family: var(--mono); font-size: 12px; color: var(--muted); border-top: 1px solid var(--hair); }
+@media (max-width: 900px) {
+  section { padding: 64px 20px; }
+  .cover { padding: 56px 20px 40px; }
+  .dos, .type-row { grid-template-columns: 1fr; gap: 10px; }
+  .type-row { padding: 20px 0; }
+  .cgrid > * { grid-column: span 12; }
+  .foot { padding: 28px 20px 48px; }
+}
+
+
+.tex { font-family: var(--cond); text-transform: uppercase; line-height: .8; color: transparent; -webkit-background-clip: text; background-clip: text;
+  background-color: #D9854E;
+  background-image: repeating-linear-gradient(35deg, #1b0f08 0 .012em, transparent .012em .06em), repeating-linear-gradient(-55deg, #1b0f08 0 .012em, transparent .012em .06em); }
+.tex-serif { font-family: var(--serif); font-style: italic; font-weight: 700; text-transform: none; line-height: .8; color: transparent; -webkit-background-clip: text; background-clip: text;
+  background-color: #B8651F;
+  background-image: repeating-linear-gradient(35deg, #2a1608 0 .008em, transparent .008em .03em); }
+.paper { background: var(--ground); }
+.yel { background: var(--yellow); }
+.cap-line { font-weight: 900; letter-spacing: -.02em; line-height: .96; font-size: 5.2cqw; }
+.cap-line .f { color: rgba(10,10,10,.4); }
+.tag { position: absolute; right: 3cqw; bottom: 3cqh; font-family: var(--mono); font-weight: 700; font-size: max(8px, 1.3cqw); color: var(--ink); text-transform: uppercase; }
+.tile { position: absolute; background: #C9B8A0; border: 1px solid rgba(10,10,10,.25); box-shadow: 0 .5cqw 1.2cqw rgba(10,10,10,.18); display: grid; place-items: center; font-family: var(--mono); font-size: max(8px, 1.1cqw); text-transform: uppercase; color: var(--ink); }
+.blk { position: absolute; border-radius: .9cqw; }
+.hdl { position: absolute; width: 1.8cqw; height: 1.8cqw; border-radius: 50%; background: #fff; border: .35cqw solid #8a5cf0; }
+.inset { position: absolute; inset: 3cqh 2.2cqw; border: 1px solid rgba(255,255,255,.55); }
+.chrome { position: absolute; inset: 0; background: #0a0a0c repeating-radial-gradient(ellipse at 30% 60%, #8d9094 0 1.2cqw, #1a1b1d 1.8cqw 3cqw, #555 3.4cqw 4.4cqw, #0a0a0c 5cqw 6.4cqw); }
+.glass { position: absolute; inset: 11cqh 9cqw; border-radius: 4cqw; background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2); display: grid; place-items: center; }
+.glass span { color: #fff; font-weight: 900; font-size: 11cqw; letter-spacing: -.03em; }
+.mono { font-family: var(--mono); font-weight: 700; }
+.pill-demo .w { display: inline-block; padding: 0 .06em; }
+.capdemo .pill { max-width: 82cqw; padding: .6cqw 1.6cqw; }
+.capdemo .line { gap: .1em .22em; font-family: var(--sans); font-weight: 900; font-size: 4.2cqw; line-height: .98; letter-spacing: -.02em; }
+.capdemo .w { display: inline-block; padding: 0 .06em; color: rgba(10,10,10,.38); }
+.capdemo .w.spoken { color: var(--ink); }
+.capdemo .w.active { color: var(--ink); background: linear-gradient(to top, var(--yellow) 0 34%, transparent 34%); }
+.chip-demo { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+.cmd { font-family: var(--mono); font-weight: 700; font-size: 22px; }
+.stagebox { position: relative; aspect-ratio: 16/9; background: var(--yellow); container-type: size; overflow: hidden; border: 1px solid var(--hair); }
+
+    </style>
+  </head>
+  <body>
+<section class="cover"><div class="inner"><div class="label">Texture Launch — Frame System</div><h1>Heavy type,<br />flash-cut <span style="background:linear-gradient(to top,#F0D020 0 34%,transparent 34%)">stages</span>.</h1><div class="sub">A kinetic-type launch look: off-white paper with one centred line of heavy black Inter, interrupted by a flat yellow poster stage where a giant word is filled with a surface texture, plus a frosted card over dark chrome.</div></div><div class="meta"><div><div class="v">1920 × 1080</div><div class="k">Frame</div></div><div><div class="v">Edition 01</div><div class="k">Edition</div></div><div><div class="v">Paper / Ink / Yellow</div><div class="k">Palette</div></div></div></section><section><div class="sec-head"><span class="n">00</span><h2>The Source</h2><span class="sp"></span><span class="lab">12 sampled frames</span></div>
+  <figure class="ref"><img src="reference-frames.jpg" alt="Twelve sampled frames from the texture launch film" /><figcaption>reference-frames.jpg — what this preset was written from. Compare the frames below against it.</figcaption></figure></section><section><div class="sec-head"><span class="n">01</span><h2>Palette</h2><span class="sp"></span><span class="lab">Paper + Ink + Flat Stage Colour</span></div><div class="swatches"><div class="sw"><div class="chip" style="background:#F6F5F1"></div><div class="name">Paper</div><div class="hex">#F6F5F1</div><div class="role">Quiet base for every caption beat.</div></div><div class="sw"><div class="chip" style="background:#0A0A0A"></div><div class="name">Ink</div><div class="hex">#0A0A0A</div><div class="role">Heavy captions and mono labels.</div></div><div class="sw"><div class="chip" style="background:#F0D020"></div><div class="name">Yellow</div><div class="hex">#F0D020</div><div class="role">The poster-stage ground seen in the samples; also the active-word marker.</div></div><div class="sw"><div class="chip" style="background:#693F26"></div><div class="name">Brown Multiply</div><div class="hex">#693F26</div><div class="role">Texture tint behind the word fill.</div></div><div class="sw"><div class="chip" style="background:#050508"></div><div class="name">Shader Ground</div><div class="hex">#050508</div><div class="role">Dark ground for the chrome-liquid card scene.</div></div><div class="sw"><div class="chip" style="background:#C080FF"></div><div class="name">Lilac</div><div class="hex">#C080FF</div><div class="role">Source-listed stage ground; unconfirmed in samples.</div></div><div class="sw"><div class="chip" style="background:#FF4050"></div><div class="name">Red</div><div class="hex">#FF4050</div><div class="role">Source-listed stage ground; unconfirmed in samples.</div></div><div class="sw"><div class="chip" style="background:#F0E0A0"></div><div class="name">Butter</div><div class="hex">#F0E0A0</div><div class="role">Source-listed stage ground; unconfirmed in samples.</div></div><div class="sw"><div class="chip" style="background:#D0A070"></div><div class="name">Tan</div><div class="hex">#D0A070</div><div class="role">Source-listed stage ground; unconfirmed in samples.</div></div><div class="sw"><div class="chip" style="background:#1050E0"></div><div class="name">Cobalt</div><div class="hex">#1050E0</div><div class="role">Source-listed stage ground; used here for link text and Do headings.</div></div><div class="sw"><div class="chip" style="background:#FF9000"></div><div class="name">Orange</div><div class="hex">#FF9000</div><div class="role">Source-listed stage ground; unconfirmed in samples.</div></div><div class="sw"><div class="chip" style="background:#FF70B0"></div><div class="name">Pink</div><div class="hex">#FF70B0</div><div class="role">Source-listed stage ground; unconfirmed in samples.</div></div><div class="sw"><div class="chip" style="background:#A02030"></div><div class="name">Oxblood</div><div class="hex">#A02030</div><div class="role">Source-listed stage ground; used here for Don’t headings.</div></div></div></section><section><div class="sec-head"><span class="n">02</span><h2>Typography</h2><span class="sp"></span><span class="lab">Inter + Anton + Georgia + Plex Mono</span></div><div class="type-row"><div><div class="tok">caption</div><div class="m">Inter 900 · 78px · tight 0.96 leading</div></div><div class="spec"><span style="font-weight:900;font-size:clamp(30px,5vw,60px);letter-spacing:-.02em;line-height:.96">Hey did you know we added</span></div></div><div class="type-row"><div><div class="tok">texture-word</div><div class="m">Anton (stand-in for Impact) · 340px · caps · pattern fill</div></div><div class="spec"><span class="tex" style="font-size:clamp(80px,14vw,170px)">Mask</span></div></div><div class="type-row"><div><div class="tok">texture-serif</div><div class="m">Georgia 700 italic · 400px · pattern fill</div></div><div class="spec"><span class="tex-serif" style="font-size:clamp(80px,14vw,170px)">feel</span></div></div><div class="type-row"><div><div class="tok">shader-word</div><div class="m">Inter 900 · 260px · caps · white</div></div><div class="spec"><span style="display:inline-block;background:#050508;color:#fff;font-weight:900;font-size:clamp(36px,6vw,72px);padding:6px 20px;letter-spacing:-.03em">SHADERS</span></div></div><div class="type-row"><div><div class="tok">command</div><div class="m">IBM Plex Mono 700 · 58px</div></div><div class="spec"><span class="cmd">npx example add &lt;name&gt;</span></div></div><div class="type-row" style="border-bottom:0"><div><div class="tok">label</div><div class="m">IBM Plex Mono 700 · tiny tag</div></div><div class="spec"><span class="label" style="color:#0A0A0A">Paving Stones 150 / #F0D020</span></div></div></section><section><div class="sec-head"><span class="n">03</span><h2>Components</h2><span class="sp"></span><span class="lab">Flat · Hairline · One Thing</span></div>
+<div class="cgrid">
+  <div class="s4"><div class="cnote">Paper caption</div><div class="chip-demo"><span style="font-weight:900;font-size:34px;letter-spacing:-.02em">Hey did you know</span></div></div>
+  <div class="s4"><div class="cnote">Agenda rows</div><div class="agenda">
+    <div class="row"><span class="num">01</span><span class="t">Paper caption</span><span class="d">Black on off-white</span></div>
+    <div class="row"><span class="num">02</span><span class="t">Poster stage</span><span class="d">Flash of colour</span></div>
+    <div class="row" style="border-bottom:0"><span class="num">03</span><span class="t">Shader glass</span><span class="d">Dark card</span></div></div></div>
+  <div class="s4"><div class="cnote">Stats cluster</div><div class="stats">
+    <div class="st"><div class="f">1</div><div class="l">Thing on screen</div></div>
+    <div class="st"><div class="f">0.1s</div><div class="l">Flipbook nudge</div></div>
+    <div class="st"><div class="f">2</div><div class="l">Blocks per word</div></div></div></div>
+</div>
+<div class="cgrid">
+  <div class="s5"><div class="cnote">Timeline</div><div class="timeline">
+    <div><div class="y">Beat 1</div><div class="t">Caption</div><div class="x">Words land one by one.</div></div>
+    <div><div class="y">Beat 2</div><div class="t">Stage</div><div class="x">Yellow flash, textured word.</div></div>
+    <div><div class="y">Beat 3</div><div class="t">Close</div><div class="x">Link and command on paper.</div></div></div></div>
+  <div class="s3"><div class="cnote">Image placeholder</div><div class="imgph"><span>Collage tile</span></div></div>
+  <div class="s4"><div class="cnote">Team frames</div><div class="team">
+    <div class="p"><div class="ph">A</div><div class="nm">Avery</div><div class="ro">Editor</div></div>
+    <div class="p"><div class="ph">M</div><div class="nm">Mori</div><div class="ro">Design</div></div></div></div>
+</div>
+<div class="cgrid" style="margin-bottom:0">
+  <div class="s6"><div class="cnote">Texture word</div><div class="stagebox"><div class="center"><div class="tex" style="font-size:30cqw">Mask</div></div><div class="tag">Paving Stones 150 / #F0D020</div></div></div>
+  <div class="s6"><div class="cnote">Poster blocks + handles</div><div class="stagebox">
+    <div class="tile" style="left:8%;top:14%;width:26%;height:44%">image</div><div class="hdl" style="left:7%;top:15%"></div>
+    <div class="blk" style="right:8%;top:10%;width:30%;height:24%;background:#94B4C8"></div>
+    <div class="blk" style="right:8%;bottom:10%;width:46%;height:32%;background:#6C8A50"></div><div class="hdl" style="right:32%;bottom:38%"></div>
+    <div class="blk" style="left:10%;bottom:10%;width:20%;height:24%;background:#2A1A1E"></div></div></div>
+</div></section><section><div class="sec-head"><span class="n">04</span><h2>Frame Compositions</h2><span class="sp"></span><span class="lab">True 16:9 · cqw Scaled</span></div><div class="gallery"><div class="fw"><div class="flabel"><b>Paper Caption</b><span>· one centred line · heavy black Inter · paper</span></div><div class="frame paper" style=""><div class="center"><div class="cap-line">Hey did you know we added</div></div></div></div><div class="fw"><div class="flabel"><b>Poster Stage</b><span>· yellow ground · textured word · collage tile · colour blocks</span></div><div class="frame yel" style=""><div class="inset"></div>
+  <div class="tile" style="left:11%;top:18%;width:17%;height:34%">image</div>
+  <div class="hdl" style="left:10%;top:19%"></div>
+  <div class="center" style="padding-left:14cqw;padding-bottom:4cqh"><div class="tex" style="font-size:30cqw">Mask</div></div>
+  <div class="blk" style="right:6%;top:6%;width:17%;height:18%;background:#94B4C8"></div>
+  <div class="blk" style="left:19%;bottom:5%;width:15%;height:21%;background:#2A1A1E"></div>
+  <div class="hdl" style="left:21%;bottom:23%"></div>
+  <div class="blk" style="right:6%;bottom:8%;width:33%;height:27%;background:#6C8A50"></div>
+  <div class="hdl" style="right:19%;bottom:30%"></div>
+  <div class="tag">Paving Stones 150 / #F0D020</div></div></div><div class="fw"><div class="flabel"><b>Textured Serif Word</b><span>· italic serif · pattern fill · yellow · tile right</span></div><div class="frame yel" style=""><div class="tex-serif" style="position:absolute;left:11%;top:22%;font-size:30cqw">feel</div>
+  <div class="tile" style="right:14%;top:8%;width:30%;height:58%">image</div>
+  <div class="blk" style="left:8%;bottom:11%;width:17%;height:12%;background:#94B4C8"></div>
+  <div class="blk" style="left:28%;bottom:11%;width:13%;height:12%;background:#6C8A50"></div>
+  <div class="tag">Ground 080 / #F0D020</div></div></div><div class="fw"><div class="flabel"><b>Blur Caption</b><span>· faint word mid-reveal · paper</span></div><div class="frame paper" style=""><div class="center"><div class="cap-line" style="filter:blur(.7cqw);opacity:.35;font-size:3.6cqw">or our favorites</div></div></div></div><div class="fw"><div class="flabel"><b>Shader Glass</b><span>· dark liquid chrome · frosted card · giant white word</span></div><div class="frame " style="background:#050508"><div class="chrome"></div><div class="glass"><span>SHADERS</span></div></div></div><div class="fw"><div class="flabel"><b>Link</b><span>· URL in sans · paper</span></div><div class="frame paper" style=""><div class="center"><div class="cap-line" style="font-size:3.4cqw;font-weight:700;letter-spacing:0">example.com/catalog</div></div></div></div><div class="fw"><div class="flabel"><b>Command</b><span>· mono command · paper</span></div><div class="frame paper" style=""><div class="center"><div class="mono" style="font-size:3.2cqw">npx example add &lt;name&gt;</div></div></div></div><div class="fw"><div class="flabel"><b>Spaced Words</b><span>· words land apart on the line · paper</span></div><div class="frame paper" style=""><div class="center"><div class="cap-line" style="display:flex;gap:18cqw;font-size:4.4cqw"><span>or</span><span>we</span></div></div></div></div><div class="fw"><div class="flabel"><b>Emphasis Caption</b><span>· regular + italic words mixed · paper</span></div><div class="frame paper" style=""><div class="center"><div class="cap-line" style="font-size:4.4cqw">You <i>can</i> find <i>them</i> at</div></div></div></div></div><p class="note">HTML approximations of the treatments in <code>FRAME.md</code>. The real film uses a tileable texture image and a looping shader video; the pattern fills and chrome rings here only stand in for them to check palette, type and layout. Collage tiles are generic placeholders.</p></section><section><div class="sec-head"><span class="n">05</span><h2>Frame Rules</h2><span class="sp"></span><span class="lab">Centred · Flat · Rhythmic</span></div><div class="dos"><div class="do-card do"><h4>Do</h4><ul><li>Keep one centred thing on screen at a time.</li><li>Set captions as heavy black Inter on paper, revealed word by word.</li><li>Pair a texture word with a collage tile and two flat colour blocks.</li><li>Nudge the textured word every ~0.1s so it reads as a flipbook.</li></ul></div><div class="do-card dont"><h4>Don’t</h4><ul><li>Don’t mix paper captions and a colour stage in the same frame.</li><li>Don’t show more than one textured word at once.</li><li>Don’t decorate without rhythm.</li><li>Don’t lose contrast between the texture word and its stage.</li></ul></div></div></section><section><div class="sec-head"><span class="n">06</span><h2>Captions</h2><span class="sp"></span><span class="lab">Lower-third · Karaoke</span></div><div class="gallery">
+  <div class="fw"><div class="flabel"><b>Active line</b><span>· spoken · current · upcoming</span></div>
+    <div class="frame paper capdemo">
+      <div class="center" style="padding-bottom:14cqh"><div class="tex" style="font-size:24cqw">Mask</div></div>
+      <div class="bandline"></div><div class="bandtag">Caption Band · 16.7%</div>
+      <div class="stage"><div class="pill"><div class="line"><span class="w spoken">Hey</span><span class="w spoken">did</span><span class="w active">you</span><span class="w">know</span><span class="w">we</span><span class="w">added</span></div></div></div>
+    </div></div>
+  <div class="fw"><div class="flabel"><b>Settled line</b><span>· all spoken · marker cleared</span></div>
+    <div class="frame paper capdemo">
+      <div class="center" style="padding-bottom:14cqh"><div class="tex-serif" style="font-size:26cqw">feel</div></div>
+      <div class="bandline"></div><div class="bandtag">Caption Band · 16.7%</div>
+      <div class="stage"><div class="pill"><div class="line"><span class="w spoken">Hey</span><span class="w spoken">did</span><span class="w spoken">you</span><span class="w spoken">know</span><span class="w spoken">we</span><span class="w spoken">added</span></div></div></div>
+    </div></div>
+</div></section><div class="foot"><span>Texture Launch</span><span>Frame Showcase · One Thing, Dead Centre</span></div>
+  </body>
+</html>

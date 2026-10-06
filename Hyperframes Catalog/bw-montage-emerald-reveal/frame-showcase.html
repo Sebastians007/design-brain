@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>B&W Montage Emerald Reveal — Frame Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Newsreader:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --ground: #050505;
+        --ink: #FFFFFF;
+        --muted: #B4B4B4;
+        --body: #D2D2D2;
+        --hair: #2E2E2E;
+        --dash: #8C8C8C;
+        --card: #141414;
+        --r: 12px;
+        --display: "Newsreader", Georgia, serif;
+        --sans: "Inter", system-ui, sans-serif;
+        --mono: "Inter", system-ui, sans-serif;
+        --h-weight: 300;
+        --h-track: -0.01em;
+        --h-lead: 1;
+      }
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { background: var(--ground); }
+body { font-family: var(--sans); color: var(--ink); background: var(--ground); -webkit-font-smoothing: antialiased; line-height: 1.5; }
+img { max-width: 100%; }
+.label { font-family: var(--mono); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+section { position: relative; padding: 96px 64px; max-width: 1360px; margin: 0 auto; }
+.sec-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; border-bottom: 1px solid var(--hair); padding-bottom: 14px; margin-bottom: 40px; }
+.sec-head .n { font-family: var(--mono); font-size: 13px; color: var(--muted); letter-spacing: 0.06em; }
+.sec-head h2 { font-family: var(--display); font-weight: var(--h-weight); font-size: clamp(34px, 5vw, 48px); line-height: 1; letter-spacing: var(--h-track); }
+.sec-head .sp { flex: 1; }
+.sec-head .lab { font-family: var(--mono); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+
+.cover { min-height: 100vh; max-width: none; display: flex; flex-direction: column; justify-content: center; padding: 80px 64px 150px; overflow: hidden; }
+.cover .inner { max-width: 1160px; margin: 0 auto; width: 100%; }
+.cover h1 { font-family: var(--display); font-weight: var(--h-weight); font-size: clamp(54px, 10vw, 150px); line-height: var(--h-lead); letter-spacing: var(--h-track); margin: 18px 0 26px; }
+.cover h1 em { font-style: italic; }
+.cover .sub { max-width: 640px; font-size: 18px; line-height: 1.6; color: var(--body); }
+.cover .meta { position: absolute; left: 64px; right: 64px; bottom: 48px; display: flex; flex-wrap: wrap; gap: 20px 56px; max-width: 1160px; margin: 0 auto; border-top: 1px solid var(--hair); padding-top: 18px; }
+.cover .meta .v { font-family: var(--display); font-weight: var(--h-weight); font-size: 24px; }
+.cover .meta .k { font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
+
+.ref { border: 1px solid var(--hair); border-radius: 14px; overflow: hidden; background: var(--card); }
+.ref img { display: block; width: 100%; height: auto; }
+.ref figcaption { padding: 12px 18px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+
+.swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 16px; }
+.sw { border: 1px solid var(--hair); border-radius: 12px; overflow: hidden; background: var(--card); }
+.sw .chip { height: 84px; border-bottom: 1px solid var(--hair); }
+.sw .name { padding: 12px 14px 2px; font-size: 14px; font-weight: 600; }
+.sw .hex { padding: 0 14px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.sw .role { padding: 4px 14px 14px; font-size: 13px; color: var(--body); line-height: 1.45; }
+
+.type-row { display: grid; grid-template-columns: 220px 1fr; gap: 28px; align-items: center; padding: 26px 0; border-bottom: 1px solid var(--hair); }
+.type-row .tok { font-family: var(--mono); font-size: 13px; font-weight: 500; }
+.type-row .m { font-size: 12px; color: var(--muted); margin-top: 4px; line-height: 1.4; }
+.type-row .spec { overflow-wrap: anywhere; }
+
+.cgrid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 28px; margin-bottom: 40px; }
+.s3 { grid-column: span 3; } .s4 { grid-column: span 4; } .s5 { grid-column: span 5; } .s6 { grid-column: span 6; } .s8 { grid-column: span 8; }
+.cnote { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+.c-card { background: var(--card); border: 1px solid var(--hair); border-radius: var(--r); padding: 26px; }
+.c-card .ic { width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--hair); display: grid; place-items: center; font-family: var(--display); font-weight: var(--h-weight); font-size: 17px; margin-bottom: 14px; }
+.c-card .t { font-family: var(--display); font-weight: var(--h-weight); letter-spacing: var(--h-track); font-size: 26px; margin-bottom: 6px; }
+.c-card .x { font-size: 14px; line-height: 1.55; color: var(--body); }
+.agenda .row { display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: baseline; padding: 16px 0; border-bottom: 1px solid var(--hair); }
+.agenda .num { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.agenda .t { font-family: var(--display); font-weight: var(--h-weight); letter-spacing: var(--h-track); font-size: 22px; }
+.agenda .d { font-size: 12px; color: var(--muted); }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--ink); }
+.st { padding: 18px 12px 0 0; }
+.st .f { font-family: var(--display); font-weight: var(--h-weight); letter-spacing: var(--h-track); font-size: 52px; line-height: 1; }
+.st .l { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-top: 6px; }
+.timeline { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; padding-top: 22px; }
+.timeline::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 1px; background: var(--hair); }
+.timeline .y { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.timeline .t { font-family: var(--display); font-weight: var(--h-weight); letter-spacing: var(--h-track); font-size: 22px; margin: 6px 0 4px; }
+.timeline .x { font-size: 13px; color: var(--body); line-height: 1.5; }
+.imgph { aspect-ratio: 4/3; border: 1px dashed var(--dash); border-radius: var(--r); background: var(--card); display: grid; place-items: center; }
+.imgph span { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.team { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.team .p { text-align: center; }
+.team .ph { aspect-ratio: 1; border-radius: var(--r); border: 1px solid var(--hair); background: var(--card); display: grid; place-items: center; font-family: var(--display); font-weight: var(--h-weight); font-size: 40px; }
+.team .nm { font-family: var(--display); font-weight: var(--h-weight); font-size: 20px; margin-top: 10px; }
+.team .ro { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 560px), 1fr)); gap: 40px 28px; }
+.flabel { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; margin-bottom: 10px; font-size: 14px; }
+.flabel b { font-weight: 600; }
+.flabel span { font-family: var(--mono); font-size: 11px; color: var(--muted); letter-spacing: .04em; }
+.frame { position: relative; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; border: 1px solid var(--hair); background: var(--ground); container-type: size; }
+.center { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; padding: 0 6cqw; }
+
+.dos { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.do-card { background: var(--card); border: 1px solid var(--hair); border-radius: 14px; padding: 26px 28px; }
+.do-card h4 { font-family: var(--display); font-weight: var(--h-weight); font-size: 30px; margin-bottom: 12px; }
+.do-card ul { padding-left: 18px; line-height: 1.75; color: var(--body); font-size: 15px; }
+
+.capdemo .bandline { position: absolute; left: 0; right: 0; bottom: 16.67cqh; border-top: 1px dashed var(--dash); z-index: 2; }
+.capdemo .bandtag { position: absolute; right: 3cqw; bottom: calc(16.67cqh + .7cqw); font-family: var(--mono); text-transform: uppercase; letter-spacing: .2cqw; font-size: 1.1cqw; color: var(--muted); z-index: 2; }
+.capdemo .stage { position: absolute; left: 0; right: 0; bottom: 0; height: 16.67cqh; display: flex; align-items: center; justify-content: center; z-index: 4; }
+.capdemo .line { display: flex; flex-wrap: wrap; justify-content: center; gap: .1em .34em; }
+
+.foot { max-width: 1360px; margin: 0 auto; padding: 36px 64px 64px; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; font-family: var(--mono); font-size: 12px; color: var(--muted); border-top: 1px solid var(--hair); }
+
+@media (max-width: 900px) {
+  section { padding: 64px 20px; }
+  .cover { padding: 64px 20px 190px; }
+  .cover .meta { left: 20px; right: 20px; gap: 16px 32px; }
+  .dos, .type-row { grid-template-columns: 1fr; }
+  .type-row { gap: 10px; }
+  .cgrid > * { grid-column: span 12; }
+  .foot { padding: 28px 20px 48px; }
+}
+
+
+      .fw { min-width: 0; }
+      .do-card h4 { color: var(--ink); }
+      code { color: var(--ink); }
+      .capdemo .pill { max-width: 78cqw; padding: .6cqw 1.6cqw .8cqw; background: transparent; }
+      .capdemo .line { font-family: "Inter", system-ui, sans-serif; font-weight: 700; font-size: 3.2cqw; line-height: 1.16; letter-spacing: -0.02em; }
+      .capdemo .w { display: inline-block; padding: 0 .08em; color: #B0B0B0; }
+      .capdemo .w.spoken { color: #FFFFFF; }
+      .capdemo .w.active { color: #050505; background: #FFFFFF; }
+
+    </style>
+  </head>
+  <body>
+    <!-- COVER -->
+    <section class="cover">
+      <div class="inner">
+        <div class="label">B&W Montage Emerald Reveal — Frame System</div>
+        <h1>the <em>fastest</em><br />platforms.</h1>
+        <div class="sub">A cinematic black-and-white montage in motion — short white text over footage, bold sans mixed with light serif italic, one emerald interlude and a deep forest-green reveal.</div>
+      </div>
+      <div class="meta">
+        <div class="m"><div class="v">1920 × 1080</div><div class="k">Frame</div></div>
+        <div class="m"><div class="v">Vol. 06</div><div class="k">Edition</div></div>
+        <div class="m"><div class="v">Black / White / Emerald Release</div><div class="k">Palette</div></div>
+      </div>
+    </section>
+
+    <!-- SOURCE -->
+    <section>
+      <div class="sec-head"><span class="n">00</span><h2>The Source</h2><span class="sp"></span><span class="lab">12 sampled frames</span></div>
+      <figure class="ref">
+        <img src="reference-frames.jpg" alt="Twelve sampled frames from the source video" />
+        <figcaption>reference-frames.jpg — what this preset was written from. Compare the frames below against it.</figcaption>
+      </figure>
+    </section>
+
+    <!-- PALETTE -->
+    <section>
+      <div class="sec-head"><span class="n">01</span><h2>Palette</h2><span class="sp"></span><span class="lab">Monochrome + One Green Release</span></div>
+      <div class="swatches">
+        <div class="sw"><div class="chip" style="background:#050505"></div><div class="name">Crushed Black</div><div class="hex">#050505</div><div class="role">Deepest footage black; this page's ground.</div></div>
+        <div class="sw"><div class="chip" style="background:#1A1A1A"></div><div class="name">Near Black</div><div class="hex">#1A1A1A</div><div class="role">Footage shadows, card ground.</div></div>
+        <div class="sw"><div class="chip" style="background:#F2F2F2"></div><div class="name">Highlight</div><div class="hex">#F2F2F2</div><div class="role">Footage highlights.</div></div>
+        <div class="sw"><div class="chip" style="background:#FFFFFF"></div><div class="name">White</div><div class="hex">#FFFFFF</div><div class="role">All on-screen text.</div></div>
+        <div class="sw"><div class="chip" style="background:#0F4F3A"></div><div class="name">Emerald Dark</div><div class="hex">#0F4F3A</div><div class="role">Ink interlude, dark end.</div></div>
+        <div class="sw"><div class="chip" style="background:#5FE0A8"></div><div class="name">Emerald Light</div><div class="hex">#5FE0A8</div><div class="role">Ink interlude, light end.</div></div>
+        <div class="sw"><div class="chip" style="background:#04201A"></div><div class="name">Forest Start</div><div class="hex">#04201A</div><div class="role">Reveal ground, dark edge.</div></div>
+        <div class="sw"><div class="chip" style="background:#0B3D2E"></div><div class="name">Forest End</div><div class="hex">#0B3D2E</div><div class="role">Reveal ground, lighter wash.</div></div>
+        <div class="sw"><div class="chip" style="background:#B8FFE6"></div><div class="name">Mint Glow</div><div class="hex">#B8FFE6</div><div class="role">Metaball fill.</div></div>
+        <div class="sw"><div class="chip" style="background:#9FF5D0"></div><div class="name">Mint Glow 2</div><div class="hex">#9FF5D0</div><div class="role">Metaball fill, second tone.</div></div>
+      </div>
+    </section>
+
+    <!-- TYPOGRAPHY -->
+    <section>
+      <div class="sec-head"><span class="n">02</span><h2>Typography</h2><span class="sp"></span><span class="lab">Inter Bold + Newsreader Italic</span></div>
+      <div class="type-row"><div><div class="tok">bold-key</div><div class="m">Inter 700 · 84px · white · −0.02em</div></div><div class="spec"><span style="font-weight:700;letter-spacing:-.02em;font-size:clamp(30px,6vw,72px);line-height:1.05">The fastest platforms</span></div></div>
+      <div class="type-row"><div><div class="tok">serif-light-italic</div><div class="m">Newsreader 300 italic · 84px · white</div></div><div class="spec"><span style="font-family:'Newsreader',serif;font-style:italic;font-weight:300;font-size:clamp(30px,6vw,72px);line-height:1.05">They scale.</span></div></div>
+      <div class="type-row"><div><div class="tok">serif-bold-italic</div><div class="m">Newsreader 700 italic · 84px</div></div><div class="spec"><span style="font-family:'Newsreader',serif;font-style:italic;font-weight:700;font-size:clamp(30px,6vw,72px);line-height:1.05">unstoppable.</span></div></div>
+      <div class="type-row"><div><div class="tok">serif-single</div><div class="m">Newsreader 400 · 90px · single words, upright or italic</div></div><div class="spec"><span style="font-family:'Newsreader',serif;font-weight:400;font-size:clamp(34px,6vw,76px);line-height:1.05">Perps &nbsp;<em>Instant</em></span></div></div>
+      <div class="type-row" style="border-bottom:0"><div><div class="tok">wordmark</div><div class="m">Newsreader 400 italic · 130px</div></div><div class="spec"><span style="font-family:'Newsreader',serif;font-style:italic;font-weight:400;font-size:clamp(44px,9vw,110px);line-height:1">Wordmark</span></div></div>
+    </section>
+
+    <!-- COMPONENTS -->
+    <section>
+      <div class="sec-head"><span class="n">03</span><h2>Components</h2><span class="sp"></span><span class="lab">Monochrome · Mixed Line · Mint Blobs</span></div>
+      <div class="cgrid">
+        <div class="s4"><div class="cnote">Card</div>
+          <div class="c-card"><div class="ic">B</div><div class="t">Footage still</div><div class="x">Stock footage graded fully black-and-white with deep blacks. Shown here as a flat dark panel.</div></div></div>
+        <div class="s4"><div class="cnote">Agenda rows</div>
+          <div class="agenda"><div class="row"><span class="num">01</span><span class="t">Fastest</span><span class="d">rocket</span></div>
+            <div class="row"><span class="num">02</span><span class="t">Scale</span><span class="d">cubes</span></div>
+            <div class="row" style="border-bottom:0"><span class="num">03</span><span class="t">Seamless</span><span class="d">puzzle cube</span></div></div></div>
+        <div class="s4"><div class="cnote">Stats cluster</div>
+          <div class="stats"><div class="st"><div class="f">1–2.5s</div><div class="l">Per shot</div></div><div class="st"><div class="f">1</div><div class="l">Metaphor / shot</div></div><div class="st"><div class="f">0</div><div class="l">Colour til release</div></div></div></div>
+      </div>
+      <div class="cgrid">
+        <div class="s5"><div class="cnote">Timeline — hairline, no nodes</div>
+          <div class="timeline"><div><div class="y">Act 1</div><div class="t">Montage</div><div class="x">B&amp;W shots, white text.</div></div><div><div class="y">Act 2</div><div class="t">Interlude</div><div class="x">Emerald ink.</div></div><div><div class="y">Act 3</div><div class="t">Reveal</div><div class="x">Mint blobs, wordmark.</div></div></div></div>
+        <div class="s3"><div class="cnote">Image placeholder</div>
+          <div class="imgph"><span>Footage Placeholder</span></div></div>
+        <div class="s4"><div class="cnote">Team frames</div>
+          <div class="team"><div class="p"><div class="ph">R</div><div class="nm">Rhea</div><div class="ro">Director</div></div><div class="p"><div class="ph">K</div><div class="nm">Kai</div><div class="ro">Colour</div></div></div></div>
+      </div>
+      <div class="cgrid" style="margin-bottom:0">
+        <div class="s6"><div class="cnote">Mixed line — bold sans + light serif italic</div>
+          <div style="font-size:40px;line-height:1.15;font-weight:700;letter-spacing:-.02em">The <span style="font-family:'Newsreader',serif;font-style:italic;font-weight:300">fastest</span> platforms</div></div>
+        <div class="s6"><div class="cnote">Metaball mint · crescent glyph + italic wordmark</div>
+          <div style="background:#0B3D2E;border-radius:12px;padding:30px;display:flex;align-items:center;gap:18px"><span style="display:inline-block;width:54px;height:40px;background:#B8FFE6;border-radius:50% 50% 50% 50% / 70% 70% 30% 30%"></span><span style="font-family:'Newsreader',serif;font-style:italic;font-size:54px;line-height:1">Wordmark</span></div></div>
+      </div>
+    </section>
+
+    <!-- COMPOSITIONS -->
+    <section>
+      <div class="sec-head"><span class="n">04</span><h2>Frame Compositions</h2><span class="sp"></span><span class="lab">True 16:9 · cqw Scaled</span></div>
+      <div class="gallery">
+
+        <div class="fw"><div class="flabel"><b>Top-third Title</b><span>· line at 20% height over launch footage</span></div>
+          <div class="frame "><div style="position:absolute;inset:0;background:#1A1A1A"></div><div style="position:absolute;left:3cqw;bottom:3cqh;font-size:1.2cqw;color:#A8A8A8">B&W footage · launch</div><div style="position:absolute;top:14cqh;left:0;right:0;text-align:center;color:#fff;font-weight:700;letter-spacing:-.02em;font-size:3.6cqw;line-height:1.1">The <span style="font-family:'Newsreader',Georgia,serif;font-style:italic;font-weight:300">fastest</span></div></div></div>
+
+        <div class="fw"><div class="flabel"><b>Centred Mixed Line</b><span>· bold + serif italic · 50% height</span></div>
+          <div class="frame "><div style="position:absolute;inset:0;background:#1A1A1A"></div><div style="position:absolute;left:3cqw;bottom:3cqh;font-size:1.2cqw;color:#A8A8A8">B&W footage · arrow</div><div style="position:absolute;inset:0;display:grid;place-items:center;text-align:center;color:#fff;font-weight:700;letter-spacing:-.02em;font-size:3.8cqw;line-height:1.1"><span style="font-family:'Newsreader',Georgia,serif;font-style:italic;font-weight:400">They</span> scale.</div></div></div>
+
+        <div class="fw"><div class="flabel"><b>Single Word, Upright</b><span>· one serif word over a screen</span></div>
+          <div class="frame "><div style="position:absolute;inset:0;background:#1A1A1A"></div><div style="position:absolute;left:3cqw;bottom:3cqh;font-size:1.2cqw;color:#A8A8A8">B&W footage · screen</div><div style="position:absolute;inset:0;display:grid;place-items:center;color:#fff;font-family:'Newsreader',Georgia,serif;font-size:5.2cqw">Perps</div></div></div>
+
+        <div class="fw"><div class="flabel"><b>Single Word, Italic</b><span>· italic serif word over a banknote</span></div>
+          <div class="frame "><div style="position:absolute;inset:0;background:#262626"></div><div style="position:absolute;left:3cqw;bottom:3cqh;font-size:1.2cqw;color:#A8A8A8">B&W footage · banknote</div><div style="position:absolute;inset:0;display:grid;place-items:center;color:#fff;font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:5.2cqw">Infinite</div></div></div>
+
+        <div class="fw"><div class="flabel"><b>Ink Interlude</b><span>· short line over emerald macro</span></div>
+          <div class="frame "><div style="position:absolute;inset:0;background:#0F4F3A"></div><div style="position:absolute;left:0;top:0;width:44%;height:100%;background:#0B3D2E"></div><div style="position:absolute;right:0;bottom:0;width:36%;height:44%;background:#5FE0A8;opacity:.55"></div><div style="position:absolute;inset:0;display:grid;place-items:center;text-align:center;color:#fff;font-weight:700;letter-spacing:-.02em;font-size:3.6cqw;line-height:1.1">We're making it <span style="font-family:'Newsreader',Georgia,serif;font-style:italic;font-weight:700">unstoppable.</span></div></div></div>
+
+        <div class="fw"><div class="flabel"><b>Quiet Black</b><span>· a small word over soft dark shapes</span></div>
+          <div class="frame "><div style="position:absolute;left:8%;top:16%;width:32%;height:60%;border-radius:50%;background:#121212"></div><div style="position:absolute;right:10%;top:26%;width:28%;height:52%;border-radius:50%;background:#101010"></div><div style="position:absolute;inset:0;display:grid;place-items:center;text-align:center;color:#fff;font-weight:700;letter-spacing:-.02em;font-size:2.8cqw;line-height:1.1">All</div></div></div>
+
+        <div class="fw"><div class="flabel"><b>Metaball Reveal</b><span>· mint blobs on forest green</span></div>
+          <div class="frame " style="background:#0B3D2E"><div style="position:absolute;left:-6cqw;top:-8cqh;width:22cqw;height:30cqh;background:#B8FFE6;border-radius:50%"></div><div style="position:absolute;left:14cqw;bottom:20cqh;width:7cqw;height:12cqh;background:#9FF5D0;border-radius:50%"></div><div style="position:absolute;right:-6cqw;bottom:-10cqh;width:26cqw;height:36cqh;background:#B8FFE6;border-radius:50%"></div><div style="position:absolute;right:30cqw;bottom:-4cqh;width:3cqw;height:5cqh;background:#9FF5D0;border-radius:50%"></div></div></div>
+
+        <div class="fw"><div class="flabel"><b>Lockup</b><span>· glyph + italic wordmark · centred</span></div>
+          <div class="frame " style="background:#0B3D2E"><div class="center"><div style="display:flex;align-items:center;gap:2.4cqw"><span style="display:block;width:7cqw;height:5cqw;background:#B8FFE6;border-radius:50% 50% 50% 50% / 70% 70% 30% 30%"></span><span style="font-family:'Newsreader',serif;font-style:italic;font-size:9cqw;line-height:1;color:#fff">Wordmark</span></div></div></div></div>
+
+      </div>
+      <p style="margin-top:28px;max-width:760px;color:var(--body);line-height:1.6;font-size:14px">
+        These are HTML approximations of the treatments in <code>FRAME.md</code>; footage, photography and
+        editor recordings are shown as flat placeholders. They exist to check palette, type, spacing and mood
+        against the source frames above.
+      </p>
+    </section>
+
+    <!-- RULES -->
+    <section>
+      <div class="sec-head"><span class="n">05</span><h2>Frame Rules</h2><span class="sp"></span><span class="lab">Monochrome · Static Text · Green Release</span></div>
+      <div class="dos">
+        <div class="do-card do"><h4>Do</h4><ul><li>Grade every clip black-and-white until the interlude and reveal.</li><li>Set short white text, centred, static, while the footage moves.</li><li>Mix bold sans for key words with light serif italic for connectives.</li><li>Make every shot a literal metaphor for the word on screen.</li><li>Hard-cut every 1–2.5 seconds on the voice.</li></ul></div>
+        <div class="do-card dont"><h4>Don't</h4><ul><li>Don't colour the footage.</li><li>Don't animate text heavily over busy shots.</li><li>Don't introduce green before the interlude.</li><li>Don't use a caption card over the footage.</li><li>Don't exceed small text size except the wordmark.</li></ul></div>
+      </div>
+    </section>
+
+    <!-- CAPTIONS -->
+    <section>
+      <div class="sec-head"><span class="n">06</span><h2>Captions</h2><span class="sp"></span><span class="lab">Lower-third · Karaoke</span></div>
+      <div class="gallery">
+        <div class="fw"><div class="flabel"><b>Active line</b><span>· spoken · current · upcoming</span></div>
+          <div class="frame capdemo ">
+            <div class="center" style="padding-bottom:12cqh"><div style="position:absolute;inset:0;background:#1A1A1A"></div></div>
+            <div class="bandline"></div><div class="bandtag">Caption Band · 16.7%</div>
+            <div class="stage"><div class="pill"><div class="line">
+              <span class="w spoken">the</span><span class="w active">fastest</span><span class="w">platforms</span><span class="w">win.</span>
+            </div></div></div>
+          </div></div>
+        <div class="fw"><div class="flabel"><b>Settled line</b><span>· all spoken · marker cleared</span></div>
+          <div class="frame capdemo ">
+            <div class="center" style="padding-bottom:12cqh"><div style="position:absolute;inset:0;background:#262626"></div></div>
+            <div class="bandline"></div><div class="bandtag">Caption Band · 16.7%</div>
+            <div class="stage"><div class="pill"><div class="line">
+              <span class="w spoken">the</span><span class="w spoken">fastest</span><span class="w spoken">platforms</span><span class="w spoken">win.</span>
+            </div></div></div>
+          </div></div>
+      </div>
+    </section>
+
+    <div class="foot">
+      <span>B&W Montage Emerald Reveal</span>
+      <span>Frame Showcase · One Metaphor per Shot · Green Only at the Release</span>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Cream Workspace — Frame Showcase</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700&family=Newsreader:ital,wght@0,400;1,400&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+:root { --bg:#F0EFE9; --surface:#FAF9F5; --ink:#1D1F1F; --muted:#5F5E57; --body:#3E3D38; --hair:#CFCABD; --frame-bg:#F0EFE9;
+--hl:#A8472A; --do:#2F6B3D; --dont:#A8472A; --band:#6F6E66; --h-weight:400; --h-track:-0.01em;
+--display:"Newsreader",Georgia,serif; --sans:"Hanken Grotesk",system-ui,sans-serif; --mono:"Spline Sans Mono",ui-monospace,monospace;
+--clay:#D97757; --clay2:#CC785C; --claytext:#A8472A; --term:#1D1F1F; --panel:#2C2C2B; --ttext:#EFEADD; --aub:#4A154B; }
+
+* { margin:0; padding:0; box-sizing:border-box; }
+html { background: var(--bg); }
+body { font-family: var(--sans); color: var(--ink); background: var(--bg); -webkit-font-smoothing: antialiased; }
+.label { font-family: var(--mono); font-size:12px; letter-spacing:.14em; text-transform:uppercase; color: var(--muted); }
+section { position:relative; padding:96px 64px; max-width:1360px; margin:0 auto; }
+.sec-head { display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 18px; border-bottom:1px solid var(--hair); padding-bottom:14px; margin-bottom:40px; }
+.sec-head .n { font-family:var(--mono); font-size:13px; color:var(--muted); }
+.sec-head h2 { font-family:var(--display); font-weight:var(--h-weight); font-size:clamp(34px,5vw,48px); line-height:1; letter-spacing:var(--h-track); }
+.sec-head .sp { flex:1; }
+.sec-head .lab { font-family:var(--mono); font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); }
+.cover { min-height:100vh; max-width:none; display:flex; flex-direction:column; justify-content:center; padding:80px 64px 160px; }
+.cover .inner { position:relative; max-width:1160px; margin:0 auto; width:100%; }
+.cover h1 { font-family:var(--display); font-weight:var(--h-weight); font-size:clamp(48px,9vw,132px); line-height:1; letter-spacing:var(--h-track); margin:18px 0 26px; }
+.cover h1 .hl { color: var(--hl); }
+.cover .sub { max-width:640px; font-size:18px; line-height:1.6; color:var(--body); }
+.cover .meta { position:absolute; left:64px; right:64px; bottom:48px; display:flex; flex-wrap:wrap; gap:18px 56px; max-width:1160px; margin:0 auto; border-top:1px solid var(--hair); padding-top:18px; }
+.cover .meta .v { font-family:var(--display); font-weight:var(--h-weight); font-size:24px; }
+.cover .meta .k { font-family:var(--mono); font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); margin-top:4px; }
+.ref { border:1px solid var(--hair); border-radius:10px; overflow:hidden; background:var(--surface); }
+.ref img { display:block; width:100%; height:auto; }
+.ref figcaption { padding:12px 18px; font-family:var(--mono); font-size:12px; color:var(--muted); }
+.swatches { display:grid; grid-template-columns:repeat(auto-fill,minmax(190px,1fr)); gap:16px; }
+.sw { border:1px solid var(--hair); border-radius:10px; overflow:hidden; background:var(--surface); }
+.sw .chip { height:84px; border-bottom:1px solid var(--hair); }
+.sw .name { padding:12px 14px 2px; font-size:14px; font-weight:600; }
+.sw .hex { padding:0 14px; font-family:var(--mono); font-size:12px; color:var(--muted); }
+.sw .role { padding:4px 14px 14px; font-size:13px; color:var(--body); line-height:1.45; }
+.type-row { display:grid; grid-template-columns:220px 1fr; gap:28px; align-items:center; padding:26px 0; border-bottom:1px solid var(--hair); }
+.type-row .tok { font-family:var(--mono); font-size:13px; font-weight:500; }
+.type-row .m { font-size:12px; color:var(--muted); margin-top:4px; line-height:1.4; }
+.cgrid { display:grid; grid-template-columns:repeat(12,1fr); gap:28px; margin-bottom:40px; }
+.s3{grid-column:span 3}.s4{grid-column:span 4}.s5{grid-column:span 5}.s6{grid-column:span 6}.s8{grid-column:span 8}
+.cnote { font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin-bottom:12px; }
+.gallery { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(560px,100%),1fr)); gap:40px 28px; }
+.flabel { display:flex; flex-wrap:wrap; gap:4px 10px; align-items:baseline; margin-bottom:10px; font-size:14px; }
+.flabel b { font-weight:600; }
+.flabel span { font-family:var(--mono); font-size:11px; color:var(--muted); letter-spacing:.04em; }
+.frame { position:relative; aspect-ratio:16/9; border-radius:8px; overflow:hidden; border:1px solid var(--hair); background:var(--frame-bg); container-type:size; }
+.dos { display:grid; grid-template-columns:1fr 1fr; gap:28px; }
+.do-card { background:var(--surface); border:1px solid var(--hair); border-radius:10px; padding:26px 28px; }
+.do-card h4 { font-family:var(--display); font-weight:var(--h-weight); font-size:30px; margin-bottom:12px; }
+.do-card.do h4 { color:var(--do); } .do-card.dont h4 { color:var(--dont); }
+.do-card ul { padding-left:18px; line-height:1.75; color:var(--body); font-size:15px; }
+.capdemo .bandline { position:absolute; left:0; right:0; bottom:16.67cqh; border-top:1px dashed var(--band); z-index:2; }
+.capdemo .bandtag { position:absolute; right:3cqw; bottom:calc(16.67cqh + .7cqw); font-family:var(--mono); text-transform:uppercase; letter-spacing:.2cqw; font-size:max(9px,.95cqw); color:var(--muted); z-index:2; }
+.capdemo .stage { position:absolute; left:0; right:0; bottom:0; height:16.67cqh; display:flex; align-items:center; justify-content:center; z-index:4; }
+.capdemo .line { display:flex; flex-wrap:wrap; justify-content:center; gap:.1em .3em; max-width:80cqw; }
+.foot { max-width:1360px; margin:0 auto; padding:36px 64px 64px; display:flex; flex-wrap:wrap; gap:8px 24px; justify-content:space-between; font-family:var(--mono); font-size:12px; color:var(--muted); border-top:1px solid var(--hair); }
+.note { margin-top:28px; max-width:760px; color:var(--body); line-height:1.6; font-size:14px; }
+@media (max-width:900px) {
+  section { padding:64px 20px; }
+  .cover { padding:64px 20px 200px; }
+  .cover .meta { left:20px; right:20px; gap:16px 28px; }
+  .gallery { grid-template-columns:1fr; }
+  .dos,.type-row { grid-template-columns:1fr; }
+  .cgrid>* { grid-column:span 12; }
+  .foot { padding:28px 20px 48px; }
+}
+
+
+.shadow { box-shadow:0 1.6cqw 4cqw rgba(29,31,31,.18); }
+.win { position:absolute; background:var(--term); border-radius:1.2cqw; overflow:hidden; color:var(--ttext); font-family:var(--mono); }
+.win .dots { position:absolute; left:1.4cqw; top:1.4cqw; display:flex; gap:.6cqw; } .win .dots i { width:1cqw; height:1cqw; border-radius:50%; display:block; }
+.win .tt { position:absolute; top:1.2cqw; left:7cqw; font-size:max(7px,1cqw); color:#8C8B83; }
+.chiprow { position:absolute; display:flex; gap:.8cqw; } .chiprow span { font-size:max(7px,1cqw); background:var(--panel); color:var(--ttext); padding:.4cqw 1cqw; border-radius:.5cqw; }
+.comp { position:absolute; background:var(--panel); border:1px solid #3a3a38; border-radius:.8cqw; color:#8C8B83; font-size:max(8px,1.2cqw); padding:1.2cqw 1.6cqw; }
+.meta2 { position:absolute; font-size:max(7px,.95cqw); color:#8C8B83; display:flex; gap:1.2cqw; } .meta2 b { font-weight:400; background:#3a3224; color:#E2B53F; padding:.1cqw .6cqw; border-radius:.3cqw; }
+.serif { font-family:var(--display); font-weight:400; }
+.hd { position:absolute; left:0; right:0; text-align:center; font-weight:700; font-size:2.4cqw; color:#1D1F1F; }
+.prev { position:absolute; background:var(--term); border-radius:1.1cqw; overflow:hidden; color:var(--ttext); }
+.prev .bar { position:absolute; left:0; right:0; top:0; height:4cqh; display:flex; align-items:center; gap:1cqw; padding-left:1cqw; font-family:var(--mono); font-size:max(7px,.9cqw); color:#EFEADD; }
+.prev .bar i { width:.8cqw; height:.8cqw; border-radius:50%; display:block; }
+.prev .scrub { position:absolute; left:1.4cqw; right:1.4cqw; bottom:1.6cqh; height:2px; background:#4a4a47; } .prev .scrub b { position:absolute; left:0; top:0; height:2px; width:35%; background:var(--clay); }
+.prev .scrub u { position:absolute; left:35%; top:-.35cqw; width:.8cqw; height:.8cqw; border-radius:50%; background:#fff; }
+.codebox { position:absolute; left:1.2cqw; right:1.2cqw; top:6cqh; bottom:7cqh; font-family:var(--mono); font-size:max(7px,.9cqw); line-height:1.7; color:#8C8B83; }
+.codebox .hl { background:#3a2a22; border-left:2px solid var(--clay); color:var(--ttext); padding-left:.6cqw; }
+.cardx { position:absolute; background:var(--surface); border:1px solid #E6E2D6; border-radius:1.2cqw; overflow:hidden; }
+.av { border-radius:50%; background:#DDD6C8; display:grid; place-items:center; color:#3E3D38; font-weight:700; }
+.stat { font-family:var(--sans); font-weight:500; color:var(--claytext); }
+.slab { color:#5F5E57; font-family:var(--sans); }
+.row2 { display:flex; justify-content:space-between; font-family:var(--mono); font-size:max(7px,.95cqw); padding:.5cqh 0; color:#1F2328; }
+.row2 .ad { color:#2F6B3D; } .row2 .de { color:#A8472A; }
+/* components */
+.tw { background:var(--term); color:var(--ttext); border-radius:14px; padding:16px 18px 18px; font-family:var(--mono); font-size:13px; box-shadow:0 14px 36px rgba(29,31,31,.2); }
+.tw .dots { display:flex; gap:7px; margin-bottom:14px; } .tw .dots i { width:11px; height:11px; border-radius:50%; display:block; }
+.tw .cr { background:var(--panel); border:1px solid #3a3a38; border-radius:9px; padding:12px; color:#8C8B83; margin-top:12px; } .tw .ch span { font-size:11px; background:var(--panel); padding:3px 9px; border-radius:6px; margin-right:6px; }
+.chat { display:grid; grid-template-columns:90px 1fr; border-radius:12px; overflow:hidden; background:#fff; box-shadow:0 14px 36px rgba(29,31,31,.16); font-size:12px; min-height:170px; }
+.chat .sb { background:var(--aub); color:#fff; padding:12px 10px; line-height:2; } .chat .sb .on { background:#1264A3; border-radius:4px; padding:0 6px; }
+.chat .mn { padding:14px; color:#1F2328; } .chat .msg { display:flex; gap:10px; margin-top:34px; } .chat .msg .a { width:28px; height:28px; border-radius:6px; background:var(--clay); flex:none; }
+.pr { background:#fff; border:1px solid #E6E2D6; border-radius:10px; padding:10px 14px; font-family:var(--mono); font-size:11.5px; color:#1F2328; box-shadow:0 10px 28px rgba(29,31,31,.12); }
+.pr .r { display:flex; justify-content:space-between; gap:12px; padding:6px 0; border-bottom:1px solid #E6E2D6; } .pr .r:last-child { border-bottom:0; } .ad { color:#2F6B3D; } .de { color:#A8472A; }
+.statp .n { font-family:var(--sans); font-weight:500; font-size:56px; color:var(--claytext); line-height:1; } .statp .l { font-size:13px; color:var(--muted); margin:4px 0 14px; }
+.pv { background:var(--term); border-radius:12px; padding:14px; color:var(--ttext); box-shadow:0 14px 36px rgba(29,31,31,.2); } .pv .scr { height:80px; background:var(--panel); border-radius:6px; margin:10px 0; } .pv .sc { height:3px; background:#4a4a47; border-radius:2px; position:relative; } .pv .sc b { position:absolute; left:0; top:0; height:3px; width:40%; background:var(--clay); border-radius:2px; }
+.caret { font-family:var(--sans); font-weight:700; font-size:46px; letter-spacing:-.02em; } .caret i { display:inline-block; width:3px; height:.9em; background:var(--ink); vertical-align:-.1em; margin-left:2px; } .caret em { font-style:normal; color:var(--claytext); }
+.credits { display:flex; gap:16px; } .credits div { text-align:center; font-size:11px; color:var(--muted); } .credits .av { width:54px; height:54px; margin:0 auto 6px; font-size:18px; }
+.tl { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; border-top:1px solid var(--hair); padding-top:18px; } .tl .y { font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--claytext); } .tl .t { font-family:var(--display); font-size:24px; margin:6px 0 4px; } .tl .x { font-size:13px; color:var(--body); line-height:1.5; }
+.imgph { aspect-ratio:4/3; border:1px dashed var(--hair); border-radius:12px; background:var(--surface); display:grid; place-items:center; } .imgph span { font-family:var(--mono); font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
+.capdemo .w { display:inline-block; font-family:var(--sans); font-weight:500; font-size:3cqw; line-height:1.3; color:#5F5E57; text-decoration:underline; text-decoration-color:transparent; text-decoration-thickness:.3cqw; text-underline-offset:.4cqw; }
+.capdemo .w.s { color:#1D1F1F; } .capdemo .w.a { color:#1D1F1F; font-weight:700; text-decoration-color:var(--clay); }
+
+</style>
+</head>
+<body>
+<section class="cover"><div class="inner">
+<div class="label">Cream Workspace — Frame System</div>
+<h1>One window,<br />one <span class="hl">statement.</span></h1>
+<div class="sub">A calm, believable developer session on warm cream paper: floating light windows, a dark terminal with traffic lights, editorial serif statements, and clay as the only emphasis.</div>
+</div>
+<div class="meta">
+<div><div class="v">1920 × 1080</div><div class="k">Frame</div></div>
+<div><div class="v">Vol. 03</div><div class="k">Edition</div></div>
+<div><div class="v">Cream / Terminal / Clay</div><div class="k">Palette</div></div>
+</div></section>
+
+<section>
+<div class="sec-head"><span class="n">00</span><h2>The Source</h2><span class="sp"></span><span class="lab">12 sampled frames</span></div>
+<figure class="ref"><img src="reference-frames.jpg" alt="Twelve sampled frames from the example video" /><figcaption>reference-frames.jpg — what this preset was written from. Compare the frames below against it.</figcaption></figure>
+</section>
+
+<section>
+<div class="sec-head"><span class="n">01</span><h2>Palette</h2><span class="sp"></span><span class="lab">Cream + Terminal + Clay</span></div>
+<div class="swatches"><div class="sw"><div class="chip" style="background:#F0EFE9"></div><div class="name">Cream</div><div class="hex">#F0EFE9</div><div class="role">Home-base canvas.</div></div><div class="sw"><div class="chip" style="background:#FAF9F5"></div><div class="name">Light Panel</div><div class="hex">#FAF9F5</div><div class="role">Card and window ground.</div></div><div class="sw"><div class="chip" style="background:#1D1F1F"></div><div class="name">Terminal</div><div class="hex">#1D1F1F</div><div class="role">Dark terminal and preview card.</div></div><div class="sw"><div class="chip" style="background:#2C2C2B"></div><div class="name">Panel</div><div class="hex">#2C2C2B</div><div class="role">Composer and chips inside dark windows.</div></div><div class="sw"><div class="chip" style="background:#EFEADD"></div><div class="name">Terminal Text</div><div class="hex">#EFEADD</div><div class="role">Text on dark.</div></div><div class="sw"><div class="chip" style="background:#8C8B83"></div><div class="name">Muted</div><div class="hex">#8C8B83</div><div class="role">Meta text inside terminals.</div></div><div class="sw"><div class="chip" style="background:#6F6E66"></div><div class="name">Muted 2</div><div class="hex">#6F6E66</div><div class="role">Secondary text on cream.</div></div><div class="sw"><div class="chip" style="background:#D97757"></div><div class="name">Clay</div><div class="hex">#D97757</div><div class="role">The only emphasis: fills, underlines, caret, scrubber.</div></div><div class="sw"><div class="chip" style="background:#CC785C"></div><div class="name">Clay 2</div><div class="hex">#CC785C</div><div class="role">Stat numerals in the video; the page uses deeper #A8472A for AA text.</div></div><div class="sw"><div class="chip" style="background:#E6E2D6"></div><div class="name">Hairline</div><div class="hex">#E6E2D6</div><div class="role">Window borders and rows.</div></div><div class="sw"><div class="chip" style="background:#CFCABD"></div><div class="name">Hairline 2</div><div class="hex">#CFCABD</div><div class="role">Dividers.</div></div><div class="sw"><div class="chip" style="background:#2F6B3D"></div><div class="name">GH Resolved</div><div class="hex">#2F6B3D</div><div class="role">Added-line counts and resolved states.</div></div><div class="sw"><div class="chip" style="background:#4A154B"></div><div class="name">Aubergine</div><div class="hex">#4A154B</div><div class="role">Chat sidebar.</div></div><div class="sw"><div class="chip" style="background:#FF5F57"></div><div class="name">Traffic Red</div><div class="hex">#FF5F57</div><div class="role">Window dot.</div></div><div class="sw"><div class="chip" style="background:#FEBC2E"></div><div class="name">Traffic Yellow</div><div class="hex">#FEBC2E</div><div class="role">Window dot.</div></div><div class="sw"><div class="chip" style="background:#28C840"></div><div class="name">Traffic Green</div><div class="hex">#28C840</div><div class="role">Window dot.</div></div></div>
+</section>
+
+<section>
+<div class="sec-head"><span class="n">02</span><h2>Typography</h2><span class="sp"></span><span class="lab">Newsreader + Hanken Grotesk + Mono</span></div>
+<div class="type-row"><div><div class="tok">statement</div><div class="m">Newsreader 400 (stands in for Copernicus) · 72px</div></div><div class="spec"><span class="serif" style="font-size:clamp(34px,5vw,56px);line-height:1.1">These days, PRs from agents are super long</span></div></div><div class="type-row"><div><div class="tok">stat</div><div class="m">Hanken Grotesk 500 · 56px · clay</div></div><div class="spec"><span class="stat" style="font-size:56px;color:#A8472A">629</span> <span style="color:var(--muted);font-size:14px">files changed</span></div></div><div class="type-row"><div><div class="tok">headline</div><div class="m">Hanken Grotesk 700 · 44px · above the preview card</div></div><div class="spec"><span style="font-size:clamp(24px,3.4vw,38px);font-weight:700">/pr-to-video shows your code</span></div></div><div class="type-row"><div><div class="tok">terminal</div><div class="m">Spline Sans Mono 400 · 28px · on dark</div></div><div class="spec"><span style="font-family:var(--mono);font-size:18px;background:#1D1F1F;color:#EFEADD;padding:8px 14px;border-radius:8px;display:inline-block">use pr-to-video to make a video for this pr</span></div></div><div class="type-row"><div><div class="tok">ui</div><div class="m">Hanken Grotesk 500 · 18px</div></div><div class="spec"><span style="font-size:18px;font-weight:500">Your colleague&rsquo;s agent &middot; Hey, can you review my PR?</span></div></div><div class="type-row"><div><div class="tok">closing</div><div class="m">Hanken Grotesk 700 · caret + one clay word</div></div><div class="spec"><span style="font-size:38px;font-weight:700;letter-spacing:-.02em">Create your <span style="color:#A8472A">PR video</span> today</span></div></div>
+</section>
+
+<section>
+<div class="sec-head"><span class="n">03</span><h2>Components</h2><span class="sp"></span><span class="lab">Windows · Hairlines · Soft Shadow</span></div>
+
+<div class="cgrid">
+ <div class="s4"><div class="cnote">Terminal window</div><div class="tw"><div class="dots"><i style="background:#FF5F57"></i><i style="background:#FEBC2E"></i><i style="background:#28C840"></i></div><div class="ch"><span>Local</span><span>project</span></div><div class="cr">Reply to Claude&hellip;</div></div></div>
+ <div class="s4"><div class="cnote">Chat window</div><div class="chat"><div class="sb"># general<br><span class="on"># eng-reviews</span><br># launches</div><div class="mn"><div class="msg"><div class="a"></div><div><b>Your colleague&rsquo;s agent</b><br>Hey, can you review my PR?</div></div></div></div></div>
+ <div class="s4"><div class="cnote">PR files list</div><div class="pr"><div class="r"><span>skills/pr-to-video/SKILL.md</span><span><b class="ad">+217</b> <b class="de">-40</b></span></div><div class="r"><span>scripts/fetch-pr.mjs</span><span><b class="ad">+148</b> <b class="de">-0</b></span></div><div class="r"><span>references/story.md</span><span><b class="ad">+64</b> <b class="de">-120</b></span></div></div></div>
+</div>
+<div class="cgrid">
+ <div class="s4"><div class="cnote">Stat pair</div><div class="statp"><div class="n">629</div><div class="l">files changed</div><div class="n">87,000</div><div class="l">lines removed</div></div></div>
+ <div class="s4"><div class="cnote">Preview card — headline above, scrubber below</div><div style="font-weight:700;font-size:18px;text-align:center;margin-bottom:10px">/pr-to-video shows your code</div><div class="pv"><div style="font-family:var(--mono);font-size:11px;display:flex;justify-content:space-between"><span>pr-1635.mp4</span><span style="color:#8C8B83">scene 1 / 6</span></div><div class="scr"></div><div class="sc"><b></b></div></div></div>
+ <div class="s4"><div class="cnote">Caret line</div><div class="caret">Create<i></i></div><div class="caret" style="margin-top:14px">Create your <em>PR video</em></div></div>
+</div>
+<div class="cgrid" style="margin-bottom:0">
+ <div class="s5"><div class="cnote">Timeline — scene hairline</div><div class="tl"><div><div class="y">Scene 1</div><div class="t">Code</div><div class="x">Diff in the preview card.</div></div><div><div class="y">Scene 3</div><div class="t">Comments</div><div class="x">Thread, resolved rows.</div></div><div><div class="y">Scene 4</div><div class="t">Credits</div><div class="x">Avatar row with roles.</div></div></div></div>
+ <div class="s3"><div class="cnote">Image placeholder</div><div class="imgph"><span>Visual reference</span></div></div>
+ <div class="s4"><div class="cnote">Credit avatars</div><div class="credits"><div><div class="av">A</div>Avery<br>author</div><div><div class="av">M</div>Mori<br>reviewer</div><div><div class="av" style="border:2px solid var(--clay)">C</div>Agent<br>built with</div></div></div>
+</div>
+
+</section>
+
+<section>
+<div class="sec-head"><span class="n">04</span><h2>Frame Compositions</h2><span class="sp"></span><span class="lab">True 16:9 · cqw Scaled</span></div>
+<div class="gallery"><div class="fw"><div class="flabel"><b>Chat Window</b><span>· sidebar · message · composer</span></div><div class="frame "><div class="cardx shadow" style="left:11cqw;top:9cqh;width:78cqw;height:80cqh;background:#fff"><div class="abs" style="position:absolute;left:0;top:0;bottom:0;width:21%;background:#4A154B;color:#fff;font-size:max(7px,1cqw);padding:2.4cqh 1.4cqw;line-height:2.3"><b>Team</b><br># general<br><span style="background:#1264A3;padding:0 .6cqw;border-radius:.3cqw"># eng-reviews</span><br># launches</div><div style="position:absolute;left:30%;top:56%;display:flex;gap:1.2cqw"><div style="width:3cqw;height:3cqw;border-radius:.6cqw;background:#D97757"></div><div style="font-size:max(8px,1.5cqw);color:#1F2328;line-height:1.5"><b>Your colleague&rsquo;s agent</b><br><span style="color:#1264A3">@you</span> Hey, can you review my PR?</div></div><div style="position:absolute;left:25%;right:3%;bottom:6%;height:12%;border:1px solid #CFCABD;border-radius:.6cqw;font-size:max(7px,1cqw);color:#6F6E66;padding:1.2cqh 1cqw">Message #eng-reviews</div></div></div></div><div class="fw"><div class="flabel"><b>PR Files + Statement</b><span>· scrolling list · serif statement · clay stats</span></div><div class="frame "><div class="cardx shadow" style="left:6cqw;top:6cqh;width:49cqw;height:88cqh"><div style="padding:3cqh 1.6cqw"><div class="row2"><span>skills/pr-to-video/SKILL.md</span><span><b class="ad">+217</b> <b class="de">-40</b></span></div><div class="row2"><span>skills/pr-to-video/scripts/fetch-pr.mjs</span><span><b class="ad">+148</b> <b class="de">-0</b></span></div><div class="row2"><span>skills/pr-to-video/scripts/ingest.mjs</span><span><b class="ad">+95</b> <b class="de">-0</b></span></div><div class="row2"><span>skills/pr-to-video/references/story.md</span><span><b class="ad">+64</b> <b class="de">-120</b></span></div><div class="row2"><span>skills/pr-to-video/references/blueprints.md</span><span><b class="ad">+30</b> <b class="de">-518</b></span></div><div class="row2"><span>skills/pr-to-video/references/tts.md</span><span><b class="ad">+13</b> <b class="de">-402</b></span></div><div class="row2"><span>skills/pr-to-video/FRAME.md</span><span><b class="ad">+402</b> <b class="de">-0</b></span></div></div></div><div style="position:absolute;left:61cqw;top:22cqh;width:34cqw"><div class="serif" style="font-size:3.9cqw;line-height:1.08">These days, PRs from agents are super long</div><div style="margin-top:3cqh;display:flex;gap:1.4cqw;align-items:baseline"><span class="stat" style="font-size:2.6cqw">629</span><span class="slab" style="font-size:1.1cqw">files changed</span></div><div style="margin-top:1.4cqh;display:flex;gap:1.4cqw;align-items:baseline"><span class="stat" style="font-size:2.6cqw">87,000</span><span class="slab" style="font-size:1.1cqw">lines removed</span></div></div></div></div><div class="fw"><div class="flabel"><b>Dark Text Beat</b><span>· serif phrase on dark</span></div><div class="frame "><div style="position:absolute;inset:0;background:#1D1F1F;display:grid;place-items:center"><div class="serif" style="color:#EFEADD;font-size:8cqw">So you try</div></div></div></div><div class="fw"><div class="flabel"><b>Terminal Prompt</b><span>· window · chips · composer</span></div><div class="frame "><div class="win shadow" style="left:7cqw;top:8cqh;width:86cqw;height:84cqh"><div class="dots"><i style="background:#FF5F57"></i><i style="background:#FEBC2E"></i><i style="background:#28C840"></i></div><div class="tt">agent &mdash; ~/project</div><div class="chiprow" style="left:4.5cqw;top:57cqh"><span>Local</span><span>project</span></div><div class="comp" style="left:4.5cqw;top:62cqh;width:77cqw;height:9cqh">use pr-to&hellip;</div><div class="meta2" style="left:4.5cqw;top:73.5cqh"><b>Auto</b><span>+</span></div><div class="meta2" style="right:4.5cqw;top:73.5cqh"><span>Model</span><span>High</span></div></div></div></div><div class="fw"><div class="flabel"><b>Terminal Thinking</b><span>· user line right · status rows</span></div><div class="frame "><div class="win shadow" style="left:5cqw;top:6cqh;width:90cqw;height:88cqh"><div class="dots"><i style="background:#FF5F57"></i><i style="background:#FEBC2E"></i><i style="background:#28C840"></i></div><div class="tt">agent &mdash; ~/project</div><div style="position:absolute;right:3cqw;top:46%;font-size:max(8px,1.2cqw);color:#EFEADD">use pr-to-video to make a video for this pr</div><div style="position:absolute;left:3cqw;top:58%;font-size:max(7px,1cqw);color:#8C8B83;line-height:2">&middot; thinking&hellip;<br>&middot; Reading PR #1635 &middot; 629 files &middot; 4 commits</div><div class="chiprow" style="left:3cqw;top:73cqh"><span>Local</span><span>project</span></div><div class="comp" style="left:3cqw;top:78cqh;width:84cqw;height:8cqh">Reply to Agent&hellip;</div><div class="meta2" style="left:3cqw;top:88.5cqh"><b>Auto</b><span>+</span></div><div class="meta2" style="right:3cqw;top:88.5cqh"><span>Model</span><span>High</span></div></div></div></div><div class="fw"><div class="flabel"><b>Preview + Headline</b><span>· black headline · code panel</span></div><div class="frame "><div class="hd" style="top:7cqh">/pr-to-video shows your code</div><div class="prev shadow" style="left:29cqw;top:19cqh;width:42cqw;height:62cqh"><div class="bar"><i style="background:#FF5F57"></i><i style="background:#FEBC2E"></i><i style="background:#28C840"></i><span>pr-1635.mp4</span><span style="margin-left:auto;margin-right:1cqw;color:#8C8B83">scene 1 / 6</span></div><div class="codebox">function ghTry(args) {<br>&nbsp;&nbsp;try {<br>&nbsp;&nbsp;&nbsp;&nbsp;const out = exec(&hellip;);<br>&nbsp;&nbsp;}<br><div class="hl">&nbsp;&nbsp;// complete the files list<br>&nbsp;&nbsp;const files = ghTry([&quot;api&quot;]);</div>}</div><div class="scrub"><b></b><u></u></div></div></div></div><div class="fw"><div class="flabel"><b>Preview: Comments</b><span>· same card, swapped panel</span></div><div class="frame "><div class="hd" style="top:7cqh">/pr-to-video shows people&rsquo;s comments</div><div class="prev shadow" style="left:29cqw;top:19cqh;width:42cqw;height:62cqh"><div class="bar"><i style="background:#FF5F57"></i><i style="background:#FEBC2E"></i><i style="background:#28C840"></i><span>pr-1635.mp4</span><span style="margin-left:auto;margin-right:1cqw;color:#8C8B83">scene 3 / 6</span></div><div style="position:absolute;left:1.4cqw;right:1.4cqw;top:6cqh;bottom:7cqh;background:#FAF9F5;border-radius:.6cqw;padding:1.4cqh 1.2cqw"><div style="display:flex;gap:.8cqw;align-items:center;margin-bottom:1.6cqh"><div class="av" style="width:2cqw;height:2cqw;font-size:max(6px,.8cqw)">A</div><div style="height:.8cqh;flex:1;background:#E6E2D6;border-radius:.3cqw"></div></div><div style="display:flex;gap:.8cqw;align-items:center;margin-bottom:1.6cqh"><div class="av" style="width:2cqw;height:2cqw;font-size:max(6px,.8cqw)">B</div><div style="height:.8cqh;flex:1;background:#E6E2D6;border-radius:.3cqw"></div></div><div style="display:flex;gap:.8cqw;align-items:center;margin-bottom:1.6cqh"><div class="av" style="width:2cqw;height:2cqw;font-size:max(6px,.8cqw)">C</div><div style="height:.8cqh;flex:1;background:#E6E2D6;border-radius:.3cqw"></div></div><div style="display:flex;gap:.8cqw;align-items:center;margin-bottom:1.6cqh"><div class="av" style="width:2cqw;height:2cqw;font-size:max(6px,.8cqw)">D</div><div style="height:.8cqh;flex:1;background:#E6E2D6;border-radius:.3cqw"></div></div><div style="display:flex;gap:.8cqw;align-items:center;margin-bottom:1.6cqh"><div class="av" style="width:2cqw;height:2cqw;font-size:max(6px,.8cqw)">E</div><div style="height:.8cqh;flex:1;background:#E6E2D6;border-radius:.3cqw"></div></div></div><div class="scrub"><b></b><u></u></div></div></div></div><div class="fw"><div class="flabel"><b>Credits</b><span>· avatar row with roles</span></div><div class="frame "><div class="hd" style="top:7cqh">/pr-to-video credits contributors</div><div class="prev shadow" style="left:29cqw;top:19cqh;width:42cqw;height:62cqh"><div class="bar"><i style="background:#FF5F57"></i><i style="background:#FEBC2E"></i><i style="background:#28C840"></i><span>pr-1635.mp4</span><span style="margin-left:auto;margin-right:1cqw;color:#8C8B83">scene 4 / 6</span></div><div style="position:absolute;left:1.4cqw;right:1.4cqw;top:6cqh;bottom:7cqh;background:#FAF9F5;border-radius:.6cqw;display:flex;gap:2.4cqw;align-items:center;justify-content:center"><div style="text-align:center;font-size:max(6px,.8cqw);color:#3E3D38"><div class="av" style="width:4cqw;height:4cqw;margin:0 auto .6cqh;font-size:1.4cqw">A</div>author</div><div style="text-align:center;font-size:max(6px,.8cqw);color:#3E3D38"><div class="av" style="width:4cqw;height:4cqw;margin:0 auto .6cqh;font-size:1.4cqw">M</div>reviewer</div><div style="text-align:center;font-size:max(6px,.8cqw);color:#3E3D38"><div class="av" style="width:4cqw;height:4cqw;margin:0 auto .6cqh;font-size:1.4cqw">J</div>reviewer</div><div style="text-align:center;font-size:max(6px,.8cqw);color:#3E3D38"><div class="av" style="width:4cqw;height:4cqw;margin:0 auto .6cqh;font-size:1.4cqw">C</div>built with</div></div><div class="scrub"><b></b><u></u></div></div></div></div><div class="fw"><div class="flabel"><b>Typed Close</b><span>· icon · word · caret</span></div><div class="frame "><div style="position:absolute;left:0;right:0;top:20cqh;display:flex;justify-content:center"><svg viewBox="0 0 24 24" width="40" height="40"><circle cx="12" cy="12" r="10" fill="none" stroke="#1D1F1F" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="#1D1F1F"/></svg></div><div style="position:absolute;left:0;right:0;top:44cqh;text-align:center;font-weight:700;font-size:7cqw;letter-spacing:-.02em;color:#1D1F1F">Create<i style="display:inline-block;width:.5cqw;height:6cqw;background:#1D1F1F;vertical-align:-.9cqw;margin-left:.4cqw"></i></div></div></div><div class="fw"><div class="flabel"><b>Call To Action</b><span>· icon · clay word · command composer</span></div><div class="frame "><div style="position:absolute;left:0;right:0;top:16cqh;display:flex;justify-content:center"><svg viewBox="0 0 24 24" width="48" height="48"><circle cx="12" cy="12" r="10" fill="none" stroke="#1D1F1F" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="#1D1F1F"/></svg></div><div style="position:absolute;left:0;right:0;top:36cqh;text-align:center;font-weight:700;font-size:5cqw;letter-spacing:-.02em;color:#1D1F1F">Create your <span style="color:#A8472A">PR video</span> today</div><div class="comp" style="left:24cqw;width:52cqw;top:70cqh;height:10cqh;background:#2C2C2B;color:#EFEADD;font-family:var(--mono)">use pr-to-video https://example.com/org/repo/pull/42<span style="display:inline-block;width:2px;height:1.4cqw;background:#EFEADD;margin-left:2px"></span></div></div></div></div>
+<p class="note">These are HTML approximations of the treatments in <code>FRAME.md</code>; the real film is a screen-recorded session with real windows. They exist to check palette, type, spacing and mood against the source frames above.</p>
+</section>
+
+<section>
+<div class="sec-head"><span class="n">05</span><h2>Frame Rules</h2><span class="sp"></span><span class="lab">Calm · Workspace-Real · Clay</span></div>
+<div class="dos"><div class="do-card do"><h4>Do</h4><ul><li>Keep the cream ground in the opening, statement and end frames.</li><li>Show one window or one statement per scene.</li><li>Use clay as the only emphasis: stat numerals, one word, caret, scrubber.</li><li>Hold the preview card layout identical between scenes; swap only the panel.</li><li>Crossfade (about 0.3s) between scenes.</li></ul></div><div class="do-card dont"><h4>Don't</h4><ul><li>Don't add a second accent colour.</li><li>Don't use glow, grain or shader transitions.</li><li>Don't use hard cuts where a short crossfade fits.</li><li>Don't put more than one window on a frame.</li></ul></div></div>
+</section>
+
+<section>
+<div class="sec-head"><span class="n">06</span><h2>Captions</h2><span class="sp"></span><span class="lab">Lower-third · Karaoke</span></div>
+<div class="gallery"><div class="fw"><div class="flabel"><b>Active line</b><span>· spoken ink · current bold + clay underline · upcoming grey</span></div><div class="frame capdemo "><div style="position:absolute;left:0;right:0;top:20cqh;text-align:center;font-family:var(--display);font-size:5cqw;line-height:1.1;color:#1D1F1F">These days, PRs from agents<br>are super long</div><div class="bandline"></div><div class="bandtag">Caption Band &middot; 16.7%</div><div class="stage"><div class="line"><span class="w s">Agents</span><span class="w s">write</span><span class="w s">pull</span><span class="w a">requests</span><span class="w ">that</span><span class="w ">are</span><span class="w ">super</span></div></div></div></div><div class="fw"><div class="flabel"><b>Settled line</b><span>· all spoken · plain ink</span></div><div class="frame capdemo "><div style="position:absolute;left:0;right:0;top:20cqh;text-align:center;font-weight:700;font-size:4.4cqw;color:#1D1F1F">Create your <span style="color:#A8472A">PR video</span> today</div><div class="bandline"></div><div class="bandtag">Caption Band &middot; 16.7%</div><div class="stage"><div class="line"><span class="w s">Tell</span><span class="w s">it</span><span class="w s">what</span><span class="w s">to</span><span class="w s">make.</span></div></div></div></div></div>
+</section>
+
+<div class="foot"><span>Cream Workspace</span><span>Frame Showcase · Clay Is The Only Emphasis</span></div>
+</body>
+</html>

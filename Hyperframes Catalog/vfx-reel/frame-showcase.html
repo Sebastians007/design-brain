@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>VFX Reel — Frame Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=DM+Serif+Display:ital@1&family=Inter:wght@400;500;800&family=JetBrains+Mono:wght@500;800&display=swap" rel="stylesheet" />
+    <style>
+:root {
+
+  --ground: #050508; --ink: #FFFFFF; --muted: #A9A9BA; --body: #C8C8D4; --hair: #2B2B36; --card: #0E0E14;
+  --yellow: #F6FF7A; --terra: #D97757; --paper: #F5F4ED;
+  --tl: #06E3FA; --doc: #F6FF7A; --dontc: #D97757; --bandc: #8E8EA0; --bandt: #A9A9BA;
+  --display: "Inter", system-ui, sans-serif; --dw: 800; --sans: "Inter", system-ui, sans-serif; --mono: "JetBrains Mono", ui-monospace, monospace;
+  --cond: "Big Shoulders Display", Impact, sans-serif; --serif: "DM Serif Display", Georgia, serif;
+
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: var(--sans); color: var(--ink); background: var(--ground); -webkit-font-smoothing: antialiased; line-height: 1.4; }
+code { font-family: var(--mono); font-size: .92em; }
+.label { font-family: var(--mono); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+section { position: relative; padding: 96px 64px; max-width: 1360px; margin: 0 auto; }
+.sec-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; border-bottom: 1px solid var(--hair); padding-bottom: 14px; margin-bottom: 40px; }
+.sec-head .n { font-family: var(--mono); font-size: 13px; color: var(--muted); letter-spacing: .06em; }
+.sec-head h2 { font-family: var(--display); font-weight: var(--dw, 400); font-size: clamp(32px, 5vw, 48px); line-height: 1; letter-spacing: -.01em; }
+.sec-head .sp { flex: 1; }
+.sec-head .lab { font-family: var(--mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.cover { min-height: 100vh; max-width: none; display: flex; flex-direction: column; justify-content: center; padding: 80px 64px 56px; }
+.cover .inner { max-width: 1160px; margin: 0 auto; width: 100%; }
+.cover h1 { font-family: var(--display); font-weight: var(--dw, 400); font-size: clamp(48px, 10vw, 150px); line-height: .98; letter-spacing: -.02em; margin: 18px 0 26px; }
+.cover .sub { max-width: 640px; font-size: 18px; line-height: 1.6; color: var(--body); }
+.cover .meta { display: flex; flex-wrap: wrap; gap: 20px 56px; max-width: 1160px; width: 100%; margin: 56px auto 0; border-top: 1px solid var(--hair); padding-top: 18px; }
+.cover .meta .v { font-family: var(--display); font-weight: var(--dw, 400); font-size: 26px; }
+.cover .meta .k { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
+.ref { border: 1px solid var(--hair); overflow: hidden; background: var(--card); }
+.ref img { display: block; width: 100%; height: auto; }
+.ref figcaption { padding: 12px 18px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 16px; }
+.sw { border: 1px solid var(--hair); overflow: hidden; background: var(--card); }
+.sw .chip { height: 84px; border-bottom: 1px solid var(--hair); }
+.sw .name { padding: 12px 14px 2px; font-size: 14px; font-weight: 600; }
+.sw .hex { padding: 0 14px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.sw .role { padding: 4px 14px 14px; font-size: 13px; color: var(--body); line-height: 1.45; }
+.type-row { display: grid; grid-template-columns: 220px 1fr; gap: 28px; align-items: center; padding: 26px 0; border-bottom: 1px solid var(--hair); }
+.type-row .tok { font-family: var(--mono); font-size: 13px; font-weight: 500; }
+.type-row .m { font-size: 12px; color: var(--muted); margin-top: 4px; line-height: 1.4; }
+.spec { min-width: 0; overflow-wrap: anywhere; }
+.cgrid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 28px; margin-bottom: 40px; }
+.s3 { grid-column: span 3; } .s4 { grid-column: span 4; } .s5 { grid-column: span 5; } .s6 { grid-column: span 6; } .s8 { grid-column: span 8; }
+.cgrid > * { min-width: 0; }
+.cnote { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+.agenda .row { display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: baseline; padding: 16px 0; border-bottom: 1px solid var(--hair); }
+.agenda .num { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.agenda .t { font-family: var(--display); font-weight: var(--dw, 400); font-size: 22px; }
+.agenda .d { font-size: 12px; color: var(--muted); }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 2px solid var(--ink); }
+.st { padding: 18px 12px 0 0; }
+.st .f { font-family: var(--display); font-weight: var(--dw, 400); font-size: 52px; line-height: 1; }
+.st .l { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-top: 6px; }
+.timeline { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; padding-top: 22px; }
+.timeline::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 1px; background: var(--hair); }
+.timeline .y { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--tl); }
+.timeline .t { font-family: var(--display); font-weight: var(--dw, 400); font-size: 22px; margin: 6px 0 4px; }
+.timeline .x { font-size: 13px; color: var(--body); line-height: 1.5; }
+.imgph { aspect-ratio: 4/3; border: 1px dashed var(--muted); background: var(--card); display: grid; place-items: center; }
+.imgph span { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.team { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.team .p { text-align: center; }
+.team .ph { aspect-ratio: 1; border: 1px solid var(--hair); background: var(--card); display: grid; place-items: center; font-family: var(--display); font-weight: var(--dw, 400); font-size: 44px; }
+.team .nm { font-family: var(--display); font-weight: var(--dw, 400); font-size: 20px; margin-top: 10px; }
+.team .ro { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(560px, 100%), 1fr)); gap: 40px 28px; }
+.flabel { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; margin-bottom: 10px; font-size: 14px; }
+.flabel b { font-weight: 600; }
+.flabel span { font-family: var(--mono); font-size: 11px; color: var(--muted); letter-spacing: .04em; }
+.frame { position: relative; aspect-ratio: 16 / 9; overflow: hidden; border: 1px solid var(--hair); container-type: size; }
+.center { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; padding: 0 6cqw; }
+.dos { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.do-card { background: var(--card); border: 1px solid var(--hair); padding: 26px 28px; }
+.do-card h4 { font-family: var(--display); font-weight: var(--dw, 400); font-size: 30px; margin-bottom: 12px; }
+.do-card.do h4 { color: var(--doc); } .do-card.dont h4 { color: var(--dontc); }
+.do-card ul { padding-left: 18px; line-height: 1.75; color: var(--body); font-size: 15px; }
+.capdemo .bandline { position: absolute; left: 0; right: 0; bottom: 16.67cqh; border-top: 1px dashed var(--bandc); z-index: 2; }
+.capdemo .bandtag { position: absolute; right: 3cqw; bottom: calc(16.67cqh + .7cqw); font-family: var(--mono); text-transform: uppercase; letter-spacing: .2cqw; font-size: max(9px, .95cqw); color: var(--bandt); z-index: 2; }
+.capdemo .stage { position: absolute; left: 0; right: 0; bottom: 0; height: 16.67cqh; display: flex; align-items: center; justify-content: center; z-index: 4; }
+.capdemo .line { display: flex; flex-wrap: wrap; justify-content: center; }
+.note { margin-top: 28px; max-width: 760px; color: var(--body); line-height: 1.6; font-size: 14px; }
+.foot { max-width: 1360px; margin: 0 auto; padding: 36px 64px 64px; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; font-family: var(--mono); font-size: 12px; color: var(--muted); border-top: 1px solid var(--hair); }
+@media (max-width: 900px) {
+  section { padding: 64px 20px; }
+  .cover { padding: 56px 20px 40px; }
+  .dos, .type-row { grid-template-columns: 1fr; gap: 10px; }
+  .type-row { padding: 20px 0; }
+  .cgrid > * { grid-column: span 12; }
+  .foot { padding: 28px 20px 48px; }
+}
+
+
+.liquid { position: absolute; inset: 0; background:
+  radial-gradient(circle at 18% 30%, #ff4a1c 0 5%, transparent 11%), radial-gradient(circle at 80% 22%, #2d6bff 0 6%, transparent 13%),
+  radial-gradient(circle at 62% 78%, #ffb300 0 5%, transparent 12%), radial-gradient(circle at 30% 80%, #19d27a 0 5%, transparent 11%),
+  radial-gradient(circle at 90% 70%, #e0309c 0 5%, transparent 12%), #07070b; }
+.rays { position: absolute; inset: 0; background:
+  radial-gradient(ellipse 70% 12% at 62% 50%, #ffffff 0, #06E3FA 40%, transparent 75%),
+  radial-gradient(ellipse 60% 22% at 68% 56%, #ff3fb8 0, transparent 70%),
+  radial-gradient(ellipse 55% 20% at 60% 40%, #4FDB5E 0, transparent 70%), #0b2a2c; }
+.mark { display: inline-block; width: 4.4cqw; height: 4.4cqw; border-radius: 1cqw; background: #4FDB5E; vertical-align: middle; }
+.wm { font-weight: 800; letter-spacing: -.04em; line-height: .9; color: #fff; text-align: left; }
+.big-yel { font-family: var(--cond); font-weight: 900; text-transform: uppercase; color: var(--yellow); line-height: .85; }
+.gl { position: absolute; border-radius: 3cqw; background: rgba(5,5,8,.55); border: 1px solid rgba(255,255,255,.17); padding: 3cqw 4cqw; text-align: left; color: #fff; }
+.lilac { position: absolute; inset: 0; background: #A99BDB; }
+.phone { position: absolute; left: 50%; top: 50%; width: 17cqw; height: 78cqh; transform: translate(-50%,-50%) rotate(-3deg); border-radius: 2.2cqw; background: #f4f4f4; border: .55cqw solid #2a2a2e; padding: 4cqh 1.6cqw; }
+.phone i { display: block; height: .9cqh; background: #cfcfd6; margin: 1.6cqh 0; border-radius: 1cqh; }
+.composer { position: absolute; left: 12cqw; right: -4cqw; top: 14cqh; height: 56cqh; background: #fff; border: 1px solid #EBE7DB; border-radius: 3cqw; padding: 4cqw; font-size: 4.6cqw; color: #3D3929; box-shadow: 0 1cqw 3cqw rgba(60,50,30,.1); }
+.cur { display: inline-block; width: 1.2cqw; height: 4.6cqw; background: var(--terra); vertical-align: -.5cqw; }
+.send { position: absolute; left: 50%; top: 50%; width: 12cqw; height: 12cqw; margin: -6cqw 0 0 -6cqw; border-radius: 3cqw; background: var(--terra); color: #fff; display: grid; place-items: center; font-size: 7cqw; box-shadow: 0 1cqw 3cqw rgba(217,119,87,.35); }
+.split { font-weight: 800; letter-spacing: -.02em; color: #fff; font-size: 4.6cqw; text-shadow: -.45cqw 0 rgba(255,40,60,.85), .45cqw 0 rgba(40,120,255,.85), 0 .25cqw rgba(60,255,120,.7); }
+.portal { position: absolute; left: 50%; top: 50%; width: 52cqh; height: 52cqh; margin: -26cqh 0 0 -26cqh; border-radius: 50%; background: #fff; border: 2.2cqw solid #9b6bff; display: grid; place-items: center; }
+.url { font-family: var(--mono); font-weight: 800; font-size: max(8px, 1.5cqw); color: #111; }
+.lg { font-weight: 800; letter-spacing: -.04em; color: #111; font-size: 5.6cqw; line-height: .95; }
+.lg small { display: block; font-size: 3cqw; font-weight: 800; }
+.dark { background: #050508; }
+.capdemo .pill { max-width: 82cqw; padding: 1cqw 2.6cqw 1.2cqw; background: rgba(5,5,8,.62); border: 1px solid rgba(255,255,255,.16); border-radius: 2cqw; }
+.capdemo .line { gap: .1em .3em; font-family: var(--sans); font-weight: 800; font-size: 3.4cqw; line-height: 1.06; letter-spacing: -.03em; }
+.capdemo .w { display: inline-block; padding: 0 .04em; color: rgba(255,255,255,.55); }
+.capdemo .w.spoken { color: #fff; }
+.capdemo .w.active { color: var(--yellow); }
+
+    </style>
+  </head>
+  <body>
+<section class="cover"><div class="inner"><div class="label">VFX Reel — Frame System</div><h1>One effect<br />per beat.</h1><div class="sub">A cinematic showreel look: studio-black grounds, huge pale-yellow and white Inter over rainbow liquid footage, one calm warm-paper prompt scene, an RGB split, and a violet portal that wipes to a clean white logo card.</div></div><div class="meta"><div><div class="v">1920 × 1080</div><div class="k">Frame</div></div><div><div class="v">Edition 01</div><div class="k">Edition</div></div><div><div class="v">Black / Yellow / Paper</div><div class="k">Palette</div></div></div></section><section><div class="sec-head"><span class="n">00</span><h2>The Source</h2><span class="sp"></span><span class="lab">12 sampled frames</span></div>
+  <figure class="ref"><img src="reference-frames.jpg" alt="Twelve sampled frames from the VFX reel" /><figcaption>reference-frames.jpg — what this preset was written from. Compare the frames below against it.</figcaption></figure></section><section><div class="sec-head"><span class="n">01</span><h2>Palette</h2><span class="sp"></span><span class="lab">Black + Yellow + Warm Paper</span></div><div class="swatches"><div class="sw"><div class="chip" style="background:#050508"></div><div class="name">Studio Black</div><div class="hex">#050508</div><div class="role">Home ground between effects.</div></div><div class="sw"><div class="chip" style="background:#06E3FA"></div><div class="name">Ray Cyan</div><div class="hex">#06E3FA</div><div class="role">Light-ray streak, first stop.</div></div><div class="sw"><div class="chip" style="background:#4FDB5E"></div><div class="name">Ray Green</div><div class="hex">#4FDB5E</div><div class="role">Light-ray streak, mark colour.</div></div><div class="sw"><div class="chip" style="background:#F6FF7A"></div><div class="name">Hot Yellow</div><div class="hex">#F6FF7A</div><div class="role">Giant word and active caption word.</div></div><div class="sw"><div class="chip" style="background:#F5F4ED"></div><div class="name">Paper</div><div class="hex">#F5F4ED</div><div class="role">Calm prompt scene ground.</div></div><div class="sw"><div class="chip" style="background:#FAF9F5"></div><div class="name">Prompt Bar</div><div class="hex">#FAF9F5</div><div class="role">Composer fill.</div></div><div class="sw"><div class="chip" style="background:#3D3929"></div><div class="name">Prompt Text</div><div class="hex">#3D3929</div><div class="role">Typed command colour.</div></div><div class="sw"><div class="chip" style="background:#EBE7DB"></div><div class="name">Prompt Border</div><div class="hex">#EBE7DB</div><div class="role">Composer hairline.</div></div><div class="sw"><div class="chip" style="background:#D97757"></div><div class="name">Terracotta</div><div class="hex">#D97757</div><div class="role">Send tile and cursor block.</div></div><div class="sw"><div class="chip" style="background:#7C3AED"></div><div class="name">Portal Violet</div><div class="hex">#7C3AED</div><div class="role">Portal ring, outer stop.</div></div><div class="sw"><div class="chip" style="background:#4A90FF"></div><div class="name">Portal Blue</div><div class="hex">#4A90FF</div><div class="role">Portal ring, inner stop.</div></div><div class="sw"><div class="chip" style="background:#FFFFFF"></div><div class="name">White</div><div class="hex">#FFFFFF</div><div class="role">Statement type and the end card.</div></div></div></section><section><div class="sec-head"><span class="n">02</span><h2>Typography</h2><span class="sp"></span><span class="lab">Inter + Big Shoulders + DM Serif + Mono</span></div><div class="type-row"><div><div class="tok">headline</div><div class="m">Inter 840 · 178px · 0.88 leading · −0.03em</div></div><div class="spec"><span style="font-weight:800;font-size:clamp(40px,7vw,96px);letter-spacing:-.03em;line-height:.9">Full catalog</span></div></div><div class="type-row"><div><div class="tok">sub</div><div class="m">Inter 720 · 92px</div></div><div class="spec"><span style="font-weight:800;font-size:clamp(24px,4vw,48px);color:#C8C8D4">available now</span></div></div><div class="type-row"><div><div class="tok">statement</div><div class="m">Inter 780 · 136px · on dark card</div></div><div class="spec"><span style="font-weight:800;font-size:clamp(30px,5vw,64px);letter-spacing:-.03em">Now supported.</span></div></div><div class="type-row"><div><div class="tok">serif-italic</div><div class="m">DM Serif Display italic · 300px</div></div><div class="spec"><span style="font-family:var(--serif);font-style:italic;font-size:clamp(50px,9vw,120px);color:var(--yellow)">natively</span></div></div><div class="type-row"><div><div class="tok">condensed</div><div class="m">Big Shoulders Display 900 · caps · 300px</div></div><div class="spec"><span class="big-yel" style="font-size:clamp(70px,13vw,160px)">HTML</span></div></div><div class="type-row"><div><div class="tok">prompt</div><div class="m">Inter 400 · 56px · prompt-text</div></div><div class="spec"><span style="font-size:clamp(24px,4vw,44px);color:#3D3929;background:#FAF9F5;padding:10px 22px;display:inline-block">npx example</span></div></div><div class="type-row" style="border-bottom:0"><div><div class="tok">url</div><div class="m">JetBrains Mono 800 · 32px</div></div><div class="spec"><span style="font-family:var(--mono);font-weight:800;font-size:20px;color:#111;background:#fff;padding:8px 16px;display:inline-block">example.com/catalog</span></div></div></section><section><div class="sec-head"><span class="n">03</span><h2>Components</h2><span class="sp"></span><span class="lab">Dark Card · Paper Composer · One Effect</span></div>
+<div class="cgrid">
+  <div class="s4"><div class="cnote">Glass statement card</div><div style="position:relative;background:#07070b;padding:24px"><div class="gl" style="position:relative;padding:22px 26px;border-radius:28px"><div style="font-weight:800;font-size:28px">Now</div><div style="font-family:var(--serif);font-style:italic;font-size:44px;color:var(--yellow)">natively</div><div style="font-weight:800;font-size:30px;text-align:right">supported.</div></div></div></div>
+  <div class="s4"><div class="cnote">Agenda rows</div><div class="agenda">
+    <div class="row"><span class="num">01</span><span class="t">Ray reveal</span><span class="d">Logo rises</span></div>
+    <div class="row"><span class="num">02</span><span class="t">Giant word</span><span class="d">Over liquid</span></div>
+    <div class="row" style="border-bottom:0"><span class="num">03</span><span class="t">Portal</span><span class="d">Wipes to white</span></div></div></div>
+  <div class="s4"><div class="cnote">Stats cluster</div><div class="stats">
+    <div class="st"><div class="f">8</div><div class="l">Beats</div></div>
+    <div class="st"><div class="f">1</div><div class="l">Effect each</div></div>
+    <div class="st"><div class="f">0</div><div class="l">Layered</div></div></div></div>
+</div>
+<div class="cgrid">
+  <div class="s5"><div class="cnote">Timeline</div><div class="timeline">
+    <div><div class="y">Open</div><div class="t">Rays</div><div class="x">Logo drawn by light.</div></div>
+    <div><div class="y">Middle</div><div class="t">Paper pause</div><div class="x">Prompt, send.</div></div>
+    <div><div class="y">Close</div><div class="t">White card</div><div class="x">Portal lands on logo.</div></div></div></div>
+  <div class="s3"><div class="cnote">Image placeholder</div><div class="imgph"><span>Visual reference</span></div></div>
+  <div class="s4"><div class="cnote">Team frames</div><div class="team">
+    <div class="p"><div class="ph">A</div><div class="nm">Avery</div><div class="ro">Editor</div></div>
+    <div class="p"><div class="ph">M</div><div class="nm">Mori</div><div class="ro">Motion</div></div></div></div>
+</div>
+<div class="cgrid" style="margin-bottom:0">
+  <div class="s4"><div class="cnote">Prompt composer + send tile</div><div class="frame" style="background:var(--paper);border-radius:0"><div class="composer" style="left:6cqw;right:6cqw;top:12cqh;height:48cqh;font-size:5cqw">npx example<span class="cur"></span></div><div class="send" style="left:auto;right:9cqw;top:auto;bottom:10cqh;margin:0;width:11cqw;height:11cqw;font-size:6cqw">&#8593;</div></div></div>
+  <div class="s4"><div class="cnote">RGB split text</div><div class="frame dark"><div class="center"><div class="split">You can make this too</div></div></div></div>
+  <div class="s4"><div class="cnote">Portal ring</div><div class="frame dark"><div class="portal"><div class="lg">Studio<small>Frames</small></div></div></div></div>
+</div></section><section><div class="sec-head"><span class="n">04</span><h2>Frame Compositions</h2><span class="sp"></span><span class="lab">True 16:9 · cqw Scaled</span></div><div class="gallery"><div class="fw"><div class="flabel"><b>Ray Logo</b><span>· teal-black ground · light streaks · white wordmark</span></div><div class="frame dark" style=""><div class="rays"></div><div class="center"><div class="wm" style="font-size:6.4cqw"><span style="font-size:3.4cqw;display:block">Studio</span>Frames <span class="mark"></span></div></div></div></div><div class="fw"><div class="flabel"><b>Giant Word on Liquid</b><span>· one huge word · pale yellow · rainbow footage</span></div><div class="frame dark" style=""><div class="liquid"></div><div class="center"><div class="big-yel" style="font-size:46cqw">HTML</div></div></div></div><div class="fw"><div class="flabel"><b>Glass Statement</b><span>· dark frosted card · mixed weights · serif italic</span></div><div class="frame dark" style=""><div class="liquid"></div><div class="gl" style="left:7%;top:8%;right:7%;bottom:8%"><div style="font-weight:800;font-size:6cqw;line-height:1">Now</div><div style="font-family:var(--serif);font-style:italic;font-size:10cqw;line-height:1;color:var(--yellow);margin-left:3cqw">natively</div><div style="font-weight:800;font-size:6.6cqw;line-height:1;text-align:right">supported.</div></div></div></div><div class="fw"><div class="flabel"><b>Phone on Lilac</b><span>· centred phone · grainy lilac ground</span></div><div class="frame " style=""><div class="lilac"></div><div class="phone"><b style="font-size:1.6cqw">App page</b><i></i><i style="width:70%"></i><i></i><i style="width:55%"></i><i></i></div></div></div><div class="fw"><div class="flabel"><b>Prompt Box</b><span>· warm paper · typed command · cursor</span></div><div class="frame " style="background:var(--paper)"><div class="composer">npx example<span class="cur"></span></div></div></div><div class="fw"><div class="flabel"><b>Send Tile</b><span>· terracotta rounded square · white arrow · cursor</span></div><div class="frame " style="background:var(--paper)"><div class="send">&#8593;</div></div></div><div class="fw"><div class="flabel"><b>RGB Split Line</b><span>· small spread line on black · channel fringe</span></div><div class="frame dark" style=""><div class="center"><div class="split">You can make this too</div></div></div></div><div class="fw"><div class="flabel"><b>Catalog Card</b><span>· two-line white statement on black</span></div><div class="frame dark" style=""><div class="center"><div><div style="font-weight:800;font-size:7.4cqw;letter-spacing:-.04em;line-height:1">Full catalog</div><div style="font-weight:800;font-size:4cqw;color:#cfcfd8;margin-top:1cqw">available now</div></div></div></div></div><div class="fw"><div class="flabel"><b>Portal Wipe</b><span>· violet ring expands · black outside · white logo inside</span></div><div class="frame dark" style=""><div class="portal"><div class="lg">Studio<small>Frames</small></div></div></div></div><div class="fw"><div class="flabel"><b>Logo Card</b><span>· pure white ground · dark lockup · mono URL</span></div><div class="frame " style="background:#fff"><div class="center"><div><div class="lg">Studio<small>Frames</small></div><div class="url" style="margin-top:1.6cqw">example.com/catalog</div></div></div></div></div></div><p class="note">HTML approximations of the treatments in <code>FRAME.md</code>. The real film uses light-ray, liquid-footage and 3D-phone renders; gradients here only stand in for that footage to check palette, type and layout. Logos are generic placeholders.</p></section><section><div class="sec-head"><span class="n">05</span><h2>Frame Rules</h2><span class="sp"></span><span class="lab">One Effect · Calm Middle</span></div><div class="dos"><div class="do-card do"><h4>Do</h4><ul><li>Hand each effect to the next with a shared shape.</li><li>Keep one effect per beat; let black and white holds breathe.</li><li>Keep the paper prompt scene flat and calm.</li><li>Set captions on a dark translucent card with an active pale-yellow word.</li><li>Always finish on a pure white logo card.</li></ul></div><div class="do-card dont"><h4>Don’t</h4><ul><li>Don’t layer two effects in one frame.</li><li>Don’t use light type on pale grounds.</li><li>Don’t skip the white end card.</li><li>Don’t add effects to the paper scene.</li></ul></div></div></section><section><div class="sec-head"><span class="n">06</span><h2>Captions</h2><span class="sp"></span><span class="lab">Lower-third · Karaoke</span></div><div class="gallery"><div class="fw"><div class="flabel"><b>Active line</b><span>· spoken · current · upcoming</span></div><div class="frame dark capdemo"><div class="liquid"></div><div class="center" style="padding-bottom:14cqh"><div class="big-yel" style="font-size:30cqw">HTML</div></div><div class="bandline"></div><div class="bandtag">Caption Band · 16.7%</div><div class="stage"><div class="pill"><div class="line"><span class="w spoken">Now</span><span class="w active">natively</span><span class="w ">supported.</span><span class="w ">today.</span></div></div></div></div></div><div class="fw"><div class="flabel"><b>Settled line</b><span>· all spoken · yellow cleared</span></div><div class="frame dark capdemo"><div class="rays"></div><div class="bandline"></div><div class="bandtag">Caption Band · 16.7%</div><div class="stage"><div class="pill"><div class="line"><span class="w spoken">Now</span><span class="w spoken">natively</span><span class="w spoken">supported.</span></div></div></div></div></div></div></section><div class="foot"><span>VFX Reel</span><span>Frame Showcase · Object To Object</span></div>
+  </body>
+</html>

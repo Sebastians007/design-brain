@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Butter-Yellow Kinetic Explainer — Frame Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&family=Spline+Sans+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --ground: #fbf297;
+        --ink: #0b0b0b;
+        --mono-ink: #2b2b2b;
+        --cyan: #18d1e8;
+        --green: #35d65a;
+        --card: #fcffff;
+        --mint: #f0f4f1;
+        --dark: #111111;
+        --prompt: #1b1b1b;
+        --shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+        --rule: rgba(11, 11, 11, 0.2);
+        --sans: "Hanken Grotesk", system-ui, sans-serif;
+        --mono: "Spline Sans Mono", ui-monospace, monospace;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { background: var(--ground); }
+      body { font-family: var(--sans); color: var(--ink); -webkit-font-smoothing: antialiased; }
+      .label { font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--mono-ink); }
+      .kw { color: var(--cyan); }
+
+      section { padding: 96px 64px; max-width: 1360px; margin: 0 auto; }
+      .sec-head { display: flex; align-items: baseline; gap: 18px; border-bottom: 1.5px solid var(--ink); padding-bottom: 14px; margin-bottom: 40px; flex-wrap: wrap; }
+      .sec-head .n { font-family: var(--mono); font-size: 13px; color: var(--mono-ink); }
+      .sec-head h2 { font-weight: 800; font-size: 48px; line-height: 1; letter-spacing: -0.03em; }
+      .sec-head .sp { flex: 1; }
+      .sec-head .lab { font-family: var(--mono); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--mono-ink); }
+
+      /* COVER */
+      .cover { position: relative; min-height: 100vh; max-width: none; display: flex; flex-direction: column; justify-content: center; padding: 80px 64px 140px; }
+      .cover .inner { max-width: 1160px; margin: 0 auto; width: 100%; }
+      .cover h1 { font-weight: 800; font-size: clamp(52px, 10vw, 150px); line-height: 0.96; letter-spacing: -0.03em; margin: 18px 0 26px; }
+      .cover .sub { max-width: 620px; font-size: 19px; line-height: 1.55; font-weight: 500; }
+      .cover .meta { position: absolute; left: 64px; right: 64px; bottom: 48px; display: flex; gap: 56px; flex-wrap: wrap; max-width: 1160px; margin: 0 auto; border-top: 1.5px solid var(--ink); padding-top: 18px; }
+      .cover .meta .v { font-weight: 800; font-size: 24px; letter-spacing: -0.02em; }
+      .cover .meta .k { font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--mono-ink); margin-top: 4px; }
+
+      /* SOURCE */
+      .ref { border-radius: 14px; overflow: hidden; background: var(--card); box-shadow: var(--shadow); }
+      .ref img { display: block; width: 100%; height: auto; }
+      .ref figcaption { padding: 12px 18px; font-family: var(--mono); font-size: 12px; color: var(--mono-ink); }
+
+      /* PALETTE */
+      .swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 16px; }
+      .sw { border-radius: 14px; overflow: hidden; background: var(--card); box-shadow: var(--shadow); }
+      .sw .chip { height: 84px; border-bottom: 1px solid var(--rule); }
+      .sw .name { padding: 12px 14px 2px; font-size: 14px; font-weight: 700; }
+      .sw .hex { padding: 0 14px; font-family: var(--mono); font-size: 12px; color: var(--mono-ink); }
+      .sw .role { padding: 4px 14px 14px; font-size: 13px; color: var(--mono-ink); line-height: 1.45; }
+
+      /* TYPE */
+      .type-row { display: grid; grid-template-columns: 240px 1fr; gap: 28px; align-items: center; padding: 26px 0; border-bottom: 1px solid var(--rule); }
+      .type-row .tok { font-family: var(--mono); font-size: 13px; font-weight: 500; }
+      .type-row .m { font-size: 12px; color: var(--mono-ink); margin-top: 4px; line-height: 1.4; }
+
+      /* COMPONENTS */
+      .cgrid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 28px; margin-bottom: 40px; }
+      .s3 { grid-column: span 3; } .s4 { grid-column: span 4; } .s5 { grid-column: span 5; } .s6 { grid-column: span 6; }
+      .cnote { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--mono-ink); margin-bottom: 12px; }
+      .c-card { background: var(--card); border-radius: 14px; padding: 24px; box-shadow: var(--shadow); }
+      .c-card .t { font-weight: 800; font-size: 26px; letter-spacing: -0.03em; margin-bottom: 6px; }
+      .c-card .x { font-size: 14px; font-weight: 500; line-height: 1.5; color: var(--mono-ink); }
+      .c-card.dark { background: var(--dark); color: #f4f4f0; }
+      .c-card.dark .x { color: #cfcfcb; font-family: var(--mono); font-size: 12px; }
+      .tree { font-family: var(--mono); font-size: 15px; line-height: 1.7; }
+      .tree .dim { opacity: 0.35; }
+      .tree .hit { color: var(--ink); background: var(--cyan); padding: 0 6px; }
+      .tree .tag { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; margin-left: 8px; }
+      .prompt { background: var(--prompt); color: #f4f4f0; font-family: var(--mono); font-size: 14px; padding: 14px 18px; border-radius: 10px; }
+      .prompt .cur { display: inline-block; width: 8px; height: 16px; background: #f4f4f0; vertical-align: -3px; margin-left: 3px; }
+      .progress { height: 6px; background: rgba(11, 11, 11, 0.12); border-radius: 99px; overflow: hidden; }
+      .progress i { display: block; width: 45%; height: 100%; background: var(--cyan); }
+      .stat .big { font-weight: 800; font-size: 72px; letter-spacing: -0.04em; line-height: 1; color: var(--cyan); }
+      .stat .l { font-weight: 800; font-size: 22px; letter-spacing: -0.03em; line-height: 1.1; margin-top: 8px; }
+      .agentrow { display: flex; gap: 20px; align-items: center; }
+      .agentrow .c { width: 130px; height: 90px; background: var(--card); border-radius: 10px; box-shadow: var(--shadow); flex: none; }
+      .agentrow .k { font-family: var(--mono); font-size: 10px; letter-spacing: 0.14em; color: var(--mono-ink); }
+      .agentrow .r { font-weight: 800; font-size: 22px; letter-spacing: -0.03em; line-height: 1.05; }
+      .stats { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1.5px solid var(--ink); }
+      .st { padding: 16px 12px 0 0; }
+      .st .f { font-weight: 800; font-size: 48px; letter-spacing: -0.04em; line-height: 1; }
+      .st .l { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--mono-ink); margin-top: 6px; }
+      .agenda .row { display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid var(--rule); }
+      .agenda .num { font-family: var(--mono); font-size: 12px; color: var(--mono-ink); }
+      .agenda .t { font-weight: 800; font-size: 22px; letter-spacing: -0.03em; }
+      .agenda .d { font-size: 12px; color: var(--mono-ink); }
+      .timeline { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; padding-top: 18px; border-top: 1.5px solid var(--ink); }
+      .timeline .y { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--mono-ink); }
+      .timeline .t { font-weight: 800; font-size: 22px; letter-spacing: -0.03em; margin: 6px 0 4px; }
+      .timeline .x { font-size: 13px; color: var(--mono-ink); line-height: 1.5; }
+      .imgph { aspect-ratio: 4/3; border: 1.5px dashed var(--mono-ink); border-radius: 14px; background: var(--card); display: grid; place-items: center; }
+      .imgph span { font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--mono-ink); }
+      .team { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+      .team .p { text-align: center; }
+      .team .ph { aspect-ratio: 1; border-radius: 14px; background: var(--card); box-shadow: var(--shadow); display: grid; place-items: center; font-weight: 800; font-size: 40px; }
+      .team .nm { font-weight: 800; font-size: 18px; margin-top: 10px; }
+      .team .ro { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--mono-ink); }
+      .capcard { display: inline-block; background: var(--card); border-radius: 14px; box-shadow: var(--shadow); padding: 12px 24px; font-weight: 800; font-size: 24px; letter-spacing: -0.03em; }
+
+      /* FRAMES */
+      .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(560px, 100%), 1fr)); gap: 40px 28px; }
+      .flabel { display: flex; gap: 10px; align-items: baseline; margin-bottom: 10px; font-size: 14px; flex-wrap: wrap; }
+      .flabel b { font-weight: 800; }
+      .flabel span { font-family: var(--mono); font-size: 11px; color: var(--mono-ink); }
+      .frame { position: relative; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 6px; border: 1px solid var(--rule); background: var(--ground); container-type: size; }
+      .center { position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); text-align: center; padding: 0 6cqw; }
+      .kin { font-weight: 800; font-size: 6.4cqw; letter-spacing: -0.03em; line-height: 1; }
+      .ftree { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-family: var(--mono); font-size: 2.2cqw; line-height: 1.55; white-space: nowrap; }
+      .ftree .dim { opacity: 0.35; }
+      .ftree .hit { background: var(--cyan); padding: 0 .6cqw; }
+      .ftree .tag { font-size: 1.3cqw; letter-spacing: .1em; text-transform: uppercase; margin-left: 1cqw; }
+      .ftree .head { font-size: 1.5cqw; margin-bottom: 1cqh; color: var(--mono-ink); }
+      .loader { font-family: var(--mono); font-size: 6cqw; letter-spacing: -.02em; }
+      .fcard { position: absolute; background: var(--card); border-radius: 1.2cqw; box-shadow: 0 2cqw 5cqw rgba(0,0,0,.15); }
+      .fcard.dark { background: var(--dark); }
+      .fcard.pale { background: #fdf8c6; box-shadow: none; }
+      .fprog { position: absolute; left: 4cqw; right: 4cqw; bottom: 8cqh; height: .7cqh; background: rgba(11,11,11,.12); border-radius: 99px; overflow: hidden; }
+      .fprog i { display: block; height: 100%; width: 40%; background: var(--cyan); }
+      .ficon { position: absolute; left: 50%; top: 42%; transform: translate(-50%, -50%); width: 11cqw; height: 14cqw; background: var(--card); border-radius: .8cqw; box-shadow: 0 1.4cqw 3cqw rgba(0,0,0,.15); padding: 1.6cqw 1.2cqw; }
+      .ficon i { display: block; height: .5cqw; background: var(--mono-ink); opacity: .35; margin-bottom: .8cqw; border-radius: 9px; }
+      .ficon i:nth-child(1) { background: var(--cyan); opacity: 1; width: 40%; }
+      .fname { position: absolute; left: 0; right: 0; top: 66%; text-align: center; font-family: var(--mono); font-size: 2.2cqw; }
+      .flabel2 { position: absolute; left: 64cqw; top: 42cqh; }
+      .flabel2 .k { font-family: var(--mono); font-size: 1.1cqw; letter-spacing: .14em; color: var(--mono-ink); }
+      .flabel2 .r { font-weight: 800; font-size: 3cqw; letter-spacing: -.03em; line-height: 1.05; }
+      .fstat { font-weight: 800; letter-spacing: -.04em; line-height: 1; }
+      .wall { position: absolute; inset: 0; background: #fff; display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr); place-items: center; font-family: var(--mono); font-size: 1.5cqw; color: var(--mono-ink); }
+      .markpair { display: inline-flex; gap: .4cqw; vertical-align: top; }
+      .markpair i { display: block; width: 3.4cqw; height: 3cqw; background: var(--green); border-radius: .6cqw; transform: skewX(-12deg); }
+      .markpair i + i { background: #1ea84a; }
+
+      /* RULES */
+      .dos { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+      .do-card { background: var(--card); border-radius: 14px; padding: 26px 28px; box-shadow: var(--shadow); }
+      .do-card h4 { font-weight: 800; font-size: 32px; margin-bottom: 12px; letter-spacing: -0.03em; }
+      .do-card ul { padding-left: 18px; line-height: 1.75; color: var(--mono-ink); font-size: 15px; font-weight: 500; }
+
+      /* CAPTIONS */
+      .capdemo .bandline { position: absolute; left: 0; right: 0; bottom: 16.67cqh; border-top: 1.5px dashed var(--mono-ink); z-index: 2; }
+      .capdemo .bandtag { position: absolute; right: 3cqw; bottom: calc(16.67cqh + .7cqw); font-family: var(--mono); text-transform: uppercase; letter-spacing: .2cqw; font-size: 1cqw; color: var(--mono-ink); z-index: 2; }
+      .capdemo .stage { position: absolute; left: 0; right: 0; bottom: 0; height: 16.67cqh; display: flex; align-items: center; justify-content: center; z-index: 4; }
+      .capdemo .pill { max-width: 80cqw; padding: 1.1cqw 2.6cqw 1.3cqw; background: var(--card); border-radius: 1.2cqw; box-shadow: 0 2cqw 5cqw rgba(0,0,0,.15); }
+      .capdemo .line { display: flex; flex-wrap: wrap; justify-content: center; gap: .1em .28em; font-weight: 800; font-size: 3.4cqw; line-height: 1.12; letter-spacing: -.03em; }
+      .capdemo .w { display: inline-block; padding: 0 .08em; border-radius: .14em; color: #6a6a67; }
+      .capdemo .w.spoken { color: var(--ink); }
+      .capdemo .w.active { color: var(--ink); background: var(--cyan); }
+
+      .foot { max-width: 1360px; margin: 0 auto; padding: 36px 64px 64px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-family: var(--mono); font-size: 12px; color: var(--mono-ink); border-top: 1.5px solid var(--ink); }
+
+      @media (max-width: 900px) {
+        section { padding: 64px 22px; }
+        .cover { padding: 64px 22px 160px; }
+        .cover .meta { left: 22px; right: 22px; gap: 24px; }
+        .dos, .type-row { grid-template-columns: 1fr; }
+        .cgrid > * { grid-column: span 12; }
+        .foot { padding: 28px 22px 48px; }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- COVER -->
+    <section class="cover">
+      <div class="inner">
+        <div class="label">Butter-Yellow Kinetic Explainer — Frame System</div>
+        <h1>Teach the agent<br />the <span class="kw">skill</span>.</h1>
+        <div class="sub">
+          A flat butter-yellow ground, heavy tight black sentences with one cyan word each, mono directory
+          trees where the matched row lights up, and light cards floating on soft shadows.
+        </div>
+      </div>
+      <div class="meta">
+        <div class="m"><div class="v">1920 × 1080</div><div class="k">Frame</div></div>
+        <div class="m"><div class="v">Vol. 04</div><div class="k">Edition</div></div>
+        <div class="m"><div class="v">Yellow / Black / Cyan</div><div class="k">Palette</div></div>
+      </div>
+    </section>
+
+    <!-- SOURCE -->
+    <section>
+      <div class="sec-head"><span class="n">00</span><h2>The Source</h2><span class="sp"></span><span class="lab">12 sampled frames</span></div>
+      <figure class="ref">
+        <img src="reference-frames.jpg" alt="Twelve sampled frames from the butter-yellow agent skills film" />
+        <figcaption>reference-frames.jpg — what this preset was written from. Compare the frames below against it.</figcaption>
+      </figure>
+    </section>
+
+    <!-- PALETTE -->
+    <section>
+      <div class="sec-head"><span class="n">01</span><h2>Palette</h2><span class="sp"></span><span class="lab">Yellow + Ink + One Cyan</span></div>
+      <div class="swatches">
+        <div class="sw"><div class="chip" style="background:#fbf297"></div><div class="name">Ground</div><div class="hex">#FBF297</div><div class="role">Flat butter-yellow carrying every scene.</div></div>
+        <div class="sw"><div class="chip" style="background:#f9f298"></div><div class="name">Ground End</div><div class="hex">#F9F298</div><div class="role">Near-identical end tone of the ground.</div></div>
+        <div class="sw"><div class="chip" style="background:#0b0b0b"></div><div class="name">Ink</div><div class="hex">#0B0B0B</div><div class="role">Kinetic sentences and lockup wordmark.</div></div>
+        <div class="sw"><div class="chip" style="background:#2b2b2b"></div><div class="name">Mono Ink</div><div class="hex">#2B2B2B</div><div class="role">Directory trees and status lines.</div></div>
+        <div class="sw"><div class="chip" style="background:#18d1e8"></div><div class="name">Cyan</div><div class="hex">#18D1E8</div><div class="role">One keyword per sentence, matched row, big stat.</div></div>
+        <div class="sw"><div class="chip" style="background:#35d65a"></div><div class="name">Green</div><div class="hex">#35D65A</div><div class="role">Logo mark and the numeral in the montage.</div></div>
+        <div class="sw"><div class="chip" style="background:#fcffff"></div><div class="name">Card</div><div class="hex">#FCFFFF</div><div class="role">Floating UI cards.</div></div>
+        <div class="sw"><div class="chip" style="background:#f0f4f1"></div><div class="name">Card Mint</div><div class="hex">#F0F4F1</div><div class="role">Stat card and tile-wall panel.</div></div>
+        <div class="sw"><div class="chip" style="background:#111111"></div><div class="name">Card Dark</div><div class="hex">#111111</div><div class="role">Terminal / animating cards.</div></div>
+        <div class="sw"><div class="chip" style="background:#1b1b1b"></div><div class="name">Prompt Bar</div><div class="hex">#1B1B1B</div><div class="role">Typed request bar.</div></div>
+        <div class="sw"><div class="chip" style="background:#fbf297"><div style="width:60%;height:60%;margin:12px auto;background:#fcffff;box-shadow:0 20px 60px rgba(0,0,0,.15)"></div></div><div class="name">Shadow</div><div class="hex">rgba(0,0,0,.15)</div><div class="role">Soft 60px drop shadow under cards.</div></div>
+      </div>
+    </section>
+
+    <!-- TYPOGRAPHY -->
+    <section>
+      <div class="sec-head"><span class="n">02</span><h2>Typography</h2><span class="sp"></span><span class="lab">Hanken Grotesk + Spline Sans Mono</span></div>
+      <div class="type-row"><div><div class="tok">display</div><div class="m">Hanken Grotesk 800 · 84px · -0.03em · 1.0</div></div><div><span style="font-weight:800;letter-spacing:-0.03em;font-size:clamp(40px,7vw,96px);line-height:1">and rebuilt from <span class="kw">the ground up.</span></span></div></div>
+      <div class="type-row"><div><div class="tok">display-sm</div><div class="m">Hanken Grotesk 700 · 60px · -0.03em</div></div><div><span style="font-weight:700;letter-spacing:-0.03em;font-size:clamp(32px,5vw,60px)">One accent word per line</span></div></div>
+      <div class="type-row"><div><div class="tok">keyword</div><div class="m">Hanken Grotesk 800 · cyan · same size as the line</div></div><div><span class="kw" style="font-weight:800;letter-spacing:-0.03em;font-size:clamp(40px,7vw,84px);line-height:1">anyone</span></div></div>
+      <div class="type-row"><div><div class="tok">mono</div><div class="m">Spline Sans Mono 400 · 32px · trees and status</div></div><div><span style="font-family:var(--mono);font-size:24px;color:var(--mono-ink)">├─ typegpu</span></div></div>
+      <div class="type-row"><div><div class="tok">mono-xl</div><div class="m">Spline Sans Mono 400 · 56px · loader lines</div></div><div><span style="font-family:var(--mono);font-size:clamp(28px,5vw,56px)">understanding…</span></div></div>
+      <div class="type-row"><div><div class="tok">card-copy</div><div class="m">Hanken Grotesk 500 · 22px</div></div><div><span style="font-weight:500;font-size:22px">Music and SFX, no voiceover</span></div></div>
+      <div class="type-row"><div><div class="tok">caption</div><div class="m">Hanken Grotesk 800 · 44px · on white card</div></div><div><span class="capcard">Every skill, one request.</span></div></div>
+      <div class="type-row" style="border-bottom:0"><div><div class="tok">stat</div><div class="m">Hanken Grotesk 800 · 120px · cyan</div></div><div><span class="kw" style="font-weight:800;letter-spacing:-0.04em;font-size:clamp(56px,10vw,120px);line-height:1">175+</span></div></div>
+    </section>
+
+    <!-- COMPONENTS -->
+    <section>
+      <div class="sec-head"><span class="n">03</span><h2>Components</h2><span class="sp"></span><span class="lab">Flat Ground · Soft Shadow Cards</span></div>
+
+      <div class="cgrid">
+        <div class="s4">
+          <div class="cnote">Float card · light</div>
+          <div class="c-card"><div class="t">Floating card</div><div class="x">Light UI surface, 14px corners and a large soft shadow on the yellow.</div></div>
+        </div>
+        <div class="s4">
+          <div class="cnote">Float card · dark</div>
+          <div class="c-card dark"><div class="t">Terminal card</div><div class="x">$ run skill --route</div></div>
+        </div>
+        <div class="s4">
+          <div class="cnote">File tree · matched row</div>
+          <div class="tree">skills/<br />├─ gsap<span class="dim"></span><br /><span class="hit">└─ website-to-video</span><span class="tag">matched</span></div>
+        </div>
+      </div>
+
+      <div class="cgrid">
+        <div class="s4">
+          <div class="cnote">Prompt bar</div>
+          <div class="prompt">make me a launch video<span class="cur"></span></div>
+          <div class="cnote" style="margin-top:22px">Progress bar</div>
+          <div class="progress"><i></i></div>
+        </div>
+        <div class="s4">
+          <div class="cnote">Agent card + role label</div>
+          <div class="agentrow"><div class="c"></div><div><div class="k">AGENT TASK</div><div class="r">mapping<br />audio cues</div></div></div>
+        </div>
+        <div class="s4">
+          <div class="cnote">Stat card</div>
+          <div class="c-card stat" style="background:var(--mint)"><div class="big">175+</div><div class="l">languages from<br />one original video.</div></div>
+        </div>
+      </div>
+
+      <div class="cgrid" style="margin-bottom:0">
+        <div class="s5">
+          <div class="cnote">Agenda rows</div>
+          <div class="agenda">
+            <div class="row"><span class="num">01</span><span class="t">Search skills</span><span class="d">List</span></div>
+            <div class="row"><span class="num">02</span><span class="t">Route to one</span><span class="d">Match</span></div>
+            <div class="row" style="border-bottom:0"><span class="num">03</span><span class="t">Render the video</span><span class="d">Output</span></div>
+          </div>
+        </div>
+        <div class="s4">
+          <div class="cnote">Timeline</div>
+          <div class="timeline" style="grid-template-columns:1fr 1fr">
+            <div><div class="y">Step 1</div><div class="t">Search</div><div class="x">Tree appears.</div></div>
+            <div><div class="y">Step 2</div><div class="t">Match</div><div class="x">Row turns cyan.</div></div>
+          </div>
+        </div>
+        <div class="s3">
+          <div class="cnote">Image placeholder</div>
+          <div class="imgph"><span>Visual Reference</span></div>
+        </div>
+      </div>
+      <div class="cgrid" style="margin-top:40px;margin-bottom:0">
+        <div class="s6">
+          <div class="cnote">Team frames</div>
+          <div class="team" style="max-width:300px"><div class="p"><div class="ph">A</div><div class="nm">Avery</div><div class="ro">Editor</div></div><div class="p"><div class="ph">M</div><div class="nm">Mori</div><div class="ro">Design</div></div></div>
+        </div>
+        <div class="s6">
+          <div class="cnote">Stats cluster</div>
+          <div class="stats"><div class="st"><div class="f">9</div><div class="l">Workflows</div></div><div class="st"><div class="f">11</div><div class="l">Skills</div></div><div class="st"><div class="f">1</div><div class="l">Request</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPOSITIONS -->
+    <section>
+      <div class="sec-head"><span class="n">04</span><h2>Frame Compositions</h2><span class="sp"></span><span class="lab">True 16:9 · cqw Scaled</span></div>
+      <div class="gallery">
+
+        <div><div class="flabel"><b>Kinetic Sentence</b><span>· one line · one cyan word</span></div>
+          <div class="frame"><div class="center"><div class="kin">and rebuilt from <span class="kw">the ground up.</span></div></div></div></div>
+
+        <div><div class="flabel"><b>File Tree</b><span>· mono tree · matched row cyan · siblings dim</span></div>
+          <div class="frame"><div class="ftree"><div class="head">searching for a skill…</div>skills/<br /><span class="dim">├─ gsap<br />├─ three<br />├─ lottie<br />├─ tailwind</span><br /><span class="hit">└─ website-to-video</span><span class="tag">matched</span></div></div></div>
+
+        <div><div class="flabel"><b>Loader Line</b><span>· mono · centred</span></div>
+          <div class="frame"><div class="center"><div class="loader">understanding…</div></div></div></div>
+
+        <div><div class="flabel"><b>Intro Card</b><span>· pale card · bold name · progress bar</span></div>
+          <div class="frame"><div class="fcard pale" style="inset:0;border-radius:0"></div>
+            <div style="position:absolute;left:5cqw;top:36cqh;font-weight:800;font-size:3.6cqw;letter-spacing:-.03em">Introducing <span class="kw">Product</span></div>
+            <div style="position:absolute;left:5cqw;top:50cqh;width:26cqw;height:1cqh;background:rgba(11,11,11,.1)"></div>
+            <div style="position:absolute;left:5cqw;top:56cqh;width:20cqw;height:1cqh;background:rgba(11,11,11,.1)"></div>
+            <div style="position:absolute;right:6cqw;top:30cqh;width:30cqw;height:40cqh;background:rgba(11,11,11,.06);border-radius:1cqw"></div>
+            <div class="fprog"><i></i></div></div></div>
+
+        <div><div class="flabel"><b>File Icon</b><span>· document · mono filename</span></div>
+          <div class="frame"><div class="ficon"><i></i><i></i><i style="width:80%"></i><i></i><i style="width:60%"></i></div><div class="fname">SKILL.md</div></div></div>
+
+        <div><div class="flabel"><b>Agent Card + Label</b><span>· floating card left · role label right</span></div>
+          <div class="frame"><div class="fcard" style="left:26cqw;top:8cqh;width:32cqw;bottom:8cqh"><div style="padding:2cqw;font-weight:700;font-size:1.8cqw">Music and SFX, no voiceover</div></div>
+            <div class="flabel2"><div class="k">AGENT TASK</div><div class="r">mapping<br />audio cues</div></div></div></div>
+
+        <div><div class="flabel"><b>Stat Card</b><span>· light card · big cyan number</span></div>
+          <div class="frame"><div class="fcard" style="left:8cqw;right:8cqw;top:12cqh;bottom:12cqh;background:var(--mint)">
+            <div style="position:absolute;left:4cqw;top:22cqh;width:28cqw;height:30cqh;background:#c9cfcb;border-radius:.8cqw"></div>
+            <div style="position:absolute;left:40cqw;top:16cqh"><div class="fstat kw" style="font-size:9cqw">175+</div><div style="font-weight:800;font-size:3cqw;letter-spacing:-.03em;line-height:1.05;margin-top:1.4cqh">languages from<br />one original video.</div></div></div></div></div>
+
+        <div><div class="flabel"><b>Tile Wall</b><span>· near-white · mono workflow names</span></div>
+          <div class="frame"><div class="wall"><span>faceless-explainer</span><span>talking-head-recut</span><span>pr-to-video</span><span>website-to-video</span><span></span><span>embedded-captions</span><span>motion-graphics</span><span>general-video</span><span>music-to-video</span></div></div></div>
+
+        <div><div class="flabel"><b>Numeral</b><span>· tiles collapse into a big number</span></div>
+          <div class="frame"><div class="center"><div class="kin"><span style="color:var(--green);font-size:8cqw">9</span> workflows</div></div></div></div>
+
+        <div><div class="flabel"><b>Lockup</b><span>· black wordmark · green mark</span></div>
+          <div class="frame"><div class="center"><div style="display:inline-block;text-align:left"><div style="display:flex;justify-content:flex-end"><span class="markpair"><i></i><i></i></span></div><div class="kin" style="font-size:7cqw;margin-top:-.6cqw">Wordmark</div></div></div></div></div>
+
+      </div>
+      <p style="margin-top:28px;max-width:760px;color:var(--mono-ink);line-height:1.6;font-size:14px;font-weight:500">
+        These are HTML approximations of the treatments in <code>FRAME.md</code>. The lockup mark is a generic placeholder.
+      </p>
+    </section>
+
+    <!-- RULES -->
+    <section>
+      <div class="sec-head"><span class="n">05</span><h2>Frame Rules</h2><span class="sp"></span><span class="lab">One Accent · Flat Ground</span></div>
+      <div class="dos">
+        <div class="do-card do">
+          <h4>Do</h4>
+          <ul>
+            <li>Land each word on the spoken beat; hard-cut or quick fade on the same yellow.</li>
+            <li>Dim non-matched siblings in a tree to about 35% opacity.</li>
+            <li>Keep the yellow ground flat, with only one cyan word per line.</li>
+            <li>Use mono for system text only; cards get soft shadows.</li>
+          </ul>
+        </div>
+        <div class="do-card dont">
+          <h4>Don't</h4>
+          <ul>
+            <li>Don't add a second accent colour to keywords.</li>
+            <li>Don't use dark grounds except for cards.</li>
+            <li>Don't bold the mono.</li>
+            <li>Don't use a dark theme or multi-colour keywords.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAPTIONS -->
+    <section>
+      <div class="sec-head"><span class="n">06</span><h2>Captions</h2><span class="sp"></span><span class="lab">Lower-third · Karaoke</span></div>
+      <div class="gallery">
+        <div><div class="flabel"><b>Active line</b><span>· spoken · current · upcoming</span></div>
+          <div class="frame capdemo">
+            <div class="center" style="top:38%"><div class="kin" style="font-size:5.4cqw">it lets me <span class="kw">make</span> a video.</div></div>
+            <div class="bandline"></div><div class="bandtag">Caption Band · 16.7%</div>
+            <div class="stage"><div class="pill"><div class="line">
+              <span class="w spoken">It</span><span class="w spoken">lets</span><span class="w active">me</span><span class="w">make</span><span class="w">a</span><span class="w">video.</span>
+            </div></div></div>
+          </div></div>
+        <div><div class="flabel"><b>Settled line</b><span>· all spoken · block cleared</span></div>
+          <div class="frame capdemo">
+            <div class="center" style="top:38%"><div class="kin" style="font-size:5.4cqw">nine <span class="kw">workflows.</span></div></div>
+            <div class="bandline"></div><div class="bandtag">Caption Band · 16.7%</div>
+            <div class="stage"><div class="pill"><div class="line">
+              <span class="w spoken">Nine</span><span class="w spoken">workflows,</span><span class="w spoken">one</span><span class="w spoken">request.</span>
+            </div></div></div>
+          </div></div>
+      </div>
+    </section>
+
+    <div class="foot">
+      <span>Butter-Yellow Kinetic Explainer</span>
+      <span>Frame Showcase · One Accent Word · Flat Ground</span>
+    </div>
+  </body>
+</html>

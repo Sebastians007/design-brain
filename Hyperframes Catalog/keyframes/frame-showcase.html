@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Acid-Green Stickers on Black — Frame Showcase</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700;800;900&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+:root{--bg:#000000;--fg:#ffffff;--mut:#a9b3ae;--body:#cfd6d2;--line:#2b312e;--card:#0f1211;--r:12px;--acc-text:#41e33f;--fbg:#000000;--cbg:#000000;
+--disp:"Hanken Grotesk","Inter",system-ui,sans-serif;--dw:800;--dt:-.03em;--sans:"Hanken Grotesk","Inter",system-ui,sans-serif;--mono:"Spline Sans Mono",ui-monospace,monospace;}
+
+*{margin:0;padding:0;box-sizing:border-box}
+html{background:var(--bg)}
+body{font-family:var(--sans);color:var(--fg);background:var(--bg);-webkit-font-smoothing:antialiased;line-height:1.4}
+.label{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mut)}
+section{position:relative;padding:96px 64px;max-width:1360px;margin:0 auto}
+.sec-head{display:flex;align-items:baseline;gap:18px;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:40px;flex-wrap:wrap}
+.sec-head .n{font-family:var(--mono);font-size:13px;color:var(--mut)}
+.sec-head h2{font-family:var(--disp);font-weight:var(--dw);font-size:clamp(32px,5vw,48px);line-height:1;letter-spacing:var(--dt)}
+.sec-head .sp{flex:1}
+.sec-head .lab{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut)}
+.cover{min-height:100vh;max-width:none;display:flex;flex-direction:column;justify-content:center;padding:80px 64px 150px}
+.cover .inner{max-width:1160px;margin:0 auto;width:100%}
+.cover h1{font-family:var(--disp);font-weight:var(--dw);font-size:clamp(48px,9vw,128px);line-height:1;letter-spacing:var(--dt);margin:18px 0 26px}
+.cover h1 .hl{color:var(--acc-text)}
+.cover .sub{max-width:640px;font-size:18px;line-height:1.6;color:var(--body)}
+.cover .meta{position:absolute;left:64px;right:64px;bottom:48px;display:flex;gap:56px;max-width:1160px;margin:0 auto;border-top:1px solid var(--line);padding-top:18px;flex-wrap:wrap}
+.cover .meta .v{font-family:var(--disp);font-weight:var(--dw);font-size:24px}
+.cover .meta .k{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--mut);margin-top:4px}
+.ref{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.ref img{display:block;width:100%;height:auto}
+.ref figcaption{padding:12px 18px;font-family:var(--mono);font-size:12px;color:var(--mut)}
+.swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:16px}
+.sw{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.sw .chip{height:84px;border-bottom:1px solid var(--line)}
+.sw .name{padding:12px 14px 2px;font-size:14px;font-weight:600}
+.sw .hex{padding:0 14px;font-family:var(--mono);font-size:12px;color:var(--mut)}
+.sw .role{padding:4px 14px 14px;font-size:13px;color:var(--body);line-height:1.45}
+.type-row{display:grid;grid-template-columns:220px 1fr;gap:28px;align-items:center;padding:26px 0;border-bottom:1px solid var(--line)}
+.type-row .tok{font-family:var(--mono);font-size:13px;font-weight:500}
+.type-row .m{font-size:12px;color:var(--mut);margin-top:4px;line-height:1.4}
+.type-row .spec{overflow-wrap:anywhere}
+.cgrid{display:grid;grid-template-columns:repeat(12,1fr);gap:28px;margin-bottom:40px}
+.s3{grid-column:span 3}.s4{grid-column:span 4}.s5{grid-column:span 5}.s6{grid-column:span 6}.s8{grid-column:span 8}
+.cnote{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);margin-bottom:12px}
+.c-card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:26px}
+.c-card .ic{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;font-family:var(--mono);font-size:15px;color:var(--fg);margin-bottom:14px}
+.c-card .t{font-family:var(--disp);font-weight:var(--dw);font-size:26px;margin-bottom:6px;letter-spacing:var(--dt)}
+.c-card .x{font-size:14px;line-height:1.55;color:var(--body)}
+.agenda .row{display:grid;grid-template-columns:44px 1fr auto;gap:12px;align-items:baseline;padding:16px 0;border-bottom:1px solid var(--line)}
+.agenda .num{font-family:var(--mono);font-size:12px;color:var(--mut)}
+.agenda .t{font-family:var(--disp);font-weight:var(--dw);font-size:22px;letter-spacing:var(--dt)}
+.agenda .d{font-size:12px;color:var(--mut)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);border-top:2px solid var(--fg)}
+.st{padding:18px 12px 0 0}
+.st .f{font-family:var(--disp);font-weight:var(--dw);font-size:52px;line-height:1;letter-spacing:var(--dt)}
+.st .l{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);margin-top:6px}
+.timeline{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding-top:22px}
+.timeline::before{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:var(--line)}
+.timeline .y{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--acc-text)}
+.timeline .t{font-family:var(--disp);font-weight:var(--dw);font-size:22px;margin:6px 0 4px;letter-spacing:var(--dt)}
+.timeline .x{font-size:13px;color:var(--body);line-height:1.5}
+.imgph{aspect-ratio:4/3;border:1px dashed var(--mut);border-radius:var(--r);background:var(--card);display:grid;place-items:center}
+.imgph span{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--mut)}
+.team{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.team .p{text-align:center}
+.team .ph{aspect-ratio:1;border-radius:var(--r);border:1px solid var(--line);background:var(--card);display:grid;place-items:center;font-family:var(--disp);font-weight:var(--dw);font-size:40px}
+.team .nm{font-family:var(--disp);font-weight:var(--dw);font-size:20px;margin-top:10px}
+.team .ro{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(560px,100%),1fr));gap:40px 28px}
+.flabel{display:flex;gap:10px;align-items:baseline;margin-bottom:10px;font-size:14px;flex-wrap:wrap}
+.flabel b{font-weight:600}
+.flabel span{font-family:var(--mono);font-size:11px;color:var(--mut);letter-spacing:.04em}
+.frame{position:relative;aspect-ratio:16/9;border-radius:10px;overflow:hidden;border:1px solid var(--line);background:var(--fbg);container-type:size}
+.abs{position:absolute}
+.center{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:0 6cqw}
+.dos{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.do-card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:26px 28px}
+.do-card h4{font-family:var(--disp);font-weight:var(--dw);font-size:30px;margin-bottom:12px}
+.do-card ul{padding-left:18px;line-height:1.75;color:var(--body);font-size:15px}
+.capdemo .bandline{position:absolute;left:0;right:0;bottom:16.67cqh;border-top:1px dashed var(--mut);z-index:2}
+.capdemo .bandtag{position:absolute;right:3cqw;bottom:calc(16.67cqh + .7cqw);font-family:var(--mono);text-transform:uppercase;letter-spacing:.2cqw;font-size:1cqw;color:var(--mut);z-index:2}
+.capdemo .stage{position:absolute;left:0;right:0;bottom:0;height:16.67cqh;display:flex;align-items:center;justify-content:center;z-index:4}
+.capdemo .pill{max-width:80cqw}
+.capdemo .line{display:flex;flex-wrap:wrap;justify-content:center;gap:.1em .34em}
+.foot{max-width:1360px;margin:0 auto;padding:36px 64px 64px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:var(--mono);font-size:12px;color:var(--mut);border-top:1px solid var(--line)}
+@media (max-width:900px){section{padding:64px 20px}.cover{padding:64px 20px 170px}.cover .meta{left:20px;right:20px;gap:24px}.dos,.type-row{grid-template-columns:1fr}.cgrid>*{grid-column:span 12}.foot{padding:28px 20px 48px}}
+
+
+.stk{position:absolute;background:#41e33f;border:.3cqw solid #0b6b1c;border-radius:.9cqw;color:#000;font-weight:900;letter-spacing:-.04em;line-height:1;padding:.2cqw 1.2cqw .5cqw;white-space:nowrap}
+.dia{position:absolute;width:9cqw;height:9cqw;border:.6cqw solid #41e33f;background:#0b6b1c;border-radius:1.6cqw;transform:rotate(45deg)}
+.vc{color:#fff;font-weight:700;letter-spacing:-.01em}
+.white{background:#fff}
+.hdw{font-weight:800;letter-spacing:-.03em;color:#000}
+.ucard{position:absolute;left:50%;transform:translateX(-50%);width:72%;background:#0f1211;border-radius:1cqw;box-shadow:0 .8cqw 2cqw rgba(0,0,0,.25);overflow:hidden}
+.code{font-family:var(--mono);color:#e8e8e8}
+.code .s{color:#f5e27a}.code .n{color:#6fd3f5}.code .o{color:#f59a4a}
+.ed{background:#101413}
+.edbar{height:5cqh;background:#171b1a;display:flex;align-items:center;gap:1cqw;padding:0 1.4cqw;font-size:1.1cqw;color:#a9b3ae;font-family:var(--sans)}
+.greenrect{position:absolute;background:#41e33f;border:.2cqw solid #0b6b1c;border-radius:.4cqw}
+.capdemo .pill{background:transparent}
+.capdemo .line{font-family:var(--sans);font-weight:700;font-size:3.3cqw;line-height:1.2;letter-spacing:-.03em}
+.capdemo .w{display:inline-block;padding:0 .08em;border-radius:.14em;color:#a3a3a3}
+.capdemo .w.spoken{color:#fff}
+.capdemo .w.active{color:#000;background:#41e33f;box-shadow:0 0 0 .06em #0b6b1c}
+.sigsticker{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.sigsticker .stk2{background:#41e33f;border:3px solid #0b6b1c;border-radius:10px;color:#000;font-weight:900;font-size:40px;letter-spacing:-.04em;padding:2px 16px 8px;line-height:1}
+.sigdia{width:60px;height:60px;border:5px solid #41e33f;background:#0b6b1c;border-radius:12px;transform:rotate(45deg);margin:20px}
+.codep{background:#151515;border-radius:10px;padding:18px 22px;font-family:var(--mono);font-size:20px;line-height:1.5;color:#e8e8e8;box-shadow:0 8px 20px rgba(0,0,0,.25);border:1px solid #2b312e}
+.codep .s{color:#f5e27a}.codep .n{color:#6fd3f5}.codep .o{color:#f59a4a}
+
+</style>
+</head>
+<body>
+<section class="cover">
+<div class="inner">
+<div class="label">Acid-Green Stickers on Black — Frame System</div>
+<h1>Black stage,<br><span class="hl">one green.</span></h1>
+<div class="sub">A pure black stage where acid green is the only colour: heavy black words on rotated green stickers riding a thick white curve, a lone green diamond, white UI cards with dark code and editor panels, and a cream end card.</div>
+</div>
+<div class="meta">
+<div><div class="v">1920 × 1080</div><div class="k">Frame</div></div>
+<div><div class="v">Launch Film</div><div class="k">Edition</div></div>
+<div><div class="v">Black / Acid Green / White</div><div class="k">Palette</div></div>
+</div>
+</section>
+
+<section>
+<div class="sec-head"><span class="n">00</span><h2>The Source</h2><span class="sp"></span><span class="lab">12 sampled frames</span></div>
+<figure class="ref"><img src="reference-frames.jpg" alt="Twelve sampled frames from the source video" /><figcaption>reference-frames.jpg — what this preset was written from. Compare the frames below against it.</figcaption></figure>
+</section>
+
+<section>
+<div class="sec-head"><span class="n">01</span><h2>Palette</h2><span class="sp"></span><span class="lab">Black + Green + White</span></div>
+<div class="swatches">
+<div class="sw"><div class="chip" style="background:#000000"></div><div class="name">Black</div><div class="hex">#000000</div><div class="role">The stage for voice cards.</div></div>
+<div class="sw"><div class="chip" style="background:#0F1211"></div><div class="name">Panel</div><div class="hex">#0F1211</div><div class="role">Dark UI panel ground.</div></div>
+<div class="sw"><div class="chip" style="background:#171B1A"></div><div class="name">Panel 2</div><div class="hex">#171B1A</div><div class="role">Editor bars and sidebars.</div></div>
+<div class="sw"><div class="chip" style="background:#151515"></div><div class="name">Terminal</div><div class="hex">#151515</div><div class="role">Code panel ground.</div></div>
+<div class="sw"><div class="chip" style="background:#41E33F"></div><div class="name">Acid Green</div><div class="hex">#41E33F</div><div class="role">Stickers, diamonds, curves, buttons.</div></div>
+<div class="sw"><div class="chip" style="background:#0B6B1C"></div><div class="name">Green Dark</div><div class="hex">#0B6B1C</div><div class="role">Sticker border and diamond fill.</div></div>
+<div class="sw"><div class="chip" style="background:#003000"></div><div class="name">Green Darker</div><div class="hex">#003000</div><div class="role">Deepest green shade.</div></div>
+<div class="sw"><div class="chip" style="background:#FFFFFF"></div><div class="name">White</div><div class="hex">#FFFFFF</div><div class="role">UI card pages and voice text.</div></div>
+<div class="sw"><div class="chip" style="background:#F0EEE6"></div><div class="name">Cream</div><div class="hex">#F0EEE6</div><div class="role">End card ground.</div></div>
+<div class="sw"><div class="chip" style="background:#E8E8E8"></div><div class="name">Code Text</div><div class="hex">#E8E8E8</div><div class="role">Plain code text.</div></div>
+<div class="sw"><div class="chip" style="background:#F5E27A"></div><div class="name">Code String</div><div class="hex">#F5E27A</div><div class="role">String syntax, code only.</div></div>
+<div class="sw"><div class="chip" style="background:#6FD3F5"></div><div class="name">Code Key</div><div class="hex">#6FD3F5</div><div class="role">Key syntax, code only.</div></div>
+<div class="sw"><div class="chip" style="background:#F59A4A"></div><div class="name">Code Number</div><div class="hex">#F59A4A</div><div class="role">Number syntax, code only.</div></div>
+</div>
+</section>
+
+<section>
+<div class="sec-head"><span class="n">02</span><h2>Typography</h2><span class="sp"></span><span class="lab">Hanken Grotesk + Spline Sans Mono</span></div>
+<div class="type-row"><div><div class="tok">sticker</div><div class="m">Hanken Grotesk 900 · 120px · -0.04em · black on green</div></div><div class="spec"><span style="display:inline-block;background:#41e33f;border:4px solid #0b6b1c;border-radius:10px;color:#000;font-weight:900;font-size:clamp(36px,7vw,84px);letter-spacing:-.04em;padding:0 18px 8px;line-height:1.05;transform:rotate(-3deg)">Motion</span></div></div>
+<div class="type-row"><div><div class="tok">headline-white</div><div class="m">Hanken Grotesk 800 · 52px · black on white</div></div><div class="spec"><span style="display:inline-block;background:#fff;color:#000;font-weight:800;font-size:clamp(26px,4vw,52px);letter-spacing:-.03em;padding:6px 18px">so we rebuilt them with code</span></div></div>
+<div class="type-row"><div><div class="tok">voice-line</div><div class="m">Hanken Grotesk 700 · 34px · white on black</div></div><div class="spec"><span style="font-size:34px;font-weight:700">We taught the agent how to see its motion</span></div></div>
+<div class="type-row"><div><div class="tok">caption</div><div class="m">Hanken Grotesk 700 · 34px · bottom centre</div></div><div class="spec"><span style="font-size:34px;font-weight:700">using custom eases</span></div></div>
+<div class="type-row"><div><div class="tok">code</div><div class="m">Spline Sans Mono 400 · 56px</div></div><div class="spec"><span class="codep" style="display:inline-block;font-size:clamp(18px,3vw,32px)">tween.set(<span class="s">"#agents"</span>, { x: <span class="n">0</span> })</span></div></div>
+<div class="type-row"><div><div class="tok">mono-label</div><div class="m">Spline Sans Mono · 14px · green</div></div><div class="spec"><span style="font-family:var(--mono);font-size:14px;color:#41e33f">#agents - 0.0s - 1.2s - 2 keyframes</span></div></div>
+</section>
+
+<section>
+<div class="sec-head"><span class="n">03</span><h2>Components</h2><span class="sp"></span><span class="lab">Stickers · Diamonds · UI Cards</span></div>
+<div class="cgrid">
+<div class="s4"><div class="cnote">UI card</div><div class="c-card"><div class="ic">{ }</div><div class="t">Dark Panel Card</div><div class="x">A dark panel with 10px radius and a soft grey drop shadow, centred on a white page with a black headline above.</div></div></div>
+<div class="s4"><div class="cnote">Agenda rows</div><div class="agenda"><div class="row"><span class="num">01</span><span class="t">Sticker</span><span class="d">Rotated word</span></div><div class="row"><span class="num">02</span><span class="t">Diamond</span><span class="d">Single marker</span></div><div class="row"><span class="num">03</span><span class="t">UI card</span><span class="d">Code / editor</span></div></div></div>
+<div class="s4"><div class="cnote">Stats cluster</div><div class="stats"><div class="st"><div class="f">1</div><div class="l">Accent</div></div><div class="st"><div class="f">2</div><div class="l">Card types</div></div><div class="st"><div class="f">0</div><div class="l">Pastels</div></div></div></div>
+</div>
+<div class="cgrid">
+<div class="s5"><div class="cnote">Timeline</div><div class="timeline"><div><div class="y">Opening</div><div class="t">Stickers</div><div class="x">Words ride the white curve.</div></div><div><div class="y">Middle</div><div class="t">UI cards</div><div class="x">White pages, dark panels.</div></div><div><div class="y">Finale</div><div class="t">Grid</div><div class="x">3D layers, dotted path.</div></div></div></div>
+<div class="s3"><div class="cnote">Image placeholder</div><div class="imgph"><span>Visual Reference</span></div></div>
+<div class="s4"><div class="cnote">Team frames</div><div class="team">
+<div class="p"><div class="ph">A</div><div class="nm">Avery</div><div class="ro">Editor</div></div>
+<div class="p"><div class="ph">M</div><div class="nm">Mori</div><div class="ro">Design</div></div>
+</div></div>
+</div>
+<div class="cgrid" style="margin-bottom:0">
+<div class="s6"><div class="cnote">Sticker</div><div class="sigsticker"><span class="stk2" style="transform:rotate(-4deg)">Motion</span><span class="stk2" style="transform:rotate(3deg)">is</span><span class="stk2" style="transform:rotate(-2deg)">hard</span></div></div><div class="s6"><div class="cnote">Diamond marker</div><div class="sigdia"></div></div><div class="s6" style="margin-top:28px"><div class="cnote">Code panel</div><div class="codep">tween.set(<span class="s">"#agents"</span>, {<br>&nbsp;&nbsp;x: <span class="n">0</span>,<br>})</div></div>
+</div>
+</section>
+
+<section>
+<div class="sec-head"><span class="n">04</span><h2>Frame Compositions</h2><span class="sp"></span><span class="lab">True 16:9 · cqw Scaled</span></div>
+<div class="gallery">
+<div class="fw"><div class="flabel"><b>Sticker Path</b><span>· words on a curving white line</span></div>
+<div class="frame"><svg class="abs" viewBox="0 0 160 90" preserveAspectRatio="none" style="inset:0;width:100%;height:100%"><path d="M0 12 Q30 14 50 50 T160 70" stroke="#fff" stroke-width="1.6" fill="none" vector-effect="non-scaling-stroke"/></svg><div class="stk" style="left:8cqw;top:12cqh;font-size:8cqw;transform:rotate(32deg)">Motion</div><div class="stk" style="left:36cqw;top:58cqh;font-size:6cqw;transform:rotate(-5deg)">is</div><div class="stk" style="left:48cqw;top:52cqh;font-size:8cqw;transform:rotate(-4deg)">hard</div></div>
+</div>
+<div class="fw"><div class="flabel"><b>Sticker Pile</b><span>· stickers stack and stagger</span></div>
+<div class="frame"><div class="stk" style="left:8cqw;top:12cqh;font-size:6.5cqw">and</div><div class="stk" style="left:24cqw;top:12cqh;font-size:6.5cqw">for</div><div class="stk" style="left:4cqw;top:36cqh;font-size:6.5cqw">humans</div><div class="stk" style="left:36cqw;top:36cqh;font-size:6.5cqw">to</div><div class="stk" style="left:48cqw;top:36cqh;font-size:6.5cqw">get</div><div class="stk" style="left:8cqw;top:62cqh;font-size:6.5cqw">is</div><div class="stk" style="left:20cqw;top:62cqh;font-size:6.5cqw">hard</div><div class="stk" style="left:82cqw;top:20cqh;font-size:6cqw;transform:rotate(90deg);transform-origin:left top">agents</div></div>
+</div>
+<div class="fw"><div class="flabel"><b>Diamond Voice Card</b><span>· captions above and below a green diamond</span></div>
+<div class="frame"><div class="abs vc" style="left:0;right:0;top:20cqh;text-align:center;font-size:2.4cqw">so we studied the tools pros use</div><div class="dia" style="left:50%;top:50%;margin:-4.5cqw 0 0 -4.5cqw"></div><div class="abs vc" style="left:0;right:0;bottom:20cqh;text-align:center;font-size:2.4cqw">and one of them kept coming up</div></div>
+</div>
+<div class="fw"><div class="flabel"><b>White Code Card</b><span>· headline above - dark code panel</span></div>
+<div class="frame white"><div class="abs hdw" style="left:0;right:0;top:7cqh;text-align:center;font-size:3cqw">so we rebuilt them with code</div><div class="ucard" style="top:23cqh;height:62cqh;background:#151515"><div class="code" style="padding:2.4cqw;font-size:2.6cqw;line-height:1.5"><b style="font-family:var(--sans);color:#fff;font-size:3cqw;letter-spacing:-.03em">Every diamond is real code</b><br>tween.set(<span class="s">"#agents"</span>, {<br>&nbsp;&nbsp;x: <span class="n">0</span>,<br>})</div></div></div>
+</div>
+<div class="fw"><div class="flabel"><b>White Editor Card</b><span>· zoomed editor UI on a white page</span></div>
+<div class="frame white"><div class="abs hdw" style="left:0;right:0;top:7cqh;text-align:center;font-size:3cqw">so we rebuilt them with code</div><div class="ucard" style="top:23cqh;height:62cqh;background:#151515"><div class="ed" style="position:absolute;inset:0"><div class="greenrect" style="left:48%;top:20%;width:14%;height:16%"></div><div class="abs" style="left:4%;right:4%;bottom:14%;height:1px;background:#2b312e"></div><div class="abs" style="left:30%;bottom:8%;width:2px;height:40%;background:#41e33f"></div></div></div></div>
+</div>
+<div class="fw"><div class="flabel"><b>Dark Editor</b><span>· preview stage - ease graph - lower caption</span></div>
+<div class="frame ed"><div class="edbar"><span>project</span><span style="background:#2b312e;color:#fff;border-radius:99px;padding:.1cqw 1cqw">Preview</span></div><div class="abs" style="left:4%;top:12%;width:50%;height:56%;background:#000"><div class="greenrect" style="left:52%;top:22%;width:22%;height:20%"></div></div><div class="abs" style="left:62%;top:12%;width:34%;height:56%;background:#171b1a;border-radius:.6cqw"><svg viewBox="0 0 100 100" class="abs" style="left:10%;top:22%;width:80%;height:70%"><path d="M0 100 C35 100 45 0 100 0" stroke="#41e33f" stroke-width="2" fill="none"/><circle cx="35" cy="100" r="2.5" fill="#fff"/><circle cx="45" cy="0" r="2.5" fill="#fff"/></svg></div><div class="abs vc" style="left:0;right:0;bottom:6cqh;text-align:center;font-size:3.1cqw">using custom eases</div></div>
+</div>
+<div class="fw"><div class="flabel"><b>Black Line</b><span>· white sentence with a small diamond</span></div>
+<div class="frame"><div class="center"><div><div class="vc" style="font-size:3.2cqw">We taught the agent how to see its motion</div><div style="width:2.4cqw;height:2.4cqw;border:.4cqw solid #41e33f;background:#0b6b1c;border-radius:.5cqw;transform:rotate(45deg);margin:6cqh auto 0"></div></div></div></div>
+</div>
+<div class="fw"><div class="flabel"><b>Terminal Card</b><span>· dark window on white</span></div>
+<div class="frame white"><div class="ucard" style="top:16cqh;width:40%;height:68cqh;background:#0f1211"><div style="display:flex;gap:.5cqw;padding:1.2cqw"><i style="display:block;width:.9cqw;height:.9cqw;border-radius:50%;background:#e5645a"></i><i style="display:block;width:.9cqw;height:.9cqw;border-radius:50%;background:#e8b84a"></i><i style="display:block;width:.9cqw;height:.9cqw;border-radius:50%;background:#5bc564"></i></div><div class="code" style="padding:0 1.4cqw;font-size:1.2cqw;line-height:1.6">$ tool inspect --shot<br><span style="color:#41e33f">#agents - 0.0s - 1.2s - 2 keyframes</span></div></div></div>
+</div>
+<div class="fw"><div class="flabel"><b>Perspective Grid</b><span>· 3D layers - dotted trajectory - mono labels</span></div>
+<div class="frame"><div class="abs" style="left:20cqw;top:46cqh;width:60cqw;height:34cqh;border:1px solid #1b6b28;transform:perspective(60cqw) rotateX(62deg) rotate(-14deg);background-image:linear-gradient(#0b3d17 1px,transparent 1px),linear-gradient(90deg,#0b3d17 1px,transparent 1px);background-size:5cqw 5cqw"></div><div class="greenrect" style="left:44cqw;top:20cqh;width:6cqw;height:5cqh"></div><div class="greenrect" style="left:38cqw;top:38cqh;width:5cqw;height:4cqh;opacity:.6"></div><div class="greenrect" style="left:28cqw;top:62cqh;width:4cqw;height:3.4cqh;opacity:.4"></div><div class="abs" style="left:30cqw;top:30cqh;width:18cqw;border-top:.3cqw dotted #41e33f;transform:rotate(-52deg);transform-origin:left top"></div><span class="abs" style="left:6cqw;top:7cqh;font-family:var(--mono);font-size:1.1cqw;color:#41e33f">#agents - 0.0s - 1.2s - 2 keyframes</span><div class="abs vc" style="left:0;right:0;bottom:6cqh;text-align:center;font-size:2.4cqw">now the agent sees all the layers</div></div>
+</div>
+<div class="fw"><div class="flabel"><b>Cream End Card</b><span>· generic wordmark on cream</span></div>
+<div class="frame" style="background:#f0eee6"><div class="center"><div style="font-weight:900;font-size:6cqw;letter-spacing:-.04em;line-height:.95;color:#000;text-align:left;position:relative">Brand<br>Wordmark<span style="position:absolute;right:-1cqw;top:-4.6cqw;display:flex;gap:.4cqw"><i style="display:block;width:2.6cqw;height:4cqw;background:#41e33f;border-radius:.7cqw;transform:skewX(-18deg)"></i><i style="display:block;width:2.6cqw;height:4cqw;background:#2bbf2b;border-radius:.7cqw;transform:skewX(-18deg)"></i></span></div></div></div>
+</div>
+</div>
+<p style="margin-top:28px;max-width:760px;color:var(--body);line-height:1.6;font-size:14px">HTML approximations of the treatments in <code>FRAME.md</code>, with generic placeholders instead of real logos and mascots. They exist to check palette, type, spacing and mood against the source frames above.</p>
+</section>
+
+<section>
+<div class="sec-head"><span class="n">05</span><h2>Frame Rules</h2><span class="sp"></span><span class="lab">Black Stage · One Green</span></div>
+<div class="dos">
+<div class="do-card"><h4>Do</h4><ul>
+<li>Time hard cuts to the voice; flip black to white to separate voice and UI cards.</li>
+<li>Rotate every sticker so it follows the curve.</li>
+<li>Keep green as the only accent; code syntax colours stay inside code panels.</li>
+<li>Show real custom beziers on screen when talking about eases.</li>
+<li>Set lower captions in bold white, bottom centre.</li>
+</ul></div>
+<div class="do-card"><h4>Don't</h4><ul>
+<li>Don't use a second accent colour outside code syntax.</li>
+<li>Don't blur anything.</li>
+<li>Don't leave a sticker un-rotated on the curve.</li>
+<li>Don't use soft pastel UI.</li>
+</ul></div>
+</div>
+</section>
+
+<section>
+<div class="sec-head"><span class="n">06</span><h2>Captions</h2><span class="sp"></span><span class="lab">Lower-third · Karaoke</span></div>
+<div class="gallery">
+<div class="fw"><div class="flabel"><b>Active line</b><span>· spoken · current · upcoming</span></div>
+<div class="frame capdemo" style="background:var(--cbg)">
+<div class="center" style="padding-bottom:14cqh"><div class="vc" style="font-size:3.4cqw">now the agent sees<br>all the layers</div></div>
+<div class="bandline"></div><div class="bandtag">Caption Band · 16.7%</div>
+<div class="stage"><div class="pill"><div class="line"><span class="w spoken">now</span><span class="w spoken">the</span><span class="w active">agent</span><span class="w">sees</span><span class="w">layers</span></div></div></div>
+</div></div>
+<div class="fw"><div class="flabel"><b>Settled line</b><span>· all spoken · marker cleared</span></div>
+<div class="frame capdemo" style="background:var(--cbg)">
+<div class="center" style="padding-bottom:14cqh"><div class="vc" style="font-size:3.4cqw">using custom<br>eases</div></div>
+<div class="bandline"></div><div class="bandtag">Caption Band · 16.7%</div>
+<div class="stage"><div class="pill"><div class="line"><span class="w spoken">using</span><span class="w spoken">custom</span><span class="w spoken">eases</span></div></div></div>
+</div></div>
+</div>
+</section>
+
+<div class="foot"><span>Acid-Green Stickers on Black</span><span>Black stage · acid green stickers · white UI cards</span></div>
+</body>
+</html>

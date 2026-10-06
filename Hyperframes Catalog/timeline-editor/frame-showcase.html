@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Timeline Editor — Frame Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@1,900&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --ground: #F5F5F7;
+        --ink: #1D1D1F;
+        --muted: #5F5F64;
+        --body: #3A3A3D;
+        --hair: #D9D9DE;
+        --dash: #8E8E93;
+        --card: #FFFFFF;
+        --r: 14px;
+        --orange: #D97757;
+        --chat: #F5F4ED;
+        --chat-border: #E5E0D1;
+        --display: "Inter", system-ui, sans-serif;
+        --sans: "Inter", system-ui, sans-serif;
+        --mono: "JetBrains Mono", ui-monospace, monospace;
+        --h-weight: 900;
+        --h-track: -0.045em;
+        --h-lead: 0.9;
+      }
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { background: var(--ground); }
+body { font-family: var(--sans); color: var(--ink); background: var(--ground); -webkit-font-smoothing: antialiased; line-height: 1.5; }
+img { max-width: 100%; }
+.label { font-family: var(--mono); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+section { position: relative; padding: 96px 64px; max-width: 1360px; margin: 0 auto; }
+.sec-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; border-bottom: 1px solid var(--hair); padding-bottom: 14px; margin-bottom: 40px; }
+.sec-head .n { font-family: var(--mono); font-size: 13px; color: var(--muted); letter-spacing: 0.06em; }
+.sec-head h2 { font-family: var(--display); font-weight: var(--h-weight); font-size: clamp(34px, 5vw, 48px); line-height: 1; letter-spacing: var(--h-track); }
+.sec-head .sp { flex: 1; }
+.sec-head .lab { font-family: var(--mono); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+
+.cover { min-height: 100vh; max-width: none; display: flex; flex-direction: column; justify-content: center; padding: 80px 64px 150px; overflow: hidden; }
+.cover .inner { max-width: 1160px; margin: 0 auto; width: 100%; }
+.cover h1 { font-family: var(--display); font-weight: var(--h-weight); font-size: clamp(54px, 10vw, 150px); line-height: var(--h-lead); letter-spacing: var(--h-track); margin: 18px 0 26px; }
+.cover h1 em { font-style: italic; }
+.cover .sub { max-width: 640px; font-size: 18px; line-height: 1.6; color: var(--body); }
+.cover .meta { position: absolute; left: 64px; right: 64px; bottom: 48px; display: flex; flex-wrap: wrap; gap: 20px 56px; max-width: 1160px; margin: 0 auto; border-top: 1px solid var(--hair); padding-top: 18px; }
+.cover .meta .v { font-family: var(--display); font-weight: var(--h-weight); font-size: 24px; }
+.cover .meta .k { font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
+
+.ref { border: 1px solid var(--hair); border-radius: 14px; overflow: hidden; background: var(--card); }
+.ref img { display: block; width: 100%; height: auto; }
+.ref figcaption { padding: 12px 18px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+
+.swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 16px; }
+.sw { border: 1px solid var(--hair); border-radius: 12px; overflow: hidden; background: var(--card); }
+.sw .chip { height: 84px; border-bottom: 1px solid var(--hair); }
+.sw .name { padding: 12px 14px 2px; font-size: 14px; font-weight: 600; }
+.sw .hex { padding: 0 14px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.sw .role { padding: 4px 14px 14px; font-size: 13px; color: var(--body); line-height: 1.45; }
+
+.type-row { display: grid; grid-template-columns: 220px 1fr; gap: 28px; align-items: center; padding: 26px 0; border-bottom: 1px solid var(--hair); }
+.type-row .tok { font-family: var(--mono); font-size: 13px; font-weight: 500; }
+.type-row .m { font-size: 12px; color: var(--muted); margin-top: 4px; line-height: 1.4; }
+.type-row .spec { overflow-wrap: anywhere; }
+
+.cgrid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 28px; margin-bottom: 40px; }
+.s3 { grid-column: span 3; } .s4 { grid-column: span 4; } .s5 { grid-column: span 5; } .s6 { grid-column: span 6; } .s8 { grid-column: span 8; }
+.cnote { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+.c-card { background: var(--card); border: 1px solid var(--hair); border-radius: var(--r); padding: 26px; }
+.c-card .ic { width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--hair); display: grid; place-items: center; font-family: var(--display); font-weight: var(--h-weight); font-size: 17px; margin-bottom: 14px; }
+.c-card .t { font-family: var(--display); font-weight: var(--h-weight); letter-spacing: var(--h-track); font-size: 26px; margin-bottom: 6px; }
+.c-card .x { font-size: 14px; line-height: 1.55; color: var(--body); }
+.agenda .row { display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: baseline; padding: 16px 0; border-bottom: 1px solid var(--hair); }
+.agenda .num { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.agenda .t { font-family: var(--display); font-weight: var(--h-weight); letter-spacing: var(--h-track); font-size: 22px; }
+.agenda .d { font-size: 12px; color: var(--muted); }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--ink); }
+.st { padding: 18px 12px 0 0; }
+.st .f { font-family: var(--display); font-weight: var(--h-weight); letter-spacing: var(--h-track); font-size: 52px; line-height: 1; }
+.st .l { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-top: 6px; }
+.timeline { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; padding-top: 22px; }
+.timeline::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 1px; background: var(--hair); }
+.timeline .y { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.timeline .t { font-family: var(--display); font-weight: var(--h-weight); letter-spacing: var(--h-track); font-size: 22px; margin: 6px 0 4px; }
+.timeline .x { font-size: 13px; color: var(--body); line-height: 1.5; }
+.imgph { aspect-ratio: 4/3; border: 1px dashed var(--dash); border-radius: var(--r); background: var(--card); display: grid; place-items: center; }
+.imgph span { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.team { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.team .p { text-align: center; }
+.team .ph { aspect-ratio: 1; border-radius: var(--r); border: 1px solid var(--hair); background: var(--card); display: grid; place-items: center; font-family: var(--display); font-weight: var(--h-weight); font-size: 40px; }
+.team .nm { font-family: var(--display); font-weight: var(--h-weight); font-size: 20px; margin-top: 10px; }
+.team .ro { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 560px), 1fr)); gap: 40px 28px; }
+.flabel { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; margin-bottom: 10px; font-size: 14px; }
+.flabel b { font-weight: 600; }
+.flabel span { font-family: var(--mono); font-size: 11px; color: var(--muted); letter-spacing: .04em; }
+.frame { position: relative; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; border: 1px solid var(--hair); background: var(--ground); container-type: size; }
+.center { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; padding: 0 6cqw; }
+
+.dos { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.do-card { background: var(--card); border: 1px solid var(--hair); border-radius: 14px; padding: 26px 28px; }
+.do-card h4 { font-family: var(--display); font-weight: var(--h-weight); font-size: 30px; margin-bottom: 12px; }
+.do-card ul { padding-left: 18px; line-height: 1.75; color: var(--body); font-size: 15px; }
+
+.capdemo .bandline { position: absolute; left: 0; right: 0; bottom: 16.67cqh; border-top: 1px dashed var(--dash); z-index: 2; }
+.capdemo .bandtag { position: absolute; right: 3cqw; bottom: calc(16.67cqh + .7cqw); font-family: var(--mono); text-transform: uppercase; letter-spacing: .2cqw; font-size: 1.1cqw; color: var(--muted); z-index: 2; }
+.capdemo .stage { position: absolute; left: 0; right: 0; bottom: 0; height: 16.67cqh; display: flex; align-items: center; justify-content: center; z-index: 4; }
+.capdemo .line { display: flex; flex-wrap: wrap; justify-content: center; gap: .1em .34em; }
+
+.foot { max-width: 1360px; margin: 0 auto; padding: 36px 64px 64px; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; font-family: var(--mono); font-size: 12px; color: var(--muted); border-top: 1px solid var(--hair); }
+
+@media (max-width: 900px) {
+  section { padding: 64px 20px; }
+  .cover { padding: 64px 20px 190px; }
+  .cover .meta { left: 20px; right: 20px; gap: 16px 32px; }
+  .dos, .type-row { grid-template-columns: 1fr; }
+  .type-row { gap: 10px; }
+  .cgrid > * { grid-column: span 12; }
+  .foot { padding: 28px 20px 48px; }
+}
+
+
+      .fw { min-width: 0; }
+      .do-card.do h4 { color: #1D1D1F; } .do-card.dont h4 { color: #1D1D1F; }
+      .capdemo .pill { max-width: 82cqw; padding: 1.1cqw 2.8cqw 1.3cqw; background: #F5F5F7; border: 1px solid rgba(29,29,31,.12); border-radius: 1.4cqw; }
+      .capdemo .line { font-family: var(--display); font-weight: 900; font-size: 4.2cqw; line-height: 1.02; letter-spacing: -0.045em; text-transform: lowercase; }
+      .capdemo .w { display: inline-block; padding: 0 .08em; border-radius: .12em; color: #6C6C70; }
+      .capdemo .w.spoken { color: #1D1D1F; }
+      .capdemo .w.active { color: #1D1D1F; background: #D97757; }
+
+    </style>
+  </head>
+  <body>
+    <!-- COVER -->
+    <section class="cover">
+      <div class="inner">
+        <div class="label">Timeline Editor — Frame System</div>
+        <h1>type is<br />the <span style="background:var(--orange);padding:0 .1em">picture.</span></h1>
+        <div class="sub">A bright off-white launch gag in motion — giant ultra-heavy Inter on #F5F5F7, one brand orange, a chat spiral that ends at a limit card, and a flat colourful timeline you simply drag.</div>
+      </div>
+      <div class="meta">
+        <div class="m"><div class="v">1920 × 1080</div><div class="k">Frame</div></div>
+        <div class="m"><div class="v">Vol. 03</div><div class="k">Edition</div></div>
+        <div class="m"><div class="v">Apple White / Ink / Orange</div><div class="k">Palette</div></div>
+      </div>
+    </section>
+
+    <!-- SOURCE -->
+    <section>
+      <div class="sec-head"><span class="n">00</span><h2>The Source</h2><span class="sp"></span><span class="lab">12 sampled frames</span></div>
+      <figure class="ref">
+        <img src="reference-frames.jpg" alt="Twelve sampled frames from the source video" />
+        <figcaption>reference-frames.jpg — what this preset was written from. Compare the frames below against it.</figcaption>
+      </figure>
+    </section>
+
+    <!-- PALETTE -->
+    <section>
+      <div class="sec-head"><span class="n">01</span><h2>Palette</h2><span class="sp"></span><span class="lab">Off-white + Ink + One Orange</span></div>
+      <div class="swatches">
+        <div class="sw"><div class="chip" style="background:#F5F5F7"></div><div class="name">Canvas</div><div class="hex">#F5F5F7</div><div class="role">Home-base ground of every beat.</div></div>
+        <div class="sw"><div class="chip" style="background:#1D1D1F"></div><div class="name">Ink</div><div class="hex">#1D1D1F</div><div class="role">Giant headline type.</div></div>
+        <div class="sw"><div class="chip" style="background:#D97757"></div><div class="name">Orange</div><div class="hex">#D97757</div><div class="role">The one accent: pill, send button, dragged clip.</div></div>
+        <div class="sw"><div class="chip" style="background:#F5F4ED"></div><div class="name">Chat Cream</div><div class="hex">#F5F4ED</div><div class="role">Chat column ground.</div></div>
+        <div class="sw"><div class="chip" style="background:#F0ECE0"></div><div class="name">Chat Cream 2</div><div class="hex">#F0ECE0</div><div class="role">Composer and bubble fill.</div></div>
+        <div class="sw"><div class="chip" style="background:#E5E0D1"></div><div class="name">Chat Border</div><div class="hex">#E5E0D1</div><div class="role">Bubble and composer hairlines.</div></div>
+        <div class="sw"><div class="chip" style="background:#3D3929"></div><div class="name">Chat Ink</div><div class="hex">#3D3929</div><div class="role">Chat body text.</div></div>
+        <div class="sw"><div class="chip" style="background:#6B6757"></div><div class="name">Chat Muted</div><div class="hex">#6B6757</div><div class="role">Small labels.</div></div>
+        <div class="sw"><div class="chip" style="background:#4C9BFF"></div><div class="name">Clip Blue</div><div class="hex">#4C9BFF</div><div class="role">Timeline clip bar.</div></div>
+        <div class="sw"><div class="chip" style="background:#B37BEA"></div><div class="name">Clip Purple</div><div class="hex">#B37BEA</div><div class="role">Timeline clip bar.</div></div>
+        <div class="sw"><div class="chip" style="background:#EBC946"></div><div class="name">Clip Yellow</div><div class="hex">#EBC946</div><div class="role">Timeline clip bar.</div></div>
+        <div class="sw"><div class="chip" style="background:#29D200"></div><div class="name">Green</div><div class="hex">#29D200</div><div class="role">Playhead and short clip.</div></div>
+        <div class="sw"><div class="chip" style="background:#C9A227"></div><div class="name">Gold</div><div class="hex">#C9A227</div><div class="role">The 'tokens' word.</div></div>
+        <div class="sw"><div class="chip" style="background:#FF3B30"></div><div class="name">Alert Red</div><div class="hex">#FF3B30</div><div class="role">Limit-card warning mark.</div></div>
+        <div class="sw"><div class="chip" style="background:#FFFFFF"></div><div class="name">White</div><div class="hex">#FFFFFF</div><div class="role">Limit card ground.</div></div>
+      </div>
+    </section>
+
+    <!-- TYPOGRAPHY -->
+    <section>
+      <div class="sec-head"><span class="n">02</span><h2>Typography</h2><span class="sp"></span><span class="lab">Inter 900 + Script Italic + Mono</span></div>
+      <div class="type-row"><div><div class="tok">kinetic</div><div class="m">Inter 900 · −0.045em · 0.88 leading · 240px</div></div><div class="spec"><span style="font-weight:900;letter-spacing:-.045em;line-height:.9;font-size:clamp(48px,9vw,120px)">timing is tricky.</span></div></div>
+      <div class="type-row"><div><div class="tok">hero-word</div><div class="m">Inter 900 · −0.045em · up to 500px</div></div><div class="spec"><span style="font-weight:900;letter-spacing:-.045em;line-height:.9;font-size:clamp(60px,13vw,170px)">Studio</span></div></div>
+      <div class="type-row"><div><div class="tok">pill-script</div><div class="m">Script italic inside the orange pill (Playfair Display italic as the closest free stand-in)</div></div><div class="spec"><span style="display:inline-block;background:var(--orange);color:var(--ink);padding:10px 36px;border-radius:999px;font-family:'Playfair Display',serif;font-style:italic;font-weight:900;font-size:40px">drag</span></div></div>
+      <div class="type-row"><div><div class="tok">chat-ui</div><div class="m">Inter 400 · 22px</div></div><div class="spec"><span style="font-size:22px">Can you move the sound effect 0.1s earlier?</span></div></div>
+      <div class="type-row"><div><div class="tok">label-small</div><div class="m">Inter 400 · 14px · chat-muted</div></div><div class="spec"><span style="font-size:14px;color:#6B6757">You've hit the message limit for this session.</span></div></div>
+      <div class="type-row" style="border-bottom:0"><div><div class="tok">mono</div><div class="m">JetBrains Mono 400 · timeline ruler</div></div><div class="spec"><span style="font-family:var(--mono);font-size:14px">0:00 &nbsp; 0:10 &nbsp; 0:20 &nbsp; 0:30</span></div></div>
+    </section>
+
+    <!-- COMPONENTS -->
+    <section>
+      <div class="sec-head"><span class="n">03</span><h2>Components</h2><span class="sp"></span><span class="lab">Flat · Hairlines · One Accent</span></div>
+      <div class="cgrid">
+        <div class="s4"><div class="cnote">Card</div>
+          <div class="c-card"><div class="ic">!</div><div class="t">Session limit</div><div class="x">A white card with a hairline border and 14px radius, a small icon, a bold title and one muted line of copy.</div></div></div>
+        <div class="s4"><div class="cnote">Agenda rows</div>
+          <div class="agenda"><div class="row"><span class="num">01</span><span class="t">Problem</span><span class="d">Chat spiral</span></div>
+            <div class="row"><span class="num">02</span><span class="t">Limit</span><span class="d">Card appears</span></div>
+            <div class="row" style="border-bottom:0"><span class="num">03</span><span class="t">Solution</span><span class="d">Drag the clip</span></div></div></div>
+        <div class="s4"><div class="cnote">Stats cluster</div>
+          <div class="stats"><div class="st"><div class="f">29</div><div class="l">Prompts</div></div><div class="st"><div class="f">3.6s</div><div class="l">Spiral</div></div><div class="st"><div class="f">1</div><div class="l">Accent</div></div></div></div>
+      </div>
+      <div class="cgrid">
+        <div class="s5"><div class="cnote">Timeline — hairline, no nodes</div>
+          <div class="timeline"><div><div class="y">Act 1</div><div class="t">Problem</div><div class="x">Chat spirals faster.</div></div><div><div class="y">Act 2</div><div class="t">Limit</div><div class="x">Card interrupts.</div></div><div><div class="y">Act 3</div><div class="t">Drag</div><div class="x">Timeline fixes it.</div></div></div></div>
+        <div class="s3"><div class="cnote">Image placeholder</div>
+          <div class="imgph"><span>Editor Recording</span></div></div>
+        <div class="s4"><div class="cnote">Team frames</div>
+          <div class="team"><div class="p"><div class="ph">A</div><div class="nm">Avery</div><div class="ro">Editor</div></div><div class="p"><div class="ph">M</div><div class="nm">Mori</div><div class="ro">Design</div></div></div></div>
+      </div>
+      <div class="cgrid" style="margin-bottom:0">
+        <div class="s6"><div class="cnote">Orange pill → timeline bar</div>
+          <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap"><span style="font-weight:900;letter-spacing:-.045em;font-size:44px">Just click &amp;</span><span style="display:inline-block;background:var(--orange);color:var(--ink);padding:6px 70px 6px 22px;border-radius:999px;font-family:'Playfair Display',serif;font-style:italic;font-weight:900;font-size:34px">drag</span></div></div>
+        <div class="s6"><div class="cnote">Flat clip bars on a ruler</div>
+          <div style="position:relative;height:120px;border-top:1px solid var(--hair)">
+            <div style="position:absolute;left:0;top:14px;width:22%;height:22px;background:#4C9BFF;border-radius:4px"></div>
+            <div style="position:absolute;left:36%;top:14px;width:26%;height:22px;background:#B37BEA;border-radius:4px"></div>
+            <div style="position:absolute;left:18%;top:46px;width:68%;height:22px;background:var(--orange);border-radius:4px"></div>
+            <div style="position:absolute;left:30%;top:78px;width:34%;height:22px;background:#EBC946;border-radius:4px"></div>
+            <div style="position:absolute;left:46%;top:0;bottom:0;width:2px;background:#29D200"></div>
+          </div></div>
+      </div>
+    </section>
+
+    <!-- COMPOSITIONS -->
+    <section>
+      <div class="sec-head"><span class="n">04</span><h2>Frame Compositions</h2><span class="sp"></span><span class="lab">True 16:9 · cqw Scaled</span></div>
+      <div class="gallery">
+
+        <div class="fw"><div class="flabel"><b>Opening Word</b><span>· single word · top-left · grey</span></div>
+          <div class="frame "><div style="position:absolute;left:3cqw;top:5cqh;font-weight:900;letter-spacing:-.045em;font-size:9cqw;line-height:1;color:#6a6a6e">for</div></div></div>
+
+        <div class="fw"><div class="flabel"><b>Single Line</b><span>· statement · top-right · heavy</span></div>
+          <div class="frame "><div style="position:absolute;right:3cqw;top:14cqh;font-weight:900;letter-spacing:-.045em;font-size:6.2cqw;line-height:1">timing is &nbsp;&nbsp;&nbsp;&nbsp; tricky.</div></div></div>
+
+        <div class="fw"><div class="flabel"><b>Chat Column</b><span>· centred cream · composer at bottom</span></div>
+          <div class="frame " style="background:#F5F5F7"><div style="position:absolute;left:32%;right:32%;top:8%;display:flex;flex-direction:column;gap:3.4cqh;font-size:1.5cqw"><div style="display:flex;gap:.6cqw;align-items:center"><i style="width:.5cqw;height:.5cqw;border-radius:50%;background:#D97757"></i>Done.</div><div style="align-self:flex-end;background:#fff;border:1px solid #E5E0D1;border-radius:.8cqw;padding:.6cqw 1.2cqw">try 0.08</div><div style="display:flex;gap:.6cqw;align-items:center"><i style="width:.5cqw;height:.5cqw;border-radius:50%;background:#D97757"></i>Done.</div><div style="align-self:flex-end;background:#fff;border:1px solid #E5E0D1;border-radius:.8cqw;padding:.6cqw 1.2cqw">split the difference</div><div style="display:flex;gap:.6cqw;align-items:center"><i style="width:.5cqw;height:.5cqw;border-radius:50%;background:#D97757"></i>Done.</div></div><div style="position:absolute;left:32%;right:32%;bottom:7%;height:17%;background:#fff;border:1px solid #E5E0D1;border-radius:1cqw"><i style="position:absolute;right:1cqw;bottom:1cqw;width:1.6cqw;height:1.6cqw;border-radius:.4cqw;background:#D97757"></i><span style="position:absolute;left:1.2cqw;top:1cqw;font-size:1.4cqw">one more frame</span></div></div></div>
+
+        <div class="fw"><div class="flabel"><b>Limit Card</b><span>· modal · over the chat</span></div>
+          <div class="frame "><div style="position:absolute;left:32%;right:32%;top:8%;display:flex;flex-direction:column;gap:3.4cqh;font-size:1.5cqw;color:#3D3929"><div>• Done.</div><div style="align-self:flex-end">0.0119</div><div>• Done.</div><div style="align-self:flex-end">half frame</div><div>• Done.</div></div><div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:34cqw;background:#fff;border:1px solid #E5E0D1;border-radius:1.4cqw;padding:2.6cqw 2cqw;text-align:center"><div style="width:2.6cqw;height:2.6cqw;margin:0 auto 1cqw;border-radius:50%;border:2px solid #FF3B30"></div><div style="font-weight:600;font-size:2cqw">Session limit reached</div><div style="font-size:1.4cqw;color:#6B6757;margin-top:.6cqw">You've hit the message limit for this session.</div></div></div></div>
+
+        <div class="fw"><div class="flabel"><b>Timeline + Line</b><span>· statement left · clip bars right</span></div>
+          <div class="frame "><div style="position:absolute;left:5cqw;top:50%;transform:translateY(-50%);font-weight:900;letter-spacing:-.045em;font-size:5.2cqw;line-height:1;max-width:36cqw">Just use the timeline</div><div style="position:absolute;left:50cqw;width:12cqw;top:34cqh;height:9cqh;background:#4C9BFF;border-radius:.5cqw"></div><div style="position:absolute;left:66cqw;width:16cqw;top:34cqh;height:9cqh;background:#B37BEA;border-radius:.5cqw"></div><div style="position:absolute;left:56cqw;width:36cqw;top:48cqh;height:9cqh;background:#D97757;border-radius:.5cqw"></div><div style="position:absolute;left:62cqw;width:20cqw;top:62cqh;height:9cqh;background:#EBC946;border-radius:.5cqw"></div><div style="position:absolute;left:74cqw;top:28cqh;bottom:22cqh;width:2px;background:#29D200"></div></div></div>
+
+        <div class="fw"><div class="flabel"><b>Real Recording</b><span>· zoomed editor · dark UI · green playhead</span></div>
+          <div class="frame " style="background:#101414"><div style="position:absolute;left:4cqw;right:4cqw;top:44%;bottom:6%;background:#18201f;border-radius:1cqw"><div style="position:absolute;left:40%;top:0;bottom:0;width:3px;background:#29D200"></div><div style="position:absolute;left:3cqw;top:2cqh;font-family:var(--mono);font-size:1.3cqw;color:#9fb3ad">vo-intro</div><div style="position:absolute;left:3cqw;right:30cqw;bottom:6cqh;height:6cqh;background:#2c3a38;border-radius:.6cqw"></div></div><div style="position:absolute;left:6cqw;top:12cqh;font-family:var(--mono);font-size:2cqw;color:#29D200">0:03 / 0:26</div></div></div>
+
+        <div class="fw"><div class="flabel"><b>Stacked Lines</b><span>· closing stack · clock · orange pill</span></div>
+          <div class="frame "><div style="position:absolute;left:8cqw;top:10cqh;font-weight:900;letter-spacing:-.045em;font-size:6.4cqw;line-height:1">Save some</div><div style="position:absolute;left:34cqw;top:6cqh;width:12cqw;height:12cqw;border-radius:50%;border:.6cqw solid #1D1D1F;background:#fff"><i style="position:absolute;left:50%;top:50%;width:.3cqw;height:4cqw;background:#1D1D1F;transform-origin:top;transform:translate(-50%,0) rotate(160deg)"></i><i style="position:absolute;left:50%;top:50%;width:.3cqw;height:3cqw;background:#1D1D1F;transform-origin:top;transform:translate(-50%,0) rotate(-60deg)"></i></div><div style="position:absolute;left:8cqw;top:38cqh;font-weight:900;letter-spacing:-.045em;font-size:6.4cqw;line-height:1">Save some <span style="color:#C9A227">tokens</span></div><div style="position:absolute;left:8cqw;top:66cqh;font-weight:900;letter-spacing:-.045em;font-size:6.4cqw;line-height:1;display:flex;align-items:center;gap:1.6cqw">Just click &amp;<span style="display:inline-block;background:#D97757;color:#1D1D1F;width:30cqw;padding:.6cqw 2cqw;border-radius:.6cqw;font-family:'Playfair Display',serif;font-style:italic;font-size:5cqw">drag</span></div></div></div>
+
+        <div class="fw"><div class="flabel"><b>Wordmark End</b><span>· closer · heavy black · lower-right</span></div>
+          <div class="frame "><div style="position:absolute;right:6cqw;bottom:14cqh;font-weight:900;letter-spacing:-.045em;font-size:10cqw;line-height:1">Studio Name</div></div></div>
+
+        <div class="fw"><div class="flabel"><b>Hero Word</b><span>· single giant word · bleeding right</span></div>
+          <div class="frame "><div style="position:absolute;left:10cqw;top:50%;transform:translateY(-50%);font-weight:900;letter-spacing:-.045em;font-size:24cqw;line-height:.88;white-space:nowrap">Drag.</div></div></div>
+
+      </div>
+      <p style="margin-top:28px;max-width:760px;color:var(--body);line-height:1.6;font-size:14px">
+        These are HTML approximations of the treatments in <code>FRAME.md</code>; footage, photography and
+        editor recordings are shown as flat placeholders. They exist to check palette, type, spacing and mood
+        against the source frames above.
+      </p>
+    </section>
+
+    <!-- RULES -->
+    <section>
+      <div class="sec-head"><span class="n">05</span><h2>Frame Rules</h2><span class="sp"></span><span class="lab">Flat · Heavy · One Orange</span></div>
+      <div class="dos">
+        <div class="do-card do"><h4>Do</h4><ul><li>Make the type the picture — one huge line or the timeline fills the canvas.</li><li>Vary line size and position; keep headlines off-centre.</li><li>Use orange once per frame: pill, send button or dragged clip.</li><li>Reveal words on the voice timestamps.</li><li>Keep the chat and limit card flat, white and hairline-bordered.</li></ul></div>
+        <div class="do-card dont"><h4>Don't</h4><ul><li>Don't centre every line.</li><li>Don't add grain or a second accent colour.</li><li>Don't shrink headlines into small decorated text.</li><li>Don't ground the page in anything but #F5F5F7.</li><li>Don't stack more than one gold word on a frame.</li></ul></div>
+      </div>
+    </section>
+
+    <!-- CAPTIONS -->
+    <section>
+      <div class="sec-head"><span class="n">06</span><h2>Captions</h2><span class="sp"></span><span class="lab">Lower-third · Karaoke</span></div>
+      <div class="gallery">
+        <div class="fw"><div class="flabel"><b>Active line</b><span>· spoken · current · upcoming</span></div>
+          <div class="frame capdemo ">
+            <div class="center" style="padding-bottom:12cqh"><div style="font-weight:900;letter-spacing:-.045em;font-size:7cqw;line-height:1">timing is tricky.</div></div>
+            <div class="bandline"></div><div class="bandtag">Caption Band · 16.7%</div>
+            <div class="stage"><div class="pill"><div class="line">
+              <span class="w spoken">just</span><span class="w active">click</span><span class="w">and</span><span class="w">drag.</span>
+            </div></div></div>
+          </div></div>
+        <div class="fw"><div class="flabel"><b>Settled line</b><span>· all spoken · marker cleared</span></div>
+          <div class="frame capdemo ">
+            <div class="center" style="padding-bottom:12cqh"><div style="font-weight:900;letter-spacing:-.045em;font-size:7cqw;line-height:1">Just use the timeline</div></div>
+            <div class="bandline"></div><div class="bandtag">Caption Band · 16.7%</div>
+            <div class="stage"><div class="pill"><div class="line">
+              <span class="w spoken">just</span><span class="w spoken">click</span><span class="w spoken">and</span><span class="w spoken">drag.</span>
+            </div></div></div>
+          </div></div>
+      </div>
+    </section>
+
+    <div class="foot">
+      <span>Timeline Editor</span>
+      <span>Frame Showcase · Type Is the Picture · One Orange</span>
+    </div>
+  </body>
+</html>
