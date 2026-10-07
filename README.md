@@ -20,7 +20,8 @@ Every collection is plain files: markdown specs the AI can read, plus HTML previ
 |---|---|---|---|
 | 🎬 | [**Hyperframes Catalog**](hyperframes-catalog) | 25 video looks: colors, type, components, caption styles | Live |
 | 📱 | [**App UI**](app-ui) | App screen designs to reference | Live |
-| 🌐 | Websites, user journeys, customer experience and more | See the [roadmap](#roadmap) | Coming |
+| 🌐 | [**Websites**](websites) | Full website looks specced for AI to rebuild (Soren) | Live |
+| 🧭 | User journeys, customer experience and more | See the [roadmap](#roadmap) | Coming |
 
 ## Peek inside
 
@@ -32,6 +33,12 @@ Every collection is plain files: markdown specs the AI can read, plus HTML previ
 <td width="33%"><a href="hyperframes-catalog/k3-promo"><img src="hyperframes-catalog/k3-promo/reference-frames.jpg" alt="k3-promo"></a></td>
 <td width="33%"><a href="hyperframes-catalog/texture-launch"><img src="hyperframes-catalog/texture-launch/reference-frames.jpg" alt="texture-launch"></a></td>
 </tr>
+</table>
+
+**Websites**
+
+<table>
+<tr><td width="33%"><a href="websites/soren"><img src="websites/soren/reference-frames.jpg" alt="soren"></a><br><sub>Soren</sub></td></tr>
 </table>
 
 **App UI**
@@ -51,7 +58,7 @@ AI makes generic, same-looking designs when it works from nothing. **The key to 
 
 **Collections coming**
 
-- [ ] 🌐 **Websites**: landing page sections (hero, pricing, social proof, footer) with annotated screenshots
+- [x] 🌐 **Websites**: first entry added (Soren); more to come. Next: landing page sections (hero, pricing, social proof, footer) with annotated screenshots
 - [ ] 🧭 **User journeys**: onboarding, signup, checkout and cancellation flows
 - [ ] ✨ **Customer experience**: features and touchpoints that make people stay
 - [ ] 🧩 **Design systems**: written summaries of rules from top products (Stripe, Linear, Vercel, Apple HIG, Material, Radix, shadcn/ui)

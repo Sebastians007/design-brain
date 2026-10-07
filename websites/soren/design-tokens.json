@@ -1,0 +1,264 @@
+{
+  "schemaVersion": "1.0",
+  "source": "https://soren-template.framer.website/",
+  "observed": "2026-10-06",
+  "evidenceConvention": {
+    "measured": "rendered desktop",
+    "css-derived": "live public stylesheet",
+    "recommended": "independent implementation choice"
+  },
+  "colors": {
+    "canvas": "#FFFFFF",
+    "ink": "#000000",
+    "panel": "#F0F0F0",
+    "tag": "#DFE4DF",
+    "body": "#5C5C5C",
+    "muted": "#707070",
+    "darkBody": "#CFD8CF",
+    "accentNative": "color(display-p3 1 0.173285 0)",
+    "accentFallback": "#FF2C00",
+    "ruleLight": "rgba(0,0,0,0.15)",
+    "ruleDark": "rgba(255,255,255,0.22)"
+  },
+  "colorEvidence": {
+    "accentFallback": "recommended, not measured equivalent",
+    "ruleLight": "recommended",
+    "ruleDark": "recommended",
+    "remaining": "measured"
+  },
+  "fonts": {
+    "display": {
+      "family": "Halibut Variable",
+      "weight": 20,
+      "lineHeight": 0.8,
+      "file": "assets/fonts/halibut-variable.woff2"
+    },
+    "sans": [
+      {
+        "family": "Switzer",
+        "weight": 400,
+        "file": "assets/fonts/switzer-400.woff2"
+      },
+      {
+        "family": "Switzer",
+        "weight": 500,
+        "file": "assets/fonts/switzer-500.woff2"
+      },
+      {
+        "family": "Switzer",
+        "weight": 600,
+        "file": "assets/fonts/switzer-600.woff2"
+      }
+    ],
+    "mono": {
+      "family": "Chivo Mono",
+      "file": "assets/fonts/chivo-mono-400.woff2",
+      "note": "Same source URL declared for 400/500/700; browser weights retained in type roles."
+    }
+  },
+  "type": {
+    "hero": {
+      "font": "display",
+      "sizing": "fit to content width after font load",
+      "desktopObservedPx": 257.345,
+      "tracking": "normal"
+    },
+    "contact": {
+      "font": "display",
+      "sizing": "fit to panel inner width",
+      "desktopObservedPx": 138.824
+    },
+    "medium": {
+      "font": "sans",
+      "weight": 500,
+      "sizePx": [
+        24,
+        22,
+        20
+      ],
+      "lineHeight": 1.2,
+      "trackingEm": -0.025
+    },
+    "body": {
+      "font": "sans",
+      "weight": 400,
+      "sizePx": [
+        20,
+        19,
+        18
+      ],
+      "lineHeight": 1.45,
+      "trackingEm": -0.025
+    },
+    "project": {
+      "font": "sans",
+      "weight": 500,
+      "sizePx": [
+        40,
+        34,
+        28
+      ],
+      "lineHeight": 1.2,
+      "trackingEm": -0.04
+    },
+    "process": {
+      "font": "sans",
+      "weight": 500,
+      "sizePx": [
+        56,
+        46,
+        36
+      ],
+      "lineHeight": 1.02,
+      "trackingEm": -0.04
+    },
+    "mono": {
+      "font": "mono",
+      "weight": 500,
+      "sizePx": [
+        16,
+        15,
+        14
+      ],
+      "lineHeight": 1.2,
+      "trackingEm": -0.02
+    },
+    "tag": {
+      "font": "mono",
+      "weight": 400,
+      "sizePx": 13,
+      "lineHeight": 1.2,
+      "trackingEm": 0.02
+    }
+  },
+  "typeEvidence": {
+    "desktop": "measured",
+    "tabletPhone": "css-derived",
+    "tagResponsive": "not measured; preserve or scale deliberately"
+  },
+  "layout": {
+    "breakpointPx": {
+      "desktopMin": 1200,
+      "tabletMin": 810,
+      "phoneMax": 809
+    },
+    "order": [
+      "hero",
+      "ascii",
+      "work",
+      "about",
+      "process",
+      "testimonials",
+      "experience",
+      "contact",
+      "footer"
+    ],
+    "outerSectionMaxWidthPx": 1600,
+    "gutterPx": [
+      96,
+      64,
+      40
+    ],
+    "sectionVerticalPaddingPx": [
+      160,
+      112,
+      80
+    ],
+    "heroVerticalPaddingPx": [
+      120,
+      112,
+      80
+    ],
+    "heroRuleHeightPx": [
+      120,
+      100,
+      80
+    ],
+    "heroRuleWidthPx": 2,
+    "asciiHeightPx": [
+      300,
+      240,
+      160
+    ],
+    "heroCopyMaxWidthPx": 760,
+    "projectCopyMaxWidthPx": 580,
+    "projectMediaRatio": [
+      1600,
+      1201
+    ],
+    "carouselGapPx": 16,
+    "galleryGapPx": 16
+  },
+  "components": {
+    "sectionMarkPx": 10,
+    "tag": {
+      "radiusPx": 1000,
+      "paddingPx": [
+        6,
+        12
+      ],
+      "gapPx": 8
+    },
+    "carousel": {
+      "buttonPx": 40,
+      "rightInsetPx": 16,
+      "iconPx": 16,
+      "backdropBlurPx": 6,
+      "fadeSeconds": 0.25
+    },
+    "avatarPx": 36,
+    "organizationMarkPx": 36,
+    "contactPaddingPx": {
+      "desktop": [
+        24,
+        32
+      ],
+      "phone": [
+        12,
+        12
+      ]
+    }
+  },
+  "motion": {
+    "nativeVerified": [
+      "sticky navigation blend",
+      "animated ASCII glyph content",
+      "particle canvas",
+      "carousel control fade"
+    ],
+    "recommended": {
+      "rolloverMs": 220,
+      "letterStaggerMs": [
+        10,
+        15
+      ],
+      "asciiFps": [
+        8,
+        12
+      ],
+      "particlePointerRadiusPx": [
+        80,
+        110
+      ],
+      "carouselWrap": true,
+      "autoAdvance": false
+    },
+    "unverified": [
+      "native particle coefficients",
+      "ASCII algorithm",
+      "slide wrap/duration",
+      "copy success timing"
+    ]
+  },
+  "adaptation": {
+    "evidence": "recommended video companion, not native website",
+    "framePx": [
+      1920,
+      1080
+    ],
+    "safeMarginPx": 136,
+    "captionBandPx": 180,
+    "captionWeight": 500,
+    "captionMaxFontPx": 58
+  }
+}
