@@ -1,0 +1,156 @@
+{
+  "name": "Attest",
+  "source": "https://attest.framer.media/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#FAF4ED",
+    "paper": "#FFFBF7",
+    "ink": "#262626",
+    "accent": "#BF1313",
+    "muted": "#5E5E5E"
+  },
+  "type": {
+    "body": "Inter Display",
+    "display": "EB Garamond",
+    "roles": [
+      {
+        "role": "Nav wordmark \u2014 declaration, not rendered",
+        "family": "EB Garamond",
+        "weight": 500,
+        "sizePx": 26,
+        "linePx": 28.6,
+        "tracking": "0"
+      },
+      {
+        "role": "Navigation/action \u2014 declaration, not rendered",
+        "family": "Inter Display",
+        "weight": 500,
+        "sizePx": 16,
+        "linePx": 24,
+        "tracking": "0em"
+      },
+      {
+        "role": "Uppercase eyebrow \u2014 declaration, not rendered",
+        "family": "Inter Display",
+        "weight": 700,
+        "sizePx": 12,
+        "linePx": 18,
+        "tracking": "0.07em"
+      },
+      {
+        "role": "Hero H1 \u2014 declaration, not rendered",
+        "family": "EB Garamond",
+        "weight": 400,
+        "sizePx": 60,
+        "linePx": 66,
+        "tracking": "-0.03em"
+      },
+      {
+        "role": "Section heading \u2014 declaration, not rendered",
+        "family": "EB Garamond",
+        "weight": 400,
+        "sizePx": 60,
+        "linePx": 78,
+        "tracking": "-0.03em"
+      },
+      {
+        "role": "Hero supporting copy \u2014 declaration, not rendered",
+        "family": "Inter Display",
+        "weight": 400,
+        "sizePx": 18,
+        "linePx": 30.6,
+        "tracking": "0em"
+      },
+      {
+        "role": "Tile heading \u2014 declaration, not rendered",
+        "family": "EB Garamond",
+        "weight": 400,
+        "sizePx": 32,
+        "linePx": 38.4,
+        "tracking": "0em"
+      },
+      {
+        "role": "Body/accordion answer \u2014 declaration, not rendered",
+        "family": "Inter Display",
+        "weight": 400,
+        "sizePx": 16,
+        "linePx": 27.2,
+        "tracking": "0em"
+      },
+      {
+        "role": "Accordion title \u2014 declaration, not rendered",
+        "family": "EB Garamond",
+        "weight": 400,
+        "sizePx": 24,
+        "linePx": 28.8,
+        "tracking": "0em"
+      },
+      {
+        "role": "Quote/attorney name \u2014 declaration, not rendered",
+        "family": "EB Garamond",
+        "weight": 400,
+        "sizePx": 40,
+        "linePx": 52,
+        "tracking": "-0.03em"
+      },
+      {
+        "role": "Footer display wordmark \u2014 declaration, not rendered",
+        "family": "EB Garamond",
+        "weight": 500,
+        "sizePx": 525.9982699029688,
+        "linePx": 368.1987889320782,
+        "tracking": "0"
+      }
+    ],
+    "rolesEvidence": "Declared CSS, not rendered measurements."
+  },
+  "spacing": {
+    "desktopGutterPx": 60,
+    "componentGapPx": 16,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 16,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:809.98px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      0,
+      809,
+      809.98,
+      810,
+      1199,
+      1199.98,
+      1200
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Services",
+    "branch": "Legal",
+    "purpose": "Reference study of service business websites"
+  }
+}

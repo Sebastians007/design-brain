@@ -1,0 +1,158 @@
+{
+  "name": "Solshine",
+  "source": "https://solshine.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#f8f8f8",
+    "paper": "#ffffff",
+    "ink": "#020202",
+    "accent": "#caf31d",
+    "muted": "#777777"
+  },
+  "type": {
+    "body": "Jost",
+    "display": "Space Grotesk",
+    "roles": [
+      {
+        "role": "Hero h1 \u2014 declaration, not rendered",
+        "family": "Space Grotesk",
+        "weight": 500,
+        "sizePx": 100,
+        "linePx": 100,
+        "tracking": "-2px"
+      },
+      {
+        "role": "Section h2 \u2014 declaration, not rendered",
+        "family": "Space Grotesk",
+        "weight": 500,
+        "sizePx": 45,
+        "linePx": 55,
+        "tracking": "-2px"
+      },
+      {
+        "role": "Service h3 \u2014 declaration, not rendered",
+        "family": "Space Grotesk",
+        "weight": 500,
+        "sizePx": 32,
+        "linePx": 38.4,
+        "tracking": "-2px"
+      },
+      {
+        "role": "FAQ h4 \u2014 declaration, not rendered",
+        "family": "Space Grotesk",
+        "weight": 600,
+        "sizePx": 22,
+        "linePx": 30,
+        "tracking": "0em"
+      },
+      {
+        "role": "Body paragraph \u2014 declaration, not rendered",
+        "family": "Jost",
+        "weight": 400,
+        "sizePx": 18,
+        "linePx": 26,
+        "tracking": "0em"
+      },
+      {
+        "role": "Hero CTA \u2014 declaration, not rendered",
+        "family": "Jost",
+        "weight": 500,
+        "sizePx": 19,
+        "linePx": 30,
+        "tracking": "0"
+      },
+      {
+        "role": "Section label \u2014 declaration, not rendered",
+        "family": "Jost",
+        "weight": 600,
+        "sizePx": 17,
+        "linePx": 23.8,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "Price h3 \u2014 declaration, not rendered",
+        "family": "Space Grotesk",
+        "weight": 500,
+        "sizePx": 50,
+        "linePx": 60,
+        "tracking": "-2px"
+      },
+      {
+        "role": "Tablet menu h5 \u2014 declaration, not rendered",
+        "family": "Inter",
+        "weight": 700,
+        "sizePx": 16,
+        "linePx": 22.4,
+        "tracking": "-0.04em"
+      }
+    ],
+    "rolesEvidence": "Declared CSS, not rendered measurements."
+  },
+  "spacing": {
+    "desktopGutterPx": 32,
+    "componentGapPx": 24,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 24,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:809.98px)",
+      "@media (max-width:1023px) and (min-width:770px)",
+      "@media (max-width:769px) and (min-width:556px)",
+      "@media (max-width:555px) and (min-width:0)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)",
+      "@media (max-width:769px) and (min-width:560px)",
+      "@media (max-width:559px) and (min-width:0)",
+      "@media (max-width:769px) and (min-width:565px)",
+      "@media (max-width:564px) and (min-width:0)",
+      "@media (max-width:1439px) and (min-width:1200px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      0,
+      555,
+      556,
+      559,
+      560,
+      564,
+      565,
+      769,
+      770,
+      809,
+      809.98,
+      810,
+      1023,
+      1199,
+      1199.98,
+      1200,
+      1439
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Services",
+    "branch": "Home services",
+    "purpose": "Reference study of service business websites"
+  }
+}

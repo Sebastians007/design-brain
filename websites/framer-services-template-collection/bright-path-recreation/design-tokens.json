@@ -1,0 +1,156 @@
+{
+  "name": "Bright Path",
+  "source": "https://brightpath-wbs.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#f4f0e5",
+    "paper": "#ffffff",
+    "ink": "#14261d",
+    "accent": "#e8722c",
+    "muted": "#45564b"
+  },
+  "type": {
+    "body": "Instrument Sans",
+    "display": "Bricolage Grotesque",
+    "roles": [
+      {
+        "role": "Navigation / primary button p \u2014 source CSS",
+        "family": "Instrument Sans",
+        "weight": 500,
+        "sizePx": 16,
+        "linePx": 22.4,
+        "tracking": "0em"
+      },
+      {
+        "role": "Hero eyebrow / reading p \u2014 source CSS",
+        "family": "Instrument Sans",
+        "weight": 400,
+        "sizePx": 16,
+        "linePx": 22.4,
+        "tracking": "0em"
+      },
+      {
+        "role": "Hero h1 \u2014 source CSS desktop preset",
+        "family": "Bricolage Grotesque",
+        "weight": 700,
+        "sizePx": 103,
+        "linePx": 103,
+        "tracking": "-0.06em"
+      },
+      {
+        "role": "Section h2 \u2014 source CSS desktop preset",
+        "family": "Bricolage Grotesque",
+        "weight": 600,
+        "sizePx": 82,
+        "linePx": 90.2,
+        "tracking": "-0.08em"
+      },
+      {
+        "role": "Program title h2 / level h3 \u2014 source CSS",
+        "family": "Bricolage Grotesque",
+        "weight": 500,
+        "sizePx": 24,
+        "linePx": 28.8,
+        "tracking": "-0.04em"
+      },
+      {
+        "role": "Counter statement h3 \u2014 source CSS; nested span color #497e64, no font override",
+        "family": "Bricolage Grotesque",
+        "weight": 500,
+        "sizePx": 46,
+        "linePx": 55.2,
+        "tracking": "-0.08em"
+      },
+      {
+        "role": "Counter figure h2 \u2014 source CSS",
+        "family": "Bricolage Grotesque",
+        "weight": 600,
+        "sizePx": 62,
+        "linePx": 62,
+        "tracking": "-0.08em"
+      },
+      {
+        "role": "Trust-strip title h3 \u2014 source CSS",
+        "family": "Bricolage Grotesque",
+        "weight": 500,
+        "sizePx": 20,
+        "linePx": 24,
+        "tracking": "-0.06em"
+      },
+      {
+        "role": "Mentor name h2 / footer heading h3 \u2014 source CSS",
+        "family": "Bricolage Grotesque",
+        "weight": 500,
+        "sizePx": 22,
+        "linePx": 26.4,
+        "tracking": "-0.04em"
+      },
+      {
+        "role": "Final CTA h2 \u2014 source CSS desktop preset",
+        "family": "Bricolage Grotesque",
+        "weight": 600,
+        "sizePx": 98,
+        "linePx": 107.8,
+        "tracking": "-0.08em"
+      },
+      {
+        "role": "Promotional Get It Button p \u2014 source CSS; outside service UI",
+        "family": "Geist",
+        "weight": 700,
+        "sizePx": 12,
+        "linePx": 14.4,
+        "tracking": "-0.02em"
+      }
+    ],
+    "rolesEvidence": "Declared CSS, not rendered measurements."
+  },
+  "spacing": {
+    "desktopGutterPx": 30,
+    "componentGapPx": 30,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 20,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (max-width:809.98px)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      0,
+      809,
+      809.98,
+      810,
+      1199,
+      1199.98,
+      1200
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Services",
+    "branch": "Education",
+    "purpose": "Reference study of service business websites"
+  }
+}

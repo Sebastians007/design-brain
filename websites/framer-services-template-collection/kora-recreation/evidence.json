@@ -1,0 +1,2493 @@
+{
+  "template": "Kora",
+  "preview": "https://kora.framer.media/",
+  "marketplace": "https://www.framer.com/marketplace/templates/kora/",
+  "creator": "Joseph Alexander",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "viewport": null,
+  "pageHeight": null,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 3 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        256,
+        660,
+        1376,
+        1032
+      ],
+      "label": "Official image 1 / crop 4",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        256,
+        660,
+        1376,
+        1032
+      ],
+      "label": "Official image 2 / crop 4",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        256,
+        660,
+        1376,
+        1032
+      ],
+      "label": "Official image 3 / crop 4",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Geist",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/geist/v4/gyBhhwUxId8gMGYQMKR3pzfaWI_RruM4mJPby1QNtA.woff2",
+      "range": "",
+      "file": "assets/fonts/geist-500-0.woff2"
+    },
+    {
+      "family": "Manrope Variable",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/6KNUAYMK3PTPQA22366IWF5JUVT35NZ3/E4CLT6PE4W64IV56BHAWFRZFLHPZIXFF/DEPNXL2T77QGX4DXZAN3G53TXHO2JEFP.woff2",
+      "range": "",
+      "file": "assets/fonts/manrope-variable-400-1.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-2.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-3.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/rZ5DdENNqIdFTIyQQiP5isO7M.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-900-4.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/UjlFhCnUjxhNfep4oYBPqnEssyo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-500-5.woff2"
+    },
+    {
+      "family": "Manrope",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/6U2SGH566NSNERG6RGEV3DSNEK7DL2RF/JRDYRKMSAW2H35IWEQIPL67HAJQ35MG5/JNU3GNMUBPWW6V6JTED3S27XL5HN7NM5.woff2",
+      "range": "",
+      "file": "assets/fonts/manrope-600-6.woff2"
+    },
+    {
+      "family": "Manrope",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/NGBUP45ES3F7RD5XGKPEDJ6QEPO4TMOK/EXDVWJ2EDDVVV65UENMX33EDDYBX6OF7/6P4FPMFQH7CCC7RZ4UU4NKSGJ2RLF7V5.woff2",
+      "range": "",
+      "file": "assets/fonts/manrope-700-7.woff2"
+    },
+    {
+      "family": "Manrope",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/BNWG6MUI4RTC6WEND2VPDH4MHMIVU3XZ/R5YXY5FMVG6PXU36GNEEA24MIPMEPGSM/CIM4KQCLZSMMLWPVH25IDDSTY4ENPHEY.woff2",
+      "range": "",
+      "file": "assets/fonts/manrope-500-8.woff2"
+    },
+    {
+      "family": "Manrope",
+      "weight": "800",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/7EWHG4AMROQSXDCQTDPGBVASATB7CED2/TJSQTK5FHJ2MYKML5IXF2G6YTGFJLTYL/K4ZMLVLHYIFVTTTWGVOTVGOFUUX7NVGI.woff2",
+      "range": "",
+      "file": "assets/fonts/manrope-800-9.woff2"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/images/IaiFRY4S4OYymE10NQ9ipQb5dwc.jpg?width=2400&height=1350",
+      "srcset": "https://framerusercontent.com/images/IaiFRY4S4OYymE10NQ9ipQb5dwc.jpg?scale-down-to=512&width=2400&height=1350 512w,https://framerusercontent.com/images/IaiFRY4S4OYymE10NQ9ipQb5dwc.jpg?scale-down-to=1024&width=2400&height=1350 1024w,https://framerusercontent.com/images/IaiFRY4S4OYymE10NQ9ipQb5dwc.jpg?scale-down-to=2048&width=2400&height=1350 2048w,https://framerusercontent.com/images/IaiFRY4S4OYymE10NQ9ipQb5dwc.jpg?width=2400&height=1350 2400w",
+      "alt": null,
+      "width": "2400",
+      "height": "1350",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Hero BG",
+        "Start",
+        "Start",
+        "Container",
+        "BG Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CLNNeZ7sGt3ywvDzR7D6Mi3TE.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Inside Container",
+        "Social Proof / Case Study",
+        "Social Proof",
+        "Desktop",
+        "Stacked Avatars",
+        "Container",
+        "1",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aqkakFzIkX11TpipSH4MurMn1c.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Inside Container",
+        "Social Proof / Case Study",
+        "Social Proof",
+        "Desktop",
+        "Stacked Avatars",
+        "Container",
+        "2",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Y0PKmJR8OR83TST953hq4wrsmtI.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Inside Container",
+        "Social Proof / Case Study",
+        "Social Proof",
+        "Desktop",
+        "Stacked Avatars",
+        "Container",
+        "3",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dYAD6XIGC1k0IidBb9wX6b7srM.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Inside Container",
+        "Social Proof / Case Study",
+        "Social Proof",
+        "Desktop",
+        "Stacked Avatars",
+        "Container",
+        "4",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZCltSDBMvX6dGq8gfKZbNA61y0.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Inside Container",
+        "Social Proof / Case Study",
+        "Social Proof",
+        "Desktop",
+        "Stacked Avatars",
+        "Container",
+        "5",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CLNNeZ7sGt3ywvDzR7D6Mi3TE.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Inside Container",
+        "Social Proof / Case Study",
+        "Social Proof",
+        "Phone",
+        "Stacked Avatars",
+        "Container",
+        "1",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aqkakFzIkX11TpipSH4MurMn1c.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Inside Container",
+        "Social Proof / Case Study",
+        "Social Proof",
+        "Phone",
+        "Stacked Avatars",
+        "Container",
+        "2",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Y0PKmJR8OR83TST953hq4wrsmtI.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Inside Container",
+        "Social Proof / Case Study",
+        "Social Proof",
+        "Phone",
+        "Stacked Avatars",
+        "Container",
+        "3",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dYAD6XIGC1k0IidBb9wX6b7srM.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Inside Container",
+        "Social Proof / Case Study",
+        "Social Proof",
+        "Phone",
+        "Stacked Avatars",
+        "Container",
+        "4",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZCltSDBMvX6dGq8gfKZbNA61y0.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Inside Container",
+        "Social Proof / Case Study",
+        "Social Proof",
+        "Phone",
+        "Stacked Avatars",
+        "Container",
+        "5",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?width=2400&height=1600",
+      "srcset": "https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?scale-down-to=512&width=2400&height=1600 512w,https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?scale-down-to=1024&width=2400&height=1600 1024w,https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?scale-down-to=2048&width=2400&height=1600 2048w,https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?width=2400&height=1600 2400w",
+      "alt": "A woman's face lit by striped light, framed by two silhouetted profiles.",
+      "width": "2400",
+      "height": "1600",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Inside Container",
+        "Social Proof / Case Study",
+        "Case Study",
+        "Desktop",
+        "Image Container",
+        "Main Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?width=2400&height=1600",
+      "srcset": "https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?scale-down-to=512&width=2400&height=1600 512w,https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?scale-down-to=1024&width=2400&height=1600 1024w,https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?scale-down-to=2048&width=2400&height=1600 2048w,https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?width=2400&height=1600 2400w",
+      "alt": "A woman's face lit by striped light, framed by two silhouetted profiles.",
+      "width": "2400",
+      "height": "1600",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Inside Container",
+        "Social Proof / Case Study",
+        "Case Study",
+        "Tablet",
+        "Image Container",
+        "Main Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IaiFRY4S4OYymE10NQ9ipQb5dwc.jpg?width=2400&height=1350",
+      "srcset": "https://framerusercontent.com/images/IaiFRY4S4OYymE10NQ9ipQb5dwc.jpg?scale-down-to=512&width=2400&height=1350 512w,https://framerusercontent.com/images/IaiFRY4S4OYymE10NQ9ipQb5dwc.jpg?scale-down-to=1024&width=2400&height=1350 1024w,https://framerusercontent.com/images/IaiFRY4S4OYymE10NQ9ipQb5dwc.jpg?scale-down-to=2048&width=2400&height=1350 2048w,https://framerusercontent.com/images/IaiFRY4S4OYymE10NQ9ipQb5dwc.jpg?width=2400&height=1350 2400w",
+      "alt": null,
+      "width": "2400",
+      "height": "1350",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Hero BG",
+        "Start",
+        "Start",
+        "Container",
+        "BG Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CLNNeZ7sGt3ywvDzR7D6Mi3TE.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Inside Container",
+        "Social Proof / Case Study",
+        "Social Proof",
+        "Phone",
+        "Stacked Avatars",
+        "Container",
+        "1",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aqkakFzIkX11TpipSH4MurMn1c.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Inside Container",
+        "Social Proof / Case Study",
+        "Social Proof",
+        "Phone",
+        "Stacked Avatars",
+        "Container",
+        "2",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Y0PKmJR8OR83TST953hq4wrsmtI.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Inside Container",
+        "Social Proof / Case Study",
+        "Social Proof",
+        "Phone",
+        "Stacked Avatars",
+        "Container",
+        "3",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dYAD6XIGC1k0IidBb9wX6b7srM.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Inside Container",
+        "Social Proof / Case Study",
+        "Social Proof",
+        "Phone",
+        "Stacked Avatars",
+        "Container",
+        "4",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZCltSDBMvX6dGq8gfKZbNA61y0.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Inside Container",
+        "Social Proof / Case Study",
+        "Social Proof",
+        "Phone",
+        "Stacked Avatars",
+        "Container",
+        "5",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?width=2400&height=1600",
+      "srcset": "https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?scale-down-to=512&width=2400&height=1600 512w,https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?scale-down-to=1024&width=2400&height=1600 1024w,https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?scale-down-to=2048&width=2400&height=1600 2048w,https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?width=2400&height=1600 2400w",
+      "alt": "A woman's face lit by striped light, framed by two silhouetted profiles.",
+      "width": "2400",
+      "height": "1600",
+      "path": [
+        "Main",
+        "Scroll Section",
+        "Hero",
+        "Inside Container",
+        "Social Proof / Case Study",
+        "Case Study",
+        "Phone",
+        "Image Container",
+        "Main Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BP9PfINr3O04BI5y3ieM8tzir1c.jpg?width=1800&height=2302",
+      "srcset": "https://framerusercontent.com/images/BP9PfINr3O04BI5y3ieM8tzir1c.jpg?scale-down-to=1024&width=1800&height=2302 800w,https://framerusercontent.com/images/BP9PfINr3O04BI5y3ieM8tzir1c.jpg?scale-down-to=2048&width=1800&height=2302 1601w,https://framerusercontent.com/images/BP9PfINr3O04BI5y3ieM8tzir1c.jpg?width=1800&height=2302 1800w",
+      "alt": "Portrait of James Martin.",
+      "width": "1800",
+      "height": "2302",
+      "path": [
+        "Main",
+        "Services",
+        "Inside Container",
+        "Sticky Container",
+        "Card",
+        "Inside",
+        "Image / Testimonial",
+        "Testimonial",
+        "Small",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/OqCGYrjHIzy11F9CWaDgfYAzKQ.jpg?width=2400&height=1350",
+      "srcset": "https://framerusercontent.com/images/OqCGYrjHIzy11F9CWaDgfYAzKQ.jpg?scale-down-to=512&width=2400&height=1350 512w,https://framerusercontent.com/images/OqCGYrjHIzy11F9CWaDgfYAzKQ.jpg?scale-down-to=1024&width=2400&height=1350 1024w,https://framerusercontent.com/images/OqCGYrjHIzy11F9CWaDgfYAzKQ.jpg?scale-down-to=2048&width=2400&height=1350 2048w,https://framerusercontent.com/images/OqCGYrjHIzy11F9CWaDgfYAzKQ.jpg?width=2400&height=1350 2400w",
+      "alt": "Three colleagues walking down a city street, one showing the others a phone.",
+      "width": "2400",
+      "height": "1350",
+      "path": [
+        "Main",
+        "Services",
+        "Inside Container",
+        "Sticky Container",
+        "Card",
+        "Inside",
+        "Image / Testimonial",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/OqCGYrjHIzy11F9CWaDgfYAzKQ.jpg?width=2400&height=1350",
+      "srcset": "https://framerusercontent.com/images/OqCGYrjHIzy11F9CWaDgfYAzKQ.jpg?scale-down-to=512&width=2400&height=1350 512w,https://framerusercontent.com/images/OqCGYrjHIzy11F9CWaDgfYAzKQ.jpg?scale-down-to=1024&width=2400&height=1350 1024w,https://framerusercontent.com/images/OqCGYrjHIzy11F9CWaDgfYAzKQ.jpg?scale-down-to=2048&width=2400&height=1350 2048w,https://framerusercontent.com/images/OqCGYrjHIzy11F9CWaDgfYAzKQ.jpg?width=2400&height=1350 2400w",
+      "alt": "Three colleagues walking down a city street, one showing the others a phone.",
+      "width": "2400",
+      "height": "1350",
+      "path": [
+        "Main",
+        "Services",
+        "Inside Container",
+        "Sticky Container",
+        "Card",
+        "Inside",
+        "Image / Testimonial",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mAVFdgGkoAuNgor7naAnOLpKiIs.jpg?width=1800&height=1986",
+      "srcset": "https://framerusercontent.com/images/mAVFdgGkoAuNgor7naAnOLpKiIs.jpg?scale-down-to=1024&width=1800&height=1986 928w,https://framerusercontent.com/images/mAVFdgGkoAuNgor7naAnOLpKiIs.jpg?width=1800&height=1986 1800w",
+      "alt": "Portrait of Sarah Bouchard.",
+      "width": "1800",
+      "height": "1986",
+      "path": [
+        "Main",
+        "Services",
+        "Inside Container",
+        "Sticky Container",
+        "Card",
+        "Inside",
+        "Image / Testimonial",
+        "Testimonial",
+        "Small",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/3NdwQXmM1SRuYwMwOwL4wEa9Y.jpg?width=2399&height=1358",
+      "srcset": "https://framerusercontent.com/images/3NdwQXmM1SRuYwMwOwL4wEa9Y.jpg?scale-down-to=512&width=2399&height=1358 512w,https://framerusercontent.com/images/3NdwQXmM1SRuYwMwOwL4wEa9Y.jpg?scale-down-to=1024&width=2399&height=1358 1024w,https://framerusercontent.com/images/3NdwQXmM1SRuYwMwOwL4wEa9Y.jpg?scale-down-to=2048&width=2399&height=1358 2048w,https://framerusercontent.com/images/3NdwQXmM1SRuYwMwOwL4wEa9Y.jpg?width=2399&height=1358 2399w",
+      "alt": "A person in a blue sweater typing on a laptop at a wooden desk.",
+      "width": "2399",
+      "height": "1358",
+      "path": [
+        "Main",
+        "Services",
+        "Inside Container",
+        "Sticky Container",
+        "Card",
+        "Inside",
+        "Image / Testimonial",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/3NdwQXmM1SRuYwMwOwL4wEa9Y.jpg?width=2399&height=1358",
+      "srcset": "https://framerusercontent.com/images/3NdwQXmM1SRuYwMwOwL4wEa9Y.jpg?scale-down-to=512&width=2399&height=1358 512w,https://framerusercontent.com/images/3NdwQXmM1SRuYwMwOwL4wEa9Y.jpg?scale-down-to=1024&width=2399&height=1358 1024w,https://framerusercontent.com/images/3NdwQXmM1SRuYwMwOwL4wEa9Y.jpg?scale-down-to=2048&width=2399&height=1358 2048w,https://framerusercontent.com/images/3NdwQXmM1SRuYwMwOwL4wEa9Y.jpg?width=2399&height=1358 2399w",
+      "alt": "A person in a blue sweater typing on a laptop at a wooden desk.",
+      "width": "2399",
+      "height": "1358",
+      "path": [
+        "Main",
+        "Services",
+        "Inside Container",
+        "Sticky Container",
+        "Card",
+        "Inside",
+        "Image / Testimonial",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?width=1800&height=2400",
+      "srcset": "https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?scale-down-to=1024&width=1800&height=2400 768w,https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?scale-down-to=2048&width=1800&height=2400 1536w,https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?width=1800&height=2400 1800w",
+      "alt": "Portrait of David Kim.",
+      "width": "1800",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Services",
+        "Inside Container",
+        "Sticky Container",
+        "Card",
+        "Inside",
+        "Image / Testimonial",
+        "Testimonial",
+        "Small",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NF5tRpn3xrpV81CGf1SDQo60Lk.jpg?width=2400&height=1808",
+      "srcset": "https://framerusercontent.com/images/NF5tRpn3xrpV81CGf1SDQo60Lk.jpg?scale-down-to=512&width=2400&height=1808 512w,https://framerusercontent.com/images/NF5tRpn3xrpV81CGf1SDQo60Lk.jpg?scale-down-to=1024&width=2400&height=1808 1024w,https://framerusercontent.com/images/NF5tRpn3xrpV81CGf1SDQo60Lk.jpg?scale-down-to=2048&width=2400&height=1808 2048w,https://framerusercontent.com/images/NF5tRpn3xrpV81CGf1SDQo60Lk.jpg?width=2400&height=1808 2400w",
+      "alt": "A man in a high-visibility vest holding a tablet in a warehouse aisle.",
+      "width": "2400",
+      "height": "1808",
+      "path": [
+        "Main",
+        "Services",
+        "Inside Container",
+        "Sticky Container",
+        "Card",
+        "Inside",
+        "Image / Testimonial",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NF5tRpn3xrpV81CGf1SDQo60Lk.jpg?width=2400&height=1808",
+      "srcset": "https://framerusercontent.com/images/NF5tRpn3xrpV81CGf1SDQo60Lk.jpg?scale-down-to=512&width=2400&height=1808 512w,https://framerusercontent.com/images/NF5tRpn3xrpV81CGf1SDQo60Lk.jpg?scale-down-to=1024&width=2400&height=1808 1024w,https://framerusercontent.com/images/NF5tRpn3xrpV81CGf1SDQo60Lk.jpg?scale-down-to=2048&width=2400&height=1808 2048w,https://framerusercontent.com/images/NF5tRpn3xrpV81CGf1SDQo60Lk.jpg?width=2400&height=1808 2400w",
+      "alt": "A man in a high-visibility vest holding a tablet in a warehouse aisle.",
+      "width": "2400",
+      "height": "1808",
+      "path": [
+        "Main",
+        "Services",
+        "Inside Container",
+        "Sticky Container",
+        "Card",
+        "Inside",
+        "Image / Testimonial",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/OLuRkG9gyMPQXSy4xo8GQM2EmU.jpg?width=1800&height=2353",
+      "srcset": "https://framerusercontent.com/images/OLuRkG9gyMPQXSy4xo8GQM2EmU.jpg?scale-down-to=1024&width=1800&height=2353 783w,https://framerusercontent.com/images/OLuRkG9gyMPQXSy4xo8GQM2EmU.jpg?scale-down-to=2048&width=1800&height=2353 1566w,https://framerusercontent.com/images/OLuRkG9gyMPQXSy4xo8GQM2EmU.jpg?width=1800&height=2353 1800w",
+      "alt": "Portrait of Jennifer Holland.",
+      "width": "1800",
+      "height": "2353",
+      "path": [
+        "Main",
+        "Services",
+        "Inside Container",
+        "Sticky Container",
+        "Card",
+        "Inside",
+        "Image / Testimonial",
+        "Testimonial",
+        "Small",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg?width=2400&height=1800",
+      "srcset": "https://framerusercontent.com/images/Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg?scale-down-to=512&width=2400&height=1800 512w,https://framerusercontent.com/images/Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg?scale-down-to=1024&width=2400&height=1800 1024w,https://framerusercontent.com/images/Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg?scale-down-to=2048&width=2400&height=1800 2048w,https://framerusercontent.com/images/Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg?width=2400&height=1800 2400w",
+      "alt": "Two colleagues talking at a desk in an office, seen past a blurred column.",
+      "width": "2400",
+      "height": "1800",
+      "path": [
+        "Main",
+        "Services",
+        "Inside Container",
+        "Sticky Container",
+        "Card",
+        "Inside",
+        "Image / Testimonial",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg?width=2400&height=1800",
+      "srcset": "https://framerusercontent.com/images/Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg?scale-down-to=512&width=2400&height=1800 512w,https://framerusercontent.com/images/Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg?scale-down-to=1024&width=2400&height=1800 1024w,https://framerusercontent.com/images/Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg?scale-down-to=2048&width=2400&height=1800 2048w,https://framerusercontent.com/images/Xg3naOB3jlkrgVdI79zfTGmUpxo.jpg?width=2400&height=1800 2400w",
+      "alt": "Two colleagues talking at a desk in an office, seen past a blurred column.",
+      "width": "2400",
+      "height": "1800",
+      "path": [
+        "Main",
+        "Services",
+        "Inside Container",
+        "Sticky Container",
+        "Card",
+        "Inside",
+        "Image / Testimonial",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/bHZPgCMyonDjkoqqgaJSh43gsI.jpg?width=1800&height=2400",
+      "srcset": "https://framerusercontent.com/images/bHZPgCMyonDjkoqqgaJSh43gsI.jpg?scale-down-to=1024&width=1800&height=2400 768w,https://framerusercontent.com/images/bHZPgCMyonDjkoqqgaJSh43gsI.jpg?scale-down-to=2048&width=1800&height=2400 1536w,https://framerusercontent.com/images/bHZPgCMyonDjkoqqgaJSh43gsI.jpg?width=1800&height=2400 1800w",
+      "alt": "Portrait of Marcus Thompson.",
+      "width": "1800",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Services",
+        "Inside Container",
+        "Sticky Container",
+        "Card",
+        "Inside",
+        "Image / Testimonial",
+        "Testimonial",
+        "Small",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/qkntRVyDFXSavXk2fE20yVB6CU.jpg?width=2413&height=1609",
+      "srcset": "https://framerusercontent.com/images/qkntRVyDFXSavXk2fE20yVB6CU.jpg?scale-down-to=512&width=2413&height=1609 512w,https://framerusercontent.com/images/qkntRVyDFXSavXk2fE20yVB6CU.jpg?scale-down-to=1024&width=2413&height=1609 1024w,https://framerusercontent.com/images/qkntRVyDFXSavXk2fE20yVB6CU.jpg?scale-down-to=2048&width=2413&height=1609 2048w,https://framerusercontent.com/images/qkntRVyDFXSavXk2fE20yVB6CU.jpg?width=2413&height=1609 2413w",
+      "alt": "A customer tapping a card on a payment terminal held across a counter.",
+      "width": "2413",
+      "height": "1609",
+      "path": [
+        "Main",
+        "Services",
+        "Inside Container",
+        "Sticky Container",
+        "Card",
+        "Inside",
+        "Image / Testimonial",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/qkntRVyDFXSavXk2fE20yVB6CU.jpg?width=2413&height=1609",
+      "srcset": "https://framerusercontent.com/images/qkntRVyDFXSavXk2fE20yVB6CU.jpg?scale-down-to=512&width=2413&height=1609 512w,https://framerusercontent.com/images/qkntRVyDFXSavXk2fE20yVB6CU.jpg?scale-down-to=1024&width=2413&height=1609 1024w,https://framerusercontent.com/images/qkntRVyDFXSavXk2fE20yVB6CU.jpg?scale-down-to=2048&width=2413&height=1609 2048w,https://framerusercontent.com/images/qkntRVyDFXSavXk2fE20yVB6CU.jpg?width=2413&height=1609 2413w",
+      "alt": "A customer tapping a card on a payment terminal held across a counter.",
+      "width": "2413",
+      "height": "1609",
+      "path": [
+        "Main",
+        "Services",
+        "Inside Container",
+        "Sticky Container",
+        "Card",
+        "Inside",
+        "Image / Testimonial",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/38NpwzghYIptRRbFZ6Soejx3wVY.jpeg?width=2400&height=1347",
+      "srcset": "https://framerusercontent.com/images/38NpwzghYIptRRbFZ6Soejx3wVY.jpeg?scale-down-to=512&width=2400&height=1347 512w,https://framerusercontent.com/images/38NpwzghYIptRRbFZ6Soejx3wVY.jpeg?scale-down-to=1024&width=2400&height=1347 1024w,https://framerusercontent.com/images/38NpwzghYIptRRbFZ6Soejx3wVY.jpeg?scale-down-to=2048&width=2400&height=1347 2048w,https://framerusercontent.com/images/38NpwzghYIptRRbFZ6Soejx3wVY.jpeg?width=2400&height=1347 2400w",
+      "alt": null,
+      "width": "2400",
+      "height": "1347",
+      "path": [
+        "Main",
+        "How we work",
+        "Inside Container 2",
+        "Demo video",
+        "Desktop",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/38NpwzghYIptRRbFZ6Soejx3wVY.jpeg?width=2400&height=1347",
+      "srcset": "https://framerusercontent.com/images/38NpwzghYIptRRbFZ6Soejx3wVY.jpeg?scale-down-to=512&width=2400&height=1347 512w,https://framerusercontent.com/images/38NpwzghYIptRRbFZ6Soejx3wVY.jpeg?scale-down-to=1024&width=2400&height=1347 1024w,https://framerusercontent.com/images/38NpwzghYIptRRbFZ6Soejx3wVY.jpeg?scale-down-to=2048&width=2400&height=1347 2048w,https://framerusercontent.com/images/38NpwzghYIptRRbFZ6Soejx3wVY.jpeg?width=2400&height=1347 2400w",
+      "alt": null,
+      "width": "2400",
+      "height": "1347",
+      "path": [
+        "Main",
+        "How we work",
+        "Inside Container 2",
+        "Demo video",
+        "Tablet",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/38NpwzghYIptRRbFZ6Soejx3wVY.jpeg?width=2400&height=1347",
+      "srcset": "https://framerusercontent.com/images/38NpwzghYIptRRbFZ6Soejx3wVY.jpeg?scale-down-to=512&width=2400&height=1347 512w,https://framerusercontent.com/images/38NpwzghYIptRRbFZ6Soejx3wVY.jpeg?scale-down-to=1024&width=2400&height=1347 1024w,https://framerusercontent.com/images/38NpwzghYIptRRbFZ6Soejx3wVY.jpeg?scale-down-to=2048&width=2400&height=1347 2048w,https://framerusercontent.com/images/38NpwzghYIptRRbFZ6Soejx3wVY.jpeg?width=2400&height=1347 2400w",
+      "alt": null,
+      "width": "2400",
+      "height": "1347",
+      "path": [
+        "Main",
+        "How we work",
+        "Inside Container 2",
+        "Demo video",
+        "Phone",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ptzdfa8kamllLFJeEJ6fpHyKaQ.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/ptzdfa8kamllLFJeEJ6fpHyKaQ.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/ptzdfa8kamllLFJeEJ6fpHyKaQ.jpg?width=1024&height=1024 1024w",
+      "alt": "Portrait of Koraline Spencer.",
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Team",
+        "Outer Container",
+        "Inside Container",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ptzdfa8kamllLFJeEJ6fpHyKaQ.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/ptzdfa8kamllLFJeEJ6fpHyKaQ.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/ptzdfa8kamllLFJeEJ6fpHyKaQ.jpg?width=1024&height=1024 1024w",
+      "alt": "Portrait of Koraline Spencer.",
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Team",
+        "Outer Container",
+        "Inside Container",
+        "Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gU8yKC3ZiCyONDaKr0hgrinSY5U.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/gU8yKC3ZiCyONDaKr0hgrinSY5U.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/gU8yKC3ZiCyONDaKr0hgrinSY5U.jpg?width=1024&height=1024 1024w",
+      "alt": "Portrait of Priya Sharma.",
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Team",
+        "Outer Container",
+        "Inside Container",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gU8yKC3ZiCyONDaKr0hgrinSY5U.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/gU8yKC3ZiCyONDaKr0hgrinSY5U.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/gU8yKC3ZiCyONDaKr0hgrinSY5U.jpg?width=1024&height=1024 1024w",
+      "alt": "Portrait of Priya Sharma.",
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Team",
+        "Outer Container",
+        "Inside Container",
+        "Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/akJQe3BhYVaYiW8D7XTtFNAS2A.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/akJQe3BhYVaYiW8D7XTtFNAS2A.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/akJQe3BhYVaYiW8D7XTtFNAS2A.jpg?width=1024&height=1024 1024w",
+      "alt": "Portrait of James Okoro.",
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Team",
+        "Outer Container",
+        "Inside Container",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/akJQe3BhYVaYiW8D7XTtFNAS2A.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/akJQe3BhYVaYiW8D7XTtFNAS2A.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/akJQe3BhYVaYiW8D7XTtFNAS2A.jpg?width=1024&height=1024 1024w",
+      "alt": "Portrait of James Okoro.",
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Team",
+        "Outer Container",
+        "Inside Container",
+        "Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gJRsKq8nmNa966w6uRWMJoB7p90.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/gJRsKq8nmNa966w6uRWMJoB7p90.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/gJRsKq8nmNa966w6uRWMJoB7p90.jpg?width=1024&height=1024 1024w",
+      "alt": "Portrait of Alex Tanaka.",
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Team",
+        "Outer Container",
+        "Inside Container",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gJRsKq8nmNa966w6uRWMJoB7p90.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/gJRsKq8nmNa966w6uRWMJoB7p90.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/gJRsKq8nmNa966w6uRWMJoB7p90.jpg?width=1024&height=1024 1024w",
+      "alt": "Portrait of Alex Tanaka.",
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Team",
+        "Outer Container",
+        "Inside Container",
+        "Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?width=1024&height=1024 1024w",
+      "alt": "Portrait of David Wilson.",
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Team",
+        "Outer Container",
+        "Inside Container",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?width=1024&height=1024 1024w",
+      "alt": "Portrait of David Wilson.",
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Team",
+        "Outer Container",
+        "Inside Container",
+        "Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HSDuVqMhSgRPV5plzbPZvxsh3c.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/HSDuVqMhSgRPV5plzbPZvxsh3c.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/HSDuVqMhSgRPV5plzbPZvxsh3c.jpg?width=1024&height=1024 1024w",
+      "alt": "Portrait of Rachel Andersen.",
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Team",
+        "Outer Container",
+        "Inside Container",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HSDuVqMhSgRPV5plzbPZvxsh3c.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/HSDuVqMhSgRPV5plzbPZvxsh3c.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/HSDuVqMhSgRPV5plzbPZvxsh3c.jpg?width=1024&height=1024 1024w",
+      "alt": "Portrait of Rachel Andersen.",
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Team",
+        "Outer Container",
+        "Inside Container",
+        "Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/vJ0BOWZIknJPSUQfc9t1XTrJIE.jpeg?width=2400&height=1600",
+      "srcset": "https://framerusercontent.com/images/vJ0BOWZIknJPSUQfc9t1XTrJIE.jpeg?scale-down-to=512&width=2400&height=1600 512w,https://framerusercontent.com/images/vJ0BOWZIknJPSUQfc9t1XTrJIE.jpeg?scale-down-to=1024&width=2400&height=1600 1024w,https://framerusercontent.com/images/vJ0BOWZIknJPSUQfc9t1XTrJIE.jpeg?scale-down-to=2048&width=2400&height=1600 2048w,https://framerusercontent.com/images/vJ0BOWZIknJPSUQfc9t1XTrJIE.jpeg?width=2400&height=1600 2400w",
+      "alt": null,
+      "width": "2400",
+      "height": "1600",
+      "path": [
+        "Main",
+        "Team",
+        "Outer Container",
+        "Inside Container",
+        "Bottom",
+        "Hidden",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/F1UsC3Qy2MBxr7spZdOv8SWIZpQ.jpg?width=2400&height=1350",
+      "srcset": "https://framerusercontent.com/images/F1UsC3Qy2MBxr7spZdOv8SWIZpQ.jpg?scale-down-to=512&width=2400&height=1350 512w,https://framerusercontent.com/images/F1UsC3Qy2MBxr7spZdOv8SWIZpQ.jpg?scale-down-to=1024&width=2400&height=1350 1024w,https://framerusercontent.com/images/F1UsC3Qy2MBxr7spZdOv8SWIZpQ.jpg?scale-down-to=2048&width=2400&height=1350 2048w,https://framerusercontent.com/images/F1UsC3Qy2MBxr7spZdOv8SWIZpQ.jpg?width=2400&height=1350 2400w",
+      "alt": "A smiling woman standing outside a modern office building.",
+      "width": "2400",
+      "height": "1350",
+      "path": [
+        "Main",
+        "Testimonials",
+        "Featured Testimonial",
+        "Outer Container",
+        "BG Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:left center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IUemvQkLgDMcBDfk0JMW2zfw.jpg?width=1800&height=1719",
+      "srcset": "https://framerusercontent.com/images/IUemvQkLgDMcBDfk0JMW2zfw.jpg?scale-down-to=512&width=1800&height=1719 512w,https://framerusercontent.com/images/IUemvQkLgDMcBDfk0JMW2zfw.jpg?scale-down-to=1024&width=1800&height=1719 1024w,https://framerusercontent.com/images/IUemvQkLgDMcBDfk0JMW2zfw.jpg?width=1800&height=1719 1800w",
+      "alt": "Joseph Alexander - Official Framer Partner",
+      "width": "1800",
+      "height": "1719",
+      "path": [
+        "Main",
+        "Testimonials",
+        "Featured Testimonial",
+        "Outer Container",
+        "Inside Container",
+        "Testimonial Card",
+        "Author Logo",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IUemvQkLgDMcBDfk0JMW2zfw.jpg?width=1800&height=1719",
+      "srcset": "https://framerusercontent.com/images/IUemvQkLgDMcBDfk0JMW2zfw.jpg?scale-down-to=512&width=1800&height=1719 512w,https://framerusercontent.com/images/IUemvQkLgDMcBDfk0JMW2zfw.jpg?scale-down-to=1024&width=1800&height=1719 1024w,https://framerusercontent.com/images/IUemvQkLgDMcBDfk0JMW2zfw.jpg?width=1800&height=1719 1800w",
+      "alt": "Joseph Alexander - Official Framer Partner",
+      "width": "1800",
+      "height": "1719",
+      "path": [
+        "Main",
+        "Testimonials",
+        "Featured Testimonial",
+        "Outer Container",
+        "Inside Container",
+        "Testimonial Card",
+        "Author Logo",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Lc4erlgEmXN8fEJjyK8QzjEA3Qo.jpg?width=1800&height=2329",
+      "srcset": "https://framerusercontent.com/images/Lc4erlgEmXN8fEJjyK8QzjEA3Qo.jpg?scale-down-to=1024&width=1800&height=2329 791w,https://framerusercontent.com/images/Lc4erlgEmXN8fEJjyK8QzjEA3Qo.jpg?scale-down-to=2048&width=1800&height=2329 1582w,https://framerusercontent.com/images/Lc4erlgEmXN8fEJjyK8QzjEA3Qo.jpg?width=1800&height=2329 1800w",
+      "alt": null,
+      "width": "1800",
+      "height": "2329",
+      "path": [
+        "Main",
+        "Testimonials",
+        "Testimonials / Results / CTA",
+        "More testimonials",
+        "1 Open",
+        "1",
+        "Active",
+        "Author",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?width=1800&height=2400",
+      "srcset": "https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?scale-down-to=1024&width=1800&height=2400 768w,https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?scale-down-to=2048&width=1800&height=2400 1536w,https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?width=1800&height=2400 1800w",
+      "alt": null,
+      "width": "1800",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Testimonials",
+        "Testimonials / Results / CTA",
+        "More testimonials",
+        "1 Open",
+        "2",
+        "Inactive",
+        "Author",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?width=1800&height=2400",
+      "srcset": "https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?scale-down-to=1024&width=1800&height=2400 768w,https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?scale-down-to=2048&width=1800&height=2400 1536w,https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?width=1800&height=2400 1800w",
+      "alt": null,
+      "width": "1800",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Testimonials",
+        "Testimonials / Results / CTA",
+        "More testimonials",
+        "1 Open",
+        "3",
+        "Inactive",
+        "Author",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Lc4erlgEmXN8fEJjyK8QzjEA3Qo.jpg?width=1800&height=2329",
+      "srcset": "https://framerusercontent.com/images/Lc4erlgEmXN8fEJjyK8QzjEA3Qo.jpg?scale-down-to=1024&width=1800&height=2329 791w,https://framerusercontent.com/images/Lc4erlgEmXN8fEJjyK8QzjEA3Qo.jpg?scale-down-to=2048&width=1800&height=2329 1582w,https://framerusercontent.com/images/Lc4erlgEmXN8fEJjyK8QzjEA3Qo.jpg?width=1800&height=2329 1800w",
+      "alt": null,
+      "width": "1800",
+      "height": "2329",
+      "path": [
+        "Main",
+        "Testimonials",
+        "Testimonials / Results / CTA",
+        "More testimonials",
+        "Tablet",
+        "1",
+        "Active",
+        "Author",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?width=1800&height=2400",
+      "srcset": "https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?scale-down-to=1024&width=1800&height=2400 768w,https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?scale-down-to=2048&width=1800&height=2400 1536w,https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?width=1800&height=2400 1800w",
+      "alt": null,
+      "width": "1800",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Testimonials",
+        "Testimonials / Results / CTA",
+        "More testimonials",
+        "Tablet",
+        "2",
+        "Phone",
+        "Author",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?width=1800&height=2400",
+      "srcset": "https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?scale-down-to=1024&width=1800&height=2400 768w,https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?scale-down-to=2048&width=1800&height=2400 1536w,https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?width=1800&height=2400 1800w",
+      "alt": null,
+      "width": "1800",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Testimonials",
+        "Testimonials / Results / CTA",
+        "More testimonials",
+        "Tablet",
+        "3",
+        "Phone",
+        "Author",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Lc4erlgEmXN8fEJjyK8QzjEA3Qo.jpg?width=1800&height=2329",
+      "srcset": "https://framerusercontent.com/images/Lc4erlgEmXN8fEJjyK8QzjEA3Qo.jpg?scale-down-to=1024&width=1800&height=2329 791w,https://framerusercontent.com/images/Lc4erlgEmXN8fEJjyK8QzjEA3Qo.jpg?scale-down-to=2048&width=1800&height=2329 1582w,https://framerusercontent.com/images/Lc4erlgEmXN8fEJjyK8QzjEA3Qo.jpg?width=1800&height=2329 1800w",
+      "alt": null,
+      "width": "1800",
+      "height": "2329",
+      "path": [
+        "Main",
+        "Testimonials",
+        "Testimonials / Results / CTA",
+        "More testimonials",
+        "Phone",
+        "1",
+        "Phone",
+        "Author",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?width=1800&height=2400",
+      "srcset": "https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?scale-down-to=1024&width=1800&height=2400 768w,https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?scale-down-to=2048&width=1800&height=2400 1536w,https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?width=1800&height=2400 1800w",
+      "alt": null,
+      "width": "1800",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Testimonials",
+        "Testimonials / Results / CTA",
+        "More testimonials",
+        "Phone",
+        "2",
+        "Phone",
+        "Author",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?width=1800&height=2400",
+      "srcset": "https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?scale-down-to=1024&width=1800&height=2400 768w,https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?scale-down-to=2048&width=1800&height=2400 1536w,https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?width=1800&height=2400 1800w",
+      "alt": null,
+      "width": "1800",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Testimonials",
+        "Testimonials / Results / CTA",
+        "More testimonials",
+        "Phone",
+        "3",
+        "Phone",
+        "Author",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ptzdfa8kamllLFJeEJ6fpHyKaQ.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/ptzdfa8kamllLFJeEJ6fpHyKaQ.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/ptzdfa8kamllLFJeEJ6fpHyKaQ.jpg?width=1024&height=1024 1024w",
+      "alt": "Portrait of Koraline Spencer.",
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Testimonials",
+        "Testimonials / Results / CTA",
+        "CTA",
+        "Grid Container",
+        "Quote",
+        "Team Member",
+        "container",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?width=1800&height=2400",
+      "srcset": "https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?scale-down-to=1024&width=1800&height=2400 768w,https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?scale-down-to=2048&width=1800&height=2400 1536w,https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?width=1800&height=2400 1800w",
+      "alt": "Portrait of David Kim.",
+      "width": "1800",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Case Study",
+        "Inside Container",
+        "Desktop",
+        "Right",
+        "Services / Quote",
+        "Quote",
+        "Author",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?width=2400&height=1600",
+      "srcset": "https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?scale-down-to=512&width=2400&height=1600 512w,https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?scale-down-to=1024&width=2400&height=1600 1024w,https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?scale-down-to=2048&width=2400&height=1600 2048w,https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?width=2400&height=1600 2400w",
+      "alt": "A woman's face lit by striped light, framed by two silhouetted profiles.",
+      "width": "2400",
+      "height": "1600",
+      "path": [
+        "Main",
+        "Case Study",
+        "Inside Container",
+        "Desktop",
+        "Right",
+        "Main Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?width=1800&height=2400",
+      "srcset": "https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?scale-down-to=1024&width=1800&height=2400 768w,https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?scale-down-to=2048&width=1800&height=2400 1536w,https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?width=1800&height=2400 1800w",
+      "alt": "Portrait of David Kim.",
+      "width": "1800",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Case Study",
+        "Inside Container",
+        "Tablet",
+        "Right",
+        "Services / Quote",
+        "Quote",
+        "Author",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?width=2400&height=1600",
+      "srcset": "https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?scale-down-to=512&width=2400&height=1600 512w,https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?scale-down-to=1024&width=2400&height=1600 1024w,https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?scale-down-to=2048&width=2400&height=1600 2048w,https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?width=2400&height=1600 2400w",
+      "alt": "A woman's face lit by striped light, framed by two silhouetted profiles.",
+      "width": "2400",
+      "height": "1600",
+      "path": [
+        "Main",
+        "Case Study",
+        "Inside Container",
+        "Tablet",
+        "Right",
+        "Main Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?width=1800&height=2400",
+      "srcset": "https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?scale-down-to=1024&width=1800&height=2400 768w,https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?scale-down-to=2048&width=1800&height=2400 1536w,https://framerusercontent.com/images/MI76ZMTeB2Mvtl0tBcBCscmA.jpg?width=1800&height=2400 1800w",
+      "alt": "Portrait of David Kim.",
+      "width": "1800",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Case Study",
+        "Inside Container",
+        "Phone",
+        "Right",
+        "Services / Quote",
+        "Quote",
+        "Author",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?width=2400&height=1600",
+      "srcset": "https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?scale-down-to=512&width=2400&height=1600 512w,https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?scale-down-to=1024&width=2400&height=1600 1024w,https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?scale-down-to=2048&width=2400&height=1600 2048w,https://framerusercontent.com/images/qWS4BiNWHU6BsV03nquz3LOXcM.jpeg?width=2400&height=1600 2400w",
+      "alt": "A woman's face lit by striped light, framed by two silhouetted profiles.",
+      "width": "2400",
+      "height": "1600",
+      "path": [
+        "Main",
+        "Case Study",
+        "Inside Container",
+        "Phone",
+        "Right",
+        "Main Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CLNNeZ7sGt3ywvDzR7D6Mi3TE.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Pricing",
+        "Outer Container",
+        "Inside Container",
+        "Title / Social Proof",
+        "Desktop",
+        "Stacked Avatars",
+        "Container",
+        "1",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aqkakFzIkX11TpipSH4MurMn1c.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Pricing",
+        "Outer Container",
+        "Inside Container",
+        "Title / Social Proof",
+        "Desktop",
+        "Stacked Avatars",
+        "Container",
+        "2",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Y0PKmJR8OR83TST953hq4wrsmtI.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Pricing",
+        "Outer Container",
+        "Inside Container",
+        "Title / Social Proof",
+        "Desktop",
+        "Stacked Avatars",
+        "Container",
+        "3",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dYAD6XIGC1k0IidBb9wX6b7srM.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Pricing",
+        "Outer Container",
+        "Inside Container",
+        "Title / Social Proof",
+        "Desktop",
+        "Stacked Avatars",
+        "Container",
+        "4",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZCltSDBMvX6dGq8gfKZbNA61y0.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Pricing",
+        "Outer Container",
+        "Inside Container",
+        "Title / Social Proof",
+        "Desktop",
+        "Stacked Avatars",
+        "Container",
+        "5",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CLNNeZ7sGt3ywvDzR7D6Mi3TE.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Pricing",
+        "Outer Container",
+        "Inside Container",
+        "Title / Social Proof",
+        "Phone",
+        "Stacked Avatars",
+        "Container",
+        "1",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aqkakFzIkX11TpipSH4MurMn1c.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Pricing",
+        "Outer Container",
+        "Inside Container",
+        "Title / Social Proof",
+        "Phone",
+        "Stacked Avatars",
+        "Container",
+        "2",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Y0PKmJR8OR83TST953hq4wrsmtI.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Pricing",
+        "Outer Container",
+        "Inside Container",
+        "Title / Social Proof",
+        "Phone",
+        "Stacked Avatars",
+        "Container",
+        "3",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dYAD6XIGC1k0IidBb9wX6b7srM.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Pricing",
+        "Outer Container",
+        "Inside Container",
+        "Title / Social Proof",
+        "Phone",
+        "Stacked Avatars",
+        "Container",
+        "4",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZCltSDBMvX6dGq8gfKZbNA61y0.jpg?width=60&height=60",
+      "srcset": null,
+      "alt": null,
+      "width": "60",
+      "height": "60",
+      "path": [
+        "Main",
+        "Pricing",
+        "Outer Container",
+        "Inside Container",
+        "Title / Social Proof",
+        "Phone",
+        "Stacked Avatars",
+        "Container",
+        "5",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?width=1024&height=1024 1024w",
+      "alt": "Portrait of David Wilson.",
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Pricing",
+        "Outer Container",
+        "Inside Container",
+        "Desktop",
+        "Pricing",
+        "Pricing Toggle / Risk Reversal",
+        "Risk reversal",
+        "Team Member",
+        "container",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?width=1024&height=1024 1024w",
+      "alt": "Portrait of David Wilson.",
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Pricing",
+        "Outer Container",
+        "Inside Container",
+        "Phone",
+        "Pricing",
+        "Risk Reversal Phone",
+        "Risk reversal",
+        "Team Member",
+        "container",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?width=1024&height=1024 1024w",
+      "alt": "Portrait of David Wilson.",
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Pricing",
+        "Outer Container",
+        "Inside Container",
+        "Phone",
+        "Pricing",
+        "Risk Reversal Phone",
+        "Risk reversal",
+        "Team Member",
+        "container",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gU8yKC3ZiCyONDaKr0hgrinSY5U.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/gU8yKC3ZiCyONDaKr0hgrinSY5U.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/gU8yKC3ZiCyONDaKr0hgrinSY5U.jpg?width=1024&height=1024 1024w",
+      "alt": null,
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "FAQ Section",
+        "Desktop",
+        "FAQ",
+        "Inside Container",
+        "Content",
+        "Bottom",
+        "Avatars",
+        "Left",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HSDuVqMhSgRPV5plzbPZvxsh3c.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/HSDuVqMhSgRPV5plzbPZvxsh3c.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/HSDuVqMhSgRPV5plzbPZvxsh3c.jpg?width=1024&height=1024 1024w",
+      "alt": null,
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "FAQ Section",
+        "Desktop",
+        "FAQ",
+        "Inside Container",
+        "Content",
+        "Bottom",
+        "Avatars",
+        "Center",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?width=1024&height=1024 1024w",
+      "alt": null,
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "FAQ Section",
+        "Desktop",
+        "FAQ",
+        "Inside Container",
+        "Content",
+        "Bottom",
+        "Avatars",
+        "Right",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gU8yKC3ZiCyONDaKr0hgrinSY5U.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/gU8yKC3ZiCyONDaKr0hgrinSY5U.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/gU8yKC3ZiCyONDaKr0hgrinSY5U.jpg?width=1024&height=1024 1024w",
+      "alt": null,
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "FAQ Section",
+        "Tablet",
+        "FAQ",
+        "Inside Container",
+        "Content",
+        "Bottom",
+        "Avatars",
+        "Left",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HSDuVqMhSgRPV5plzbPZvxsh3c.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/HSDuVqMhSgRPV5plzbPZvxsh3c.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/HSDuVqMhSgRPV5plzbPZvxsh3c.jpg?width=1024&height=1024 1024w",
+      "alt": null,
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "FAQ Section",
+        "Tablet",
+        "FAQ",
+        "Inside Container",
+        "Content",
+        "Bottom",
+        "Avatars",
+        "Center",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?width=1024&height=1024 1024w",
+      "alt": null,
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "FAQ Section",
+        "Tablet",
+        "FAQ",
+        "Inside Container",
+        "Content",
+        "Bottom",
+        "Avatars",
+        "Right",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gU8yKC3ZiCyONDaKr0hgrinSY5U.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/gU8yKC3ZiCyONDaKr0hgrinSY5U.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/gU8yKC3ZiCyONDaKr0hgrinSY5U.jpg?width=1024&height=1024 1024w",
+      "alt": null,
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "FAQ Section",
+        "Phone",
+        "FAQ",
+        "Inside Container",
+        "Content",
+        "Bottom",
+        "Avatars",
+        "Left",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HSDuVqMhSgRPV5plzbPZvxsh3c.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/HSDuVqMhSgRPV5plzbPZvxsh3c.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/HSDuVqMhSgRPV5plzbPZvxsh3c.jpg?width=1024&height=1024 1024w",
+      "alt": null,
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "FAQ Section",
+        "Phone",
+        "FAQ",
+        "Inside Container",
+        "Content",
+        "Bottom",
+        "Avatars",
+        "Center",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/vT4xPYmbaRCnYfkKyzUAbKKiR0.jpg?width=1024&height=1024 1024w",
+      "alt": null,
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "FAQ Section",
+        "Phone",
+        "FAQ",
+        "Inside Container",
+        "Content",
+        "Bottom",
+        "Avatars",
+        "Right",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZUKAuHzqrTMon49eyQdZ9vuSDfY.jpeg?width=2400&height=1350",
+      "srcset": "https://framerusercontent.com/images/ZUKAuHzqrTMon49eyQdZ9vuSDfY.jpeg?scale-down-to=512&width=2400&height=1350 512w,https://framerusercontent.com/images/ZUKAuHzqrTMon49eyQdZ9vuSDfY.jpeg?scale-down-to=1024&width=2400&height=1350 1024w,https://framerusercontent.com/images/ZUKAuHzqrTMon49eyQdZ9vuSDfY.jpeg?scale-down-to=2048&width=2400&height=1350 2048w,https://framerusercontent.com/images/ZUKAuHzqrTMon49eyQdZ9vuSDfY.jpeg?width=2400&height=1350 2400w",
+      "alt": "A glowing old television screen sitting on a grassy hillside at dusk.",
+      "width": "2400",
+      "height": "1350",
+      "path": [
+        "Main",
+        "Insights",
+        "Desktop",
+        "Inside Container",
+        "Default",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IXWqaCHPbvPQKcyZ9Mch2cWh9hU.jpg?width=2400&height=1350",
+      "srcset": "https://framerusercontent.com/images/IXWqaCHPbvPQKcyZ9Mch2cWh9hU.jpg?scale-down-to=512&width=2400&height=1350 512w,https://framerusercontent.com/images/IXWqaCHPbvPQKcyZ9Mch2cWh9hU.jpg?scale-down-to=1024&width=2400&height=1350 1024w,https://framerusercontent.com/images/IXWqaCHPbvPQKcyZ9Mch2cWh9hU.jpg?scale-down-to=2048&width=2400&height=1350 2048w,https://framerusercontent.com/images/IXWqaCHPbvPQKcyZ9Mch2cWh9hU.jpg?width=2400&height=1350 2400w",
+      "alt": "Daisies and water droplets inside a clear phone-shaped glass case.",
+      "width": "2400",
+      "height": "1350",
+      "path": [
+        "Main",
+        "Insights",
+        "Desktop",
+        "Inside Container",
+        "Default",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZUKAuHzqrTMon49eyQdZ9vuSDfY.jpeg?width=2400&height=1350",
+      "srcset": "https://framerusercontent.com/images/ZUKAuHzqrTMon49eyQdZ9vuSDfY.jpeg?scale-down-to=512&width=2400&height=1350 512w,https://framerusercontent.com/images/ZUKAuHzqrTMon49eyQdZ9vuSDfY.jpeg?scale-down-to=1024&width=2400&height=1350 1024w,https://framerusercontent.com/images/ZUKAuHzqrTMon49eyQdZ9vuSDfY.jpeg?scale-down-to=2048&width=2400&height=1350 2048w,https://framerusercontent.com/images/ZUKAuHzqrTMon49eyQdZ9vuSDfY.jpeg?width=2400&height=1350 2400w",
+      "alt": "A glowing old television screen sitting on a grassy hillside at dusk.",
+      "width": "2400",
+      "height": "1350",
+      "path": [
+        "Main",
+        "Insights",
+        "Tablet",
+        "Inside Container",
+        "Phone default",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IXWqaCHPbvPQKcyZ9Mch2cWh9hU.jpg?width=2400&height=1350",
+      "srcset": "https://framerusercontent.com/images/IXWqaCHPbvPQKcyZ9Mch2cWh9hU.jpg?scale-down-to=512&width=2400&height=1350 512w,https://framerusercontent.com/images/IXWqaCHPbvPQKcyZ9Mch2cWh9hU.jpg?scale-down-to=1024&width=2400&height=1350 1024w,https://framerusercontent.com/images/IXWqaCHPbvPQKcyZ9Mch2cWh9hU.jpg?scale-down-to=2048&width=2400&height=1350 2048w,https://framerusercontent.com/images/IXWqaCHPbvPQKcyZ9Mch2cWh9hU.jpg?width=2400&height=1350 2400w",
+      "alt": "Daisies and water droplets inside a clear phone-shaped glass case.",
+      "width": "2400",
+      "height": "1350",
+      "path": [
+        "Main",
+        "Insights",
+        "Tablet",
+        "Inside Container",
+        "Phone default",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZUKAuHzqrTMon49eyQdZ9vuSDfY.jpeg?width=2400&height=1350",
+      "srcset": "https://framerusercontent.com/images/ZUKAuHzqrTMon49eyQdZ9vuSDfY.jpeg?scale-down-to=512&width=2400&height=1350 512w,https://framerusercontent.com/images/ZUKAuHzqrTMon49eyQdZ9vuSDfY.jpeg?scale-down-to=1024&width=2400&height=1350 1024w,https://framerusercontent.com/images/ZUKAuHzqrTMon49eyQdZ9vuSDfY.jpeg?scale-down-to=2048&width=2400&height=1350 2048w,https://framerusercontent.com/images/ZUKAuHzqrTMon49eyQdZ9vuSDfY.jpeg?width=2400&height=1350 2400w",
+      "alt": "A glowing old television screen sitting on a grassy hillside at dusk.",
+      "width": "2400",
+      "height": "1350",
+      "path": [
+        "Main",
+        "Insights",
+        "Phone",
+        "Inside Container",
+        "Phone default",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IXWqaCHPbvPQKcyZ9Mch2cWh9hU.jpg?width=2400&height=1350",
+      "srcset": "https://framerusercontent.com/images/IXWqaCHPbvPQKcyZ9Mch2cWh9hU.jpg?scale-down-to=512&width=2400&height=1350 512w,https://framerusercontent.com/images/IXWqaCHPbvPQKcyZ9Mch2cWh9hU.jpg?scale-down-to=1024&width=2400&height=1350 1024w,https://framerusercontent.com/images/IXWqaCHPbvPQKcyZ9Mch2cWh9hU.jpg?scale-down-to=2048&width=2400&height=1350 2048w,https://framerusercontent.com/images/IXWqaCHPbvPQKcyZ9Mch2cWh9hU.jpg?width=2400&height=1350 2400w",
+      "alt": "Daisies and water droplets inside a clear phone-shaped glass case.",
+      "width": "2400",
+      "height": "1350",
+      "path": [
+        "Main",
+        "Insights",
+        "Phone",
+        "Inside Container",
+        "Phone default",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/YLqSXPwuRjvZniqgw49AQYJMSzM.png?width=2400&height=1600",
+      "srcset": "https://framerusercontent.com/images/YLqSXPwuRjvZniqgw49AQYJMSzM.png?scale-down-to=512&width=2400&height=1600 512w,https://framerusercontent.com/images/YLqSXPwuRjvZniqgw49AQYJMSzM.png?scale-down-to=1024&width=2400&height=1600 1024w,https://framerusercontent.com/images/YLqSXPwuRjvZniqgw49AQYJMSzM.png?scale-down-to=2048&width=2400&height=1600 2048w,https://framerusercontent.com/images/YLqSXPwuRjvZniqgw49AQYJMSzM.png?width=2400&height=1600 2400w",
+      "alt": null,
+      "width": "2400",
+      "height": "1600",
+      "path": [
+        "Main",
+        "Desktop",
+        "CTA",
+        "Outer Container",
+        "BG Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?width=1800&height=2400",
+      "srcset": "https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?scale-down-to=1024&width=1800&height=2400 768w,https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?scale-down-to=2048&width=1800&height=2400 1536w,https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?width=1800&height=2400 1800w",
+      "alt": "Joseph Alexander - Official Framer Partner",
+      "width": "1800",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Desktop",
+        "CTA",
+        "Outer Container",
+        "Inside Container",
+        "Top",
+        "Left",
+        "Testimonial Card",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/YLqSXPwuRjvZniqgw49AQYJMSzM.png?width=2400&height=1600",
+      "srcset": "https://framerusercontent.com/images/YLqSXPwuRjvZniqgw49AQYJMSzM.png?scale-down-to=512&width=2400&height=1600 512w,https://framerusercontent.com/images/YLqSXPwuRjvZniqgw49AQYJMSzM.png?scale-down-to=1024&width=2400&height=1600 1024w,https://framerusercontent.com/images/YLqSXPwuRjvZniqgw49AQYJMSzM.png?scale-down-to=2048&width=2400&height=1600 2048w,https://framerusercontent.com/images/YLqSXPwuRjvZniqgw49AQYJMSzM.png?width=2400&height=1600 2400w",
+      "alt": null,
+      "width": "2400",
+      "height": "1600",
+      "path": [
+        "Main",
+        "Tablet",
+        "CTA",
+        "Outer Container",
+        "BG Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?width=1800&height=2400",
+      "srcset": "https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?scale-down-to=1024&width=1800&height=2400 768w,https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?scale-down-to=2048&width=1800&height=2400 1536w,https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?width=1800&height=2400 1800w",
+      "alt": "Joseph Alexander - Official Framer Partner",
+      "width": "1800",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Tablet",
+        "CTA",
+        "Outer Container",
+        "Inside Container",
+        "Top",
+        "Left",
+        "Testimonial Card",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/YLqSXPwuRjvZniqgw49AQYJMSzM.png?width=2400&height=1600",
+      "srcset": "https://framerusercontent.com/images/YLqSXPwuRjvZniqgw49AQYJMSzM.png?scale-down-to=512&width=2400&height=1600 512w,https://framerusercontent.com/images/YLqSXPwuRjvZniqgw49AQYJMSzM.png?scale-down-to=1024&width=2400&height=1600 1024w,https://framerusercontent.com/images/YLqSXPwuRjvZniqgw49AQYJMSzM.png?scale-down-to=2048&width=2400&height=1600 2048w,https://framerusercontent.com/images/YLqSXPwuRjvZniqgw49AQYJMSzM.png?width=2400&height=1600 2400w",
+      "alt": null,
+      "width": "2400",
+      "height": "1600",
+      "path": [
+        "Main",
+        "Phone",
+        "CTA",
+        "Outer Container",
+        "BG Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?width=1800&height=2400",
+      "srcset": "https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?scale-down-to=1024&width=1800&height=2400 768w,https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?scale-down-to=2048&width=1800&height=2400 1536w,https://framerusercontent.com/images/4WbRXwPAFJbnEFjFuWDs7LLC4ds.jpg?width=1800&height=2400 1800w",
+      "alt": "Joseph Alexander - Official Framer Partner",
+      "width": "1800",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Phone",
+        "CTA",
+        "Outer Container",
+        "Inside Container",
+        "Top",
+        "Left",
+        "Testimonial Card",
+        "Large",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ptzdfa8kamllLFJeEJ6fpHyKaQ.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/ptzdfa8kamllLFJeEJ6fpHyKaQ.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/ptzdfa8kamllLFJeEJ6fpHyKaQ.jpg?width=1024&height=1024 1024w",
+      "alt": "Portrait of Koraline Spencer.",
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Desktop",
+        "Footer",
+        "Outer Container",
+        "Inside Container",
+        "Top",
+        "Right",
+        "Founder Quote",
+        "Team Member",
+        "container",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ptzdfa8kamllLFJeEJ6fpHyKaQ.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/ptzdfa8kamllLFJeEJ6fpHyKaQ.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/ptzdfa8kamllLFJeEJ6fpHyKaQ.jpg?width=1024&height=1024 1024w",
+      "alt": "Portrait of Koraline Spencer.",
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Tablet",
+        "Footer",
+        "Outer Container",
+        "Inside Container",
+        "Top",
+        "Right",
+        "Founder Quote",
+        "Team Member",
+        "container",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ptzdfa8kamllLFJeEJ6fpHyKaQ.jpg?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/ptzdfa8kamllLFJeEJ6fpHyKaQ.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/ptzdfa8kamllLFJeEJ6fpHyKaQ.jpg?width=1024&height=1024 1024w",
+      "alt": "Portrait of Koraline Spencer.",
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Phone",
+        "Footer",
+        "Outer Container",
+        "Inside Container",
+        "Top",
+        "Right",
+        "Founder Quote",
+        "Team Member",
+        "container",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JDU4AEuAWM8QYjfyZ91Xs9q0Cu8.jpg?width=120&height=120",
+      "srcset": null,
+      "alt": "Joseph Alexander - Official Framer Partner",
+      "width": "120",
+      "height": "120",
+      "path": [
+        "Book Call",
+        "Inside Container",
+        "Desktop",
+        "Avatar",
+        "Container",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wn56GiYIGN9okbMTZQ8fV2UQ0.jpg?width=1600&height=1200",
+      "srcset": "https://framerusercontent.com/images/wn56GiYIGN9okbMTZQ8fV2UQ0.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/wn56GiYIGN9okbMTZQ8fV2UQ0.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/wn56GiYIGN9okbMTZQ8fV2UQ0.jpg?width=1600&height=1200 1600w",
+      "alt": "Kora template hero design",
+      "width": "1600",
+      "height": "1200",
+      "path": [
+        "Template Buy Button",
+        "Buy Button",
+        "Outer",
+        "Inner",
+        "Image / Btn",
+        "Template Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wn56GiYIGN9okbMTZQ8fV2UQ0.jpg?width=1600&height=1200",
+      "srcset": "https://framerusercontent.com/images/wn56GiYIGN9okbMTZQ8fV2UQ0.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/wn56GiYIGN9okbMTZQ8fV2UQ0.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/wn56GiYIGN9okbMTZQ8fV2UQ0.jpg?width=1600&height=1200 1600w",
+      "alt": "Kora template hero design",
+      "width": "1600",
+      "height": "1200",
+      "path": [
+        "Template Buy Button",
+        "Phone",
+        "Outer",
+        "Inner",
+        "Image / Btn",
+        "Template Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    }
+  ],
+  "videoReferences": [],
+  "linksDeclaredInSource": [
+    "https://Linkedin.com",
+    "https://facebook.com",
+    "https://instagram.com",
+    "https://kora.framer.media/#pricing",
+    "https://kora.framer.media/#services",
+    "https://kora.framer.media/#top",
+    "https://kora.framer.media/about",
+    "https://kora.framer.media/cases",
+    "https://kora.framer.media/cases/sitemark",
+    "https://kora.framer.media/contact",
+    "https://kora.framer.media/insights",
+    "https://kora.framer.media/insights/five-growth-levers-most-companies-ignore",
+    "https://kora.framer.media/insights/your-crm-is-not-the-problem",
+    "https://kora.framer.media/privacy-policy",
+    "https://kora.framer.media/terms-of-service",
+    "https://launchnow.design/checkout/kora?utm_medium=phonebtn",
+    "https://www.framer.com",
+    "https://x.com",
+    "mailto:jobs@kora.com",
+    "tel:+1-510-895-6500"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F300f4c65-27a0-47d9-9b2d-d3e7324b37fb%2Fn1z6ljfx&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F59533%2Fkora-hK94nR2jh6Dnson2lA7EfedgGzI3c0&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F59533%2Fkora-I3EoZ0gZDoO0OlDBCtkm5NCxVMblEW&w=2048&q=80"
+    }
+  ],
+  "category": {
+    "parent": "Services",
+    "branch": "Consulting",
+    "marketplace": "https://www.framer.com/marketplace/templates/kora/"
+  }
+}

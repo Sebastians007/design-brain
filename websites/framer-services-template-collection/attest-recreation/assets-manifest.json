@@ -1,0 +1,1366 @@
+{
+  "assets": [
+    {
+      "file": "assets/fonts/eb-garamond-400-0.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/ebgaramond/v33/SlGUmQSNjdsmc35JDF1K5GR1SDk.woff2",
+      "kind": "font",
+      "bytes": 44336,
+      "sha256": "88603384163d301aebd5bd769832a8bfe3c9004ec24178417b9817f0ad32c63b",
+      "family": "EB Garamond",
+      "weight": "400",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/eb-garamond-700-1.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/ebgaramond/v33/SlGUmQSNjdsmc35JDF1K5GR1SDk.woff2",
+      "kind": "font",
+      "bytes": 44336,
+      "sha256": "88603384163d301aebd5bd769832a8bfe3c9004ec24178417b9817f0ad32c63b",
+      "family": "EB Garamond",
+      "weight": "700",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/inter-400-2.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "kind": "font",
+      "bytes": 27380,
+      "sha256": "362b168da82d69bc67d2a358fa20c59151cb4ceac8a5506be6baef5e6827fa42",
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/inter-display-400-3.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/bHYNJqzTyl2lqvmMiRRS6Y16Es.woff2",
+      "kind": "font",
+      "bytes": 26588,
+      "sha256": "b68a1d9dd28ee2271e335f0641317ae656016451ccac2a6eb30abf74009cef4c",
+      "family": "Inter Display",
+      "weight": "400",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/inter-display-700-4.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/qITWJ2WdG0wrgQPDb8lvnYnTXDg.woff2",
+      "kind": "font",
+      "bytes": 27412,
+      "sha256": "f3e78bd72980a64f52acc2da4407c031dee9ad4f8dacaedc1934c4329e9e9748",
+      "family": "Inter Display",
+      "weight": "700",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/inter-display-900-5.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/x8eJ5VkmPMHVhVbF0E8JYFJmwc.woff2",
+      "kind": "font",
+      "bytes": 26912,
+      "sha256": "6112bdf0ea05d18ef62eade9fbb5a1ce5aa2e45a95396af23c6850b3e8ac3d06",
+      "family": "Inter Display",
+      "weight": "900",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/inter-display-500-6.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/iwWTDc49ENF2tCHbqlNARXw6Ug.woff2",
+      "kind": "font",
+      "bytes": 27404,
+      "sha256": "36af7a05631942a697628a9d12b9a6c3691899c9f831e1f30a310458667a109e",
+      "family": "Inter Display",
+      "weight": "500",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/inter-600-7.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+      "kind": "font",
+      "bytes": 28088,
+      "sha256": "236c9fe41df720209dd1a1f942b5c95e338831b29df381e8ce9f405b40a9209a",
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/inter-700-8.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "kind": "font",
+      "bytes": 27900,
+      "sha256": "fad48f71e77d72b44122a1d978820a7e7215b84f9a9c0e3a31d97d5987a710e9",
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/images/source-01.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/Ed2ESU2tfG6OdSs1Rg5F3DMA0kU.jpg?width=1920&height=2400",
+      "kind": "image",
+      "bytes": 465283,
+      "sha256": "2814c99dbf88dbe957f0f211700f1376a5a5d1273ddf8397be147e77912055e4",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/Ed2ESU2tfG6OdSs1Rg5F3DMA0kU.jpg?width=1920&height=2400",
+          "srcset": "https://framerusercontent.com/images/Ed2ESU2tfG6OdSs1Rg5F3DMA0kU.jpg?scale-down-to=1024&width=1920&height=2400 819w,https://framerusercontent.com/images/Ed2ESU2tfG6OdSs1Rg5F3DMA0kU.jpg?scale-down-to=2048&width=1920&height=2400 1638w,https://framerusercontent.com/images/Ed2ESU2tfG6OdSs1Rg5F3DMA0kU.jpg?width=1920&height=2400 1920w",
+          "alt": "Client portrait, woman with dark hair swept into a bun",
+          "width": "1920",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Hero",
+            "Content Container",
+            "Ratings",
+            "Variant 1",
+            "Image"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/Ed2ESU2tfG6OdSs1Rg5F3DMA0kU.jpg?width=1920&height=2400",
+          "srcset": "https://framerusercontent.com/images/Ed2ESU2tfG6OdSs1Rg5F3DMA0kU.jpg?scale-down-to=1024&width=1920&height=2400 819w,https://framerusercontent.com/images/Ed2ESU2tfG6OdSs1Rg5F3DMA0kU.jpg?scale-down-to=2048&width=1920&height=2400 1638w,https://framerusercontent.com/images/Ed2ESU2tfG6OdSs1Rg5F3DMA0kU.jpg?width=1920&height=2400 1920w",
+          "alt": null,
+          "width": "1920",
+          "height": "2400",
+          "path": [
+            "Desktop",
+            "Content Container",
+            "Footer",
+            "Testimonials",
+            "Default",
+            "Avatar"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/Ed2ESU2tfG6OdSs1Rg5F3DMA0kU.jpg?width=1920&height=2400",
+          "srcset": "https://framerusercontent.com/images/Ed2ESU2tfG6OdSs1Rg5F3DMA0kU.jpg?scale-down-to=1024&width=1920&height=2400 819w,https://framerusercontent.com/images/Ed2ESU2tfG6OdSs1Rg5F3DMA0kU.jpg?scale-down-to=2048&width=1920&height=2400 1638w,https://framerusercontent.com/images/Ed2ESU2tfG6OdSs1Rg5F3DMA0kU.jpg?width=1920&height=2400 1920w",
+          "alt": null,
+          "width": "1920",
+          "height": "2400",
+          "path": [
+            "Tablet",
+            "Content Container",
+            "Footer",
+            "Testimonials",
+            "Default",
+            "Avatar"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/Ed2ESU2tfG6OdSs1Rg5F3DMA0kU.jpg?width=1920&height=2400",
+          "srcset": "https://framerusercontent.com/images/Ed2ESU2tfG6OdSs1Rg5F3DMA0kU.jpg?scale-down-to=1024&width=1920&height=2400 819w,https://framerusercontent.com/images/Ed2ESU2tfG6OdSs1Rg5F3DMA0kU.jpg?scale-down-to=2048&width=1920&height=2400 1638w,https://framerusercontent.com/images/Ed2ESU2tfG6OdSs1Rg5F3DMA0kU.jpg?width=1920&height=2400 1920w",
+          "alt": null,
+          "width": "1920",
+          "height": "2400",
+          "path": [
+            "Mobile",
+            "Content Container",
+            "Footer",
+            "Testimonials",
+            "Default",
+            "Avatar"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-02.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?width=2400&height=2400",
+      "kind": "image",
+      "bytes": 715289,
+      "sha256": "39fa5691c1f66561b0f9b31e03e49390cb57f844ee1c3afcbd8ed791254dde9b",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?width=2400&height=2400",
+          "srcset": "https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?width=2400&height=2400 2400w",
+          "alt": "Client portrait, smiling man wearing glasses",
+          "width": "2400",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Hero",
+            "Content Container",
+            "Ratings",
+            "Variant 1",
+            "Image"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?width=2400&height=2400",
+          "srcset": "https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?width=2400&height=2400 2400w",
+          "alt": "Reviewer portrait, man with glasses and a friendly smile",
+          "width": "2400",
+          "height": "2400",
+          "path": [
+            "Desktop",
+            "Content Container",
+            "Footer",
+            "Testimonials",
+            "Default",
+            "Avatar"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?width=2400&height=2400",
+          "srcset": "https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?width=2400&height=2400 2400w",
+          "alt": "Reviewer portrait, man with glasses and a friendly smile",
+          "width": "2400",
+          "height": "2400",
+          "path": [
+            "Tablet",
+            "Content Container",
+            "Footer",
+            "Testimonials",
+            "Default",
+            "Avatar"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?width=2400&height=2400",
+          "srcset": "https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/JIe1FsVgFyZpTL8Dfr6Bu88NoA.png?width=2400&height=2400 2400w",
+          "alt": "Reviewer portrait, man with glasses and a friendly smile",
+          "width": "2400",
+          "height": "2400",
+          "path": [
+            "Mobile",
+            "Content Container",
+            "Footer",
+            "Testimonials",
+            "Default",
+            "Avatar"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-03.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/ea6djdVwJuP5OgDhLfOStzjE.png?width=1200&height=992",
+      "kind": "image",
+      "bytes": 132349,
+      "sha256": "af609bf68c31dbac7995d7ebcfbac5b17f0e956239047df91de283c82b0b8823",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/ea6djdVwJuP5OgDhLfOStzjE.png?width=1200&height=992",
+          "srcset": "https://framerusercontent.com/images/ea6djdVwJuP5OgDhLfOStzjE.png?scale-down-to=512&width=1200&height=992 512w,https://framerusercontent.com/images/ea6djdVwJuP5OgDhLfOStzjE.png?scale-down-to=1024&width=1200&height=992 1024w,https://framerusercontent.com/images/ea6djdVwJuP5OgDhLfOStzjE.png?width=1200&height=992 1200w",
+          "alt": "Client portrait, young man smiling against an orange background",
+          "width": "1200",
+          "height": "992",
+          "path": [
+            "Page",
+            "Section/Hero",
+            "Content Container",
+            "Ratings",
+            "Variant 1",
+            "Image"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/ea6djdVwJuP5OgDhLfOStzjE.png?width=1200&height=992",
+          "srcset": "https://framerusercontent.com/images/ea6djdVwJuP5OgDhLfOStzjE.png?scale-down-to=512&width=1200&height=992 512w,https://framerusercontent.com/images/ea6djdVwJuP5OgDhLfOStzjE.png?scale-down-to=1024&width=1200&height=992 1024w,https://framerusercontent.com/images/ea6djdVwJuP5OgDhLfOStzjE.png?width=1200&height=992 1200w",
+          "alt": "Reviewer portrait, young man smiling widely",
+          "width": "1200",
+          "height": "992",
+          "path": [
+            "Desktop",
+            "Content Container",
+            "Footer",
+            "Testimonials",
+            "Default",
+            "Avatar"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/ea6djdVwJuP5OgDhLfOStzjE.png?width=1200&height=992",
+          "srcset": "https://framerusercontent.com/images/ea6djdVwJuP5OgDhLfOStzjE.png?scale-down-to=512&width=1200&height=992 512w,https://framerusercontent.com/images/ea6djdVwJuP5OgDhLfOStzjE.png?scale-down-to=1024&width=1200&height=992 1024w,https://framerusercontent.com/images/ea6djdVwJuP5OgDhLfOStzjE.png?width=1200&height=992 1200w",
+          "alt": "Reviewer portrait, young man smiling widely",
+          "width": "1200",
+          "height": "992",
+          "path": [
+            "Tablet",
+            "Content Container",
+            "Footer",
+            "Testimonials",
+            "Default",
+            "Avatar"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/ea6djdVwJuP5OgDhLfOStzjE.png?width=1200&height=992",
+          "srcset": "https://framerusercontent.com/images/ea6djdVwJuP5OgDhLfOStzjE.png?scale-down-to=512&width=1200&height=992 512w,https://framerusercontent.com/images/ea6djdVwJuP5OgDhLfOStzjE.png?scale-down-to=1024&width=1200&height=992 1024w,https://framerusercontent.com/images/ea6djdVwJuP5OgDhLfOStzjE.png?width=1200&height=992 1200w",
+          "alt": "Reviewer portrait, young man smiling widely",
+          "width": "1200",
+          "height": "992",
+          "path": [
+            "Mobile",
+            "Content Container",
+            "Footer",
+            "Testimonials",
+            "Default",
+            "Avatar"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-04.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/U05o6gyiwsEGhfGI1bKH9lkuE.jpg?width=2400&height=1808",
+      "kind": "image",
+      "bytes": 402867,
+      "sha256": "4ddb6214b68c1c70c7fa935eeda52997da63e52bba12a9e6405abd624d6f13de",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/U05o6gyiwsEGhfGI1bKH9lkuE.jpg?width=2400&height=1808",
+          "srcset": "https://framerusercontent.com/images/U05o6gyiwsEGhfGI1bKH9lkuE.jpg?scale-down-to=512&width=2400&height=1808 512w,https://framerusercontent.com/images/U05o6gyiwsEGhfGI1bKH9lkuE.jpg?scale-down-to=1024&width=2400&height=1808 1024w,https://framerusercontent.com/images/U05o6gyiwsEGhfGI1bKH9lkuE.jpg?scale-down-to=2048&width=2400&height=1808 2048w,https://framerusercontent.com/images/U05o6gyiwsEGhfGI1bKH9lkuE.jpg?width=2400&height=1808 2400w",
+          "alt": "Client smiling in his studio, thumbnail for a two minute video testimonial",
+          "width": "2400",
+          "height": "1808",
+          "path": [
+            "Page",
+            "Section/Hero",
+            "Content Container",
+            "Video Pill",
+            "Pill",
+            "Thumbnail"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/U05o6gyiwsEGhfGI1bKH9lkuE.jpg?width=2400&height=1808",
+          "srcset": "https://framerusercontent.com/images/U05o6gyiwsEGhfGI1bKH9lkuE.jpg?scale-down-to=512&width=2400&height=1808 512w,https://framerusercontent.com/images/U05o6gyiwsEGhfGI1bKH9lkuE.jpg?scale-down-to=1024&width=2400&height=1808 1024w,https://framerusercontent.com/images/U05o6gyiwsEGhfGI1bKH9lkuE.jpg?scale-down-to=2048&width=2400&height=1808 2048w,https://framerusercontent.com/images/U05o6gyiwsEGhfGI1bKH9lkuE.jpg?width=2400&height=1808 2400w",
+          "alt": "Client smiling in his studio, thumbnail for a two minute video testimonial",
+          "width": "2400",
+          "height": "1808",
+          "path": [
+            "Page",
+            "Section/Hero",
+            "Content Container",
+            "Video Pill",
+            "Pill",
+            "Thumbnail"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-05.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/winh9fGeBSAF5XUFXhLWw0k8vPg.png?width=1680&height=2400",
+      "kind": "image",
+      "bytes": 615385,
+      "sha256": "16b749512c17f0c340ee4101ab94b8cd6d854c8388f2ac20db7d3db4d2409a84",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/winh9fGeBSAF5XUFXhLWw0k8vPg.png?width=1680&height=2400",
+          "srcset": "https://framerusercontent.com/images/winh9fGeBSAF5XUFXhLWw0k8vPg.png?scale-down-to=1024&width=1680&height=2400 716w,https://framerusercontent.com/images/winh9fGeBSAF5XUFXhLWw0k8vPg.png?scale-down-to=2048&width=1680&height=2400 1433w,https://framerusercontent.com/images/winh9fGeBSAF5XUFXhLWw0k8vPg.png?width=1680&height=2400 1680w",
+          "alt": "Lawyer in a grey blazer talking through advice at a sunlit desk",
+          "width": "1680",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Services",
+            "Content Container",
+            "1",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/winh9fGeBSAF5XUFXhLWw0k8vPg.png?width=1680&height=2400",
+          "srcset": "https://framerusercontent.com/images/winh9fGeBSAF5XUFXhLWw0k8vPg.png?scale-down-to=1024&width=1680&height=2400 716w,https://framerusercontent.com/images/winh9fGeBSAF5XUFXhLWw0k8vPg.png?scale-down-to=2048&width=1680&height=2400 1433w,https://framerusercontent.com/images/winh9fGeBSAF5XUFXhLWw0k8vPg.png?width=1680&height=2400 1680w",
+          "alt": "Lawyer in a grey blazer talking through advice at a sunlit desk",
+          "width": "1680",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Services",
+            "Content Container",
+            "Mobile 1",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-06.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/YmEYBGq4MsozQY8MnbwH7HI8aI.png?width=2400&height=2400",
+      "kind": "image",
+      "bytes": 832893,
+      "sha256": "5c1e1358fca9a616aea278a9fdd07353fb457465ac0c35318c8764acf9090ba7",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/YmEYBGq4MsozQY8MnbwH7HI8aI.png?width=2400&height=2400",
+          "srcset": "https://framerusercontent.com/images/YmEYBGq4MsozQY8MnbwH7HI8aI.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/YmEYBGq4MsozQY8MnbwH7HI8aI.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/YmEYBGq4MsozQY8MnbwH7HI8aI.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/YmEYBGq4MsozQY8MnbwH7HI8aI.png?width=2400&height=2400 2400w",
+          "alt": "Team member in glasses reviewing paperwork in a busy office",
+          "width": "2400",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Services",
+            "Content Container",
+            "1",
+            "Image Container",
+            "Image"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/YmEYBGq4MsozQY8MnbwH7HI8aI.png?width=2400&height=2400",
+          "srcset": "https://framerusercontent.com/images/YmEYBGq4MsozQY8MnbwH7HI8aI.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/YmEYBGq4MsozQY8MnbwH7HI8aI.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/YmEYBGq4MsozQY8MnbwH7HI8aI.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/YmEYBGq4MsozQY8MnbwH7HI8aI.png?width=2400&height=2400 2400w",
+          "alt": "Team member in glasses reviewing paperwork in a busy office",
+          "width": "2400",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Services",
+            "Content Container",
+            "Mobile 1",
+            "Image Container",
+            "Image"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-07.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/s2aMOuEJm7O5f8w10ZUlgUvPhE.png?width=1808&height=2400",
+      "kind": "image",
+      "bytes": 553400,
+      "sha256": "48bbfd01552c2e2c33bce3db21bd6d617227ec8a008c74f602a2f83c138246eb",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/s2aMOuEJm7O5f8w10ZUlgUvPhE.png?width=1808&height=2400",
+          "srcset": "https://framerusercontent.com/images/s2aMOuEJm7O5f8w10ZUlgUvPhE.png?scale-down-to=1024&width=1808&height=2400 771w,https://framerusercontent.com/images/s2aMOuEJm7O5f8w10ZUlgUvPhE.png?scale-down-to=2048&width=1808&height=2400 1542w,https://framerusercontent.com/images/s2aMOuEJm7O5f8w10ZUlgUvPhE.png?width=1808&height=2400 1808w",
+          "alt": "Lawyer working in the office",
+          "width": "1808",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Services",
+            "Content Container",
+            "1",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/s2aMOuEJm7O5f8w10ZUlgUvPhE.png?width=1808&height=2400",
+          "srcset": "https://framerusercontent.com/images/s2aMOuEJm7O5f8w10ZUlgUvPhE.png?scale-down-to=1024&width=1808&height=2400 771w,https://framerusercontent.com/images/s2aMOuEJm7O5f8w10ZUlgUvPhE.png?scale-down-to=2048&width=1808&height=2400 1542w,https://framerusercontent.com/images/s2aMOuEJm7O5f8w10ZUlgUvPhE.png?width=1808&height=2400 1808w",
+          "alt": "Lawyer working in the office",
+          "width": "1808",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Services",
+            "Content Container",
+            "Mobile 1",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-08.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/NK0aEnEYxgqkWClKr37DlMJ7Vo.png?width=1680&height=2400",
+      "kind": "image",
+      "bytes": 514697,
+      "sha256": "d09f6030a8d379c99a8140e5ba3a6bc4bf9e8c7f79b827f6f164b7c4a2c272bb",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/NK0aEnEYxgqkWClKr37DlMJ7Vo.png?width=1680&height=2400",
+          "srcset": "https://framerusercontent.com/images/NK0aEnEYxgqkWClKr37DlMJ7Vo.png?scale-down-to=1024&width=1680&height=2400 716w,https://framerusercontent.com/images/NK0aEnEYxgqkWClKr37DlMJ7Vo.png?scale-down-to=2048&width=1680&height=2400 1433w,https://framerusercontent.com/images/NK0aEnEYxgqkWClKr37DlMJ7Vo.png?width=1680&height=2400 1680w",
+          "alt": "Lawyer talking a client through a point in a meeting",
+          "width": "1680",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Services",
+            "Content Container",
+            "1",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/NK0aEnEYxgqkWClKr37DlMJ7Vo.png?width=1680&height=2400",
+          "srcset": "https://framerusercontent.com/images/NK0aEnEYxgqkWClKr37DlMJ7Vo.png?scale-down-to=1024&width=1680&height=2400 716w,https://framerusercontent.com/images/NK0aEnEYxgqkWClKr37DlMJ7Vo.png?scale-down-to=2048&width=1680&height=2400 1433w,https://framerusercontent.com/images/NK0aEnEYxgqkWClKr37DlMJ7Vo.png?width=1680&height=2400 1680w",
+          "alt": "Lawyer talking a client through a point in a meeting",
+          "width": "1680",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Services",
+            "Content Container",
+            "Mobile 1",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-09.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/cwXd3uNmuxeer6fiLGNm2Xz63w.png?width=1680&height=2400",
+      "kind": "image",
+      "bytes": 437321,
+      "sha256": "5ff7418c1e71a4b23c8a8a62ff0f162e41899d7fa76ad2bbd2f6a1d3740243e8",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/cwXd3uNmuxeer6fiLGNm2Xz63w.png?width=1680&height=2400",
+          "srcset": "https://framerusercontent.com/images/cwXd3uNmuxeer6fiLGNm2Xz63w.png?scale-down-to=1024&width=1680&height=2400 716w,https://framerusercontent.com/images/cwXd3uNmuxeer6fiLGNm2Xz63w.png?scale-down-to=2048&width=1680&height=2400 1433w,https://framerusercontent.com/images/cwXd3uNmuxeer6fiLGNm2Xz63w.png?width=1680&height=2400 1680w",
+          "alt": "Lawyer in a tan cardigan explaining a document over a video call",
+          "width": "1680",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Services",
+            "Content Container",
+            "1",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/cwXd3uNmuxeer6fiLGNm2Xz63w.png?width=1680&height=2400",
+          "srcset": "https://framerusercontent.com/images/cwXd3uNmuxeer6fiLGNm2Xz63w.png?scale-down-to=1024&width=1680&height=2400 716w,https://framerusercontent.com/images/cwXd3uNmuxeer6fiLGNm2Xz63w.png?scale-down-to=2048&width=1680&height=2400 1433w,https://framerusercontent.com/images/cwXd3uNmuxeer6fiLGNm2Xz63w.png?width=1680&height=2400 1680w",
+          "alt": "Lawyer in a tan cardigan explaining a document over a video call",
+          "width": "1680",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Services",
+            "Content Container",
+            "Mobile 1",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-10.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/bcoaDW6UUzdW9AgqdU613HjPs.png?width=3600&height=2400",
+      "kind": "image",
+      "bytes": 492186,
+      "sha256": "7f3d1d33e377d6cd1ab6e6b47be08db69dafb34d2391450e8fd457af08d3218e",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/bcoaDW6UUzdW9AgqdU613HjPs.png?width=3600&height=2400",
+          "srcset": "https://framerusercontent.com/images/bcoaDW6UUzdW9AgqdU613HjPs.png?scale-down-to=512&width=3600&height=2400 512w,https://framerusercontent.com/images/bcoaDW6UUzdW9AgqdU613HjPs.png?scale-down-to=1024&width=3600&height=2400 1024w,https://framerusercontent.com/images/bcoaDW6UUzdW9AgqdU613HjPs.png?scale-down-to=2048&width=3600&height=2400 2048w,https://framerusercontent.com/images/bcoaDW6UUzdW9AgqdU613HjPs.png?width=3600&height=2400 3600w",
+          "alt": "Maya Torres, founder of Fieldnote, standing by a sunlit office window",
+          "width": "3600",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Testimonial",
+            "Content Container",
+            "Desktop/Slideshow",
+            "Desktop Testimonial",
+            "Desktop/On-dark",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/bcoaDW6UUzdW9AgqdU613HjPs.png?width=3600&height=2400",
+          "srcset": "https://framerusercontent.com/images/bcoaDW6UUzdW9AgqdU613HjPs.png?scale-down-to=512&width=3600&height=2400 512w,https://framerusercontent.com/images/bcoaDW6UUzdW9AgqdU613HjPs.png?scale-down-to=1024&width=3600&height=2400 1024w,https://framerusercontent.com/images/bcoaDW6UUzdW9AgqdU613HjPs.png?scale-down-to=2048&width=3600&height=2400 2048w,https://framerusercontent.com/images/bcoaDW6UUzdW9AgqdU613HjPs.png?width=3600&height=2400 3600w",
+          "alt": "Maya Torres, founder of Fieldnote, standing by a sunlit office window",
+          "width": "3600",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Testimonial",
+            "Content Container",
+            "Tablet/Slideshow",
+            "Tablet Testimonial",
+            "Tablet/On-dark",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/bcoaDW6UUzdW9AgqdU613HjPs.png?width=3600&height=2400",
+          "srcset": "https://framerusercontent.com/images/bcoaDW6UUzdW9AgqdU613HjPs.png?scale-down-to=512&width=3600&height=2400 512w,https://framerusercontent.com/images/bcoaDW6UUzdW9AgqdU613HjPs.png?scale-down-to=1024&width=3600&height=2400 1024w,https://framerusercontent.com/images/bcoaDW6UUzdW9AgqdU613HjPs.png?scale-down-to=2048&width=3600&height=2400 2048w,https://framerusercontent.com/images/bcoaDW6UUzdW9AgqdU613HjPs.png?width=3600&height=2400 3600w",
+          "alt": "Maya Torres, founder of Fieldnote, standing by a sunlit office window",
+          "width": "3600",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Testimonial",
+            "Content Container",
+            "Mobile/Slideshow",
+            "Mobile Testimonial",
+            "Mobile/On-dark",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-11.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?width=3597&height=2400",
+      "kind": "image",
+      "bytes": 390437,
+      "sha256": "97810ccce6f39686ab168b8a01d43192dbb98b77f6172926a2959a22343e9d05",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?width=3597&height=2400",
+          "srcset": "https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?scale-down-to=512&width=3597&height=2400 512w,https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?scale-down-to=1024&width=3597&height=2400 1024w,https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?scale-down-to=2048&width=3597&height=2400 2048w,https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?width=3597&height=2400 3597w",
+          "alt": "Sofia Lindqvist, COO of Northbeam, in warm afternoon window light",
+          "width": "3597",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Testimonial",
+            "Content Container",
+            "Desktop/Slideshow",
+            "Desktop Testimonial",
+            "Desktop/On-dark",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?width=3597&height=2400",
+          "srcset": "https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?scale-down-to=512&width=3597&height=2400 512w,https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?scale-down-to=1024&width=3597&height=2400 1024w,https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?scale-down-to=2048&width=3597&height=2400 2048w,https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?width=3597&height=2400 3597w",
+          "alt": "Sofia Lindqvist, COO of Northbeam, in warm afternoon window light",
+          "width": "3597",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Testimonial",
+            "Content Container",
+            "Tablet/Slideshow",
+            "Tablet Testimonial",
+            "Tablet/On-dark",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?width=3597&height=2400",
+          "srcset": "https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?scale-down-to=512&width=3597&height=2400 512w,https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?scale-down-to=1024&width=3597&height=2400 1024w,https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?scale-down-to=2048&width=3597&height=2400 2048w,https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?width=3597&height=2400 3597w",
+          "alt": "Sofia Lindqvist, COO of Northbeam, in warm afternoon window light",
+          "width": "3597",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Testimonial",
+            "Content Container",
+            "Mobile/Slideshow",
+            "Mobile Testimonial",
+            "Mobile/On-dark",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?width=3597&height=2400",
+          "srcset": "https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?scale-down-to=512&width=3597&height=2400 512w,https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?scale-down-to=1024&width=3597&height=2400 1024w,https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?scale-down-to=2048&width=3597&height=2400 2048w,https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?width=3597&height=2400 3597w",
+          "alt": "Reviewer portrait, woman smiling in dappled sunlight",
+          "width": "3597",
+          "height": "2400",
+          "path": [
+            "Desktop",
+            "Content Container",
+            "Footer",
+            "Testimonials",
+            "Default",
+            "Avatar"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?width=3597&height=2400",
+          "srcset": "https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?scale-down-to=512&width=3597&height=2400 512w,https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?scale-down-to=1024&width=3597&height=2400 1024w,https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?scale-down-to=2048&width=3597&height=2400 2048w,https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?width=3597&height=2400 3597w",
+          "alt": "Reviewer portrait, woman smiling in dappled sunlight",
+          "width": "3597",
+          "height": "2400",
+          "path": [
+            "Tablet",
+            "Content Container",
+            "Footer",
+            "Testimonials",
+            "Default",
+            "Avatar"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?width=3597&height=2400",
+          "srcset": "https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?scale-down-to=512&width=3597&height=2400 512w,https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?scale-down-to=1024&width=3597&height=2400 1024w,https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?scale-down-to=2048&width=3597&height=2400 2048w,https://framerusercontent.com/images/fPdQABuS14AmfBrcdLzjtDvYvyw.png?width=3597&height=2400 3597w",
+          "alt": "Reviewer portrait, woman smiling in dappled sunlight",
+          "width": "3597",
+          "height": "2400",
+          "path": [
+            "Mobile",
+            "Content Container",
+            "Footer",
+            "Testimonials",
+            "Default",
+            "Avatar"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-12.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?width=2400&height=2400",
+      "kind": "image",
+      "bytes": 565812,
+      "sha256": "d1d618e55480a5ecf01f01dca44e654af8d818a713f815eb4007e282c5c71d99",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?width=2400&height=2400",
+          "srcset": "https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?width=2400&height=2400 2400w",
+          "alt": "James Whitmore, director at Alder & Co, mid-conversation with colleagues",
+          "width": "2400",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Testimonial",
+            "Content Container",
+            "Desktop/Slideshow",
+            "Desktop Testimonial",
+            "Desktop/On-dark",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?width=2400&height=2400",
+          "srcset": "https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?width=2400&height=2400 2400w",
+          "alt": "James Whitmore, director at Alder & Co, mid-conversation with colleagues",
+          "width": "2400",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Testimonial",
+            "Content Container",
+            "Tablet/Slideshow",
+            "Tablet Testimonial",
+            "Tablet/On-dark",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?width=2400&height=2400",
+          "srcset": "https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?width=2400&height=2400 2400w",
+          "alt": "James Whitmore, director at Alder & Co, mid-conversation with colleagues",
+          "width": "2400",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Testimonial",
+            "Content Container",
+            "Mobile/Slideshow",
+            "Mobile Testimonial",
+            "Mobile/On-dark",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?width=2400&height=2400",
+          "srcset": "https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?width=2400&height=2400 2400w",
+          "alt": "Reviewer portrait, man in a navy blazer chatting with colleagues",
+          "width": "2400",
+          "height": "2400",
+          "path": [
+            "Desktop",
+            "Content Container",
+            "Footer",
+            "Testimonials",
+            "Default",
+            "Avatar"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?width=2400&height=2400",
+          "srcset": "https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?width=2400&height=2400 2400w",
+          "alt": "Reviewer portrait, man in a navy blazer chatting with colleagues",
+          "width": "2400",
+          "height": "2400",
+          "path": [
+            "Tablet",
+            "Content Container",
+            "Footer",
+            "Testimonials",
+            "Default",
+            "Avatar"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?width=2400&height=2400",
+          "srcset": "https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/2xVbgwbzUc0pojwLFTa50exXrA.png?width=2400&height=2400 2400w",
+          "alt": "Reviewer portrait, man in a navy blazer chatting with colleagues",
+          "width": "2400",
+          "height": "2400",
+          "path": [
+            "Mobile",
+            "Content Container",
+            "Footer",
+            "Testimonials",
+            "Default",
+            "Avatar"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-13.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?width=3183&height=2400",
+      "kind": "image",
+      "bytes": 417525,
+      "sha256": "0fc83b84fa7a0a8c8d3e6ca65d64caa6076ef6823bd23627edb11ac8c075ff1d",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?width=3183&height=2400",
+          "srcset": "https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?scale-down-to=512&width=3183&height=2400 512w,https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?scale-down-to=1024&width=3183&height=2400 1024w,https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?scale-down-to=2048&width=3183&height=2400 2048w,https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?width=3183&height=2400 3183w",
+          "alt": "Daniel Okafor, CEO of Brightline, smiling at his desk in a warm office",
+          "width": "3183",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Testimonial",
+            "Content Container",
+            "Desktop/Slideshow",
+            "Desktop Testimonial",
+            "Desktop/On-dark",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?width=3183&height=2400",
+          "srcset": "https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?scale-down-to=512&width=3183&height=2400 512w,https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?scale-down-to=1024&width=3183&height=2400 1024w,https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?scale-down-to=2048&width=3183&height=2400 2048w,https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?width=3183&height=2400 3183w",
+          "alt": "Daniel Okafor, CEO of Brightline, smiling at his desk in a warm office",
+          "width": "3183",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Testimonial",
+            "Content Container",
+            "Tablet/Slideshow",
+            "Tablet Testimonial",
+            "Tablet/On-dark",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?width=3183&height=2400",
+          "srcset": "https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?scale-down-to=512&width=3183&height=2400 512w,https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?scale-down-to=1024&width=3183&height=2400 1024w,https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?scale-down-to=2048&width=3183&height=2400 2048w,https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?width=3183&height=2400 3183w",
+          "alt": "Daniel Okafor, CEO of Brightline, smiling at his desk in a warm office",
+          "width": "3183",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Testimonial",
+            "Content Container",
+            "Mobile/Slideshow",
+            "Mobile Testimonial",
+            "Mobile/On-dark",
+            "Image Container"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?width=3183&height=2400",
+          "srcset": "https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?scale-down-to=512&width=3183&height=2400 512w,https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?scale-down-to=1024&width=3183&height=2400 1024w,https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?scale-down-to=2048&width=3183&height=2400 2048w,https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?width=3183&height=2400 3183w",
+          "alt": "Reviewer portrait, bearded man in a grey suit at his laptop",
+          "width": "3183",
+          "height": "2400",
+          "path": [
+            "Desktop",
+            "Content Container",
+            "Footer",
+            "Testimonials",
+            "Default",
+            "Avatar"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?width=3183&height=2400",
+          "srcset": "https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?scale-down-to=512&width=3183&height=2400 512w,https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?scale-down-to=1024&width=3183&height=2400 1024w,https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?scale-down-to=2048&width=3183&height=2400 2048w,https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?width=3183&height=2400 3183w",
+          "alt": "Reviewer portrait, bearded man in a grey suit at his laptop",
+          "width": "3183",
+          "height": "2400",
+          "path": [
+            "Tablet",
+            "Content Container",
+            "Footer",
+            "Testimonials",
+            "Default",
+            "Avatar"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?width=3183&height=2400",
+          "srcset": "https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?scale-down-to=512&width=3183&height=2400 512w,https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?scale-down-to=1024&width=3183&height=2400 1024w,https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?scale-down-to=2048&width=3183&height=2400 2048w,https://framerusercontent.com/images/h8VeOmoWxsManN1Fpq7Yc7j2Qs.jpg?width=3183&height=2400 3183w",
+          "alt": "Reviewer portrait, bearded man in a grey suit at his laptop",
+          "width": "3183",
+          "height": "2400",
+          "path": [
+            "Mobile",
+            "Content Container",
+            "Footer",
+            "Testimonials",
+            "Default",
+            "Avatar"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-14.png",
+      "sourceUrl": "https://framerusercontent.com/images/rQRRFJOsAfMUGF3ujSwXoy5MSE.png?lossless=1&width=80&height=80",
+      "kind": "image",
+      "bytes": 456,
+      "sha256": "ab2136ae2167e0fddfd02b8b876817a77332c7e5d399106b85a7e64135e8706d",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/rQRRFJOsAfMUGF3ujSwXoy5MSE.png?lossless=1&width=80&height=80",
+          "srcset": null,
+          "alt": "Back Arrow",
+          "width": "40",
+          "height": "40",
+          "path": [
+            "Page",
+            "Section/Testimonial",
+            "Content Container",
+            "Desktop/Slideshow"
+          ],
+          "inlineStyle": "",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/rQRRFJOsAfMUGF3ujSwXoy5MSE.png?lossless=1&width=80&height=80",
+          "srcset": null,
+          "alt": "Back Arrow",
+          "width": "40",
+          "height": "40",
+          "path": [
+            "Page",
+            "Section/Testimonial",
+            "Content Container",
+            "Tablet/Slideshow"
+          ],
+          "inlineStyle": "",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/rQRRFJOsAfMUGF3ujSwXoy5MSE.png?lossless=1&width=80&height=80",
+          "srcset": null,
+          "alt": "Back Arrow",
+          "width": "40",
+          "height": "40",
+          "path": [
+            "Page",
+            "Section/Testimonial",
+            "Content Container",
+            "Mobile/Slideshow"
+          ],
+          "inlineStyle": "",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-15.png",
+      "sourceUrl": "https://framerusercontent.com/images/WhCFQQLDa9IOAeKdwHcTZUGJ0g.png?lossless=1&width=80&height=80",
+      "kind": "image",
+      "bytes": 456,
+      "sha256": "267063fc23429ea2e4fb3a683f7dd1627f585225d6c6f41a896e88f78a65f288",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/WhCFQQLDa9IOAeKdwHcTZUGJ0g.png?lossless=1&width=80&height=80",
+          "srcset": null,
+          "alt": "Next Arrow",
+          "width": "40",
+          "height": "40",
+          "path": [
+            "Page",
+            "Section/Testimonial",
+            "Content Container",
+            "Desktop/Slideshow"
+          ],
+          "inlineStyle": "",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/WhCFQQLDa9IOAeKdwHcTZUGJ0g.png?lossless=1&width=80&height=80",
+          "srcset": null,
+          "alt": "Next Arrow",
+          "width": "40",
+          "height": "40",
+          "path": [
+            "Page",
+            "Section/Testimonial",
+            "Content Container",
+            "Tablet/Slideshow"
+          ],
+          "inlineStyle": "",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/WhCFQQLDa9IOAeKdwHcTZUGJ0g.png?lossless=1&width=80&height=80",
+          "srcset": null,
+          "alt": "Next Arrow",
+          "width": "40",
+          "height": "40",
+          "path": [
+            "Page",
+            "Section/Testimonial",
+            "Content Container",
+            "Mobile/Slideshow"
+          ],
+          "inlineStyle": "",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-16.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/xEGrqhwvTVi6gWe4eLsmqeR8pbs.png?width=1999&height=2400",
+      "kind": "image",
+      "bytes": 636316,
+      "sha256": "a68142c7a0b984675030a2da0e2808b2b74aadc73eb56068ff5d8e0bc748de8e",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/xEGrqhwvTVi6gWe4eLsmqeR8pbs.png?width=1999&height=2400",
+          "srcset": "https://framerusercontent.com/images/xEGrqhwvTVi6gWe4eLsmqeR8pbs.png?scale-down-to=1024&width=1999&height=2400 852w,https://framerusercontent.com/images/xEGrqhwvTVi6gWe4eLsmqeR8pbs.png?scale-down-to=2048&width=1999&height=2400 1705w,https://framerusercontent.com/images/xEGrqhwvTVi6gWe4eLsmqeR8pbs.png?width=1999&height=2400 1999w",
+          "alt": null,
+          "width": "1999",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Team",
+            "Content Container",
+            "Card",
+            "Default"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-17.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/DlCibtykx7LRnkrVAZqcxMYdh2o.png?width=2400&height=2400",
+      "kind": "image",
+      "bytes": 644228,
+      "sha256": "e58635c8c08b4dc0087a3f6c81e9fff28f438c7e070e44ea5df02ef0857a42a5",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/DlCibtykx7LRnkrVAZqcxMYdh2o.png?width=2400&height=2400",
+          "srcset": "https://framerusercontent.com/images/DlCibtykx7LRnkrVAZqcxMYdh2o.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/DlCibtykx7LRnkrVAZqcxMYdh2o.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/DlCibtykx7LRnkrVAZqcxMYdh2o.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/DlCibtykx7LRnkrVAZqcxMYdh2o.png?width=2400&height=2400 2400w",
+          "alt": null,
+          "width": "2400",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Team",
+            "Content Container",
+            "Card",
+            "Default"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-18.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/KSlh6l8vy5PXHIGRn1gE9rTyE.png?width=1800&height=2400",
+      "kind": "image",
+      "bytes": 580266,
+      "sha256": "be7d0981824a4407e7484bb66bb7997c4b3c9e075fabc23287e498a610ece337",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/KSlh6l8vy5PXHIGRn1gE9rTyE.png?width=1800&height=2400",
+          "srcset": "https://framerusercontent.com/images/KSlh6l8vy5PXHIGRn1gE9rTyE.png?scale-down-to=1024&width=1800&height=2400 768w,https://framerusercontent.com/images/KSlh6l8vy5PXHIGRn1gE9rTyE.png?scale-down-to=2048&width=1800&height=2400 1536w,https://framerusercontent.com/images/KSlh6l8vy5PXHIGRn1gE9rTyE.png?width=1800&height=2400 1800w",
+          "alt": null,
+          "width": "1800",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Team",
+            "Content Container",
+            "Card",
+            "Default"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-19.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/HS4MbTzGFm523B5HNTZbQiTpABM.png?width=1999&height=2400",
+      "kind": "image",
+      "bytes": 587017,
+      "sha256": "d918869312331be540a344cbe92157451252ff686ce28cb0b84448049db8997d",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/HS4MbTzGFm523B5HNTZbQiTpABM.png?width=1999&height=2400",
+          "srcset": "https://framerusercontent.com/images/HS4MbTzGFm523B5HNTZbQiTpABM.png?scale-down-to=1024&width=1999&height=2400 852w,https://framerusercontent.com/images/HS4MbTzGFm523B5HNTZbQiTpABM.png?scale-down-to=2048&width=1999&height=2400 1705w,https://framerusercontent.com/images/HS4MbTzGFm523B5HNTZbQiTpABM.png?width=1999&height=2400 1999w",
+          "alt": null,
+          "width": "1999",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Team",
+            "Content Container",
+            "Card",
+            "Default"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-20.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/GVif2fKAIA3XZlASJTiqGLUjUO0.png?width=2400&height=2400",
+      "kind": "image",
+      "bytes": 765123,
+      "sha256": "fab462f6e7f38f83b763e3e429ce390e722a0cf9a7d18630737d7571c0b7b544",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/GVif2fKAIA3XZlASJTiqGLUjUO0.png?width=2400&height=2400",
+          "srcset": "https://framerusercontent.com/images/GVif2fKAIA3XZlASJTiqGLUjUO0.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/GVif2fKAIA3XZlASJTiqGLUjUO0.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/GVif2fKAIA3XZlASJTiqGLUjUO0.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/GVif2fKAIA3XZlASJTiqGLUjUO0.png?width=2400&height=2400 2400w",
+          "alt": null,
+          "width": "2400",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Team",
+            "Content Container",
+            "Card",
+            "Default"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-21.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/0JZFNwnBzibuP50se3jaJ0Reg.png?width=2400&height=2400",
+      "kind": "image",
+      "bytes": 650150,
+      "sha256": "2d20b629f63ea99f0bd09ef6d90018613078eb3beea2e463a137390b102377de",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/0JZFNwnBzibuP50se3jaJ0Reg.png?width=2400&height=2400",
+          "srcset": "https://framerusercontent.com/images/0JZFNwnBzibuP50se3jaJ0Reg.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/0JZFNwnBzibuP50se3jaJ0Reg.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/0JZFNwnBzibuP50se3jaJ0Reg.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/0JZFNwnBzibuP50se3jaJ0Reg.png?width=2400&height=2400 2400w",
+          "alt": null,
+          "width": "2400",
+          "height": "2400",
+          "path": [
+            "Page",
+            "Section/Team",
+            "Content Container",
+            "Card",
+            "Default"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-22.svg",
+      "sourceUrl": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+      "kind": "image",
+      "bytes": 214,
+      "sha256": "ca764b5867087d3c5ffc2bb0497a50b2ecf18ae7252169951ec97e18a592973d",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+          "srcset": null,
+          "alt": "Back Arrow",
+          "width": "40",
+          "height": "40",
+          "path": [
+            "Desktop",
+            "Content Container",
+            "Footer",
+            "Testimonials"
+          ],
+          "inlineStyle": "",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+          "srcset": null,
+          "alt": "Back Arrow",
+          "width": "40",
+          "height": "40",
+          "path": [
+            "Tablet",
+            "Content Container",
+            "Footer",
+            "Testimonials"
+          ],
+          "inlineStyle": "",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+          "srcset": null,
+          "alt": "Back Arrow",
+          "width": "40",
+          "height": "40",
+          "path": [
+            "Mobile",
+            "Content Container",
+            "Footer",
+            "Testimonials"
+          ],
+          "inlineStyle": "",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-23.svg",
+      "sourceUrl": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+      "kind": "image",
+      "bytes": 215,
+      "sha256": "6fce5a0604a6267ad769dd5e7afbfcf8bd0390897f682aec71f6307999a5b67e",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+          "srcset": null,
+          "alt": "Next Arrow",
+          "width": "40",
+          "height": "40",
+          "path": [
+            "Desktop",
+            "Content Container",
+            "Footer",
+            "Testimonials"
+          ],
+          "inlineStyle": "",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+          "srcset": null,
+          "alt": "Next Arrow",
+          "width": "40",
+          "height": "40",
+          "path": [
+            "Tablet",
+            "Content Container",
+            "Footer",
+            "Testimonials"
+          ],
+          "inlineStyle": "",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+          "srcset": null,
+          "alt": "Next Arrow",
+          "width": "40",
+          "height": "40",
+          "path": [
+            "Mobile",
+            "Content Container",
+            "Footer",
+            "Testimonials"
+          ],
+          "inlineStyle": "",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/js/gsap.min.js",
+      "kind": "caption-runtime",
+      "sourceUrl": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    }
+  ],
+  "downloadFailures": [],
+  "imageExports": "Maximum2000px; original URLs retained.",
+  "fontScope": "Latin subsets where declared; font weights preserved.",
+  "unbundledMedia": []
+}

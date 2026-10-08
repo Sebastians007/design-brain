@@ -1,0 +1,177 @@
+{
+  "name": "Kora",
+  "source": "https://kora.framer.media/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#fafaf7",
+    "paper": "#fffffa",
+    "ink": "#292929",
+    "accent": "#5dc39b",
+    "muted": "#616161"
+  },
+  "type": {
+    "body": "Manrope",
+    "display": "Manrope Variable",
+    "roles": [
+      {
+        "role": "Hero h1 / CSS desktop; wght axis 585",
+        "family": "Manrope Variable",
+        "weight": 400,
+        "sizePx": 80,
+        "linePx": 84,
+        "tracking": "-0.04em"
+      },
+      {
+        "role": "Hero h1 / CSS tablet preset",
+        "family": "Manrope Variable",
+        "weight": 400,
+        "sizePx": 60,
+        "linePx": 63,
+        "tracking": "-0.04em"
+      },
+      {
+        "role": "Hero h1 / CSS phone preset",
+        "family": "Manrope Variable",
+        "weight": 400,
+        "sizePx": 35,
+        "linePx": 36.75,
+        "tracking": "-0.04em"
+      },
+      {
+        "role": "Problem / CSS h2",
+        "family": "Manrope Variable",
+        "weight": 400,
+        "sizePx": 60,
+        "linePx": 63,
+        "tracking": "-0.04em"
+      },
+      {
+        "role": "Services / CSS section h2; wght axis 500",
+        "family": "Manrope Variable",
+        "weight": 400,
+        "sizePx": 80,
+        "linePx": 80,
+        "tracking": "-0.04em"
+      },
+      {
+        "role": "Service title / CSS h3",
+        "family": "Manrope Variable",
+        "weight": 400,
+        "sizePx": 25,
+        "linePx": 32.5,
+        "tracking": "-0.04em"
+      },
+      {
+        "role": "Hero description / CSS p",
+        "family": "Manrope",
+        "weight": 600,
+        "sizePx": 17,
+        "linePx": 22.95,
+        "tracking": "-0.03em"
+      },
+      {
+        "role": "Button default / CSS p",
+        "family": "Manrope",
+        "weight": 600,
+        "sizePx": 14,
+        "linePx": 21,
+        "tracking": "-0.03em"
+      },
+      {
+        "role": "Trust label / CSS p",
+        "family": "Manrope",
+        "weight": 600,
+        "sizePx": 13,
+        "linePx": 19.5,
+        "tracking": "-0.025em"
+      },
+      {
+        "role": "Featured quote / CSS p",
+        "family": "Manrope",
+        "weight": 600,
+        "sizePx": 20,
+        "linePx": 27,
+        "tracking": "-0.03em"
+      },
+      {
+        "role": "Price numeral / inline span and number-flow override",
+        "family": "Manrope",
+        "weight": 600,
+        "sizePx": 60,
+        "linePx": 63,
+        "tracking": "-0.04em"
+      }
+    ],
+    "rolesEvidence": "Declared CSS, not rendered measurements.",
+    "variationAxes": {
+      "hero": {
+        "wght": 585
+      },
+      "problem": {
+        "wght": 585
+      },
+      "sectionServices": {
+        "wght": 500
+      },
+      "serviceTitle": {
+        "wght": 585
+      },
+      "displayBoldAlternate": {
+        "wght": 650
+      }
+    }
+  },
+  "spacing": {
+    "desktopGutterPx": 60,
+    "componentGapPx": 30,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 40,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (max-width:809.98px)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)",
+      "@media (max-width:991px) and (min-width:810px)",
+      "@media (min-width: 810px) and (max-width: 1199.98px) ",
+      "@media (max-width: 809.98px) "
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      0,
+      809,
+      809.98,
+      810,
+      991,
+      1199,
+      1199.98,
+      1200
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Services",
+    "branch": "Consulting",
+    "purpose": "Reference study of service business websites"
+  }
+}

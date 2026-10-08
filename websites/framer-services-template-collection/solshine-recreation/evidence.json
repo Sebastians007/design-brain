@@ -1,0 +1,3612 @@
+{
+  "template": "Solshine",
+  "preview": "https://solshine.framer.website/",
+  "marketplace": "https://www.framer.com/marketplace/templates/solshine/",
+  "creator": "Deven Web Studio",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "viewport": null,
+  "pageHeight": null,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        96,
+        172,
+        1824,
+        1267
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 4 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        192,
+        316,
+        1113,
+        1007
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 4 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        998,
+        288,
+        1766,
+        1123
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 3 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 4 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Jost",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/jost/v20/92zatBhPNqw73oTd4g.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/jost-400-0.woff2"
+    },
+    {
+      "family": "Jost",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/jost/v20/92zatBhPNqw73oTd4g.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/jost-500-1.woff2"
+    },
+    {
+      "family": "Jost",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/jost/v20/92zatBhPNqw73oTd4g.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/jost-700-2.woff2"
+    },
+    {
+      "family": "Space Grotesk",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/space-grotesk-500-3.woff2"
+    },
+    {
+      "family": "Space Grotesk",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/space-grotesk-600-4.woff2"
+    },
+    {
+      "family": "Space Grotesk",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/space-grotesk-700-5.woff2"
+    },
+    {
+      "family": "Jost",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/jost/v20/92zPtBhPNqw79Ij1E865zBUv7mx9IgVDPokMmuHL.woff2",
+      "range": "",
+      "file": "assets/fonts/jost-600-6.woff2"
+    },
+    {
+      "family": "Jost",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/jost/v20/92zPtBhPNqw79Ij1E865zBUv7mwKIgVDPokMmuHL.woff2",
+      "range": "",
+      "file": "assets/fonts/jost-900-7.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-8.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/UjlFhCnUjxhNfep4oYBPqnEssyo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-500-9.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-600-10.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-11.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/rZ5DdENNqIdFTIyQQiP5isO7M.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-900-12.woff2"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/images/ugOirwbvxWR0SU7YDwnuLLvlcZQ.svg?width=229&height=68",
+      "srcset": null,
+      "alt": "solshine logo color ",
+      "width": "229",
+      "height": "68",
+      "path": [
+        "Laptop",
+        "Top",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/WioQWlXxVQDqe2KhkHeOjhO9KA.svg?width=229&height=68",
+      "srcset": null,
+      "alt": "solshine black logo ",
+      "width": "229",
+      "height": "68",
+      "path": [
+        "Laptop",
+        "menu",
+        "Content Wrap",
+        "Top"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ugOirwbvxWR0SU7YDwnuLLvlcZQ.svg?width=229&height=68",
+      "srcset": null,
+      "alt": "solshine logo color ",
+      "width": "229",
+      "height": "68",
+      "path": [
+        "Tablet",
+        "Top",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ugOirwbvxWR0SU7YDwnuLLvlcZQ.svg?width=229&height=68",
+      "srcset": null,
+      "alt": "solshine logo color ",
+      "width": "229",
+      "height": "68",
+      "path": [
+        "Mobile",
+        "Top",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SsW0QGG9VWUZwv7YfgQLUcJ0XmM.jpeg?width=6144&height=3072",
+      "srcset": "https://framerusercontent.com/images/SsW0QGG9VWUZwv7YfgQLUcJ0XmM.jpeg?scale-down-to=512&width=6144&height=3072 512w,https://framerusercontent.com/images/SsW0QGG9VWUZwv7YfgQLUcJ0XmM.jpeg?scale-down-to=1024&width=6144&height=3072 1024w,https://framerusercontent.com/images/SsW0QGG9VWUZwv7YfgQLUcJ0XmM.jpeg?scale-down-to=2048&width=6144&height=3072 2048w,https://framerusercontent.com/images/SsW0QGG9VWUZwv7YfgQLUcJ0XmM.jpeg?scale-down-to=4096&width=6144&height=3072 4096w,https://framerusercontent.com/images/SsW0QGG9VWUZwv7YfgQLUcJ0XmM.jpeg?width=6144&height=3072 6144w",
+      "alt": "solar panel setup in the ground ",
+      "width": "6144",
+      "height": "3072",
+      "path": [
+        "Main",
+        "Hero Section"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/W0YDkN2aIKIGEe2LbILwOdRJAjk.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/W0YDkN2aIKIGEe2LbILwOdRJAjk.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/W0YDkN2aIKIGEe2LbILwOdRJAjk.jpg?width=600&height=600 600w",
+      "alt": "James Carter",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Hero Section",
+        "Container",
+        "Bottom text wrap"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/D6NjmeWaBY1FiFMHLr429HxpKRM.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/D6NjmeWaBY1FiFMHLr429HxpKRM.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/D6NjmeWaBY1FiFMHLr429HxpKRM.jpg?width=600&height=600 600w",
+      "alt": "Liam Harris",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Hero Section",
+        "Container",
+        "Bottom text wrap"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jwXvxAQ61mfcjjrQsvoreqxnrMg.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/jwXvxAQ61mfcjjrQsvoreqxnrMg.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/jwXvxAQ61mfcjjrQsvoreqxnrMg.jpg?width=600&height=600 600w",
+      "alt": "Mia Walker",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Hero Section",
+        "Container",
+        "Bottom text wrap"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/84rQ0xS0GSXogxfHmYXKT30ETM.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/84rQ0xS0GSXogxfHmYXKT30ETM.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/84rQ0xS0GSXogxfHmYXKT30ETM.jpg?width=600&height=600 600w",
+      "alt": "Michael Brown",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Hero Section",
+        "Container",
+        "Bottom text wrap"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SsW0QGG9VWUZwv7YfgQLUcJ0XmM.jpeg?width=6144&height=3072",
+      "srcset": null,
+      "alt": "solar panel setup in the ground ",
+      "width": "6144",
+      "height": "3072",
+      "path": [
+        "Main",
+        "Hero Section"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:58.5% 77.9%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/W0YDkN2aIKIGEe2LbILwOdRJAjk.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/W0YDkN2aIKIGEe2LbILwOdRJAjk.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/W0YDkN2aIKIGEe2LbILwOdRJAjk.jpg?width=600&height=600 600w",
+      "alt": "James Carter",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Hero Section",
+        "Container",
+        "Bottom text wrap"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/D6NjmeWaBY1FiFMHLr429HxpKRM.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/D6NjmeWaBY1FiFMHLr429HxpKRM.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/D6NjmeWaBY1FiFMHLr429HxpKRM.jpg?width=600&height=600 600w",
+      "alt": "Liam Harris",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Hero Section",
+        "Container",
+        "Bottom text wrap"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jwXvxAQ61mfcjjrQsvoreqxnrMg.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/jwXvxAQ61mfcjjrQsvoreqxnrMg.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/jwXvxAQ61mfcjjrQsvoreqxnrMg.jpg?width=600&height=600 600w",
+      "alt": "Mia Walker",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Hero Section",
+        "Container",
+        "Bottom text wrap"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/84rQ0xS0GSXogxfHmYXKT30ETM.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/84rQ0xS0GSXogxfHmYXKT30ETM.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/84rQ0xS0GSXogxfHmYXKT30ETM.jpg?width=600&height=600 600w",
+      "alt": "Michael Brown",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Hero Section",
+        "Container",
+        "Bottom text wrap"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SsW0QGG9VWUZwv7YfgQLUcJ0XmM.jpeg?width=6144&height=3072",
+      "srcset": "https://framerusercontent.com/images/SsW0QGG9VWUZwv7YfgQLUcJ0XmM.jpeg?scale-down-to=512&width=6144&height=3072 512w,https://framerusercontent.com/images/SsW0QGG9VWUZwv7YfgQLUcJ0XmM.jpeg?scale-down-to=1024&width=6144&height=3072 1024w,https://framerusercontent.com/images/SsW0QGG9VWUZwv7YfgQLUcJ0XmM.jpeg?scale-down-to=2048&width=6144&height=3072 2048w,https://framerusercontent.com/images/SsW0QGG9VWUZwv7YfgQLUcJ0XmM.jpeg?scale-down-to=4096&width=6144&height=3072 4096w,https://framerusercontent.com/images/SsW0QGG9VWUZwv7YfgQLUcJ0XmM.jpeg?width=6144&height=3072 6144w",
+      "alt": "solar panel setup in the ground ",
+      "width": "6144",
+      "height": "3072",
+      "path": [
+        "Main",
+        "Hero Section"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/W0YDkN2aIKIGEe2LbILwOdRJAjk.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/W0YDkN2aIKIGEe2LbILwOdRJAjk.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/W0YDkN2aIKIGEe2LbILwOdRJAjk.jpg?width=600&height=600 600w",
+      "alt": "James Carter",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Hero Section",
+        "Container",
+        "Bottom text wrap"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/D6NjmeWaBY1FiFMHLr429HxpKRM.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/D6NjmeWaBY1FiFMHLr429HxpKRM.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/D6NjmeWaBY1FiFMHLr429HxpKRM.jpg?width=600&height=600 600w",
+      "alt": "Liam Harris",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Hero Section",
+        "Container",
+        "Bottom text wrap"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jwXvxAQ61mfcjjrQsvoreqxnrMg.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/jwXvxAQ61mfcjjrQsvoreqxnrMg.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/jwXvxAQ61mfcjjrQsvoreqxnrMg.jpg?width=600&height=600 600w",
+      "alt": "Mia Walker",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Hero Section",
+        "Container",
+        "Bottom text wrap"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/84rQ0xS0GSXogxfHmYXKT30ETM.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/84rQ0xS0GSXogxfHmYXKT30ETM.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/84rQ0xS0GSXogxfHmYXKT30ETM.jpg?width=600&height=600 600w",
+      "alt": "Michael Brown",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Hero Section",
+        "Container",
+        "Bottom text wrap"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6QEz8kJbwqWFzbNDcgcMwaBk7Jk.svg?width=176&height=40",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "176",
+      "height": "40",
+      "path": [
+        "Main",
+        "Desktop",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4I0nUFgLGKqAqwEE0S5l6yrCXzQ.svg?width=132&height=35",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "132",
+      "height": "35",
+      "path": [
+        "Main",
+        "Desktop",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gjmyWxGl1gWzjkyIh4cJfB7rg.svg?width=132&height=35",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "132",
+      "height": "35",
+      "path": [
+        "Main",
+        "Desktop",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/GPSxJ7zrNG4isyTYg1gr1HjRTA.svg?width=175&height=40",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "175",
+      "height": "40",
+      "path": [
+        "Main",
+        "Desktop",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/oeigtHFhM0qf1CThkR9gRSymB0.svg?width=119&height=30",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "119",
+      "height": "30",
+      "path": [
+        "Main",
+        "Desktop",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/duZwjP73YzY6931zuqasWWfWDZY.svg?width=163&height=42",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "163",
+      "height": "42",
+      "path": [
+        "Main",
+        "Desktop",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Qifbcz2UjIveHTCuImUZcqT9kZg.svg?width=140&height=30",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "140",
+      "height": "30",
+      "path": [
+        "Main",
+        "Desktop",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ThiPMi5yUjVdKo6t4N9wLOgcQ.svg?width=168&height=40",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "168",
+      "height": "40",
+      "path": [
+        "Main",
+        "Desktop",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6QEz8kJbwqWFzbNDcgcMwaBk7Jk.svg?width=176&height=40",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "176",
+      "height": "40",
+      "path": [
+        "Main",
+        "Mobile",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4I0nUFgLGKqAqwEE0S5l6yrCXzQ.svg?width=132&height=35",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "132",
+      "height": "35",
+      "path": [
+        "Main",
+        "Mobile",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gjmyWxGl1gWzjkyIh4cJfB7rg.svg?width=132&height=35",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "132",
+      "height": "35",
+      "path": [
+        "Main",
+        "Mobile",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/GPSxJ7zrNG4isyTYg1gr1HjRTA.svg?width=175&height=40",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "175",
+      "height": "40",
+      "path": [
+        "Main",
+        "Mobile",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/oeigtHFhM0qf1CThkR9gRSymB0.svg?width=119&height=30",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "119",
+      "height": "30",
+      "path": [
+        "Main",
+        "Mobile",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/duZwjP73YzY6931zuqasWWfWDZY.svg?width=163&height=42",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "163",
+      "height": "42",
+      "path": [
+        "Main",
+        "Mobile",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Qifbcz2UjIveHTCuImUZcqT9kZg.svg?width=140&height=30",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "140",
+      "height": "30",
+      "path": [
+        "Main",
+        "Mobile",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ThiPMi5yUjVdKo6t4N9wLOgcQ.svg?width=168&height=40",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "168",
+      "height": "40",
+      "path": [
+        "Main",
+        "Mobile",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6QEz8kJbwqWFzbNDcgcMwaBk7Jk.svg?width=176&height=40",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "176",
+      "height": "40",
+      "path": [
+        "Main",
+        "Desktop",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4I0nUFgLGKqAqwEE0S5l6yrCXzQ.svg?width=132&height=35",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "132",
+      "height": "35",
+      "path": [
+        "Main",
+        "Desktop",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gjmyWxGl1gWzjkyIh4cJfB7rg.svg?width=132&height=35",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "132",
+      "height": "35",
+      "path": [
+        "Main",
+        "Desktop",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/GPSxJ7zrNG4isyTYg1gr1HjRTA.svg?width=175&height=40",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "175",
+      "height": "40",
+      "path": [
+        "Main",
+        "Desktop",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/oeigtHFhM0qf1CThkR9gRSymB0.svg?width=119&height=30",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "119",
+      "height": "30",
+      "path": [
+        "Main",
+        "Desktop",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/duZwjP73YzY6931zuqasWWfWDZY.svg?width=163&height=42",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "163",
+      "height": "42",
+      "path": [
+        "Main",
+        "Desktop",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Qifbcz2UjIveHTCuImUZcqT9kZg.svg?width=140&height=30",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "140",
+      "height": "30",
+      "path": [
+        "Main",
+        "Desktop",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ThiPMi5yUjVdKo6t4N9wLOgcQ.svg?width=168&height=40",
+      "srcset": null,
+      "alt": "Client image",
+      "width": "168",
+      "height": "40",
+      "path": [
+        "Main",
+        "Desktop",
+        "Container",
+        "Client Section",
+        "Desktop",
+        "Client Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SHszoY6WQxqBKoXMDaecS6vEmk.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Ecellent Services",
+        "Container",
+        "Variant 1",
+        "Variant 1",
+        "Solar-icon-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SHszoY6WQxqBKoXMDaecS6vEmk.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Ecellent Services",
+        "Container",
+        "Variant 1",
+        "Variant 1",
+        "Solar-icon-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SHszoY6WQxqBKoXMDaecS6vEmk.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Ecellent Services",
+        "Container",
+        "Variant 1",
+        "Variant 1",
+        "Solar-icon-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SHszoY6WQxqBKoXMDaecS6vEmk.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Ecellent Services",
+        "Container",
+        "Variant 1",
+        "Variant 1",
+        "Solar-icon-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SHszoY6WQxqBKoXMDaecS6vEmk.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Ecellent Services",
+        "Container",
+        "Variant 1",
+        "Variant 1",
+        "Solar-icon-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SHszoY6WQxqBKoXMDaecS6vEmk.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Ecellent Services",
+        "Container",
+        "Variant 1",
+        "Variant 1",
+        "Solar-icon-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2jvk0kJxyokxITdWGVCBwINpl6w.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Ecellent Services",
+        "Container",
+        "Variant 1",
+        "Variant 1",
+        "Solar-icon-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2jvk0kJxyokxITdWGVCBwINpl6w.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Ecellent Services",
+        "Container",
+        "Variant 1",
+        "Variant 1",
+        "Solar-icon-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2jvk0kJxyokxITdWGVCBwINpl6w.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Ecellent Services",
+        "Container",
+        "Variant 1",
+        "Variant 1",
+        "Solar-icon-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2jvk0kJxyokxITdWGVCBwINpl6w.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Ecellent Services",
+        "Container",
+        "Variant 1",
+        "Variant 1",
+        "Solar-icon-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2jvk0kJxyokxITdWGVCBwINpl6w.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Ecellent Services",
+        "Container",
+        "Variant 1",
+        "Variant 1",
+        "Solar-icon-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2jvk0kJxyokxITdWGVCBwINpl6w.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Ecellent Services",
+        "Container",
+        "Variant 1",
+        "Variant 1",
+        "Solar-icon-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8xn45SyMTHf47SVTvVMykuSUs.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Ecellent Services",
+        "Container",
+        "Variant 1",
+        "Variant 1",
+        "Solar-icon-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8xn45SyMTHf47SVTvVMykuSUs.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Ecellent Services",
+        "Container",
+        "Variant 1",
+        "Variant 1",
+        "Solar-icon-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8xn45SyMTHf47SVTvVMykuSUs.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Ecellent Services",
+        "Container",
+        "Variant 1",
+        "Variant 1",
+        "Solar-icon-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8xn45SyMTHf47SVTvVMykuSUs.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Ecellent Services",
+        "Container",
+        "Variant 1",
+        "Variant 1",
+        "Solar-icon-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8xn45SyMTHf47SVTvVMykuSUs.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Ecellent Services",
+        "Container",
+        "Variant 1",
+        "Variant 1",
+        "Solar-icon-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8xn45SyMTHf47SVTvVMykuSUs.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Ecellent Services",
+        "Container",
+        "Variant 1",
+        "Variant 1",
+        "Solar-icon-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033 700w",
+      "alt": "solar panel ",
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Desktop",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/0HSvl4Kh9UWjFClIJIkYs1QIO0.jpg?width=3584&height=5120",
+      "srcset": "https://framerusercontent.com/images/0HSvl4Kh9UWjFClIJIkYs1QIO0.jpg?scale-down-to=1024&width=3584&height=5120 716w,https://framerusercontent.com/images/0HSvl4Kh9UWjFClIJIkYs1QIO0.jpg?scale-down-to=2048&width=3584&height=5120 1433w,https://framerusercontent.com/images/0HSvl4Kh9UWjFClIJIkYs1QIO0.jpg?scale-down-to=4096&width=3584&height=5120 2867w,https://framerusercontent.com/images/0HSvl4Kh9UWjFClIJIkYs1QIO0.jpg?width=3584&height=5120 3584w",
+      "alt": null,
+      "width": "3584",
+      "height": "5120",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Desktop",
+        "Services Corousel",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Hyv2Ql52EMBz3P3BmYwhd17lDc.png?width=512&height=512",
+      "srcset": null,
+      "alt": "icon",
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Desktop",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033 700w",
+      "alt": "solar panel ",
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Desktop",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/d609Uzv5sske4DYDYAIapU3M.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/d609Uzv5sske4DYDYAIapU3M.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/d609Uzv5sske4DYDYAIapU3M.jpg?width=700&height=1033 700w",
+      "alt": null,
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Desktop",
+        "Services Corousel",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tYjjjnV08Cc8JGQRKY9g3S1qvLU.png?width=512&height=512",
+      "srcset": null,
+      "alt": "icon",
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Desktop",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033 700w",
+      "alt": "solar panel ",
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Desktop",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/1EnacoluFALIJqQC2THjamugM.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/1EnacoluFALIJqQC2THjamugM.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/1EnacoluFALIJqQC2THjamugM.jpg?width=700&height=1033 700w",
+      "alt": null,
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Desktop",
+        "Services Corousel",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gz6zByfwfxSk9G6Guihznt9CnjM.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Desktop",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033 700w",
+      "alt": "solar panel ",
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Desktop",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/1rLEspARYhhuJ5AhgeapVxWeFA.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/1rLEspARYhhuJ5AhgeapVxWeFA.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/1rLEspARYhhuJ5AhgeapVxWeFA.jpg?width=700&height=1033 700w",
+      "alt": null,
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Desktop",
+        "Services Corousel",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/R1Nc0cZIZe9itgYCE5FJSDaSJc.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Desktop",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033 700w",
+      "alt": "solar panel ",
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Desktop",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/YkROzWcb2tUmAxdUcRfBLgHacU.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/YkROzWcb2tUmAxdUcRfBLgHacU.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/YkROzWcb2tUmAxdUcRfBLgHacU.jpg?width=700&height=1033 700w",
+      "alt": null,
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Desktop",
+        "Services Corousel",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dzRxE4gVbVi1wRzrhrYjLRMpN4Y.png?width=512&height=512",
+      "srcset": null,
+      "alt": "icon",
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Desktop",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+      "srcset": null,
+      "alt": "Back Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Desktop",
+        "Services Corousel"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+      "srcset": null,
+      "alt": "Next Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Desktop",
+        "Services Corousel"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033 700w",
+      "alt": "solar panel ",
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Mobile",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/0HSvl4Kh9UWjFClIJIkYs1QIO0.jpg?width=3584&height=5120",
+      "srcset": "https://framerusercontent.com/images/0HSvl4Kh9UWjFClIJIkYs1QIO0.jpg?scale-down-to=1024&width=3584&height=5120 716w,https://framerusercontent.com/images/0HSvl4Kh9UWjFClIJIkYs1QIO0.jpg?scale-down-to=2048&width=3584&height=5120 1433w,https://framerusercontent.com/images/0HSvl4Kh9UWjFClIJIkYs1QIO0.jpg?scale-down-to=4096&width=3584&height=5120 2867w,https://framerusercontent.com/images/0HSvl4Kh9UWjFClIJIkYs1QIO0.jpg?width=3584&height=5120 3584w",
+      "alt": null,
+      "width": "3584",
+      "height": "5120",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Mobile",
+        "Services Corousel",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Hyv2Ql52EMBz3P3BmYwhd17lDc.png?width=512&height=512",
+      "srcset": null,
+      "alt": "icon",
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Mobile",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033 700w",
+      "alt": "solar panel ",
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Mobile",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/d609Uzv5sske4DYDYAIapU3M.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/d609Uzv5sske4DYDYAIapU3M.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/d609Uzv5sske4DYDYAIapU3M.jpg?width=700&height=1033 700w",
+      "alt": null,
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Mobile",
+        "Services Corousel",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tYjjjnV08Cc8JGQRKY9g3S1qvLU.png?width=512&height=512",
+      "srcset": null,
+      "alt": "icon",
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Mobile",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033 700w",
+      "alt": "solar panel ",
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Mobile",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/1EnacoluFALIJqQC2THjamugM.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/1EnacoluFALIJqQC2THjamugM.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/1EnacoluFALIJqQC2THjamugM.jpg?width=700&height=1033 700w",
+      "alt": null,
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Mobile",
+        "Services Corousel",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gz6zByfwfxSk9G6Guihznt9CnjM.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Mobile",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033 700w",
+      "alt": "solar panel ",
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Mobile",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/1rLEspARYhhuJ5AhgeapVxWeFA.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/1rLEspARYhhuJ5AhgeapVxWeFA.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/1rLEspARYhhuJ5AhgeapVxWeFA.jpg?width=700&height=1033 700w",
+      "alt": null,
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Mobile",
+        "Services Corousel",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/R1Nc0cZIZe9itgYCE5FJSDaSJc.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Mobile",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033 700w",
+      "alt": "solar panel ",
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Mobile",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/YkROzWcb2tUmAxdUcRfBLgHacU.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/YkROzWcb2tUmAxdUcRfBLgHacU.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/YkROzWcb2tUmAxdUcRfBLgHacU.jpg?width=700&height=1033 700w",
+      "alt": null,
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Mobile",
+        "Services Corousel",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dzRxE4gVbVi1wRzrhrYjLRMpN4Y.png?width=512&height=512",
+      "srcset": null,
+      "alt": "icon",
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Mobile",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+      "srcset": null,
+      "alt": "Back Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Mobile",
+        "Services Corousel"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+      "srcset": null,
+      "alt": "Next Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Mobile",
+        "Services Corousel"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033 700w",
+      "alt": "solar panel ",
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Tab",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/0HSvl4Kh9UWjFClIJIkYs1QIO0.jpg?width=3584&height=5120",
+      "srcset": "https://framerusercontent.com/images/0HSvl4Kh9UWjFClIJIkYs1QIO0.jpg?scale-down-to=1024&width=3584&height=5120 716w,https://framerusercontent.com/images/0HSvl4Kh9UWjFClIJIkYs1QIO0.jpg?scale-down-to=2048&width=3584&height=5120 1433w,https://framerusercontent.com/images/0HSvl4Kh9UWjFClIJIkYs1QIO0.jpg?scale-down-to=4096&width=3584&height=5120 2867w,https://framerusercontent.com/images/0HSvl4Kh9UWjFClIJIkYs1QIO0.jpg?width=3584&height=5120 3584w",
+      "alt": null,
+      "width": "3584",
+      "height": "5120",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Tab",
+        "Services Corousel",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Hyv2Ql52EMBz3P3BmYwhd17lDc.png?width=512&height=512",
+      "srcset": null,
+      "alt": "icon",
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Tab",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033 700w",
+      "alt": "solar panel ",
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Tab",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/d609Uzv5sske4DYDYAIapU3M.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/d609Uzv5sske4DYDYAIapU3M.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/d609Uzv5sske4DYDYAIapU3M.jpg?width=700&height=1033 700w",
+      "alt": null,
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Tab",
+        "Services Corousel",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tYjjjnV08Cc8JGQRKY9g3S1qvLU.png?width=512&height=512",
+      "srcset": null,
+      "alt": "icon",
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Tab",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033 700w",
+      "alt": "solar panel ",
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Tab",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/1EnacoluFALIJqQC2THjamugM.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/1EnacoluFALIJqQC2THjamugM.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/1EnacoluFALIJqQC2THjamugM.jpg?width=700&height=1033 700w",
+      "alt": null,
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Tab",
+        "Services Corousel",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gz6zByfwfxSk9G6Guihznt9CnjM.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Tab",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033 700w",
+      "alt": "solar panel ",
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Tab",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/1rLEspARYhhuJ5AhgeapVxWeFA.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/1rLEspARYhhuJ5AhgeapVxWeFA.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/1rLEspARYhhuJ5AhgeapVxWeFA.jpg?width=700&height=1033 700w",
+      "alt": null,
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Tab",
+        "Services Corousel",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/R1Nc0cZIZe9itgYCE5FJSDaSJc.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Tab",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/gp6Np2Uen8OhQsWCt1S2LSz71zo.jpg?width=700&height=1033 700w",
+      "alt": "solar panel ",
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Tab",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/YkROzWcb2tUmAxdUcRfBLgHacU.jpg?width=700&height=1033",
+      "srcset": "https://framerusercontent.com/images/YkROzWcb2tUmAxdUcRfBLgHacU.jpg?scale-down-to=1024&width=700&height=1033 693w,https://framerusercontent.com/images/YkROzWcb2tUmAxdUcRfBLgHacU.jpg?width=700&height=1033 700w",
+      "alt": null,
+      "width": "700",
+      "height": "1033",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Tab",
+        "Services Corousel",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dzRxE4gVbVi1wRzrhrYjLRMpN4Y.png?width=512&height=512",
+      "srcset": null,
+      "alt": "icon",
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Tab",
+        "Services Corousel",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+      "srcset": null,
+      "alt": "Back Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Tab",
+        "Services Corousel"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+      "srcset": null,
+      "alt": "Next Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Main",
+        "Services Section",
+        "Container",
+        "Tab",
+        "Services Corousel"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4BI6OSeH8gcr9Ya0NP7LM9J1M8.jpg?width=550&height=700",
+      "srcset": "https://framerusercontent.com/images/4BI6OSeH8gcr9Ya0NP7LM9J1M8.jpg?width=550&height=700 550w",
+      "alt": "two men fix the solar panel ",
+      "width": "550",
+      "height": "700",
+      "path": [
+        "Main",
+        "About Company",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:right center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4BI6OSeH8gcr9Ya0NP7LM9J1M8.jpg?width=550&height=700",
+      "srcset": "https://framerusercontent.com/images/4BI6OSeH8gcr9Ya0NP7LM9J1M8.jpg?width=550&height=700 550w",
+      "alt": "two men fix the solar panel ",
+      "width": "550",
+      "height": "700",
+      "path": [
+        "Main",
+        "About Company",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SotZXXPsS3rKeaDqLHmOcIsk2tM.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Excellent Services",
+        "Container",
+        "Laptop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SotZXXPsS3rKeaDqLHmOcIsk2tM.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Excellent Services",
+        "Container",
+        "Laptop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SotZXXPsS3rKeaDqLHmOcIsk2tM.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Excellent Services",
+        "Container",
+        "Laptop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8pp5kzVhwpOfHWE5mU8I5BsEYXc.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Excellent Services",
+        "Container",
+        "Laptop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8pp5kzVhwpOfHWE5mU8I5BsEYXc.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Excellent Services",
+        "Container",
+        "Laptop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8pp5kzVhwpOfHWE5mU8I5BsEYXc.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Excellent Services",
+        "Container",
+        "Laptop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8xn45SyMTHf47SVTvVMykuSUs.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Excellent Services",
+        "Container",
+        "Laptop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8xn45SyMTHf47SVTvVMykuSUs.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Excellent Services",
+        "Container",
+        "Laptop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8xn45SyMTHf47SVTvVMykuSUs.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Excellent Services",
+        "Container",
+        "Laptop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/b4KzHV67W4mrSOMheANfAzfdYEM.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Excellent Services",
+        "Container",
+        "Laptop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/b4KzHV67W4mrSOMheANfAzfdYEM.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Excellent Services",
+        "Container",
+        "Laptop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/b4KzHV67W4mrSOMheANfAzfdYEM.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Excellent Services",
+        "Container",
+        "Laptop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ecIydEaqGIKuHaQqFsbw8tRCA.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Excellent Services",
+        "Container",
+        "Laptop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ecIydEaqGIKuHaQqFsbw8tRCA.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Excellent Services",
+        "Container",
+        "Laptop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ecIydEaqGIKuHaQqFsbw8tRCA.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Excellent Services",
+        "Container",
+        "Laptop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jpxArhZs8VwgsAK7U5D5B5MqU.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Excellent Services",
+        "Container",
+        "Laptop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jpxArhZs8VwgsAK7U5D5B5MqU.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Excellent Services",
+        "Container",
+        "Laptop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jpxArhZs8VwgsAK7U5D5B5MqU.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Excellent Services",
+        "Container",
+        "Laptop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8lO1MDdXOmRLodroWn2TxIpCBQ4.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/8lO1MDdXOmRLodroWn2TxIpCBQ4.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/8lO1MDdXOmRLodroWn2TxIpCBQ4.jpg?width=600&height=600 600w",
+      "alt": null,
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Members",
+        "Container",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8lO1MDdXOmRLodroWn2TxIpCBQ4.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/8lO1MDdXOmRLodroWn2TxIpCBQ4.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/8lO1MDdXOmRLodroWn2TxIpCBQ4.jpg?width=600&height=600 600w",
+      "alt": null,
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Members",
+        "Container",
+        "Mobile"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/B6SAUcWOaxeRbm7TmftAKKuE3bo.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/B6SAUcWOaxeRbm7TmftAKKuE3bo.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/B6SAUcWOaxeRbm7TmftAKKuE3bo.jpg?width=600&height=600 600w",
+      "alt": "Emily Johnson",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Members",
+        "Container",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/B6SAUcWOaxeRbm7TmftAKKuE3bo.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/B6SAUcWOaxeRbm7TmftAKKuE3bo.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/B6SAUcWOaxeRbm7TmftAKKuE3bo.jpg?width=600&height=600 600w",
+      "alt": "Emily Johnson",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Members",
+        "Container",
+        "Mobile"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/84rQ0xS0GSXogxfHmYXKT30ETM.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/84rQ0xS0GSXogxfHmYXKT30ETM.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/84rQ0xS0GSXogxfHmYXKT30ETM.jpg?width=600&height=600 600w",
+      "alt": "Michael Brown",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Members",
+        "Container",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/84rQ0xS0GSXogxfHmYXKT30ETM.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/84rQ0xS0GSXogxfHmYXKT30ETM.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/84rQ0xS0GSXogxfHmYXKT30ETM.jpg?width=600&height=600 600w",
+      "alt": "Michael Brown",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Members",
+        "Container",
+        "Mobile"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aVsvLJkR2RekklaZEFisskMVMr0.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/aVsvLJkR2RekklaZEFisskMVMr0.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/aVsvLJkR2RekklaZEFisskMVMr0.jpg?width=600&height=600 600w",
+      "alt": "Amy Walker",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Members",
+        "Container",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aVsvLJkR2RekklaZEFisskMVMr0.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/aVsvLJkR2RekklaZEFisskMVMr0.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/aVsvLJkR2RekklaZEFisskMVMr0.jpg?width=600&height=600 600w",
+      "alt": "Amy Walker",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Members",
+        "Container",
+        "Mobile"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/D6NjmeWaBY1FiFMHLr429HxpKRM.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/D6NjmeWaBY1FiFMHLr429HxpKRM.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/D6NjmeWaBY1FiFMHLr429HxpKRM.jpg?width=600&height=600 600w",
+      "alt": "Liam Harris",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Members",
+        "Container",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jwXvxAQ61mfcjjrQsvoreqxnrMg.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/jwXvxAQ61mfcjjrQsvoreqxnrMg.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/jwXvxAQ61mfcjjrQsvoreqxnrMg.jpg?width=600&height=600 600w",
+      "alt": "Mia Walker",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Members",
+        "Container",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4IYsIb0v1oKwTl7EqitohJPpc.jpg?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/4IYsIb0v1oKwTl7EqitohJPpc.jpg?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/4IYsIb0v1oKwTl7EqitohJPpc.jpg?width=600&height=600 600w",
+      "alt": "Noah Lewis",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Main",
+        "Members",
+        "Container",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/zwPzGRmwV4iFo5B3YcijQ9Ma8Nw.jpg?width=4096&height=2800",
+      "srcset": "https://framerusercontent.com/images/zwPzGRmwV4iFo5B3YcijQ9Ma8Nw.jpg?scale-down-to=512&width=4096&height=2800 512w,https://framerusercontent.com/images/zwPzGRmwV4iFo5B3YcijQ9Ma8Nw.jpg?scale-down-to=1024&width=4096&height=2800 1024w,https://framerusercontent.com/images/zwPzGRmwV4iFo5B3YcijQ9Ma8Nw.jpg?scale-down-to=2048&width=4096&height=2800 2048w,https://framerusercontent.com/images/zwPzGRmwV4iFo5B3YcijQ9Ma8Nw.jpg?width=4096&height=2800 4096w",
+      "alt": "Two men fix solar",
+      "width": "4096",
+      "height": "2800",
+      "path": [
+        "Main",
+        "Fan Fact",
+        "Container",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/LF8nCSm6jlCbgioPD1ghg1FV4.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Fan Fact",
+        "Container",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/zwPzGRmwV4iFo5B3YcijQ9Ma8Nw.jpg?width=4096&height=2800",
+      "srcset": "https://framerusercontent.com/images/zwPzGRmwV4iFo5B3YcijQ9Ma8Nw.jpg?scale-down-to=512&width=4096&height=2800 512w,https://framerusercontent.com/images/zwPzGRmwV4iFo5B3YcijQ9Ma8Nw.jpg?scale-down-to=1024&width=4096&height=2800 1024w,https://framerusercontent.com/images/zwPzGRmwV4iFo5B3YcijQ9Ma8Nw.jpg?scale-down-to=2048&width=4096&height=2800 2048w,https://framerusercontent.com/images/zwPzGRmwV4iFo5B3YcijQ9Ma8Nw.jpg?width=4096&height=2800 4096w",
+      "alt": "Two men fix solar",
+      "width": "4096",
+      "height": "2800",
+      "path": [
+        "Main",
+        "Fan Fact",
+        "Container",
+        "Mobile"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/LF8nCSm6jlCbgioPD1ghg1FV4.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Fan Fact",
+        "Container",
+        "Mobile"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/zwPzGRmwV4iFo5B3YcijQ9Ma8Nw.jpg?width=4096&height=2800",
+      "srcset": "https://framerusercontent.com/images/zwPzGRmwV4iFo5B3YcijQ9Ma8Nw.jpg?scale-down-to=512&width=4096&height=2800 512w,https://framerusercontent.com/images/zwPzGRmwV4iFo5B3YcijQ9Ma8Nw.jpg?scale-down-to=1024&width=4096&height=2800 1024w,https://framerusercontent.com/images/zwPzGRmwV4iFo5B3YcijQ9Ma8Nw.jpg?scale-down-to=2048&width=4096&height=2800 2048w,https://framerusercontent.com/images/zwPzGRmwV4iFo5B3YcijQ9Ma8Nw.jpg?width=4096&height=2800 4096w",
+      "alt": "Two men fix solar",
+      "width": "4096",
+      "height": "2800",
+      "path": [
+        "Main",
+        "Fan Fact",
+        "Container",
+        "Tab"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/LF8nCSm6jlCbgioPD1ghg1FV4.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Fan Fact",
+        "Container",
+        "Tab"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?width=6000&height=4000",
+      "srcset": "https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=512&width=6000&height=4000 512w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=1024&width=6000&height=4000 1024w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=2048&width=6000&height=4000 2048w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=4096&width=6000&height=4000 4096w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?width=6000&height=4000 6000w",
+      "alt": "men women conversion regarding solar",
+      "width": "6000",
+      "height": "4000",
+      "path": [
+        "Main",
+        "Fan Fact",
+        "Container",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2jvk0kJxyokxITdWGVCBwINpl6w.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Fan Fact",
+        "Container",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?width=6000&height=4000",
+      "srcset": "https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=512&width=6000&height=4000 512w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=1024&width=6000&height=4000 1024w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=2048&width=6000&height=4000 2048w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=4096&width=6000&height=4000 4096w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?width=6000&height=4000 6000w",
+      "alt": "men women conversion regarding solar",
+      "width": "6000",
+      "height": "4000",
+      "path": [
+        "Main",
+        "Fan Fact",
+        "Container",
+        "Mobile"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2jvk0kJxyokxITdWGVCBwINpl6w.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Fan Fact",
+        "Container",
+        "Mobile"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?width=6000&height=4000",
+      "srcset": "https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=512&width=6000&height=4000 512w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=1024&width=6000&height=4000 1024w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=2048&width=6000&height=4000 2048w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=4096&width=6000&height=4000 4096w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?width=6000&height=4000 6000w",
+      "alt": "men women conversion regarding solar",
+      "width": "6000",
+      "height": "4000",
+      "path": [
+        "Main",
+        "Fan Fact",
+        "Container",
+        "Tab"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2jvk0kJxyokxITdWGVCBwINpl6w.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Fan Fact",
+        "Container",
+        "Tab"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7ahob399syUX6jMpG4G4YK63E.jpg?width=6048&height=4024",
+      "srcset": "https://framerusercontent.com/images/7ahob399syUX6jMpG4G4YK63E.jpg?scale-down-to=512&width=6048&height=4024 512w,https://framerusercontent.com/images/7ahob399syUX6jMpG4G4YK63E.jpg?scale-down-to=1024&width=6048&height=4024 1024w,https://framerusercontent.com/images/7ahob399syUX6jMpG4G4YK63E.jpg?scale-down-to=2048&width=6048&height=4024 2048w,https://framerusercontent.com/images/7ahob399syUX6jMpG4G4YK63E.jpg?scale-down-to=4096&width=6048&height=4024 4096w,https://framerusercontent.com/images/7ahob399syUX6jMpG4G4YK63E.jpg?width=6048&height=4024 6048w",
+      "alt": "solar panel",
+      "width": "6048",
+      "height": "4024",
+      "path": [
+        "Main",
+        "Fan Fact",
+        "Container",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jpxArhZs8VwgsAK7U5D5B5MqU.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Fan Fact",
+        "Container",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7ahob399syUX6jMpG4G4YK63E.jpg?width=6048&height=4024",
+      "srcset": "https://framerusercontent.com/images/7ahob399syUX6jMpG4G4YK63E.jpg?scale-down-to=512&width=6048&height=4024 512w,https://framerusercontent.com/images/7ahob399syUX6jMpG4G4YK63E.jpg?scale-down-to=1024&width=6048&height=4024 1024w,https://framerusercontent.com/images/7ahob399syUX6jMpG4G4YK63E.jpg?scale-down-to=2048&width=6048&height=4024 2048w,https://framerusercontent.com/images/7ahob399syUX6jMpG4G4YK63E.jpg?scale-down-to=4096&width=6048&height=4024 4096w,https://framerusercontent.com/images/7ahob399syUX6jMpG4G4YK63E.jpg?width=6048&height=4024 6048w",
+      "alt": "solar panel",
+      "width": "6048",
+      "height": "4024",
+      "path": [
+        "Main",
+        "Fan Fact",
+        "Container",
+        "Mobile"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jpxArhZs8VwgsAK7U5D5B5MqU.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Fan Fact",
+        "Container",
+        "Mobile"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7ahob399syUX6jMpG4G4YK63E.jpg?width=6048&height=4024",
+      "srcset": "https://framerusercontent.com/images/7ahob399syUX6jMpG4G4YK63E.jpg?scale-down-to=512&width=6048&height=4024 512w,https://framerusercontent.com/images/7ahob399syUX6jMpG4G4YK63E.jpg?scale-down-to=1024&width=6048&height=4024 1024w,https://framerusercontent.com/images/7ahob399syUX6jMpG4G4YK63E.jpg?scale-down-to=2048&width=6048&height=4024 2048w,https://framerusercontent.com/images/7ahob399syUX6jMpG4G4YK63E.jpg?scale-down-to=4096&width=6048&height=4024 4096w,https://framerusercontent.com/images/7ahob399syUX6jMpG4G4YK63E.jpg?width=6048&height=4024 6048w",
+      "alt": "solar panel",
+      "width": "6048",
+      "height": "4024",
+      "path": [
+        "Main",
+        "Fan Fact",
+        "Container",
+        "Tab"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jpxArhZs8VwgsAK7U5D5B5MqU.png?width=512&height=512",
+      "srcset": null,
+      "alt": null,
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Main",
+        "Fan Fact",
+        "Container",
+        "Tab"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6QEz8kJbwqWFzbNDcgcMwaBk7Jk.svg?width=176&height=40",
+      "srcset": null,
+      "alt": "Lumin logo",
+      "width": "176",
+      "height": "40",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6QEz8kJbwqWFzbNDcgcMwaBk7Jk.svg?width=176&height=40",
+      "srcset": null,
+      "alt": "Lumin logo",
+      "width": "176",
+      "height": "40",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gjmyWxGl1gWzjkyIh4cJfB7rg.svg?width=132&height=35",
+      "srcset": null,
+      "alt": "Ja solar logo",
+      "width": "132",
+      "height": "35",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gjmyWxGl1gWzjkyIh4cJfB7rg.svg?width=132&height=35",
+      "srcset": null,
+      "alt": "Ja solar logo",
+      "width": "132",
+      "height": "35",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/duZwjP73YzY6931zuqasWWfWDZY.svg?width=163&height=42",
+      "srcset": null,
+      "alt": "solaria",
+      "width": "163",
+      "height": "42",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/duZwjP73YzY6931zuqasWWfWDZY.svg?width=163&height=42",
+      "srcset": null,
+      "alt": "solaria",
+      "width": "163",
+      "height": "42",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/GPSxJ7zrNG4isyTYg1gr1HjRTA.svg?width=175&height=40",
+      "srcset": null,
+      "alt": "ecoflow",
+      "width": "175",
+      "height": "40",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/GPSxJ7zrNG4isyTYg1gr1HjRTA.svg?width=175&height=40",
+      "srcset": null,
+      "alt": "ecoflow",
+      "width": "175",
+      "height": "40",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BrSvSHXO0TEgMV8PBsJNMJBsMzc.svg?width=134&height=34",
+      "srcset": null,
+      "alt": "solar edge",
+      "width": "134",
+      "height": "34",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BrSvSHXO0TEgMV8PBsJNMJBsMzc.svg?width=134&height=34",
+      "srcset": null,
+      "alt": "solar edge",
+      "width": "134",
+      "height": "34",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/sxqGwXa7qjplji4ZcgX8fmYOs.svg?width=152&height=19",
+      "srcset": null,
+      "alt": "solax power",
+      "width": "152",
+      "height": "19",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/sxqGwXa7qjplji4ZcgX8fmYOs.svg?width=152&height=19",
+      "srcset": null,
+      "alt": "solax power",
+      "width": "152",
+      "height": "19",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ThiPMi5yUjVdKo6t4N9wLOgcQ.svg?width=168&height=40",
+      "srcset": null,
+      "alt": "21six logo",
+      "width": "168",
+      "height": "40",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ThiPMi5yUjVdKo6t4N9wLOgcQ.svg?width=168&height=40",
+      "srcset": null,
+      "alt": "21six logo",
+      "width": "168",
+      "height": "40",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/GIK8uZI3M0K4ofRzG3UQCXutM.svg?width=155&height=40",
+      "srcset": null,
+      "alt": "wallbox logo",
+      "width": "155",
+      "height": "40",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/GIK8uZI3M0K4ofRzG3UQCXutM.svg?width=155&height=40",
+      "srcset": null,
+      "alt": "wallbox logo",
+      "width": "155",
+      "height": "40",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Qifbcz2UjIveHTCuImUZcqT9kZg.svg?width=140&height=30",
+      "srcset": null,
+      "alt": "recom logo",
+      "width": "140",
+      "height": "30",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Qifbcz2UjIveHTCuImUZcqT9kZg.svg?width=140&height=30",
+      "srcset": null,
+      "alt": "recom logo",
+      "width": "140",
+      "height": "30",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8MGbLgt1qCHDtoeeols5V043HfU.svg?width=169&height=42",
+      "srcset": null,
+      "alt": "span logo",
+      "width": "169",
+      "height": "42",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8MGbLgt1qCHDtoeeols5V043HfU.svg?width=169&height=42",
+      "srcset": null,
+      "alt": "span logo",
+      "width": "169",
+      "height": "42",
+      "path": [
+        "Main",
+        "Partners Section",
+        "Container",
+        "Variant 1",
+        "brand-1.png"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rGDjx8YMbG9oRVmwoQAAeYflmO0.jpg?width=7360&height=4912",
+      "srcset": "https://framerusercontent.com/images/rGDjx8YMbG9oRVmwoQAAeYflmO0.jpg?scale-down-to=512&width=7360&height=4912 512w,https://framerusercontent.com/images/rGDjx8YMbG9oRVmwoQAAeYflmO0.jpg?scale-down-to=1024&width=7360&height=4912 1024w,https://framerusercontent.com/images/rGDjx8YMbG9oRVmwoQAAeYflmO0.jpg?scale-down-to=2048&width=7360&height=4912 2048w,https://framerusercontent.com/images/rGDjx8YMbG9oRVmwoQAAeYflmO0.jpg?scale-down-to=4096&width=7360&height=4912 4096w,https://framerusercontent.com/images/rGDjx8YMbG9oRVmwoQAAeYflmO0.jpg?width=7360&height=4912 7360w",
+      "alt": "men women conversion regarding solar",
+      "width": "7360",
+      "height": "4912",
+      "path": [
+        "Main",
+        "News Section",
+        "Container",
+        "Post Card"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/XvHWqouzRd8NA25OWGOH1f8UMY.jpg?width=6000&height=4000",
+      "srcset": "https://framerusercontent.com/images/XvHWqouzRd8NA25OWGOH1f8UMY.jpg?scale-down-to=512&width=6000&height=4000 512w,https://framerusercontent.com/images/XvHWqouzRd8NA25OWGOH1f8UMY.jpg?scale-down-to=1024&width=6000&height=4000 1024w,https://framerusercontent.com/images/XvHWqouzRd8NA25OWGOH1f8UMY.jpg?scale-down-to=2048&width=6000&height=4000 2048w,https://framerusercontent.com/images/XvHWqouzRd8NA25OWGOH1f8UMY.jpg?scale-down-to=4096&width=6000&height=4000 4096w,https://framerusercontent.com/images/XvHWqouzRd8NA25OWGOH1f8UMY.jpg?width=6000&height=4000 6000w",
+      "alt": "men women conversion regarding solar",
+      "width": "6000",
+      "height": "4000",
+      "path": [
+        "Main",
+        "News Section",
+        "Container",
+        "Post Card"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?width=6000&height=4000",
+      "srcset": "https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=512&width=6000&height=4000 512w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=1024&width=6000&height=4000 1024w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=2048&width=6000&height=4000 2048w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=4096&width=6000&height=4000 4096w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?width=6000&height=4000 6000w",
+      "alt": "men women conversion regarding solar",
+      "width": "6000",
+      "height": "4000",
+      "path": [
+        "Main",
+        "News Section",
+        "Container",
+        "Post Card"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rGDjx8YMbG9oRVmwoQAAeYflmO0.jpg?width=7360&height=4912",
+      "srcset": "https://framerusercontent.com/images/rGDjx8YMbG9oRVmwoQAAeYflmO0.jpg?scale-down-to=512&width=7360&height=4912 512w,https://framerusercontent.com/images/rGDjx8YMbG9oRVmwoQAAeYflmO0.jpg?scale-down-to=1024&width=7360&height=4912 1024w,https://framerusercontent.com/images/rGDjx8YMbG9oRVmwoQAAeYflmO0.jpg?scale-down-to=2048&width=7360&height=4912 2048w,https://framerusercontent.com/images/rGDjx8YMbG9oRVmwoQAAeYflmO0.jpg?scale-down-to=4096&width=7360&height=4912 4096w,https://framerusercontent.com/images/rGDjx8YMbG9oRVmwoQAAeYflmO0.jpg?width=7360&height=4912 7360w",
+      "alt": "men women conversion regarding solar",
+      "width": "7360",
+      "height": "4912",
+      "path": [
+        "Main",
+        "News Section",
+        "Container",
+        "Post Card"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/XvHWqouzRd8NA25OWGOH1f8UMY.jpg?width=6000&height=4000",
+      "srcset": "https://framerusercontent.com/images/XvHWqouzRd8NA25OWGOH1f8UMY.jpg?scale-down-to=512&width=6000&height=4000 512w,https://framerusercontent.com/images/XvHWqouzRd8NA25OWGOH1f8UMY.jpg?scale-down-to=1024&width=6000&height=4000 1024w,https://framerusercontent.com/images/XvHWqouzRd8NA25OWGOH1f8UMY.jpg?scale-down-to=2048&width=6000&height=4000 2048w,https://framerusercontent.com/images/XvHWqouzRd8NA25OWGOH1f8UMY.jpg?scale-down-to=4096&width=6000&height=4000 4096w,https://framerusercontent.com/images/XvHWqouzRd8NA25OWGOH1f8UMY.jpg?width=6000&height=4000 6000w",
+      "alt": "men women conversion regarding solar",
+      "width": "6000",
+      "height": "4000",
+      "path": [
+        "Main",
+        "News Section",
+        "Container",
+        "Post Card"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?width=6000&height=4000",
+      "srcset": "https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=512&width=6000&height=4000 512w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=1024&width=6000&height=4000 1024w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=2048&width=6000&height=4000 2048w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?scale-down-to=4096&width=6000&height=4000 4096w,https://framerusercontent.com/images/arGA85cgsigolEQsZOeBSaQ4qI.jpg?width=6000&height=4000 6000w",
+      "alt": "men women conversion regarding solar",
+      "width": "6000",
+      "height": "4000",
+      "path": [
+        "Main",
+        "News Section",
+        "Container",
+        "Post Card"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/GY4apcVhvE2mSR3PfAWa6ZBDLHM.jpg?width=5040&height=3360",
+      "srcset": "https://framerusercontent.com/images/GY4apcVhvE2mSR3PfAWa6ZBDLHM.jpg?scale-down-to=512&width=5040&height=3360 512w,https://framerusercontent.com/images/GY4apcVhvE2mSR3PfAWa6ZBDLHM.jpg?scale-down-to=1024&width=5040&height=3360 1024w,https://framerusercontent.com/images/GY4apcVhvE2mSR3PfAWa6ZBDLHM.jpg?scale-down-to=2048&width=5040&height=3360 2048w,https://framerusercontent.com/images/GY4apcVhvE2mSR3PfAWa6ZBDLHM.jpg?scale-down-to=4096&width=5040&height=3360 4096w,https://framerusercontent.com/images/GY4apcVhvE2mSR3PfAWa6ZBDLHM.jpg?width=5040&height=3360 5040w",
+      "alt": null,
+      "width": "5040",
+      "height": "3360",
+      "path": [
+        "Main",
+        "News Section",
+        "Container",
+        "Post Card"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/baGPQhxMT3drvtvGMT0f0VIDA.webp?width=2740&height=2740",
+      "srcset": "https://framerusercontent.com/images/baGPQhxMT3drvtvGMT0f0VIDA.webp?scale-down-to=512&width=2740&height=2740 512w,https://framerusercontent.com/images/baGPQhxMT3drvtvGMT0f0VIDA.webp?scale-down-to=1024&width=2740&height=2740 1024w,https://framerusercontent.com/images/baGPQhxMT3drvtvGMT0f0VIDA.webp?scale-down-to=2048&width=2740&height=2740 2048w,https://framerusercontent.com/images/baGPQhxMT3drvtvGMT0f0VIDA.webp?width=2740&height=2740 2740w",
+      "alt": null,
+      "width": "2740",
+      "height": "2740",
+      "path": [
+        "Main",
+        "CTA Faqs",
+        "Laptop",
+        "Container",
+        "portfolio_05"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:left bottom;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/baGPQhxMT3drvtvGMT0f0VIDA.webp?width=2740&height=2740",
+      "srcset": "https://framerusercontent.com/images/baGPQhxMT3drvtvGMT0f0VIDA.webp?scale-down-to=512&width=2740&height=2740 512w,https://framerusercontent.com/images/baGPQhxMT3drvtvGMT0f0VIDA.webp?scale-down-to=1024&width=2740&height=2740 1024w,https://framerusercontent.com/images/baGPQhxMT3drvtvGMT0f0VIDA.webp?scale-down-to=2048&width=2740&height=2740 2048w,https://framerusercontent.com/images/baGPQhxMT3drvtvGMT0f0VIDA.webp?width=2740&height=2740 2740w",
+      "alt": null,
+      "width": "2740",
+      "height": "2740",
+      "path": [
+        "Main",
+        "CTA Faqs",
+        "Phone",
+        "Container",
+        "portfolio_05"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:left bottom;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/baGPQhxMT3drvtvGMT0f0VIDA.webp?width=2740&height=2740",
+      "srcset": "https://framerusercontent.com/images/baGPQhxMT3drvtvGMT0f0VIDA.webp?scale-down-to=512&width=2740&height=2740 512w,https://framerusercontent.com/images/baGPQhxMT3drvtvGMT0f0VIDA.webp?scale-down-to=1024&width=2740&height=2740 1024w,https://framerusercontent.com/images/baGPQhxMT3drvtvGMT0f0VIDA.webp?scale-down-to=2048&width=2740&height=2740 2048w,https://framerusercontent.com/images/baGPQhxMT3drvtvGMT0f0VIDA.webp?width=2740&height=2740 2740w",
+      "alt": null,
+      "width": "2740",
+      "height": "2740",
+      "path": [
+        "Main",
+        "CTA Faqs",
+        "Tablet",
+        "Container",
+        "portfolio_05"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:left bottom;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ugOirwbvxWR0SU7YDwnuLLvlcZQ.svg?width=229&height=68",
+      "srcset": null,
+      "alt": "solshine logo color  ",
+      "width": "229",
+      "height": "68",
+      "path": [
+        "Laptop",
+        "Container",
+        "Internal"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7ZLR5nIwrQ1G9rH5l5Jd5o7pOY.svg?width=12&height=17",
+      "srcset": null,
+      "alt": "map marker icon",
+      "width": "12",
+      "height": "17",
+      "path": [
+        "Laptop",
+        "Container",
+        "Internal",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/9RTthQjtszhXNikLkOAskVakcY.svg?width=16&height=12",
+      "srcset": null,
+      "alt": null,
+      "width": "16",
+      "height": "12",
+      "path": [
+        "Laptop",
+        "Container",
+        "Internal",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/qkP6xU2UlwWYUURNcxwVeo2gEY.svg?width=16&height=16",
+      "srcset": null,
+      "alt": null,
+      "width": "16",
+      "height": "16",
+      "path": [
+        "Laptop",
+        "Container",
+        "Internal",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/42fsssGMOp2HC9D72RDmDV5sJow.svg?width=16&height=16",
+      "srcset": null,
+      "alt": null,
+      "width": "16",
+      "height": "16",
+      "path": [
+        "Laptop",
+        "Container",
+        "Internal",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7ZLR5nIwrQ1G9rH5l5Jd5o7pOY.svg?width=12&height=17",
+      "srcset": null,
+      "alt": "map marker icon",
+      "width": "12",
+      "height": "17",
+      "path": [
+        "Tablet",
+        "Container",
+        "Internal",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/9RTthQjtszhXNikLkOAskVakcY.svg?width=16&height=12",
+      "srcset": null,
+      "alt": null,
+      "width": "16",
+      "height": "12",
+      "path": [
+        "Tablet",
+        "Container",
+        "Internal",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/qkP6xU2UlwWYUURNcxwVeo2gEY.svg?width=16&height=16",
+      "srcset": null,
+      "alt": null,
+      "width": "16",
+      "height": "16",
+      "path": [
+        "Tablet",
+        "Container",
+        "Internal",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/42fsssGMOp2HC9D72RDmDV5sJow.svg?width=16&height=16",
+      "srcset": null,
+      "alt": null,
+      "width": "16",
+      "height": "16",
+      "path": [
+        "Tablet",
+        "Container",
+        "Internal",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7ZLR5nIwrQ1G9rH5l5Jd5o7pOY.svg?width=12&height=17",
+      "srcset": null,
+      "alt": "map marker icon",
+      "width": "12",
+      "height": "17",
+      "path": [
+        "Phone",
+        "Container",
+        "Internal",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/9RTthQjtszhXNikLkOAskVakcY.svg?width=16&height=12",
+      "srcset": null,
+      "alt": null,
+      "width": "16",
+      "height": "12",
+      "path": [
+        "Phone",
+        "Container",
+        "Internal",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/qkP6xU2UlwWYUURNcxwVeo2gEY.svg?width=16&height=16",
+      "srcset": null,
+      "alt": null,
+      "width": "16",
+      "height": "16",
+      "path": [
+        "Phone",
+        "Container",
+        "Internal",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/42fsssGMOp2HC9D72RDmDV5sJow.svg?width=16&height=16",
+      "srcset": null,
+      "alt": null,
+      "width": "16",
+      "height": "16",
+      "path": [
+        "Phone",
+        "Container",
+        "Internal",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    }
+  ],
+  "videoReferences": [],
+  "linksDeclaredInSource": [
+    "https://buy.polar.sh/polar_cl_ou9WryFpWrnTpF8qVoMbpEWBzXqVcHzcmGKdd0l85GB",
+    "https://dribbble.com",
+    "https://facebook.com",
+    "https://instagram.com",
+    "https://linkedin.com",
+    "https://maps.app.goo.gl/HP1p9P6YucuwoQC97",
+    "https://solshine.framer.website/",
+    "https://solshine.framer.website/about-us",
+    "https://solshine.framer.website/blogs",
+    "https://solshine.framer.website/blogs/create-stunning-online-presence-for-solar-solutions",
+    "https://solshine.framer.website/blogs/how-a-high-converting-solar-website-generates-more-leads",
+    "https://solshine.framer.website/blogs/solar-website-design-trends-to-watch-in-2025",
+    "https://solshine.framer.website/blogs/top-solar-website-ideas-for-green-energy-brands",
+    "https://solshine.framer.website/contact-us",
+    "https://solshine.framer.website/legal/cookie-policy",
+    "https://solshine.framer.website/legal/privacy-policy",
+    "https://solshine.framer.website/services",
+    "https://solshine.framer.website/services/off-grid-solar-installationoff-grid-solar-installation",
+    "https://solshine.framer.website/services/rooftop-solar-panel-installation",
+    "https://solshine.framer.website/services/solar-inverter-repair-services",
+    "https://solshine.framer.website/services/solar-panel-cleaning-services",
+    "https://solshine.framer.website/services/solar-system-maintenance",
+    "https://solshine.framer.website/services/wind-turbine-repair-services",
+    "https://solshine.framer.website/team",
+    "https://twitter.com",
+    "https://www.facebook.com/",
+    "https://www.framer.com",
+    "https://www.instagram.com/freelancer_deven/",
+    "https://www.linkedin.com/in/deven-k/",
+    "https://x.com/freelancerdeven",
+    "mailto:info@example.com",
+    "mailto:info@solshine.com",
+    "tel:+123-456-7890",
+    "tel:+1234567890"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2Fec7fab1a-9805-409c-a100-4a215ea366de%2F019fda9d-23f8-745a-9049-d27f0bcd12bf.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F58645%2Fsolshine-UTjS92URh3Yd2dJrKhsn0QhTAqBMYx&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F58645%2Fsolshine-h1PcmVyg0T69mZ1SD8DM1YPOkODpFc&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-04.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F58645%2Fsolshine-w4fHtsEURUB1SvpSdgbE7NFxANQ19q&w=2048&q=80"
+    }
+  ],
+  "category": {
+    "parent": "Services",
+    "branch": "Home services",
+    "marketplace": "https://www.framer.com/marketplace/templates/solshine/"
+  }
+}
