@@ -1,0 +1,2919 @@
+{
+  "source": "https://confident-skills-748945.framer.app/fees",
+  "coverage": "public preview HTML/CSS; no rendered geometry",
+  "namedComponentOrder": [
+    "\u2460 HEADER \u2014 menu, services panel, site-wide fonts",
+    "WoHeader",
+    "S0 WoPageHero",
+    "WoPageHero",
+    "S1 WoFees",
+    "WoFees",
+    "S2 WoCompare",
+    "WoCompare",
+    "S3 WoFaq",
+    "WoFaq",
+    "S4 WoBook",
+    "WoBook",
+    "\u2462 LOADER \u2014 first visit, once per session",
+    "WoLoader",
+    "\u2463 PAGE TRANSITION \u2014 bar chart",
+    "WoPageTrans",
+    "CMS Bridge \u00b7 outcomes (keep)",
+    "outcomes-item",
+    "outcomes-row",
+    "CMS Bridge \u00b7 plans (keep)",
+    "plans-item",
+    "plans-row",
+    "CMS Bridge \u00b7 faq (keep)",
+    "faq-item",
+    "faq-row",
+    "CMS Bridge \u00b7 insights (keep)",
+    "insights-item",
+    "insights-row",
+    "CMS Bridge \u00b7 stories (keep)",
+    "stories-item",
+    "stories-row",
+    "CMS Bridge \u00b7 advisors (keep)",
+    "advisors-item",
+    "advisors-row",
+    "CMS Bridge \u00b7 services (keep)",
+    "services-item",
+    "services-row",
+    "CMS Bridge \u00b7 site (keep)",
+    "site-item",
+    "site-row",
+    "CMS Bridge \u00b7 marker (keep)",
+    "\u2461 FOOTER \u2014 letter sign-up, links, contact",
+    "WoFooter",
+    "\u2464 ASSISTANT \u2014 SoloFoundry (demo only)",
+    "SoloFoundryAssistant",
+    "Light",
+    "Backdrop",
+    "Content",
+    "Logo",
+    "Text",
+    "Bottom",
+    "Border"
+  ],
+  "typeDeclarations": [],
+  "typePresetRules": [
+    {
+      "selector": ".text-styles-preset-reset.framer-text",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      }
+    },
+    {
+      "selector": "[data-framer-component-type=DeprecatedRichText] .text-styles-preset-reset",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--font-variation-settings": "normal"
+      }
+    }
+  ],
+  "frameDeclarations": [
+    {
+      "name": "\u2460 HEADER \u2014 menu, services panel, site-wide fonts",
+      "path": [
+        "\u2460 HEADER \u2014 menu, services panel, site-wide fonts"
+      ],
+      "classes": "framer-19v6jm6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-19v6jm6",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WoHeader",
+      "path": [
+        "\u2460 HEADER \u2014 menu, services panel, site-wide fonts",
+        "WoHeader"
+      ],
+      "classes": "framer-1uuf8tu-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-1uuf8tu-container,.framer-RRhzl .framer-kf0kua-container,.framer-RRhzl .framer-d0stlx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "0",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "S0 WoPageHero",
+      "path": [
+        "S0 WoPageHero"
+      ],
+      "classes": "framer-1x2wl8t",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KjJ9r .framer-1x2wl8t,.framer-KjJ9r .framer-1wyudaz,.framer-KjJ9r .framer-1yzmw8v,.framer-KjJ9r .framer-tzw9kk,.framer-KjJ9r .framer-1g9i2b8",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WoPageHero",
+      "path": [
+        "S0 WoPageHero",
+        "WoPageHero"
+      ],
+      "classes": "framer-1fwgxsj-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KjJ9r .framer-1fwgxsj-container,.framer-KjJ9r .framer-pyizs0-container,.framer-KjJ9r .framer-1huzrx7-container,.framer-KjJ9r .framer-h9nbk4-container,.framer-KjJ9r .framer-19a8gg3-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "S1 WoFees",
+      "path": [
+        "S1 WoFees"
+      ],
+      "classes": "framer-1wyudaz",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KjJ9r .framer-1x2wl8t,.framer-KjJ9r .framer-1wyudaz,.framer-KjJ9r .framer-1yzmw8v,.framer-KjJ9r .framer-tzw9kk,.framer-KjJ9r .framer-1g9i2b8",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WoFees",
+      "path": [
+        "S1 WoFees",
+        "WoFees"
+      ],
+      "classes": "framer-pyizs0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KjJ9r .framer-1fwgxsj-container,.framer-KjJ9r .framer-pyizs0-container,.framer-KjJ9r .framer-1huzrx7-container,.framer-KjJ9r .framer-h9nbk4-container,.framer-KjJ9r .framer-19a8gg3-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "S2 WoCompare",
+      "path": [
+        "S2 WoCompare"
+      ],
+      "classes": "framer-1yzmw8v",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KjJ9r .framer-1x2wl8t,.framer-KjJ9r .framer-1wyudaz,.framer-KjJ9r .framer-1yzmw8v,.framer-KjJ9r .framer-tzw9kk,.framer-KjJ9r .framer-1g9i2b8",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WoCompare",
+      "path": [
+        "S2 WoCompare",
+        "WoCompare"
+      ],
+      "classes": "framer-1huzrx7-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KjJ9r .framer-1fwgxsj-container,.framer-KjJ9r .framer-pyizs0-container,.framer-KjJ9r .framer-1huzrx7-container,.framer-KjJ9r .framer-h9nbk4-container,.framer-KjJ9r .framer-19a8gg3-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "S3 WoFaq",
+      "path": [
+        "S3 WoFaq"
+      ],
+      "classes": "framer-tzw9kk",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KjJ9r .framer-1x2wl8t,.framer-KjJ9r .framer-1wyudaz,.framer-KjJ9r .framer-1yzmw8v,.framer-KjJ9r .framer-tzw9kk,.framer-KjJ9r .framer-1g9i2b8",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WoFaq",
+      "path": [
+        "S3 WoFaq",
+        "WoFaq"
+      ],
+      "classes": "framer-h9nbk4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KjJ9r .framer-1fwgxsj-container,.framer-KjJ9r .framer-pyizs0-container,.framer-KjJ9r .framer-1huzrx7-container,.framer-KjJ9r .framer-h9nbk4-container,.framer-KjJ9r .framer-19a8gg3-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "S4 WoBook",
+      "path": [
+        "S4 WoBook"
+      ],
+      "classes": "framer-1g9i2b8",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KjJ9r .framer-1x2wl8t,.framer-KjJ9r .framer-1wyudaz,.framer-KjJ9r .framer-1yzmw8v,.framer-KjJ9r .framer-tzw9kk,.framer-KjJ9r .framer-1g9i2b8",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WoBook",
+      "path": [
+        "S4 WoBook",
+        "WoBook"
+      ],
+      "classes": "framer-19a8gg3-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KjJ9r .framer-1fwgxsj-container,.framer-KjJ9r .framer-pyizs0-container,.framer-KjJ9r .framer-1huzrx7-container,.framer-KjJ9r .framer-h9nbk4-container,.framer-KjJ9r .framer-19a8gg3-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "\u2462 LOADER \u2014 first visit, once per session",
+      "path": [
+        "\u2462 LOADER \u2014 first visit, once per session"
+      ],
+      "classes": "framer-1p11l2b",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-1p11l2b",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WoLoader",
+      "path": [
+        "\u2462 LOADER \u2014 first visit, once per session",
+        "WoLoader"
+      ],
+      "classes": "framer-kf0kua-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-1uuf8tu-container,.framer-RRhzl .framer-kf0kua-container,.framer-RRhzl .framer-d0stlx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "0",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "\u2463 PAGE TRANSITION \u2014 bar chart",
+      "path": [
+        "\u2463 PAGE TRANSITION \u2014 bar chart"
+      ],
+      "classes": "framer-16yz49j",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-16yz49j",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WoPageTrans",
+      "path": [
+        "\u2463 PAGE TRANSITION \u2014 bar chart",
+        "WoPageTrans"
+      ],
+      "classes": "framer-d0stlx-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-1uuf8tu-container,.framer-RRhzl .framer-kf0kua-container,.framer-RRhzl .framer-d0stlx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "0",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 outcomes (keep)",
+      "path": [
+        "CMS Bridge \u00b7 outcomes (keep)"
+      ],
+      "classes": "framer-685are",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-685are",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "outcomes-item",
+      "path": [
+        "CMS Bridge \u00b7 outcomes (keep)",
+        "outcomes-item"
+      ],
+      "classes": "framer-fkl1c1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "outcomes-row",
+      "path": [
+        "CMS Bridge \u00b7 outcomes (keep)",
+        "outcomes-item",
+        "outcomes-row"
+      ],
+      "classes": "framer-6whkjv-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "outcomes-item",
+      "path": [
+        "CMS Bridge \u00b7 outcomes (keep)",
+        "outcomes-item"
+      ],
+      "classes": "framer-fkl1c1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "outcomes-row",
+      "path": [
+        "CMS Bridge \u00b7 outcomes (keep)",
+        "outcomes-item",
+        "outcomes-row"
+      ],
+      "classes": "framer-6whkjv-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "outcomes-item",
+      "path": [
+        "CMS Bridge \u00b7 outcomes (keep)",
+        "outcomes-item"
+      ],
+      "classes": "framer-fkl1c1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "outcomes-row",
+      "path": [
+        "CMS Bridge \u00b7 outcomes (keep)",
+        "outcomes-item",
+        "outcomes-row"
+      ],
+      "classes": "framer-6whkjv-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "outcomes-item",
+      "path": [
+        "CMS Bridge \u00b7 outcomes (keep)",
+        "outcomes-item"
+      ],
+      "classes": "framer-fkl1c1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "outcomes-row",
+      "path": [
+        "CMS Bridge \u00b7 outcomes (keep)",
+        "outcomes-item",
+        "outcomes-row"
+      ],
+      "classes": "framer-6whkjv-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "outcomes-item",
+      "path": [
+        "CMS Bridge \u00b7 outcomes (keep)",
+        "outcomes-item"
+      ],
+      "classes": "framer-fkl1c1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "outcomes-row",
+      "path": [
+        "CMS Bridge \u00b7 outcomes (keep)",
+        "outcomes-item",
+        "outcomes-row"
+      ],
+      "classes": "framer-6whkjv-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "outcomes-item",
+      "path": [
+        "CMS Bridge \u00b7 outcomes (keep)",
+        "outcomes-item"
+      ],
+      "classes": "framer-fkl1c1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "outcomes-row",
+      "path": [
+        "CMS Bridge \u00b7 outcomes (keep)",
+        "outcomes-item",
+        "outcomes-row"
+      ],
+      "classes": "framer-6whkjv-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "outcomes-item",
+      "path": [
+        "CMS Bridge \u00b7 outcomes (keep)",
+        "outcomes-item"
+      ],
+      "classes": "framer-fkl1c1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "outcomes-row",
+      "path": [
+        "CMS Bridge \u00b7 outcomes (keep)",
+        "outcomes-item",
+        "outcomes-row"
+      ],
+      "classes": "framer-6whkjv-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "outcomes-item",
+      "path": [
+        "CMS Bridge \u00b7 outcomes (keep)",
+        "outcomes-item"
+      ],
+      "classes": "framer-fkl1c1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "outcomes-row",
+      "path": [
+        "CMS Bridge \u00b7 outcomes (keep)",
+        "outcomes-item",
+        "outcomes-row"
+      ],
+      "classes": "framer-6whkjv-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 plans (keep)",
+      "path": [
+        "CMS Bridge \u00b7 plans (keep)"
+      ],
+      "classes": "framer-1syd1z7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-1syd1z7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "plans-item",
+      "path": [
+        "CMS Bridge \u00b7 plans (keep)",
+        "plans-item"
+      ],
+      "classes": "framer-is53du",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "plans-row",
+      "path": [
+        "CMS Bridge \u00b7 plans (keep)",
+        "plans-item",
+        "plans-row"
+      ],
+      "classes": "framer-3ldiw3-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "plans-item",
+      "path": [
+        "CMS Bridge \u00b7 plans (keep)",
+        "plans-item"
+      ],
+      "classes": "framer-is53du",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "plans-row",
+      "path": [
+        "CMS Bridge \u00b7 plans (keep)",
+        "plans-item",
+        "plans-row"
+      ],
+      "classes": "framer-3ldiw3-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "plans-item",
+      "path": [
+        "CMS Bridge \u00b7 plans (keep)",
+        "plans-item"
+      ],
+      "classes": "framer-is53du",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "plans-row",
+      "path": [
+        "CMS Bridge \u00b7 plans (keep)",
+        "plans-item",
+        "plans-row"
+      ],
+      "classes": "framer-3ldiw3-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 faq (keep)",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)"
+      ],
+      "classes": "framer-10t9xcg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-10t9xcg",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-rs13tl",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1rwxf3q-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-rs13tl",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1rwxf3q-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-rs13tl",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1rwxf3q-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-rs13tl",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1rwxf3q-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-rs13tl",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1rwxf3q-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-rs13tl",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1rwxf3q-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-rs13tl",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1rwxf3q-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-rs13tl",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1rwxf3q-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-rs13tl",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1rwxf3q-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-rs13tl",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1rwxf3q-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 insights (keep)",
+      "path": [
+        "CMS Bridge \u00b7 insights (keep)"
+      ],
+      "classes": "framer-1vaa0p7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-1vaa0p7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "insights-item",
+      "path": [
+        "CMS Bridge \u00b7 insights (keep)",
+        "insights-item"
+      ],
+      "classes": "framer-xta95w",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "insights-row",
+      "path": [
+        "CMS Bridge \u00b7 insights (keep)",
+        "insights-item",
+        "insights-row"
+      ],
+      "classes": "framer-ddtvyd-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "insights-item",
+      "path": [
+        "CMS Bridge \u00b7 insights (keep)",
+        "insights-item"
+      ],
+      "classes": "framer-xta95w",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "insights-row",
+      "path": [
+        "CMS Bridge \u00b7 insights (keep)",
+        "insights-item",
+        "insights-row"
+      ],
+      "classes": "framer-ddtvyd-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "insights-item",
+      "path": [
+        "CMS Bridge \u00b7 insights (keep)",
+        "insights-item"
+      ],
+      "classes": "framer-xta95w",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "insights-row",
+      "path": [
+        "CMS Bridge \u00b7 insights (keep)",
+        "insights-item",
+        "insights-row"
+      ],
+      "classes": "framer-ddtvyd-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "insights-item",
+      "path": [
+        "CMS Bridge \u00b7 insights (keep)",
+        "insights-item"
+      ],
+      "classes": "framer-xta95w",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "insights-row",
+      "path": [
+        "CMS Bridge \u00b7 insights (keep)",
+        "insights-item",
+        "insights-row"
+      ],
+      "classes": "framer-ddtvyd-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 stories (keep)",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)"
+      ],
+      "classes": "framer-pm2xws",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-pm2xws",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-item",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item"
+      ],
+      "classes": "framer-1cek1n3",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-row",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item",
+        "stories-row"
+      ],
+      "classes": "framer-zkqa9a-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-item",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item"
+      ],
+      "classes": "framer-1cek1n3",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-row",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item",
+        "stories-row"
+      ],
+      "classes": "framer-zkqa9a-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-item",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item"
+      ],
+      "classes": "framer-1cek1n3",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-row",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item",
+        "stories-row"
+      ],
+      "classes": "framer-zkqa9a-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-item",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item"
+      ],
+      "classes": "framer-1cek1n3",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-row",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item",
+        "stories-row"
+      ],
+      "classes": "framer-zkqa9a-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 advisors (keep)",
+      "path": [
+        "CMS Bridge \u00b7 advisors (keep)"
+      ],
+      "classes": "framer-1milt0b",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-1milt0b",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "advisors-item",
+      "path": [
+        "CMS Bridge \u00b7 advisors (keep)",
+        "advisors-item"
+      ],
+      "classes": "framer-5ky3ng",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "advisors-row",
+      "path": [
+        "CMS Bridge \u00b7 advisors (keep)",
+        "advisors-item",
+        "advisors-row"
+      ],
+      "classes": "framer-na4wt9-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "advisors-item",
+      "path": [
+        "CMS Bridge \u00b7 advisors (keep)",
+        "advisors-item"
+      ],
+      "classes": "framer-5ky3ng",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "advisors-row",
+      "path": [
+        "CMS Bridge \u00b7 advisors (keep)",
+        "advisors-item",
+        "advisors-row"
+      ],
+      "classes": "framer-na4wt9-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "advisors-item",
+      "path": [
+        "CMS Bridge \u00b7 advisors (keep)",
+        "advisors-item"
+      ],
+      "classes": "framer-5ky3ng",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "advisors-row",
+      "path": [
+        "CMS Bridge \u00b7 advisors (keep)",
+        "advisors-item",
+        "advisors-row"
+      ],
+      "classes": "framer-na4wt9-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "advisors-item",
+      "path": [
+        "CMS Bridge \u00b7 advisors (keep)",
+        "advisors-item"
+      ],
+      "classes": "framer-5ky3ng",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "advisors-row",
+      "path": [
+        "CMS Bridge \u00b7 advisors (keep)",
+        "advisors-item",
+        "advisors-row"
+      ],
+      "classes": "framer-na4wt9-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 services (keep)",
+      "path": [
+        "CMS Bridge \u00b7 services (keep)"
+      ],
+      "classes": "framer-1ca7tov",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-1ca7tov",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "services-item",
+      "path": [
+        "CMS Bridge \u00b7 services (keep)",
+        "services-item"
+      ],
+      "classes": "framer-1apamsw",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "services-row",
+      "path": [
+        "CMS Bridge \u00b7 services (keep)",
+        "services-item",
+        "services-row"
+      ],
+      "classes": "framer-30r7gz-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "services-item",
+      "path": [
+        "CMS Bridge \u00b7 services (keep)",
+        "services-item"
+      ],
+      "classes": "framer-1apamsw",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "services-row",
+      "path": [
+        "CMS Bridge \u00b7 services (keep)",
+        "services-item",
+        "services-row"
+      ],
+      "classes": "framer-30r7gz-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "services-item",
+      "path": [
+        "CMS Bridge \u00b7 services (keep)",
+        "services-item"
+      ],
+      "classes": "framer-1apamsw",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "services-row",
+      "path": [
+        "CMS Bridge \u00b7 services (keep)",
+        "services-item",
+        "services-row"
+      ],
+      "classes": "framer-30r7gz-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "services-item",
+      "path": [
+        "CMS Bridge \u00b7 services (keep)",
+        "services-item"
+      ],
+      "classes": "framer-1apamsw",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "services-row",
+      "path": [
+        "CMS Bridge \u00b7 services (keep)",
+        "services-item",
+        "services-row"
+      ],
+      "classes": "framer-30r7gz-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "services-item",
+      "path": [
+        "CMS Bridge \u00b7 services (keep)",
+        "services-item"
+      ],
+      "classes": "framer-1apamsw",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "services-row",
+      "path": [
+        "CMS Bridge \u00b7 services (keep)",
+        "services-item",
+        "services-row"
+      ],
+      "classes": "framer-30r7gz-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "services-item",
+      "path": [
+        "CMS Bridge \u00b7 services (keep)",
+        "services-item"
+      ],
+      "classes": "framer-1apamsw",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "services-row",
+      "path": [
+        "CMS Bridge \u00b7 services (keep)",
+        "services-item",
+        "services-row"
+      ],
+      "classes": "framer-30r7gz-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 site (keep)",
+      "path": [
+        "CMS Bridge \u00b7 site (keep)"
+      ],
+      "classes": "framer-1qom1ow",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-1qom1ow",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "site-item",
+      "path": [
+        "CMS Bridge \u00b7 site (keep)",
+        "site-item"
+      ],
+      "classes": "framer-1h8ultv",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-fkl1c1,.framer-RRhzl .framer-is53du,.framer-RRhzl .framer-rs13tl,.framer-RRhzl .framer-xta95w,.framer-RRhzl .framer-1cek1n3,.framer-RRhzl .framer-5ky3ng,.framer-RRhzl .framer-1apamsw,.framer-RRhzl .framer-1h8ultv",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "site-row",
+      "path": [
+        "CMS Bridge \u00b7 site (keep)",
+        "site-item",
+        "site-row"
+      ],
+      "classes": "framer-1o1u2r4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-6whkjv-container,.framer-RRhzl .framer-3ldiw3-container,.framer-RRhzl .framer-1rwxf3q-container,.framer-RRhzl .framer-ddtvyd-container,.framer-RRhzl .framer-zkqa9a-container,.framer-RRhzl .framer-na4wt9-container,.framer-RRhzl .framer-30r7gz-container,.framer-RRhzl .framer-1o1u2r4-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 marker (keep)",
+      "path": [
+        "CMS Bridge \u00b7 marker (keep)"
+      ],
+      "classes": "framer-1dbcfo6-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-1dbcfo6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "\u2461 FOOTER \u2014 letter sign-up, links, contact",
+      "path": [
+        "\u2461 FOOTER \u2014 letter sign-up, links, contact"
+      ],
+      "classes": "framer-js1wua",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-js1wua",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WoFooter",
+      "path": [
+        "\u2461 FOOTER \u2014 letter sign-up, links, contact",
+        "WoFooter"
+      ],
+      "classes": "framer-14gnny9-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-14gnny9-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "\u2464 ASSISTANT \u2014 SoloFoundry (demo only)",
+      "path": [
+        "\u2464 ASSISTANT \u2014 SoloFoundry (demo only)"
+      ],
+      "classes": "framer-edy550",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-edy550",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "SoloFoundryAssistant",
+      "path": [
+        "\u2464 ASSISTANT \u2014 SoloFoundry (demo only)",
+        "SoloFoundryAssistant"
+      ],
+      "classes": "framer-njle7n-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-RRhzl .framer-njle7n-container",
+          "mediaContext": [],
+          "values": {
+            "width": "300px",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    }
+  ],
+  "fontDeclarations": [
+    {
+      "family": "Noto Serif",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTyscKtq8.woff2",
+      "range": "U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F"
+    },
+    {
+      "family": "Noto Serif",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTw8cKtq8.woff2",
+      "range": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116"
+    },
+    {
+      "family": "Noto Serif",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTy8cKtq8.woff2",
+      "range": "U+1F00-1FFF"
+    },
+    {
+      "family": "Noto Serif",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTxMcKtq8.woff2",
+      "range": "U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF"
+    },
+    {
+      "family": "Noto Serif",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTu8cKtq8.woff2",
+      "range": "U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF"
+    },
+    {
+      "family": "Noto Serif",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTyMcKtq8.woff2",
+      "range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB"
+    },
+    {
+      "family": "Noto Serif",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTyccKtq8.woff2",
+      "range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+    },
+    {
+      "family": "Noto Serif",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTx8cK.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "family": "Playfair Display",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDTbtPY_Q.woff2",
+      "range": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116"
+    },
+    {
+      "family": "Playfair Display",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDYbtPY_Q.woff2",
+      "range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB"
+    },
+    {
+      "family": "Playfair Display",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDZbtPY_Q.woff2",
+      "range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+    },
+    {
+      "family": "Playfair Display",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDXbtM.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "family": "Work Sans",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXBiAJpp_c.woff2",
+      "range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB"
+    },
+    {
+      "family": "Work Sans",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXBiEJpp_c.woff2",
+      "range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+    },
+    {
+      "family": "Work Sans",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXBi8Jpg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2",
+      "range": "U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F"
+    },
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2",
+      "range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+    },
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "family": "Space Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/spacemono/v17/i7dPIFZifjKcF5UAWdDRYE58RWq7.woff2",
+      "range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB"
+    },
+    {
+      "family": "Space Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/spacemono/v17/i7dPIFZifjKcF5UAWdDRYE98RWq7.woff2",
+      "range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+    },
+    {
+      "family": "Space Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/spacemono/v17/i7dPIFZifjKcF5UAWdDRYEF8RQ.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2",
+      "range": "U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2",
+      "range": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2",
+      "range": "U+1F00-1FFF"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2",
+      "range": "U+0370-03FF"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2",
+      "range": "U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2",
+      "range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "300",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSH9ZP_rA.ttf",
+      "range": "",
+      "basis": "Google stylesheet explicitly linked by public runtime module"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSHq5P_rA.ttf",
+      "range": "",
+      "basis": "Google stylesheet explicitly linked by public runtime module"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSHmZP_rA.ttf",
+      "range": "",
+      "basis": "Google stylesheet explicitly linked by public runtime module"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSHdZT_rA.ttf",
+      "range": "",
+      "basis": "Google stylesheet explicitly linked by public runtime module"
+    },
+    {
+      "family": "JetBrains Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxjPQ.ttf",
+      "range": "",
+      "basis": "Google stylesheet explicitly linked by public runtime module"
+    },
+    {
+      "family": "JetBrains Mono",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxjPQ.ttf",
+      "range": "",
+      "basis": "Google stylesheet explicitly linked by public runtime module"
+    },
+    {
+      "family": "Newsreader",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/newsreader/v26/cY9kfjOCX1hbuyalUrK439vogqC9yFZCYg7oRZaLP4obnf7fTXglsMwoT-ZA.ttf",
+      "range": "",
+      "basis": "Google stylesheet explicitly linked by public runtime module"
+    },
+    {
+      "family": "Schibsted Grotesk",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/schibstedgrotesk/v7/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMNIsEATw.ttf",
+      "range": "",
+      "basis": "Google stylesheet explicitly linked by public runtime module"
+    },
+    {
+      "family": "Schibsted Grotesk",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/schibstedgrotesk/v7/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMNEMEATw.ttf",
+      "range": "",
+      "basis": "Google stylesheet explicitly linked by public runtime module"
+    },
+    {
+      "family": "Schibsted Grotesk",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/schibstedgrotesk/v7/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMN_MYATw.ttf",
+      "range": "",
+      "basis": "Google stylesheet explicitly linked by public runtime module"
+    },
+    {
+      "family": "Schibsted Grotesk",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/schibstedgrotesk/v7/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMNxcYATw.ttf",
+      "range": "",
+      "basis": "Google stylesheet explicitly linked by public runtime module"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://framerusercontent.com/images/usqWv0nBbL7NCqXY4flfKIp1tFU.webp?scale-down-to=1024",
+      "srcset": null,
+      "alt": "",
+      "width": "32",
+      "height": "32",
+      "path": [
+        "S4 WoBook",
+        "WoBook"
+      ],
+      "inlineStyle": "",
+      "box": null
+    }
+  ],
+  "routes": [
+    {
+      "href": "https://confident-skills-748945.framer.app/fees#main",
+      "label": "Skip to content"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/insights",
+      "label": "The Q3 letter is out: what the new "
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/",
+      "label": "Wealthora"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/services/financial-planning",
+      "label": "Financial planning Cash flow, goals"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/services/investments",
+      "label": "Stocks 60% Bonds 25% Cash 15% Inves"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/services/tax-planning",
+      "label": "Before After \u221236% Roth conversion \u00b7"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/services/retirement",
+      "label": "Retire 60 Retirement The date you c"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/services/estate-and-family",
+      "label": "Estate & family What happens next, "
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/services/insurance",
+      "label": "Life \u2713 Disability \u2713 Long-term care "
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/book",
+      "label": "Book the free review Book the free "
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/services",
+      "label": "All services"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/fees",
+      "label": "Fees"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/stories",
+      "label": "Stories"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/insights",
+      "label": "Insights"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/about",
+      "label": "About"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/login",
+      "label": "Client login"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/book",
+      "label": "Book a call Book a call"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/",
+      "label": "Home"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/book",
+      "label": "Get a plan Get a plan"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/book",
+      "label": "Start ongoing Start ongoing"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/contact",
+      "label": "Talk to us Talk to us"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/contact",
+      "label": "Ask a question Ask a question"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/book?day=Tue&time=10%3A30",
+      "label": "Book Tue 21 \u00b7 10:30 Book Tue 21 \u00b7 1"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/services/financial-planning",
+      "label": "Financial planning"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/services/investments",
+      "label": "Investments"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/services/tax-planning",
+      "label": "Tax planning"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/services/retirement",
+      "label": "Retirement"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/services/estate-and-family",
+      "label": "Estate & family"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/about",
+      "label": "About"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/fees",
+      "label": "Fees"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/stories",
+      "label": "Client stories"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/insights",
+      "label": "Money notes"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/services",
+      "label": "All services"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/book",
+      "label": "Book a review"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/login",
+      "label": "Client login"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/contact",
+      "label": "Contact"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/faq",
+      "label": "FAQ"
+    },
+    {
+      "href": "mailto:hello@wealthora.com",
+      "label": "hello@wealthora.com"
+    },
+    {
+      "href": "tel:+14155550142",
+      "label": "+1 (415) 555 0142"
+    },
+    {
+      "href": "tel:200140094104",
+      "label": "200 Pine St, Suite 1400, San Franci"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/privacy",
+      "label": "Privacy"
+    },
+    {
+      "href": "https://confident-skills-748945.framer.app/terms",
+      "label": "Terms"
+    },
+    {
+      "href": "https://www.framer.com",
+      "label": "Create a free website with Framer, "
+    }
+  ],
+  "videos": [],
+  "mediaQueries": [
+    "@media(min-width: 1200px)",
+    "@media(min-width: 810px) and (max-width: 1199.98px)",
+    "@media(max-width: 809.98px)",
+    "@media (min-width:810px) and (max-width:1199.98px)",
+    "@media (max-width:809.98px)",
+    "@media (prefers-reduced-motion:reduce)",
+    "@media (max-width:1099px)",
+    "@media (max-width:519px)",
+    "@media (max-width:699px)",
+    "@media (max-width:999px)",
+    "@media (max-width:1199px)",
+    "@media (max-width:799px)",
+    "@media (max-width:599px)",
+    "@media (max-width:420px)"
+  ],
+  "colorFrequency": [
+    [
+      "#F3EFE6",
+      28
+    ],
+    [
+      "#151A18",
+      7
+    ],
+    [
+      "#C9A064",
+      7
+    ],
+    [
+      "#f2f1ec",
+      1
+    ],
+    [
+      "#0f1115",
+      1
+    ],
+    [
+      "#c8f04a",
+      1
+    ],
+    [
+      "#141a22",
+      1
+    ],
+    [
+      "#dcdad2",
+      1
+    ],
+    [
+      "#7c7f86",
+      1
+    ],
+    [
+      "#0a0c0f",
+      1
+    ],
+    [
+      "#FF9C8A",
+      1
+    ]
+  ],
+  "supplementalFontCssSource": "https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&family=Albert+Sans:wght@300;400;500;600&family=Newsreader:ital,opsz,wght@1,6..72,400&family=JetBrains+Mono:wght@400;500&display=swap"
+}

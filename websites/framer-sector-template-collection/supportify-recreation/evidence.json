@@ -1,0 +1,555 @@
+{
+  "template": "Supportify",
+  "preview": "https://supportify.framer.website/",
+  "marketplace": "https://www.framer.com/marketplace/templates/supportify/",
+  "creator": "Anton Radionov",
+  "coverage": "Public source declarations, official marketplace artwork and actual browser captures at the individually recorded viewport/state. Phone/tablet, complete motion and backend behavior unverified.",
+  "viewport": {
+    "devicePixelRatio": 1,
+    "height": 936,
+    "width": 1363
+  },
+  "pageHeight": 2122,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 4 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 4 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 3 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 4 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 120,
+      "id": "",
+      "tag": "NAV",
+      "width": 1348,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 120,
+      "id": "",
+      "tag": "FOOTER",
+      "width": 1348,
+      "x": 0,
+      "y": 2002.375
+    }
+  ],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/vQyevYAyHtARFwPqUzQGpnDs.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-400-0.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/DXD0Q7LSl7HEvDzucnyLnGBHM.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-700-1.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/d3tHnaQIAeqiE5hGcRw4mmgWYU.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-500-2.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/QxmhnWTzLtyjIiZcfaLIJ8EFBXU.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-700-3.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/ksvR4VsLksjpSwnC2fPgHRNMw.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-500-4.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "100",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/YSOgKh50dqzzsXffetgcarlLHcI.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-100-5.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "200",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/hgmI3sEShaw5UU738TAjDBQPH0.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-200-6.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "300",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/v2q8JTTTs7McDMSEhnxAIBqd0.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-300-7.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/1ZFS7N918ojhhd0nQWdj3jz4w.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-600-8.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "800",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/jN39PDxZWEwjG7Csryx3JN2r2Y.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-800-9.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/jn4BtSPLlS0NDp1KiFAtFKiiY0o.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-900-10.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "100",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/BpOIEy4nYtcp1RwqOtwAgi2EiDE.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-100-11.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "200",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/zpiI5DA3vCb3G2sqEyq9xqogo.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-200-12.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "300",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/5mDAOkC5Wpzo7NkuE9oYfqlY2u4.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-300-13.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/vFzuJY0c65av44uhEKB6vyjFMg.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-400-14.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/qrVgiXNd6RuQjETYQiVQ9nqCk.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-600-15.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "800",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/aKoimhPBfs6C7Am2HTTVjGcpE.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-800-16.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "900",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/g0c8vEViiXNlKAgI4Ymmk3Ig.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-900-17.woff2",
+      "actualFormat": "woff2"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/images/kwc3XyFGj3hevDGNa1PxzEUOl58.png",
+      "srcset": null,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Desktop",
+        "Wrapper",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/kwc3XyFGj3hevDGNa1PxzEUOl58.png",
+      "srcset": null,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Tablet",
+        "Wrapper",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/kwc3XyFGj3hevDGNa1PxzEUOl58.png",
+      "srcset": null,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Mobile Closed",
+        "Wrapper",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/kwc3XyFGj3hevDGNa1PxzEUOl58.png",
+      "srcset": null,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Desktop",
+        "Wrapper",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/kwc3XyFGj3hevDGNa1PxzEUOl58.png",
+      "srcset": null,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Tablet",
+        "Wrapper",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/kwc3XyFGj3hevDGNa1PxzEUOl58.png",
+      "srcset": null,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Mobile",
+        "Wrapper",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    }
+  ],
+  "videoReferences": [],
+  "linksDeclaredInSource": [
+    "https://antrdnv.lemonsqueezy.com/buy/ce2b5d6c-0099-42c6-b817-e0c2d2b2532f",
+    "https://supportify.framer.website/",
+    "https://supportify.framer.website/articles/any-tips-for-a-hassle-free-launch-of-my-website-template",
+    "https://supportify.framer.website/articles/any-tips-for-mastering-the-art-of-coding",
+    "https://supportify.framer.website/articles/how-do-i-launch-my-help-center-template-effortlessly",
+    "https://supportify.framer.website/articles/how-to-transform-my-help-center-template",
+    "https://supportify.framer.website/articles/how-to-use-my-template-effectively",
+    "https://supportify.framer.website/articles/is-there-real-time-support-for-difficulties-during-the-initial-setup",
+    "https://supportify.framer.website/articles/what-steps-can-i-take-to-navigate-and-conquer-template-challenges",
+    "https://supportify.framer.website/articles/which-elements-can-i-personalize-for-a-unique-help-center",
+    "https://supportify.framer.website/brand-wizardry",
+    "https://supportify.framer.website/changelog",
+    "https://supportify.framer.website/code-enchantment",
+    "https://supportify.framer.website/contact",
+    "https://supportify.framer.website/content-alchemy",
+    "https://supportify.framer.website/contents",
+    "https://supportify.framer.website/seo-spells",
+    "https://supportify.framer.website/setup-sorcery",
+    "https://supportify.framer.website/styleguide",
+    "https://supportify.framer.website/troubleshoot-trails"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F45788%2Fsupportify-mMcdy4RYAnh5zXghgwfvqVwEsIs5eK&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F45788%2Fsupportify-OSnC6NUPNZT67GUGtpMKOlQwRReymE&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F45788%2Fsupportify-QbnNI3TL3axXkcCoRM7Cz95Ftliq1q&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-04.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F45788%2Fsupportify-JFTUnJx4xEIRWaA5d5x733aAbD4mEL&w=2048&q=80"
+    }
+  ],
+  "category": {
+    "parent": "Documentation / help centers",
+    "branch": "Customer knowledge base",
+    "fitEvidence": "Standalone help-center root with global search/navigation, six support topic collections and an eight-link direct-answer index. Inspected article route contains collection breadcrumb, heading/dek/body, related articles and Contact Support escalation, establishing customer self-service knowledge-base fit.",
+    "marketplace": "https://www.framer.com/marketplace/templates/supportify/"
+  },
+  "backendVerified": false,
+  "secondaryDeclarationsFile": "secondary-declarations.json",
+  "regulatedContentScope": "Design reference only. Financial, medical and donation copy is source context, not advice or verified claims. Authentication, payment, forms, appointments and donations were not tested.",
+  "captureRasterPx": {
+    "width": 1348,
+    "height": 926
+  },
+  "browserObservationsFile": "BROWSER-OBSERVATIONS.json",
+  "nativeBrowserCaptures": [
+    {
+      "file": "screenshots/live-home.jpg",
+      "label": "home",
+      "url": "https://supportify.framer.website/",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    },
+    {
+      "file": "screenshots/live-search-dialog.jpg",
+      "label": "search-dialog",
+      "url": "https://supportify.framer.website/",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1363,
+        "height": 936
+      }
+    },
+    {
+      "file": "screenshots/live-secondary.jpg",
+      "label": "secondary",
+      "url": "https://supportify.framer.website/articles/how-to-use-my-template-effectively",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    }
+  ],
+  "phoneTabletRendered": false
+}

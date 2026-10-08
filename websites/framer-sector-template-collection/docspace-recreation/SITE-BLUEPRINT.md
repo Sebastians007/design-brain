@@ -1,0 +1,21 @@
+# SITE-BLUEPRINT: Docspace developer documentation
+
+## Selected source and core anatomy
+
+SOURCE DECLARED: Docspace by Soyeb is selected from its official Marketplace listing. The actual primary reference is `https://docspace.framer.website/docs`; official preview-root HTML is separately retained in preview-root-public.html. This selection matters: the root preview includes a developer-product hub, whereas `/docs` supplies the genuine documentation shell. The public source contains a two-tier masthead, fixed grouped left sidebar, central breadcrumb and reading area, right on-page rail, compact Menu access and a multi-column footer. All section y/height values remain null because this pass records declarations, not rendered geometry.
+
+The central hub has a restrained title/dek followed by a two-column six-topic grid. Left navigation holds setup, concepts, features, advanced, account/billing and reference groups. Article routes are ordinary public links; the selected secondary `/docs/introduction` expands the central rail without changing its surrounding taxonomy. Official image01 shows the technical article, including code, parameter table and on-page section navigation. The surrounding lavender scenery, screen packaging and price badge are not page sections.
+
+## Secondary article and content model
+
+SOURCE DECLARED: the introduction HTML/CSS was fetched successfully. Its named structure includes article header, body Content, Note Callout, Tip Callout, Code Block - Fit Height, parameter Name/Type Badge/Required Badge/Optional Badge, prompt controls, Closed questions, Feedback Form, Bottom Navigation and Last Updated. The source includes native pre/code/table nodes and custom buttons. These are recorded in secondary-declarations.json and documentation-custom-declarations.json. Search, copy, diagram rendering, translation and feedback completion were not exercised; the raw source includes busy/unavailable GitHub and diagram states.
+
+OPTIONAL RECOMMENDATION: organize records as documentation groups, ordered articles and API endpoints. An article should store slug, title, dek, structured blocks, group, ordinal, revision date and optional related guide. Blocks should retain prose headings, code language/text, callout severity, parameter schema and semantic tables. The same group records should drive hub cards and sidebar labels. API endpoint details need method/path/request/response fields rather than a generic blog body. The selected introduction route establishes a rendering pattern; other linked pages are declarations unless individually inspected.
+
+## Typography, palette and responsive construction
+
+SOURCE DECLARED: Geist carries reading and interface; Fragment Mono carries actual code pre; Inter is present in footer/custom controls. Geist Variable appears in a prompt component in the secondary source and should not replace the static Geist reading roles. Unconditional desktop presets are h1 32px, h2 28px, h3 24px and body16px. Media rules are separate: compact headings and body shrink; a first-match extractor would incorrectly report media values as desktop in this secondary HTML. Exact selected role declarations and the correction basis are preserved.
+
+Light tokens define white canvas, #202020 ink, #6259e3 violet and #fafafa surfaces. A prefers-color-scheme dark token set supplies black canvas, light ink and #9991ff accent. Manual theme state/persistence remains unverified. Root width boundaries are1200px and810px. Left rail280px/240px, central max-width700px and right max-width340px are component declarations. Right rail disappears below desktop; left rail disappears on phone. The compact menu should expose equivalent topic navigation, while tables and code remain contained.
+
+OPTIONAL RECOMMENDATION: prioritize readable static content, real links, visible current-page state and keyboard search/menu access. Preserve article heading hierarchy and generate unique TOC anchors during implementation; only `#main` is a meaningful stable primary source DOM ID in the captured HTML. Do not invent source section anchors from visual labels. Define backend/index/provider configuration and test it independently before presenting search, copying, feedback or subscription as working. Reduce decorative transitions without hiding article content or removing navigation context.

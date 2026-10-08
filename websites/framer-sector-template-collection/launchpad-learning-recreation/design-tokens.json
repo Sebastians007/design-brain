@@ -1,0 +1,818 @@
+{
+  "name": "Launchpad Learning",
+  "source": "https://launchpadlearning.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#ffffff",
+    "paper": "#f7f7fa",
+    "ink": "#19154e",
+    "accent": "#1932d2",
+    "muted": "#6b6b75"
+  },
+  "type": {
+    "body": "Manrope",
+    "display": "Funnel Display",
+    "roles": [
+      {
+        "role": "Brand",
+        "family": "Funnel Display",
+        "weight": 700,
+        "sizePx": 17.0,
+        "linePx": 22.1,
+        "tracking": "0px"
+      },
+      {
+        "role": "Navigation",
+        "family": "General Sans",
+        "weight": 500,
+        "sizePx": 15.0,
+        "linePx": 19.5,
+        "tracking": "0"
+      },
+      {
+        "role": "Enrollment action",
+        "family": "Funnel Display",
+        "weight": 600,
+        "sizePx": 18.0,
+        "linePx": 21.6,
+        "tracking": "0.03em"
+      },
+      {
+        "role": "Learner proof",
+        "family": "Funnel Display",
+        "weight": 700,
+        "sizePx": 12.0,
+        "linePx": 24.0,
+        "tracking": "0.7px"
+      },
+      {
+        "role": "Hero h1 / desktop",
+        "family": "Funnel Display",
+        "weight": 500,
+        "sizePx": 63.0,
+        "linePx": 69.3,
+        "tracking": "-1.5px"
+      },
+      {
+        "role": "Hero supporting copy",
+        "family": "Manrope",
+        "weight": 500,
+        "sizePx": 17.0,
+        "linePx": 22.1,
+        "tracking": ".5px"
+      },
+      {
+        "role": "Section h2 / desktop",
+        "family": "Funnel Display Variable",
+        "weight": 400,
+        "sizePx": 48.0,
+        "linePx": 57.6,
+        "tracking": "-1px"
+      },
+      {
+        "role": "Problem card title",
+        "family": "Funnel Display",
+        "weight": 600,
+        "sizePx": 23.0,
+        "linePx": 29.9,
+        "tracking": "-.5px"
+      },
+      {
+        "role": "Curriculum overline",
+        "family": "Funnel Display",
+        "weight": 700,
+        "sizePx": 16.0,
+        "linePx": 24.0,
+        "tracking": "1px"
+      },
+      {
+        "role": "Curriculum module",
+        "family": "Satoshi",
+        "weight": 500,
+        "sizePx": 14.0,
+        "linePx": 18.2,
+        "tracking": "-0.2px"
+      },
+      {
+        "role": "Curriculum supporting label",
+        "family": "Manrope",
+        "weight": 600,
+        "sizePx": 14.0,
+        "linePx": 21.0,
+        "tracking": "0"
+      },
+      {
+        "role": "Student quote",
+        "family": "Funnel Display",
+        "weight": 500,
+        "sizePx": 19.0,
+        "linePx": 22.8,
+        "tracking": "0em"
+      },
+      {
+        "role": "Instructor proof label",
+        "family": "Funnel Display",
+        "weight": 700,
+        "sizePx": 13.0,
+        "linePx": 26.0,
+        "tracking": ".7px"
+      },
+      {
+        "role": "Price",
+        "family": "Funnel Display",
+        "weight": 600,
+        "sizePx": 37.0,
+        "linePx": 37.0,
+        "tracking": "-0.5px"
+      },
+      {
+        "role": "Pricing benefit",
+        "family": "Funnel Display",
+        "weight": 600,
+        "sizePx": 23.0,
+        "linePx": 29.9,
+        "tracking": "-.5px"
+      },
+      {
+        "role": "Footer copyright",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 16.0,
+        "linePx": 20.8,
+        "tracking": "0"
+      },
+      {
+        "role": "Hero h1 / phone preset",
+        "family": "Funnel Display",
+        "weight": 500,
+        "sizePx": 40,
+        "linePx": 44,
+        "tracking": "-1.5px"
+      },
+      {
+        "role": "Section h2 / phone preset",
+        "family": "Funnel Display Variable",
+        "weight": 400,
+        "sizePx": 36,
+        "linePx": 43.2,
+        "tracking": "-1px"
+      }
+    ],
+    "rolesEvidence": "Public source presets and inline overrides; non-media h1 63px and h2 48px bases were checked directly against CSS. Phone rows come from explicit max-width:809px/min-width:0 rules. No browser-computed styles or text-box measurements.",
+    "sourceRoleDetails": [
+      {
+        "role": "Brand",
+        "tag": "h3",
+        "path": [
+          "Navbar",
+          "Desktop Transperent",
+          "Container",
+          "Logo + Icon",
+          "Logo"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "700",
+          "--framer-text-color": "var(--extracted-a0htzi, var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78)))",
+          "--framer-font-size": "17px",
+          "--framer-letter-spacing": "0px",
+          "--framer-text-transform": "capitalize",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.3em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Verified non-media base preset plus literal inline overrides; responsive rules are separate."
+      },
+      {
+        "role": "Navigation",
+        "tag": "p",
+        "path": [
+          "Navbar",
+          "Desktop Transperent",
+          "Container",
+          "Links Wrap"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+          "--framer-font-size": "15px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.3em",
+          "--framer-text-alignment": "center",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Verified non-media base preset plus literal inline overrides; responsive rules are separate."
+      },
+      {
+        "role": "Enrollment action",
+        "tag": "h3",
+        "path": [
+          "Navbar",
+          "Desktop Transperent",
+          "Container",
+          "Button Wrap",
+          "Small Accent"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "600",
+          "--framer-text-color": "var(--extracted-a0htzi, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+          "--framer-font-size": "18px",
+          "--framer-letter-spacing": "0.03em",
+          "--framer-text-transform": "capitalize",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.2em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Verified non-media base preset plus literal inline overrides; responsive rules are separate."
+      },
+      {
+        "role": "Learner proof",
+        "tag": "p",
+        "path": [
+          "Hero ",
+          "Container",
+          "Happy Clients",
+          "Happy Clients",
+          "Rating / Text",
+          "Happy Clients"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "700",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78)))",
+          "--framer-font-size": "12px",
+          "--framer-letter-spacing": "0.7px",
+          "--framer-text-transform": "uppercase",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "2em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Verified non-media base preset plus literal inline overrides; responsive rules are separate."
+      },
+      {
+        "role": "Hero h1 / desktop",
+        "tag": "h1",
+        "path": [
+          "Hero ",
+          "Container"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "63px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-letter-spacing": "-1.5px",
+          "--framer-line-height": "1.1em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e,#19154e)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "capitalize",
+          "--framer-text-wrap": "balance"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Verified non-media base preset plus literal inline overrides; responsive rules are separate."
+      },
+      {
+        "role": "Hero supporting copy",
+        "tag": "p",
+        "path": [
+          "Hero ",
+          "Container"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "17px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-letter-spacing": ".5px",
+          "--framer-line-height": "1.3em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Verified non-media base preset plus literal inline overrides; responsive rules are separate."
+      },
+      {
+        "role": "Section h2 / desktop",
+        "tag": "h2",
+        "path": [
+          "Problem",
+          "Features Day"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Funnel Display Variable\", \"Funnel Display Variable Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Funnel Display Variable\", \"Funnel Display Variable Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Funnel Display Variable\", \"Funnel Display Variable Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Funnel Display Variable\", \"Funnel Display Variable Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "48px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "normal",
+          "--framer-font-style-italic": "normal",
+          "--framer-font-variation-axes": "\"wght\" 600",
+          "--framer-font-variation-axes-bold": "\"wght\" 600",
+          "--framer-font-variation-axes-bold-italic": "\"wght\" 600",
+          "--framer-font-variation-axes-italic": "\"wght\" 600",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "400",
+          "--framer-font-weight-bold-italic": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-1px",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e,#19154e)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "capitalize",
+          "--framer-text-wrap": "balance"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Verified non-media base preset plus literal inline overrides; responsive rules are separate."
+      },
+      {
+        "role": "Problem card title",
+        "tag": "h3",
+        "path": [
+          "Problem",
+          "Features Day",
+          "\u26aa\ufe0f Day Middle"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "23px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "600",
+          "--framer-letter-spacing": "-.5px",
+          "--framer-line-height": "1.3em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e,#19154e)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "capitalize",
+          "--framer-text-wrap": "balance"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Verified non-media base preset plus literal inline overrides; responsive rules are separate."
+      },
+      {
+        "role": "Curriculum overline",
+        "tag": "p",
+        "path": [
+          "Curriculum",
+          "FAQ Day",
+          "Tag"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "700",
+          "--framer-font-weight-bold": "800",
+          "--framer-letter-spacing": "1px",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-d5229cc0-15a0-4c38-b5da-2a811a526ceb, rgb(25, 50, 210))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase",
+          "--framer-text-wrap": "balance"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Verified non-media base preset plus literal inline overrides; responsive rules are separate."
+      },
+      {
+        "role": "Curriculum module",
+        "tag": "p",
+        "path": [
+          "Curriculum",
+          "FAQ Day",
+          "Closed",
+          "\u26aa\ufe0f Day"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Satoshi\", \"Satoshi Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "#000",
+          "--framer-font-size": "14px",
+          "--framer-letter-spacing": "-0.2px",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.3em",
+          "--framer-text-alignment": "center",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Verified non-media base preset plus literal inline overrides; responsive rules are separate."
+      },
+      {
+        "role": "Curriculum supporting label",
+        "tag": "p",
+        "path": [
+          "Curriculum",
+          "FAQ Day",
+          "Closed"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "600",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78)))",
+          "--framer-font-size": "14px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.5em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Verified non-media base preset plus literal inline overrides; responsive rules are separate."
+      },
+      {
+        "role": "Student quote",
+        "tag": "h3",
+        "path": [
+          "Testimonials",
+          "Testimonials Day",
+          "\u26aa\ufe0f Day"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "19px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-33722da1-56ef-4815-82ed-442105eb06b1,#000)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "capitalize",
+          "--framer-text-wrap": "balance"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Verified non-media base preset plus literal inline overrides; responsive rules are separate."
+      },
+      {
+        "role": "Instructor proof label",
+        "tag": "p",
+        "path": [
+          "Instructor"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "13px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "700",
+          "--framer-letter-spacing": ".7px",
+          "--framer-line-height": "2em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase",
+          "--framer-text-wrap": "balance"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Verified non-media base preset plus literal inline overrides; responsive rules are separate."
+      },
+      {
+        "role": "Price",
+        "tag": "h3",
+        "path": [
+          "Pricing",
+          "Container",
+          "Plans List",
+          "Primary ",
+          "Column"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "600",
+          "--framer-text-color": "var(--extracted-a0htzi, var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78)))",
+          "--framer-font-size": "37px",
+          "--framer-letter-spacing": "-0.5px",
+          "--framer-text-transform": "capitalize",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Verified non-media base preset plus literal inline overrides; responsive rules are separate."
+      },
+      {
+        "role": "Pricing benefit",
+        "tag": "h3",
+        "path": [
+          "Outcome",
+          "Inner",
+          "List",
+          "Secondary",
+          "Text"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "23px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "600",
+          "--framer-letter-spacing": "-.5px",
+          "--framer-line-height": "1.3em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--extracted-a0htzi, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "capitalize",
+          "--framer-text-wrap": "balance"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Verified non-media base preset plus literal inline overrides; responsive rules are separate."
+      },
+      {
+        "role": "Footer copyright",
+        "tag": "p",
+        "path": [
+          "Desktop",
+          "Container",
+          "Bottom",
+          "Copyright"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-dd099603-6b15-4e84-a91d-b97cf84361af, rgb(255, 255, 255)))",
+          "--framer-font-size": "16px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "capitalize",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.3em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Verified non-media base preset plus literal inline overrides; responsive rules are separate."
+      }
+    ],
+    "variationAxes": {
+      "Brand": "normal / no custom numeric tuple declared",
+      "Navigation": "normal / no custom numeric tuple declared",
+      "Enrollment action": "normal / no custom numeric tuple declared",
+      "Learner proof": "normal / no custom numeric tuple declared",
+      "Hero h1 / desktop": "normal",
+      "Hero supporting copy": "normal",
+      "Section h2 / desktop": "\"wght\" 600",
+      "Problem card title": "normal",
+      "Curriculum overline": "normal",
+      "Curriculum module": "normal / no custom numeric tuple declared",
+      "Curriculum supporting label": "normal / no custom numeric tuple declared",
+      "Student quote": "normal",
+      "Instructor proof label": "normal",
+      "Price": "normal / no custom numeric tuple declared",
+      "Pricing benefit": "normal",
+      "Footer copyright": "normal / no custom numeric tuple declared"
+    },
+    "systemFontFamilies": []
+  },
+  "spacing": {
+    "desktopGutterPx": 30,
+    "componentGapPx": 24,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 16,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)",
+      "@media (max-width:809.98px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      50.0,
+      98.0,
+      290.0,
+      390.0,
+      400.0,
+      420.0,
+      460.0,
+      480.0,
+      500.0,
+      550.0,
+      600.0,
+      680.0,
+      690.0,
+      700.0,
+      750.0,
+      800.0,
+      809.0,
+      809.98,
+      810.0,
+      900.0,
+      920.0,
+      1000.0,
+      1199.0,
+      1199.98,
+      1200.0,
+      1280.0,
+      1440.0,
+      1500.0,
+      1880.0
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Courses / education",
+    "branch": "Individual course creator / flagship program",
+    "fitEvidence": "Official marketplace targets solo creators and cohort program leads; the public source markets one course with outcomes, modular curriculum, instructor, certificate, proof, pricing and an enroll-page, contrasting a multi-course academy and the existing BrightPath school."
+  },
+  "sectionAnchors": [
+    {
+      "id": "hero",
+      "basis": "literal home source HTML id"
+    },
+    {
+      "id": "overview",
+      "basis": "literal home source HTML id"
+    },
+    {
+      "id": "CURRICULUM",
+      "basis": "literal home source HTML id"
+    },
+    {
+      "id": "whats-included",
+      "basis": "literal home source HTML id"
+    },
+    {
+      "id": "reviews",
+      "basis": "literal home source HTML id"
+    },
+    {
+      "id": "about",
+      "basis": "literal home source HTML id"
+    },
+    {
+      "id": "certification",
+      "basis": "literal home source HTML id"
+    },
+    {
+      "id": "pricing",
+      "basis": "literal home source HTML id"
+    },
+    {
+      "id": "cta",
+      "basis": "literal home source HTML id"
+    }
+  ],
+  "sourceColorContext": "Source palette; the active theme is scoped to each native browser observation.",
+  "siteBlueprint": {
+    "file": "SITE-BLUEPRINT.md",
+    "backendVerified": false
+  }
+}

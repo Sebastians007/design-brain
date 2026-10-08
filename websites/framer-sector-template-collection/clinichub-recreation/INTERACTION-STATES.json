@@ -1,0 +1,26 @@
+{
+  "purpose": "Optional source-informed implementation guidance; browser evidence records only states actually captured.",
+  "source": "sector config / secondary-declarations.json",
+  "states": [
+    {
+      "component": "Consultation/request form",
+      "sourceDeclared": "Form attributes and field names only; successful delivery not exercised",
+      "optional": [
+        "idle",
+        "invalid",
+        "sending",
+        "confirmed only on provider acknowledgment",
+        "retry"
+      ]
+    },
+    {
+      "component": "FAQ",
+      "sourceDeclared": "Closed component names in source",
+      "optional": [
+        "keyboard-operable expanded/collapsed state",
+        "reduced-motion expansion"
+      ]
+    }
+  ],
+  "backendVerified": false
+}

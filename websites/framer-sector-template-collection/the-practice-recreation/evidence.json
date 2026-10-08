@@ -1,0 +1,772 @@
+{
+  "template": "the practice",
+  "preview": "https://thepractice.framer.website/",
+  "marketplace": "https://www.framer.com/marketplace/templates/the-practice/",
+  "creator": "Ahsan Habib",
+  "coverage": "Public source declarations, official marketplace artwork and actual browser captures at the individually recorded viewport/state. Phone/tablet, complete motion and backend behavior unverified.",
+  "viewport": {
+    "devicePixelRatio": 1,
+    "height": 936,
+    "width": 1363
+  },
+  "pageHeight": 9271,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 4 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 4 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 3 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 4 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "normal",
+      "height": 58,
+      "id": "",
+      "tag": "NAV",
+      "width": 1284,
+      "x": 24,
+      "y": 26
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "normal",
+      "height": 947.25,
+      "id": "hero",
+      "tag": "SECTION",
+      "width": 1324,
+      "x": 12,
+      "y": 12
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 166,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 959.25
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "56px",
+      "height": 989.78125,
+      "id": "about",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 1125.25
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "72px",
+      "height": 796,
+      "id": "numbers",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 2115.03125
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "48px",
+      "height": 1298.328125,
+      "id": "services",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 2911.03125
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 898.203125,
+      "id": "how-it-works",
+      "tag": "SECTION",
+      "width": 1324,
+      "x": 12,
+      "y": 4209.359375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 1000,
+      "id": "book",
+      "tag": "SECTION",
+      "width": 1324,
+      "x": 12,
+      "y": 5107.5625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 968.240234375,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1297.52001953125,
+      "x": 25.239990234375,
+      "y": 5177.4423828125
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "80px",
+      "height": 856,
+      "id": "faq",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 6107.5625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "48px",
+      "height": 806.203125,
+      "id": "journal",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 6963.5625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 639.359375,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1324,
+      "x": 12,
+      "y": 7769.765625
+    },
+    {
+      "background": "rgb(20, 23, 17)",
+      "display": "flex",
+      "gap": "56px",
+      "height": 838.015625,
+      "id": "",
+      "tag": "FOOTER",
+      "width": 1324,
+      "x": 12,
+      "y": 8461.125
+    }
+  ],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Instrument Serif",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/instrumentserif/v5/jizHRFtNs2ka5fXjeivQ4LroWlx-6zATjnTNgNq55w.woff2",
+      "range": "",
+      "file": "assets/fonts/instrument-serif-400-0.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Switzer",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/BLNB4FAQFNK56DWWNF7PMGTCOTZHOEII/ST3WKSSDMBK2MIQQO3MAVYWLF4FTOLFV/6IN5WOLRCYP4G4MOCOHOMXNON6Q7MDAR.woff2",
+      "range": "",
+      "file": "assets/fonts/switzer-400-1.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Switzer",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/HBNTRIISA5MEXGL5WPYI7CV2HIWTDV3Q/YDPDINVT673XLXNSTMLG4JNCZZMVVNPN/Y7SCNZJOT2MW5ADSGOFLDGH4TNL4JCQY.woff2",
+      "range": "",
+      "file": "assets/fonts/switzer-700-2.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Switzer",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/LVPXCMXCWY3V7PSXRMGRQUJDAS2DT47E/BPEVRT2HG7PPVVUS7A67MZQQZW6LR6A5/A7AS3UPAGLC7MDVC67SBNTE5FGF2Z2RG.woff2",
+      "range": "",
+      "file": "assets/fonts/switzer-700-3.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Switzer",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/XVUY2PHYBA6KMN4RMEMJPHQSTKCQ267G/UICOQA6KCSHFOSCPYDVVDNNCDKYFXHJB/O34WRFYO7JNWEBBA2LRV2XYRUSYXYDKH.woff2",
+      "range": "",
+      "file": "assets/fonts/switzer-400-4.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Switzer",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/OYB4CXKJQXKTNSLJMTDQOIVUL2V5EL7S/WYO2P7DQVV5RNXGMCUO2HL4RJP4VFUAS/6XPIMU23OJVRY676OG5YVJMWEHWICATX.woff2",
+      "range": "",
+      "file": "assets/fonts/switzer-500-5.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Switzer",
+      "weight": "500",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/QMRBNVYKDJEZ66DA22SPWH5EVVYACHCU/ZHMXHHA546NDNEHJN5RPZX5KISJY5CWF/C6VLICDGQWYKV6YT65TM5G3OVN4AOZBN.woff2",
+      "range": "",
+      "file": "assets/fonts/switzer-500-6.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-7.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-600-8.woff2",
+      "actualFormat": "woff2"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/images/Svw0qeoFRJMJkOyFXGmLEiPJdqo.jpg?width=2400&height=1600",
+      "srcset": "https://framerusercontent.com/images/Svw0qeoFRJMJkOyFXGmLEiPJdqo.jpg?scale-down-to=512&width=2400&height=1600 512w,https://framerusercontent.com/images/Svw0qeoFRJMJkOyFXGmLEiPJdqo.jpg?scale-down-to=1024&width=2400&height=1600 1024w,https://framerusercontent.com/images/Svw0qeoFRJMJkOyFXGmLEiPJdqo.jpg?scale-down-to=2048&width=2400&height=1600 2048w,https://framerusercontent.com/images/Svw0qeoFRJMJkOyFXGmLEiPJdqo.jpg?width=2400&height=1600 2400w",
+      "alt": "A person sitting calmly in a sunlit green field",
+      "width": "2400",
+      "height": "1600",
+      "path": [
+        "Hero"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Svw0qeoFRJMJkOyFXGmLEiPJdqo.jpg?width=2400&height=1600",
+      "srcset": "https://framerusercontent.com/images/Svw0qeoFRJMJkOyFXGmLEiPJdqo.jpg?scale-down-to=512&width=2400&height=1600 512w,https://framerusercontent.com/images/Svw0qeoFRJMJkOyFXGmLEiPJdqo.jpg?scale-down-to=1024&width=2400&height=1600 1024w,https://framerusercontent.com/images/Svw0qeoFRJMJkOyFXGmLEiPJdqo.jpg?scale-down-to=2048&width=2400&height=1600 2048w,https://framerusercontent.com/images/Svw0qeoFRJMJkOyFXGmLEiPJdqo.jpg?width=2400&height=1600 2400w",
+      "alt": "A person sitting calmly in a sunlit green field",
+      "width": "2400",
+      "height": "1600",
+      "path": [
+        "Hero"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:66% center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Svw0qeoFRJMJkOyFXGmLEiPJdqo.jpg?width=2400&height=1600",
+      "srcset": "https://framerusercontent.com/images/Svw0qeoFRJMJkOyFXGmLEiPJdqo.jpg?scale-down-to=512&width=2400&height=1600 512w,https://framerusercontent.com/images/Svw0qeoFRJMJkOyFXGmLEiPJdqo.jpg?scale-down-to=1024&width=2400&height=1600 1024w,https://framerusercontent.com/images/Svw0qeoFRJMJkOyFXGmLEiPJdqo.jpg?scale-down-to=2048&width=2400&height=1600 2048w,https://framerusercontent.com/images/Svw0qeoFRJMJkOyFXGmLEiPJdqo.jpg?width=2400&height=1600 2400w",
+      "alt": "A person sitting calmly in a sunlit green field",
+      "width": "2400",
+      "height": "1600",
+      "path": [
+        "Hero"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:68% center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8tW0toeILRvltYXYlzFEYWpBQ.jpg?width=1200&height=2194",
+      "srcset": "https://framerusercontent.com/images/8tW0toeILRvltYXYlzFEYWpBQ.jpg?scale-down-to=1024&width=1200&height=2194 560w,https://framerusercontent.com/images/8tW0toeILRvltYXYlzFEYWpBQ.jpg?scale-down-to=2048&width=1200&height=2194 1120w,https://framerusercontent.com/images/8tW0toeILRvltYXYlzFEYWpBQ.jpg?width=1200&height=2194 1200w",
+      "alt": "A calm, sunlit corner with an armchair, plant and fresh flowers",
+      "width": "1200",
+      "height": "2194",
+      "path": [
+        "About",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8tW0toeILRvltYXYlzFEYWpBQ.jpg?width=1200&height=2194",
+      "srcset": "https://framerusercontent.com/images/8tW0toeILRvltYXYlzFEYWpBQ.jpg?scale-down-to=1024&width=1200&height=2194 560w,https://framerusercontent.com/images/8tW0toeILRvltYXYlzFEYWpBQ.jpg?scale-down-to=2048&width=1200&height=2194 1120w,https://framerusercontent.com/images/8tW0toeILRvltYXYlzFEYWpBQ.jpg?width=1200&height=2194 1200w",
+      "alt": "A calm, sunlit corner with an armchair, plant and fresh flowers",
+      "width": "1200",
+      "height": "2194",
+      "path": [
+        "About",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center 60%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/iXK40ns3wufvshLtkMgKnWOqguA.jpg?width=1200&height=1800",
+      "srcset": "https://framerusercontent.com/images/iXK40ns3wufvshLtkMgKnWOqguA.jpg?scale-down-to=1024&width=1200&height=1800 682w,https://framerusercontent.com/images/iXK40ns3wufvshLtkMgKnWOqguA.jpg?width=1200&height=1800 1200w",
+      "alt": "A smiling therapist sitting in a warm, sunlit office",
+      "width": "1200",
+      "height": "1800",
+      "path": [
+        "Numbers",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/iXK40ns3wufvshLtkMgKnWOqguA.jpg?width=1200&height=1800",
+      "srcset": "https://framerusercontent.com/images/iXK40ns3wufvshLtkMgKnWOqguA.jpg?scale-down-to=1024&width=1200&height=1800 682w,https://framerusercontent.com/images/iXK40ns3wufvshLtkMgKnWOqguA.jpg?width=1200&height=1800 1200w",
+      "alt": "A smiling therapist sitting in a warm, sunlit office",
+      "width": "1200",
+      "height": "1800",
+      "path": [
+        "Numbers",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center 30%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Yu9z6WT0H7Lb6AzKMF9NLrg.jpg?width=1200&height=675",
+      "srcset": "https://framerusercontent.com/images/Yu9z6WT0H7Lb6AzKMF9NLrg.jpg?scale-down-to=512&width=1200&height=675 512w,https://framerusercontent.com/images/Yu9z6WT0H7Lb6AzKMF9NLrg.jpg?scale-down-to=1024&width=1200&height=675 1024w,https://framerusercontent.com/images/Yu9z6WT0H7Lb6AzKMF9NLrg.jpg?width=1200&height=675 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "675",
+      "path": [
+        "Services",
+        "Cards",
+        "Default",
+        "Media"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Yu9z6WT0H7Lb6AzKMF9NLrg.jpg?width=1200&height=675",
+      "srcset": "https://framerusercontent.com/images/Yu9z6WT0H7Lb6AzKMF9NLrg.jpg?scale-down-to=512&width=1200&height=675 512w,https://framerusercontent.com/images/Yu9z6WT0H7Lb6AzKMF9NLrg.jpg?scale-down-to=1024&width=1200&height=675 1024w,https://framerusercontent.com/images/Yu9z6WT0H7Lb6AzKMF9NLrg.jpg?width=1200&height=675 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "675",
+      "path": [
+        "Services",
+        "Cards",
+        "Default",
+        "Media"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/zNdSlhjsIsYJjoXIECoklheRgo.jpg?width=1200&height=675",
+      "srcset": "https://framerusercontent.com/images/zNdSlhjsIsYJjoXIECoklheRgo.jpg?scale-down-to=512&width=1200&height=675 512w,https://framerusercontent.com/images/zNdSlhjsIsYJjoXIECoklheRgo.jpg?scale-down-to=1024&width=1200&height=675 1024w,https://framerusercontent.com/images/zNdSlhjsIsYJjoXIECoklheRgo.jpg?width=1200&height=675 1200w",
+      "alt": "A couple sitting together on a sofa during a therapy session",
+      "width": "1200",
+      "height": "675",
+      "path": [
+        "Services",
+        "Cards",
+        "Default",
+        "Media"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/zNdSlhjsIsYJjoXIECoklheRgo.jpg?width=1200&height=675",
+      "srcset": "https://framerusercontent.com/images/zNdSlhjsIsYJjoXIECoklheRgo.jpg?scale-down-to=512&width=1200&height=675 512w,https://framerusercontent.com/images/zNdSlhjsIsYJjoXIECoklheRgo.jpg?scale-down-to=1024&width=1200&height=675 1024w,https://framerusercontent.com/images/zNdSlhjsIsYJjoXIECoklheRgo.jpg?width=1200&height=675 1200w",
+      "alt": "A couple sitting together on a sofa during a therapy session",
+      "width": "1200",
+      "height": "675",
+      "path": [
+        "Services",
+        "Cards",
+        "Default",
+        "Media"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/9oJdgVrGdZKclofHUGriB50vudo.jpg?width=1200&height=675",
+      "srcset": "https://framerusercontent.com/images/9oJdgVrGdZKclofHUGriB50vudo.jpg?scale-down-to=512&width=1200&height=675 512w,https://framerusercontent.com/images/9oJdgVrGdZKclofHUGriB50vudo.jpg?scale-down-to=1024&width=1200&height=675 1024w,https://framerusercontent.com/images/9oJdgVrGdZKclofHUGriB50vudo.jpg?width=1200&height=675 1200w",
+      "alt": "A teenager talking with a therapist on a sofa",
+      "width": "1200",
+      "height": "675",
+      "path": [
+        "Services",
+        "Cards",
+        "Default",
+        "Media"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/9oJdgVrGdZKclofHUGriB50vudo.jpg?width=1200&height=675",
+      "srcset": "https://framerusercontent.com/images/9oJdgVrGdZKclofHUGriB50vudo.jpg?scale-down-to=512&width=1200&height=675 512w,https://framerusercontent.com/images/9oJdgVrGdZKclofHUGriB50vudo.jpg?scale-down-to=1024&width=1200&height=675 1024w,https://framerusercontent.com/images/9oJdgVrGdZKclofHUGriB50vudo.jpg?width=1200&height=675 1200w",
+      "alt": "A teenager talking with a therapist on a sofa",
+      "width": "1200",
+      "height": "675",
+      "path": [
+        "Services",
+        "Cards",
+        "Default",
+        "Media"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BwJOj5f4sZtMqVAmRx5BKtKUuY.jpg?width=1200&height=800",
+      "srcset": "https://framerusercontent.com/images/BwJOj5f4sZtMqVAmRx5BKtKUuY.jpg?scale-down-to=512&width=1200&height=800 512w,https://framerusercontent.com/images/BwJOj5f4sZtMqVAmRx5BKtKUuY.jpg?scale-down-to=1024&width=1200&height=800 1024w,https://framerusercontent.com/images/BwJOj5f4sZtMqVAmRx5BKtKUuY.jpg?width=1200&height=800 1200w",
+      "alt": "A woman smiling and waving during an online therapy video session",
+      "width": "1200",
+      "height": "800",
+      "path": [
+        "Services",
+        "Cards",
+        "Default",
+        "Media"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BwJOj5f4sZtMqVAmRx5BKtKUuY.jpg?width=1200&height=800",
+      "srcset": "https://framerusercontent.com/images/BwJOj5f4sZtMqVAmRx5BKtKUuY.jpg?scale-down-to=512&width=1200&height=800 512w,https://framerusercontent.com/images/BwJOj5f4sZtMqVAmRx5BKtKUuY.jpg?scale-down-to=1024&width=1200&height=800 1024w,https://framerusercontent.com/images/BwJOj5f4sZtMqVAmRx5BKtKUuY.jpg?width=1200&height=800 1200w",
+      "alt": "A woman smiling and waving during an online therapy video session",
+      "width": "1200",
+      "height": "800",
+      "path": [
+        "Services",
+        "Cards",
+        "Default",
+        "Media"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/qBwCh0w0FCRMvjj2c9WaZ901oA.jpg?width=2400&height=1350",
+      "srcset": "https://framerusercontent.com/images/qBwCh0w0FCRMvjj2c9WaZ901oA.jpg?scale-down-to=512&width=2400&height=1350 512w,https://framerusercontent.com/images/qBwCh0w0FCRMvjj2c9WaZ901oA.jpg?scale-down-to=1024&width=2400&height=1350 1024w,https://framerusercontent.com/images/qBwCh0w0FCRMvjj2c9WaZ901oA.jpg?scale-down-to=2048&width=2400&height=1350 2048w,https://framerusercontent.com/images/qBwCh0w0FCRMvjj2c9WaZ901oA.jpg?width=2400&height=1350 2400w",
+      "alt": "A therapist listening to a client during a session",
+      "width": "2400",
+      "height": "1350",
+      "path": [
+        "Journal",
+        "Articles",
+        "Article Card",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/iEAAxXhCwGS46zbqK2TSxlTWvYA.jpg?width=1600&height=1065",
+      "srcset": "https://framerusercontent.com/images/iEAAxXhCwGS46zbqK2TSxlTWvYA.jpg?scale-down-to=512&width=1600&height=1065 512w,https://framerusercontent.com/images/iEAAxXhCwGS46zbqK2TSxlTWvYA.jpg?scale-down-to=1024&width=1600&height=1065 1024w,https://framerusercontent.com/images/iEAAxXhCwGS46zbqK2TSxlTWvYA.jpg?width=1600&height=1065 1600w",
+      "alt": "A woman breathing calmly with her eyes closed near a window",
+      "width": "1600",
+      "height": "1065",
+      "path": [
+        "Journal",
+        "Articles",
+        "Article Card",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/leqGSxWfgrWQx3UkHR1KaeYTutU.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/leqGSxWfgrWQx3UkHR1KaeYTutU.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/leqGSxWfgrWQx3UkHR1KaeYTutU.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/leqGSxWfgrWQx3UkHR1KaeYTutU.jpg?width=1600&height=1067 1600w",
+      "alt": "A cup of coffee resting on an open book on a cozy bed",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "Journal",
+        "Articles",
+        "Article Card",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/r0ReWZ9e7BgwGPJ2z6Y5HUppMcU.jpg?width=1400&height=939",
+      "srcset": "https://framerusercontent.com/images/r0ReWZ9e7BgwGPJ2z6Y5HUppMcU.jpg?scale-down-to=512&width=1400&height=939 512w,https://framerusercontent.com/images/r0ReWZ9e7BgwGPJ2z6Y5HUppMcU.jpg?scale-down-to=1024&width=1400&height=939 1024w,https://framerusercontent.com/images/r0ReWZ9e7BgwGPJ2z6Y5HUppMcU.jpg?width=1400&height=939 1400w",
+      "alt": "A quiet, sunlit therapy room with two armchairs facing each other",
+      "width": "1400",
+      "height": "939",
+      "path": [
+        "CTA",
+        "Panel",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    }
+  ],
+  "videoReferences": [],
+  "linksDeclaredInSource": [
+    "https://thepractice.framer.website/",
+    "https://thepractice.framer.website/#book",
+    "https://thepractice.framer.website/about",
+    "https://thepractice.framer.website/accessibility",
+    "https://thepractice.framer.website/approach",
+    "https://thepractice.framer.website/blog",
+    "https://thepractice.framer.website/blog/anxiety-explained-why-your-body-sounds-the-alarm",
+    "https://thepractice.framer.website/blog/five-small-habits-for-a-calmer-nervous-system",
+    "https://thepractice.framer.website/blog/how-to-know-when-its-time-to-start-therapy",
+    "https://thepractice.framer.website/cancellation-policy",
+    "https://thepractice.framer.website/contact",
+    "https://thepractice.framer.website/faq",
+    "https://thepractice.framer.website/fees",
+    "https://thepractice.framer.website/how-it-works",
+    "https://thepractice.framer.website/in-person",
+    "https://thepractice.framer.website/locations",
+    "https://thepractice.framer.website/online",
+    "https://thepractice.framer.website/privacy-policy",
+    "https://thepractice.framer.website/services",
+    "https://thepractice.framer.website/services/couples-therapy",
+    "https://thepractice.framer.website/services/individual-therapy",
+    "https://thepractice.framer.website/services/online-therapy",
+    "https://thepractice.framer.website/services/teens-families",
+    "https://thepractice.framer.website/terms-of-use",
+    "https://thepractice.framer.website/therapists",
+    "https://www.framer.com"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F7fee6330-445b-4d0e-9505-9dfd62a5545f%2F01a0b4d6-b57d-745f-9d67-57ce7c1b28b2.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F7fee6330-445b-4d0e-9505-9dfd62a5545f%2F01a0b4d6-c9df-772e-beac-408e18264f6b.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F7fee6330-445b-4d0e-9505-9dfd62a5545f%2F01a0b4d7-7ca0-720b-9f10-f242f4dac12a.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-04.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F7fee6330-445b-4d0e-9505-9dfd62a5545f%2F01a0b4d7-970b-751b-95b2-5279dd2ebec1.png&w=2048&q=80"
+    }
+  ],
+  "category": {
+    "parent": "Healthcare",
+    "branch": "Therapy practice",
+    "fitEvidence": "Official Marketplace Therapy classification and explicit therapy practice/counselor/psychologist positioning; homepage and service routes distinguish individual, couples, teens/families and online therapy.",
+    "marketplace": "https://www.framer.com/marketplace/templates/the-practice/"
+  },
+  "backendVerified": false,
+  "secondaryDeclarationsFile": "secondary-declarations.json",
+  "regulatedContentScope": "Design reference only. Financial, medical and donation copy is source context, not advice or verified claims. Authentication, payment, forms, appointments and donations were not tested.",
+  "captureRasterPx": {
+    "width": 1348,
+    "height": 926
+  },
+  "browserObservationsFile": "BROWSER-OBSERVATIONS.json",
+  "nativeBrowserCaptures": [
+    {
+      "file": "screenshots/live-home.jpg",
+      "label": "home",
+      "url": "https://thepractice.framer.website/",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    },
+    {
+      "file": "screenshots/live-secondary.jpg",
+      "label": "secondary",
+      "url": "https://thepractice.framer.website/services/individual-therapy",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    }
+  ],
+  "phoneTabletRendered": false
+}

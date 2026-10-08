@@ -1,0 +1,687 @@
+{
+  "template": "Coastkind Collective",
+  "preview": "https://coastkind-collective.framer.website/",
+  "marketplace": "https://www.framer.com/marketplace/templates/coastkind-collective/",
+  "creator": "Tiny Monster",
+  "coverage": "Public source declarations, official marketplace artwork and actual browser captures at the individually recorded viewport/state. Phone/tablet, complete motion and backend behavior unverified.",
+  "viewport": {
+    "devicePixelRatio": 1,
+    "height": 936,
+    "width": 1363
+  },
+  "pageHeight": 4691,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 3 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        256,
+        660,
+        1376,
+        1032
+      ],
+      "label": "Official image 1 / crop 4",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        256,
+        660,
+        1376,
+        1032
+      ],
+      "label": "Official image 2 / crop 4",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        256,
+        660,
+        1376,
+        1032
+      ],
+      "label": "Official image 3 / crop 4",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [
+    {
+      "background": "rgb(244, 246, 246)",
+      "display": "flex",
+      "gap": "normal",
+      "height": 77,
+      "id": "",
+      "tag": "NAV",
+      "width": 1280,
+      "x": 34,
+      "y": 32.40625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "32px",
+      "height": 495.1875,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1280,
+      "x": 34,
+      "y": 709.40625
+    },
+    {
+      "background": "rgba(232, 226, 214, 0.5)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 1037.3125,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 1204.59375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "32px",
+      "height": 1202.765625,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1280,
+      "x": 34,
+      "y": 2241.90625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "grid",
+      "gap": "16px",
+      "height": 584.40625,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1280,
+      "x": 34,
+      "y": 3444.671875
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "36px",
+      "height": 350.40625,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 4029.078125
+    },
+    {
+      "background": "rgb(13, 13, 13)",
+      "display": "flex",
+      "gap": "36px",
+      "height": 311.1875,
+      "id": "",
+      "tag": "FOOTER",
+      "width": 1348,
+      "x": 0,
+      "y": 4379.484375
+    }
+  ],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Besley",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/besley/v22/PlIhFlO1MaNwaNGWUC92IOH_mtG4fWjGSdFoFPOl8-E.woff2",
+      "range": "",
+      "file": "assets/fonts/besley-600-0.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Besley",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/besley/v22/PlIhFlO1MaNwaNGWUC92IOH_mtG4fbbBSdFoFPOl8-E.woff2",
+      "range": "",
+      "file": "assets/fonts/besley-400-1.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Besley",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/besley/v22/PlIhFlO1MaNwaNGWUC92IOH_mtG4fR_GSdFoFPOl8-E.woff2",
+      "range": "",
+      "file": "assets/fonts/besley-900-2.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Besley",
+      "weight": "900",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/besley/v22/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6CCJBiFdGg4-E04A.woff2",
+      "range": "",
+      "file": "assets/fonts/besley-900-3.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Besley",
+      "weight": "600",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/besley/v22/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6Cf5BiFdGg4-E04A.woff2",
+      "range": "",
+      "file": "assets/fonts/besley-600-4.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Besley",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/besley/v22/PlIhFlO1MaNwaNGWUC92IOH_mtG4fVHGSdFoFPOl8-E.woff2",
+      "range": "",
+      "file": "assets/fonts/besley-700-5.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Besley",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/besley/v22/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6CRpBiFdGg4-E04A.woff2",
+      "range": "",
+      "file": "assets/fonts/besley-700-6.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Besley",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/besley/v22/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6CoZdiFdGg4-E04A.woff2",
+      "range": "",
+      "file": "assets/fonts/besley-400-7.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Besley",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/besley/v22/PlIhFlO1MaNwaNGWUC92IOH_mtG4fYTBSdFoFPOl8-E.woff2",
+      "range": "",
+      "file": "assets/fonts/besley-500-8.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Besley",
+      "weight": "500",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/besley/v22/PlIjFlO1MaNwaNG8WR2J-IiUAH-_aH6Ck5diFdGg4-E04A.woff2",
+      "range": "",
+      "file": "assets/fonts/besley-500-9.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-10.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-600-11.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/UjlFhCnUjxhNfep4oYBPqnEssyo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-500-12.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-13.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/ia3uin3hQWqDrVloC1zEtYHWw.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-14.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/fuyXZpVvOjq8NesCOfgirHCWyg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-600-15.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/pKRFNWFoZl77qYCAIp84lN1h944.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-16.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/Bo5CNzBv77CafbxOtKIkpw9egw.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-500-17.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "900",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/gcnfba68tfm7qAyrWRCf9r34jg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-900-18.woff2",
+      "actualFormat": "woff2"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/images/RkkEKG7QmpNXk3AcOU52WjCrgeU.jpg?width=4288&height=2848",
+      "srcset": "https://framerusercontent.com/images/RkkEKG7QmpNXk3AcOU52WjCrgeU.jpg?scale-down-to=512&width=4288&height=2848 512w,https://framerusercontent.com/images/RkkEKG7QmpNXk3AcOU52WjCrgeU.jpg?scale-down-to=1024&width=4288&height=2848 1024w,https://framerusercontent.com/images/RkkEKG7QmpNXk3AcOU52WjCrgeU.jpg?scale-down-to=2048&width=4288&height=2848 2048w,https://framerusercontent.com/images/RkkEKG7QmpNXk3AcOU52WjCrgeU.jpg?scale-down-to=4096&width=4288&height=2848 4096w,https://framerusercontent.com/images/RkkEKG7QmpNXk3AcOU52WjCrgeU.jpg?width=4288&height=2848 4288w",
+      "alt": "A coastal conservation team working beside the ocean",
+      "width": "4288",
+      "height": "2848",
+      "path": [
+        "Hero Composition",
+        "Hero Image Panel"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RkkEKG7QmpNXk3AcOU52WjCrgeU.jpg?width=4288&height=2848",
+      "srcset": "https://framerusercontent.com/images/RkkEKG7QmpNXk3AcOU52WjCrgeU.jpg?scale-down-to=512&width=4288&height=2848 512w,https://framerusercontent.com/images/RkkEKG7QmpNXk3AcOU52WjCrgeU.jpg?scale-down-to=1024&width=4288&height=2848 1024w,https://framerusercontent.com/images/RkkEKG7QmpNXk3AcOU52WjCrgeU.jpg?scale-down-to=2048&width=4288&height=2848 2048w,https://framerusercontent.com/images/RkkEKG7QmpNXk3AcOU52WjCrgeU.jpg?scale-down-to=4096&width=4288&height=2848 4096w,https://framerusercontent.com/images/RkkEKG7QmpNXk3AcOU52WjCrgeU.jpg?width=4288&height=2848 4288w",
+      "alt": "A coastal conservation team working beside the ocean",
+      "width": "4288",
+      "height": "2848",
+      "path": [
+        "Hero Composition",
+        "Hero Image Panel"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RkkEKG7QmpNXk3AcOU52WjCrgeU.jpg?width=4288&height=2848",
+      "srcset": "https://framerusercontent.com/images/RkkEKG7QmpNXk3AcOU52WjCrgeU.jpg?scale-down-to=512&width=4288&height=2848 512w,https://framerusercontent.com/images/RkkEKG7QmpNXk3AcOU52WjCrgeU.jpg?scale-down-to=1024&width=4288&height=2848 1024w,https://framerusercontent.com/images/RkkEKG7QmpNXk3AcOU52WjCrgeU.jpg?scale-down-to=2048&width=4288&height=2848 2048w,https://framerusercontent.com/images/RkkEKG7QmpNXk3AcOU52WjCrgeU.jpg?scale-down-to=4096&width=4288&height=2848 4096w,https://framerusercontent.com/images/RkkEKG7QmpNXk3AcOU52WjCrgeU.jpg?width=4288&height=2848 4288w",
+      "alt": "A coastal conservation team working beside the ocean",
+      "width": "4288",
+      "height": "2848",
+      "path": [
+        "Hero Composition",
+        "Hero Image Panel"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:left top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JcwCd3GnfupO64epFFSs2guHpGA.jpg?width=3840&height=2160",
+      "srcset": "https://framerusercontent.com/images/JcwCd3GnfupO64epFFSs2guHpGA.jpg?scale-down-to=512&width=3840&height=2160 512w,https://framerusercontent.com/images/JcwCd3GnfupO64epFFSs2guHpGA.jpg?scale-down-to=1024&width=3840&height=2160 1024w,https://framerusercontent.com/images/JcwCd3GnfupO64epFFSs2guHpGA.jpg?scale-down-to=2048&width=3840&height=2160 2048w,https://framerusercontent.com/images/JcwCd3GnfupO64epFFSs2guHpGA.jpg?width=3840&height=2160 3840w",
+      "alt": "Volunteers restoring coastal habitats",
+      "width": "3840",
+      "height": "2160",
+      "path": [
+        "Modular Focus Posters",
+        "Layout / Modular Focus Posters",
+        "Tablet Focus Carousel",
+        "Slide 1",
+        "Carousel Viewport",
+        "Restore Habitats Poster"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Js9IfUR2wyiHW5NhZ2EB18pEg.jpg?width=3600&height=2400",
+      "srcset": "https://framerusercontent.com/images/Js9IfUR2wyiHW5NhZ2EB18pEg.jpg?scale-down-to=512&width=3600&height=2400 512w,https://framerusercontent.com/images/Js9IfUR2wyiHW5NhZ2EB18pEg.jpg?scale-down-to=1024&width=3600&height=2400 1024w,https://framerusercontent.com/images/Js9IfUR2wyiHW5NhZ2EB18pEg.jpg?scale-down-to=2048&width=3600&height=2400 2048w,https://framerusercontent.com/images/Js9IfUR2wyiHW5NhZ2EB18pEg.jpg?width=3600&height=2400 3600w",
+      "alt": "Preview of a community coastal restoration project",
+      "width": "3600",
+      "height": "2400",
+      "path": [
+        "Modular Focus Posters",
+        "Layout / Modular Focus Posters",
+        "Tablet Focus Carousel",
+        "Slide 1",
+        "Carousel Viewport",
+        "Next Card Preview"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:left center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JcwCd3GnfupO64epFFSs2guHpGA.jpg?width=3840&height=2160",
+      "srcset": "https://framerusercontent.com/images/JcwCd3GnfupO64epFFSs2guHpGA.jpg?scale-down-to=512&width=3840&height=2160 512w,https://framerusercontent.com/images/JcwCd3GnfupO64epFFSs2guHpGA.jpg?scale-down-to=1024&width=3840&height=2160 1024w,https://framerusercontent.com/images/JcwCd3GnfupO64epFFSs2guHpGA.jpg?scale-down-to=2048&width=3840&height=2160 2048w,https://framerusercontent.com/images/JcwCd3GnfupO64epFFSs2guHpGA.jpg?width=3840&height=2160 3840w",
+      "alt": "Volunteers restoring coastal habitats",
+      "width": "3840",
+      "height": "2160",
+      "path": [
+        "Modular Focus Posters",
+        "Layout / Modular Focus Posters",
+        "Phone Focus Carousel",
+        "Phone Slide 1",
+        "Carousel Viewport",
+        "Restore Habitats Poster"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Js9IfUR2wyiHW5NhZ2EB18pEg.jpg?width=3600&height=2400",
+      "srcset": "https://framerusercontent.com/images/Js9IfUR2wyiHW5NhZ2EB18pEg.jpg?scale-down-to=512&width=3600&height=2400 512w,https://framerusercontent.com/images/Js9IfUR2wyiHW5NhZ2EB18pEg.jpg?scale-down-to=1024&width=3600&height=2400 1024w,https://framerusercontent.com/images/Js9IfUR2wyiHW5NhZ2EB18pEg.jpg?scale-down-to=2048&width=3600&height=2400 2048w,https://framerusercontent.com/images/Js9IfUR2wyiHW5NhZ2EB18pEg.jpg?width=3600&height=2400 3600w",
+      "alt": "Preview of a community coastal restoration project",
+      "width": "3600",
+      "height": "2400",
+      "path": [
+        "Modular Focus Posters",
+        "Layout / Modular Focus Posters",
+        "Phone Focus Carousel",
+        "Phone Slide 1",
+        "Carousel Viewport",
+        "Next Card Preview"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:left center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JcwCd3GnfupO64epFFSs2guHpGA.jpg?width=3840&height=2160",
+      "srcset": "https://framerusercontent.com/images/JcwCd3GnfupO64epFFSs2guHpGA.jpg?scale-down-to=512&width=3840&height=2160 512w,https://framerusercontent.com/images/JcwCd3GnfupO64epFFSs2guHpGA.jpg?scale-down-to=1024&width=3840&height=2160 1024w,https://framerusercontent.com/images/JcwCd3GnfupO64epFFSs2guHpGA.jpg?scale-down-to=2048&width=3840&height=2160 2048w,https://framerusercontent.com/images/JcwCd3GnfupO64epFFSs2guHpGA.jpg?width=3840&height=2160 3840w",
+      "alt": "Volunteers restoring native coastal habitat",
+      "width": "3840",
+      "height": "2160",
+      "path": [
+        "Modular Focus Posters",
+        "Layout / Modular Focus Posters",
+        "Focus Poster Grid",
+        "Restore Habitats Poster"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RnHNAsJERcKZfDBsHfO9t8WzXWU.png?width=3600&height=2400",
+      "srcset": "https://framerusercontent.com/images/RnHNAsJERcKZfDBsHfO9t8WzXWU.png?scale-down-to=512&width=3600&height=2400 512w,https://framerusercontent.com/images/RnHNAsJERcKZfDBsHfO9t8WzXWU.png?scale-down-to=1024&width=3600&height=2400 1024w,https://framerusercontent.com/images/RnHNAsJERcKZfDBsHfO9t8WzXWU.png?scale-down-to=2048&width=3600&height=2400 2048w,https://framerusercontent.com/images/RnHNAsJERcKZfDBsHfO9t8WzXWU.png?width=3600&height=2400 3600w",
+      "alt": "Community members collaborating on shoreline stewardship",
+      "width": "3600",
+      "height": "2400",
+      "path": [
+        "Modular Focus Posters",
+        "Layout / Modular Focus Posters",
+        "Focus Poster Grid",
+        "Community Poster"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tomOlLF1eaDxcfzcstkSkqPzlA.jpg?width=3589&height=4641",
+      "srcset": "https://framerusercontent.com/images/tomOlLF1eaDxcfzcstkSkqPzlA.jpg?scale-down-to=1024&width=3589&height=4641 791w,https://framerusercontent.com/images/tomOlLF1eaDxcfzcstkSkqPzlA.jpg?scale-down-to=2048&width=3589&height=4641 1583w,https://framerusercontent.com/images/tomOlLF1eaDxcfzcstkSkqPzlA.jpg?scale-down-to=4096&width=3589&height=4641 3167w,https://framerusercontent.com/images/tomOlLF1eaDxcfzcstkSkqPzlA.jpg?width=3589&height=4641 3589w",
+      "alt": "Young ocean stewards learning through fieldwork",
+      "width": "3589",
+      "height": "4641",
+      "path": [
+        "Modular Focus Posters",
+        "Layout / Modular Focus Posters",
+        "Focus Poster Grid",
+        "Stewardship Poster"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center bottom;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/O1aITKWO7Nyem7sMeig7LyTBSw.jpg?width=7952&height=5304",
+      "srcset": "https://framerusercontent.com/images/O1aITKWO7Nyem7sMeig7LyTBSw.jpg?scale-down-to=512&width=7952&height=5304 512w,https://framerusercontent.com/images/O1aITKWO7Nyem7sMeig7LyTBSw.jpg?scale-down-to=1024&width=7952&height=5304 1024w,https://framerusercontent.com/images/O1aITKWO7Nyem7sMeig7LyTBSw.jpg?scale-down-to=2048&width=7952&height=5304 2048w,https://framerusercontent.com/images/O1aITKWO7Nyem7sMeig7LyTBSw.jpg?scale-down-to=4096&width=7952&height=5304 4096w,https://framerusercontent.com/images/O1aITKWO7Nyem7sMeig7LyTBSw.jpg?width=7952&height=5304 7952w",
+      "alt": "Sunlight filtering through clear coastal water",
+      "width": "7952",
+      "height": "5304",
+      "path": [
+        "Ocean Quote",
+        "Underwater Atmosphere"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/yRhTPyjZ6eVEPA3N91KhTCM8Es.jpg?width=4000&height=3000",
+      "srcset": "https://framerusercontent.com/images/yRhTPyjZ6eVEPA3N91KhTCM8Es.jpg?scale-down-to=512&width=4000&height=3000 512w,https://framerusercontent.com/images/yRhTPyjZ6eVEPA3N91KhTCM8Es.jpg?scale-down-to=1024&width=4000&height=3000 1024w,https://framerusercontent.com/images/yRhTPyjZ6eVEPA3N91KhTCM8Es.jpg?scale-down-to=2048&width=4000&height=3000 2048w,https://framerusercontent.com/images/yRhTPyjZ6eVEPA3N91KhTCM8Es.jpg?width=4000&height=3000 4000w",
+      "alt": "Coastal landscape beside calm blue water",
+      "width": "4000",
+      "height": "3000",
+      "path": [
+        "Newsletter"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center bottom;object-fit:cover",
+      "box": null
+    }
+  ],
+  "videoReferences": [],
+  "linksDeclaredInSource": [
+    "https://coastkind-collective.framer.website/",
+    "https://coastkind-collective.framer.website/donate",
+    "https://coastkind-collective.framer.website/focus-areas",
+    "https://coastkind-collective.framer.website/get-involved",
+    "https://coastkind-collective.framer.website/impact",
+    "https://coastkind-collective.framer.website/mission",
+    "https://coastkind-collective.framer.website/newsletter",
+    "https://coastkind-collective.framer.website/partners",
+    "https://coastkind-collective.framer.website/programs",
+    "https://coastkind-collective.framer.website/reports",
+    "https://coastkind-collective.framer.website/stories",
+    "https://coastkind-collective.framer.website/team",
+    "https://www.framer.com"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://image.mux.com/OdNs5vpCYZRfSWIMZEht1UGh3jFX01Nfhxe23WfMePaA/thumbnail.webp?time=31"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F9033e3bf-7790-4b39-8873-bcc00be160b6%2F01a09cc1-93b7-7198-806d-12cc5ed9573f.webp&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F9033e3bf-7790-4b39-8873-bcc00be160b6%2F01a09cc1-b2e9-7518-84d4-c5f77e66fcd9.webp&w=2048&q=80"
+    }
+  ],
+  "category": {
+    "parent": "Nonprofits",
+    "branch": "Environmental / conservation organization",
+    "fitEvidence": "Official listing explicitly names environmental nonprofits and conservation organizations; home and routes emphasize coastal focus areas, programs, impact reports, field stories and involvement.",
+    "marketplace": "https://www.framer.com/marketplace/templates/coastkind-collective/"
+  },
+  "backendVerified": false,
+  "secondaryDeclarationsFile": "secondary-declarations.json",
+  "regulatedContentScope": "Design reference only. Financial, medical and donation copy is source context, not advice or verified claims. Authentication, payment, forms, appointments and donations were not tested.",
+  "captureRasterPx": {
+    "width": 1348,
+    "height": 926
+  },
+  "browserObservationsFile": "BROWSER-OBSERVATIONS.json",
+  "nativeBrowserCaptures": [
+    {
+      "file": "screenshots/live-home.jpg",
+      "label": "home",
+      "url": "https://coastkind-collective.framer.website/",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    },
+    {
+      "file": "screenshots/live-secondary.jpg",
+      "label": "secondary",
+      "url": "https://coastkind-collective.framer.website/donate",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    }
+  ],
+  "phoneTabletRendered": false
+}

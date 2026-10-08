@@ -1,0 +1,583 @@
+{
+  "name": "Supportify",
+  "source": "https://supportify.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#f5f5f7",
+    "paper": "#ffffff",
+    "ink": "#000000",
+    "accent": "#000000",
+    "muted": "#666666"
+  },
+  "type": {
+    "body": "Inter",
+    "display": "Inter",
+    "roles": [
+      {
+        "role": "Wordmark",
+        "family": "Inter",
+        "weight": 700,
+        "sizePx": 16.0,
+        "linePx": 24.0,
+        "tracking": "0"
+      },
+      {
+        "role": "Primary navigation / topic title",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 16.0,
+        "linePx": 24.0,
+        "tracking": "0em"
+      },
+      {
+        "role": "Help-center h1 / desktop",
+        "family": "Inter",
+        "weight": 700,
+        "sizePx": 48.0,
+        "linePx": 57.6,
+        "tracking": "0em"
+      },
+      {
+        "role": "Header description",
+        "family": "Inter",
+        "weight": 400,
+        "sizePx": 20.0,
+        "linePx": 28.0,
+        "tracking": "0em"
+      },
+      {
+        "role": "Topic excerpt / article body",
+        "family": "Inter",
+        "weight": 400,
+        "sizePx": 16.0,
+        "linePx": 24.0,
+        "tracking": "0em"
+      },
+      {
+        "role": "Quick links / section h2",
+        "family": "Inter",
+        "weight": 700,
+        "sizePx": 24.0,
+        "linePx": 28.8,
+        "tracking": "0em"
+      },
+      {
+        "role": "Subscribe action",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 16.0,
+        "linePx": 19.2,
+        "tracking": "0em"
+      },
+      {
+        "role": "Form consent",
+        "family": "Inter",
+        "weight": 400,
+        "sizePx": 14.0,
+        "linePx": 19.6,
+        "tracking": "0em"
+      },
+      {
+        "role": "Article h1 / desktop",
+        "family": "Inter",
+        "weight": 700,
+        "sizePx": 32.0,
+        "linePx": 38.4,
+        "tracking": "0em"
+      },
+      {
+        "role": "Article h2",
+        "family": "Inter",
+        "weight": 700,
+        "sizePx": 24.0,
+        "linePx": 28.8,
+        "tracking": "0em"
+      },
+      {
+        "role": "Article h3",
+        "family": "Inter",
+        "weight": 700,
+        "sizePx": 20.0,
+        "linePx": 24.0,
+        "tracking": "0em"
+      }
+    ],
+    "rolesEvidence": "Source HTML/CSS declaration roles in supportify-evidence-root. Unconditional base presets are selected before local inline overrides; media presets retained separately. documentation-custom-declarations.json preserves native pre/table/code/control nodes the generic collector misses. Numeric line heights are converted, not rendered measurements.",
+    "sourceRoleDetails": [
+      {
+        "role": "Wordmark",
+        "sourcePage": "https://supportify.framer.website/",
+        "tag": "p",
+        "path": [
+          "Desktop",
+          "Wrapper"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Inter-Bold\", \"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "700",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-999c6553-ad39-4e2a-ade1-cc0016e11e3c, rgb(0, 0, 0)))",
+          "--framer-font-size": "16px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-line-height": "1.5em",
+          "--framer-text-alignment": "left",
+          "--framer-font-open-type-features": "normal"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Primary navigation / topic title",
+        "sourcePage": "https://supportify.framer.website/",
+        "tag": "p",
+        "path": [
+          "Desktop",
+          "Wrapper"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-f79ec14e-64e5-49d9-9f42-73982118a264, rgba(0, 0, 0, .8))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Unconditional base preset plus local inline overrides; media presets separately recorded; not rendered measurements"
+      },
+      {
+        "role": "Help-center h1 / desktop",
+        "sourcePage": "https://supportify.framer.website/",
+        "tag": "h1",
+        "path": [
+          "Content",
+          "Wrapper",
+          "Header"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "48px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-weight": "700",
+          "--framer-font-weight-bold": "900",
+          "--framer-font-weight-bold-italic": "900",
+          "--framer-font-weight-italic": "700",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-999c6553-ad39-4e2a-ade1-cc0016e11e3c, #000000)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Unconditional base preset plus local inline overrides; media presets separately recorded; not rendered measurements"
+      },
+      {
+        "role": "Header description",
+        "sourcePage": "https://supportify.framer.website/",
+        "tag": "p",
+        "path": [
+          "Content",
+          "Wrapper",
+          "Header"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Inter\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "20px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.4em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-f79ec14e-64e5-49d9-9f42-73982118a264, rgba(0, 0, 0, 0.8))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Unconditional base preset plus local inline overrides; media presets separately recorded; not rendered measurements"
+      },
+      {
+        "role": "Topic excerpt / article body",
+        "sourcePage": "https://supportify.framer.website/",
+        "tag": "p",
+        "path": [
+          "Content",
+          "Wrapper",
+          "Categories",
+          "Desktop",
+          "Wrapper",
+          "Excerpt"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Inter\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-f79ec14e-64e5-49d9-9f42-73982118a264, rgba(0, 0, 0, .8))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Unconditional base preset plus local inline overrides; media presets separately recorded; not rendered measurements"
+      },
+      {
+        "role": "Quick links / section h2",
+        "sourcePage": "https://supportify.framer.website/",
+        "tag": "h2",
+        "path": [
+          "Content",
+          "Wrapper",
+          "Quick Links",
+          "Header"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "24px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-weight": "700",
+          "--framer-font-weight-bold": "900",
+          "--framer-font-weight-bold-italic": "900",
+          "--framer-font-weight-italic": "700",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-999c6553-ad39-4e2a-ade1-cc0016e11e3c, #000000)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Unconditional base preset plus local inline overrides; media presets separately recorded; not rendered measurements"
+      },
+      {
+        "role": "Subscribe action",
+        "sourcePage": "https://supportify.framer.website/",
+        "tag": "p",
+        "path": [
+          "Content",
+          "Wrapper",
+          "Desktop",
+          "Content",
+          "Newsletter Form",
+          "Default"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Inter-Medium\", \"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter-Bold\", \"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter-BoldItalic\", \"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter-MediumItalic\", \"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-fa37a715-ffd2-4e7b-8e93-43f73d2c52fb, rgba(255, 255, 255, 0.8)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Unconditional base preset plus local inline overrides; media presets separately recorded; not rendered measurements"
+      },
+      {
+        "role": "Form consent",
+        "sourcePage": "https://supportify.framer.website/",
+        "tag": "p",
+        "path": [
+          "Content",
+          "Wrapper",
+          "Desktop",
+          "Content"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Inter\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.4em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-f79ec14e-64e5-49d9-9f42-73982118a264, rgba(0, 0, 0, 0.8)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Unconditional base preset plus local inline overrides; media presets separately recorded; not rendered measurements"
+      },
+      {
+        "role": "Article h1 / desktop",
+        "sourcePage": "https://supportify.framer.website/articles/how-to-use-my-template-effectively",
+        "tag": "h1",
+        "path": [
+          "Content",
+          "Wrapper",
+          "Article",
+          "Header"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "32px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-weight": "700",
+          "--framer-font-weight-bold": "900",
+          "--framer-font-weight-bold-italic": "900",
+          "--framer-font-weight-italic": "700",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-999c6553-ad39-4e2a-ade1-cc0016e11e3c, #000000)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Unconditional base preset plus local inline overrides; media presets separately recorded; not rendered measurements"
+      },
+      {
+        "role": "Article h2",
+        "sourcePage": "https://supportify.framer.website/articles/how-to-use-my-template-effectively",
+        "tag": "h2",
+        "path": [
+          "Content",
+          "Wrapper",
+          "Article"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "24px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-weight": "700",
+          "--framer-font-weight-bold": "900",
+          "--framer-font-weight-bold-italic": "900",
+          "--framer-font-weight-italic": "700",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-999c6553-ad39-4e2a-ade1-cc0016e11e3c, #000000)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Unconditional base preset plus local inline overrides; media presets separately recorded; not rendered measurements"
+      },
+      {
+        "role": "Article h3",
+        "sourcePage": "https://supportify.framer.website/articles/how-to-use-my-template-effectively",
+        "tag": "h3",
+        "path": [
+          "Content",
+          "Wrapper",
+          "Article"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "20px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-weight": "700",
+          "--framer-font-weight-bold": "900",
+          "--framer-font-weight-bold-italic": "900",
+          "--framer-font-weight-italic": "700",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-999c6553-ad39-4e2a-ade1-cc0016e11e3c, #000000)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Unconditional base preset plus local inline overrides; media presets separately recorded; not rendered measurements"
+      }
+    ],
+    "variationAxes": {
+      "source": "No custom numeric variation axes found in selected type declarations."
+    },
+    "systemFontFamilies": []
+  },
+  "spacing": {
+    "desktopGutterPx": 40,
+    "componentGapPx": 20,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 0,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199px)",
+      "@media(max-width: 809px)",
+      "@media (prefers-color-scheme: dark)",
+      "@media (min-width: 810px) and (max-width: 1199px)",
+      "@media (max-width: 809px)",
+      "@media (max-width: 1199px) and (min-width: 810px)",
+      "@media (max-width: 809px) and (min-width: 0px)",
+      "@media (max-width: 1199px) and (min-width: 0px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      0.0,
+      809.0,
+      810.0,
+      1199.0,
+      1200.0
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Documentation / help centers",
+    "branch": "Customer knowledge base",
+    "fitEvidence": "Standalone help-center root with global search/navigation, six support topic collections and an eight-link direct-answer index. Inspected article route contains collection breadcrumb, heading/dek/body, related articles and Contact Support escalation, establishing customer self-service knowledge-base fit."
+  },
+  "sectionAnchors": [
+    {
+      "id": "main",
+      "tag": "div",
+      "path": [],
+      "meaning": "Source DOM ID; no invented content anchor"
+    }
+  ],
+  "sourceColorContext": "Base canvas token is rgb245,245,247 (#f5f5f7), text is black with80/60/40/20% opacity variants and white inverse palette. Dark canvas token is rgb30,30,36 (#1e1e24) and text becomes white. Accent is intentionally black in the light study because the source identity is monochrome. muted#666666 approximates black60% over white as a recommendation, not a literal token.",
+  "siteBlueprint": {
+    "file": "SITE-BLUEPRINT.md",
+    "backendVerified": false
+  }
+}

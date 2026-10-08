@@ -1,0 +1,1634 @@
+{
+  "name": "Charity Foundation",
+  "source": "https://interactive-channel-508354.framer.app/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#f3eee4",
+    "paper": "#fffdf8",
+    "ink": "#12131f",
+    "accent": "#f2a33a",
+    "muted": "#6c6878"
+  },
+  "type": {
+    "body": "Instrument Sans",
+    "display": "Fraunces",
+    "roles": [
+      {
+        "role": "Wordmark",
+        "family": "Fraunces",
+        "weight": 420,
+        "sizePx": 24,
+        "linePx": 24,
+        "tracking": "-.01em"
+      },
+      {
+        "role": "Hero eyebrow",
+        "family": "JetBrains Mono",
+        "weight": 400,
+        "sizePx": 12,
+        "linePx": 18,
+        "tracking": ".14em"
+      },
+      {
+        "role": "Hero display desktop",
+        "family": "Fraunces",
+        "weight": 420,
+        "sizePx": 80,
+        "linePx": 78.4,
+        "tracking": "-.028em"
+      },
+      {
+        "role": "Hero display tablet",
+        "family": "Fraunces",
+        "weight": 420,
+        "sizePx": 64,
+        "linePx": 62.72,
+        "tracking": "-.028em"
+      },
+      {
+        "role": "Hero display phone",
+        "family": "Fraunces",
+        "weight": 420,
+        "sizePx": 42,
+        "linePx": 42.84,
+        "tracking": "-.028em"
+      },
+      {
+        "role": "Hero body",
+        "family": "Instrument Sans",
+        "weight": 400,
+        "sizePx": 17,
+        "linePx": 25.5,
+        "tracking": "0"
+      },
+      {
+        "role": "Hero phone body",
+        "family": "Instrument Sans",
+        "weight": 400,
+        "sizePx": 14.5,
+        "linePx": 21.025,
+        "tracking": "0"
+      },
+      {
+        "role": "Gift frequency/amount",
+        "family": "Instrument Sans",
+        "weight": 600,
+        "sizePx": 16,
+        "linePx": 16,
+        "tracking": "0"
+      },
+      {
+        "role": "Gift outcome",
+        "family": "Fraunces",
+        "weight": 420,
+        "sizePx": 25,
+        "linePx": 28.75,
+        "tracking": "-.015em"
+      },
+      {
+        "role": "Hero proof",
+        "family": "JetBrains Mono",
+        "weight": 500,
+        "sizePx": 11,
+        "linePx": 14.3,
+        "tracking": ".12em"
+      },
+      {
+        "role": "Section eyebrow",
+        "family": "JetBrains Mono",
+        "weight": 400,
+        "sizePx": 12,
+        "linePx": 18,
+        "tracking": ".14em"
+      },
+      {
+        "role": "Section h2 clamp upper endpoint",
+        "family": "Fraunces",
+        "weight": 420,
+        "sizePx": 64,
+        "linePx": 66.56,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Section h2 phone clamp upper endpoint",
+        "family": "Fraunces",
+        "weight": 420,
+        "sizePx": 46,
+        "linePx": 47.84,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Intro body",
+        "family": "Instrument Sans",
+        "weight": 400,
+        "sizePx": 17,
+        "linePx": 27.2,
+        "tracking": "0"
+      },
+      {
+        "role": "Pill action",
+        "family": "Instrument Sans",
+        "weight": 600,
+        "sizePx": 14.5,
+        "linePx": 14.5,
+        "tracking": "0"
+      }
+    ],
+    "rolesEvidence": "Direct custom component CSS/inline declarations in custom-declarations.json, with Google Fonts linked stylesheet saved in custom-fonts-public.css. Fraunces weight420 is source fallback, not rounded to400. Hero span80px/.98; phone42px/1.02; h2 clamp(40px,4.3vw,64px) and phone clamp(36px,10.4vw,46px) are represented by labelled upper endpoints, not rendered measurements. Base declarations precede media variants. Generic Framer role extraction misses these custom components.",
+    "sourceRoleDetails": [
+      {
+        "role": "Wordmark",
+        "familyResolvedFromFallback": "Fraunces",
+        "selector": ".wshd-logo",
+        "rules": [
+          {
+            "selector": ".wshd-logo",
+            "mediaContext": [],
+            "declarations": {
+              "display": "inline-flex",
+              "align-items": "center",
+              "gap": "10px",
+              "flex": "none",
+              "font-size": "24px",
+              "line-height": "1",
+              "letter-spacing": "-.01em",
+              "text-decoration": "none",
+              "color": "inherit",
+              "white-space": "nowrap",
+              "padding": "8px 0",
+              "border-radius": "8px"
+            }
+          }
+        ],
+        "inlineNodes": [
+          {
+            "tag": "a",
+            "text": "Wellspring",
+            "path": [
+              "\u2460 HEADER \u2014 links, Donate button, phone menu, site-wide fonts",
+              "WsHeader"
+            ],
+            "attributes": {
+              "class": "wshd-logo",
+              "href": "/",
+              "aria-label": "Wellspring home",
+              "style": "font-family:var(--ws-font-d, 'Fraunces'), Georgia, 'Times New Roman', serif;font-weight:var(--ws-font-dw, 420);font-style:normal"
+            }
+          }
+        ],
+        "basis": "custom CSS + source inline attributes; endpoint roles preserve clamp string below"
+      },
+      {
+        "role": "Hero eyebrow",
+        "familyResolvedFromFallback": "JetBrains Mono",
+        "selector": ".wsh-eb",
+        "rules": [
+          {
+            "selector": ".wsh-eb",
+            "mediaContext": [],
+            "declarations": {
+              "font-size": "12px",
+              "font-weight": "500",
+              "letter-spacing": ".14em",
+              "text-transform": "uppercase",
+              "line-height": "1.5",
+              "color": "color-mix(in srgb,var(--ws-brass) 62%,var(--ws-cloud))",
+              "text-shadow": "0 1px 12px color-mix(in srgb,var(--ws-night) 80%,transparent)"
+            }
+          },
+          {
+            "selector": ".wsh-eb",
+            "mediaContext": [],
+            "declarations": {
+              "font-size": "12px",
+              "font-weight": "500",
+              "letter-spacing": ".14em",
+              "text-transform": "uppercase",
+              "line-height": "1.5",
+              "color": "color-mix(in srgb,var(--ws-brass) 62%,var(--ws-cloud))",
+              "text-shadow": "0 1px 12px color-mix(in srgb,var(--ws-night) 80%,transparent)"
+            }
+          },
+          {
+            "selector": ".wsh-eb",
+            "mediaContext": [],
+            "declarations": {
+              "font-size": "12px",
+              "font-weight": "500",
+              "letter-spacing": ".14em",
+              "text-transform": "uppercase",
+              "line-height": "1.5",
+              "color": "color-mix(in srgb,var(--ws-brass) 62%,var(--ws-cloud))",
+              "text-shadow": "0 1px 12px color-mix(in srgb,var(--ws-night) 80%,transparent)"
+            }
+          }
+        ],
+        "inlineNodes": [
+          {
+            "tag": "span",
+            "text": "Charity foundation \u00b7 Nonprofit NGO",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-eb",
+              "style": "font-family:var(--ws-font-m, 'JetBrains Mono'), ui-monospace, SFMono-Regular, Menlo, monospace;font-weight:var(--ws-font-mw, 400);opacity:0;translate:0 14px;transition:opacity .9s ease 120ms, translate 1s cubic-bezier(.2,.8,.2,1) 120ms"
+            }
+          },
+          {
+            "tag": "span",
+            "text": "Charity foundation \u00b7 Nonprofit NGO",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-eb",
+              "style": "font-family:var(--ws-font-m, 'JetBrains Mono'), ui-monospace, SFMono-Regular, Menlo, monospace;font-weight:var(--ws-font-mw, 400);opacity:0;translate:0 14px;transition:opacity .9s ease 120ms, translate 1s cubic-bezier(.2,.8,.2,1) 120ms"
+            }
+          },
+          {
+            "tag": "span",
+            "text": "Charity foundation \u00b7 Nonprofit NGO",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-eb",
+              "style": "font-family:var(--ws-font-m, 'JetBrains Mono'), ui-monospace, SFMono-Regular, Menlo, monospace;font-weight:var(--ws-font-mw, 400);opacity:0;translate:0 14px;transition:opacity .9s ease 120ms, translate 1s cubic-bezier(.2,.8,.2,1) 120ms"
+            }
+          }
+        ],
+        "basis": "custom CSS + source inline attributes; endpoint roles preserve clamp string below"
+      },
+      {
+        "role": "Hero display desktop",
+        "familyResolvedFromFallback": "Fraunces",
+        "selector": ".wsh-hl",
+        "rules": [
+          {
+            "selector": ".wsh-hl",
+            "mediaContext": [],
+            "declarations": {
+              "margin-top": "20px",
+              "line-height": ".98",
+              "letter-spacing": "-.028em",
+              "font-variation-settings": "\"opsz\" 144,\"SOFT\" 0,\"WONK\" 0",
+              "color": "var(--ws-cloud)",
+              "text-wrap": "balance",
+              "text-shadow": "0 2px 30px color-mix(in srgb,var(--ws-night) 60%,transparent)"
+            }
+          },
+          {
+            "selector": ".wsh-hl",
+            "mediaContext": [],
+            "declarations": {
+              "margin-top": "20px",
+              "line-height": ".98",
+              "letter-spacing": "-.028em",
+              "font-variation-settings": "\"opsz\" 144,\"SOFT\" 0,\"WONK\" 0",
+              "color": "var(--ws-cloud)",
+              "text-wrap": "balance",
+              "text-shadow": "0 2px 30px color-mix(in srgb,var(--ws-night) 60%,transparent)"
+            }
+          },
+          {
+            "selector": ".wsh-hl",
+            "mediaContext": [],
+            "declarations": {
+              "margin-top": "20px",
+              "line-height": ".98",
+              "letter-spacing": "-.028em",
+              "font-variation-settings": "\"opsz\" 144,\"SOFT\" 0,\"WONK\" 0",
+              "color": "var(--ws-cloud)",
+              "text-wrap": "balance",
+              "text-shadow": "0 2px 30px color-mix(in srgb,var(--ws-night) 60%,transparent)"
+            }
+          }
+        ],
+        "inlineNodes": [
+          {
+            "tag": "span",
+            "text": "Every gift a home.lights",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-hl",
+              "style": "font-family:var(--ws-font-d, 'Fraunces'), Georgia, 'Times New Roman', serif;font-weight:var(--ws-font-dw, 420);font-style:normal;font-size:80px;opacity:0;translate:0 22px;transition:opacity .9s ease 220ms, translate 1s cubic-bezier(.2,.8,.2,1) 220ms"
+            }
+          },
+          {
+            "tag": "span",
+            "text": "Every gift a home.lights",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-hl",
+              "style": "font-family:var(--ws-font-d, 'Fraunces'), Georgia, 'Times New Roman', serif;font-weight:var(--ws-font-dw, 420);font-style:normal;font-size:42px;opacity:0;translate:0 22px;transition:opacity .9s ease 220ms, translate 1s cubic-bezier(.2,.8,.2,1) 220ms"
+            }
+          },
+          {
+            "tag": "span",
+            "text": "Every gift a home.lights",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-hl",
+              "style": "font-family:var(--ws-font-d, 'Fraunces'), Georgia, 'Times New Roman', serif;font-weight:var(--ws-font-dw, 420);font-style:normal;font-size:64px;opacity:0;translate:0 22px;transition:opacity .9s ease 220ms, translate 1s cubic-bezier(.2,.8,.2,1) 220ms"
+            }
+          }
+        ],
+        "basis": "custom CSS + source inline attributes; endpoint roles preserve clamp string below"
+      },
+      {
+        "role": "Hero display tablet",
+        "familyResolvedFromFallback": "Fraunces",
+        "selector": ".wsh-hl",
+        "rules": [
+          {
+            "selector": ".wsh-hl",
+            "mediaContext": [],
+            "declarations": {
+              "margin-top": "20px",
+              "line-height": ".98",
+              "letter-spacing": "-.028em",
+              "font-variation-settings": "\"opsz\" 144,\"SOFT\" 0,\"WONK\" 0",
+              "color": "var(--ws-cloud)",
+              "text-wrap": "balance",
+              "text-shadow": "0 2px 30px color-mix(in srgb,var(--ws-night) 60%,transparent)"
+            }
+          },
+          {
+            "selector": ".wsh-hl",
+            "mediaContext": [],
+            "declarations": {
+              "margin-top": "20px",
+              "line-height": ".98",
+              "letter-spacing": "-.028em",
+              "font-variation-settings": "\"opsz\" 144,\"SOFT\" 0,\"WONK\" 0",
+              "color": "var(--ws-cloud)",
+              "text-wrap": "balance",
+              "text-shadow": "0 2px 30px color-mix(in srgb,var(--ws-night) 60%,transparent)"
+            }
+          },
+          {
+            "selector": ".wsh-hl",
+            "mediaContext": [],
+            "declarations": {
+              "margin-top": "20px",
+              "line-height": ".98",
+              "letter-spacing": "-.028em",
+              "font-variation-settings": "\"opsz\" 144,\"SOFT\" 0,\"WONK\" 0",
+              "color": "var(--ws-cloud)",
+              "text-wrap": "balance",
+              "text-shadow": "0 2px 30px color-mix(in srgb,var(--ws-night) 60%,transparent)"
+            }
+          }
+        ],
+        "inlineNodes": [
+          {
+            "tag": "span",
+            "text": "Every gift a home.lights",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-hl",
+              "style": "font-family:var(--ws-font-d, 'Fraunces'), Georgia, 'Times New Roman', serif;font-weight:var(--ws-font-dw, 420);font-style:normal;font-size:80px;opacity:0;translate:0 22px;transition:opacity .9s ease 220ms, translate 1s cubic-bezier(.2,.8,.2,1) 220ms"
+            }
+          },
+          {
+            "tag": "span",
+            "text": "Every gift a home.lights",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-hl",
+              "style": "font-family:var(--ws-font-d, 'Fraunces'), Georgia, 'Times New Roman', serif;font-weight:var(--ws-font-dw, 420);font-style:normal;font-size:42px;opacity:0;translate:0 22px;transition:opacity .9s ease 220ms, translate 1s cubic-bezier(.2,.8,.2,1) 220ms"
+            }
+          },
+          {
+            "tag": "span",
+            "text": "Every gift a home.lights",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-hl",
+              "style": "font-family:var(--ws-font-d, 'Fraunces'), Georgia, 'Times New Roman', serif;font-weight:var(--ws-font-dw, 420);font-style:normal;font-size:64px;opacity:0;translate:0 22px;transition:opacity .9s ease 220ms, translate 1s cubic-bezier(.2,.8,.2,1) 220ms"
+            }
+          }
+        ],
+        "basis": "custom CSS + source inline attributes; endpoint roles preserve clamp string below"
+      },
+      {
+        "role": "Hero display phone",
+        "familyResolvedFromFallback": "Fraunces",
+        "selector": ".wsh.is-ph .wsh-hl",
+        "rules": [
+          {
+            "selector": ".wsh.is-ph .wsh-hl",
+            "mediaContext": [],
+            "declarations": {
+              "margin-top": "12px",
+              "line-height": "1.02"
+            }
+          },
+          {
+            "selector": ".wsh.is-ph .wsh-hl",
+            "mediaContext": [],
+            "declarations": {
+              "margin-top": "12px",
+              "line-height": "1.02"
+            }
+          },
+          {
+            "selector": ".wsh.is-ph .wsh-hl",
+            "mediaContext": [],
+            "declarations": {
+              "margin-top": "12px",
+              "line-height": "1.02"
+            }
+          }
+        ],
+        "inlineNodes": [
+          {
+            "tag": "span",
+            "text": "Every gift a home.lights",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-hl",
+              "style": "font-family:var(--ws-font-d, 'Fraunces'), Georgia, 'Times New Roman', serif;font-weight:var(--ws-font-dw, 420);font-style:normal;font-size:80px;opacity:0;translate:0 22px;transition:opacity .9s ease 220ms, translate 1s cubic-bezier(.2,.8,.2,1) 220ms"
+            }
+          },
+          {
+            "tag": "span",
+            "text": "Every gift a home.lights",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-hl",
+              "style": "font-family:var(--ws-font-d, 'Fraunces'), Georgia, 'Times New Roman', serif;font-weight:var(--ws-font-dw, 420);font-style:normal;font-size:42px;opacity:0;translate:0 22px;transition:opacity .9s ease 220ms, translate 1s cubic-bezier(.2,.8,.2,1) 220ms"
+            }
+          },
+          {
+            "tag": "span",
+            "text": "Every gift a home.lights",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-hl",
+              "style": "font-family:var(--ws-font-d, 'Fraunces'), Georgia, 'Times New Roman', serif;font-weight:var(--ws-font-dw, 420);font-style:normal;font-size:64px;opacity:0;translate:0 22px;transition:opacity .9s ease 220ms, translate 1s cubic-bezier(.2,.8,.2,1) 220ms"
+            }
+          }
+        ],
+        "basis": "custom CSS + source inline attributes; endpoint roles preserve clamp string below"
+      },
+      {
+        "role": "Hero body",
+        "familyResolvedFromFallback": "Instrument Sans",
+        "selector": ".wsh-sub",
+        "rules": [
+          {
+            "selector": ".wsh-sub",
+            "mediaContext": [],
+            "declarations": {
+              "margin": "22px 0 0",
+              "max-width": "470px",
+              "font-size": "17px",
+              "line-height": "1.5",
+              "color": "color-mix(in srgb,var(--ws-cloud) 90%,var(--ws-night))",
+              "text-shadow": "0 1px 16px color-mix(in srgb,var(--ws-night) 80%,transparent)"
+            }
+          },
+          {
+            "selector": ".wsh-sub",
+            "mediaContext": [],
+            "declarations": {
+              "margin": "22px 0 0",
+              "max-width": "470px",
+              "font-size": "17px",
+              "line-height": "1.5",
+              "color": "color-mix(in srgb,var(--ws-cloud) 90%,var(--ws-night))",
+              "text-shadow": "0 1px 16px color-mix(in srgb,var(--ws-night) 80%,transparent)"
+            }
+          },
+          {
+            "selector": ".wsh-sub",
+            "mediaContext": [],
+            "declarations": {
+              "margin": "22px 0 0",
+              "max-width": "470px",
+              "font-size": "17px",
+              "line-height": "1.5",
+              "color": "color-mix(in srgb,var(--ws-cloud) 90%,var(--ws-night))",
+              "text-shadow": "0 1px 16px color-mix(in srgb,var(--ws-night) 80%,transparent)"
+            }
+          }
+        ],
+        "inlineNodes": [
+          {
+            "tag": "p",
+            "text": "Wellspring is a nonprofit foundation that brings solar light, clean water and schooling to mountain ",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-sub",
+              "style": "opacity:0;translate:0 16px;transition:opacity .9s ease 360ms, translate 1s cubic-bezier(.2,.8,.2,1) 360ms"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "Wellspring is a nonprofit foundation that brings solar light, clean water and schooling to mountain ",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-sub",
+              "style": "opacity:0;translate:0 16px;transition:opacity .9s ease 360ms, translate 1s cubic-bezier(.2,.8,.2,1) 360ms"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "Wellspring is a nonprofit foundation that brings solar light, clean water and schooling to mountain ",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-sub",
+              "style": "opacity:0;translate:0 16px;transition:opacity .9s ease 360ms, translate 1s cubic-bezier(.2,.8,.2,1) 360ms"
+            }
+          }
+        ],
+        "basis": "custom CSS + source inline attributes; endpoint roles preserve clamp string below"
+      },
+      {
+        "role": "Hero phone body",
+        "familyResolvedFromFallback": "Instrument Sans",
+        "selector": ".wsh.is-ph .wsh-sub",
+        "rules": [
+          {
+            "selector": ".wsh.is-ph .wsh-sub",
+            "mediaContext": [],
+            "declarations": {
+              "margin-top": "12px",
+              "font-size": "14.5px",
+              "line-height": "1.45",
+              "max-width": "340px"
+            }
+          },
+          {
+            "selector": ".wsh.is-ph .wsh-sub",
+            "mediaContext": [],
+            "declarations": {
+              "margin-top": "12px",
+              "font-size": "14.5px",
+              "line-height": "1.45",
+              "max-width": "340px"
+            }
+          },
+          {
+            "selector": ".wsh.is-ph .wsh-sub",
+            "mediaContext": [],
+            "declarations": {
+              "margin-top": "12px",
+              "font-size": "14.5px",
+              "line-height": "1.45",
+              "max-width": "340px"
+            }
+          }
+        ],
+        "inlineNodes": [
+          {
+            "tag": "p",
+            "text": "Wellspring is a nonprofit foundation that brings solar light, clean water and schooling to mountain ",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-sub",
+              "style": "opacity:0;translate:0 16px;transition:opacity .9s ease 360ms, translate 1s cubic-bezier(.2,.8,.2,1) 360ms"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "Wellspring is a nonprofit foundation that brings solar light, clean water and schooling to mountain ",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-sub",
+              "style": "opacity:0;translate:0 16px;transition:opacity .9s ease 360ms, translate 1s cubic-bezier(.2,.8,.2,1) 360ms"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "Wellspring is a nonprofit foundation that brings solar light, clean water and schooling to mountain ",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-sub",
+              "style": "opacity:0;translate:0 16px;transition:opacity .9s ease 360ms, translate 1s cubic-bezier(.2,.8,.2,1) 360ms"
+            }
+          }
+        ],
+        "basis": "custom CSS + source inline attributes; endpoint roles preserve clamp string below"
+      },
+      {
+        "role": "Gift frequency/amount",
+        "familyResolvedFromFallback": "Instrument Sans",
+        "selector": ".wsh-seg button",
+        "rules": [
+          {
+            "selector": ".wsh-seg button",
+            "mediaContext": [],
+            "declarations": {
+              "position": "relative",
+              "z-index": "1",
+              "border": "0",
+              "background": "none",
+              "margin": "0",
+              "padding": "0",
+              "height": "46px",
+              "border-radius": "999px",
+              "cursor": "pointer",
+              "font": "inherit",
+              "font-size": "16px",
+              "font-weight": "600",
+              "line-height": "1",
+              "color": "var(--ws-cloud)",
+              "transition": "color .3s .05s",
+              "-webkit-appearance": "none",
+              "appearance": "none",
+              "-webkit-tap-highlight-color": "transparent"
+            }
+          },
+          {
+            "selector": ".wsh-seg button",
+            "mediaContext": [],
+            "declarations": {
+              "position": "relative",
+              "z-index": "1",
+              "border": "0",
+              "background": "none",
+              "margin": "0",
+              "padding": "0",
+              "height": "46px",
+              "border-radius": "999px",
+              "cursor": "pointer",
+              "font": "inherit",
+              "font-size": "16px",
+              "font-weight": "600",
+              "line-height": "1",
+              "color": "var(--ws-cloud)",
+              "transition": "color .3s .05s",
+              "-webkit-appearance": "none",
+              "appearance": "none",
+              "-webkit-tap-highlight-color": "transparent"
+            }
+          },
+          {
+            "selector": ".wsh-seg button",
+            "mediaContext": [],
+            "declarations": {
+              "position": "relative",
+              "z-index": "1",
+              "border": "0",
+              "background": "none",
+              "margin": "0",
+              "padding": "0",
+              "height": "46px",
+              "border-radius": "999px",
+              "cursor": "pointer",
+              "font": "inherit",
+              "font-size": "16px",
+              "font-weight": "600",
+              "line-height": "1",
+              "color": "var(--ws-cloud)",
+              "transition": "color .3s .05s",
+              "-webkit-appearance": "none",
+              "appearance": "none",
+              "-webkit-tap-highlight-color": "transparent"
+            }
+          }
+        ],
+        "inlineNodes": [],
+        "basis": "custom CSS + source inline attributes; endpoint roles preserve clamp string below"
+      },
+      {
+        "role": "Gift outcome",
+        "familyResolvedFromFallback": "Fraunces",
+        "selector": ".wsh-line",
+        "rules": [
+          {
+            "selector": ".wsh-line",
+            "mediaContext": [],
+            "declarations": {
+              "margin": "16px 2px 0",
+              "min-height": "2.3em",
+              "font-size": "25px",
+              "line-height": "1.15",
+              "letter-spacing": "-.015em",
+              "font-variation-settings": "\"opsz\" 60",
+              "color": "var(--ws-cloud)",
+              "overflow": "hidden",
+              "text-wrap": "balance"
+            }
+          },
+          {
+            "selector": ".wsh-line",
+            "mediaContext": [],
+            "declarations": {
+              "margin": "16px 2px 0",
+              "min-height": "2.3em",
+              "font-size": "25px",
+              "line-height": "1.15",
+              "letter-spacing": "-.015em",
+              "font-variation-settings": "\"opsz\" 60",
+              "color": "var(--ws-cloud)",
+              "overflow": "hidden",
+              "text-wrap": "balance"
+            }
+          },
+          {
+            "selector": ".wsh-line",
+            "mediaContext": [],
+            "declarations": {
+              "margin": "16px 2px 0",
+              "min-height": "2.3em",
+              "font-size": "25px",
+              "line-height": "1.15",
+              "letter-spacing": "-.015em",
+              "font-variation-settings": "\"opsz\" 60",
+              "color": "var(--ws-cloud)",
+              "overflow": "hidden",
+              "text-wrap": "balance"
+            }
+          }
+        ],
+        "inlineNodes": [
+          {
+            "tag": "p",
+            "text": "$25 lights 3 homes for a year",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-line",
+              "style": "font-family:var(--ws-font-d, 'Fraunces'), Georgia, 'Times New Roman', serif;font-weight:var(--ws-font-dw, 420);font-style:normal",
+              "aria-live": "off"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "$25 lights 3 homes for a year",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-line",
+              "style": "font-family:var(--ws-font-d, 'Fraunces'), Georgia, 'Times New Roman', serif;font-weight:var(--ws-font-dw, 420);font-style:normal",
+              "aria-live": "off"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "$25 lights 3 homes for a year",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-line",
+              "style": "font-family:var(--ws-font-d, 'Fraunces'), Georgia, 'Times New Roman', serif;font-weight:var(--ws-font-dw, 420);font-style:normal",
+              "aria-live": "off"
+            }
+          }
+        ],
+        "basis": "custom CSS + source inline attributes; endpoint roles preserve clamp string below"
+      },
+      {
+        "role": "Hero proof",
+        "familyResolvedFromFallback": "JetBrains Mono",
+        "selector": ".wsh-proof",
+        "rules": [
+          {
+            "selector": ".wsh-proof",
+            "mediaContext": [],
+            "declarations": {
+              "position": "absolute",
+              "z-index": "6",
+              "margin": "0",
+              "display": "flex",
+              "flex-direction": "column",
+              "gap": "7px",
+              "font-size": "11px",
+              "font-weight": "500",
+              "letter-spacing": ".12em",
+              "text-transform": "uppercase",
+              "line-height": "1.3",
+              "color": "var(--ws-cloud)",
+              "text-shadow": "0 1px 10px var(--ws-night),0 0 22px var(--ws-night)"
+            }
+          },
+          {
+            "selector": ".wsh-proof",
+            "mediaContext": [],
+            "declarations": {
+              "position": "absolute",
+              "z-index": "6",
+              "margin": "0",
+              "display": "flex",
+              "flex-direction": "column",
+              "gap": "7px",
+              "font-size": "11px",
+              "font-weight": "500",
+              "letter-spacing": ".12em",
+              "text-transform": "uppercase",
+              "line-height": "1.3",
+              "color": "var(--ws-cloud)",
+              "text-shadow": "0 1px 10px var(--ws-night),0 0 22px var(--ws-night)"
+            }
+          },
+          {
+            "selector": ".wsh-proof",
+            "mediaContext": [],
+            "declarations": {
+              "position": "absolute",
+              "z-index": "6",
+              "margin": "0",
+              "display": "flex",
+              "flex-direction": "column",
+              "gap": "7px",
+              "font-size": "11px",
+              "font-weight": "500",
+              "letter-spacing": ".12em",
+              "text-transform": "uppercase",
+              "line-height": "1.3",
+              "color": "var(--ws-cloud)",
+              "text-shadow": "0 1px 10px var(--ws-night),0 0 22px var(--ws-night)"
+            }
+          }
+        ],
+        "inlineNodes": [
+          {
+            "tag": "p",
+            "text": "2,140 homes lit since 2011 91\u00a2 of every dollar goes to the field",
+            "path": [
+              "Hero",
+              "WsHero"
+            ],
+            "attributes": {
+              "class": "wsh-proof",
+              "style": "font-family:var(--ws-font-m, 'JetBrains Mono'), ui-monospace, SFMono-Regular, Menlo, monospace;font-weight:var(--ws-font-mw, 400);left:48px;bottom:44px;opacity:0;translate:0 12px;transition:opacity .9s ease 640ms, translate 1s cubic-bezier(.2,.8,.2,1) 640ms"
+            }
+          }
+        ],
+        "basis": "custom CSS + source inline attributes; endpoint roles preserve clamp string below"
+      },
+      {
+        "role": "Section eyebrow",
+        "familyResolvedFromFallback": "JetBrains Mono",
+        "selector": ".ws-eb",
+        "rules": [
+          {
+            "selector": ".ws-eb",
+            "mediaContext": [],
+            "declarations": {
+              "display": "inline-flex",
+              "align-items": "center",
+              "gap": "9px",
+              "width": "max-content",
+              "max-width": "100%",
+              "margin": "0",
+              "padding": "0",
+              "font-size": "12px",
+              "font-weight": "500",
+              "letter-spacing": ".14em",
+              "text-transform": "uppercase",
+              "line-height": "1.5",
+              "color": "var(--ws-acc)",
+              "opacity": "0",
+              "translate": "0 10px",
+              "transition": "opacity .8s ease,translate .9s cubic-bezier(.2,.8,.2,1)"
+            }
+          },
+          {
+            "selector": ".ws-eb",
+            "mediaContext": [],
+            "declarations": {
+              "display": "inline-flex",
+              "align-items": "center",
+              "gap": "9px",
+              "width": "max-content",
+              "max-width": "100%",
+              "margin": "0",
+              "padding": "0",
+              "font-size": "12px",
+              "font-weight": "500",
+              "letter-spacing": ".14em",
+              "text-transform": "uppercase",
+              "line-height": "1.5",
+              "color": "var(--ws-acc)",
+              "opacity": "0",
+              "translate": "0 10px",
+              "transition": "opacity .8s ease,translate .9s cubic-bezier(.2,.8,.2,1)"
+            }
+          },
+          {
+            "selector": ".ws-eb",
+            "mediaContext": [],
+            "declarations": {
+              "display": "inline-flex",
+              "align-items": "center",
+              "gap": "9px",
+              "width": "max-content",
+              "max-width": "100%",
+              "margin": "0",
+              "padding": "0",
+              "font-size": "12px",
+              "font-weight": "500",
+              "letter-spacing": ".14em",
+              "text-transform": "uppercase",
+              "line-height": "1.5",
+              "color": "var(--ws-acc)",
+              "opacity": "0",
+              "translate": "0 10px",
+              "transition": "opacity .8s ease,translate .9s cubic-bezier(.2,.8,.2,1)"
+            }
+          },
+          {
+            "selector": ".ws-eb",
+            "mediaContext": [],
+            "declarations": {
+              "display": "inline-flex",
+              "align-items": "center",
+              "gap": "9px",
+              "width": "max-content",
+              "max-width": "100%",
+              "margin": "0",
+              "padding": "0",
+              "font-size": "12px",
+              "font-weight": "500",
+              "letter-spacing": ".14em",
+              "text-transform": "uppercase",
+              "line-height": "1.5",
+              "color": "var(--ws-acc)",
+              "opacity": "0",
+              "translate": "0 10px",
+              "transition": "opacity .8s ease,translate .9s cubic-bezier(.2,.8,.2,1)"
+            }
+          },
+          {
+            "selector": ".ws-eb",
+            "mediaContext": [],
+            "declarations": {
+              "display": "inline-flex",
+              "align-items": "center",
+              "gap": "9px",
+              "width": "max-content",
+              "max-width": "100%",
+              "margin": "0",
+              "padding": "0",
+              "font-size": "12px",
+              "font-weight": "500",
+              "letter-spacing": ".14em",
+              "text-transform": "uppercase",
+              "line-height": "1.5",
+              "color": "var(--ws-acc)",
+              "opacity": "0",
+              "translate": "0 10px",
+              "transition": "opacity .8s ease,translate .9s cubic-bezier(.2,.8,.2,1)"
+            }
+          }
+        ],
+        "inlineNodes": [
+          {
+            "tag": "p",
+            "text": "01 \u00b7 Who we are",
+            "path": [
+              "WsIntro",
+              "WsIntro"
+            ],
+            "attributes": {
+              "class": "ws-eb",
+              "style": "font-family:var(--ws-font-m, 'JetBrains Mono'), ui-monospace, SFMono-Regular, Menlo, monospace;font-weight:var(--ws-font-mw, 400);transition-delay:0ms"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "01 \u00b7 Who we are",
+            "path": [
+              "WsIntro",
+              "WsIntro"
+            ],
+            "attributes": {
+              "class": "ws-eb",
+              "style": "font-family:var(--ws-font-m, 'JetBrains Mono'), ui-monospace, SFMono-Regular, Menlo, monospace;font-weight:var(--ws-font-mw, 400);transition-delay:0ms"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "01 \u00b7 Who we are",
+            "path": [
+              "WsIntro",
+              "WsIntro"
+            ],
+            "attributes": {
+              "class": "ws-eb",
+              "style": "font-family:var(--ws-font-m, 'JetBrains Mono'), ui-monospace, SFMono-Regular, Menlo, monospace;font-weight:var(--ws-font-mw, 400);transition-delay:0ms"
+            }
+          }
+        ],
+        "basis": "custom CSS + source inline attributes; endpoint roles preserve clamp string below"
+      },
+      {
+        "role": "Section h2 clamp upper endpoint",
+        "familyResolvedFromFallback": "Fraunces",
+        "selector": ".ws-hd",
+        "rules": [
+          {
+            "selector": ".ws-hd",
+            "mediaContext": [],
+            "declarations": {
+              "margin": "0",
+              "letter-spacing": "-.02em",
+              "text-wrap": "balance"
+            }
+          },
+          {
+            "selector": ".ws-hd",
+            "mediaContext": [],
+            "declarations": {
+              "margin": "0",
+              "letter-spacing": "-.02em",
+              "text-wrap": "balance"
+            }
+          },
+          {
+            "selector": ".ws-hd",
+            "mediaContext": [],
+            "declarations": {
+              "margin": "0",
+              "letter-spacing": "-.02em",
+              "text-wrap": "balance"
+            }
+          },
+          {
+            "selector": ".ws-hd",
+            "mediaContext": [],
+            "declarations": {
+              "margin": "0",
+              "letter-spacing": "-.02em",
+              "text-wrap": "balance"
+            }
+          },
+          {
+            "selector": ".ws-hd",
+            "mediaContext": [],
+            "declarations": {
+              "margin": "0",
+              "letter-spacing": "-.02em",
+              "text-wrap": "balance"
+            }
+          }
+        ],
+        "inlineNodes": [
+          {
+            "tag": "h2",
+            "text": "Fourteen years. One village at a time.",
+            "path": [
+              "WsIntro",
+              "WsIntro"
+            ],
+            "attributes": {
+              "class": "ws-hd",
+              "aria-label": "Fourteen years. One village at a time.",
+              "style": "font-family:var(--ws-font-d, 'Fraunces'), Georgia, 'Times New Roman', serif;font-weight:var(--ws-font-dw, 420);font-style:normal;font-variation-settings:\"opsz\" 144, \"SOFT\" 0, \"WONK\" 0;letter-spacing:-.02em;font-size:clamp(40px,4.3vw,64px);line-height:1.04;margin-top:26px"
+            }
+          },
+          {
+            "tag": "h2",
+            "text": "Fourteen years. One village at a time.",
+            "path": [
+              "WsIntro",
+              "WsIntro"
+            ],
+            "attributes": {
+              "class": "ws-hd",
+              "aria-label": "Fourteen years. One village at a time.",
+              "style": "font-family:var(--ws-font-d, 'Fraunces'), Georgia, 'Times New Roman', serif;font-weight:var(--ws-font-dw, 420);font-style:normal;font-variation-settings:\"opsz\" 144, \"SOFT\" 0, \"WONK\" 0;letter-spacing:-.02em;font-size:clamp(36px,10.4vw,46px);line-height:1.04;margin-top:18px"
+            }
+          },
+          {
+            "tag": "h2",
+            "text": "Fourteen years. One village at a time.",
+            "path": [
+              "WsIntro",
+              "WsIntro"
+            ],
+            "attributes": {
+              "class": "ws-hd",
+              "aria-label": "Fourteen years. One village at a time.",
+              "style": "font-family:var(--ws-font-d, 'Fraunces'), Georgia, 'Times New Roman', serif;font-weight:var(--ws-font-dw, 420);font-style:normal;font-variation-settings:\"opsz\" 144, \"SOFT\" 0, \"WONK\" 0;letter-spacing:-.02em;font-size:clamp(40px,4.3vw,64px);line-height:1.04;margin-top:26px"
+            }
+          }
+        ],
+        "basis": "custom CSS + source inline attributes; endpoint roles preserve clamp string below"
+      },
+      {
+        "role": "Section h2 phone clamp upper endpoint",
+        "familyResolvedFromFallback": "Fraunces",
+        "selector": ".ws-hd",
+        "rules": [
+          {
+            "selector": ".ws-hd",
+            "mediaContext": [],
+            "declarations": {
+              "margin": "0",
+              "letter-spacing": "-.02em",
+              "text-wrap": "balance"
+            }
+          },
+          {
+            "selector": ".ws-hd",
+            "mediaContext": [],
+            "declarations": {
+              "margin": "0",
+              "letter-spacing": "-.02em",
+              "text-wrap": "balance"
+            }
+          },
+          {
+            "selector": ".ws-hd",
+            "mediaContext": [],
+            "declarations": {
+              "margin": "0",
+              "letter-spacing": "-.02em",
+              "text-wrap": "balance"
+            }
+          },
+          {
+            "selector": ".ws-hd",
+            "mediaContext": [],
+            "declarations": {
+              "margin": "0",
+              "letter-spacing": "-.02em",
+              "text-wrap": "balance"
+            }
+          },
+          {
+            "selector": ".ws-hd",
+            "mediaContext": [],
+            "declarations": {
+              "margin": "0",
+              "letter-spacing": "-.02em",
+              "text-wrap": "balance"
+            }
+          }
+        ],
+        "inlineNodes": [
+          {
+            "tag": "h2",
+            "text": "Fourteen years. One village at a time.",
+            "path": [
+              "WsIntro",
+              "WsIntro"
+            ],
+            "attributes": {
+              "class": "ws-hd",
+              "aria-label": "Fourteen years. One village at a time.",
+              "style": "font-family:var(--ws-font-d, 'Fraunces'), Georgia, 'Times New Roman', serif;font-weight:var(--ws-font-dw, 420);font-style:normal;font-variation-settings:\"opsz\" 144, \"SOFT\" 0, \"WONK\" 0;letter-spacing:-.02em;font-size:clamp(40px,4.3vw,64px);line-height:1.04;margin-top:26px"
+            }
+          },
+          {
+            "tag": "h2",
+            "text": "Fourteen years. One village at a time.",
+            "path": [
+              "WsIntro",
+              "WsIntro"
+            ],
+            "attributes": {
+              "class": "ws-hd",
+              "aria-label": "Fourteen years. One village at a time.",
+              "style": "font-family:var(--ws-font-d, 'Fraunces'), Georgia, 'Times New Roman', serif;font-weight:var(--ws-font-dw, 420);font-style:normal;font-variation-settings:\"opsz\" 144, \"SOFT\" 0, \"WONK\" 0;letter-spacing:-.02em;font-size:clamp(36px,10.4vw,46px);line-height:1.04;margin-top:18px"
+            }
+          },
+          {
+            "tag": "h2",
+            "text": "Fourteen years. One village at a time.",
+            "path": [
+              "WsIntro",
+              "WsIntro"
+            ],
+            "attributes": {
+              "class": "ws-hd",
+              "aria-label": "Fourteen years. One village at a time.",
+              "style": "font-family:var(--ws-font-d, 'Fraunces'), Georgia, 'Times New Roman', serif;font-weight:var(--ws-font-dw, 420);font-style:normal;font-variation-settings:\"opsz\" 144, \"SOFT\" 0, \"WONK\" 0;letter-spacing:-.02em;font-size:clamp(40px,4.3vw,64px);line-height:1.04;margin-top:26px"
+            }
+          }
+        ],
+        "basis": "custom CSS + source inline attributes; endpoint roles preserve clamp string below"
+      },
+      {
+        "role": "Intro body",
+        "familyResolvedFromFallback": "Instrument Sans",
+        "selector": ".wsin-sub",
+        "rules": [
+          {
+            "selector": ".wsin-sub",
+            "mediaContext": [],
+            "declarations": {
+              "margin": "26px 0 0",
+              "max-width": "520px",
+              "font-size": "17px",
+              "line-height": "1.6",
+              "color": "var(--ws-mut)"
+            }
+          },
+          {
+            "selector": ".wsin-sub",
+            "mediaContext": [],
+            "declarations": {
+              "margin": "26px 0 0",
+              "max-width": "520px",
+              "font-size": "17px",
+              "line-height": "1.6",
+              "color": "var(--ws-mut)"
+            }
+          },
+          {
+            "selector": ".wsin-sub",
+            "mediaContext": [],
+            "declarations": {
+              "margin": "26px 0 0",
+              "max-width": "520px",
+              "font-size": "17px",
+              "line-height": "1.6",
+              "color": "var(--ws-mut)"
+            }
+          }
+        ],
+        "inlineNodes": [
+          {
+            "tag": "p",
+            "text": "Wellspring is a charity foundation that works with mountain villages a day's walk from the nearest r",
+            "path": [
+              "WsIntro",
+              "WsIntro"
+            ],
+            "attributes": {
+              "class": "wsin-sub",
+              "style": "opacity:0;translate:0 22px;transition:opacity .9s ease 300ms, translate 1s cubic-bezier(.2,.8,.2,1) 300ms"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "Wellspring is a charity foundation that works with mountain villages a day's walk from the nearest r",
+            "path": [
+              "WsIntro",
+              "WsIntro"
+            ],
+            "attributes": {
+              "class": "wsin-sub",
+              "style": "opacity:0;translate:0 22px;transition:opacity .9s ease 300ms, translate 1s cubic-bezier(.2,.8,.2,1) 300ms"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "Wellspring is a charity foundation that works with mountain villages a day's walk from the nearest r",
+            "path": [
+              "WsIntro",
+              "WsIntro"
+            ],
+            "attributes": {
+              "class": "wsin-sub",
+              "style": "opacity:0;translate:0 22px;transition:opacity .9s ease 300ms, translate 1s cubic-bezier(.2,.8,.2,1) 300ms"
+            }
+          }
+        ],
+        "basis": "custom CSS + source inline attributes; endpoint roles preserve clamp string below"
+      },
+      {
+        "role": "Pill action",
+        "familyResolvedFromFallback": "Instrument Sans",
+        "selector": ".ws-btn",
+        "rules": [
+          {
+            "selector": ".ws-btn",
+            "mediaContext": [],
+            "declarations": {
+              "position": "relative",
+              "display": "inline-flex",
+              "align-items": "center",
+              "gap": "10px",
+              "height": "48px",
+              "padding": "0 20px",
+              "border": "0",
+              "border-radius": "999px",
+              "overflow": "hidden",
+              "isolation": "isolate",
+              "text-decoration": "none",
+              "white-space": "nowrap",
+              "font": "inherit",
+              "font-size": "14.5px",
+              "font-weight": "600",
+              "line-height": "1",
+              "letter-spacing": "0",
+              "cursor": "pointer",
+              "-webkit-appearance": "none",
+              "appearance": "none",
+              "background": "var(--face)",
+              "color": "var(--fg)!important",
+              "box-shadow": "var(--ring,none)",
+              "transform": "translate(var(--mx,0px),var(--my,0px))",
+              "transition": "transform .45s cubic-bezier(.34,1.56,.64,1),box-shadow .4s,color .35s .05s"
+            }
+          },
+          {
+            "selector": ".ws-btn",
+            "mediaContext": [],
+            "declarations": {
+              "position": "relative",
+              "display": "inline-flex",
+              "align-items": "center",
+              "gap": "10px",
+              "height": "48px",
+              "padding": "0 20px",
+              "border": "0",
+              "border-radius": "999px",
+              "overflow": "hidden",
+              "isolation": "isolate",
+              "text-decoration": "none",
+              "white-space": "nowrap",
+              "font": "inherit",
+              "font-size": "14.5px",
+              "font-weight": "600",
+              "line-height": "1",
+              "letter-spacing": "0",
+              "cursor": "pointer",
+              "-webkit-appearance": "none",
+              "appearance": "none",
+              "background": "var(--face)",
+              "color": "var(--fg)!important",
+              "box-shadow": "var(--ring,none)",
+              "transform": "translate(var(--mx,0px),var(--my,0px))",
+              "transition": "transform .45s cubic-bezier(.34,1.56,.64,1),box-shadow .4s,color .35s .05s"
+            }
+          },
+          {
+            "selector": ".ws-btn",
+            "mediaContext": [],
+            "declarations": {
+              "position": "relative",
+              "display": "inline-flex",
+              "align-items": "center",
+              "gap": "10px",
+              "height": "48px",
+              "padding": "0 20px",
+              "border": "0",
+              "border-radius": "999px",
+              "overflow": "hidden",
+              "isolation": "isolate",
+              "text-decoration": "none",
+              "white-space": "nowrap",
+              "font": "inherit",
+              "font-size": "14.5px",
+              "font-weight": "600",
+              "line-height": "1",
+              "letter-spacing": "0",
+              "cursor": "pointer",
+              "-webkit-appearance": "none",
+              "appearance": "none",
+              "background": "var(--face)",
+              "color": "var(--fg)!important",
+              "box-shadow": "var(--ring,none)",
+              "transform": "translate(var(--mx,0px),var(--my,0px))",
+              "transition": "transform .45s cubic-bezier(.34,1.56,.64,1),box-shadow .4s,color .35s .05s"
+            }
+          },
+          {
+            "selector": ".ws-btn",
+            "mediaContext": [],
+            "declarations": {
+              "position": "relative",
+              "display": "inline-flex",
+              "align-items": "center",
+              "gap": "10px",
+              "height": "48px",
+              "padding": "0 20px",
+              "border": "0",
+              "border-radius": "999px",
+              "overflow": "hidden",
+              "isolation": "isolate",
+              "text-decoration": "none",
+              "white-space": "nowrap",
+              "font": "inherit",
+              "font-size": "14.5px",
+              "font-weight": "600",
+              "line-height": "1",
+              "letter-spacing": "0",
+              "cursor": "pointer",
+              "-webkit-appearance": "none",
+              "appearance": "none",
+              "background": "var(--face)",
+              "color": "var(--fg)!important",
+              "box-shadow": "var(--ring,none)",
+              "transform": "translate(var(--mx,0px),var(--my,0px))",
+              "transition": "transform .45s cubic-bezier(.34,1.56,.64,1),box-shadow .4s,color .35s .05s"
+            }
+          },
+          {
+            "selector": ".ws-btn",
+            "mediaContext": [],
+            "declarations": {
+              "position": "relative",
+              "display": "inline-flex",
+              "align-items": "center",
+              "gap": "10px",
+              "height": "48px",
+              "padding": "0 20px",
+              "border": "0",
+              "border-radius": "999px",
+              "overflow": "hidden",
+              "isolation": "isolate",
+              "text-decoration": "none",
+              "white-space": "nowrap",
+              "font": "inherit",
+              "font-size": "14.5px",
+              "font-weight": "600",
+              "line-height": "1",
+              "letter-spacing": "0",
+              "cursor": "pointer",
+              "-webkit-appearance": "none",
+              "appearance": "none",
+              "background": "var(--face)",
+              "color": "var(--fg)!important",
+              "box-shadow": "var(--ring,none)",
+              "transform": "translate(var(--mx,0px),var(--my,0px))",
+              "transition": "transform .45s cubic-bezier(.34,1.56,.64,1),box-shadow .4s,color .35s .05s"
+            }
+          }
+        ],
+        "inlineNodes": [
+          {
+            "tag": "a",
+            "text": "About Wellspring",
+            "path": [
+              "WsIntro",
+              "WsIntro"
+            ],
+            "attributes": {
+              "class": "ws-btn ws-ghost",
+              "data-mag": "true",
+              "data-cur": "go",
+              "href": "/about"
+            }
+          },
+          {
+            "tag": "a",
+            "text": "About Wellspring",
+            "path": [
+              "WsIntro",
+              "WsIntro"
+            ],
+            "attributes": {
+              "class": "ws-btn ws-ghost",
+              "data-mag": "true",
+              "data-cur": "go",
+              "href": "/about"
+            }
+          },
+          {
+            "tag": "a",
+            "text": "About Wellspring",
+            "path": [
+              "WsIntro",
+              "WsIntro"
+            ],
+            "attributes": {
+              "class": "ws-btn ws-ghost",
+              "data-mag": "true",
+              "data-cur": "go",
+              "href": "/about"
+            }
+          }
+        ],
+        "basis": "custom CSS + source inline attributes; endpoint roles preserve clamp string below"
+      }
+    ],
+    "variationAxes": {
+      "Hero display": "\"opsz\" 144, \"SOFT\" 0, \"WONK\" 0",
+      "Section h2": "\"opsz\" 144, \"SOFT\" 0, \"WONK\" 0",
+      "Gift outcome": "\"opsz\" 60"
+    },
+    "systemFontFamilies": []
+  },
+  "spacing": {
+    "desktopGutterPx": 48,
+    "componentGapPx": 24,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 24,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:809.98px)",
+      "@media (max-width:600px),(hover:none)",
+      "@media (prefers-reduced-motion:reduce)",
+      "@media (max-width:1240px)",
+      "@media (max-width:420px)",
+      "@media (max-width:359px)",
+      "@media (max-height:640px)",
+      "@media (max-width:809px)",
+      "@media (max-width:1099px)",
+      "@media (max-width:699px)",
+      "@media (hover:none),(pointer:coarse)",
+      "@media (max-height:760px)",
+      "@media (hover:hover)",
+      "@media (hover:none)",
+      "@media (max-width:700px)",
+      "@media (min-width:810px) and (max-width:1099.98px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      359.0,
+      420.0,
+      600.0,
+      640.0,
+      699.0,
+      700.0,
+      760.0,
+      809.0,
+      809.98,
+      810.0,
+      1099.0,
+      1099.98,
+      1199.98,
+      1200.0,
+      1240.0
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Nonprofits",
+    "branch": "Charity / fundraising foundation",
+    "fitEvidence": "Official listing explicitly positions the template for charities, foundations and fundraising campaigns; home includes gift amounts, program/campaign/story CMS and impact reporting."
+  },
+  "sectionAnchors": {
+    "Skip destination": "#main"
+  },
+  "sourceColorContext": "Source palette; the active theme is scoped to each native browser observation.",
+  "siteBlueprint": {
+    "file": "SITE-BLUEPRINT.md",
+    "backendVerified": false
+  }
+}

@@ -1,0 +1,5077 @@
+{
+  "source": "https://nuanced-screenshot-385541.framer.app/courses/abstract-painting",
+  "coverage": "public preview HTML/CSS; no rendered geometry",
+  "namedComponentOrder": [
+    "\u2460 HEADER \u2014 links, courses menu, CTA, phone menu, site-wide fonts",
+    "PmHeader",
+    "\u2462 LOADER \u2014 the first sketch, once per visit",
+    "PmLoader",
+    "\u2463 PAGE TRANSITION \u2014 turn the page",
+    "PmPageTrans",
+    "Smooth scroll (keep)",
+    "PmSmooth",
+    "CMS Bridge \u00b7 posts (keep)",
+    "posts-item",
+    "posts-row",
+    "CMS Bridge \u00b7 faq (keep)",
+    "faq-item",
+    "faq-row",
+    "CMS Bridge \u00b7 plans (keep)",
+    "plans-item",
+    "plans-row",
+    "CMS Bridge \u00b7 reviews (keep)",
+    "reviews-item",
+    "reviews-row",
+    "CMS Bridge \u00b7 teachers (keep)",
+    "teachers-item",
+    "teachers-row",
+    "CMS Bridge \u00b7 courses (keep)",
+    "courses-item",
+    "courses-row",
+    "CMS Bridge \u00b7 lessons (keep)",
+    "lessons-item",
+    "lessons-row",
+    "CMS Bridge \u00b7 site (keep)",
+    "site-item",
+    "site-row",
+    "CMS Bridge \u00b7 marker (keep)",
+    "S0 PmCourse",
+    "PmCourse",
+    "S1 PmReviews",
+    "PmReviews",
+    "S2 PmCta",
+    "PmCta",
+    "\u2461 FOOTER \u2014 pencil wordmark, columns, newsletter",
+    "PmFooter",
+    "Light",
+    "Backdrop",
+    "Content",
+    "Logo",
+    "Text",
+    "Bottom",
+    "Border"
+  ],
+  "typeDeclarations": [],
+  "typePresetRules": [
+    {
+      "selector": ".text-styles-preset-reset.framer-text",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      }
+    },
+    {
+      "selector": "[data-framer-component-type=DeprecatedRichText] .text-styles-preset-reset",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--font-variation-settings": "normal"
+      }
+    }
+  ],
+  "frameDeclarations": [
+    {
+      "name": "\u2460 HEADER \u2014 links, courses menu, CTA, phone menu, site-wide fonts",
+      "path": [
+        "\u2460 HEADER \u2014 links, courses menu, CTA, phone menu, site-wide fonts"
+      ],
+      "classes": "framer-1mpyhmb",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1mpyhmb",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "PmHeader",
+      "path": [
+        "\u2460 HEADER \u2014 links, courses menu, CTA, phone menu, site-wide fonts",
+        "PmHeader"
+      ],
+      "classes": "framer-16qqvzx-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-16qqvzx-container,.framer-5vUvT .framer-1lohala-container,.framer-5vUvT .framer-foy92p-container,.framer-5vUvT .framer-1hu1drb-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "0",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "\u2462 LOADER \u2014 the first sketch, once per visit",
+      "path": [
+        "\u2462 LOADER \u2014 the first sketch, once per visit"
+      ],
+      "classes": "framer-134eesc",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-134eesc",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "PmLoader",
+      "path": [
+        "\u2462 LOADER \u2014 the first sketch, once per visit",
+        "PmLoader"
+      ],
+      "classes": "framer-1lohala-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-16qqvzx-container,.framer-5vUvT .framer-1lohala-container,.framer-5vUvT .framer-foy92p-container,.framer-5vUvT .framer-1hu1drb-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "0",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "\u2463 PAGE TRANSITION \u2014 turn the page",
+      "path": [
+        "\u2463 PAGE TRANSITION \u2014 turn the page"
+      ],
+      "classes": "framer-14crd2x",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-14crd2x",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "PmPageTrans",
+      "path": [
+        "\u2463 PAGE TRANSITION \u2014 turn the page",
+        "PmPageTrans"
+      ],
+      "classes": "framer-foy92p-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-16qqvzx-container,.framer-5vUvT .framer-1lohala-container,.framer-5vUvT .framer-foy92p-container,.framer-5vUvT .framer-1hu1drb-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "0",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Smooth scroll (keep)",
+      "path": [
+        "Smooth scroll (keep)"
+      ],
+      "classes": "framer-2h4sq3",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-2h4sq3",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "PmSmooth",
+      "path": [
+        "Smooth scroll (keep)",
+        "PmSmooth"
+      ],
+      "classes": "framer-1hu1drb-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-16qqvzx-container,.framer-5vUvT .framer-1lohala-container,.framer-5vUvT .framer-foy92p-container,.framer-5vUvT .framer-1hu1drb-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "0",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 posts (keep)",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)"
+      ],
+      "classes": "framer-1395hhc",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1395hhc",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        },
+        {
+          "selector": ".framer-5vUvT .framer-1395hhc,.framer-5vUvT .framer-o8cxwz,.framer-5vUvT .framer-1j32hjm,.framer-5vUvT .framer-z2vhz3,.framer-5vUvT .framer-q8diga,.framer-5vUvT .framer-1d9e5uu,.framer-5vUvT .framer-ymu957,.framer-5vUvT .framer-rsa8lh",
+          "mediaContext": [
+            "@media (min-width:810px) and (max-width:1199.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        },
+        {
+          "selector": ".framer-5vUvT .framer-1395hhc,.framer-5vUvT .framer-o8cxwz,.framer-5vUvT .framer-1j32hjm,.framer-5vUvT .framer-z2vhz3,.framer-5vUvT .framer-q8diga,.framer-5vUvT .framer-1d9e5uu,.framer-5vUvT .framer-ymu957,.framer-5vUvT .framer-rsa8lh",
+          "mediaContext": [
+            "@media (max-width:809.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-item",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item"
+      ],
+      "classes": "framer-1sbp3us",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-row",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item",
+        "posts-row"
+      ],
+      "classes": "framer-z3n57l-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-item",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item"
+      ],
+      "classes": "framer-1sbp3us",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-row",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item",
+        "posts-row"
+      ],
+      "classes": "framer-z3n57l-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-item",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item"
+      ],
+      "classes": "framer-1sbp3us",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-row",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item",
+        "posts-row"
+      ],
+      "classes": "framer-z3n57l-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-item",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item"
+      ],
+      "classes": "framer-1sbp3us",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-row",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item",
+        "posts-row"
+      ],
+      "classes": "framer-z3n57l-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-item",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item"
+      ],
+      "classes": "framer-1sbp3us",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-row",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item",
+        "posts-row"
+      ],
+      "classes": "framer-z3n57l-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-item",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item"
+      ],
+      "classes": "framer-1sbp3us",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-row",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item",
+        "posts-row"
+      ],
+      "classes": "framer-z3n57l-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 faq (keep)",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)"
+      ],
+      "classes": "framer-o8cxwz",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-o8cxwz",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        },
+        {
+          "selector": ".framer-5vUvT .framer-1395hhc,.framer-5vUvT .framer-o8cxwz,.framer-5vUvT .framer-1j32hjm,.framer-5vUvT .framer-z2vhz3,.framer-5vUvT .framer-q8diga,.framer-5vUvT .framer-1d9e5uu,.framer-5vUvT .framer-ymu957,.framer-5vUvT .framer-rsa8lh",
+          "mediaContext": [
+            "@media (min-width:810px) and (max-width:1199.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        },
+        {
+          "selector": ".framer-5vUvT .framer-1395hhc,.framer-5vUvT .framer-o8cxwz,.framer-5vUvT .framer-1j32hjm,.framer-5vUvT .framer-z2vhz3,.framer-5vUvT .framer-q8diga,.framer-5vUvT .framer-1d9e5uu,.framer-5vUvT .framer-ymu957,.framer-5vUvT .framer-rsa8lh",
+          "mediaContext": [
+            "@media (max-width:809.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-rf77yj",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-wjk3u4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-rf77yj",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-wjk3u4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-rf77yj",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-wjk3u4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-rf77yj",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-wjk3u4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-rf77yj",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-wjk3u4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-rf77yj",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-wjk3u4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-rf77yj",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-wjk3u4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-rf77yj",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-wjk3u4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-rf77yj",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-wjk3u4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 plans (keep)",
+      "path": [
+        "CMS Bridge \u00b7 plans (keep)"
+      ],
+      "classes": "framer-1j32hjm",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1j32hjm",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        },
+        {
+          "selector": ".framer-5vUvT .framer-1395hhc,.framer-5vUvT .framer-o8cxwz,.framer-5vUvT .framer-1j32hjm,.framer-5vUvT .framer-z2vhz3,.framer-5vUvT .framer-q8diga,.framer-5vUvT .framer-1d9e5uu,.framer-5vUvT .framer-ymu957,.framer-5vUvT .framer-rsa8lh",
+          "mediaContext": [
+            "@media (min-width:810px) and (max-width:1199.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        },
+        {
+          "selector": ".framer-5vUvT .framer-1395hhc,.framer-5vUvT .framer-o8cxwz,.framer-5vUvT .framer-1j32hjm,.framer-5vUvT .framer-z2vhz3,.framer-5vUvT .framer-q8diga,.framer-5vUvT .framer-1d9e5uu,.framer-5vUvT .framer-ymu957,.framer-5vUvT .framer-rsa8lh",
+          "mediaContext": [
+            "@media (max-width:809.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        }
+      ]
+    },
+    {
+      "name": "plans-item",
+      "path": [
+        "CMS Bridge \u00b7 plans (keep)",
+        "plans-item"
+      ],
+      "classes": "framer-d2x4xg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "plans-row",
+      "path": [
+        "CMS Bridge \u00b7 plans (keep)",
+        "plans-item",
+        "plans-row"
+      ],
+      "classes": "framer-1mstrxa-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "plans-item",
+      "path": [
+        "CMS Bridge \u00b7 plans (keep)",
+        "plans-item"
+      ],
+      "classes": "framer-d2x4xg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "plans-row",
+      "path": [
+        "CMS Bridge \u00b7 plans (keep)",
+        "plans-item",
+        "plans-row"
+      ],
+      "classes": "framer-1mstrxa-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "plans-item",
+      "path": [
+        "CMS Bridge \u00b7 plans (keep)",
+        "plans-item"
+      ],
+      "classes": "framer-d2x4xg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "plans-row",
+      "path": [
+        "CMS Bridge \u00b7 plans (keep)",
+        "plans-item",
+        "plans-row"
+      ],
+      "classes": "framer-1mstrxa-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 reviews (keep)",
+      "path": [
+        "CMS Bridge \u00b7 reviews (keep)"
+      ],
+      "classes": "framer-z2vhz3",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z2vhz3",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        },
+        {
+          "selector": ".framer-5vUvT .framer-1395hhc,.framer-5vUvT .framer-o8cxwz,.framer-5vUvT .framer-1j32hjm,.framer-5vUvT .framer-z2vhz3,.framer-5vUvT .framer-q8diga,.framer-5vUvT .framer-1d9e5uu,.framer-5vUvT .framer-ymu957,.framer-5vUvT .framer-rsa8lh",
+          "mediaContext": [
+            "@media (min-width:810px) and (max-width:1199.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        },
+        {
+          "selector": ".framer-5vUvT .framer-1395hhc,.framer-5vUvT .framer-o8cxwz,.framer-5vUvT .framer-1j32hjm,.framer-5vUvT .framer-z2vhz3,.framer-5vUvT .framer-q8diga,.framer-5vUvT .framer-1d9e5uu,.framer-5vUvT .framer-ymu957,.framer-5vUvT .framer-rsa8lh",
+          "mediaContext": [
+            "@media (max-width:809.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-item",
+      "path": [
+        "CMS Bridge \u00b7 reviews (keep)",
+        "reviews-item"
+      ],
+      "classes": "framer-1oqyq71",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-row",
+      "path": [
+        "CMS Bridge \u00b7 reviews (keep)",
+        "reviews-item",
+        "reviews-row"
+      ],
+      "classes": "framer-1uagit0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-item",
+      "path": [
+        "CMS Bridge \u00b7 reviews (keep)",
+        "reviews-item"
+      ],
+      "classes": "framer-1oqyq71",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-row",
+      "path": [
+        "CMS Bridge \u00b7 reviews (keep)",
+        "reviews-item",
+        "reviews-row"
+      ],
+      "classes": "framer-1uagit0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-item",
+      "path": [
+        "CMS Bridge \u00b7 reviews (keep)",
+        "reviews-item"
+      ],
+      "classes": "framer-1oqyq71",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-row",
+      "path": [
+        "CMS Bridge \u00b7 reviews (keep)",
+        "reviews-item",
+        "reviews-row"
+      ],
+      "classes": "framer-1uagit0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-item",
+      "path": [
+        "CMS Bridge \u00b7 reviews (keep)",
+        "reviews-item"
+      ],
+      "classes": "framer-1oqyq71",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-row",
+      "path": [
+        "CMS Bridge \u00b7 reviews (keep)",
+        "reviews-item",
+        "reviews-row"
+      ],
+      "classes": "framer-1uagit0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-item",
+      "path": [
+        "CMS Bridge \u00b7 reviews (keep)",
+        "reviews-item"
+      ],
+      "classes": "framer-1oqyq71",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-row",
+      "path": [
+        "CMS Bridge \u00b7 reviews (keep)",
+        "reviews-item",
+        "reviews-row"
+      ],
+      "classes": "framer-1uagit0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-item",
+      "path": [
+        "CMS Bridge \u00b7 reviews (keep)",
+        "reviews-item"
+      ],
+      "classes": "framer-1oqyq71",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-row",
+      "path": [
+        "CMS Bridge \u00b7 reviews (keep)",
+        "reviews-item",
+        "reviews-row"
+      ],
+      "classes": "framer-1uagit0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 teachers (keep)",
+      "path": [
+        "CMS Bridge \u00b7 teachers (keep)"
+      ],
+      "classes": "framer-q8diga",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-q8diga",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        },
+        {
+          "selector": ".framer-5vUvT .framer-1395hhc,.framer-5vUvT .framer-o8cxwz,.framer-5vUvT .framer-1j32hjm,.framer-5vUvT .framer-z2vhz3,.framer-5vUvT .framer-q8diga,.framer-5vUvT .framer-1d9e5uu,.framer-5vUvT .framer-ymu957,.framer-5vUvT .framer-rsa8lh",
+          "mediaContext": [
+            "@media (min-width:810px) and (max-width:1199.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        },
+        {
+          "selector": ".framer-5vUvT .framer-1395hhc,.framer-5vUvT .framer-o8cxwz,.framer-5vUvT .framer-1j32hjm,.framer-5vUvT .framer-z2vhz3,.framer-5vUvT .framer-q8diga,.framer-5vUvT .framer-1d9e5uu,.framer-5vUvT .framer-ymu957,.framer-5vUvT .framer-rsa8lh",
+          "mediaContext": [
+            "@media (max-width:809.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        }
+      ]
+    },
+    {
+      "name": "teachers-item",
+      "path": [
+        "CMS Bridge \u00b7 teachers (keep)",
+        "teachers-item"
+      ],
+      "classes": "framer-8qj026",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "teachers-row",
+      "path": [
+        "CMS Bridge \u00b7 teachers (keep)",
+        "teachers-item",
+        "teachers-row"
+      ],
+      "classes": "framer-1m27j4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "teachers-item",
+      "path": [
+        "CMS Bridge \u00b7 teachers (keep)",
+        "teachers-item"
+      ],
+      "classes": "framer-8qj026",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "teachers-row",
+      "path": [
+        "CMS Bridge \u00b7 teachers (keep)",
+        "teachers-item",
+        "teachers-row"
+      ],
+      "classes": "framer-1m27j4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "teachers-item",
+      "path": [
+        "CMS Bridge \u00b7 teachers (keep)",
+        "teachers-item"
+      ],
+      "classes": "framer-8qj026",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "teachers-row",
+      "path": [
+        "CMS Bridge \u00b7 teachers (keep)",
+        "teachers-item",
+        "teachers-row"
+      ],
+      "classes": "framer-1m27j4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "teachers-item",
+      "path": [
+        "CMS Bridge \u00b7 teachers (keep)",
+        "teachers-item"
+      ],
+      "classes": "framer-8qj026",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "teachers-row",
+      "path": [
+        "CMS Bridge \u00b7 teachers (keep)",
+        "teachers-item",
+        "teachers-row"
+      ],
+      "classes": "framer-1m27j4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "teachers-item",
+      "path": [
+        "CMS Bridge \u00b7 teachers (keep)",
+        "teachers-item"
+      ],
+      "classes": "framer-8qj026",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "teachers-row",
+      "path": [
+        "CMS Bridge \u00b7 teachers (keep)",
+        "teachers-item",
+        "teachers-row"
+      ],
+      "classes": "framer-1m27j4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "teachers-item",
+      "path": [
+        "CMS Bridge \u00b7 teachers (keep)",
+        "teachers-item"
+      ],
+      "classes": "framer-8qj026",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "teachers-row",
+      "path": [
+        "CMS Bridge \u00b7 teachers (keep)",
+        "teachers-item",
+        "teachers-row"
+      ],
+      "classes": "framer-1m27j4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "teachers-item",
+      "path": [
+        "CMS Bridge \u00b7 teachers (keep)",
+        "teachers-item"
+      ],
+      "classes": "framer-8qj026",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "teachers-row",
+      "path": [
+        "CMS Bridge \u00b7 teachers (keep)",
+        "teachers-item",
+        "teachers-row"
+      ],
+      "classes": "framer-1m27j4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "teachers-item",
+      "path": [
+        "CMS Bridge \u00b7 teachers (keep)",
+        "teachers-item"
+      ],
+      "classes": "framer-8qj026",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "teachers-row",
+      "path": [
+        "CMS Bridge \u00b7 teachers (keep)",
+        "teachers-item",
+        "teachers-row"
+      ],
+      "classes": "framer-1m27j4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 courses (keep)",
+      "path": [
+        "CMS Bridge \u00b7 courses (keep)"
+      ],
+      "classes": "framer-1d9e5uu",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1d9e5uu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        },
+        {
+          "selector": ".framer-5vUvT .framer-1395hhc,.framer-5vUvT .framer-o8cxwz,.framer-5vUvT .framer-1j32hjm,.framer-5vUvT .framer-z2vhz3,.framer-5vUvT .framer-q8diga,.framer-5vUvT .framer-1d9e5uu,.framer-5vUvT .framer-ymu957,.framer-5vUvT .framer-rsa8lh",
+          "mediaContext": [
+            "@media (min-width:810px) and (max-width:1199.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        },
+        {
+          "selector": ".framer-5vUvT .framer-1395hhc,.framer-5vUvT .framer-o8cxwz,.framer-5vUvT .framer-1j32hjm,.framer-5vUvT .framer-z2vhz3,.framer-5vUvT .framer-q8diga,.framer-5vUvT .framer-1d9e5uu,.framer-5vUvT .framer-ymu957,.framer-5vUvT .framer-rsa8lh",
+          "mediaContext": [
+            "@media (max-width:809.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        }
+      ]
+    },
+    {
+      "name": "courses-item",
+      "path": [
+        "CMS Bridge \u00b7 courses (keep)",
+        "courses-item"
+      ],
+      "classes": "framer-1e6dng6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "courses-row",
+      "path": [
+        "CMS Bridge \u00b7 courses (keep)",
+        "courses-item",
+        "courses-row"
+      ],
+      "classes": "framer-13jysf0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "courses-item",
+      "path": [
+        "CMS Bridge \u00b7 courses (keep)",
+        "courses-item"
+      ],
+      "classes": "framer-1e6dng6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "courses-row",
+      "path": [
+        "CMS Bridge \u00b7 courses (keep)",
+        "courses-item",
+        "courses-row"
+      ],
+      "classes": "framer-13jysf0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "courses-item",
+      "path": [
+        "CMS Bridge \u00b7 courses (keep)",
+        "courses-item"
+      ],
+      "classes": "framer-1e6dng6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "courses-row",
+      "path": [
+        "CMS Bridge \u00b7 courses (keep)",
+        "courses-item",
+        "courses-row"
+      ],
+      "classes": "framer-13jysf0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "courses-item",
+      "path": [
+        "CMS Bridge \u00b7 courses (keep)",
+        "courses-item"
+      ],
+      "classes": "framer-1e6dng6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "courses-row",
+      "path": [
+        "CMS Bridge \u00b7 courses (keep)",
+        "courses-item",
+        "courses-row"
+      ],
+      "classes": "framer-13jysf0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "courses-item",
+      "path": [
+        "CMS Bridge \u00b7 courses (keep)",
+        "courses-item"
+      ],
+      "classes": "framer-1e6dng6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "courses-row",
+      "path": [
+        "CMS Bridge \u00b7 courses (keep)",
+        "courses-item",
+        "courses-row"
+      ],
+      "classes": "framer-13jysf0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "courses-item",
+      "path": [
+        "CMS Bridge \u00b7 courses (keep)",
+        "courses-item"
+      ],
+      "classes": "framer-1e6dng6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "courses-row",
+      "path": [
+        "CMS Bridge \u00b7 courses (keep)",
+        "courses-item",
+        "courses-row"
+      ],
+      "classes": "framer-13jysf0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "courses-item",
+      "path": [
+        "CMS Bridge \u00b7 courses (keep)",
+        "courses-item"
+      ],
+      "classes": "framer-1e6dng6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "courses-row",
+      "path": [
+        "CMS Bridge \u00b7 courses (keep)",
+        "courses-item",
+        "courses-row"
+      ],
+      "classes": "framer-13jysf0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "courses-item",
+      "path": [
+        "CMS Bridge \u00b7 courses (keep)",
+        "courses-item"
+      ],
+      "classes": "framer-1e6dng6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "courses-row",
+      "path": [
+        "CMS Bridge \u00b7 courses (keep)",
+        "courses-item",
+        "courses-row"
+      ],
+      "classes": "framer-13jysf0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 lessons (keep)",
+      "path": [
+        "CMS Bridge \u00b7 lessons (keep)"
+      ],
+      "classes": "framer-ymu957",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-ymu957",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        },
+        {
+          "selector": ".framer-5vUvT .framer-1395hhc,.framer-5vUvT .framer-o8cxwz,.framer-5vUvT .framer-1j32hjm,.framer-5vUvT .framer-z2vhz3,.framer-5vUvT .framer-q8diga,.framer-5vUvT .framer-1d9e5uu,.framer-5vUvT .framer-ymu957,.framer-5vUvT .framer-rsa8lh",
+          "mediaContext": [
+            "@media (min-width:810px) and (max-width:1199.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        },
+        {
+          "selector": ".framer-5vUvT .framer-1395hhc,.framer-5vUvT .framer-o8cxwz,.framer-5vUvT .framer-1j32hjm,.framer-5vUvT .framer-z2vhz3,.framer-5vUvT .framer-q8diga,.framer-5vUvT .framer-1d9e5uu,.framer-5vUvT .framer-ymu957,.framer-5vUvT .framer-rsa8lh",
+          "mediaContext": [
+            "@media (max-width:809.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-item",
+      "path": [
+        "CMS Bridge \u00b7 lessons (keep)",
+        "lessons-item"
+      ],
+      "classes": "framer-14z298",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-row",
+      "path": [
+        "CMS Bridge \u00b7 lessons (keep)",
+        "lessons-item",
+        "lessons-row"
+      ],
+      "classes": "framer-7wrpbi-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-item",
+      "path": [
+        "CMS Bridge \u00b7 lessons (keep)",
+        "lessons-item"
+      ],
+      "classes": "framer-14z298",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-row",
+      "path": [
+        "CMS Bridge \u00b7 lessons (keep)",
+        "lessons-item",
+        "lessons-row"
+      ],
+      "classes": "framer-7wrpbi-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-item",
+      "path": [
+        "CMS Bridge \u00b7 lessons (keep)",
+        "lessons-item"
+      ],
+      "classes": "framer-14z298",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-row",
+      "path": [
+        "CMS Bridge \u00b7 lessons (keep)",
+        "lessons-item",
+        "lessons-row"
+      ],
+      "classes": "framer-7wrpbi-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-item",
+      "path": [
+        "CMS Bridge \u00b7 lessons (keep)",
+        "lessons-item"
+      ],
+      "classes": "framer-14z298",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-row",
+      "path": [
+        "CMS Bridge \u00b7 lessons (keep)",
+        "lessons-item",
+        "lessons-row"
+      ],
+      "classes": "framer-7wrpbi-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-item",
+      "path": [
+        "CMS Bridge \u00b7 lessons (keep)",
+        "lessons-item"
+      ],
+      "classes": "framer-14z298",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-row",
+      "path": [
+        "CMS Bridge \u00b7 lessons (keep)",
+        "lessons-item",
+        "lessons-row"
+      ],
+      "classes": "framer-7wrpbi-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-item",
+      "path": [
+        "CMS Bridge \u00b7 lessons (keep)",
+        "lessons-item"
+      ],
+      "classes": "framer-14z298",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-row",
+      "path": [
+        "CMS Bridge \u00b7 lessons (keep)",
+        "lessons-item",
+        "lessons-row"
+      ],
+      "classes": "framer-7wrpbi-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 site (keep)",
+      "path": [
+        "CMS Bridge \u00b7 site (keep)"
+      ],
+      "classes": "framer-rsa8lh",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-rsa8lh",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        },
+        {
+          "selector": ".framer-5vUvT .framer-1395hhc,.framer-5vUvT .framer-o8cxwz,.framer-5vUvT .framer-1j32hjm,.framer-5vUvT .framer-z2vhz3,.framer-5vUvT .framer-q8diga,.framer-5vUvT .framer-1d9e5uu,.framer-5vUvT .framer-ymu957,.framer-5vUvT .framer-rsa8lh",
+          "mediaContext": [
+            "@media (min-width:810px) and (max-width:1199.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        },
+        {
+          "selector": ".framer-5vUvT .framer-1395hhc,.framer-5vUvT .framer-o8cxwz,.framer-5vUvT .framer-1j32hjm,.framer-5vUvT .framer-z2vhz3,.framer-5vUvT .framer-q8diga,.framer-5vUvT .framer-1d9e5uu,.framer-5vUvT .framer-ymu957,.framer-5vUvT .framer-rsa8lh",
+          "mediaContext": [
+            "@media (max-width:809.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        }
+      ]
+    },
+    {
+      "name": "site-item",
+      "path": [
+        "CMS Bridge \u00b7 site (keep)",
+        "site-item"
+      ],
+      "classes": "framer-w70kbu",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1sbp3us,.framer-5vUvT .framer-rf77yj,.framer-5vUvT .framer-d2x4xg,.framer-5vUvT .framer-1oqyq71,.framer-5vUvT .framer-8qj026,.framer-5vUvT .framer-1e6dng6,.framer-5vUvT .framer-14z298,.framer-5vUvT .framer-w70kbu",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "site-row",
+      "path": [
+        "CMS Bridge \u00b7 site (keep)",
+        "site-item",
+        "site-row"
+      ],
+      "classes": "framer-v9ifv6-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-z3n57l-container,.framer-5vUvT .framer-wjk3u4-container,.framer-5vUvT .framer-1mstrxa-container,.framer-5vUvT .framer-1uagit0-container,.framer-5vUvT .framer-1m27j4-container,.framer-5vUvT .framer-13jysf0-container,.framer-5vUvT .framer-7wrpbi-container,.framer-5vUvT .framer-v9ifv6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 marker (keep)",
+      "path": [
+        "CMS Bridge \u00b7 marker (keep)"
+      ],
+      "classes": "framer-1bk3uvv-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1bk3uvv-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "S0 PmCourse",
+      "path": [
+        "S0 PmCourse"
+      ],
+      "classes": "framer-l5s3x9",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-BSBHb .framer-l5s3x9,.framer-BSBHb .framer-1sa8mhi,.framer-BSBHb .framer-u83msm",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "PmCourse",
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "classes": "framer-zlmooy-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-BSBHb .framer-zlmooy-container,.framer-BSBHb .framer-10o9who-container,.framer-BSBHb .framer-1fht322-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "S1 PmReviews",
+      "path": [
+        "S1 PmReviews"
+      ],
+      "classes": "framer-1sa8mhi",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-BSBHb .framer-l5s3x9,.framer-BSBHb .framer-1sa8mhi,.framer-BSBHb .framer-u83msm",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "PmReviews",
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "classes": "framer-10o9who-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-BSBHb .framer-zlmooy-container,.framer-BSBHb .framer-10o9who-container,.framer-BSBHb .framer-1fht322-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "S2 PmCta",
+      "path": [
+        "S2 PmCta"
+      ],
+      "classes": "framer-u83msm",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-BSBHb .framer-l5s3x9,.framer-BSBHb .framer-1sa8mhi,.framer-BSBHb .framer-u83msm",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "PmCta",
+      "path": [
+        "S2 PmCta",
+        "PmCta"
+      ],
+      "classes": "framer-1fht322-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-BSBHb .framer-zlmooy-container,.framer-BSBHb .framer-10o9who-container,.framer-BSBHb .framer-1fht322-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "\u2461 FOOTER \u2014 pencil wordmark, columns, newsletter",
+      "path": [
+        "\u2461 FOOTER \u2014 pencil wordmark, columns, newsletter"
+      ],
+      "classes": "framer-16rcglp",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-16rcglp",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "PmFooter",
+      "path": [
+        "\u2461 FOOTER \u2014 pencil wordmark, columns, newsletter",
+        "PmFooter"
+      ],
+      "classes": "framer-1cmq9ap-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-5vUvT .framer-1cmq9ap-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    }
+  ],
+  "fontDeclarations": [
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2",
+      "range": "U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F"
+    },
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2",
+      "range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+    },
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2",
+      "range": "U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2",
+      "range": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2",
+      "range": "U+1F00-1FFF"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2",
+      "range": "U+0370-03FF"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2",
+      "range": "U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2",
+      "range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "300",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dfIFdwYjGaAMFtZd_QA1Zeelmy79QJ1HOSY9BJ74fy.ttf",
+      "range": "",
+      "sourceStylesheet": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Albert+Sans:ital,wght@0,300..800;1,300..800&family=Azeret+Mono:wght@400..600&display=swap"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dfIFdwYjGaAMFtZd_QA1Zeelmy79QJ1HOSY9AX74fy.ttf",
+      "range": "",
+      "sourceStylesheet": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Albert+Sans:ital,wght@0,300..800;1,300..800&family=Azeret+Mono:wght@400..600&display=swap"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "500",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dfIFdwYjGaAMFtZd_QA1Zeelmy79QJ1HOSY9Al74fy.ttf",
+      "range": "",
+      "sourceStylesheet": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Albert+Sans:ital,wght@0,300..800;1,300..800&family=Azeret+Mono:wght@400..600&display=swap"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "600",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dfIFdwYjGaAMFtZd_QA1Zeelmy79QJ1HOSY9DJ6Ify.ttf",
+      "range": "",
+      "sourceStylesheet": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Albert+Sans:ital,wght@0,300..800;1,300..800&family=Azeret+Mono:wght@400..600&display=swap"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dfIFdwYjGaAMFtZd_QA1Zeelmy79QJ1HOSY9Dw6Ify.ttf",
+      "range": "",
+      "sourceStylesheet": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Albert+Sans:ital,wght@0,300..800;1,300..800&family=Azeret+Mono:wght@400..600&display=swap"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "800",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dfIFdwYjGaAMFtZd_QA1Zeelmy79QJ1HOSY9CX6Ify.ttf",
+      "range": "",
+      "sourceStylesheet": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Albert+Sans:ital,wght@0,300..800;1,300..800&family=Azeret+Mono:wght@400..600&display=swap"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "300",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSH9ZP_rA.ttf",
+      "range": "",
+      "sourceStylesheet": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Albert+Sans:ital,wght@0,300..800;1,300..800&family=Azeret+Mono:wght@400..600&display=swap"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSHq5P_rA.ttf",
+      "range": "",
+      "sourceStylesheet": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Albert+Sans:ital,wght@0,300..800;1,300..800&family=Azeret+Mono:wght@400..600&display=swap"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSHmZP_rA.ttf",
+      "range": "",
+      "sourceStylesheet": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Albert+Sans:ital,wght@0,300..800;1,300..800&family=Azeret+Mono:wght@400..600&display=swap"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSHdZT_rA.ttf",
+      "range": "",
+      "sourceStylesheet": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Albert+Sans:ital,wght@0,300..800;1,300..800&family=Azeret+Mono:wght@400..600&display=swap"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSHTJT_rA.ttf",
+      "range": "",
+      "sourceStylesheet": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Albert+Sans:ital,wght@0,300..800;1,300..800&family=Azeret+Mono:wght@400..600&display=swap"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "800",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSHK5T_rA.ttf",
+      "range": "",
+      "sourceStylesheet": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Albert+Sans:ital,wght@0,300..800;1,300..800&family=Azeret+Mono:wght@400..600&display=swap"
+    },
+    {
+      "family": "Azeret Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/azeretmono/v21/3XF5ErsiyJsY9O_Gepph-FvtTQgMQUdNekSfnPVh0g.ttf",
+      "range": "",
+      "sourceStylesheet": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Albert+Sans:ital,wght@0,300..800;1,300..800&family=Azeret+Mono:wght@400..600&display=swap"
+    },
+    {
+      "family": "Azeret Mono",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/azeretmono/v21/3XF5ErsiyJsY9O_Gepph-FvtTQgMQUdNekSfrvVh0g.ttf",
+      "range": "",
+      "sourceStylesheet": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Albert+Sans:ital,wght@0,300..800;1,300..800&family=Azeret+Mono:wght@400..600&display=swap"
+    },
+    {
+      "family": "Azeret Mono",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/azeretmono/v21/3XF5ErsiyJsY9O_Gepph-FvtTQgMQUdNekSfQvJh0g.ttf",
+      "range": "",
+      "sourceStylesheet": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Albert+Sans:ital,wght@0,300..800;1,300..800&family=Azeret+Mono:wght@400..600&display=swap"
+    },
+    {
+      "family": "Young Serif",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/youngserif/v2/3qTpojO2nS2VtkB3KtkQZ2t6.ttf",
+      "range": "",
+      "sourceStylesheet": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Albert+Sans:ital,wght@0,300..800;1,300..800&family=Azeret+Mono:wght@400..600&display=swap"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512 512w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "\u2460 HEADER \u2014 links, courses menu, CTA, phone menu, site-wide fonts",
+        "PmHeader"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512 512w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048 2048w",
+      "alt": "Abstract painting, taught by Lena Hart",
+      "width": null,
+      "height": null,
+      "path": [
+        "\u2460 HEADER \u2014 links, courses menu, CTA, phone menu, site-wide fonts",
+        "PmHeader"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=512 512w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "\u2460 HEADER \u2014 links, courses menu, CTA, phone menu, site-wide fonts",
+        "PmHeader"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=512 512w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=2048 2048w",
+      "alt": "Cook like a chef, taught by Marco Bellini",
+      "width": null,
+      "height": null,
+      "path": [
+        "\u2460 HEADER \u2014 links, courses menu, CTA, phone menu, site-wide fonts",
+        "PmHeader"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=512 512w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "\u2460 HEADER \u2014 links, courses menu, CTA, phone menu, site-wide fonts",
+        "PmHeader"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=512 512w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048 2048w",
+      "alt": "Graphic design basics, taught by Sofia Lind",
+      "width": null,
+      "height": null,
+      "path": [
+        "\u2460 HEADER \u2014 links, courses menu, CTA, phone menu, site-wide fonts",
+        "PmHeader"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512 512w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "\u2460 HEADER \u2014 links, courses menu, CTA, phone menu, site-wide fonts",
+        "PmHeader"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512 512w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048 2048w",
+      "alt": "Abstract painting, taught by Lena Hart",
+      "width": null,
+      "height": null,
+      "path": [
+        "\u2460 HEADER \u2014 links, courses menu, CTA, phone menu, site-wide fonts",
+        "PmHeader"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=512 512w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "\u2460 HEADER \u2014 links, courses menu, CTA, phone menu, site-wide fonts",
+        "PmHeader"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=512 512w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=2048 2048w",
+      "alt": "Cook like a chef, taught by Marco Bellini",
+      "width": null,
+      "height": null,
+      "path": [
+        "\u2460 HEADER \u2014 links, courses menu, CTA, phone menu, site-wide fonts",
+        "PmHeader"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=512 512w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "\u2460 HEADER \u2014 links, courses menu, CTA, phone menu, site-wide fonts",
+        "PmHeader"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=512 512w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048 2048w",
+      "alt": "Graphic design basics, taught by Sofia Lind",
+      "width": null,
+      "height": null,
+      "path": [
+        "\u2460 HEADER \u2014 links, courses menu, CTA, phone menu, site-wide fonts",
+        "PmHeader"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=512 512w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=512 512w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512 512w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512 512w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048 2048w",
+      "alt": "Abstract painting, taught by Lena Hart",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=512 512w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=512 512w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=2048 2048w",
+      "alt": "Lena Hart, Painter",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=512 512w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=512 512w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=2048 2048w",
+      "alt": "Cook like a chef, taught by Marco Bellini",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=512 512w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=512 512w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048 2048w",
+      "alt": "Graphic design basics, taught by Sofia Lind",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=512 512w, https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=512 512w, https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=2048 2048w",
+      "alt": "Woodworking at home, taught by Tom Keller",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=512 512w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=512 512w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512 512w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512 512w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048 2048w",
+      "alt": "Abstract painting, taught by Lena Hart",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=512 512w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=512 512w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=2048 2048w",
+      "alt": "Lena Hart, Painter",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=512 512w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=512 512w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=2048 2048w",
+      "alt": "Cook like a chef, taught by Marco Bellini",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=512 512w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=512 512w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048 2048w",
+      "alt": "Graphic design basics, taught by Sofia Lind",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=512 512w, https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=512 512w, https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=2048 2048w",
+      "alt": "Woodworking at home, taught by Tom Keller",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=512 512w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=512 512w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512 512w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512 512w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048 2048w",
+      "alt": "Abstract painting, taught by Lena Hart",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=512 512w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=512 512w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/dp0zQjOjomu6CavKKCk2eMar6ec.webp?scale-down-to=2048 2048w",
+      "alt": "Lena Hart, Painter",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=512 512w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=512 512w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/2pnCRiBnXX8dE9oo39ahgKo8Xgw.webp?scale-down-to=2048 2048w",
+      "alt": "Cook like a chef, taught by Marco Bellini",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=512 512w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=512 512w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048 2048w",
+      "alt": "Graphic design basics, taught by Sofia Lind",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=512 512w, https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=512 512w, https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=2048 2048w",
+      "alt": "Woodworking at home, taught by Tom Keller",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 PmCourse",
+        "PmCourse"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512 512w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512 512w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048 2048w",
+      "alt": "Emma Walsh's project from Abstract painting: A 60 \u00d7 80 cm abstract on canvas",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=512 512w, https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=512 512w, https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=2048 2048w",
+      "alt": "Emma Walsh",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=512 512w, https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=512 512w, https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=2048 2048w",
+      "alt": "Maria Lopez",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=512 512w, https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=512 512w, https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=512 512w, https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=512 512w, https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=2048 2048w",
+      "alt": "James Okoro",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=512 512w, https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=512 512w, https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/815AxARWHrA7zO5zrfT0j8ajg.webp?scale-down-to=2048 2048w",
+      "alt": "Claire Dawson's project from Woodworking at home: An oak side table",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/q8b2lJJw8DNkp4Ygxc8miBh7s.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/q8b2lJJw8DNkp4Ygxc8miBh7s.webp?scale-down-to=512 512w, https://framerusercontent.com/images/q8b2lJJw8DNkp4Ygxc8miBh7s.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/q8b2lJJw8DNkp4Ygxc8miBh7s.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/q8b2lJJw8DNkp4Ygxc8miBh7s.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/q8b2lJJw8DNkp4Ygxc8miBh7s.webp?scale-down-to=512 512w, https://framerusercontent.com/images/q8b2lJJw8DNkp4Ygxc8miBh7s.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/q8b2lJJw8DNkp4Ygxc8miBh7s.webp?scale-down-to=2048 2048w",
+      "alt": "Claire Dawson",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=512 512w, https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=512 512w, https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=512 512w, https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=512 512w, https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=2048 2048w",
+      "alt": "Kenji Sato",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/nXlJynPrAu85DJUrrcBI7sEfexo.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/nXlJynPrAu85DJUrrcBI7sEfexo.webp?scale-down-to=512 512w, https://framerusercontent.com/images/nXlJynPrAu85DJUrrcBI7sEfexo.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/nXlJynPrAu85DJUrrcBI7sEfexo.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/nXlJynPrAu85DJUrrcBI7sEfexo.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/nXlJynPrAu85DJUrrcBI7sEfexo.webp?scale-down-to=512 512w, https://framerusercontent.com/images/nXlJynPrAu85DJUrrcBI7sEfexo.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/nXlJynPrAu85DJUrrcBI7sEfexo.webp?scale-down-to=2048 2048w",
+      "alt": "Priya Nair",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/eFtHL2Hl9NAKztlRnRoJ237EJmk.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/eFtHL2Hl9NAKztlRnRoJ237EJmk.webp?scale-down-to=512 512w, https://framerusercontent.com/images/eFtHL2Hl9NAKztlRnRoJ237EJmk.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/eFtHL2Hl9NAKztlRnRoJ237EJmk.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/eFtHL2Hl9NAKztlRnRoJ237EJmk.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/eFtHL2Hl9NAKztlRnRoJ237EJmk.webp?scale-down-to=512 512w, https://framerusercontent.com/images/eFtHL2Hl9NAKztlRnRoJ237EJmk.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/eFtHL2Hl9NAKztlRnRoJ237EJmk.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=512 512w, https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=512 512w, https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512 512w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512 512w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048 2048w",
+      "alt": "Emma Walsh's project from Abstract painting: A 60 \u00d7 80 cm abstract on canvas",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=512 512w, https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=512 512w, https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=2048 2048w",
+      "alt": "Emma Walsh",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=512 512w, https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=512 512w, https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=2048 2048w",
+      "alt": "James Okoro",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=512 512w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=512 512w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/Uj1ZYhgRwZARMleOFAZcOggzvc.webp?scale-down-to=2048 2048w",
+      "alt": "Kenji Sato's project from Graphic design basics: A poster sent to a real printer",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=512 512w, https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=512 512w, https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=2048 2048w",
+      "alt": "Kenji Sato",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=512 512w, https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=512 512w, https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=2048 2048w",
+      "alt": "Maria Lopez",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512 512w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=512 512w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/TNhZxwCBKZC1oUPMu7Ly81fo4UE.webp?scale-down-to=2048 2048w",
+      "alt": "Emma Walsh's project from Abstract painting: A 60 \u00d7 80 cm abstract on canvas",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=512 512w, https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=512 512w, https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/QDXeQXHPjairOehntExKIixQ8.webp?scale-down-to=2048 2048w",
+      "alt": "Emma Walsh",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=512 512w, https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=512 512w, https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/ANLSq1mtdl1Jh28KeWCxKOsMNng.webp?scale-down-to=2048 2048w",
+      "alt": "Kenji Sato",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/q8b2lJJw8DNkp4Ygxc8miBh7s.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/q8b2lJJw8DNkp4Ygxc8miBh7s.webp?scale-down-to=512 512w, https://framerusercontent.com/images/q8b2lJJw8DNkp4Ygxc8miBh7s.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/q8b2lJJw8DNkp4Ygxc8miBh7s.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/q8b2lJJw8DNkp4Ygxc8miBh7s.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/q8b2lJJw8DNkp4Ygxc8miBh7s.webp?scale-down-to=512 512w, https://framerusercontent.com/images/q8b2lJJw8DNkp4Ygxc8miBh7s.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/q8b2lJJw8DNkp4Ygxc8miBh7s.webp?scale-down-to=2048 2048w",
+      "alt": "Claire Dawson",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=512 512w, https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=512 512w, https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/wGIojiWNnAT7XmsNhTPd9nOTh4.webp?scale-down-to=2048 2048w",
+      "alt": "James Okoro",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/eFtHL2Hl9NAKztlRnRoJ237EJmk.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/eFtHL2Hl9NAKztlRnRoJ237EJmk.webp?scale-down-to=512 512w, https://framerusercontent.com/images/eFtHL2Hl9NAKztlRnRoJ237EJmk.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/eFtHL2Hl9NAKztlRnRoJ237EJmk.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/eFtHL2Hl9NAKztlRnRoJ237EJmk.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/eFtHL2Hl9NAKztlRnRoJ237EJmk.webp?scale-down-to=512 512w, https://framerusercontent.com/images/eFtHL2Hl9NAKztlRnRoJ237EJmk.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/eFtHL2Hl9NAKztlRnRoJ237EJmk.webp?scale-down-to=2048 2048w",
+      "alt": "Maria Lopez's project from Creative writing: A 3,000-word short story",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=512 512w, https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=512 512w, https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/nTEg6MVNZdPDeGvpo6NoksmA.webp?scale-down-to=2048 2048w",
+      "alt": "Maria Lopez",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/nXlJynPrAu85DJUrrcBI7sEfexo.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/nXlJynPrAu85DJUrrcBI7sEfexo.webp?scale-down-to=512 512w, https://framerusercontent.com/images/nXlJynPrAu85DJUrrcBI7sEfexo.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/nXlJynPrAu85DJUrrcBI7sEfexo.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/nXlJynPrAu85DJUrrcBI7sEfexo.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/nXlJynPrAu85DJUrrcBI7sEfexo.webp?scale-down-to=512 512w, https://framerusercontent.com/images/nXlJynPrAu85DJUrrcBI7sEfexo.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/nXlJynPrAu85DJUrrcBI7sEfexo.webp?scale-down-to=2048 2048w",
+      "alt": "Priya Nair",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 PmReviews",
+        "PmReviews"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=512 512w, https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S2 PmCta",
+        "PmCta"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=512 512w, https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=2048 2048w",
+      "alt": "Online courses for hands-on skills",
+      "width": null,
+      "height": null,
+      "path": [
+        "S2 PmCta",
+        "PmCta"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=512 512w, https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S2 PmCta",
+        "PmCta"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=512 512w, https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=2048 2048w",
+      "alt": "Online courses for hands-on skills",
+      "width": null,
+      "height": null,
+      "path": [
+        "S2 PmCta",
+        "PmCta"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=512 512w, https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S2 PmCta",
+        "PmCta"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=512 512w, https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/XQgkxbmLJUi8KLhkpeoB6F7g.webp?scale-down-to=2048 2048w",
+      "alt": "Online courses for hands-on skills",
+      "width": null,
+      "height": null,
+      "path": [
+        "S2 PmCta",
+        "PmCta"
+      ],
+      "inlineStyle": "",
+      "box": null
+    }
+  ],
+  "routes": [
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/",
+      "label": "Primer"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/teachers",
+      "label": "Teachers"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/pricing",
+      "label": "Pricing"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/about",
+      "label": "About"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/journal",
+      "label": "Journal"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/enroll",
+      "label": "Enroll"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Painting",
+      "label": "Painting 1 course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Cooking",
+      "label": "Cooking 1 course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Design",
+      "label": "Design 2 courses"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Woodwork",
+      "label": "Woodwork 1 course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Film",
+      "label": "Film 1 course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Photography",
+      "label": "Photography 1 course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Writing",
+      "label": "Writing 1 course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses",
+      "label": "All courses"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/abstract-painting",
+      "label": "$79 Painting \u00b7 12 lessons Abstract "
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/cook-like-a-chef",
+      "label": "$89 Cooking \u00b7 18 lessons Cook like "
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/graphic-design-basics",
+      "label": "$69 Design \u00b7 14 lessons Graphic des"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/enroll",
+      "label": "Lesson one Your first lesson is fre"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/",
+      "label": "Primer"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/teachers",
+      "label": "Teachers"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/pricing",
+      "label": "Pricing"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/about",
+      "label": "About"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/journal",
+      "label": "Journal"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/enroll",
+      "label": "Enroll"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Painting",
+      "label": "Painting 1 course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Cooking",
+      "label": "Cooking 1 course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Design",
+      "label": "Design 2 courses"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Woodwork",
+      "label": "Woodwork 1 course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Film",
+      "label": "Film 1 course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Photography",
+      "label": "Photography 1 course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Writing",
+      "label": "Writing 1 course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses",
+      "label": "All courses"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/abstract-painting",
+      "label": "$79 Painting \u00b7 12 lessons Abstract "
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/cook-like-a-chef",
+      "label": "$89 Cooking \u00b7 18 lessons Cook like "
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/graphic-design-basics",
+      "label": "$69 Design \u00b7 14 lessons Graphic des"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/enroll",
+      "label": "Lesson one Your first lesson is fre"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/",
+      "label": "Primer"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/enroll",
+      "label": "Enroll"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/",
+      "label": "01 Home"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses",
+      "label": "02 Courses"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/teachers",
+      "label": "03 Teachers"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/pricing",
+      "label": "04 Pricing"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/about",
+      "label": "05 About"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/journal",
+      "label": "06 Journal"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Painting",
+      "label": "Painting 1"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Cooking",
+      "label": "Cooking 1"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Design",
+      "label": "Design 2"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Woodwork",
+      "label": "Woodwork 1"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Film",
+      "label": "Film 1"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Photography",
+      "label": "Photography 1"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Writing",
+      "label": "Writing 1"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/enroll",
+      "label": "Start your first lesson"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses",
+      "label": "Courses"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Painting",
+      "label": "Painting"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/teachers/lena-hart",
+      "label": "with Lena Hart, Painter"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/pricing",
+      "label": "See plans"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/enroll?course=abstract-painting",
+      "label": "Enroll now"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/enroll?course=abstract-painting&lesson=1",
+      "label": "Try lesson 1 free"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/enroll?course=abstract-painting&lesson=1",
+      "label": "01 Prime the canvas 8:40 Free"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/teachers/lena-hart",
+      "label": "Lena Hart \u00b7 Painter"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/teachers/lena-hart",
+      "label": "Meet Lena"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses",
+      "label": "Browse all courses"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/cook-like-a-chef",
+      "label": "View course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/graphic-design-basics",
+      "label": "View course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/woodworking-at-home",
+      "label": "View course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses",
+      "label": "Courses"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Painting",
+      "label": "Painting"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/teachers/lena-hart",
+      "label": "with Lena Hart, Painter"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/pricing",
+      "label": "See plans"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/enroll?course=abstract-painting",
+      "label": "Enroll now"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/enroll?course=abstract-painting&lesson=1",
+      "label": "Try lesson 1 free"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/enroll?course=abstract-painting&lesson=1",
+      "label": "01 Prime the canvas 8:40 Free"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/teachers/lena-hart",
+      "label": "Lena Hart \u00b7 Painter"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/teachers/lena-hart",
+      "label": "Meet Lena"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses",
+      "label": "Browse all courses"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/cook-like-a-chef",
+      "label": "View course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/graphic-design-basics",
+      "label": "View course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/woodworking-at-home",
+      "label": "View course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses",
+      "label": "Courses"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Painting",
+      "label": "Painting"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/teachers/lena-hart",
+      "label": "with Lena Hart, Painter"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/pricing",
+      "label": "See plans"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/enroll?course=abstract-painting",
+      "label": "Enroll now"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/enroll?course=abstract-painting&lesson=1",
+      "label": "Try lesson 1 free"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/enroll?course=abstract-painting&lesson=1",
+      "label": "01 Prime the canvas 8:40 Free"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/teachers/lena-hart",
+      "label": "Lena Hart \u00b7 Painter"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/teachers/lena-hart",
+      "label": "Meet Lena"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses",
+      "label": "Browse all courses"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/cook-like-a-chef",
+      "label": "View course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/graphic-design-basics",
+      "label": "View course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/woodworking-at-home",
+      "label": "View course"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/abstract-painting",
+      "label": "Abstract painting"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/creative-writing",
+      "label": "Creative writing"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/cook-like-a-chef",
+      "label": "Cook like a chef"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/cook-like-a-chef",
+      "label": "Cook like a chef"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/woodworking-at-home",
+      "label": "Woodworking at home"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/graphic-design-basics",
+      "label": "Graphic design basics"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/graphic-design-basics",
+      "label": "Graphic design basics"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/film-photography",
+      "label": "Film photography"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/creative-writing",
+      "label": "Creative writing"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/abstract-painting",
+      "label": "Abstract painting"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/cook-like-a-chef",
+      "label": "Cook like a chef"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/graphic-design-basics",
+      "label": "Graphic design basics"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/creative-writing",
+      "label": "Creative writing"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/abstract-painting",
+      "label": "Abstract painting"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/graphic-design-basics",
+      "label": "Graphic design basics"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/woodworking-at-home",
+      "label": "Woodworking at home"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/cook-like-a-chef",
+      "label": "Cook like a chef"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/creative-writing",
+      "label": "Creative writing"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses/film-photography",
+      "label": "Film photography"
+    },
+    {
+      "href": "https://instagram.com",
+      "label": "Instagram"
+    },
+    {
+      "href": "https://youtube.com",
+      "label": "YouTube"
+    },
+    {
+      "href": "https://tiktok.com",
+      "label": "TikTok"
+    },
+    {
+      "href": "https://linkedin.com",
+      "label": "LinkedIn"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Painting",
+      "label": "Painting"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Cooking",
+      "label": "Cooking"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Design",
+      "label": "Design"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Woodwork",
+      "label": "Woodwork"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Film",
+      "label": "Film"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Photography",
+      "label": "Photography"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Writing",
+      "label": "Writing"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses",
+      "label": "Courses"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/teachers",
+      "label": "Teachers"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/pricing",
+      "label": "Pricing"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/about",
+      "label": "About"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/journal",
+      "label": "Journal"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/contact",
+      "label": "Contact"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/privacy",
+      "label": "Privacy"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/terms",
+      "label": "Terms"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/cookies",
+      "label": "Cookies"
+    },
+    {
+      "href": "mailto:hello@primer.school",
+      "label": "hello@primer.school"
+    },
+    {
+      "href": "https://instagram.com",
+      "label": "Instagram"
+    },
+    {
+      "href": "https://youtube.com",
+      "label": "YouTube"
+    },
+    {
+      "href": "https://tiktok.com",
+      "label": "TikTok"
+    },
+    {
+      "href": "https://linkedin.com",
+      "label": "LinkedIn"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Painting",
+      "label": "Painting"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Cooking",
+      "label": "Cooking"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Design",
+      "label": "Design"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Woodwork",
+      "label": "Woodwork"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Film",
+      "label": "Film"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Photography",
+      "label": "Photography"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Writing",
+      "label": "Writing"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses",
+      "label": "Courses"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/teachers",
+      "label": "Teachers"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/pricing",
+      "label": "Pricing"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/about",
+      "label": "About"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/journal",
+      "label": "Journal"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/contact",
+      "label": "Contact"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/privacy",
+      "label": "Privacy"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/terms",
+      "label": "Terms"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/cookies",
+      "label": "Cookies"
+    },
+    {
+      "href": "mailto:hello@primer.school",
+      "label": "hello@primer.school"
+    },
+    {
+      "href": "https://instagram.com",
+      "label": "Instagram"
+    },
+    {
+      "href": "https://youtube.com",
+      "label": "YouTube"
+    },
+    {
+      "href": "https://tiktok.com",
+      "label": "TikTok"
+    },
+    {
+      "href": "https://linkedin.com",
+      "label": "LinkedIn"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Painting",
+      "label": "Painting"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Cooking",
+      "label": "Cooking"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Design",
+      "label": "Design"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Woodwork",
+      "label": "Woodwork"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Film",
+      "label": "Film"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Photography",
+      "label": "Photography"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses?school=Writing",
+      "label": "Writing"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/courses",
+      "label": "Courses"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/teachers",
+      "label": "Teachers"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/pricing",
+      "label": "Pricing"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/about",
+      "label": "About"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/journal",
+      "label": "Journal"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/contact",
+      "label": "Contact"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/privacy",
+      "label": "Privacy"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/terms",
+      "label": "Terms"
+    },
+    {
+      "href": "https://nuanced-screenshot-385541.framer.app/cookies",
+      "label": "Cookies"
+    },
+    {
+      "href": "mailto:hello@primer.school",
+      "label": "hello@primer.school"
+    },
+    {
+      "href": "https://www.framer.com",
+      "label": "Create a free website with Framer, "
+    }
+  ],
+  "videos": [],
+  "mediaQueries": [
+    "@media(min-width: 1200px)",
+    "@media(min-width: 810px) and (max-width: 1199.98px)",
+    "@media(max-width: 809.98px)",
+    "@media (min-width:810px) and (max-width:1199.98px)",
+    "@media (max-width:809.98px)",
+    "@media (max-width:600px),(hover:none)",
+    "@media (prefers-reduced-motion:reduce)",
+    "@media (max-width:380px)",
+    "@media (max-height:540px)",
+    "@media (max-width:809px)",
+    "@media (max-width:1099px)",
+    "@media (max-width:699px)"
+  ],
+  "colorFrequency": [
+    [
+      "#0E1014",
+      30
+    ],
+    [
+      "#FFFFFF",
+      30
+    ],
+    [
+      "#F1EEE7",
+      15
+    ],
+    [
+      "#0A0B0F",
+      15
+    ],
+    [
+      "#4a463f",
+      4
+    ],
+    [
+      "#F2B632",
+      3
+    ],
+    [
+      "#1FB57A",
+      3
+    ],
+    [
+      "#5B8BB0",
+      3
+    ],
+    [
+      "#f4f1ea",
+      1
+    ],
+    [
+      "#17150f",
+      1
+    ],
+    [
+      "#f0532b",
+      1
+    ],
+    [
+      "#1e3a32",
+      1
+    ],
+    [
+      "#ddd7ca",
+      1
+    ],
+    [
+      "#7a746a",
+      1
+    ],
+    [
+      "#100f0c",
+      1
+    ]
+  ],
+  "linkedFontStylesheet": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Albert+Sans:ital,wght@0,300..800;1,300..800&family=Azeret+Mono:wght@400..600&display=swap"
+}

@@ -1,0 +1,428 @@
+{
+  "name": "Online Course",
+  "source": "https://nuanced-screenshot-385541.framer.app/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#f4f1ea",
+    "paper": "#ddd7ca",
+    "ink": "#17150f",
+    "accent": "#f0532b",
+    "muted": "#7a746a",
+    "pine": "#1e3a32",
+    "night": "#100f0c"
+  },
+  "type": {
+    "body": "Albert Sans",
+    "display": "Young Serif",
+    "roles": [
+      {
+        "role": "Hero h1 / CSS at 1440px viewport",
+        "family": "Young Serif",
+        "weight": 400,
+        "sizePx": 95.04,
+        "linePx": 90.288,
+        "tracking": "-.025em"
+      },
+      {
+        "role": "Hero supporting copy",
+        "family": "Albert Sans",
+        "weight": 400,
+        "sizePx": 17,
+        "linePx": 26.35,
+        "tracking": "0"
+      },
+      {
+        "role": "Hero course title",
+        "family": "Young Serif",
+        "weight": 400,
+        "sizePx": 30,
+        "linePx": 31.2,
+        "tracking": "-.01em"
+      },
+      {
+        "role": "Schools h2 / CSS at 1440px viewport",
+        "family": "Young Serif",
+        "weight": 400,
+        "sizePx": 61.92,
+        "linePx": 60.6816,
+        "tracking": "-.042em"
+      },
+      {
+        "role": "Course card title / CSS lower clamp bound",
+        "family": "Young Serif",
+        "weight": 400,
+        "sizePx": 28,
+        "linePx": 28.56,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Learner number / CSS at 1440px viewport",
+        "family": "Young Serif",
+        "weight": 400,
+        "sizePx": 92.16,
+        "linePx": 82.944,
+        "tracking": "-.035em"
+      },
+      {
+        "role": "Teacher card name",
+        "family": "Young Serif",
+        "weight": 400,
+        "sizePx": 28,
+        "linePx": 28,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Lesson row title",
+        "family": "Young Serif",
+        "weight": 400,
+        "sizePx": 21,
+        "linePx": 25.2,
+        "tracking": "-.01em"
+      },
+      {
+        "role": "Plan amount",
+        "family": "Young Serif",
+        "weight": 400,
+        "sizePx": 64,
+        "linePx": 73.6,
+        "tracking": "-.03em"
+      }
+    ],
+    "rolesEvidence": "Custom CSS/inline source and linked-google-fonts.css. Original selectors, fluid formulae and inheritance are in sourceRoleDetails and custom-css-declarations.json; evaluated rows explicitly state1440px. No text-box measurements or browser-computed style claims.",
+    "sourceRoleDetails": [
+      {
+        "role": "Hero h1 / CSS at 1440px viewport",
+        "tag": "h1",
+        "path": [
+          "Hero",
+          "PmHero"
+        ],
+        "selector": ".pmh-h1",
+        "declarations": {
+          "margin": "0",
+          "font-size": "clamp(56px,6.6vw,118px)",
+          "line-height": ".95",
+          "letter-spacing": "-.025em",
+          "font-weight": "inherit"
+        },
+        "inlineDeclarations": {
+          "font-family": "var(--pm-font-d, 'Young Serif'), Inter, -apple-system, Arial, sans-serif",
+          "font-weight": "var(--pm-font-dw, 400)",
+          "font-style": "normal"
+        },
+        "basis": "CSS formula clamp(56px,6.6vw,118px) evaluated at a stated 1440px viewport; line-height .95, not a measured element.",
+        "sample": "Every skill starts as a  sketch. "
+      },
+      {
+        "role": "Hero supporting copy",
+        "tag": "p",
+        "path": [
+          "Hero",
+          "PmHero"
+        ],
+        "selector": ".pmh-sub",
+        "declarations": {
+          "margin": "26px 0 0",
+          "max-width": "440px",
+          "font-size": "17px",
+          "line-height": "1.55",
+          "color": "color-mix(in srgb,var(--pm-ink) 82%,var(--pm-bone))",
+          "opacity": "0",
+          "transform": "translateY(14px)",
+          "transition": "opacity .8s .6s,transform .8s .6s"
+        },
+        "inlineDeclarations": {},
+        "basis": "literal non-media CSS plus inline/inherited font declarations",
+        "sample": "Short video lessons taught by people who do the work, a real project in every co"
+      },
+      {
+        "role": "Hero course title",
+        "tag": "p",
+        "path": [
+          "Hero",
+          "PmHero"
+        ],
+        "selector": ".pmh-ct",
+        "declarations": {
+          "margin": "10px 0 0",
+          "font-size": "30px",
+          "line-height": "1.04",
+          "letter-spacing": "-.01em",
+          "animation": "pmh-in .6s cubic-bezier(.2,.8,.2,1) both"
+        },
+        "inlineDeclarations": {
+          "font-family": "var(--pm-font-d, 'Young Serif'), Inter, -apple-system, Arial, sans-serif",
+          "font-weight": "var(--pm-font-dw, 400)",
+          "font-style": "normal"
+        },
+        "basis": "literal non-media CSS plus inline/inherited font declarations",
+        "sample": "Abstract painting"
+      },
+      {
+        "role": "Schools h2 / CSS at 1440px viewport",
+        "tag": "h2",
+        "path": [
+          "PmSchools",
+          "PmSchools"
+        ],
+        "selector": ".pmsc-h",
+        "declarations": {},
+        "inlineDeclarations": {
+          "font-family": "var(--pm-font-d, 'Young Serif'), Inter, -apple-system, Arial, sans-serif",
+          "font-weight": "var(--pm-font-dw, 400)",
+          "font-style": "normal",
+          "font-size": "clamp(40px,4.3vw,64px)",
+          "line-height": "0.98"
+        },
+        "basis": "Inline clamp(40px,4.3vw,64px) evaluated at1440px; inline line-height .98. No rendered geometry. Shared .pm-hd supplies tracking -.042em; inline font-weight var(--pm-font-dw,400) overrides the shared class default600.",
+        "sample": " Seven  schools,  one  way  to  learn.",
+        "inheritedClassDeclarations": {
+          "selector": ".pm-hd",
+          "letter-spacing": "-.042em",
+          "font-weight": "var(--pm-font-dw,600)"
+        }
+      },
+      {
+        "role": "Course card title / CSS lower clamp bound",
+        "tag": "h3",
+        "path": [
+          "PmCourses",
+          "PmCourses"
+        ],
+        "selector": ".pmcs-t",
+        "declarations": {
+          "margin": "8px 4px 0",
+          "font-size": "clamp(28px,2.2vw,31px)",
+          "font-weight": "400",
+          "line-height": "1.02",
+          "letter-spacing": "-.02em",
+          "white-space": "nowrap",
+          "overflow": "hidden",
+          "text-overflow": "ellipsis"
+        },
+        "inlineDeclarations": {
+          "font-family": "var(--pm-font-d, 'Young Serif'), Inter, -apple-system, Arial, sans-serif",
+          "font-weight": "var(--pm-font-dw, 400)",
+          "font-style": "normal"
+        },
+        "basis": "Declared lower bound of clamp(28px,2.2vw,31px), line-height1.02. Actual viewport remains fluid.",
+        "sample": "Abstract painting"
+      },
+      {
+        "role": "Learner number / CSS at 1440px viewport",
+        "tag": "p",
+        "path": [
+          "PmNumbers",
+          "PmNumbers"
+        ],
+        "selector": ".pmnb-num",
+        "declarations": {
+          "position": "relative",
+          "display": "flex",
+          "align-items": "baseline",
+          "gap": ".16em",
+          "margin": "6px 0 0",
+          "font-size": "clamp(64px,6.4vw,120px)",
+          "line-height": ".9",
+          "letter-spacing": "-.035em",
+          "font-variant-numeric": "tabular-nums",
+          "white-space": "nowrap",
+          "transition": "transform .5s cubic-bezier(.34,1.56,.64,1)"
+        },
+        "inlineDeclarations": {
+          "font-family": "var(--pm-font-d, 'Young Serif'), Inter, -apple-system, Arial, sans-serif",
+          "font-weight": "var(--pm-font-dw, 400)",
+          "font-style": "normal"
+        },
+        "basis": "CSS clamp(64px,6.4vw,120px) evaluated at1440px; line-height .9.",
+        "sample": "12,480  students learning right now"
+      },
+      {
+        "role": "Teacher card name",
+        "tag": "span",
+        "path": [
+          "PmTeachers",
+          "PmTeachers"
+        ],
+        "selector": ".pmtc-nm",
+        "declarations": {
+          "font-size": "28px",
+          "line-height": "1",
+          "letter-spacing": "-.02em",
+          "white-space": "nowrap",
+          "overflow": "hidden",
+          "text-overflow": "ellipsis",
+          "padding-bottom": "4px"
+        },
+        "inlineDeclarations": {
+          "font-family": "var(--pm-font-d, 'Young Serif'), Inter, -apple-system, Arial, sans-serif",
+          "font-weight": "var(--pm-font-dw, 400)",
+          "font-style": "normal"
+        },
+        "basis": "literal non-media CSS plus inline/inherited font declarations",
+        "sample": "Lena Hart"
+      },
+      {
+        "role": "Lesson row title",
+        "tag": "span",
+        "path": [
+          "PmSyllabus",
+          "PmSyllabus"
+        ],
+        "selector": ".pmsy-rn",
+        "declarations": {
+          "font-size": "21px",
+          "line-height": "1.2",
+          "letter-spacing": "-.01em",
+          "color": "color-mix(in srgb,var(--pm-cloud) 82%,var(--pm-night))",
+          "transition": "color .3s"
+        },
+        "inlineDeclarations": {
+          "font-family": "var(--pm-font-d, 'Young Serif'), Inter, -apple-system, Arial, sans-serif",
+          "font-weight": "var(--pm-font-dw, 400)",
+          "font-style": "normal"
+        },
+        "basis": "literal non-media CSS plus inline/inherited font declarations",
+        "sample": "Prime the canvas"
+      },
+      {
+        "role": "Plan amount",
+        "tag": "span",
+        "path": [
+          "PmPricing",
+          "PmPricing"
+        ],
+        "selector": ".pmpr-amt",
+        "declarations": {
+          "position": "relative",
+          "display": "inline-flex",
+          "font-size": "64px",
+          "line-height": "1.15",
+          "letter-spacing": "-.03em",
+          "padding": "0 4px"
+        },
+        "inlineDeclarations": {
+          "font-family": "var(--pm-font-d, 'Young Serif'), Inter, -apple-system, Arial, sans-serif",
+          "font-weight": "var(--pm-font-dw, 400)",
+          "font-style": "normal"
+        },
+        "basis": "literal non-media CSS plus inline/inherited font declarations",
+        "sample": "$ 0 1 2 3 4 5 6 7 8 9 7 0 1 2 3 4 5 6 7 8 9 9 $79 one-off"
+      }
+    ],
+    "variationAxes": {
+      "Young Serif": "400 normal; no custom numeric axis tuple declared",
+      "Albert Sans": "Linked stylesheet requests normal/italic weights300\u2013800; downloaded CSS enumerates weights. No custom font-variation-settings tuple declared.",
+      "Azeret Mono": "Linked stylesheet requests400\u2013600; metadata inline default400; no custom tuple declared."
+    },
+    "systemFontFamilies": [
+      "system-ui",
+      "-apple-system",
+      "Arial",
+      "ui-monospace",
+      "SFMono-Regular",
+      "Menlo"
+    ]
+  },
+  "spacing": {
+    "desktopGutterPx": 56,
+    "componentGapPx": 32,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 14,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:809.98px)",
+      "@media (max-width:600px),(hover:none)",
+      "@media (prefers-reduced-motion:reduce)",
+      "@media (max-width:380px)",
+      "@media (max-height:540px)",
+      "@media (max-width:809px)",
+      "@media (hover:hover) and (pointer:fine)",
+      "@media (hover:none)",
+      "@media (max-width:1099px)",
+      "@media (max-width:699px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      18.0,
+      40.0,
+      42.0,
+      44.0,
+      46.0,
+      48.0,
+      52.0,
+      58.0,
+      60.0,
+      96.0,
+      180.0,
+      200.0,
+      260.0,
+      300.0,
+      320.0,
+      360.0,
+      380.0,
+      400.0,
+      420.0,
+      430.0,
+      440.0,
+      460.0,
+      520.0,
+      540.0,
+      560.0,
+      600.0,
+      699.0,
+      720.0,
+      809.0,
+      809.98,
+      810.0,
+      820.0,
+      1099.0,
+      1199.98,
+      1200.0
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Courses / education",
+    "branch": "Multi-course academy / training catalog",
+    "fitEvidence": "Official marketplace identifies an education academy and online school; the public source declares seven school filters, multiple course cards, teacher profiles, pricing and course detail routes, contrasting a single creator course and the existing BrightPath institutional school."
+  },
+  "sectionAnchors": [
+    {
+      "id": "pricing",
+      "tag": "section",
+      "basis": "literal home HTML id"
+    },
+    {
+      "id": "faq",
+      "tag": "section",
+      "basis": "literal home HTML id"
+    }
+  ],
+  "sourceColorContext": "Source palette; the active theme is scoped to each native browser observation.",
+  "siteBlueprint": {
+    "file": "SITE-BLUEPRINT.md",
+    "backendVerified": false
+  }
+}

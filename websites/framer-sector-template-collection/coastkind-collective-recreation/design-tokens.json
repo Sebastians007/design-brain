@@ -1,0 +1,1491 @@
+{
+  "name": "Coastkind Collective",
+  "source": "https://coastkind-collective.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#f4f6f6",
+    "paper": "#e8e2d6",
+    "ink": "#1f2a2e",
+    "accent": "#cbe97a",
+    "muted": "#8a8a8a"
+  },
+  "type": {
+    "body": "Inter",
+    "display": "Besley",
+    "roles": [
+      {
+        "role": "Ticker Track / Announcement Text / p",
+        "family": "Inter",
+        "weight": 600,
+        "sizePx": 12.0,
+        "linePx": 14.4,
+        "tracking": ".04em"
+      },
+      {
+        "role": "Coastkind Wordmark / Brand Name / p",
+        "family": "Inter",
+        "weight": 600,
+        "sizePx": 14.0,
+        "linePx": 12.32,
+        "tracking": "-0.03em"
+      },
+      {
+        "role": "Default / Our Work Link / p",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 14.0,
+        "linePx": 14.0,
+        "tracking": "0"
+      },
+      {
+        "role": "Variant 1 / Donate Label / p",
+        "family": "Inter",
+        "weight": 600,
+        "sizePx": 13.0,
+        "linePx": 13.0,
+        "tracking": "0"
+      },
+      {
+        "role": "Hero Copy / Hero Title / h1",
+        "family": "Besley",
+        "weight": 600,
+        "sizePx": 68.0,
+        "linePx": 68.0,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Variant 2 / Donate Label / p",
+        "family": "Inter",
+        "weight": 600,
+        "sizePx": 16.0,
+        "linePx": 16.0,
+        "tracking": "0"
+      },
+      {
+        "role": "Hero Copy / Hero Title / h1",
+        "family": "Besley",
+        "weight": 600,
+        "sizePx": 63.0,
+        "linePx": 63.0,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "Hero Copy / Hero Title / h1",
+        "family": "Besley",
+        "weight": 600,
+        "sizePx": 52.0,
+        "linePx": 52.0,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "Mission Heading / Heading / The ocean shapes every life along / h2",
+        "family": "Besley",
+        "weight": 400,
+        "sizePx": 54.0,
+        "linePx": 59.4,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Mission Copy / Copy / Healthy marine ecosystems provide food, liv\u2026 / p",
+        "family": "Inter",
+        "weight": 400,
+        "sizePx": 17.0,
+        "linePx": 25.5,
+        "tracking": "-.015em"
+      },
+      {
+        "role": "Mission Copy / Heading / Built with communities. Backed by science. / h3",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 32.0,
+        "linePx": 33.6,
+        "tracking": "-.035em"
+      },
+      {
+        "role": "Variant 4 / Donate Label / p",
+        "family": "Inter",
+        "weight": 600,
+        "sizePx": 15.0,
+        "linePx": 15.0,
+        "tracking": "0"
+      },
+      {
+        "role": "Restore Habitats Poster / Text / Protect What Connects Us / p",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 56.0,
+        "linePx": 51.52,
+        "tracking": "-0.055em"
+      },
+      {
+        "role": "Habitat Tag / Text / Restore marine habitats / p",
+        "family": "Inter",
+        "weight": 600,
+        "sizePx": 14.0,
+        "linePx": 16.8,
+        "tracking": "0.04em"
+      },
+      {
+        "role": "Restore Habitats Poster / Text / Protect What Connects Us / p",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 32.0,
+        "linePx": 35.2,
+        "tracking": "-0.055em"
+      },
+      {
+        "role": "Restore Habitats Poster / Title / Protect What Connects Us / p",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 44.0,
+        "linePx": 40.48,
+        "tracking": "-0.055em"
+      },
+      {
+        "role": "Quote Copy / Quote Mark / p",
+        "family": "Besley",
+        "weight": 500,
+        "sizePx": 76.0,
+        "linePx": 53.2,
+        "tracking": "0"
+      },
+      {
+        "role": "Quote Copy / Copy / A principle that guides every Coastkind / p",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 24.0,
+        "linePx": 31.2,
+        "tracking": "0.02em"
+      },
+      {
+        "role": "Quote Copy / Copy / A principle that guides every Coastkind / p",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 20.0,
+        "linePx": 26.0,
+        "tracking": "0.02em"
+      },
+      {
+        "role": "Join a Project / Heading / Join a Project / h2",
+        "family": "Besley",
+        "weight": 500,
+        "sizePx": 48.0,
+        "linePx": 52.8,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "Join a Project / Copy / Explore active programs and get involved / p",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 24.0,
+        "linePx": 34.8,
+        "tracking": "0"
+      },
+      {
+        "role": "Join a Project / Copy / Explore active programs and get involved / p",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 21.0,
+        "linePx": 30.45,
+        "tracking": "0"
+      },
+      {
+        "role": "Join a Project / Copy / Explore active programs and get involved / p",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 20.0,
+        "linePx": 29.0,
+        "tracking": "0"
+      },
+      {
+        "role": "Newsletter Copy / Copy / Receive field updates, community stories and / p",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 16.0,
+        "linePx": 20.8,
+        "tracking": "-0.015em"
+      },
+      {
+        "role": "Coastkind Wordmark / Brand Name / p",
+        "family": "Inter",
+        "weight": 600,
+        "sizePx": 22.0,
+        "linePx": 22.0,
+        "tracking": "-0.03em"
+      },
+      {
+        "role": "Our Work / Title / p",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 14.0,
+        "linePx": 19.6,
+        "tracking": "0"
+      },
+      {
+        "role": "Default / Label / p",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 12.0,
+        "linePx": 16.8,
+        "tracking": "0"
+      },
+      {
+        "role": "Content / \u00a9 2026 Coastkind Collective. All / Copyright / p",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 13.0,
+        "linePx": 18.2,
+        "tracking": "0"
+      },
+      {
+        "role": "Coastkind Wordmark / Brand Name / p",
+        "family": "Inter",
+        "weight": 600,
+        "sizePx": 18.0,
+        "linePx": 18.0,
+        "tracking": "-0.03em"
+      },
+      {
+        "role": "Coastkind Wordmark / Brand Name / p",
+        "family": "Inter",
+        "weight": 600,
+        "sizePx": 14.0,
+        "linePx": 14.0,
+        "tracking": "-0.03em"
+      }
+    ],
+    "rolesEvidence": "Public preview source HTML/CSS and inline declarations; source facts retain media alternatives. Reference JPGs inspected separately.",
+    "sourceRoleDetails": [
+      {
+        "role": "Ticker Track / Announcement Text / p",
+        "tag": "p",
+        "sample": "The coast needs all of us. Join our next shor",
+        "path": [
+          "Desktop",
+          "Ticker Track",
+          "Announcement Text"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "12px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "600",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "600",
+          "--framer-letter-spacing": ".04em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-e67d2ab9-2e56-420f-a52c-2c4aa81bae10)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Coastkind Wordmark / Brand Name / p",
+        "tag": "p",
+        "sample": "coastkindcollective",
+        "path": [
+          "Desktop",
+          "Coastkind Wordmark",
+          "Brand Name"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "600",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-e67d2ab9-2e56-420f-a52c-2c4aa81bae10))",
+          "--framer-font-size": "14px",
+          "--framer-letter-spacing": "-0.03em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "0.88em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Default / Our Work Link / p",
+        "tag": "p",
+        "sample": "Our Work",
+        "path": [
+          "Desktop",
+          "Navigation Links",
+          "Nav-Link / Our Work",
+          "Default",
+          "Our Work Link"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-e67d2ab9-2e56-420f-a52c-2c4aa81bae10))",
+          "--framer-font-size": "14px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Variant 1 / Donate Label / p",
+        "tag": "p",
+        "sample": "Donate",
+        "path": [
+          "Desktop",
+          "Donate Button / Donate",
+          "Variant 1",
+          "Donate Label"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "600",
+          "--framer-text-color": "var(--extracted-r6o4lv, #FFFFFF)",
+          "--framer-font-size": "13px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Hero Copy / Hero Title / h1",
+        "tag": "h1",
+        "sample": "Protect the Blue. Strengthen the Coast.",
+        "path": [
+          "Hero Composition",
+          "Hero Image Panel",
+          "Layout / Hero Image Panel",
+          "Hero Copy",
+          "Hero Title"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Besley\", \"Besley Placeholder\", serif",
+          "--framer-font-family-bold": "\"Besley\", \"Besley Placeholder\", serif",
+          "--framer-font-family-bold-italic": "\"Besley\", \"Besley Placeholder\", serif",
+          "--framer-font-family-italic": "\"Besley\", \"Besley Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "68px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "600",
+          "--framer-font-weight-bold": "900",
+          "--framer-font-weight-bold-italic": "900",
+          "--framer-font-weight-italic": "600",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-e67d2ab9-2e56-420f-a52c-2c4aa81bae10)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "--framer-text-color": "var(--token-e67d2ab9-2e56-420f-a52c-2c4aa81bae10, rgb(31, 42, 46))"
+          },
+          {
+            "--framer-text-color": "var(--token-e67d2ab9-2e56-420f-a52c-2c4aa81bae10, rgb(31, 42, 46))"
+          }
+        ],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Variant 2 / Donate Label / p",
+        "tag": "p",
+        "sample": "Explore our impact \u2192",
+        "path": [
+          "Hero Composition",
+          "Hero Image Panel",
+          "Layout / Hero Image Panel",
+          "Hero Copy",
+          "Button / Explore our impact",
+          "Variant 2",
+          "Donate Label"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "600",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-10a3702d-08ac-44f3-8eac-68028f69eb3b, rgb(244, 246, 246)))",
+          "--framer-font-size": "16px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Hero Copy / Hero Title / h1",
+        "tag": "h1",
+        "sample": "Protect the Blue. Strengthen the Coast.",
+        "path": [
+          "Hero Composition",
+          "Hero Image Panel",
+          "Layout / Hero Image Panel",
+          "Hero Copy",
+          "Hero Title"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Besley\", \"Besley Placeholder\", serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "600",
+          "--framer-text-color": "var(--token-e67d2ab9-2e56-420f-a52c-2c4aa81bae10, rgb(31, 42, 46))",
+          "--framer-font-size": "63px",
+          "--framer-letter-spacing": "-0.02em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "--framer-text-color": "var(--token-e67d2ab9-2e56-420f-a52c-2c4aa81bae10)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          }
+        ],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Hero Copy / Hero Title / h1",
+        "tag": "h1",
+        "sample": "Protect the Blue. Strengthen the Coast.",
+        "path": [
+          "Hero Composition",
+          "Hero Image Panel",
+          "Layout / Hero Image Panel",
+          "Hero Copy",
+          "Hero Title"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Besley\", \"Besley Placeholder\", serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "600",
+          "--framer-text-color": "var(--token-e67d2ab9-2e56-420f-a52c-2c4aa81bae10, rgb(31, 42, 46))",
+          "--framer-font-size": "52px",
+          "--framer-letter-spacing": "-0.02em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1em",
+          "--framer-text-alignment": "center",
+          "--framer-font-open-type-features": "'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "--framer-text-color": "var(--token-e67d2ab9-2e56-420f-a52c-2c4aa81bae10)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          }
+        ],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Mission Heading / Heading / The ocean shapes every life along / h2",
+        "tag": "h2",
+        "sample": "The ocean shapes every life along the coast.",
+        "path": [
+          "Mission Editorial",
+          "Mission Heading",
+          "Heading / The ocean shapes every life along"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Besley\", \"Besley Placeholder\", serif",
+          "--framer-font-family-bold": "\"Besley\", \"Besley Placeholder\", serif",
+          "--framer-font-family-bold-italic": "\"Besley\", \"Besley Placeholder\", serif",
+          "--framer-font-family-italic": "\"Besley\", \"Besley Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "54px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.1em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-e67d2ab9-2e56-420f-a52c-2c4aa81bae10,#1f2a2e)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Mission Copy / Copy / Healthy marine ecosystems provide food, liv\u2026 / p",
+        "tag": "p",
+        "sample": "Healthy marine ecosystems provide food, livel",
+        "path": [
+          "Mission Editorial",
+          "Mission Copy",
+          "Copy / Healthy marine ecosystems provide food, liv\u2026"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "17px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.015em",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-e67d2ab9-2e56-420f-a52c-2c4aa81bae10)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Mission Copy / Heading / Built with communities. Backed by science. / h3",
+        "tag": "h3",
+        "sample": "Built with communities. Backed by science.",
+        "path": [
+          "Mission Editorial",
+          "Mission Copy",
+          "Heading / Built with communities. Backed by science."
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "32px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "600",
+          "--framer-font-weight-bold-italic": "600",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "-.035em",
+          "--framer-line-height": "1.05em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-e67d2ab9-2e56-420f-a52c-2c4aa81bae10)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Variant 4 / Donate Label / p",
+        "tag": "p",
+        "sample": "Discover our approach \u2192",
+        "path": [
+          "Mission Editorial",
+          "Mission Copy",
+          "Button / Discover our approach",
+          "Variant 4",
+          "Donate Label"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "600",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-e67d2ab9-2e56-420f-a52c-2c4aa81bae10, rgb(31, 42, 46)))",
+          "--framer-font-size": "15px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Restore Habitats Poster / Text / Protect What Connects Us / p",
+        "tag": "p",
+        "sample": "Protect WhatConnects Us",
+        "path": [
+          "Modular Focus Posters",
+          "Layout / Modular Focus Posters",
+          "Tablet Focus Carousel",
+          "Slide 1",
+          "Carousel Viewport",
+          "Restore Habitats Poster",
+          "Text / Protect What Connects Us"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, rgb(31, 42, 46))",
+          "--framer-font-size": "56px",
+          "--framer-letter-spacing": "-0.055em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "0.92em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Habitat Tag / Text / Restore marine habitats / p",
+        "tag": "p",
+        "sample": "Restore marine habitats",
+        "path": [
+          "Modular Focus Posters",
+          "Layout / Modular Focus Posters",
+          "Tablet Focus Carousel",
+          "Slide 1",
+          "Carousel Viewport",
+          "Restore Habitats Poster",
+          "Habitat Tag",
+          "Text / Restore marine habitats"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "600",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-e67d2ab9-2e56-420f-a52c-2c4aa81bae10))",
+          "--framer-font-size": "14px",
+          "--framer-letter-spacing": "0.04em",
+          "--framer-text-transform": "uppercase",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.2em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Restore Habitats Poster / Text / Protect What Connects Us / p",
+        "tag": "p",
+        "sample": "Protect WhatConnects Us",
+        "path": [
+          "Modular Focus Posters",
+          "Layout / Modular Focus Posters",
+          "Phone Focus Carousel",
+          "Phone Slide 1",
+          "Carousel Viewport",
+          "Restore Habitats Poster",
+          "Text / Protect What Connects Us"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, rgb(31, 42, 46))",
+          "--framer-font-size": "32px",
+          "--framer-letter-spacing": "-0.055em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.1em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Restore Habitats Poster / Title / Protect What Connects Us / p",
+        "tag": "p",
+        "sample": "Protect WhatConnects Us",
+        "path": [
+          "Modular Focus Posters",
+          "Layout / Modular Focus Posters",
+          "Focus Poster Grid",
+          "Restore Habitats Poster",
+          "Title / Protect What Connects Us"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "rgb(31, 42, 46)",
+          "--framer-font-size": "44px",
+          "--framer-letter-spacing": "-0.055em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "0.92em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Quote Copy / Quote Mark / p",
+        "tag": "p",
+        "sample": "\u201c",
+        "path": [
+          "Ocean Quote",
+          "Quote Copy",
+          "Quote Mark"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Besley\", \"Besley Placeholder\", serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--token-e67d2ab9-2e56-420f-a52c-2c4aa81bae10, rgb(31, 42, 46))",
+          "--framer-font-size": "76px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "0.7em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Quote Copy / Copy / A principle that guides every Coastkind / p",
+        "tag": "p",
+        "sample": "A principle that guides every Coastkind progr",
+        "path": [
+          "Ocean Quote",
+          "Quote Copy",
+          "Copy / A principle that guides every Coastkind"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--token-e67d2ab9-2e56-420f-a52c-2c4aa81bae10, rgb(31, 42, 46))",
+          "--framer-font-size": "24px",
+          "--framer-letter-spacing": "0.02em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.3em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Quote Copy / Copy / A principle that guides every Coastkind / p",
+        "tag": "p",
+        "sample": "A principle that guides every Coastkind progr",
+        "path": [
+          "Ocean Quote",
+          "Quote Copy",
+          "Copy / A principle that guides every Coastkind"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--token-e67d2ab9-2e56-420f-a52c-2c4aa81bae10, rgb(31, 42, 46))",
+          "--framer-font-size": "20px",
+          "--framer-letter-spacing": "0.02em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.3em",
+          "--framer-text-alignment": "center",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Join a Project / Heading / Join a Project / h2",
+        "tag": "h2",
+        "sample": "Join a Project",
+        "path": [
+          "Ways to Act",
+          "Join a Project",
+          "Heading / Join a Project"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Besley\", \"Besley Placeholder\", serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--token-e67d2ab9-2e56-420f-a52c-2c4aa81bae10, rgb(31, 42, 46))",
+          "--framer-font-size": "48px",
+          "--framer-letter-spacing": "-0.02em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.1em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Join a Project / Copy / Explore active programs and get involved / p",
+        "tag": "p",
+        "sample": "Explore active programs and get involved wher",
+        "path": [
+          "Ways to Act",
+          "Join a Project",
+          "Copy / Explore active programs and get involved"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "rgb(31, 42, 46)",
+          "--framer-font-size": "24px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.45em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Join a Project / Copy / Explore active programs and get involved / p",
+        "tag": "p",
+        "sample": "Explore active programs and get involved wher",
+        "path": [
+          "Ways to Act",
+          "Join a Project",
+          "Copy / Explore active programs and get involved"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "rgb(31, 42, 46)",
+          "--framer-font-size": "21px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.45em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Join a Project / Copy / Explore active programs and get involved / p",
+        "tag": "p",
+        "sample": "Explore active programs and get involved wher",
+        "path": [
+          "Ways to Act",
+          "Join a Project",
+          "Copy / Explore active programs and get involved"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "rgb(31, 42, 46)",
+          "--framer-font-size": "20px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.45em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Newsletter Copy / Copy / Receive field updates, community stories and / p",
+        "tag": "p",
+        "sample": "Receive field updates, community stories and ",
+        "path": [
+          "Newsletter",
+          "Newsletter Copy",
+          "Copy / Receive field updates, community stories and"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "rgb(255, 255, 255)",
+          "--framer-font-size": "16px",
+          "--framer-letter-spacing": "-0.015em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.3em",
+          "--framer-text-alignment": "center",
+          "--framer-font-open-type-features": "'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Coastkind Wordmark / Brand Name / p",
+        "tag": "p",
+        "sample": "coastkindcollective",
+        "path": [
+          "Desktop",
+          "Top",
+          "Brand",
+          "Coastkind Wordmark",
+          "Brand Name"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "600",
+          "--framer-text-color": "var(--extracted-r6o4lv, rgb(255, 255, 255))",
+          "--framer-font-size": "22px",
+          "--framer-letter-spacing": "-0.03em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Our Work / Title / p",
+        "tag": "p",
+        "sample": "Our Work",
+        "path": [
+          "Desktop",
+          "Top",
+          "Link Columns",
+          "Our Work",
+          "Title"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, rgb(255, 255, 255))",
+          "--framer-font-size": "14px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.4em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Default / Label / p",
+        "tag": "p",
+        "sample": "Focus Areas",
+        "path": [
+          "Desktop",
+          "Top",
+          "Link Columns",
+          "Our Work",
+          "Footer Link",
+          "Default",
+          "Label"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--variable-reference-iA8FaT2dd-qWw5t_Wqz))",
+          "--framer-font-size": "12px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.4em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Content / \u00a9 2026 Coastkind Collective. All / Copyright / p",
+        "tag": "p",
+        "sample": "\u00a9 2026 Coastkind Collective. All rights reser",
+        "path": [
+          "Desktop",
+          "Bottom",
+          "Content / \u00a9 2026 Coastkind Collective. All",
+          "Copyright"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, rgb(138, 138, 138))",
+          "--framer-font-size": "13px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.4em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Coastkind Wordmark / Brand Name / p",
+        "tag": "p",
+        "sample": "coastkindcollective",
+        "path": [
+          "Tablet",
+          "Top",
+          "Brand",
+          "Coastkind Wordmark",
+          "Brand Name"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "600",
+          "--framer-text-color": "var(--extracted-r6o4lv, rgb(255, 255, 255))",
+          "--framer-font-size": "18px",
+          "--framer-letter-spacing": "-0.03em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Coastkind Wordmark / Brand Name / p",
+        "tag": "p",
+        "sample": "coastkindcollective",
+        "path": [
+          "Phone",
+          "Top",
+          "Brand",
+          "Coastkind Wordmark",
+          "Brand Name"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "600",
+          "--framer-text-color": "var(--extracted-r6o4lv, rgb(255, 255, 255))",
+          "--framer-font-size": "14px",
+          "--framer-letter-spacing": "-0.03em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      }
+    ],
+    "variationAxes": {
+      "Ticker Track / Announcement Text / p": "normal",
+      "Hero Copy / Hero Title / h1": "normal",
+      "Mission Heading / Heading / The ocean shapes every life along / h2": "normal",
+      "Mission Copy / Copy / Healthy marine ecosystems provide food, liv\u2026 / p": "normal",
+      "Mission Copy / Heading / Built with communities. Backed by science. / h3": "normal"
+    },
+    "systemFontFamilies": []
+  },
+  "spacing": {
+    "desktopGutterPx": 64,
+    "componentGapPx": 32,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 12,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1440,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1440px)",
+      "@media(min-width: 810px) and (max-width: 1439.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (min-width:810px) and (max-width:1439.98px)",
+      "@media (max-width:809.98px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      809.98,
+      810.0,
+      1439.98,
+      1440.0
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Nonprofits",
+    "branch": "Environmental / conservation organization",
+    "fitEvidence": "Official listing explicitly names environmental nonprofits and conservation organizations; home and routes emphasize coastal focus areas, programs, impact reports, field stories and involvement."
+  },
+  "sectionAnchors": {
+    "Skip destination": "#main"
+  },
+  "sourceColorContext": "Source palette; the active theme is scoped to each native browser observation.",
+  "siteBlueprint": {
+    "file": "SITE-BLUEPRINT.md",
+    "backendVerified": false
+  }
+}

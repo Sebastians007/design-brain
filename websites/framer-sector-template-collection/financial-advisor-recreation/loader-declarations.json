@@ -1,0 +1,23 @@
+{
+  "source": "https://framerusercontent.com/sites/47O7ocX0QmUFPgeVB55xnO/script_main.DrR_a9GC.mjs",
+  "component": "WoLoader",
+  "sourceProps": {
+    "durationSeconds": 2.4,
+    "once": true,
+    "respectReducedMotion": true,
+    "startAge": 35,
+    "endAge": 95,
+    "retireAge": 67
+  },
+  "pinMilliseconds": 700,
+  "openMilliseconds": 1300,
+  "backgroundFrameGapHandling": "RAF gaps greater than120ms are subtracted from elapsed animation time, preserving16ms advancement",
+  "cssFallback": "8s delay+.8s hide exists in SSR but hydration sets style.animation=none",
+  "completion": [
+    "remove html.wld-go",
+    "sessionStorage.setItem(wo-loaded,1)",
+    "phase gone"
+  ],
+  "skipControlFound": false,
+  "runtimeBehaviorVerified": false
+}

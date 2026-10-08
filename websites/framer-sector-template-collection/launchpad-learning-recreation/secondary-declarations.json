@@ -1,0 +1,3095 @@
+{
+  "url": "https://launchpadlearning.framer.website/enroll-page",
+  "coverage": "Public HTML/CSS source; no form submission, enrollment, payment or account service exercised.",
+  "structure": [
+    "Shared promotion strip and navigation",
+    "Be pro at content creation and become more valuable heading",
+    "Name / Email / Message form, Send Message submit",
+    "Shared footer with Course Information / Platform / Company"
+  ],
+  "types": [
+    {
+      "tag": "p",
+      "sample": "Ready to launch your course?",
+      "path": [
+        "Variant 1"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "15px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "1.5em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "h3",
+      "sample": "Out Now - Save $75",
+      "path": [
+        "Variant 1",
+        "CTA Small"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "600",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--variable-reference-EnBVDC6a2-OlTWqYMo3))",
+        "--framer-font-size": "13px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.4em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "h3",
+      "sample": "Launchpad Learning",
+      "path": [
+        "Navbar",
+        "Desktop Transperent",
+        "Container",
+        "Logo + Icon",
+        "Logo"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "700",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78)))",
+        "--framer-font-size": "17px",
+        "--framer-letter-spacing": "0px",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.3em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Overview",
+      "path": [
+        "Navbar",
+        "Desktop Transperent",
+        "Container",
+        "Links Wrap"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-font-size": "15px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.3em",
+        "--framer-text-alignment": "center",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Curriculum",
+      "path": [
+        "Navbar",
+        "Desktop Transperent",
+        "Container",
+        "Links Wrap"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-font-size": "15px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.3em",
+        "--framer-text-alignment": "center",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "What's Included",
+      "path": [
+        "Navbar",
+        "Desktop Transperent",
+        "Container",
+        "Links Wrap"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-font-size": "15px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.3em",
+        "--framer-text-alignment": "center",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Instructor",
+      "path": [
+        "Navbar",
+        "Desktop Transperent",
+        "Container",
+        "Links Wrap"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-font-size": "15px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.3em",
+        "--framer-text-alignment": "center",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "h3",
+      "sample": "Enroll Now",
+      "path": [
+        "Navbar",
+        "Desktop Transperent",
+        "Container",
+        "Button Wrap",
+        "Small Accent"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "600",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-font-size": "18px",
+        "--framer-letter-spacing": "0.03em",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "h3",
+      "sample": "Launchpad Learning",
+      "path": [
+        "Navbar",
+        "Phone Transperent",
+        "Container",
+        "Logo + Icon",
+        "Logo"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "700",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78)))",
+        "--framer-font-size": "17px",
+        "--framer-letter-spacing": "0px",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.3em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "h3",
+      "sample": "Launchpad Learning",
+      "path": [
+        "Navbar",
+        "Phone Transperent",
+        "Container",
+        "Logo + Icon",
+        "Logo"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "700",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78)))",
+        "--framer-font-size": "17px",
+        "--framer-letter-spacing": "0px",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.3em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "h2",
+      "sample": "Be pro at content creation and become more va",
+      "path": [],
+      "declaredStyle": {
+        "--framer-font-family": "\"Funnel Display Variable\", \"Funnel Display Variable Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Funnel Display Variable\", \"Funnel Display Variable Placeholder\", sans-serif",
+        "--framer-font-family-bold-italic": "\"Funnel Display Variable\", \"Funnel Display Variable Placeholder\", sans-serif",
+        "--framer-font-family-italic": "\"Funnel Display Variable\", \"Funnel Display Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "48px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-style-bold-italic": "normal",
+        "--framer-font-style-italic": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600",
+        "--framer-font-variation-axes-bold": "\"wght\" 600",
+        "--framer-font-variation-axes-bold-italic": "\"wght\" 600",
+        "--framer-font-variation-axes-italic": "\"wght\" 600",
+        "--framer-font-weight": "400",
+        "--framer-font-weight-bold": "400",
+        "--framer-font-weight-bold-italic": "400",
+        "--framer-font-weight-italic": "400",
+        "--framer-letter-spacing": "-1px",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e,#19154e)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "h3",
+      "sample": "Launchpad Learning",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Left",
+        "Info",
+        "Logo"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "600",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-font-size": "23px",
+        "--framer-letter-spacing": "-0.5px",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.3em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "A complete learning experience for creators, ",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Left",
+        "Info",
+        "Info",
+        "Description"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-r6o4lv, rgb(255, 255, 255))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "h3",
+      "sample": "Course Information",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Title"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Overview",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Link",
+        "Left",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Curriculum",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Link",
+        "Left",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Instructor",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Link",
+        "Left",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "What's Included",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Link",
+        "Left",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Reviews",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Link",
+        "Left",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Pricing",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Link",
+        "Left",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "h3",
+      "sample": "Platform",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Right",
+        "Center",
+        "Title"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Login",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Right",
+        "Center",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Sign Up",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Right",
+        "Center",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Search",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Right",
+        "Center",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "All Lessons",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Right",
+        "Center",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "h3",
+      "sample": "Company",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Right",
+        "Right",
+        "Title"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "About Us",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Right",
+        "Right",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Discounts",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Right",
+        "Right",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Terms",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Right",
+        "Right",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bd377b4b-bd02-4975-a6e5-f4242e212fba, rgb(247, 247, 250)))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Privacy",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Right",
+        "Right",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bd377b4b-bd02-4975-a6e5-f4242e212fba, rgb(247, 247, 250)))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Contact Us",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Right",
+        "Right",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bd377b4b-bd02-4975-a6e5-f4242e212fba, rgb(247, 247, 250)))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Built By",
+      "path": [
+        "Desktop",
+        "Container",
+        "Bottom",
+        "Built ",
+        "Created by"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-font-size": "14px",
+        "--framer-letter-spacing": "-0.012em",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.45em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Harshith",
+      "path": [
+        "Desktop",
+        "Container",
+        "Bottom",
+        "Built ",
+        "Created by",
+        "Harshith"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-5f7a3ff9-60d3-44ac-8f09-e1c923c6ed23, rgb(255, 255, 255)))",
+        "--framer-font-size": "14px",
+        "--framer-letter-spacing": "-0.012em",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.45em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "\u00a9 2026 Launchpad Learning LLC",
+      "path": [
+        "Desktop",
+        "Container",
+        "Bottom",
+        "Copyright"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-dd099603-6b15-4e84-a91d-b97cf84361af, rgb(255, 255, 255)))",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.3em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "h3",
+      "sample": "Launchpad Learning",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Left",
+        "Info",
+        "Logo"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "600",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-font-size": "23px",
+        "--framer-letter-spacing": "-0.5px",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.3em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "A complete learning experience for creators, ",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Left",
+        "Info",
+        "Info",
+        "Description"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-r6o4lv, rgb(255, 255, 255))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "h3",
+      "sample": "Course Information",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Title"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Overview",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Link",
+        "Left",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Curriculum",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Link",
+        "Left",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Instructor",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Link",
+        "Left",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "What's Included",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Link",
+        "Left",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Reviews",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Link",
+        "Left",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Pricing",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Link",
+        "Left",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "h3",
+      "sample": "Platform",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Right",
+        "Center",
+        "Title"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Login",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Right",
+        "Center",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Sign Up",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Right",
+        "Center",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Search",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Right",
+        "Center",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "All Lessons",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Right",
+        "Center",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "h3",
+      "sample": "Company",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Right",
+        "Right",
+        "Title"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "About Us",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Right",
+        "Right",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Discounts",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Right",
+        "Right",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Terms",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Right",
+        "Right",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bd377b4b-bd02-4975-a6e5-f4242e212fba, rgb(247, 247, 250)))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Privacy",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Right",
+        "Right",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bd377b4b-bd02-4975-a6e5-f4242e212fba, rgb(247, 247, 250)))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Contact Us",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "Right",
+        "Right",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bd377b4b-bd02-4975-a6e5-f4242e212fba, rgb(247, 247, 250)))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Built By",
+      "path": [
+        "Tablet",
+        "Container",
+        "Bottom",
+        "Built ",
+        "Created by"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-font-size": "14px",
+        "--framer-letter-spacing": "-0.012em",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.45em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Harshith",
+      "path": [
+        "Tablet",
+        "Container",
+        "Bottom",
+        "Built ",
+        "Created by",
+        "Harshith"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-5f7a3ff9-60d3-44ac-8f09-e1c923c6ed23, rgb(255, 255, 255)))",
+        "--framer-font-size": "14px",
+        "--framer-letter-spacing": "-0.012em",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.45em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "\u00a9 2026 Launchpad Learning LLC",
+      "path": [
+        "Tablet",
+        "Container",
+        "Bottom",
+        "Copyright"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-dd099603-6b15-4e84-a91d-b97cf84361af, rgb(255, 255, 255)))",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.3em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "h3",
+      "sample": "Launchpad Learning",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Left",
+        "Info",
+        "Logo"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "600",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-font-size": "23px",
+        "--framer-letter-spacing": "-0.5px",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.3em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "A complete learning experience for creators, ",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Left",
+        "Info",
+        "Info",
+        "Description"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-r6o4lv, rgb(255, 255, 255))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "h3",
+      "sample": "Course Information",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Title"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Overview",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Link",
+        "Left",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Curriculum",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Link",
+        "Left",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Instructor",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Link",
+        "Left",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "What's Included",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Link",
+        "Left",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Reviews",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Link",
+        "Left",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Pricing",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Right",
+        "Left",
+        "Link",
+        "Left",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "h3",
+      "sample": "Platform",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Right",
+        "Center",
+        "Title"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Login",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Right",
+        "Center",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Sign Up",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Right",
+        "Center",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Search",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Right",
+        "Center",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "All Lessons",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Right",
+        "Center",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "h3",
+      "sample": "Company",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Right",
+        "Right",
+        "Title"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Funnel Display\", \"Funnel Display Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "About Us",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Right",
+        "Right",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Discounts",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Right",
+        "Right",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97,#000)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Terms",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Right",
+        "Right",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bd377b4b-bd02-4975-a6e5-f4242e212fba, rgb(247, 247, 250)))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Privacy",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Right",
+        "Right",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bd377b4b-bd02-4975-a6e5-f4242e212fba, rgb(247, 247, 250)))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Contact Us",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Right",
+        "Right",
+        "Info",
+        "Footer Link"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": ".5px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bd377b4b-bd02-4975-a6e5-f4242e212fba, rgb(247, 247, 250)))",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Built By",
+      "path": [
+        "Phone",
+        "Container",
+        "Bottom",
+        "Built ",
+        "Created by"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-8c47652b-dea5-4767-a9f2-5d952dcce49a, rgb(255, 255, 255)))",
+        "--framer-font-size": "14px",
+        "--framer-letter-spacing": "-0.012em",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.45em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "Harshith",
+      "path": [
+        "Phone",
+        "Container",
+        "Bottom",
+        "Built ",
+        "Created by",
+        "Harshith"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-5f7a3ff9-60d3-44ac-8f09-e1c923c6ed23, rgb(255, 255, 255)))",
+        "--framer-font-size": "14px",
+        "--framer-letter-spacing": "-0.012em",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.45em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    },
+    {
+      "tag": "p",
+      "sample": "\u00a9 2026 Launchpad Learning LLC",
+      "path": [
+        "Phone",
+        "Container",
+        "Bottom",
+        "Copyright"
+      ],
+      "declaredStyle": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-dd099603-6b15-4e84-a91d-b97cf84361af, rgb(255, 255, 255)))",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "capitalize",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.3em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      },
+      "nestedSpanStyles": [],
+      "basis": "source declarations; not rendered measurement"
+    }
+  ],
+  "inputDeclarations": [
+    {
+      "tag": "input",
+      "name": "name",
+      "type": "text",
+      "placeholder": "Name",
+      "value": "",
+      "declarations": {
+        "-webkit-appearance": "none",
+        "display": "inline-block",
+        "width": "100%",
+        "line-height": "1.4em",
+        "outline": "none",
+        "border": "none",
+        "padding": "20px",
+        "border-radius": "7px",
+        "font-family": "\"funnel display Medium\", \"funnel display\", \"Inter\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "font-weight": "500",
+        "font-size": "19px",
+        "background": "rgb(237, 237, 237)",
+        "color": "var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78))",
+        "box-shadow": "inset 0 0 0 1px transparent"
+      }
+    },
+    {
+      "tag": "input",
+      "name": "email",
+      "type": "email",
+      "placeholder": "Email",
+      "value": "",
+      "declarations": {
+        "-webkit-appearance": "none",
+        "display": "inline-block",
+        "width": "100%",
+        "line-height": "1.4em",
+        "outline": "none",
+        "border": "none",
+        "padding": "20px",
+        "border-radius": "7px",
+        "font-family": "\"funnel display Medium\", \"funnel display\", \"Inter\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "font-weight": "500",
+        "font-size": "19px",
+        "background": "rgb(237, 237, 237)",
+        "color": "var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78))",
+        "box-shadow": "inset 0 0 0 1px transparent"
+      }
+    },
+    {
+      "tag": "textarea",
+      "name": "message",
+      "type": null,
+      "placeholder": "Message",
+      "value": null,
+      "declarations": {
+        "-webkit-appearance": "none",
+        "display": "inline-block",
+        "width": "100%",
+        "line-height": "1.4em",
+        "outline": "none",
+        "border": "none",
+        "min-height": "0",
+        "padding": "20px",
+        "resize": "vertical",
+        "border-radius": "7px",
+        "background": "rgb(237, 237, 237)",
+        "font-family": "\"funnel display Medium\", \"funnel display\", \"Inter\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "font-weight": "500",
+        "font-size": "19px",
+        "color": "var(--token-b1fb229f-a8e6-4640-b958-ea29fe1a7f0e, rgb(25, 21, 78))",
+        "box-shadow": "inset 0 0 0 1px transparent"
+      }
+    },
+    {
+      "tag": "input",
+      "name": null,
+      "type": "submit",
+      "placeholder": null,
+      "value": "Send Message",
+      "declarations": {
+        "-webkit-appearance": "none",
+        "display": "inline-block",
+        "width": "100%",
+        "line-height": "1.4em",
+        "outline": "none",
+        "border": "none",
+        "border-radius": "7px",
+        "padding": "20px",
+        "font-family": "\"funnel display Medium\", \"funnel display\", \"Inter\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "font-weight": "600",
+        "font-size": "19px",
+        "background": "var(--token-0cdf47b3-ce1f-4341-98ec-f094608541cb, rgb(6, 26, 168))",
+        "cursor": "pointer",
+        "color": "rgb(255, 255, 255)",
+        "z-index": "1"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "href": "https://launchpadlearning.framer.website/#pricing",
+      "label": "Out Now - Save $75"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#overview",
+      "label": "Overview"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#CURRICULUM",
+      "label": "Curriculum"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#whats-included",
+      "label": "What's Included"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#about",
+      "label": "Instructor"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#pricing",
+      "label": "Enroll Now"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#hero",
+      "label": "Launchpad Learning"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#overview",
+      "label": "Overview"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#CURRICULUM",
+      "label": "Curriculum"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#about",
+      "label": "Instructor"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#whats-included",
+      "label": "What's Included"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#reviews",
+      "label": "Reviews"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#pricing",
+      "label": "Pricing"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#pricing",
+      "label": "Login"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#pricing",
+      "label": "Sign Up"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#pricing",
+      "label": "Search"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#whats-included",
+      "label": "All Lessons"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#about",
+      "label": "About Us"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#pricing",
+      "label": "Discounts"
+    },
+    {
+      "href": "https://x.com/theharshith_",
+      "label": "Built By Harshith"
+    },
+    {
+      "href": "https://x.com/",
+      "label": "Twitter"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#hero",
+      "label": "Launchpad Learning"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#overview",
+      "label": "Overview"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#CURRICULUM",
+      "label": "Curriculum"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#about",
+      "label": "Instructor"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#whats-included",
+      "label": "What's Included"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#reviews",
+      "label": "Reviews"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#pricing",
+      "label": "Pricing"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#pricing",
+      "label": "Login"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#pricing",
+      "label": "Sign Up"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#pricing",
+      "label": "Search"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#whats-included",
+      "label": "All Lessons"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#about",
+      "label": "About Us"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#pricing",
+      "label": "Discounts"
+    },
+    {
+      "href": "https://x.com/theharshith_",
+      "label": "Built By Harshith"
+    },
+    {
+      "href": "https://x.com/theharshith_",
+      "label": "Twitter"
+    },
+    {
+      "href": "https://www.linkedin.com/in/harshith-h-624970247/",
+      "label": "LinkedIn"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#hero",
+      "label": "Launchpad Learning"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#overview",
+      "label": "Overview"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#CURRICULUM",
+      "label": "Curriculum"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#about",
+      "label": "Instructor"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#whats-included",
+      "label": "What's Included"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#reviews",
+      "label": "Reviews"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#pricing",
+      "label": "Pricing"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#pricing",
+      "label": "Login"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#pricing",
+      "label": "Sign Up"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#pricing",
+      "label": "Search"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#whats-included",
+      "label": "All Lessons"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#about",
+      "label": "About Us"
+    },
+    {
+      "href": "https://launchpadlearning.framer.website/#pricing",
+      "label": "Discounts"
+    },
+    {
+      "href": "https://x.com/theharshith_",
+      "label": "Built By Harshith"
+    },
+    {
+      "href": "https://x.com/",
+      "label": "Twitter"
+    },
+    {
+      "href": "https://www.framer.com",
+      "label": "Create a free website with Framer, "
+    }
+  ],
+  "images": [
+    {
+      "src": "https://framerusercontent.com/images/t1RcOqsQj53Xjk4HzfvmlU8RjIM.png?width=1200&height=700",
+      "srcset": "https://framerusercontent.com/images/t1RcOqsQj53Xjk4HzfvmlU8RjIM.png?scale-down-to=512&width=1200&height=700 512w,https://framerusercontent.com/images/t1RcOqsQj53Xjk4HzfvmlU8RjIM.png?scale-down-to=1024&width=1200&height=700 1024w,https://framerusercontent.com/images/t1RcOqsQj53Xjk4HzfvmlU8RjIM.png?width=1200&height=700 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "700",
+      "path": [
+        "Navbar",
+        "Desktop Transperent",
+        "Container",
+        "Button Wrap",
+        "Small Accent"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/qwNdn7lSd8a26XIIAHaeOoytjl8.png?width=1200&height=700",
+      "srcset": "https://framerusercontent.com/images/qwNdn7lSd8a26XIIAHaeOoytjl8.png?scale-down-to=512&width=1200&height=700 512w,https://framerusercontent.com/images/qwNdn7lSd8a26XIIAHaeOoytjl8.png?scale-down-to=1024&width=1200&height=700 1024w,https://framerusercontent.com/images/qwNdn7lSd8a26XIIAHaeOoytjl8.png?width=1200&height=700 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "700",
+      "path": [],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hJOuWDt8aJp5GaNmH2U96S2ruc.jpeg?width=500&height=500",
+      "srcset": null,
+      "alt": "",
+      "width": "500",
+      "height": "500",
+      "path": [
+        "Desktop",
+        "Container",
+        "Bottom",
+        "Built ",
+        "Created by",
+        "Avatar"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hJOuWDt8aJp5GaNmH2U96S2ruc.jpeg?width=500&height=500",
+      "srcset": null,
+      "alt": "",
+      "width": "500",
+      "height": "500",
+      "path": [
+        "Tablet",
+        "Container",
+        "Bottom",
+        "Built ",
+        "Created by",
+        "Avatar"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hJOuWDt8aJp5GaNmH2U96S2ruc.jpeg?width=500&height=500",
+      "srcset": null,
+      "alt": "",
+      "width": "500",
+      "height": "500",
+      "path": [
+        "Phone",
+        "Container",
+        "Bottom",
+        "Built ",
+        "Created by",
+        "Avatar"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    }
+  ],
+  "interactionStates": [
+    {
+      "control": "Contact form on /enroll-page",
+      "source": "method POST, formspark-input class and Send Message submit",
+      "verified": "Markup only; submission, destination and confirmation not exercised",
+      "optional": "Validate, preserve values, announce pending/success/failure only after actual provider response."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# Launchpad Learning site blueprint
+
+## Source anatomy and education fit
+
+SOURCE DECLARED: Work MRR’s official Marketplace targets course creators, coaches, independent educators and cohort-program leads, including solo creators selling a single flagship course. The public page sells a course about building and launching a course, with one instructor, curriculum, inclusion cards, proof and commercial offer. It is the Individual course creator / flagship program branch of Courses / education. It contrasts Primer’s multi-course academy and the existing BrightPath school. Four official images and root/secondary source are saved.
+
+SOURCE DECLARED: home order is promotion strip → navigation → hero → creator problems → outcomes → curriculum → benefits/resources → testimonials → instructor → certification mockups → pricing → guarantee → closing CTA/video → footer. Actual IDs are #hero, #overview, #CURRICULUM, #whats-included, #reviews, #about, #certification, #pricing and #cta. Curriculum capitalization is literal. Navigation uses overview, curriculum, included resources and instructor fragments; Enroll Now links to /enroll-page. Footer groups Course Information, Platform and Company, plus creator attribution, copyright and social links. Source copies include desktop/tablet/phone components and repeated h1 visual styles.
+
+## Secondary route and content model
+
+SOURCE DECLARED: `/enroll-page` was inspected. It retains promotion/navigation/footer and contains “Be pro at content creation and become more valuable” with a form containing Name, Email and Message and a Send Message submit. The form has method POST and formspark-input class declarations. This is a public inquiry-form structure; its route name is not proof of checkout, confirmed enrollment, protected course access or student accounts. Its input stack begins with lowercase “funnel display Medium”, rather than the registered headline family name; preserve that declaration as evidence and choose a working font mapping deliberately during adaptation.
+
+OPTIONAL RECOMMENDATION: store the flagship course, outcomes, curriculum modules, included assets, instructor, approved testimonials, certificate artwork and commercial terms as explicit content. Each module should have title, purpose and ordered lessons. The inquiry should receive a course identifier only if the configured destination supports it. Decide whether the commercial path is an inquiry or a real checkout and reflect that in button labels. Template discount, guarantee, price, learner totals and instructor claims need approved replacements before launch. Certificate imagery must not become an unsupported accreditation claim.
+
+## Visual system and optional behavior
+
+SOURCE DECLARED: Funnel Display carries main title/brand/actions, Funnel Display Variable h2, Manrope body, General Sans navigation, Satoshi module labels, DM Sans selected pricing benefits and Geist footer copyright. Auxiliary font faces remain in source-facts.json. Base h1 is63px/69.3px; tablet60px/66px; phone40px/44px. Base h2 is48px/57.6px and phone36px/43.2px. These are declared CSS values rather than measured text boxes. Root thresholds are1200/810px, and source frame declarations document module-specific padding and card variants.
+
+OPTIONAL RECOMMENDATION: retain the centered light opening, bright blue actions, personal dark instructor scene and white certificate/pricing sections. Provide accessible curriculum disclosures, visible focus, reduced-motion alternatives and media controls without autoplay sound. Improve repeated heading semantics while retaining the visual hierarchy. Implement form pending/error/success only against actual provider responses and preserve typed values. No message submission, payment, enrollment, student account or certificate issuing behavior was verified.

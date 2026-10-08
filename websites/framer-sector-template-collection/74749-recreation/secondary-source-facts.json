@@ -1,0 +1,3631 @@
+{
+  "source": "https://interactive-channel-508354.framer.app/donate",
+  "coverage": "public preview HTML/CSS; no rendered geometry",
+  "namedComponentOrder": [
+    "\u2460 HEADER \u2014 links, Donate button, phone menu, site-wide fonts",
+    "WsHeader",
+    "\u2462 LOADER \u2014 first light, once per visit",
+    "WsLoader",
+    "\u2463 PAGE TRANSITION \u2014 dusk",
+    "WsPageTrans",
+    "Smooth scroll (keep)",
+    "WsSmooth",
+    "CMS Bridge \u00b7 posts (keep)",
+    "posts-item",
+    "posts-row",
+    "CMS Bridge \u00b7 faq (keep)",
+    "faq-item",
+    "faq-row",
+    "CMS Bridge \u00b7 partners (keep)",
+    "partners-item",
+    "partners-row",
+    "CMS Bridge \u00b7 team (keep)",
+    "team-item",
+    "team-row",
+    "CMS Bridge \u00b7 events (keep)",
+    "events-item",
+    "events-row",
+    "CMS Bridge \u00b7 stories (keep)",
+    "stories-item",
+    "stories-row",
+    "CMS Bridge \u00b7 campaigns (keep)",
+    "campaigns-item",
+    "campaigns-row",
+    "CMS Bridge \u00b7 programs (keep)",
+    "programs-item",
+    "programs-row",
+    "CMS Bridge \u00b7 site (keep)",
+    "site-item",
+    "site-row",
+    "CMS Bridge \u00b7 marker (keep)",
+    "S0 WsDonate",
+    "WsDonate",
+    "S1 WsMoney",
+    "WsMoney",
+    "S2 WsFaq",
+    "WsFaq",
+    "\u2461 FOOTER \u2014 sign-off, link columns, newsletter sign-up",
+    "WsFooter",
+    "Light",
+    "Backdrop",
+    "Content",
+    "Logo",
+    "Text",
+    "Bottom",
+    "Border"
+  ],
+  "typeDeclarations": [],
+  "typePresetRules": [
+    {
+      "selector": ".text-styles-preset-reset.framer-text",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      }
+    },
+    {
+      "selector": "[data-framer-component-type=DeprecatedRichText] .text-styles-preset-reset",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--font-variation-settings": "normal"
+      }
+    }
+  ],
+  "frameDeclarations": [
+    {
+      "name": "\u2460 HEADER \u2014 links, Donate button, phone menu, site-wide fonts",
+      "path": [
+        "\u2460 HEADER \u2014 links, Donate button, phone menu, site-wide fonts"
+      ],
+      "classes": "framer-1vzus1n",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-1vzus1n",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsHeader",
+      "path": [
+        "\u2460 HEADER \u2014 links, Donate button, phone menu, site-wide fonts",
+        "WsHeader"
+      ],
+      "classes": "framer-1597x58-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-1597x58-container,.framer-jrLWU .framer-1mzf0qh-container,.framer-jrLWU .framer-79dvpv-container,.framer-jrLWU .framer-1j9469t-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "0",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "\u2462 LOADER \u2014 first light, once per visit",
+      "path": [
+        "\u2462 LOADER \u2014 first light, once per visit"
+      ],
+      "classes": "framer-u2c1et",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-u2c1et",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsLoader",
+      "path": [
+        "\u2462 LOADER \u2014 first light, once per visit",
+        "WsLoader"
+      ],
+      "classes": "framer-1mzf0qh-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-1597x58-container,.framer-jrLWU .framer-1mzf0qh-container,.framer-jrLWU .framer-79dvpv-container,.framer-jrLWU .framer-1j9469t-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "0",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "\u2463 PAGE TRANSITION \u2014 dusk",
+      "path": [
+        "\u2463 PAGE TRANSITION \u2014 dusk"
+      ],
+      "classes": "framer-ieblub",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ieblub",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsPageTrans",
+      "path": [
+        "\u2463 PAGE TRANSITION \u2014 dusk",
+        "WsPageTrans"
+      ],
+      "classes": "framer-79dvpv-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-1597x58-container,.framer-jrLWU .framer-1mzf0qh-container,.framer-jrLWU .framer-79dvpv-container,.framer-jrLWU .framer-1j9469t-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "0",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Smooth scroll (keep)",
+      "path": [
+        "Smooth scroll (keep)"
+      ],
+      "classes": "framer-1v4yts4",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-1v4yts4",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsSmooth",
+      "path": [
+        "Smooth scroll (keep)",
+        "WsSmooth"
+      ],
+      "classes": "framer-1j9469t-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-1597x58-container,.framer-jrLWU .framer-1mzf0qh-container,.framer-jrLWU .framer-79dvpv-container,.framer-jrLWU .framer-1j9469t-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "0",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 posts (keep)",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)"
+      ],
+      "classes": "framer-dh7blk",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-dh7blk",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-item",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item"
+      ],
+      "classes": "framer-mpi1ps",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-row",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item",
+        "posts-row"
+      ],
+      "classes": "framer-ksedaq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-item",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item"
+      ],
+      "classes": "framer-mpi1ps",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-row",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item",
+        "posts-row"
+      ],
+      "classes": "framer-ksedaq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-item",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item"
+      ],
+      "classes": "framer-mpi1ps",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-row",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item",
+        "posts-row"
+      ],
+      "classes": "framer-ksedaq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-item",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item"
+      ],
+      "classes": "framer-mpi1ps",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-row",
+      "path": [
+        "CMS Bridge \u00b7 posts (keep)",
+        "posts-item",
+        "posts-row"
+      ],
+      "classes": "framer-ksedaq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 faq (keep)",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)"
+      ],
+      "classes": "framer-8pvjr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-8pvjr7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-ypmdr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1ut0fou-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-ypmdr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1ut0fou-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-ypmdr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1ut0fou-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-ypmdr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1ut0fou-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-ypmdr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1ut0fou-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-ypmdr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1ut0fou-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-ypmdr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1ut0fou-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-ypmdr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1ut0fou-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-ypmdr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge \u00b7 faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1ut0fou-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 partners (keep)",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)"
+      ],
+      "classes": "framer-1q4aij5",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-1q4aij5",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge \u00b7 partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 team (keep)",
+      "path": [
+        "CMS Bridge \u00b7 team (keep)"
+      ],
+      "classes": "framer-jctro6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-jctro6",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-item",
+      "path": [
+        "CMS Bridge \u00b7 team (keep)",
+        "team-item"
+      ],
+      "classes": "framer-16r3n5j",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-row",
+      "path": [
+        "CMS Bridge \u00b7 team (keep)",
+        "team-item",
+        "team-row"
+      ],
+      "classes": "framer-1u7z32x-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-item",
+      "path": [
+        "CMS Bridge \u00b7 team (keep)",
+        "team-item"
+      ],
+      "classes": "framer-16r3n5j",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-row",
+      "path": [
+        "CMS Bridge \u00b7 team (keep)",
+        "team-item",
+        "team-row"
+      ],
+      "classes": "framer-1u7z32x-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-item",
+      "path": [
+        "CMS Bridge \u00b7 team (keep)",
+        "team-item"
+      ],
+      "classes": "framer-16r3n5j",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-row",
+      "path": [
+        "CMS Bridge \u00b7 team (keep)",
+        "team-item",
+        "team-row"
+      ],
+      "classes": "framer-1u7z32x-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-item",
+      "path": [
+        "CMS Bridge \u00b7 team (keep)",
+        "team-item"
+      ],
+      "classes": "framer-16r3n5j",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-row",
+      "path": [
+        "CMS Bridge \u00b7 team (keep)",
+        "team-item",
+        "team-row"
+      ],
+      "classes": "framer-1u7z32x-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-item",
+      "path": [
+        "CMS Bridge \u00b7 team (keep)",
+        "team-item"
+      ],
+      "classes": "framer-16r3n5j",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-row",
+      "path": [
+        "CMS Bridge \u00b7 team (keep)",
+        "team-item",
+        "team-row"
+      ],
+      "classes": "framer-1u7z32x-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-item",
+      "path": [
+        "CMS Bridge \u00b7 team (keep)",
+        "team-item"
+      ],
+      "classes": "framer-16r3n5j",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-row",
+      "path": [
+        "CMS Bridge \u00b7 team (keep)",
+        "team-item",
+        "team-row"
+      ],
+      "classes": "framer-1u7z32x-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-item",
+      "path": [
+        "CMS Bridge \u00b7 team (keep)",
+        "team-item"
+      ],
+      "classes": "framer-16r3n5j",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-row",
+      "path": [
+        "CMS Bridge \u00b7 team (keep)",
+        "team-item",
+        "team-row"
+      ],
+      "classes": "framer-1u7z32x-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-item",
+      "path": [
+        "CMS Bridge \u00b7 team (keep)",
+        "team-item"
+      ],
+      "classes": "framer-16r3n5j",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-row",
+      "path": [
+        "CMS Bridge \u00b7 team (keep)",
+        "team-item",
+        "team-row"
+      ],
+      "classes": "framer-1u7z32x-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 events (keep)",
+      "path": [
+        "CMS Bridge \u00b7 events (keep)"
+      ],
+      "classes": "framer-1fq8hql",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-1fq8hql",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "events-item",
+      "path": [
+        "CMS Bridge \u00b7 events (keep)",
+        "events-item"
+      ],
+      "classes": "framer-kol1t5",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "events-row",
+      "path": [
+        "CMS Bridge \u00b7 events (keep)",
+        "events-item",
+        "events-row"
+      ],
+      "classes": "framer-11iwie3-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "events-item",
+      "path": [
+        "CMS Bridge \u00b7 events (keep)",
+        "events-item"
+      ],
+      "classes": "framer-kol1t5",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "events-row",
+      "path": [
+        "CMS Bridge \u00b7 events (keep)",
+        "events-item",
+        "events-row"
+      ],
+      "classes": "framer-11iwie3-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "events-item",
+      "path": [
+        "CMS Bridge \u00b7 events (keep)",
+        "events-item"
+      ],
+      "classes": "framer-kol1t5",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "events-row",
+      "path": [
+        "CMS Bridge \u00b7 events (keep)",
+        "events-item",
+        "events-row"
+      ],
+      "classes": "framer-11iwie3-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "events-item",
+      "path": [
+        "CMS Bridge \u00b7 events (keep)",
+        "events-item"
+      ],
+      "classes": "framer-kol1t5",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "events-row",
+      "path": [
+        "CMS Bridge \u00b7 events (keep)",
+        "events-item",
+        "events-row"
+      ],
+      "classes": "framer-11iwie3-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 stories (keep)",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)"
+      ],
+      "classes": "framer-9vjloc",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-9vjloc",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-item",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item"
+      ],
+      "classes": "framer-1umlves",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-row",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item",
+        "stories-row"
+      ],
+      "classes": "framer-y59dtm-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-item",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item"
+      ],
+      "classes": "framer-1umlves",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-row",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item",
+        "stories-row"
+      ],
+      "classes": "framer-y59dtm-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-item",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item"
+      ],
+      "classes": "framer-1umlves",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-row",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item",
+        "stories-row"
+      ],
+      "classes": "framer-y59dtm-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-item",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item"
+      ],
+      "classes": "framer-1umlves",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-row",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item",
+        "stories-row"
+      ],
+      "classes": "framer-y59dtm-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-item",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item"
+      ],
+      "classes": "framer-1umlves",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-row",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item",
+        "stories-row"
+      ],
+      "classes": "framer-y59dtm-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-item",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item"
+      ],
+      "classes": "framer-1umlves",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-row",
+      "path": [
+        "CMS Bridge \u00b7 stories (keep)",
+        "stories-item",
+        "stories-row"
+      ],
+      "classes": "framer-y59dtm-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 campaigns (keep)",
+      "path": [
+        "CMS Bridge \u00b7 campaigns (keep)"
+      ],
+      "classes": "framer-15ylmvl",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-15ylmvl",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-item",
+      "path": [
+        "CMS Bridge \u00b7 campaigns (keep)",
+        "campaigns-item"
+      ],
+      "classes": "framer-1ptewn6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-row",
+      "path": [
+        "CMS Bridge \u00b7 campaigns (keep)",
+        "campaigns-item",
+        "campaigns-row"
+      ],
+      "classes": "framer-18oujam-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-item",
+      "path": [
+        "CMS Bridge \u00b7 campaigns (keep)",
+        "campaigns-item"
+      ],
+      "classes": "framer-1ptewn6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-row",
+      "path": [
+        "CMS Bridge \u00b7 campaigns (keep)",
+        "campaigns-item",
+        "campaigns-row"
+      ],
+      "classes": "framer-18oujam-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-item",
+      "path": [
+        "CMS Bridge \u00b7 campaigns (keep)",
+        "campaigns-item"
+      ],
+      "classes": "framer-1ptewn6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-row",
+      "path": [
+        "CMS Bridge \u00b7 campaigns (keep)",
+        "campaigns-item",
+        "campaigns-row"
+      ],
+      "classes": "framer-18oujam-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-item",
+      "path": [
+        "CMS Bridge \u00b7 campaigns (keep)",
+        "campaigns-item"
+      ],
+      "classes": "framer-1ptewn6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-row",
+      "path": [
+        "CMS Bridge \u00b7 campaigns (keep)",
+        "campaigns-item",
+        "campaigns-row"
+      ],
+      "classes": "framer-18oujam-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-item",
+      "path": [
+        "CMS Bridge \u00b7 campaigns (keep)",
+        "campaigns-item"
+      ],
+      "classes": "framer-1ptewn6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-row",
+      "path": [
+        "CMS Bridge \u00b7 campaigns (keep)",
+        "campaigns-item",
+        "campaigns-row"
+      ],
+      "classes": "framer-18oujam-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-item",
+      "path": [
+        "CMS Bridge \u00b7 campaigns (keep)",
+        "campaigns-item"
+      ],
+      "classes": "framer-1ptewn6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-row",
+      "path": [
+        "CMS Bridge \u00b7 campaigns (keep)",
+        "campaigns-item",
+        "campaigns-row"
+      ],
+      "classes": "framer-18oujam-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 programs (keep)",
+      "path": [
+        "CMS Bridge \u00b7 programs (keep)"
+      ],
+      "classes": "framer-wuk5aw",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-wuk5aw",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-item",
+      "path": [
+        "CMS Bridge \u00b7 programs (keep)",
+        "programs-item"
+      ],
+      "classes": "framer-xej3m1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-row",
+      "path": [
+        "CMS Bridge \u00b7 programs (keep)",
+        "programs-item",
+        "programs-row"
+      ],
+      "classes": "framer-1bkity4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-item",
+      "path": [
+        "CMS Bridge \u00b7 programs (keep)",
+        "programs-item"
+      ],
+      "classes": "framer-xej3m1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-row",
+      "path": [
+        "CMS Bridge \u00b7 programs (keep)",
+        "programs-item",
+        "programs-row"
+      ],
+      "classes": "framer-1bkity4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-item",
+      "path": [
+        "CMS Bridge \u00b7 programs (keep)",
+        "programs-item"
+      ],
+      "classes": "framer-xej3m1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-row",
+      "path": [
+        "CMS Bridge \u00b7 programs (keep)",
+        "programs-item",
+        "programs-row"
+      ],
+      "classes": "framer-1bkity4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-item",
+      "path": [
+        "CMS Bridge \u00b7 programs (keep)",
+        "programs-item"
+      ],
+      "classes": "framer-xej3m1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-row",
+      "path": [
+        "CMS Bridge \u00b7 programs (keep)",
+        "programs-item",
+        "programs-row"
+      ],
+      "classes": "framer-1bkity4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-item",
+      "path": [
+        "CMS Bridge \u00b7 programs (keep)",
+        "programs-item"
+      ],
+      "classes": "framer-xej3m1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-row",
+      "path": [
+        "CMS Bridge \u00b7 programs (keep)",
+        "programs-item",
+        "programs-row"
+      ],
+      "classes": "framer-1bkity4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-item",
+      "path": [
+        "CMS Bridge \u00b7 programs (keep)",
+        "programs-item"
+      ],
+      "classes": "framer-xej3m1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-row",
+      "path": [
+        "CMS Bridge \u00b7 programs (keep)",
+        "programs-item",
+        "programs-row"
+      ],
+      "classes": "framer-1bkity4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 site (keep)",
+      "path": [
+        "CMS Bridge \u00b7 site (keep)"
+      ],
+      "classes": "framer-qpi3x1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-qpi3x1",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "site-item",
+      "path": [
+        "CMS Bridge \u00b7 site (keep)",
+        "site-item"
+      ],
+      "classes": "framer-mzgl9u",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "site-row",
+      "path": [
+        "CMS Bridge \u00b7 site (keep)",
+        "site-item",
+        "site-row"
+      ],
+      "classes": "framer-1b9f5qx-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge \u00b7 marker (keep)",
+      "path": [
+        "CMS Bridge \u00b7 marker (keep)"
+      ],
+      "classes": "framer-1hx86nf-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-1hx86nf-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "S0 WsDonate",
+      "path": [
+        "S0 WsDonate"
+      ],
+      "classes": "framer-borqow",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-QO4He .framer-borqow,.framer-QO4He .framer-1jtm25w,.framer-QO4He .framer-6n1m2z",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsDonate",
+      "path": [
+        "S0 WsDonate",
+        "WsDonate"
+      ],
+      "classes": "framer-13lg7y4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-QO4He .framer-13lg7y4-container,.framer-QO4He .framer-1cjc720-container,.framer-QO4He .framer-1h8vxe6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "S1 WsMoney",
+      "path": [
+        "S1 WsMoney"
+      ],
+      "classes": "framer-1jtm25w",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-QO4He .framer-borqow,.framer-QO4He .framer-1jtm25w,.framer-QO4He .framer-6n1m2z",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsMoney",
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "classes": "framer-1cjc720-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-QO4He .framer-13lg7y4-container,.framer-QO4He .framer-1cjc720-container,.framer-QO4He .framer-1h8vxe6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "S2 WsFaq",
+      "path": [
+        "S2 WsFaq"
+      ],
+      "classes": "framer-6n1m2z",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-QO4He .framer-borqow,.framer-QO4He .framer-1jtm25w,.framer-QO4He .framer-6n1m2z",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsFaq",
+      "path": [
+        "S2 WsFaq",
+        "WsFaq"
+      ],
+      "classes": "framer-1h8vxe6-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-QO4He .framer-13lg7y4-container,.framer-QO4He .framer-1cjc720-container,.framer-QO4He .framer-1h8vxe6-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "\u2461 FOOTER \u2014 sign-off, link columns, newsletter sign-up",
+      "path": [
+        "\u2461 FOOTER \u2014 sign-off, link columns, newsletter sign-up"
+      ],
+      "classes": "framer-b1p0m4",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-b1p0m4",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsFooter",
+      "path": [
+        "\u2461 FOOTER \u2014 sign-off, link columns, newsletter sign-up",
+        "WsFooter"
+      ],
+      "classes": "framer-e2yh3m-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-e2yh3m-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    }
+  ],
+  "fontDeclarations": [
+    {
+      "family": "Noto Serif",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTyscKtq8.woff2",
+      "range": "U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F"
+    },
+    {
+      "family": "Noto Serif",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTw8cKtq8.woff2",
+      "range": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116"
+    },
+    {
+      "family": "Noto Serif",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTy8cKtq8.woff2",
+      "range": "U+1F00-1FFF"
+    },
+    {
+      "family": "Noto Serif",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTxMcKtq8.woff2",
+      "range": "U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF"
+    },
+    {
+      "family": "Noto Serif",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTu8cKtq8.woff2",
+      "range": "U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF"
+    },
+    {
+      "family": "Noto Serif",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTyMcKtq8.woff2",
+      "range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB"
+    },
+    {
+      "family": "Noto Serif",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTyccKtq8.woff2",
+      "range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+    },
+    {
+      "family": "Noto Serif",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTx8cK.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2",
+      "range": "U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F"
+    },
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2",
+      "range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+    },
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2",
+      "range": "U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2",
+      "range": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2",
+      "range": "U+1F00-1FFF"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2",
+      "range": "U+0370-03FF"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2",
+      "range": "U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2",
+      "range": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://framerusercontent.com/images/zF2XkkOsRv3uCqTCqhvoWHxtQo.webp?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/zF2XkkOsRv3uCqTCqhvoWHxtQo.webp?scale-down-to=512 512w, https://framerusercontent.com/images/zF2XkkOsRv3uCqTCqhvoWHxtQo.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/zF2XkkOsRv3uCqTCqhvoWHxtQo.webp?scale-down-to=2048 2048w",
+      "alt": "A child reading at a low table by the light of three solar lamps",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 WsDonate",
+        "WsDonate"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/zF2XkkOsRv3uCqTCqhvoWHxtQo.webp?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/zF2XkkOsRv3uCqTCqhvoWHxtQo.webp?scale-down-to=512 512w, https://framerusercontent.com/images/zF2XkkOsRv3uCqTCqhvoWHxtQo.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/zF2XkkOsRv3uCqTCqhvoWHxtQo.webp?scale-down-to=2048 2048w",
+      "alt": "A child reading at a low table by the light of three solar lamps",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 WsDonate",
+        "WsDonate"
+      ],
+      "inlineStyle": "object-position:50% 82%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/zF2XkkOsRv3uCqTCqhvoWHxtQo.webp?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/zF2XkkOsRv3uCqTCqhvoWHxtQo.webp?scale-down-to=512 512w, https://framerusercontent.com/images/zF2XkkOsRv3uCqTCqhvoWHxtQo.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/zF2XkkOsRv3uCqTCqhvoWHxtQo.webp?scale-down-to=2048 2048w",
+      "alt": "A child reading at a low table by the light of three solar lamps",
+      "width": null,
+      "height": null,
+      "path": [
+        "S0 WsDonate",
+        "WsDonate"
+      ],
+      "inlineStyle": "object-position:50% 82%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5FF5lG8KxmIIorFd1ch3u0net8g.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/5FF5lG8KxmIIorFd1ch3u0net8g.webp?scale-down-to=512 512w, https://framerusercontent.com/images/5FF5lG8KxmIIorFd1ch3u0net8g.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/5FF5lG8KxmIIorFd1ch3u0net8g.webp?scale-down-to=2048 2048w",
+      "alt": "Pack animals carrying solar kits up the valley",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 45%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hYMQC14bYSkpqa37fclgyuwedc.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/hYMQC14bYSkpqa37fclgyuwedc.webp?scale-down-to=512 512w, https://framerusercontent.com/images/hYMQC14bYSkpqa37fclgyuwedc.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/hYMQC14bYSkpqa37fclgyuwedc.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Gk9wekExKMdVkthi8lootHtYZGs.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/Gk9wekExKMdVkthi8lootHtYZGs.webp?scale-down-to=512 512w, https://framerusercontent.com/images/Gk9wekExKMdVkthi8lootHtYZGs.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/Gk9wekExKMdVkthi8lootHtYZGs.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wBERuPg8yMxD7tLvVR6WZfbV0M.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/wBERuPg8yMxD7tLvVR6WZfbV0M.webp?scale-down-to=512 512w, https://framerusercontent.com/images/wBERuPg8yMxD7tLvVR6WZfbV0M.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/wBERuPg8yMxD7tLvVR6WZfbV0M.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/LyyhUhmr3ChB8u1TpxU5fQZe7c.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/LyyhUhmr3ChB8u1TpxU5fQZe7c.webp?scale-down-to=512 512w, https://framerusercontent.com/images/LyyhUhmr3ChB8u1TpxU5fQZe7c.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/LyyhUhmr3ChB8u1TpxU5fQZe7c.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/njfkcmnFPX72LmB7jbPVcLx774.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/njfkcmnFPX72LmB7jbPVcLx774.webp?scale-down-to=512 512w, https://framerusercontent.com/images/njfkcmnFPX72LmB7jbPVcLx774.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/njfkcmnFPX72LmB7jbPVcLx774.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/A2ndqyx32gzG4YhF1yUTysQYig.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/A2ndqyx32gzG4YhF1yUTysQYig.webp?scale-down-to=512 512w, https://framerusercontent.com/images/A2ndqyx32gzG4YhF1yUTysQYig.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/A2ndqyx32gzG4YhF1yUTysQYig.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5FF5lG8KxmIIorFd1ch3u0net8g.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/5FF5lG8KxmIIorFd1ch3u0net8g.webp?scale-down-to=512 512w, https://framerusercontent.com/images/5FF5lG8KxmIIorFd1ch3u0net8g.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/5FF5lG8KxmIIorFd1ch3u0net8g.webp?scale-down-to=2048 2048w",
+      "alt": "Pack animals carrying solar kits up the valley",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 45%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hYMQC14bYSkpqa37fclgyuwedc.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/hYMQC14bYSkpqa37fclgyuwedc.webp?scale-down-to=512 512w, https://framerusercontent.com/images/hYMQC14bYSkpqa37fclgyuwedc.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/hYMQC14bYSkpqa37fclgyuwedc.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Gk9wekExKMdVkthi8lootHtYZGs.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/Gk9wekExKMdVkthi8lootHtYZGs.webp?scale-down-to=512 512w, https://framerusercontent.com/images/Gk9wekExKMdVkthi8lootHtYZGs.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/Gk9wekExKMdVkthi8lootHtYZGs.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wBERuPg8yMxD7tLvVR6WZfbV0M.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/wBERuPg8yMxD7tLvVR6WZfbV0M.webp?scale-down-to=512 512w, https://framerusercontent.com/images/wBERuPg8yMxD7tLvVR6WZfbV0M.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/wBERuPg8yMxD7tLvVR6WZfbV0M.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/LyyhUhmr3ChB8u1TpxU5fQZe7c.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/LyyhUhmr3ChB8u1TpxU5fQZe7c.webp?scale-down-to=512 512w, https://framerusercontent.com/images/LyyhUhmr3ChB8u1TpxU5fQZe7c.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/LyyhUhmr3ChB8u1TpxU5fQZe7c.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/njfkcmnFPX72LmB7jbPVcLx774.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/njfkcmnFPX72LmB7jbPVcLx774.webp?scale-down-to=512 512w, https://framerusercontent.com/images/njfkcmnFPX72LmB7jbPVcLx774.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/njfkcmnFPX72LmB7jbPVcLx774.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/A2ndqyx32gzG4YhF1yUTysQYig.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/A2ndqyx32gzG4YhF1yUTysQYig.webp?scale-down-to=512 512w, https://framerusercontent.com/images/A2ndqyx32gzG4YhF1yUTysQYig.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/A2ndqyx32gzG4YhF1yUTysQYig.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5FF5lG8KxmIIorFd1ch3u0net8g.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/5FF5lG8KxmIIorFd1ch3u0net8g.webp?scale-down-to=512 512w, https://framerusercontent.com/images/5FF5lG8KxmIIorFd1ch3u0net8g.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/5FF5lG8KxmIIorFd1ch3u0net8g.webp?scale-down-to=2048 2048w",
+      "alt": "Pack animals carrying solar kits up the valley",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 45%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hYMQC14bYSkpqa37fclgyuwedc.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/hYMQC14bYSkpqa37fclgyuwedc.webp?scale-down-to=512 512w, https://framerusercontent.com/images/hYMQC14bYSkpqa37fclgyuwedc.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/hYMQC14bYSkpqa37fclgyuwedc.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Gk9wekExKMdVkthi8lootHtYZGs.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/Gk9wekExKMdVkthi8lootHtYZGs.webp?scale-down-to=512 512w, https://framerusercontent.com/images/Gk9wekExKMdVkthi8lootHtYZGs.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/Gk9wekExKMdVkthi8lootHtYZGs.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wBERuPg8yMxD7tLvVR6WZfbV0M.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/wBERuPg8yMxD7tLvVR6WZfbV0M.webp?scale-down-to=512 512w, https://framerusercontent.com/images/wBERuPg8yMxD7tLvVR6WZfbV0M.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/wBERuPg8yMxD7tLvVR6WZfbV0M.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/LyyhUhmr3ChB8u1TpxU5fQZe7c.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/LyyhUhmr3ChB8u1TpxU5fQZe7c.webp?scale-down-to=512 512w, https://framerusercontent.com/images/LyyhUhmr3ChB8u1TpxU5fQZe7c.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/LyyhUhmr3ChB8u1TpxU5fQZe7c.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/njfkcmnFPX72LmB7jbPVcLx774.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/njfkcmnFPX72LmB7jbPVcLx774.webp?scale-down-to=512 512w, https://framerusercontent.com/images/njfkcmnFPX72LmB7jbPVcLx774.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/njfkcmnFPX72LmB7jbPVcLx774.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/A2ndqyx32gzG4YhF1yUTysQYig.webp?scale-down-to=512",
+      "srcset": "https://framerusercontent.com/images/A2ndqyx32gzG4YhF1yUTysQYig.webp?scale-down-to=512 512w, https://framerusercontent.com/images/A2ndqyx32gzG4YhF1yUTysQYig.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/A2ndqyx32gzG4YhF1yUTysQYig.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "S1 WsMoney",
+        "WsMoney"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SwYfWg7Bjt1dLEb7aQwq1z6jM.jpg?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/SwYfWg7Bjt1dLEb7aQwq1z6jM.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/SwYfWg7Bjt1dLEb7aQwq1z6jM.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/SwYfWg7Bjt1dLEb7aQwq1z6jM.jpg?scale-down-to=2048 2048w",
+      "alt": "A candle and a clay bowl on a wooden table",
+      "width": null,
+      "height": null,
+      "path": [
+        "S2 WsFaq",
+        "WsFaq"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SwYfWg7Bjt1dLEb7aQwq1z6jM.jpg?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/SwYfWg7Bjt1dLEb7aQwq1z6jM.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/SwYfWg7Bjt1dLEb7aQwq1z6jM.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/SwYfWg7Bjt1dLEb7aQwq1z6jM.jpg?scale-down-to=2048 2048w",
+      "alt": "A candle and a clay bowl on a wooden table",
+      "width": null,
+      "height": null,
+      "path": [
+        "S2 WsFaq",
+        "WsFaq"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SwYfWg7Bjt1dLEb7aQwq1z6jM.jpg?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/SwYfWg7Bjt1dLEb7aQwq1z6jM.jpg?scale-down-to=512 512w, https://framerusercontent.com/images/SwYfWg7Bjt1dLEb7aQwq1z6jM.jpg?scale-down-to=1024 1024w, https://framerusercontent.com/images/SwYfWg7Bjt1dLEb7aQwq1z6jM.jpg?scale-down-to=2048 2048w",
+      "alt": "A candle and a clay bowl on a wooden table",
+      "width": null,
+      "height": null,
+      "path": [
+        "S2 WsFaq",
+        "WsFaq"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NU3595v4mNeg9mUv8RzpskXcny0.webp?scale-down-to=2048",
+      "srcset": "https://framerusercontent.com/images/NU3595v4mNeg9mUv8RzpskXcny0.webp?scale-down-to=512 512w, https://framerusercontent.com/images/NU3595v4mNeg9mUv8RzpskXcny0.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/NU3595v4mNeg9mUv8RzpskXcny0.webp?scale-down-to=2048 2048w",
+      "alt": "A hillside village at blue hour with its windows lit",
+      "width": null,
+      "height": null,
+      "path": [
+        "\u2461 FOOTER \u2014 sign-off, link columns, newsletter sign-up",
+        "WsFooter"
+      ],
+      "inlineStyle": "object-position:50% 46%",
+      "box": null
+    }
+  ],
+  "routes": [
+    {
+      "href": "https://interactive-channel-508354.framer.app/",
+      "label": "Wellspring"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/programs",
+      "label": "Programs"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/campaigns",
+      "label": "Campaigns"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/stories",
+      "label": "Stories"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/impact",
+      "label": "Impact"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/about",
+      "label": "About"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/donate",
+      "label": "Donate"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/reports",
+      "label": "Read the annual report"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/reports",
+      "label": "Read the annual report"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/reports",
+      "label": "Read the annual report"
+    },
+    {
+      "href": "mailto:hello@wellspring.foundation",
+      "label": "hello@wellspring.foundation"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/contact",
+      "label": "Contact us"
+    },
+    {
+      "href": "mailto:hello@wellspring.foundation",
+      "label": "hello@wellspring.foundation"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/contact",
+      "label": "Contact us"
+    },
+    {
+      "href": "mailto:hello@wellspring.foundation",
+      "label": "hello@wellspring.foundation"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/contact",
+      "label": "Contact us"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/donate",
+      "label": "Donate"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/donate",
+      "label": "Donate"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/monthly-giving",
+      "label": "Monthly giving"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/campaigns",
+      "label": "Campaigns"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/volunteer",
+      "label": "Volunteer"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/programs",
+      "label": "Programs"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/impact",
+      "label": "Impact"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/stories",
+      "label": "Stories"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/reports",
+      "label": "Reports"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/about",
+      "label": "About"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/team",
+      "label": "Team"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/partners",
+      "label": "Partners"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/news",
+      "label": "News"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/faq",
+      "label": "FAQ"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/contact",
+      "label": "Contact"
+    },
+    {
+      "href": "mailto:hello@wellspring.foundation",
+      "label": "hello@wellspring.foundation"
+    },
+    {
+      "href": "tel:+14155550142",
+      "label": "+1 (415) 555 0142"
+    },
+    {
+      "href": "https://instagram.com",
+      "label": "Instagram"
+    },
+    {
+      "href": "https://youtube.com",
+      "label": "YouTube"
+    },
+    {
+      "href": "https://linkedin.com",
+      "label": "LinkedIn"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/privacy",
+      "label": "Privacy"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/terms",
+      "label": "Terms"
+    },
+    {
+      "href": "https://interactive-channel-508354.framer.app/cookies",
+      "label": "Cookies"
+    },
+    {
+      "href": "https://solofoundryhq.com",
+      "label": "Made by SoloFoundry"
+    },
+    {
+      "href": "https://www.framer.com",
+      "label": "Create a free website with Framer, "
+    }
+  ],
+  "videos": [],
+  "mediaQueries": [
+    "@media(min-width: 1200px)",
+    "@media(min-width: 810px) and (max-width: 1199.98px)",
+    "@media(max-width: 809.98px)",
+    "@media (min-width:810px) and (max-width:1199.98px)",
+    "@media (max-width:809.98px)",
+    "@media (max-width:600px),(hover:none)",
+    "@media (prefers-reduced-motion:reduce)",
+    "@media (max-width:1240px)",
+    "@media (max-width:420px)",
+    "@media (max-width:359px)",
+    "@media (max-height:640px)",
+    "@media (max-width:809px)",
+    "@media (max-width:1099px)",
+    "@media (max-width:699px)",
+    "@media (hover:hover)",
+    "@media (min-width:810px) and (max-width:1099.98px)"
+  ],
+  "colorFrequency": [
+    [
+      "#0E1014",
+      33
+    ],
+    [
+      "#FFFFFF",
+      33
+    ],
+    [
+      "#F1EEE7",
+      11
+    ],
+    [
+      "#0A0B0F",
+      11
+    ],
+    [
+      "#F3EEE4",
+      11
+    ],
+    [
+      "#0B0D1E",
+      11
+    ],
+    [
+      "#A3321F",
+      3
+    ],
+    [
+      "#f3eee4",
+      1
+    ],
+    [
+      "#12131f",
+      1
+    ],
+    [
+      "#f2a33a",
+      1
+    ],
+    [
+      "#1b1e3a",
+      1
+    ],
+    [
+      "#d8d2c4",
+      1
+    ],
+    [
+      "#6c6878",
+      1
+    ],
+    [
+      "#fffdf8",
+      1
+    ],
+    [
+      "#0b0d1e",
+      1
+    ]
+  ]
+}

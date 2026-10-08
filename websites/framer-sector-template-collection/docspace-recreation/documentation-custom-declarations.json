@@ -1,0 +1,2518 @@
+{
+  "coverage": "Public declaration inventory; no rendered geometry or exercised interactions",
+  "primaryUrl": "https://docspace.framer.website/docs",
+  "secondaryUrl": "https://docspace.framer.website/docs/introduction",
+  "baseTypographyRules": [
+    {
+      "selector": ".text-styles-preset-reset.framer-text",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      }
+    },
+    {
+      "selector": "[data-framer-component-type=DeprecatedRichText] .text-styles-preset-reset",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--font-variation-settings": "normal"
+      }
+    },
+    {
+      "selector": ".framer-O8XRM .framer-styles-preset-1utb3rb:not(.rich-text-wrapper),.framer-O8XRM .framer-styles-preset-1utb3rb.rich-text-wrapper p",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "14px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-style-bold-italic": "italic",
+        "--framer-font-style-italic": "italic",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-font-weight-bold": "700",
+        "--framer-font-weight-bold-italic": "700",
+        "--framer-font-weight-italic": "400",
+        "--framer-letter-spacing": "-.04em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f,#5e5e5e)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-6ktkr .framer-styles-preset-5ofstx:not(.rich-text-wrapper),.framer-6ktkr .framer-styles-preset-5ofstx.rich-text-wrapper h1",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "32px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#0a0a0a)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-G1lF4 .framer-styles-preset-1hjlm73:not(.rich-text-wrapper),.framer-G1lF4 .framer-styles-preset-1hjlm73.rich-text-wrapper p",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv09\" on, \"cv03\" on, \"cv04\" on, \"cv11\" on",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-font-weight-bold": "500",
+        "--framer-letter-spacing": "-.02em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f,#6b6b6b)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".text-styles-preset-reset.framer-text",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      }
+    },
+    {
+      "selector": "[data-framer-component-type=DeprecatedRichText] .text-styles-preset-reset",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--font-variation-settings": "normal"
+      }
+    },
+    {
+      "selector": ".framer-O8XRM .framer-styles-preset-1utb3rb:not(.rich-text-wrapper),.framer-O8XRM .framer-styles-preset-1utb3rb.rich-text-wrapper p",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "14px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-style-bold-italic": "italic",
+        "--framer-font-style-italic": "italic",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-font-weight-bold": "700",
+        "--framer-font-weight-bold-italic": "700",
+        "--framer-font-weight-italic": "400",
+        "--framer-letter-spacing": "-.04em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f,#5e5e5e)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-6ktkr .framer-styles-preset-5ofstx:not(.rich-text-wrapper),.framer-6ktkr .framer-styles-preset-5ofstx.rich-text-wrapper h1",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "32px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#0a0a0a)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-EIa4A .framer-styles-preset-yvqwtv:not(.rich-text-wrapper),.framer-EIa4A .framer-styles-preset-yvqwtv.rich-text-wrapper h2",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv09\" on, \"cv03\" on, \"cv04\" on, \"cv11\" on",
+        "--framer-font-size": "28px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-JYXii .framer-styles-preset-vrp5hw:not(.rich-text-wrapper),.framer-JYXii .framer-styles-preset-vrp5hw.rich-text-wrapper h3",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "24px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-GrwK7 .framer-styles-preset-mkqi6k:not(.rich-text-wrapper),.framer-GrwK7 .framer-styles-preset-mkqi6k.rich-text-wrapper h4",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "20px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-QbX6J .framer-styles-preset-zx4w0b:not(.rich-text-wrapper),.framer-QbX6J .framer-styles-preset-zx4w0b.rich-text-wrapper h5",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "18px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-zTRPP .framer-styles-preset-1tsjwnx:not(.rich-text-wrapper),.framer-zTRPP .framer-styles-preset-1tsjwnx.rich-text-wrapper h6",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-G1lF4 .framer-styles-preset-1hjlm73:not(.rich-text-wrapper),.framer-G1lF4 .framer-styles-preset-1hjlm73.rich-text-wrapper p",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv09\" on, \"cv03\" on, \"cv04\" on, \"cv11\" on",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-font-weight-bold": "500",
+        "--framer-letter-spacing": "-.02em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f,#6b6b6b)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    }
+  ],
+  "mediaTypographyRules": [
+    {
+      "selector": ".framer-O8XRM .framer-styles-preset-1utb3rb:not(.rich-text-wrapper),.framer-O8XRM .framer-styles-preset-1utb3rb.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "14px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-style-bold-italic": "italic",
+        "--framer-font-style-italic": "italic",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-font-weight-bold": "700",
+        "--framer-font-weight-bold-italic": "700",
+        "--framer-font-weight-italic": "400",
+        "--framer-letter-spacing": "-.04em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f,#5e5e5e)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-O8XRM .framer-styles-preset-1utb3rb:not(.rich-text-wrapper),.framer-O8XRM .framer-styles-preset-1utb3rb.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "14px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-style-bold-italic": "italic",
+        "--framer-font-style-italic": "italic",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-font-weight-bold": "700",
+        "--framer-font-weight-bold-italic": "700",
+        "--framer-font-weight-italic": "400",
+        "--framer-letter-spacing": "-.04em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f,#5e5e5e)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-6ktkr .framer-styles-preset-5ofstx:not(.rich-text-wrapper),.framer-6ktkr .framer-styles-preset-5ofstx.rich-text-wrapper h1",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "30px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#0a0a0a)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-6ktkr .framer-styles-preset-5ofstx:not(.rich-text-wrapper),.framer-6ktkr .framer-styles-preset-5ofstx.rich-text-wrapper h1",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "28px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#0a0a0a)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-G1lF4 .framer-styles-preset-1hjlm73:not(.rich-text-wrapper),.framer-G1lF4 .framer-styles-preset-1hjlm73.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv09\" on, \"cv03\" on, \"cv04\" on, \"cv11\" on",
+        "--framer-font-size": "15px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-font-weight-bold": "500",
+        "--framer-letter-spacing": "-.02em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f,#6b6b6b)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-G1lF4 .framer-styles-preset-1hjlm73:not(.rich-text-wrapper),.framer-G1lF4 .framer-styles-preset-1hjlm73.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv09\" on, \"cv03\" on, \"cv04\" on, \"cv11\" on",
+        "--framer-font-size": "15px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-font-weight-bold": "500",
+        "--framer-letter-spacing": "-.02em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f,#6b6b6b)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-O8XRM .framer-styles-preset-1utb3rb:not(.rich-text-wrapper),.framer-O8XRM .framer-styles-preset-1utb3rb.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "14px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-style-bold-italic": "italic",
+        "--framer-font-style-italic": "italic",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-font-weight-bold": "700",
+        "--framer-font-weight-bold-italic": "700",
+        "--framer-font-weight-italic": "400",
+        "--framer-letter-spacing": "-.04em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f,#5e5e5e)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-O8XRM .framer-styles-preset-1utb3rb:not(.rich-text-wrapper),.framer-O8XRM .framer-styles-preset-1utb3rb.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "14px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-style-bold-italic": "italic",
+        "--framer-font-style-italic": "italic",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-font-weight-bold": "700",
+        "--framer-font-weight-bold-italic": "700",
+        "--framer-font-weight-italic": "400",
+        "--framer-letter-spacing": "-.04em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f,#5e5e5e)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-6ktkr .framer-styles-preset-5ofstx:not(.rich-text-wrapper),.framer-6ktkr .framer-styles-preset-5ofstx.rich-text-wrapper h1",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "30px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#0a0a0a)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-6ktkr .framer-styles-preset-5ofstx:not(.rich-text-wrapper),.framer-6ktkr .framer-styles-preset-5ofstx.rich-text-wrapper h1",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "28px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#0a0a0a)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-G1lF4 .framer-styles-preset-1hjlm73:not(.rich-text-wrapper),.framer-G1lF4 .framer-styles-preset-1hjlm73.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv09\" on, \"cv03\" on, \"cv04\" on, \"cv11\" on",
+        "--framer-font-size": "15px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-font-weight-bold": "500",
+        "--framer-letter-spacing": "-.02em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f,#6b6b6b)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-G1lF4 .framer-styles-preset-1hjlm73:not(.rich-text-wrapper),.framer-G1lF4 .framer-styles-preset-1hjlm73.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv09\" on, \"cv03\" on, \"cv04\" on, \"cv11\" on",
+        "--framer-font-size": "15px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-font-weight-bold": "500",
+        "--framer-letter-spacing": "-.02em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f,#6b6b6b)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-EIa4A .framer-styles-preset-yvqwtv:not(.rich-text-wrapper),.framer-EIa4A .framer-styles-preset-yvqwtv.rich-text-wrapper h2",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv09\" on, \"cv03\" on, \"cv04\" on, \"cv11\" on",
+        "--framer-font-size": "26px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-EIa4A .framer-styles-preset-yvqwtv:not(.rich-text-wrapper),.framer-EIa4A .framer-styles-preset-yvqwtv.rich-text-wrapper h2",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv09\" on, \"cv03\" on, \"cv04\" on, \"cv11\" on",
+        "--framer-font-size": "24px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-JYXii .framer-styles-preset-vrp5hw:not(.rich-text-wrapper),.framer-JYXii .framer-styles-preset-vrp5hw.rich-text-wrapper h3",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "22px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-JYXii .framer-styles-preset-vrp5hw:not(.rich-text-wrapper),.framer-JYXii .framer-styles-preset-vrp5hw.rich-text-wrapper h3",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "20px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-GrwK7 .framer-styles-preset-mkqi6k:not(.rich-text-wrapper),.framer-GrwK7 .framer-styles-preset-mkqi6k.rich-text-wrapper h4",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-GrwK7 .framer-styles-preset-mkqi6k:not(.rich-text-wrapper),.framer-GrwK7 .framer-styles-preset-mkqi6k.rich-text-wrapper h4",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "18px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-QbX6J .framer-styles-preset-zx4w0b:not(.rich-text-wrapper),.framer-QbX6J .framer-styles-preset-zx4w0b.rich-text-wrapper h5",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "17px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-QbX6J .framer-styles-preset-zx4w0b:not(.rich-text-wrapper),.framer-QbX6J .framer-styles-preset-zx4w0b.rich-text-wrapper h5",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "17px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-zTRPP .framer-styles-preset-1tsjwnx:not(.rich-text-wrapper),.framer-zTRPP .framer-styles-preset-1tsjwnx.rich-text-wrapper h6",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-zTRPP .framer-styles-preset-1tsjwnx:not(.rich-text-wrapper),.framer-zTRPP .framer-styles-preset-1tsjwnx.rich-text-wrapper h6",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-6ktkr .framer-styles-preset-5ofstx:not(.rich-text-wrapper),.framer-6ktkr .framer-styles-preset-5ofstx.rich-text-wrapper h1",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "30px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#0a0a0a)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-6ktkr .framer-styles-preset-5ofstx:not(.rich-text-wrapper),.framer-6ktkr .framer-styles-preset-5ofstx.rich-text-wrapper h1",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "28px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#0a0a0a)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-EIa4A .framer-styles-preset-yvqwtv:not(.rich-text-wrapper),.framer-EIa4A .framer-styles-preset-yvqwtv.rich-text-wrapper h2",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv09\" on, \"cv03\" on, \"cv04\" on, \"cv11\" on",
+        "--framer-font-size": "26px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-EIa4A .framer-styles-preset-yvqwtv:not(.rich-text-wrapper),.framer-EIa4A .framer-styles-preset-yvqwtv.rich-text-wrapper h2",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv09\" on, \"cv03\" on, \"cv04\" on, \"cv11\" on",
+        "--framer-font-size": "24px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-JYXii .framer-styles-preset-vrp5hw:not(.rich-text-wrapper),.framer-JYXii .framer-styles-preset-vrp5hw.rich-text-wrapper h3",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "22px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-JYXii .framer-styles-preset-vrp5hw:not(.rich-text-wrapper),.framer-JYXii .framer-styles-preset-vrp5hw.rich-text-wrapper h3",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "20px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-GrwK7 .framer-styles-preset-mkqi6k:not(.rich-text-wrapper),.framer-GrwK7 .framer-styles-preset-mkqi6k.rich-text-wrapper h4",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "19px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-GrwK7 .framer-styles-preset-mkqi6k:not(.rich-text-wrapper),.framer-GrwK7 .framer-styles-preset-mkqi6k.rich-text-wrapper h4",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "18px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-QbX6J .framer-styles-preset-zx4w0b:not(.rich-text-wrapper),.framer-QbX6J .framer-styles-preset-zx4w0b.rich-text-wrapper h5",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "17px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-QbX6J .framer-styles-preset-zx4w0b:not(.rich-text-wrapper),.framer-QbX6J .framer-styles-preset-zx4w0b.rich-text-wrapper h5",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "17px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-zTRPP .framer-styles-preset-1tsjwnx:not(.rich-text-wrapper),.framer-zTRPP .framer-styles-preset-1tsjwnx.rich-text-wrapper h6",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-zTRPP .framer-styles-preset-1tsjwnx:not(.rich-text-wrapper),.framer-zTRPP .framer-styles-preset-1tsjwnx.rich-text-wrapper h6",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.03em",
+        "--framer-line-height": "1.2em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-G1lF4 .framer-styles-preset-1hjlm73:not(.rich-text-wrapper),.framer-G1lF4 .framer-styles-preset-1hjlm73.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv09\" on, \"cv03\" on, \"cv04\" on, \"cv11\" on",
+        "--framer-font-size": "15px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-font-weight-bold": "500",
+        "--framer-letter-spacing": "-.02em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f,#6b6b6b)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-G1lF4 .framer-styles-preset-1hjlm73:not(.rich-text-wrapper),.framer-G1lF4 .framer-styles-preset-1hjlm73.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv09\" on, \"cv03\" on, \"cv04\" on, \"cv11\" on",
+        "--framer-font-size": "15px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-font-weight-bold": "500",
+        "--framer-letter-spacing": "-.02em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f,#6b6b6b)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    }
+  ],
+  "themeRules": [
+    {
+      "selector": "body",
+      "mediaContext": [],
+      "declarations": {
+        "--token-67b84a9d-f7b1-4c37-82bf-b4f0363561d4": "#fff",
+        "--token-c124f032-e7f5-46af-ab8c-726254cbe368": "#202020",
+        "--token-628411a0-b8f6-49a1-b211-80b4f63f4624": "#6259e3",
+        "--token-517ab8c6-1fbe-4afb-918b-b4cc63041b51": "#ddd",
+        "--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f": "#6b6b6b",
+        "--token-4948f520-6eec-4ff0-ae67-9353192a3cd3": "#e5e5e5",
+        "--token-a0ec1e79-0227-4392-983c-f18ea955a433": "#fafafa",
+        "--token-3ee5e392-15dc-41af-9b21-80211c2a0d73": "#f6f6fd",
+        "--token-af300391-4ce2-4b2f-9cc7-f97a3b1518f7": "gray",
+        "--token-2644e61a-7092-4da3-af1f-c446ff4b0413": "#6259e366",
+        "--token-d5636919-8be8-4416-943f-07a410263426": "#c1bcf4",
+        "--token-db0f6d37-5191-4f2e-880a-6fb31eeb5229": "#f4f4fc",
+        "--token-469a7589-996d-4604-9cab-43bafa748243": "#e8e9ee",
+        "--token-a60def15-95a7-4252-b108-e3f7e8f80830": "#0000000f",
+        "--token-c0dd08f6-37eb-41b8-94e8-2d629faec209": "#fafafa",
+        "--token-ab5d3e35-3646-4859-9bf0-ab35088e7461": "#0000001a",
+        "--token-8f6d8e18-674b-4a97-915c-d149d18b86aa": "#00000080",
+        "--token-cd829ade-bd36-4188-97df-fe0aef9f5deb": "#0003",
+        "--token-54a30f13-220b-456f-90c9-bf1b03a3fab6": "#fff",
+        "--token-8ac84254-4183-4b9b-bb7c-140f917a95e1": "#f4f4f4",
+        "--token-18002063-cba1-4853-87bf-bbefb7707150": "#6259e3b3",
+        "--token-82d7ffe3-252d-40d5-a8d2-34a4f404b49d": "#f2f2f2",
+        "--token-d9c6cbbf-9c42-4578-b7e1-b9e80c3db1e1": "#5950d9",
+        "--token-530c6db4-f0b9-4662-a716-73ed3a70e271": "#fff0",
+        "--token-badb04f4-6ffb-4841-becd-c4edc14df6f6": "#00000008",
+        "--token-bfee3ace-069a-4229-90ce-5587e49bb0e4": "#6259e399",
+        "--token-0c5cf3c7-2b1a-41f2-a966-482af578893b": "#fffc",
+        "--token-409b7ace-b4c3-4db8-97f2-6a5376d82063": "#fff",
+        "--token-50bf838f-b97e-49db-a2bc-fd6114f1395d": "#eaf3ff",
+        "--token-55e9d17b-8a39-40f5-a8f9-617371dbd07a": "#eaf3ff",
+        "--token-7cc347f2-e557-4d86-b3f9-a4db0e2d78b2": "#b6d6ff",
+        "--token-2c994465-a584-45ad-9ace-6dfff9378e5c": "#2a4dc2",
+        "--token-906e856e-04b8-4fe0-878b-9797cc4b294c": "#fefce8",
+        "--token-53e8a97b-ecbd-413d-a918-22f1eb44c036": "#ffe68c",
+        "--token-b59709ad-dcdc-4885-ac9b-a01073e91abe": "#726020",
+        "--token-2b7ae0ef-16a4-483d-afb6-71bca6d6e750": "#f7f7f7",
+        "--token-4bdb67ab-d4c1-4fab-91cb-2d28b6bfdcb6": "#dddbdb",
+        "--token-3c908fb3-fb19-404f-8163-17658b1ac2d4": "#edfff2",
+        "--token-78e6361e-cd99-4a51-86b0-7469b38279f4": "#b2edc6",
+        "--token-bd0d668c-2848-4de6-b27d-362a8034781e": "#1d7034",
+        "--token-fb9a5517-5b1a-43d6-bc72-956949248d01": "#ffebeb",
+        "--token-b3b877f8-bb97-4e0a-a50b-553d83ae180b": "#f99",
+        "--token-3b364b7c-048d-4c82-8df1-396f1d8aac7d": "#ba1515",
+        "--token-aada476f-e7e4-4b32-aa60-7527bb51e70d": "#f0efff",
+        "--token-5b2760a1-1942-458e-8e51-17fe2920a314": "#b6afff",
+        "--token-3c021d8c-9ba1-45c7-8286-6011dde97e14": "#4138cf",
+        "--token-5a158c7d-4931-4059-9f67-14a54d511b7b": "#ffefdf",
+        "--token-4b813f1f-e017-43db-b369-c5e9474c481e": "#ffa955",
+        "--token-a1bac4a0-1ae6-461e-b652-6d864840944b": "#9b530d",
+        "--token-0838893e-0390-4acc-8c04-abeeaf0335a3": "#0c3e7a",
+        "--token-9f17a999-c2da-4dad-9d3e-5bc2d0e2722c": "#9a4a00",
+        "--token-8fd24581-11a5-41cd-a1d6-56e57f9d9aa8": "#087443",
+        "--token-b909b85c-26f4-438c-af33-186609076c6f": "#d9fbe8",
+        "--token-c88299ac-871a-4cf0-a91e-3dce88a5c28f": "#a34a00",
+        "--token-00a2bc9f-9f91-459c-b83b-37cbf3e62886": "#fff1c7",
+        "--token-7195c810-7d6b-4425-b4f2-b469f45ac4e5": "#075ea8",
+        "--token-d99236fe-24ed-4dbb-8b37-074631add6a9": "#dceeff",
+        "--token-8fd4d718-8294-41a0-97a0-e2a9e2886cee": "#7a21c2",
+        "--token-88e7b227-d2c7-46c6-a82e-244927b91f8b": "#f1e2ff",
+        "--token-a55b26b1-72e7-4330-888f-43a9f69f0285": "#4b5563",
+        "--token-b71a035e-4712-43c1-87d9-9d87140eb62e": "#eceff3",
+        "--token-cecfec45-d8f9-4809-ad87-69debb1bfcbf": "#a1122a",
+        "--token-08db29ca-ca85-4ac4-a36e-8f1d7b236a88": "#ffe1e4",
+        "--token-dcf5f907-4958-4eca-a7b5-0abacaee86b0": "#fff",
+        "--token-cc83dd45-c182-4541-a9b2-70bed03c7561": "#fafafa"
+      }
+    },
+    {
+      "selector": "body",
+      "mediaContext": [
+        "@media (prefers-color-scheme:dark)"
+      ],
+      "declarations": {
+        "--token-67b84a9d-f7b1-4c37-82bf-b4f0363561d4": "#000",
+        "--token-c124f032-e7f5-46af-ab8c-726254cbe368": "#e8e8e8",
+        "--token-628411a0-b8f6-49a1-b211-80b4f63f4624": "#9991ff",
+        "--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f": "#e8e8e8",
+        "--token-4948f520-6eec-4ff0-ae67-9353192a3cd3": "#303030",
+        "--token-a0ec1e79-0227-4392-983c-f18ea955a433": "#121212",
+        "--token-3ee5e392-15dc-41af-9b21-80211c2a0d73": "#22212e",
+        "--token-af300391-4ce2-4b2f-9cc7-f97a3b1518f7": "#d6d6d6",
+        "--token-d5636919-8be8-4416-943f-07a410263426": "#56529b",
+        "--token-469a7589-996d-4604-9cab-43bafa748243": "#252526",
+        "--token-a60def15-95a7-4252-b108-e3f7e8f80830": "#ffffff0f",
+        "--token-c0dd08f6-37eb-41b8-94e8-2d629faec209": "#212121",
+        "--token-ab5d3e35-3646-4859-9bf0-ab35088e7461": "#ffffff1a",
+        "--token-8f6d8e18-674b-4a97-915c-d149d18b86aa": "#00000080",
+        "--token-cd829ade-bd36-4188-97df-fe0aef9f5deb": "#fff3",
+        "--token-18002063-cba1-4853-87bf-bbefb7707150": "#7d76f0b3",
+        "--token-82d7ffe3-252d-40d5-a8d2-34a4f404b49d": "#262626",
+        "--token-d9c6cbbf-9c42-4578-b7e1-b9e80c3db1e1": "#7d75eb",
+        "--token-530c6db4-f0b9-4662-a716-73ed3a70e271": "#0000",
+        "--token-badb04f4-6ffb-4841-becd-c4edc14df6f6": "#ffffff08",
+        "--token-bfee3ace-069a-4229-90ce-5587e49bb0e4": "#7d76f099",
+        "--token-409b7ace-b4c3-4db8-97f2-6a5376d82063": "#1d1d1d",
+        "--token-50bf838f-b97e-49db-a2bc-fd6114f1395d": "#0f1e39",
+        "--token-7cc347f2-e557-4d86-b3f9-a4db0e2d78b2": "#1e3a8a",
+        "--token-2c994465-a584-45ad-9ace-6dfff9378e5c": "#93c5fd",
+        "--token-906e856e-04b8-4fe0-878b-9797cc4b294c": "#30260b",
+        "--token-53e8a97b-ecbd-413d-a918-22f1eb44c036": "#65500b",
+        "--token-b59709ad-dcdc-4885-ac9b-a01073e91abe": "#ffe083",
+        "--token-3c908fb3-fb19-404f-8163-17658b1ac2d4": "#0c2b19",
+        "--token-78e6361e-cd99-4a51-86b0-7469b38279f4": "#14532d",
+        "--token-bd0d668c-2848-4de6-b27d-362a8034781e": "#86efac",
+        "--token-fb9a5517-5b1a-43d6-bc72-956949248d01": "#471e1e",
+        "--token-b3b877f8-bb97-4e0a-a50b-553d83ae180b": "#7f1d1d",
+        "--token-3b364b7c-048d-4c82-8df1-396f1d8aac7d": "#fca5a5",
+        "--token-aada476f-e7e4-4b32-aa60-7527bb51e70d": "#1b0f38",
+        "--token-5b2760a1-1942-458e-8e51-17fe2920a314": "#241e8a",
+        "--token-3c021d8c-9ba1-45c7-8286-6011dde97e14": "#a192fc",
+        "--token-5a158c7d-4931-4059-9f67-14a54d511b7b": "#38200f",
+        "--token-4b813f1f-e017-43db-b369-c5e9474c481e": "#543114",
+        "--token-a1bac4a0-1ae6-461e-b652-6d864840944b": "#fcc292",
+        "--token-0838893e-0390-4acc-8c04-abeeaf0335a3": "#6fa8ed",
+        "--token-9f17a999-c2da-4dad-9d3e-5bc2d0e2722c": "#c36416",
+        "--token-8fd24581-11a5-41cd-a1d6-56e57f9d9aa8": "#90e8b5",
+        "--token-b909b85c-26f4-438c-af33-186609076c6f": "#296940b3",
+        "--token-c88299ac-871a-4cf0-a91e-3dce88a5c28f": "#faffc9",
+        "--token-00a2bc9f-9f91-459c-b83b-37cbf3e62886": "#7d703bb3",
+        "--token-7195c810-7d6b-4425-b4f2-b469f45ac4e5": "#abd8ff",
+        "--token-d99236fe-24ed-4dbb-8b37-074631add6a9": "#2265a3b3",
+        "--token-8fd4d718-8294-41a0-97a0-e2a9e2886cee": "#d0befa",
+        "--token-88e7b227-d2c7-46c6-a82e-244927b91f8b": "#5143abb3",
+        "--token-a55b26b1-72e7-4330-888f-43a9f69f0285": "#b2b8c2",
+        "--token-b71a035e-4712-43c1-87d9-9d87140eb62e": "#232a33b8",
+        "--token-cecfec45-d8f9-4809-ad87-69debb1bfcbf": "#ffc4c4",
+        "--token-08db29ca-ca85-4ac4-a36e-8f1d7b236a88": "#b34646b3",
+        "--token-dcf5f907-4958-4eca-a7b5-0abacaee86b0": "#212121",
+        "--token-cc83dd45-c182-4541-a9b2-70bed03c7561": "#262626"
+      }
+    }
+  ],
+  "customInlineNodes": [
+    {
+      "tag": "span",
+      "sample": "",
+      "path": [
+        "Desktop",
+        "Wrap",
+        "Top",
+        "Right",
+        "Default"
+      ],
+      "attributes": {
+        "role": "status",
+        "aria-live": "polite",
+        "aria-busy": "true",
+        "aria-label": "GitHub star count unavailable",
+        "height": "100%",
+        "id": "RFbwoixM0",
+        "width": "100%",
+        "style": "width:100%;font-family:\"Geist\", \"Geist Placeholder\", sans-serif;font-size:14px;font-style:normal;font-weight:400;letter-spacing:-0.03em;line-height:1.1em;text-align:center;position:relative;display:inline-flex;align-items:center;justify-content:center;height:max-content;min-width:0;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--token-af300391-4ce2-4b2f-9cc7-f97a3b1518f7, rgb(128, 128, 128))"
+      },
+      "declarations": {
+        "width": "100%",
+        "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "font-size": "14px",
+        "font-style": "normal",
+        "font-weight": "400",
+        "letter-spacing": "-0.03em",
+        "line-height": "1.1em",
+        "text-align": "center",
+        "position": "relative",
+        "display": "inline-flex",
+        "align-items": "center",
+        "justify-content": "center",
+        "height": "max-content",
+        "min-width": "0",
+        "white-space": "nowrap",
+        "font-variant-numeric": "tabular-nums",
+        "color": "var(--token-af300391-4ce2-4b2f-9cc7-f97a3b1518f7, rgb(128, 128, 128))"
+      }
+    },
+    {
+      "tag": "button",
+      "sample": "\ud83c\uddfa\ud83c\uddf8 English",
+      "path": [
+        "Desktop",
+        "Wrap",
+        "Bottom",
+        "Right"
+      ],
+      "attributes": {
+        "aria-label": "Select language. Current language: English",
+        "aria-haspopup": "listbox",
+        "aria-expanded": "false",
+        "type": "button",
+        "tabindex": "0",
+        "style": "display:flex;align-items:center;justify-content:space-between;padding:6px 8px 6px 8px;background-color:var(--token-409b7ace-b4c3-4db8-97f2-6a5376d82063, rgb(255, 255, 255));backdrop-filter:blur(0px);-webkit-backdrop-filter:blur(0px);color:var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10));border-radius:8px;border-color:var(--token-ab5d3e35-3646-4859-9bf0-ab35088e7461, rgba(0, 0, 0, 0.1));border-style:solid;border-width:0;cursor:pointer;user-select:none;outline:none;width:100%;font-family:\"Geist\", \"Geist Placeholder\", sans-serif;font-size:13px;font-style:normal;font-weight:400;letter-spacing:-0.01em;line-height:1.4em;text-align:left"
+      },
+      "declarations": {
+        "display": "flex",
+        "align-items": "center",
+        "justify-content": "space-between",
+        "padding": "6px 8px 6px 8px",
+        "background-color": "var(--token-409b7ace-b4c3-4db8-97f2-6a5376d82063, rgb(255, 255, 255))",
+        "backdrop-filter": "blur(0px)",
+        "-webkit-backdrop-filter": "blur(0px)",
+        "color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10))",
+        "border-radius": "8px",
+        "border-color": "var(--token-ab5d3e35-3646-4859-9bf0-ab35088e7461, rgba(0, 0, 0, 0.1))",
+        "border-style": "solid",
+        "border-width": "0",
+        "cursor": "pointer",
+        "user-select": "none",
+        "outline": "none",
+        "width": "100%",
+        "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "font-size": "13px",
+        "font-style": "normal",
+        "font-weight": "400",
+        "letter-spacing": "-0.01em",
+        "line-height": "1.4em",
+        "text-align": "left"
+      }
+    },
+    {
+      "tag": "span",
+      "sample": "",
+      "path": [
+        "Tablet",
+        "Wrap",
+        "Top",
+        "Right",
+        "Default"
+      ],
+      "attributes": {
+        "role": "status",
+        "aria-live": "polite",
+        "aria-busy": "true",
+        "aria-label": "GitHub star count unavailable",
+        "height": "100%",
+        "id": "RFbwoixM0",
+        "width": "100%",
+        "style": "width:100%;font-family:\"Geist\", \"Geist Placeholder\", sans-serif;font-size:14px;font-style:normal;font-weight:400;letter-spacing:-0.03em;line-height:1.1em;text-align:center;position:relative;display:inline-flex;align-items:center;justify-content:center;height:max-content;min-width:0;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--token-af300391-4ce2-4b2f-9cc7-f97a3b1518f7, rgb(128, 128, 128))"
+      },
+      "declarations": {
+        "width": "100%",
+        "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "font-size": "14px",
+        "font-style": "normal",
+        "font-weight": "400",
+        "letter-spacing": "-0.03em",
+        "line-height": "1.1em",
+        "text-align": "center",
+        "position": "relative",
+        "display": "inline-flex",
+        "align-items": "center",
+        "justify-content": "center",
+        "height": "max-content",
+        "min-width": "0",
+        "white-space": "nowrap",
+        "font-variant-numeric": "tabular-nums",
+        "color": "var(--token-af300391-4ce2-4b2f-9cc7-f97a3b1518f7, rgb(128, 128, 128))"
+      }
+    },
+    {
+      "tag": "button",
+      "sample": "\ud83c\uddfa\ud83c\uddf8 English",
+      "path": [
+        "Tablet",
+        "Wrap",
+        "Bottom",
+        "Right"
+      ],
+      "attributes": {
+        "aria-label": "Select language. Current language: English",
+        "aria-haspopup": "listbox",
+        "aria-expanded": "false",
+        "type": "button",
+        "tabindex": "0",
+        "style": "display:flex;align-items:center;justify-content:space-between;padding:6px 8px 6px 8px;background-color:var(--token-409b7ace-b4c3-4db8-97f2-6a5376d82063, rgb(255, 255, 255));backdrop-filter:blur(0px);-webkit-backdrop-filter:blur(0px);color:var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10));border-radius:8px;border-color:var(--token-ab5d3e35-3646-4859-9bf0-ab35088e7461, rgba(0, 0, 0, 0.1));border-style:solid;border-width:0;cursor:pointer;user-select:none;outline:none;width:100%;font-family:\"Geist\", \"Geist Placeholder\", sans-serif;font-size:13px;font-style:normal;font-weight:400;letter-spacing:-0.01em;line-height:1.4em;text-align:left"
+      },
+      "declarations": {
+        "display": "flex",
+        "align-items": "center",
+        "justify-content": "space-between",
+        "padding": "6px 8px 6px 8px",
+        "background-color": "var(--token-409b7ace-b4c3-4db8-97f2-6a5376d82063, rgb(255, 255, 255))",
+        "backdrop-filter": "blur(0px)",
+        "-webkit-backdrop-filter": "blur(0px)",
+        "color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10))",
+        "border-radius": "8px",
+        "border-color": "var(--token-ab5d3e35-3646-4859-9bf0-ab35088e7461, rgba(0, 0, 0, 0.1))",
+        "border-style": "solid",
+        "border-width": "0",
+        "cursor": "pointer",
+        "user-select": "none",
+        "outline": "none",
+        "width": "100%",
+        "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "font-size": "13px",
+        "font-style": "normal",
+        "font-weight": "400",
+        "letter-spacing": "-0.01em",
+        "line-height": "1.4em",
+        "text-align": "left"
+      }
+    },
+    {
+      "tag": "span",
+      "sample": "",
+      "path": [
+        "Phone",
+        "Wrap",
+        "Top",
+        "Right",
+        "Default"
+      ],
+      "attributes": {
+        "role": "status",
+        "aria-live": "polite",
+        "aria-busy": "true",
+        "aria-label": "GitHub star count unavailable",
+        "height": "100%",
+        "id": "RFbwoixM0",
+        "width": "100%",
+        "style": "width:100%;font-family:\"Geist\", \"Geist Placeholder\", sans-serif;font-size:14px;font-style:normal;font-weight:400;letter-spacing:-0.03em;line-height:1.1em;text-align:center;position:relative;display:inline-flex;align-items:center;justify-content:center;height:max-content;min-width:0;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--token-af300391-4ce2-4b2f-9cc7-f97a3b1518f7, rgb(128, 128, 128))"
+      },
+      "declarations": {
+        "width": "100%",
+        "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "font-size": "14px",
+        "font-style": "normal",
+        "font-weight": "400",
+        "letter-spacing": "-0.03em",
+        "line-height": "1.1em",
+        "text-align": "center",
+        "position": "relative",
+        "display": "inline-flex",
+        "align-items": "center",
+        "justify-content": "center",
+        "height": "max-content",
+        "min-width": "0",
+        "white-space": "nowrap",
+        "font-variant-numeric": "tabular-nums",
+        "color": "var(--token-af300391-4ce2-4b2f-9cc7-f97a3b1518f7, rgb(128, 128, 128))"
+      }
+    },
+    {
+      "tag": "button",
+      "sample": "\ud83c\uddfa\ud83c\uddf8",
+      "path": [
+        "Phone",
+        "Wrap",
+        "Bottom",
+        "Right"
+      ],
+      "attributes": {
+        "aria-label": "Select language. Current language: English",
+        "aria-haspopup": "listbox",
+        "aria-expanded": "false",
+        "type": "button",
+        "tabindex": "0",
+        "style": "display:flex;align-items:center;justify-content:space-between;padding:4px 5px 4px 5px;background-color:var(--token-409b7ace-b4c3-4db8-97f2-6a5376d82063, rgb(255, 255, 255));backdrop-filter:blur(0px);-webkit-backdrop-filter:blur(0px);color:var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10));border-radius:8px;border-color:var(--token-ab5d3e35-3646-4859-9bf0-ab35088e7461, rgba(0, 0, 0, 0.1));border-style:solid;border-width:0;cursor:pointer;user-select:none;outline:none;width:100%;font-family:\"Geist\", \"Geist Placeholder\", sans-serif;font-size:11px;font-style:normal;font-weight:400;letter-spacing:-0.01em;line-height:1.4em;text-align:left"
+      },
+      "declarations": {
+        "display": "flex",
+        "align-items": "center",
+        "justify-content": "space-between",
+        "padding": "4px 5px 4px 5px",
+        "background-color": "var(--token-409b7ace-b4c3-4db8-97f2-6a5376d82063, rgb(255, 255, 255))",
+        "backdrop-filter": "blur(0px)",
+        "-webkit-backdrop-filter": "blur(0px)",
+        "color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10))",
+        "border-radius": "8px",
+        "border-color": "var(--token-ab5d3e35-3646-4859-9bf0-ab35088e7461, rgba(0, 0, 0, 0.1))",
+        "border-style": "solid",
+        "border-width": "0",
+        "cursor": "pointer",
+        "user-select": "none",
+        "outline": "none",
+        "width": "100%",
+        "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "font-size": "11px",
+        "font-style": "normal",
+        "font-weight": "400",
+        "letter-spacing": "-0.01em",
+        "line-height": "1.4em",
+        "text-align": "left"
+      }
+    },
+    {
+      "tag": "span",
+      "sample": "Copy Page",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Breadcrumb",
+        "Container",
+        "Desktop"
+      ],
+      "attributes": {
+        "style": "white-space:nowrap;font-family:\"Geist\", \"Geist Placeholder\", sans-serif;font-size:12px;font-style:normal;font-weight:400;letter-spacing:-0.01em;line-height:1.4em"
+      },
+      "declarations": {
+        "white-space": "nowrap",
+        "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "font-size": "12px",
+        "font-style": "normal",
+        "font-weight": "400",
+        "letter-spacing": "-0.01em",
+        "line-height": "1.4em"
+      }
+    },
+    {
+      "tag": "span",
+      "sample": "Copy Page",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Breadcrumb",
+        "Container",
+        "Phone"
+      ],
+      "attributes": {
+        "style": "white-space:nowrap;font-family:\"Geist\", \"Geist Placeholder\", sans-serif;font-size:12px;font-style:normal;font-weight:400;letter-spacing:-0.01em;line-height:1.4em"
+      },
+      "declarations": {
+        "white-space": "nowrap",
+        "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "font-size": "12px",
+        "font-style": "normal",
+        "font-weight": "400",
+        "letter-spacing": "-0.01em",
+        "line-height": "1.4em"
+      }
+    },
+    {
+      "tag": "table",
+      "sample": "Capability Description Primary Endpoint Chat Conversational AI for assistants an",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content"
+      ],
+      "attributes": {
+        "class": "framer-text framer-styles-preset-1eq2sr0"
+      },
+      "declarations": {}
+    },
+    {
+      "tag": "code",
+      "sample": "/v1/chat",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content"
+      ],
+      "attributes": {
+        "class": "framer-text framer-styles-preset-wx7sk9"
+      },
+      "declarations": {}
+    },
+    {
+      "tag": "code",
+      "sample": "/v1/vision",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content"
+      ],
+      "attributes": {
+        "class": "framer-text framer-styles-preset-wx7sk9"
+      },
+      "declarations": {}
+    },
+    {
+      "tag": "code",
+      "sample": "/v1/images",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content"
+      ],
+      "attributes": {
+        "class": "framer-text framer-styles-preset-wx7sk9"
+      },
+      "declarations": {}
+    },
+    {
+      "tag": "code",
+      "sample": "/v1/embeddings",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content"
+      ],
+      "attributes": {
+        "class": "framer-text framer-styles-preset-wx7sk9"
+      },
+      "declarations": {}
+    },
+    {
+      "tag": "code",
+      "sample": "/v1/audio",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content"
+      ],
+      "attributes": {
+        "class": "framer-text framer-styles-preset-wx7sk9"
+      },
+      "declarations": {}
+    },
+    {
+      "tag": "code",
+      "sample": "/v1/files",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content"
+      ],
+      "attributes": {
+        "class": "framer-text framer-styles-preset-wx7sk9"
+      },
+      "declarations": {}
+    },
+    {
+      "tag": "code",
+      "sample": "/v1/vector-store",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content"
+      ],
+      "attributes": {
+        "class": "framer-text framer-styles-preset-wx7sk9"
+      },
+      "declarations": {}
+    },
+    {
+      "tag": "code",
+      "sample": "/v1/agents",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content"
+      ],
+      "attributes": {
+        "class": "framer-text framer-styles-preset-wx7sk9"
+      },
+      "declarations": {}
+    },
+    {
+      "tag": "div",
+      "sample": "Rendering diagram\u2026",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content",
+        "Smaller Height"
+      ],
+      "attributes": {
+        "style": "height:100%;width:100%;position:relative;box-sizing:border-box;display:flex;align-items:center;justify-content:flex-start;overflow-x:auto;overflow-y:hidden;background:var(--token-c0dd08f6-37eb-41b8-94e8-2d629faec209, rgb(250, 250, 250));padding:18px;border:none;border-radius:16px;box-shadow:none;-webkit-mask-image:none;mask-image:none;font-family:\"Geist\", \"Geist Placeholder\", sans-serif;font-size:16px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1.2em;text-align:left",
+        "aria-busy": "true"
+      },
+      "declarations": {
+        "height": "100%",
+        "width": "100%",
+        "position": "relative",
+        "box-sizing": "border-box",
+        "display": "flex",
+        "align-items": "center",
+        "justify-content": "flex-start",
+        "overflow-x": "auto",
+        "overflow-y": "hidden",
+        "background": "var(--token-c0dd08f6-37eb-41b8-94e8-2d629faec209, rgb(250, 250, 250))",
+        "padding": "18px",
+        "border": "none",
+        "border-radius": "16px",
+        "box-shadow": "none",
+        "-webkit-mask-image": "none",
+        "mask-image": "none",
+        "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "font-size": "16px",
+        "font-style": "normal",
+        "font-weight": "400",
+        "letter-spacing": "0em",
+        "line-height": "1.2em",
+        "text-align": "left"
+      }
+    },
+    {
+      "tag": "button",
+      "sample": "bash",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content",
+        "Variant 1",
+        "Code Block - Fit Height"
+      ],
+      "attributes": {
+        "type": "button",
+        "role": "tab",
+        "aria-selected": "true",
+        "style": "position:relative;flex:0 0 auto;width:auto;display:flex;flex-direction:column;justify-content:flex-end;align-items:stretch;padding:0;border:0;background:transparent;color:var(--token-628411a0-b8f6-49a1-b211-80b4f63f4624, rgb(98, 89, 227));cursor:pointer;font-family:\"Geist\", \"Geist Placeholder\", sans-serif;font-size:15px;line-height:1em;white-space:nowrap;appearance:none;font-style:normal;font-weight:400;letter-spacing:-0.01em"
+      },
+      "declarations": {
+        "position": "relative",
+        "flex": "0 0 auto",
+        "width": "auto",
+        "display": "flex",
+        "flex-direction": "column",
+        "justify-content": "flex-end",
+        "align-items": "stretch",
+        "padding": "0",
+        "border": "0",
+        "background": "transparent",
+        "color": "var(--token-628411a0-b8f6-49a1-b211-80b4f63f4624, rgb(98, 89, 227))",
+        "cursor": "pointer",
+        "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "font-size": "15px",
+        "line-height": "1em",
+        "white-space": "nowrap",
+        "appearance": "none",
+        "font-style": "normal",
+        "font-weight": "400",
+        "letter-spacing": "-0.01em"
+      }
+    },
+    {
+      "tag": "pre",
+      "sample": "1 curl https :// api . novaai . dev / v1 / chat \\ 2 - H \"Authorization: Bearer Y",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content",
+        "Variant 1",
+        "Code Block - Fit Height"
+      ],
+      "attributes": {
+        "style": "margin:0;min-width:0;white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word;tab-size:2;font-family:\"Fragment Mono\", \"Fragment Mono Placeholder\", monospace;font-size:15px;font-style:normal;font-weight:400;letter-spacing:-0.01em;line-height:1.35em"
+      },
+      "declarations": {
+        "margin": "0",
+        "min-width": "0",
+        "white-space": "pre-wrap",
+        "overflow-wrap": "anywhere",
+        "word-break": "break-word",
+        "tab-size": "2",
+        "font-family": "\"Fragment Mono\", \"Fragment Mono Placeholder\", monospace",
+        "font-size": "15px",
+        "font-style": "normal",
+        "font-weight": "400",
+        "letter-spacing": "-0.01em",
+        "line-height": "1.35em"
+      }
+    },
+    {
+      "tag": "code",
+      "sample": "1 curl https :// api . novaai . dev / v1 / chat \\ 2 - H \"Authorization: Bearer Y",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content",
+        "Variant 1",
+        "Code Block - Fit Height"
+      ],
+      "attributes": {
+        "style": "display:block"
+      },
+      "declarations": {
+        "display": "block"
+      }
+    },
+    {
+      "tag": "table",
+      "sample": "Property Value Base URL https://api.novaai.dev/v1 Protocol HTTPS Authentication ",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content"
+      ],
+      "attributes": {
+        "class": "framer-text framer-styles-preset-1eq2sr0"
+      },
+      "declarations": {}
+    },
+    {
+      "tag": "code",
+      "sample": "https://api.novaai.dev/v1",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content"
+      ],
+      "attributes": {
+        "class": "framer-text framer-styles-preset-wx7sk9"
+      },
+      "declarations": {}
+    },
+    {
+      "tag": "code",
+      "sample": "v1",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content"
+      ],
+      "attributes": {
+        "class": "framer-text framer-styles-preset-wx7sk9"
+      },
+      "declarations": {}
+    },
+    {
+      "tag": "table",
+      "sample": "SDK Status JavaScript Stable Python Stable Go Stable PHP Stable Java Beta",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content"
+      ],
+      "attributes": {
+        "class": "framer-text framer-styles-preset-1eq2sr0"
+      },
+      "declarations": {}
+    },
+    {
+      "tag": "div",
+      "sample": "Rendering diagram\u2026",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content",
+        "Default"
+      ],
+      "attributes": {
+        "style": "height:100%;width:100%;position:relative;box-sizing:border-box;display:flex;align-items:center;justify-content:flex-start;overflow-x:auto;overflow-y:hidden;background:var(--token-c0dd08f6-37eb-41b8-94e8-2d629faec209, rgb(250, 250, 250));padding:18px;border:none;border-radius:16px;box-shadow:none;-webkit-mask-image:none;mask-image:none;font-family:\"Geist\", \"Geist Placeholder\", sans-serif;font-size:16px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1.2em;text-align:left",
+        "aria-busy": "true"
+      },
+      "declarations": {
+        "height": "100%",
+        "width": "100%",
+        "position": "relative",
+        "box-sizing": "border-box",
+        "display": "flex",
+        "align-items": "center",
+        "justify-content": "flex-start",
+        "overflow-x": "auto",
+        "overflow-y": "hidden",
+        "background": "var(--token-c0dd08f6-37eb-41b8-94e8-2d629faec209, rgb(250, 250, 250))",
+        "padding": "18px",
+        "border": "none",
+        "border-radius": "16px",
+        "box-shadow": "none",
+        "-webkit-mask-image": "none",
+        "mask-image": "none",
+        "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "font-size": "16px",
+        "font-style": "normal",
+        "font-weight": "400",
+        "letter-spacing": "0em",
+        "line-height": "1.2em",
+        "text-align": "left"
+      }
+    },
+    {
+      "tag": "button",
+      "sample": "",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content",
+        "Desktop",
+        "Buttons",
+        "Variant 1"
+      ],
+      "attributes": {
+        "type": "button",
+        "height": "100%",
+        "id": "IhXAFlty7",
+        "width": "100%",
+        "aria-live": "polite",
+        "aria-label": "",
+        "style": "font-family:Inter;font-weight:500;font-size:16px;line-height:1;display:inline-flex;position:relative;place-items:center;place-content:center;white-space:nowrap;background-color:rgba(0, 102, 255, 0);color:rgb(255, 255, 255);padding:0px;cursor:pointer;user-select:none;letter-spacing:-0.2px;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);border:none;outline:none;height:100%;width:100%;border-radius:0px"
+      },
+      "declarations": {
+        "font-family": "Inter",
+        "font-weight": "500",
+        "font-size": "16px",
+        "line-height": "1",
+        "display": "inline-flex",
+        "position": "relative",
+        "place-items": "center",
+        "place-content": "center",
+        "white-space": "nowrap",
+        "background-color": "rgba(0, 102, 255, 0)",
+        "color": "rgb(255, 255, 255)",
+        "padding": "0px",
+        "cursor": "pointer",
+        "user-select": "none",
+        "letter-spacing": "-0.2px",
+        "-webkit-tap-highlight-color": "rgba(0, 0, 0, 0)",
+        "border": "none",
+        "outline": "none",
+        "height": "100%",
+        "width": "100%",
+        "border-radius": "0px"
+      }
+    },
+    {
+      "tag": "button",
+      "sample": "",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Content",
+        "Phone",
+        "Buttons",
+        "Variant 1"
+      ],
+      "attributes": {
+        "type": "button",
+        "height": "100%",
+        "id": "IhXAFlty7",
+        "width": "100%",
+        "aria-live": "polite",
+        "aria-label": "",
+        "style": "font-family:Inter;font-weight:500;font-size:16px;line-height:1;display:inline-flex;position:relative;place-items:center;place-content:center;white-space:nowrap;background-color:rgba(0, 102, 255, 0);color:rgb(255, 255, 255);padding:0px;cursor:pointer;user-select:none;letter-spacing:-0.2px;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);border:none;outline:none;height:100%;width:100%;border-radius:0px"
+      },
+      "declarations": {
+        "font-family": "Inter",
+        "font-weight": "500",
+        "font-size": "16px",
+        "line-height": "1",
+        "display": "inline-flex",
+        "position": "relative",
+        "place-items": "center",
+        "place-content": "center",
+        "white-space": "nowrap",
+        "background-color": "rgba(0, 102, 255, 0)",
+        "color": "rgb(255, 255, 255)",
+        "padding": "0px",
+        "cursor": "pointer",
+        "user-select": "none",
+        "letter-spacing": "-0.2px",
+        "-webkit-tap-highlight-color": "rgba(0, 0, 0, 0)",
+        "border": "none",
+        "outline": "none",
+        "height": "100%",
+        "width": "100%",
+        "border-radius": "0px"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Was this helpful?",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Feedback Form",
+        "Desktop"
+      ],
+      "attributes": {
+        "style": "margin:0;color:var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10));font-family:\"Geist\", \"Geist Placeholder\", sans-serif;font-size:16px;font-style:normal;font-weight:500;letter-spacing:-0.01em;line-height:1.4em;text-align:left"
+      },
+      "declarations": {
+        "margin": "0",
+        "color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10))",
+        "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "font-size": "16px",
+        "font-style": "normal",
+        "font-weight": "500",
+        "letter-spacing": "-0.01em",
+        "line-height": "1.4em",
+        "text-align": "left"
+      }
+    },
+    {
+      "tag": "span",
+      "sample": "Yes, it was!",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Feedback Form",
+        "Desktop"
+      ],
+      "attributes": {
+        "style": "font-size:15px;line-height:1.4em;white-space:nowrap;color:var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10));font-family:\"Geist\", \"Geist Placeholder\", sans-serif;font-style:normal;font-weight:500;letter-spacing:-0.01em"
+      },
+      "declarations": {
+        "font-size": "15px",
+        "line-height": "1.4em",
+        "white-space": "nowrap",
+        "color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10))",
+        "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "font-style": "normal",
+        "font-weight": "500",
+        "letter-spacing": "-0.01em"
+      }
+    },
+    {
+      "tag": "span",
+      "sample": "It was not!",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Feedback Form",
+        "Desktop"
+      ],
+      "attributes": {
+        "style": "font-size:15px;line-height:1.4em;white-space:nowrap;color:var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10));font-family:\"Geist\", \"Geist Placeholder\", sans-serif;font-style:normal;font-weight:500;letter-spacing:-0.01em"
+      },
+      "declarations": {
+        "font-size": "15px",
+        "line-height": "1.4em",
+        "white-space": "nowrap",
+        "color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10))",
+        "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "font-style": "normal",
+        "font-weight": "500",
+        "letter-spacing": "-0.01em"
+      }
+    },
+    {
+      "tag": "span",
+      "sample": "I have feedback!",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Feedback Form",
+        "Desktop"
+      ],
+      "attributes": {
+        "style": "font-size:15px;line-height:1.4em;white-space:nowrap;color:var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10));font-family:\"Geist\", \"Geist Placeholder\", sans-serif;font-style:normal;font-weight:500;letter-spacing:-0.01em"
+      },
+      "declarations": {
+        "font-size": "15px",
+        "line-height": "1.4em",
+        "white-space": "nowrap",
+        "color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10))",
+        "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "font-style": "normal",
+        "font-weight": "500",
+        "letter-spacing": "-0.01em"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Was this helpful?",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Feedback Form",
+        "Phone"
+      ],
+      "attributes": {
+        "style": "margin:0;color:var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10));font-family:\"Geist\", \"Geist Placeholder\", sans-serif;font-size:16px;font-style:normal;font-weight:500;letter-spacing:-0.01em;line-height:1.4em;text-align:left"
+      },
+      "declarations": {
+        "margin": "0",
+        "color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10))",
+        "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "font-size": "16px",
+        "font-style": "normal",
+        "font-weight": "500",
+        "letter-spacing": "-0.01em",
+        "line-height": "1.4em",
+        "text-align": "left"
+      }
+    },
+    {
+      "tag": "span",
+      "sample": "Yes, it was!",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Feedback Form",
+        "Phone"
+      ],
+      "attributes": {
+        "style": "font-size:14px;line-height:1.4em;white-space:nowrap;color:var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10));font-family:\"Geist\", \"Geist Placeholder\", sans-serif;font-style:normal;font-weight:500;letter-spacing:-0.01em"
+      },
+      "declarations": {
+        "font-size": "14px",
+        "line-height": "1.4em",
+        "white-space": "nowrap",
+        "color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10))",
+        "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "font-style": "normal",
+        "font-weight": "500",
+        "letter-spacing": "-0.01em"
+      }
+    },
+    {
+      "tag": "span",
+      "sample": "It was not!",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Feedback Form",
+        "Phone"
+      ],
+      "attributes": {
+        "style": "font-size:14px;line-height:1.4em;white-space:nowrap;color:var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10));font-family:\"Geist\", \"Geist Placeholder\", sans-serif;font-style:normal;font-weight:500;letter-spacing:-0.01em"
+      },
+      "declarations": {
+        "font-size": "14px",
+        "line-height": "1.4em",
+        "white-space": "nowrap",
+        "color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10))",
+        "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "font-style": "normal",
+        "font-weight": "500",
+        "letter-spacing": "-0.01em"
+      }
+    },
+    {
+      "tag": "span",
+      "sample": "I have feedback!",
+      "path": [
+        "Main",
+        "Section",
+        "Container",
+        "Content Wrap",
+        "Main Content",
+        "Content Wrap",
+        "Container",
+        "Feedback Form",
+        "Phone"
+      ],
+      "attributes": {
+        "style": "font-size:14px;line-height:1.4em;white-space:nowrap;color:var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10));font-family:\"Geist\", \"Geist Placeholder\", sans-serif;font-style:normal;font-weight:500;letter-spacing:-0.01em"
+      },
+      "declarations": {
+        "font-size": "14px",
+        "line-height": "1.4em",
+        "white-space": "nowrap",
+        "color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10))",
+        "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+        "font-style": "normal",
+        "font-weight": "500",
+        "letter-spacing": "-0.01em"
+      }
+    }
+  ]
+}

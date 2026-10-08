@@ -1,0 +1,2914 @@
+{
+  "name": "the practice",
+  "source": "https://thepractice.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#f4e6e0",
+    "paper": "#fbf6ee",
+    "ink": "#141711",
+    "accent": "#e2e6a6",
+    "muted": "#788c58"
+  },
+  "type": {
+    "body": "Switzer",
+    "display": "Instrument Serif",
+    "roles": [
+      {
+        "role": "Navigation logo sans fragment",
+        "family": "Switzer",
+        "weight": 500.0,
+        "sizePx": 24.0,
+        "linePx": 24.0,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Navigation logo italic fragment",
+        "family": "Instrument Serif",
+        "weight": 400.0,
+        "sizePx": 29.0,
+        "linePx": 29.0,
+        "tracking": "-.01em"
+      },
+      {
+        "role": "Desktop navigation",
+        "family": "Switzer",
+        "weight": 500.0,
+        "sizePx": 14.0,
+        "linePx": 14.0,
+        "tracking": "0em"
+      },
+      {
+        "role": "Phone menu link",
+        "family": "Switzer",
+        "weight": 400.0,
+        "sizePx": 24.0,
+        "linePx": 24.0,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Hero eyebrow",
+        "family": "Switzer",
+        "weight": 500.0,
+        "sizePx": 13.0,
+        "linePx": 13.0,
+        "tracking": "0em"
+      },
+      {
+        "role": "Hero sans line / desktop base",
+        "family": "Switzer",
+        "weight": 400.0,
+        "sizePx": 76.0,
+        "linePx": 74.48,
+        "tracking": "-.045em"
+      },
+      {
+        "role": "Hero italic accent / desktop base",
+        "family": "Instrument Serif",
+        "weight": 400.0,
+        "sizePx": 92.0,
+        "linePx": 90.16,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Hero body",
+        "family": "Switzer",
+        "weight": 400.0,
+        "sizePx": 18.0,
+        "linePx": 27.0,
+        "tracking": "-.01em"
+      },
+      {
+        "role": "Primary CTA",
+        "family": "Switzer",
+        "weight": 500.0,
+        "sizePx": 15.0,
+        "linePx": 15.0,
+        "tracking": "0em"
+      },
+      {
+        "role": "Hero metadata",
+        "family": "Switzer",
+        "weight": 500.0,
+        "sizePx": 12.0,
+        "linePx": 12.0,
+        "tracking": ".08em"
+      },
+      {
+        "role": "Practice statement sans / desktop base",
+        "family": "Switzer",
+        "weight": 400.0,
+        "sizePx": 46.4,
+        "linePx": 51.968,
+        "tracking": "-.035em"
+      },
+      {
+        "role": "Practice statement italic / desktop base",
+        "family": "Instrument Serif",
+        "weight": 400.0,
+        "sizePx": 54.4,
+        "linePx": 60.928,
+        "tracking": "-.01em"
+      },
+      {
+        "role": "Approach numbered marker",
+        "family": "Instrument Serif",
+        "weight": 400.0,
+        "sizePx": 30.0,
+        "linePx": 30.0,
+        "tracking": "0em"
+      },
+      {
+        "role": "Approach card title",
+        "family": "Switzer",
+        "weight": 500.0,
+        "sizePx": 19.0,
+        "linePx": 25.65,
+        "tracking": "-.015em"
+      },
+      {
+        "role": "Approach body",
+        "family": "Switzer",
+        "weight": 400.0,
+        "sizePx": 15.0,
+        "linePx": 23.25,
+        "tracking": "0em"
+      },
+      {
+        "role": "Section heading sans / desktop base",
+        "family": "Switzer",
+        "weight": 400.0,
+        "sizePx": 56.0,
+        "linePx": 56.0,
+        "tracking": "-.045em"
+      },
+      {
+        "role": "Section heading italic / desktop base",
+        "family": "Instrument Serif",
+        "weight": 400.0,
+        "sizePx": 67.2,
+        "linePx": 67.2,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Section description",
+        "family": "Switzer",
+        "weight": 400.0,
+        "sizePx": 17.0,
+        "linePx": 26.35,
+        "tracking": "-.01em"
+      },
+      {
+        "role": "Metric number",
+        "family": "Switzer",
+        "weight": 400.0,
+        "sizePx": 64.0,
+        "linePx": 64.0,
+        "tracking": "-.055em"
+      },
+      {
+        "role": "Metric suffix italic",
+        "family": "Instrument Serif",
+        "weight": 400.0,
+        "sizePx": 70.4,
+        "linePx": 70.4,
+        "tracking": "0em"
+      },
+      {
+        "role": "Service card title",
+        "family": "Switzer",
+        "weight": 500.0,
+        "sizePx": 26.0,
+        "linePx": 29.9,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Service card body",
+        "family": "Switzer",
+        "weight": 400.0,
+        "sizePx": 15.5,
+        "linePx": 24.025,
+        "tracking": "0em"
+      },
+      {
+        "role": "Process number",
+        "family": "Instrument Serif",
+        "weight": 400.0,
+        "sizePx": 48.0,
+        "linePx": 48.0,
+        "tracking": "0em"
+      },
+      {
+        "role": "Process title",
+        "family": "Switzer",
+        "weight": 500.0,
+        "sizePx": 22.0,
+        "linePx": 26.4,
+        "tracking": "-.025em"
+      },
+      {
+        "role": "Form submit label",
+        "family": "Switzer",
+        "weight": 500.0,
+        "sizePx": 16.0,
+        "linePx": 16.0,
+        "tracking": "0em"
+      },
+      {
+        "role": "Form privacy note",
+        "family": "Switzer",
+        "weight": 400.0,
+        "sizePx": 13.0,
+        "linePx": 19.5,
+        "tracking": "0em"
+      },
+      {
+        "role": "Journal title",
+        "family": "Switzer",
+        "weight": 500.0,
+        "sizePx": 21.0,
+        "linePx": 26.25,
+        "tracking": "-.025em"
+      },
+      {
+        "role": "Closing CTA sans / desktop base",
+        "family": "Switzer",
+        "weight": 400.0,
+        "sizePx": 73.6,
+        "linePx": 72.128,
+        "tracking": "-.045em"
+      },
+      {
+        "role": "Closing CTA italic / desktop base",
+        "family": "Instrument Serif",
+        "weight": 400.0,
+        "sizePx": 88.0,
+        "linePx": 86.24,
+        "tracking": "-.02em"
+      }
+    ],
+    "rolesEvidence": "Home and individual-therapy public HTML/CSS declarations; non-media base presets explicitly resolved before inline styles, with media alternatives saved separately. Numeric rows preserve role-specific Switzer sans and Instrument Serif italic fragments, not a single global display face. Fit-text SVG wordmarks have declarative viewBox and nested span evidence but no asserted rendered pixel size. Switzer files are source font-face declarations; Inter exists in source utility/badge roles.",
+    "sourceRoleDetails": [
+      {
+        "role": "Navigation logo sans fragment",
+        "tag": "p",
+        "sample": "the",
+        "path": [
+          "Sticky Nav",
+          "Desktop",
+          "Logo, Menu",
+          "Logo",
+          "Line 1",
+          "the"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "24px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": []
+      },
+      {
+        "role": "Navigation logo italic fragment",
+        "tag": "p",
+        "sample": "practice.",
+        "path": [
+          "Sticky Nav",
+          "Desktop",
+          "Logo, Menu",
+          "Logo",
+          "Line 1",
+          "practice."
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+          "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "29px",
+          "--framer-font-style": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.01em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": []
+      },
+      {
+        "role": "Desktop navigation",
+        "tag": "p",
+        "sample": "Explore",
+        "path": [
+          "Sticky Nav",
+          "Desktop",
+          "Links",
+          "Explore"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": []
+      },
+      {
+        "role": "Phone menu link",
+        "tag": "p",
+        "sample": "Our approach",
+        "path": [
+          "Sticky Nav",
+          "Phone",
+          "Links",
+          "Link"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "24px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": []
+      },
+      {
+        "role": "Hero eyebrow",
+        "tag": "p",
+        "sample": "Now welcoming new clients \u00b7 In person & onlin",
+        "path": [
+          "Hero",
+          "Introduction",
+          "Column",
+          "Eyebrow"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "13px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": [
+          {
+            "selector": ".framer-Lt4AI .framer-styles-preset-1myxs9u:not(.rich-text-wrapper),.framer-Lt4AI .framer-styles-preset-1myxs9u.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "13px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "500",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "500",
+              "--framer-letter-spacing": "0em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-Lt4AI .framer-styles-preset-1myxs9u:not(.rich-text-wrapper),.framer-Lt4AI .framer-styles-preset-1myxs9u.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "12px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "500",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "500",
+              "--framer-letter-spacing": "0em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          }
+        ]
+      },
+      {
+        "role": "Hero sans line / desktop base",
+        "tag": "h1",
+        "sample": "A softer place",
+        "path": [
+          "Hero",
+          "Introduction",
+          "Column",
+          "Headline",
+          "Line 1"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "76px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.045em",
+          "--framer-line-height": ".98em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          }
+        ],
+        "mediaAlternatives": [
+          {
+            "selector": ".framer-aXksZ .framer-styles-preset-1ocqvr8:not(.rich-text-wrapper),.framer-aXksZ .framer-styles-preset-1ocqvr8.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "66.5px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.045em",
+              "--framer-line-height": ".98em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-aXksZ .framer-styles-preset-1ocqvr8:not(.rich-text-wrapper),.framer-aXksZ .framer-styles-preset-1ocqvr8.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "42.75px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.045em",
+              "--framer-line-height": ".98em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          }
+        ]
+      },
+      {
+        "role": "Hero italic accent / desktop base",
+        "tag": "p",
+        "sample": "begin",
+        "path": [
+          "Hero",
+          "Introduction",
+          "Column",
+          "Headline",
+          "Line 2",
+          "begin"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+          "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "92px",
+          "--framer-font-style": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": ".98em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          }
+        ],
+        "mediaAlternatives": [
+          {
+            "selector": ".framer-D0SK2 .framer-styles-preset-n2o4lb:not(.rich-text-wrapper),.framer-D0SK2 .framer-styles-preset-n2o4lb.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "80.5px",
+              "--framer-font-style": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.02em",
+              "--framer-line-height": ".98em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-D0SK2 .framer-styles-preset-n2o4lb:not(.rich-text-wrapper),.framer-D0SK2 .framer-styles-preset-n2o4lb.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "51.75px",
+              "--framer-font-style": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.02em",
+              "--framer-line-height": ".98em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          }
+        ]
+      },
+      {
+        "role": "Hero body",
+        "tag": "p",
+        "sample": "Warm, evidence-based therapy for individuals,",
+        "path": [
+          "Hero",
+          "Introduction",
+          "Column",
+          "Lede"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "18px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.01em",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-1e86af0d-251a-4886-af91-879774d9b024)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": [
+          {
+            "selector": ".framer-Yh05J .framer-styles-preset-gl7xxr:not(.rich-text-wrapper),.framer-Yh05J .framer-styles-preset-gl7xxr.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "17px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.01em",
+              "--framer-line-height": "1.5em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-Yh05J .framer-styles-preset-gl7xxr:not(.rich-text-wrapper),.framer-Yh05J .framer-styles-preset-gl7xxr.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "16px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.01em",
+              "--framer-line-height": "1.5em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          }
+        ]
+      },
+      {
+        "role": "Primary CTA",
+        "tag": "p",
+        "sample": "Book a free consultation",
+        "path": [
+          "Hero",
+          "Introduction",
+          "Column",
+          "Actions",
+          "Primary Button"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "15px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fac68cf1-4124-4307-ab3f-56151481b43b)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": [
+          {
+            "selector": ".framer-mzMd1 .framer-styles-preset-hwz78h:not(.rich-text-wrapper),.framer-mzMd1 .framer-styles-preset-hwz78h.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "15px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "500",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "500",
+              "--framer-letter-spacing": "0em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-mzMd1 .framer-styles-preset-hwz78h:not(.rich-text-wrapper),.framer-mzMd1 .framer-styles-preset-hwz78h.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "15px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "500",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "500",
+              "--framer-letter-spacing": "0em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-mzMd1 .framer-styles-preset-hwz78h:not(.rich-text-wrapper),.framer-mzMd1 .framer-styles-preset-hwz78h.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "15px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "500",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "500",
+              "--framer-letter-spacing": "0em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-mzMd1 .framer-styles-preset-hwz78h:not(.rich-text-wrapper),.framer-mzMd1 .framer-styles-preset-hwz78h.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "15px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "500",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "500",
+              "--framer-letter-spacing": "0em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          }
+        ]
+      },
+      {
+        "role": "Hero metadata",
+        "tag": "p",
+        "sample": "For individuals \u2014 couples \u2014 families \u2014 everyo",
+        "path": [
+          "Hero",
+          "Wordmark Area",
+          "Meta"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "12px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": ".08em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fac68cf1-4124-4307-ab3f-56151481b43b)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": [
+          {
+            "selector": ".framer-XwPP5 .framer-styles-preset-15962k0:not(.rich-text-wrapper),.framer-XwPP5 .framer-styles-preset-15962k0.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "11px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "500",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "500",
+              "--framer-letter-spacing": ".08em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "uppercase"
+            }
+          },
+          {
+            "selector": ".framer-XwPP5 .framer-styles-preset-15962k0:not(.rich-text-wrapper),.framer-XwPP5 .framer-styles-preset-15962k0.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "10px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "500",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "500",
+              "--framer-letter-spacing": ".06em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "uppercase"
+            }
+          }
+        ]
+      },
+      {
+        "role": "Practice statement sans / desktop base",
+        "tag": "h2",
+        "sample": "We\u2019re",
+        "path": [
+          "About",
+          "Heading",
+          "Statement",
+          "Line 1",
+          "We\u2019re"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "46.4px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.035em",
+          "--framer-line-height": "1.12em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": [
+          {
+            "selector": ".framer-kAsxC .framer-styles-preset-tr35kc:not(.rich-text-wrapper),.framer-kAsxC .framer-styles-preset-tr35kc.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "40.6px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.035em",
+              "--framer-line-height": "1.12em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-kAsxC .framer-styles-preset-tr35kc:not(.rich-text-wrapper),.framer-kAsxC .framer-styles-preset-tr35kc.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "26.1px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.035em",
+              "--framer-line-height": "1.12em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          }
+        ]
+      },
+      {
+        "role": "Practice statement italic / desktop base",
+        "tag": "p",
+        "sample": "relationship",
+        "path": [
+          "About",
+          "Heading",
+          "Statement",
+          "Line 1",
+          "relationship"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+          "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "54.4px",
+          "--framer-font-style": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.01em",
+          "--framer-line-height": "1.12em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": [
+          {
+            "selector": ".framer-m8UYS .framer-styles-preset-1rnf1aa:not(.rich-text-wrapper),.framer-m8UYS .framer-styles-preset-1rnf1aa.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "47.6px",
+              "--framer-font-style": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.01em",
+              "--framer-line-height": "1.12em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-m8UYS .framer-styles-preset-1rnf1aa:not(.rich-text-wrapper),.framer-m8UYS .framer-styles-preset-1rnf1aa.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "30.6px",
+              "--framer-font-style": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.01em",
+              "--framer-line-height": "1.12em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          }
+        ]
+      },
+      {
+        "role": "Approach numbered marker",
+        "tag": "p",
+        "sample": "01",
+        "path": [
+          "About",
+          "Content",
+          "Cards",
+          "Approach Card",
+          "Pillar",
+          "Number"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+          "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "30px",
+          "--framer-font-style": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": []
+      },
+      {
+        "role": "Approach card title",
+        "tag": "p",
+        "sample": "Evidence-based, never clinical",
+        "path": [
+          "About",
+          "Content",
+          "Cards",
+          "Approach Card",
+          "Pillar",
+          "Text",
+          "Title"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "19px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "-.015em",
+          "--framer-line-height": "1.35em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": [
+          {
+            "selector": ".framer-KNnU1 .framer-styles-preset-fyw3g0:not(.rich-text-wrapper),.framer-KNnU1 .framer-styles-preset-fyw3g0.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "19px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "500",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "500",
+              "--framer-letter-spacing": "-.015em",
+              "--framer-line-height": "1.35em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-KNnU1 .framer-styles-preset-fyw3g0:not(.rich-text-wrapper),.framer-KNnU1 .framer-styles-preset-fyw3g0.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "18px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "500",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "500",
+              "--framer-letter-spacing": "-.015em",
+              "--framer-line-height": "1.35em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          }
+        ]
+      },
+      {
+        "role": "Approach body",
+        "tag": "p",
+        "sample": "We draw on proven approaches like CBT, EFT an",
+        "path": [
+          "About",
+          "Content",
+          "Cards",
+          "Approach Card",
+          "Pillar",
+          "Text",
+          "Body"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "15px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.55em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-1e86af0d-251a-4886-af91-879774d9b024)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": [
+          {
+            "selector": ".framer-a3xbx .framer-styles-preset-1oczrur:not(.rich-text-wrapper),.framer-a3xbx .framer-styles-preset-1oczrur.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "15px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "0em",
+              "--framer-line-height": "1.55em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-1e86af0d-251a-4886-af91-879774d9b024)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-a3xbx .framer-styles-preset-1oczrur:not(.rich-text-wrapper),.framer-a3xbx .framer-styles-preset-1oczrur.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "15px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "0em",
+              "--framer-line-height": "1.55em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-1e86af0d-251a-4886-af91-879774d9b024)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-a3xbx .framer-styles-preset-1oczrur:not(.rich-text-wrapper),.framer-a3xbx .framer-styles-preset-1oczrur.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "15px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "0em",
+              "--framer-line-height": "1.55em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-1e86af0d-251a-4886-af91-879774d9b024)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-a3xbx .framer-styles-preset-1oczrur:not(.rich-text-wrapper),.framer-a3xbx .framer-styles-preset-1oczrur.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "15px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "0em",
+              "--framer-line-height": "1.55em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-1e86af0d-251a-4886-af91-879774d9b024)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          }
+        ]
+      },
+      {
+        "role": "Section heading sans / desktop base",
+        "tag": "h2",
+        "sample": "Small practice,",
+        "path": [
+          "Numbers",
+          "Content",
+          "Heading",
+          "Heading",
+          "Line 1"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "56px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.045em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          }
+        ],
+        "mediaAlternatives": [
+          {
+            "selector": ".framer-JIEFp .framer-styles-preset-15vauj9:not(.rich-text-wrapper),.framer-JIEFp .framer-styles-preset-15vauj9.rich-text-wrapper h2",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "49px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.045em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "40px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-JIEFp .framer-styles-preset-15vauj9:not(.rich-text-wrapper),.framer-JIEFp .framer-styles-preset-15vauj9.rich-text-wrapper h2",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "42px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.045em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "40px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-JIEFp .framer-styles-preset-15vauj9:not(.rich-text-wrapper),.framer-JIEFp .framer-styles-preset-15vauj9.rich-text-wrapper h2",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "49px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.045em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "40px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-JIEFp .framer-styles-preset-15vauj9:not(.rich-text-wrapper),.framer-JIEFp .framer-styles-preset-15vauj9.rich-text-wrapper h2",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "42px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.045em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "40px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          }
+        ]
+      },
+      {
+        "role": "Section heading italic / desktop base",
+        "tag": "h2",
+        "sample": "lasting change.",
+        "path": [
+          "Numbers",
+          "Content",
+          "Heading",
+          "Heading",
+          "Line 2"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+          "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "67.2px",
+          "--framer-font-style": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          }
+        ],
+        "mediaAlternatives": [
+          {
+            "selector": ".framer-bK66I .framer-styles-preset-1k99zbn:not(.rich-text-wrapper),.framer-bK66I .framer-styles-preset-1k99zbn.rich-text-wrapper h2",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "58.8px",
+              "--framer-font-style": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.02em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "40px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-bK66I .framer-styles-preset-1k99zbn:not(.rich-text-wrapper),.framer-bK66I .framer-styles-preset-1k99zbn.rich-text-wrapper h2",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "50px",
+              "--framer-font-style": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.02em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "40px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-bK66I .framer-styles-preset-1k99zbn:not(.rich-text-wrapper),.framer-bK66I .framer-styles-preset-1k99zbn.rich-text-wrapper h2",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "58.8px",
+              "--framer-font-style": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.02em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "40px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-bK66I .framer-styles-preset-1k99zbn:not(.rich-text-wrapper),.framer-bK66I .framer-styles-preset-1k99zbn.rich-text-wrapper h2",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "50px",
+              "--framer-font-style": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.02em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "40px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          }
+        ]
+      },
+      {
+        "role": "Section description",
+        "tag": "p",
+        "sample": "Every number here is a person who chose to re",
+        "path": [
+          "Numbers",
+          "Content",
+          "Heading",
+          "Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "17px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.01em",
+          "--framer-line-height": "1.55em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-1e86af0d-251a-4886-af91-879774d9b024)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": [
+          {
+            "selector": ".framer-5mCcU .framer-styles-preset-hjt5ys:not(.rich-text-wrapper),.framer-5mCcU .framer-styles-preset-hjt5ys.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "17px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.01em",
+              "--framer-line-height": "1.55em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-5mCcU .framer-styles-preset-hjt5ys:not(.rich-text-wrapper),.framer-5mCcU .framer-styles-preset-hjt5ys.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "16px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.01em",
+              "--framer-line-height": "1.55em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          }
+        ]
+      },
+      {
+        "role": "Metric number",
+        "tag": "p",
+        "sample": "15",
+        "path": [
+          "Numbers",
+          "Content",
+          "Stats",
+          "Stat",
+          "Number",
+          "Line 1",
+          "15"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "64px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.055em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": [
+          {
+            "selector": ".framer-3eLZP .framer-styles-preset-13991h4:not(.rich-text-wrapper),.framer-3eLZP .framer-styles-preset-13991h4.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "56px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.055em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-3eLZP .framer-styles-preset-13991h4:not(.rich-text-wrapper),.framer-3eLZP .framer-styles-preset-13991h4.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "36px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.055em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          }
+        ]
+      },
+      {
+        "role": "Metric suffix italic",
+        "tag": "p",
+        "sample": "+",
+        "path": [
+          "Numbers",
+          "Content",
+          "Stats",
+          "Stat",
+          "Number",
+          "Line 1",
+          "+"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+          "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "70.4px",
+          "--framer-font-style": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-5ebdae1e-cbcd-43fa-ba8b-edfb424bb2dd)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": [
+          {
+            "selector": ".framer-LwX6s .framer-styles-preset-hz30pn:not(.rich-text-wrapper),.framer-LwX6s .framer-styles-preset-hz30pn.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "61.6px",
+              "--framer-font-style": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "0em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-LwX6s .framer-styles-preset-hz30pn:not(.rich-text-wrapper),.framer-LwX6s .framer-styles-preset-hz30pn.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "39.6px",
+              "--framer-font-style": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "0em",
+              "--framer-line-height": "1em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          }
+        ]
+      },
+      {
+        "role": "Service card title",
+        "tag": "p",
+        "sample": "Individual therapy",
+        "path": [
+          "Services",
+          "Cards",
+          "Default",
+          "Body",
+          "Title Row",
+          "Title"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "26px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "1.15em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": []
+      },
+      {
+        "role": "Service card body",
+        "tag": "p",
+        "sample": "A steady, private space to work through anxie",
+        "path": [
+          "Services",
+          "Cards",
+          "Default",
+          "Body",
+          "Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "15.5px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.55em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-1e86af0d-251a-4886-af91-879774d9b024))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": []
+      },
+      {
+        "role": "Process number",
+        "tag": "p",
+        "sample": "01",
+        "path": [
+          "How It Works",
+          "Panel",
+          "Container",
+          "Steps",
+          "Step 01",
+          "Top",
+          "Number"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+          "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "48px",
+          "--framer-font-style": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-b86447a0-77cc-4cd5-9096-a7f04a276b0c)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": []
+      },
+      {
+        "role": "Process title",
+        "tag": "h3",
+        "sample": "Reach out",
+        "path": [
+          "How It Works",
+          "Panel",
+          "Container",
+          "Steps",
+          "Step 01",
+          "Text",
+          "Title"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "22px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "-.025em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fac68cf1-4124-4307-ab3f-56151481b43b)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": []
+      },
+      {
+        "role": "Form submit label",
+        "tag": "p",
+        "sample": "Request my free consultation",
+        "path": [
+          "Consultation",
+          "Booking Section",
+          "Desktop",
+          "Consultation",
+          "Highlight Panel",
+          "Container",
+          "Form Card",
+          "Consultation Form",
+          "Submit Button",
+          "Incomplete",
+          "Label"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-fac68cf1-4124-4307-ab3f-56151481b43b))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": []
+      },
+      {
+        "role": "Form privacy note",
+        "tag": "p",
+        "sample": "We\u2019ll only use your details to respond to you",
+        "path": [
+          "Consultation",
+          "Booking Section",
+          "Desktop",
+          "Consultation",
+          "Highlight Panel",
+          "Container",
+          "Form Card",
+          "Consultation Form",
+          "Privacy Note"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "13px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-3753aebc-0356-41a2-9540-29294fb6f157))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": []
+      },
+      {
+        "role": "Journal title",
+        "tag": "p",
+        "sample": "How to know when it\u2019s time to start therapy",
+        "path": [
+          "Journal",
+          "Articles",
+          "Article Card",
+          "Body",
+          "Title"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "21px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "-.025em",
+          "--framer-line-height": "1.25em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "mediaAlternatives": [
+          {
+            "selector": ".framer-UizPo .framer-styles-preset-xzvbzf:not(.rich-text-wrapper),.framer-UizPo .framer-styles-preset-xzvbzf.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "18px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "500",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "500",
+              "--framer-letter-spacing": "-.025em",
+              "--framer-line-height": "1.25em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-UizPo .framer-styles-preset-xzvbzf:not(.rich-text-wrapper),.framer-UizPo .framer-styles-preset-xzvbzf.rich-text-wrapper p",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "21px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "500",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "500",
+              "--framer-letter-spacing": "-.025em",
+              "--framer-line-height": "1.25em",
+              "--framer-paragraph-spacing": "20px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          }
+        ]
+      },
+      {
+        "role": "Closing CTA sans / desktop base",
+        "tag": "h2",
+        "sample": "Ready when",
+        "path": [
+          "CTA",
+          "Panel",
+          "Content",
+          "Heading",
+          "Line 1"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "73.6px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.045em",
+          "--framer-line-height": ".98em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          }
+        ],
+        "mediaAlternatives": [
+          {
+            "selector": ".framer-83A2Y .framer-styles-preset-129192i:not(.rich-text-wrapper),.framer-83A2Y .framer-styles-preset-129192i.rich-text-wrapper h2",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "64.4px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.045em",
+              "--framer-line-height": ".98em",
+              "--framer-paragraph-spacing": "40px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-83A2Y .framer-styles-preset-129192i:not(.rich-text-wrapper),.framer-83A2Y .framer-styles-preset-129192i.rich-text-wrapper h2",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-bold-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-family-italic": "\"Switzer\", \"Switzer Placeholder\", sans-serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "41.4px",
+              "--framer-font-style": "normal",
+              "--framer-font-style-bold": "normal",
+              "--framer-font-style-bold-italic": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-bold": "700",
+              "--framer-font-weight-bold-italic": "700",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.045em",
+              "--framer-line-height": ".98em",
+              "--framer-paragraph-spacing": "40px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          }
+        ]
+      },
+      {
+        "role": "Closing CTA italic / desktop base",
+        "tag": "h2",
+        "sample": "you are.",
+        "path": [
+          "CTA",
+          "Panel",
+          "Content",
+          "Heading",
+          "Line 2"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+          "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "88px",
+          "--framer-font-style": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": ".98em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(24px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          }
+        ],
+        "mediaAlternatives": [
+          {
+            "selector": ".framer-0fiKs .framer-styles-preset-u3paik:not(.rich-text-wrapper),.framer-0fiKs .framer-styles-preset-u3paik.rich-text-wrapper h2",
+            "mediaContext": [
+              "@media (max-width:1199px) and (min-width:810px)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "77px",
+              "--framer-font-style": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.02em",
+              "--framer-line-height": ".98em",
+              "--framer-paragraph-spacing": "40px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          },
+          {
+            "selector": ".framer-0fiKs .framer-styles-preset-u3paik:not(.rich-text-wrapper),.framer-0fiKs .framer-styles-preset-u3paik.rich-text-wrapper h2",
+            "mediaContext": [
+              "@media (max-width:809px) and (min-width:0)"
+            ],
+            "declarations": {
+              "--framer-font-family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-family-italic": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+              "--framer-font-open-type-features": "normal",
+              "--framer-font-size": "49.5px",
+              "--framer-font-style": "italic",
+              "--framer-font-style-italic": "italic",
+              "--framer-font-variation-axes": "normal",
+              "--framer-font-weight": "400",
+              "--framer-font-weight-italic": "400",
+              "--framer-letter-spacing": "-.02em",
+              "--framer-line-height": ".98em",
+              "--framer-paragraph-spacing": "40px",
+              "--framer-text-alignment": "start",
+              "--framer-text-color": "var(--token-fa4febd1-0735-47df-b498-5fd10a0a17e1)",
+              "--framer-text-decoration": "none",
+              "--framer-text-stroke-color": "initial",
+              "--framer-text-stroke-width": "initial",
+              "--framer-text-transform": "none"
+            }
+          }
+        ]
+      }
+    ],
+    "variationAxes": {
+      "Navigation logo sans fragment": "normal",
+      "Navigation logo italic fragment": "normal",
+      "Desktop navigation": "normal",
+      "Phone menu link": "normal",
+      "Hero eyebrow": "normal",
+      "Hero sans line / desktop base": "normal",
+      "Hero italic accent / desktop base": "normal",
+      "Hero body": "normal",
+      "Primary CTA": "normal",
+      "Hero metadata": "normal",
+      "Practice statement sans / desktop base": "normal",
+      "Practice statement italic / desktop base": "normal",
+      "Approach numbered marker": "normal",
+      "Approach card title": "normal",
+      "Approach body": "normal",
+      "Section heading sans / desktop base": "normal",
+      "Section heading italic / desktop base": "normal",
+      "Section description": "normal",
+      "Metric number": "normal",
+      "Metric suffix italic": "normal",
+      "Service card title": "normal",
+      "Service card body": "normal",
+      "Process number": "normal",
+      "Process title": "normal",
+      "Form submit label": "normal",
+      "Form privacy note": "normal",
+      "Journal title": "normal",
+      "Closing CTA sans / desktop base": "normal",
+      "Closing CTA italic / desktop base": "normal"
+    },
+    "systemFontFamilies": []
+  },
+  "spacing": {
+    "desktopGutterPx": 24,
+    "componentGapPx": 24,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 28,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:809.98px)",
+      "@media (min-width: 810px) and (max-width: 1199.98px) ",
+      "@media (max-width: 809.98px) "
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      809.0,
+      809.98,
+      810.0,
+      1199.0,
+      1199.98,
+      1200.0
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Healthcare",
+    "branch": "Therapy practice",
+    "fitEvidence": "Official Marketplace Therapy classification and explicit therapy practice/counselor/psychologist positioning; homepage and service routes distinguish individual, couples, teens/families and online therapy."
+  },
+  "sectionAnchors": [
+    "#hero",
+    "#about",
+    "#numbers",
+    "#services",
+    "#how-it-works",
+    "#book",
+    "#faq",
+    "#journal"
+  ],
+  "sourceColorContext": "CSS tokens establish #f4e6e0 peach canvas, #fbf6ee cream paper, #141711 dark ink, #e2e6a6 pale lime, #a9bedb blue and #788c58 muted green. Text opacity tokens are stored separately in custom-declarations.json.",
+  "siteBlueprint": {
+    "file": "SITE-BLUEPRINT.md",
+    "backendVerified": false
+  }
+}

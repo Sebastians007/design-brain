@@ -1,0 +1,3408 @@
+{
+  "source": "https://interactive-channel-508354.framer.app/",
+  "coverage": "public preview HTML/CSS; no rendered geometry",
+  "namedComponentOrder": [
+    "① HEADER — links, Donate button, phone menu, site-wide fonts",
+    "WsHeader",
+    "③ LOADER — first light, once per visit",
+    "WsLoader",
+    "④ PAGE TRANSITION — dusk",
+    "WsPageTrans",
+    "Smooth scroll (keep)",
+    "WsSmooth",
+    "CMS Bridge · posts (keep)",
+    "posts-item",
+    "posts-row",
+    "CMS Bridge · faq (keep)",
+    "faq-item",
+    "faq-row",
+    "CMS Bridge · partners (keep)",
+    "partners-item",
+    "partners-row",
+    "CMS Bridge · team (keep)",
+    "team-item",
+    "team-row",
+    "CMS Bridge · events (keep)",
+    "events-item",
+    "events-row",
+    "CMS Bridge · stories (keep)",
+    "stories-item",
+    "stories-row",
+    "CMS Bridge · campaigns (keep)",
+    "campaigns-item",
+    "campaigns-row",
+    "CMS Bridge · programs (keep)",
+    "programs-item",
+    "programs-row",
+    "CMS Bridge · site (keep)",
+    "site-item",
+    "site-row",
+    "CMS Bridge · marker (keep)",
+    "Hero",
+    "WsHero",
+    "WsIntro",
+    "WsPrograms",
+    "WsMoney",
+    "WsCampaigns",
+    "WsStory",
+    "WsImpact",
+    "WsField",
+    "WsMonthly",
+    "WsVoices",
+    "WsJoin",
+    "WsFaq",
+    "WsCta",
+    "② FOOTER — sign-off, link columns, newsletter sign-up",
+    "WsFooter",
+    "Light",
+    "Backdrop",
+    "Content",
+    "Logo",
+    "Text",
+    "Bottom",
+    "Border"
+  ],
+  "typeDeclarations": [],
+  "typePresetRules": [
+    {
+      "selector": ".text-styles-preset-reset.framer-text",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      }
+    },
+    {
+      "selector": "[data-framer-component-type=DeprecatedRichText] .text-styles-preset-reset",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--font-variation-settings": "normal"
+      }
+    }
+  ],
+  "frameDeclarations": [
+    {
+      "name": "① HEADER — links, Donate button, phone menu, site-wide fonts",
+      "path": [
+        "① HEADER — links, Donate button, phone menu, site-wide fonts"
+      ],
+      "classes": "framer-1vzus1n",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-1vzus1n",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsHeader",
+      "path": [
+        "① HEADER — links, Donate button, phone menu, site-wide fonts",
+        "WsHeader"
+      ],
+      "classes": "framer-1597x58-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-1597x58-container,.framer-jrLWU .framer-1mzf0qh-container,.framer-jrLWU .framer-79dvpv-container,.framer-jrLWU .framer-1j9469t-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "0",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "③ LOADER — first light, once per visit",
+      "path": [
+        "③ LOADER — first light, once per visit"
+      ],
+      "classes": "framer-u2c1et",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-u2c1et",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsLoader",
+      "path": [
+        "③ LOADER — first light, once per visit",
+        "WsLoader"
+      ],
+      "classes": "framer-1mzf0qh-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-1597x58-container,.framer-jrLWU .framer-1mzf0qh-container,.framer-jrLWU .framer-79dvpv-container,.framer-jrLWU .framer-1j9469t-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "0",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "④ PAGE TRANSITION — dusk",
+      "path": [
+        "④ PAGE TRANSITION — dusk"
+      ],
+      "classes": "framer-ieblub",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ieblub",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsPageTrans",
+      "path": [
+        "④ PAGE TRANSITION — dusk",
+        "WsPageTrans"
+      ],
+      "classes": "framer-79dvpv-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-1597x58-container,.framer-jrLWU .framer-1mzf0qh-container,.framer-jrLWU .framer-79dvpv-container,.framer-jrLWU .framer-1j9469t-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "0",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Smooth scroll (keep)",
+      "path": [
+        "Smooth scroll (keep)"
+      ],
+      "classes": "framer-1v4yts4",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-1v4yts4",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsSmooth",
+      "path": [
+        "Smooth scroll (keep)",
+        "WsSmooth"
+      ],
+      "classes": "framer-1j9469t-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-1597x58-container,.framer-jrLWU .framer-1mzf0qh-container,.framer-jrLWU .framer-79dvpv-container,.framer-jrLWU .framer-1j9469t-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "0",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · posts (keep)",
+      "path": [
+        "CMS Bridge · posts (keep)"
+      ],
+      "classes": "framer-dh7blk",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-dh7blk",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-item",
+      "path": [
+        "CMS Bridge · posts (keep)",
+        "posts-item"
+      ],
+      "classes": "framer-mpi1ps",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-row",
+      "path": [
+        "CMS Bridge · posts (keep)",
+        "posts-item",
+        "posts-row"
+      ],
+      "classes": "framer-ksedaq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-item",
+      "path": [
+        "CMS Bridge · posts (keep)",
+        "posts-item"
+      ],
+      "classes": "framer-mpi1ps",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-row",
+      "path": [
+        "CMS Bridge · posts (keep)",
+        "posts-item",
+        "posts-row"
+      ],
+      "classes": "framer-ksedaq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-item",
+      "path": [
+        "CMS Bridge · posts (keep)",
+        "posts-item"
+      ],
+      "classes": "framer-mpi1ps",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-row",
+      "path": [
+        "CMS Bridge · posts (keep)",
+        "posts-item",
+        "posts-row"
+      ],
+      "classes": "framer-ksedaq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-item",
+      "path": [
+        "CMS Bridge · posts (keep)",
+        "posts-item"
+      ],
+      "classes": "framer-mpi1ps",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-row",
+      "path": [
+        "CMS Bridge · posts (keep)",
+        "posts-item",
+        "posts-row"
+      ],
+      "classes": "framer-ksedaq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · faq (keep)",
+      "path": [
+        "CMS Bridge · faq (keep)"
+      ],
+      "classes": "framer-8pvjr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-8pvjr7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-ypmdr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1ut0fou-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-ypmdr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1ut0fou-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-ypmdr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1ut0fou-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-ypmdr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1ut0fou-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-ypmdr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1ut0fou-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-ypmdr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1ut0fou-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-ypmdr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1ut0fou-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-ypmdr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1ut0fou-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-ypmdr7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-1ut0fou-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · partners (keep)",
+      "path": [
+        "CMS Bridge · partners (keep)"
+      ],
+      "classes": "framer-1q4aij5",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-1q4aij5",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-item",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item"
+      ],
+      "classes": "framer-rz2mmg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "partners-row",
+      "path": [
+        "CMS Bridge · partners (keep)",
+        "partners-item",
+        "partners-row"
+      ],
+      "classes": "framer-17912mq-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · team (keep)",
+      "path": [
+        "CMS Bridge · team (keep)"
+      ],
+      "classes": "framer-jctro6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-jctro6",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-item",
+      "path": [
+        "CMS Bridge · team (keep)",
+        "team-item"
+      ],
+      "classes": "framer-16r3n5j",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-row",
+      "path": [
+        "CMS Bridge · team (keep)",
+        "team-item",
+        "team-row"
+      ],
+      "classes": "framer-1u7z32x-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-item",
+      "path": [
+        "CMS Bridge · team (keep)",
+        "team-item"
+      ],
+      "classes": "framer-16r3n5j",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-row",
+      "path": [
+        "CMS Bridge · team (keep)",
+        "team-item",
+        "team-row"
+      ],
+      "classes": "framer-1u7z32x-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-item",
+      "path": [
+        "CMS Bridge · team (keep)",
+        "team-item"
+      ],
+      "classes": "framer-16r3n5j",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-row",
+      "path": [
+        "CMS Bridge · team (keep)",
+        "team-item",
+        "team-row"
+      ],
+      "classes": "framer-1u7z32x-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-item",
+      "path": [
+        "CMS Bridge · team (keep)",
+        "team-item"
+      ],
+      "classes": "framer-16r3n5j",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-row",
+      "path": [
+        "CMS Bridge · team (keep)",
+        "team-item",
+        "team-row"
+      ],
+      "classes": "framer-1u7z32x-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-item",
+      "path": [
+        "CMS Bridge · team (keep)",
+        "team-item"
+      ],
+      "classes": "framer-16r3n5j",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-row",
+      "path": [
+        "CMS Bridge · team (keep)",
+        "team-item",
+        "team-row"
+      ],
+      "classes": "framer-1u7z32x-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-item",
+      "path": [
+        "CMS Bridge · team (keep)",
+        "team-item"
+      ],
+      "classes": "framer-16r3n5j",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-row",
+      "path": [
+        "CMS Bridge · team (keep)",
+        "team-item",
+        "team-row"
+      ],
+      "classes": "framer-1u7z32x-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-item",
+      "path": [
+        "CMS Bridge · team (keep)",
+        "team-item"
+      ],
+      "classes": "framer-16r3n5j",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-row",
+      "path": [
+        "CMS Bridge · team (keep)",
+        "team-item",
+        "team-row"
+      ],
+      "classes": "framer-1u7z32x-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-item",
+      "path": [
+        "CMS Bridge · team (keep)",
+        "team-item"
+      ],
+      "classes": "framer-16r3n5j",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "team-row",
+      "path": [
+        "CMS Bridge · team (keep)",
+        "team-item",
+        "team-row"
+      ],
+      "classes": "framer-1u7z32x-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · events (keep)",
+      "path": [
+        "CMS Bridge · events (keep)"
+      ],
+      "classes": "framer-1fq8hql",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-1fq8hql",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "events-item",
+      "path": [
+        "CMS Bridge · events (keep)",
+        "events-item"
+      ],
+      "classes": "framer-kol1t5",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "events-row",
+      "path": [
+        "CMS Bridge · events (keep)",
+        "events-item",
+        "events-row"
+      ],
+      "classes": "framer-11iwie3-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "events-item",
+      "path": [
+        "CMS Bridge · events (keep)",
+        "events-item"
+      ],
+      "classes": "framer-kol1t5",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "events-row",
+      "path": [
+        "CMS Bridge · events (keep)",
+        "events-item",
+        "events-row"
+      ],
+      "classes": "framer-11iwie3-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "events-item",
+      "path": [
+        "CMS Bridge · events (keep)",
+        "events-item"
+      ],
+      "classes": "framer-kol1t5",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "events-row",
+      "path": [
+        "CMS Bridge · events (keep)",
+        "events-item",
+        "events-row"
+      ],
+      "classes": "framer-11iwie3-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "events-item",
+      "path": [
+        "CMS Bridge · events (keep)",
+        "events-item"
+      ],
+      "classes": "framer-kol1t5",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "events-row",
+      "path": [
+        "CMS Bridge · events (keep)",
+        "events-item",
+        "events-row"
+      ],
+      "classes": "framer-11iwie3-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · stories (keep)",
+      "path": [
+        "CMS Bridge · stories (keep)"
+      ],
+      "classes": "framer-9vjloc",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-9vjloc",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-item",
+      "path": [
+        "CMS Bridge · stories (keep)",
+        "stories-item"
+      ],
+      "classes": "framer-1umlves",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-row",
+      "path": [
+        "CMS Bridge · stories (keep)",
+        "stories-item",
+        "stories-row"
+      ],
+      "classes": "framer-y59dtm-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-item",
+      "path": [
+        "CMS Bridge · stories (keep)",
+        "stories-item"
+      ],
+      "classes": "framer-1umlves",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-row",
+      "path": [
+        "CMS Bridge · stories (keep)",
+        "stories-item",
+        "stories-row"
+      ],
+      "classes": "framer-y59dtm-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-item",
+      "path": [
+        "CMS Bridge · stories (keep)",
+        "stories-item"
+      ],
+      "classes": "framer-1umlves",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-row",
+      "path": [
+        "CMS Bridge · stories (keep)",
+        "stories-item",
+        "stories-row"
+      ],
+      "classes": "framer-y59dtm-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-item",
+      "path": [
+        "CMS Bridge · stories (keep)",
+        "stories-item"
+      ],
+      "classes": "framer-1umlves",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-row",
+      "path": [
+        "CMS Bridge · stories (keep)",
+        "stories-item",
+        "stories-row"
+      ],
+      "classes": "framer-y59dtm-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-item",
+      "path": [
+        "CMS Bridge · stories (keep)",
+        "stories-item"
+      ],
+      "classes": "framer-1umlves",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-row",
+      "path": [
+        "CMS Bridge · stories (keep)",
+        "stories-item",
+        "stories-row"
+      ],
+      "classes": "framer-y59dtm-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-item",
+      "path": [
+        "CMS Bridge · stories (keep)",
+        "stories-item"
+      ],
+      "classes": "framer-1umlves",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stories-row",
+      "path": [
+        "CMS Bridge · stories (keep)",
+        "stories-item",
+        "stories-row"
+      ],
+      "classes": "framer-y59dtm-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · campaigns (keep)",
+      "path": [
+        "CMS Bridge · campaigns (keep)"
+      ],
+      "classes": "framer-15ylmvl",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-15ylmvl",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-item",
+      "path": [
+        "CMS Bridge · campaigns (keep)",
+        "campaigns-item"
+      ],
+      "classes": "framer-1ptewn6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-row",
+      "path": [
+        "CMS Bridge · campaigns (keep)",
+        "campaigns-item",
+        "campaigns-row"
+      ],
+      "classes": "framer-18oujam-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-item",
+      "path": [
+        "CMS Bridge · campaigns (keep)",
+        "campaigns-item"
+      ],
+      "classes": "framer-1ptewn6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-row",
+      "path": [
+        "CMS Bridge · campaigns (keep)",
+        "campaigns-item",
+        "campaigns-row"
+      ],
+      "classes": "framer-18oujam-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-item",
+      "path": [
+        "CMS Bridge · campaigns (keep)",
+        "campaigns-item"
+      ],
+      "classes": "framer-1ptewn6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-row",
+      "path": [
+        "CMS Bridge · campaigns (keep)",
+        "campaigns-item",
+        "campaigns-row"
+      ],
+      "classes": "framer-18oujam-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-item",
+      "path": [
+        "CMS Bridge · campaigns (keep)",
+        "campaigns-item"
+      ],
+      "classes": "framer-1ptewn6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-row",
+      "path": [
+        "CMS Bridge · campaigns (keep)",
+        "campaigns-item",
+        "campaigns-row"
+      ],
+      "classes": "framer-18oujam-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-item",
+      "path": [
+        "CMS Bridge · campaigns (keep)",
+        "campaigns-item"
+      ],
+      "classes": "framer-1ptewn6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-row",
+      "path": [
+        "CMS Bridge · campaigns (keep)",
+        "campaigns-item",
+        "campaigns-row"
+      ],
+      "classes": "framer-18oujam-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-item",
+      "path": [
+        "CMS Bridge · campaigns (keep)",
+        "campaigns-item"
+      ],
+      "classes": "framer-1ptewn6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "campaigns-row",
+      "path": [
+        "CMS Bridge · campaigns (keep)",
+        "campaigns-item",
+        "campaigns-row"
+      ],
+      "classes": "framer-18oujam-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · programs (keep)",
+      "path": [
+        "CMS Bridge · programs (keep)"
+      ],
+      "classes": "framer-wuk5aw",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-wuk5aw",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-item",
+      "path": [
+        "CMS Bridge · programs (keep)",
+        "programs-item"
+      ],
+      "classes": "framer-xej3m1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-row",
+      "path": [
+        "CMS Bridge · programs (keep)",
+        "programs-item",
+        "programs-row"
+      ],
+      "classes": "framer-1bkity4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-item",
+      "path": [
+        "CMS Bridge · programs (keep)",
+        "programs-item"
+      ],
+      "classes": "framer-xej3m1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-row",
+      "path": [
+        "CMS Bridge · programs (keep)",
+        "programs-item",
+        "programs-row"
+      ],
+      "classes": "framer-1bkity4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-item",
+      "path": [
+        "CMS Bridge · programs (keep)",
+        "programs-item"
+      ],
+      "classes": "framer-xej3m1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-row",
+      "path": [
+        "CMS Bridge · programs (keep)",
+        "programs-item",
+        "programs-row"
+      ],
+      "classes": "framer-1bkity4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-item",
+      "path": [
+        "CMS Bridge · programs (keep)",
+        "programs-item"
+      ],
+      "classes": "framer-xej3m1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-row",
+      "path": [
+        "CMS Bridge · programs (keep)",
+        "programs-item",
+        "programs-row"
+      ],
+      "classes": "framer-1bkity4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-item",
+      "path": [
+        "CMS Bridge · programs (keep)",
+        "programs-item"
+      ],
+      "classes": "framer-xej3m1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-row",
+      "path": [
+        "CMS Bridge · programs (keep)",
+        "programs-item",
+        "programs-row"
+      ],
+      "classes": "framer-1bkity4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-item",
+      "path": [
+        "CMS Bridge · programs (keep)",
+        "programs-item"
+      ],
+      "classes": "framer-xej3m1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "programs-row",
+      "path": [
+        "CMS Bridge · programs (keep)",
+        "programs-item",
+        "programs-row"
+      ],
+      "classes": "framer-1bkity4-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · site (keep)",
+      "path": [
+        "CMS Bridge · site (keep)"
+      ],
+      "classes": "framer-qpi3x1",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-qpi3x1",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "site-item",
+      "path": [
+        "CMS Bridge · site (keep)",
+        "site-item"
+      ],
+      "classes": "framer-mzgl9u",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-mpi1ps,.framer-jrLWU .framer-ypmdr7,.framer-jrLWU .framer-rz2mmg,.framer-jrLWU .framer-16r3n5j,.framer-jrLWU .framer-kol1t5,.framer-jrLWU .framer-1umlves,.framer-jrLWU .framer-1ptewn6,.framer-jrLWU .framer-xej3m1,.framer-jrLWU .framer-mzgl9u",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "site-row",
+      "path": [
+        "CMS Bridge · site (keep)",
+        "site-item",
+        "site-row"
+      ],
+      "classes": "framer-1b9f5qx-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-ksedaq-container,.framer-jrLWU .framer-1ut0fou-container,.framer-jrLWU .framer-17912mq-container,.framer-jrLWU .framer-1u7z32x-container,.framer-jrLWU .framer-11iwie3-container,.framer-jrLWU .framer-y59dtm-container,.framer-jrLWU .framer-18oujam-container,.framer-jrLWU .framer-1bkity4-container,.framer-jrLWU .framer-1b9f5qx-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · marker (keep)",
+      "path": [
+        "CMS Bridge · marker (keep)"
+      ],
+      "classes": "framer-1hx86nf-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-1hx86nf-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "path": [
+        "Hero"
+      ],
+      "classes": "framer-irwcar",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KdXSe .framer-irwcar,.framer-KdXSe .framer-1u57o9g,.framer-KdXSe .framer-1reb7hb,.framer-KdXSe .framer-q2twwi,.framer-KdXSe .framer-1pm3sa2,.framer-KdXSe .framer-1mll6sb,.framer-KdXSe .framer-1o824vo,.framer-KdXSe .framer-19rn7jv,.framer-KdXSe .framer-rny18j,.framer-KdXSe .framer-4gj87q,.framer-KdXSe .framer-1tcr8id,.framer-KdXSe .framer-fm39dj,.framer-KdXSe .framer-fjwd3u",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsHero",
+      "path": [
+        "Hero",
+        "WsHero"
+      ],
+      "classes": "framer-9lnrhf-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": "framer-9lnrhf-container,.framer-KdXSe .framer-10vodp1-container,.framer-KdXSe .framer-vr0hmw-container,.framer-KdXSe .framer-9rkoa8-container,.framer-KdXSe .framer-1y2sn12-container,.framer-KdXSe .framer-1ibr9s3-container,.framer-KdXSe .framer-1sg3mzv-container,.framer-KdXSe .framer-1xdlovy-container,.framer-KdXSe .framer-dr5bi5-container,.framer-KdXSe .framer-1vi1g3m-container,.framer-KdXSe .framer-1yqcri9-container,.framer-KdXSe .framer-1ac7wf3-container,.framer-KdXSe .framer-1vf6baf-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsIntro",
+      "path": [
+        "WsIntro"
+      ],
+      "classes": "framer-1u57o9g",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KdXSe .framer-irwcar,.framer-KdXSe .framer-1u57o9g,.framer-KdXSe .framer-1reb7hb,.framer-KdXSe .framer-q2twwi,.framer-KdXSe .framer-1pm3sa2,.framer-KdXSe .framer-1mll6sb,.framer-KdXSe .framer-1o824vo,.framer-KdXSe .framer-19rn7jv,.framer-KdXSe .framer-rny18j,.framer-KdXSe .framer-4gj87q,.framer-KdXSe .framer-1tcr8id,.framer-KdXSe .framer-fm39dj,.framer-KdXSe .framer-fjwd3u",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsIntro",
+      "path": [
+        "WsIntro",
+        "WsIntro"
+      ],
+      "classes": "framer-10vodp1-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": "framer-9lnrhf-container,.framer-KdXSe .framer-10vodp1-container,.framer-KdXSe .framer-vr0hmw-container,.framer-KdXSe .framer-9rkoa8-container,.framer-KdXSe .framer-1y2sn12-container,.framer-KdXSe .framer-1ibr9s3-container,.framer-KdXSe .framer-1sg3mzv-container,.framer-KdXSe .framer-1xdlovy-container,.framer-KdXSe .framer-dr5bi5-container,.framer-KdXSe .framer-1vi1g3m-container,.framer-KdXSe .framer-1yqcri9-container,.framer-KdXSe .framer-1ac7wf3-container,.framer-KdXSe .framer-1vf6baf-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsPrograms",
+      "path": [
+        "WsPrograms"
+      ],
+      "classes": "framer-1reb7hb",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KdXSe .framer-irwcar,.framer-KdXSe .framer-1u57o9g,.framer-KdXSe .framer-1reb7hb,.framer-KdXSe .framer-q2twwi,.framer-KdXSe .framer-1pm3sa2,.framer-KdXSe .framer-1mll6sb,.framer-KdXSe .framer-1o824vo,.framer-KdXSe .framer-19rn7jv,.framer-KdXSe .framer-rny18j,.framer-KdXSe .framer-4gj87q,.framer-KdXSe .framer-1tcr8id,.framer-KdXSe .framer-fm39dj,.framer-KdXSe .framer-fjwd3u",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsPrograms",
+      "path": [
+        "WsPrograms",
+        "WsPrograms"
+      ],
+      "classes": "framer-vr0hmw-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": "framer-9lnrhf-container,.framer-KdXSe .framer-10vodp1-container,.framer-KdXSe .framer-vr0hmw-container,.framer-KdXSe .framer-9rkoa8-container,.framer-KdXSe .framer-1y2sn12-container,.framer-KdXSe .framer-1ibr9s3-container,.framer-KdXSe .framer-1sg3mzv-container,.framer-KdXSe .framer-1xdlovy-container,.framer-KdXSe .framer-dr5bi5-container,.framer-KdXSe .framer-1vi1g3m-container,.framer-KdXSe .framer-1yqcri9-container,.framer-KdXSe .framer-1ac7wf3-container,.framer-KdXSe .framer-1vf6baf-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsMoney",
+      "path": [
+        "WsMoney"
+      ],
+      "classes": "framer-q2twwi",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KdXSe .framer-irwcar,.framer-KdXSe .framer-1u57o9g,.framer-KdXSe .framer-1reb7hb,.framer-KdXSe .framer-q2twwi,.framer-KdXSe .framer-1pm3sa2,.framer-KdXSe .framer-1mll6sb,.framer-KdXSe .framer-1o824vo,.framer-KdXSe .framer-19rn7jv,.framer-KdXSe .framer-rny18j,.framer-KdXSe .framer-4gj87q,.framer-KdXSe .framer-1tcr8id,.framer-KdXSe .framer-fm39dj,.framer-KdXSe .framer-fjwd3u",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsMoney",
+      "path": [
+        "WsMoney",
+        "WsMoney"
+      ],
+      "classes": "framer-9rkoa8-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": "framer-9lnrhf-container,.framer-KdXSe .framer-10vodp1-container,.framer-KdXSe .framer-vr0hmw-container,.framer-KdXSe .framer-9rkoa8-container,.framer-KdXSe .framer-1y2sn12-container,.framer-KdXSe .framer-1ibr9s3-container,.framer-KdXSe .framer-1sg3mzv-container,.framer-KdXSe .framer-1xdlovy-container,.framer-KdXSe .framer-dr5bi5-container,.framer-KdXSe .framer-1vi1g3m-container,.framer-KdXSe .framer-1yqcri9-container,.framer-KdXSe .framer-1ac7wf3-container,.framer-KdXSe .framer-1vf6baf-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsCampaigns",
+      "path": [
+        "WsCampaigns"
+      ],
+      "classes": "framer-1pm3sa2",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KdXSe .framer-irwcar,.framer-KdXSe .framer-1u57o9g,.framer-KdXSe .framer-1reb7hb,.framer-KdXSe .framer-q2twwi,.framer-KdXSe .framer-1pm3sa2,.framer-KdXSe .framer-1mll6sb,.framer-KdXSe .framer-1o824vo,.framer-KdXSe .framer-19rn7jv,.framer-KdXSe .framer-rny18j,.framer-KdXSe .framer-4gj87q,.framer-KdXSe .framer-1tcr8id,.framer-KdXSe .framer-fm39dj,.framer-KdXSe .framer-fjwd3u",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsCampaigns",
+      "path": [
+        "WsCampaigns",
+        "WsCampaigns"
+      ],
+      "classes": "framer-1y2sn12-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": "framer-9lnrhf-container,.framer-KdXSe .framer-10vodp1-container,.framer-KdXSe .framer-vr0hmw-container,.framer-KdXSe .framer-9rkoa8-container,.framer-KdXSe .framer-1y2sn12-container,.framer-KdXSe .framer-1ibr9s3-container,.framer-KdXSe .framer-1sg3mzv-container,.framer-KdXSe .framer-1xdlovy-container,.framer-KdXSe .framer-dr5bi5-container,.framer-KdXSe .framer-1vi1g3m-container,.framer-KdXSe .framer-1yqcri9-container,.framer-KdXSe .framer-1ac7wf3-container,.framer-KdXSe .framer-1vf6baf-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsStory",
+      "path": [
+        "WsStory"
+      ],
+      "classes": "framer-1mll6sb",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KdXSe .framer-irwcar,.framer-KdXSe .framer-1u57o9g,.framer-KdXSe .framer-1reb7hb,.framer-KdXSe .framer-q2twwi,.framer-KdXSe .framer-1pm3sa2,.framer-KdXSe .framer-1mll6sb,.framer-KdXSe .framer-1o824vo,.framer-KdXSe .framer-19rn7jv,.framer-KdXSe .framer-rny18j,.framer-KdXSe .framer-4gj87q,.framer-KdXSe .framer-1tcr8id,.framer-KdXSe .framer-fm39dj,.framer-KdXSe .framer-fjwd3u",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsStory",
+      "path": [
+        "WsStory",
+        "WsStory"
+      ],
+      "classes": "framer-1ibr9s3-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": "framer-9lnrhf-container,.framer-KdXSe .framer-10vodp1-container,.framer-KdXSe .framer-vr0hmw-container,.framer-KdXSe .framer-9rkoa8-container,.framer-KdXSe .framer-1y2sn12-container,.framer-KdXSe .framer-1ibr9s3-container,.framer-KdXSe .framer-1sg3mzv-container,.framer-KdXSe .framer-1xdlovy-container,.framer-KdXSe .framer-dr5bi5-container,.framer-KdXSe .framer-1vi1g3m-container,.framer-KdXSe .framer-1yqcri9-container,.framer-KdXSe .framer-1ac7wf3-container,.framer-KdXSe .framer-1vf6baf-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsImpact",
+      "path": [
+        "WsImpact"
+      ],
+      "classes": "framer-1o824vo",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KdXSe .framer-irwcar,.framer-KdXSe .framer-1u57o9g,.framer-KdXSe .framer-1reb7hb,.framer-KdXSe .framer-q2twwi,.framer-KdXSe .framer-1pm3sa2,.framer-KdXSe .framer-1mll6sb,.framer-KdXSe .framer-1o824vo,.framer-KdXSe .framer-19rn7jv,.framer-KdXSe .framer-rny18j,.framer-KdXSe .framer-4gj87q,.framer-KdXSe .framer-1tcr8id,.framer-KdXSe .framer-fm39dj,.framer-KdXSe .framer-fjwd3u",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsImpact",
+      "path": [
+        "WsImpact",
+        "WsImpact"
+      ],
+      "classes": "framer-1sg3mzv-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": "framer-9lnrhf-container,.framer-KdXSe .framer-10vodp1-container,.framer-KdXSe .framer-vr0hmw-container,.framer-KdXSe .framer-9rkoa8-container,.framer-KdXSe .framer-1y2sn12-container,.framer-KdXSe .framer-1ibr9s3-container,.framer-KdXSe .framer-1sg3mzv-container,.framer-KdXSe .framer-1xdlovy-container,.framer-KdXSe .framer-dr5bi5-container,.framer-KdXSe .framer-1vi1g3m-container,.framer-KdXSe .framer-1yqcri9-container,.framer-KdXSe .framer-1ac7wf3-container,.framer-KdXSe .framer-1vf6baf-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsField",
+      "path": [
+        "WsField"
+      ],
+      "classes": "framer-19rn7jv",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KdXSe .framer-irwcar,.framer-KdXSe .framer-1u57o9g,.framer-KdXSe .framer-1reb7hb,.framer-KdXSe .framer-q2twwi,.framer-KdXSe .framer-1pm3sa2,.framer-KdXSe .framer-1mll6sb,.framer-KdXSe .framer-1o824vo,.framer-KdXSe .framer-19rn7jv,.framer-KdXSe .framer-rny18j,.framer-KdXSe .framer-4gj87q,.framer-KdXSe .framer-1tcr8id,.framer-KdXSe .framer-fm39dj,.framer-KdXSe .framer-fjwd3u",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsField",
+      "path": [
+        "WsField",
+        "WsField"
+      ],
+      "classes": "framer-1xdlovy-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": "framer-9lnrhf-container,.framer-KdXSe .framer-10vodp1-container,.framer-KdXSe .framer-vr0hmw-container,.framer-KdXSe .framer-9rkoa8-container,.framer-KdXSe .framer-1y2sn12-container,.framer-KdXSe .framer-1ibr9s3-container,.framer-KdXSe .framer-1sg3mzv-container,.framer-KdXSe .framer-1xdlovy-container,.framer-KdXSe .framer-dr5bi5-container,.framer-KdXSe .framer-1vi1g3m-container,.framer-KdXSe .framer-1yqcri9-container,.framer-KdXSe .framer-1ac7wf3-container,.framer-KdXSe .framer-1vf6baf-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsMonthly",
+      "path": [
+        "WsMonthly"
+      ],
+      "classes": "framer-rny18j",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KdXSe .framer-irwcar,.framer-KdXSe .framer-1u57o9g,.framer-KdXSe .framer-1reb7hb,.framer-KdXSe .framer-q2twwi,.framer-KdXSe .framer-1pm3sa2,.framer-KdXSe .framer-1mll6sb,.framer-KdXSe .framer-1o824vo,.framer-KdXSe .framer-19rn7jv,.framer-KdXSe .framer-rny18j,.framer-KdXSe .framer-4gj87q,.framer-KdXSe .framer-1tcr8id,.framer-KdXSe .framer-fm39dj,.framer-KdXSe .framer-fjwd3u",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsMonthly",
+      "path": [
+        "WsMonthly",
+        "WsMonthly"
+      ],
+      "classes": "framer-dr5bi5-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": "framer-9lnrhf-container,.framer-KdXSe .framer-10vodp1-container,.framer-KdXSe .framer-vr0hmw-container,.framer-KdXSe .framer-9rkoa8-container,.framer-KdXSe .framer-1y2sn12-container,.framer-KdXSe .framer-1ibr9s3-container,.framer-KdXSe .framer-1sg3mzv-container,.framer-KdXSe .framer-1xdlovy-container,.framer-KdXSe .framer-dr5bi5-container,.framer-KdXSe .framer-1vi1g3m-container,.framer-KdXSe .framer-1yqcri9-container,.framer-KdXSe .framer-1ac7wf3-container,.framer-KdXSe .framer-1vf6baf-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsVoices",
+      "path": [
+        "WsVoices"
+      ],
+      "classes": "framer-4gj87q",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KdXSe .framer-irwcar,.framer-KdXSe .framer-1u57o9g,.framer-KdXSe .framer-1reb7hb,.framer-KdXSe .framer-q2twwi,.framer-KdXSe .framer-1pm3sa2,.framer-KdXSe .framer-1mll6sb,.framer-KdXSe .framer-1o824vo,.framer-KdXSe .framer-19rn7jv,.framer-KdXSe .framer-rny18j,.framer-KdXSe .framer-4gj87q,.framer-KdXSe .framer-1tcr8id,.framer-KdXSe .framer-fm39dj,.framer-KdXSe .framer-fjwd3u",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsVoices",
+      "path": [
+        "WsVoices",
+        "WsVoices"
+      ],
+      "classes": "framer-1vi1g3m-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": "framer-9lnrhf-container,.framer-KdXSe .framer-10vodp1-container,.framer-KdXSe .framer-vr0hmw-container,.framer-KdXSe .framer-9rkoa8-container,.framer-KdXSe .framer-1y2sn12-container,.framer-KdXSe .framer-1ibr9s3-container,.framer-KdXSe .framer-1sg3mzv-container,.framer-KdXSe .framer-1xdlovy-container,.framer-KdXSe .framer-dr5bi5-container,.framer-KdXSe .framer-1vi1g3m-container,.framer-KdXSe .framer-1yqcri9-container,.framer-KdXSe .framer-1ac7wf3-container,.framer-KdXSe .framer-1vf6baf-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsJoin",
+      "path": [
+        "WsJoin"
+      ],
+      "classes": "framer-1tcr8id",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KdXSe .framer-irwcar,.framer-KdXSe .framer-1u57o9g,.framer-KdXSe .framer-1reb7hb,.framer-KdXSe .framer-q2twwi,.framer-KdXSe .framer-1pm3sa2,.framer-KdXSe .framer-1mll6sb,.framer-KdXSe .framer-1o824vo,.framer-KdXSe .framer-19rn7jv,.framer-KdXSe .framer-rny18j,.framer-KdXSe .framer-4gj87q,.framer-KdXSe .framer-1tcr8id,.framer-KdXSe .framer-fm39dj,.framer-KdXSe .framer-fjwd3u",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsJoin",
+      "path": [
+        "WsJoin",
+        "WsJoin"
+      ],
+      "classes": "framer-1yqcri9-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": "framer-9lnrhf-container,.framer-KdXSe .framer-10vodp1-container,.framer-KdXSe .framer-vr0hmw-container,.framer-KdXSe .framer-9rkoa8-container,.framer-KdXSe .framer-1y2sn12-container,.framer-KdXSe .framer-1ibr9s3-container,.framer-KdXSe .framer-1sg3mzv-container,.framer-KdXSe .framer-1xdlovy-container,.framer-KdXSe .framer-dr5bi5-container,.framer-KdXSe .framer-1vi1g3m-container,.framer-KdXSe .framer-1yqcri9-container,.framer-KdXSe .framer-1ac7wf3-container,.framer-KdXSe .framer-1vf6baf-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsFaq",
+      "path": [
+        "WsFaq"
+      ],
+      "classes": "framer-fm39dj",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KdXSe .framer-irwcar,.framer-KdXSe .framer-1u57o9g,.framer-KdXSe .framer-1reb7hb,.framer-KdXSe .framer-q2twwi,.framer-KdXSe .framer-1pm3sa2,.framer-KdXSe .framer-1mll6sb,.framer-KdXSe .framer-1o824vo,.framer-KdXSe .framer-19rn7jv,.framer-KdXSe .framer-rny18j,.framer-KdXSe .framer-4gj87q,.framer-KdXSe .framer-1tcr8id,.framer-KdXSe .framer-fm39dj,.framer-KdXSe .framer-fjwd3u",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsFaq",
+      "path": [
+        "WsFaq",
+        "WsFaq"
+      ],
+      "classes": "framer-1ac7wf3-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": "framer-9lnrhf-container,.framer-KdXSe .framer-10vodp1-container,.framer-KdXSe .framer-vr0hmw-container,.framer-KdXSe .framer-9rkoa8-container,.framer-KdXSe .framer-1y2sn12-container,.framer-KdXSe .framer-1ibr9s3-container,.framer-KdXSe .framer-1sg3mzv-container,.framer-KdXSe .framer-1xdlovy-container,.framer-KdXSe .framer-dr5bi5-container,.framer-KdXSe .framer-1vi1g3m-container,.framer-KdXSe .framer-1yqcri9-container,.framer-KdXSe .framer-1ac7wf3-container,.framer-KdXSe .framer-1vf6baf-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsCta",
+      "path": [
+        "WsCta"
+      ],
+      "classes": "framer-fjwd3u",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-KdXSe .framer-irwcar,.framer-KdXSe .framer-1u57o9g,.framer-KdXSe .framer-1reb7hb,.framer-KdXSe .framer-q2twwi,.framer-KdXSe .framer-1pm3sa2,.framer-KdXSe .framer-1mll6sb,.framer-KdXSe .framer-1o824vo,.framer-KdXSe .framer-19rn7jv,.framer-KdXSe .framer-rny18j,.framer-KdXSe .framer-4gj87q,.framer-KdXSe .framer-1tcr8id,.framer-KdXSe .framer-fm39dj,.framer-KdXSe .framer-fjwd3u",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsCta",
+      "path": [
+        "WsCta",
+        "WsCta"
+      ],
+      "classes": "framer-1vf6baf-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": "framer-9lnrhf-container,.framer-KdXSe .framer-10vodp1-container,.framer-KdXSe .framer-vr0hmw-container,.framer-KdXSe .framer-9rkoa8-container,.framer-KdXSe .framer-1y2sn12-container,.framer-KdXSe .framer-1ibr9s3-container,.framer-KdXSe .framer-1sg3mzv-container,.framer-KdXSe .framer-1xdlovy-container,.framer-KdXSe .framer-dr5bi5-container,.framer-KdXSe .framer-1vi1g3m-container,.framer-KdXSe .framer-1yqcri9-container,.framer-KdXSe .framer-1ac7wf3-container,.framer-KdXSe .framer-1vf6baf-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "② FOOTER — sign-off, link columns, newsletter sign-up",
+      "path": [
+        "② FOOTER — sign-off, link columns, newsletter sign-up"
+      ],
+      "classes": "framer-b1p0m4",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-b1p0m4",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WsFooter",
+      "path": [
+        "② FOOTER — sign-off, link columns, newsletter sign-up",
+        "WsFooter"
+      ],
+      "classes": "framer-e2yh3m-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-jrLWU .framer-e2yh3m-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    }
+  ],
+  "mediaQueries": [
+    "@media(min-width: 1200px)",
+    "@media(min-width: 810px) and (max-width: 1199.98px)",
+    "@media(max-width: 809.98px)",
+    "@media (min-width:810px) and (max-width:1199.98px)",
+    "@media (max-width:809.98px)",
+    "@media (max-width:600px),(hover:none)",
+    "@media (prefers-reduced-motion:reduce)",
+    "@media (max-width:1240px)",
+    "@media (max-width:420px)",
+    "@media (max-width:359px)",
+    "@media (max-height:640px)",
+    "@media (max-width:809px)",
+    "@media (max-width:1099px)",
+    "@media (max-width:699px)",
+    "@media (hover:none),(pointer:coarse)",
+    "@media (max-height:760px)",
+    "@media (hover:hover)",
+    "@media (hover:none)",
+    "@media (max-width:700px)",
+    "@media (min-width:810px) and (max-width:1099.98px)"
+  ],
+  "colorFrequency": [
+    [
+      "#0E1014",
+      123
+    ],
+    [
+      "#FFFFFF",
+      123
+    ],
+    [
+      "#F1EEE7",
+      41
+    ],
+    [
+      "#0A0B0F",
+      41
+    ],
+    [
+      "#F3EEE4",
+      41
+    ],
+    [
+      "#0B0D1E",
+      41
+    ],
+    [
+      "#f3eee4",
+      1
+    ],
+    [
+      "#12131f",
+      1
+    ],
+    [
+      "#f2a33a",
+      1
+    ],
+    [
+      "#1b1e3a",
+      1
+    ],
+    [
+      "#d8d2c4",
+      1
+    ],
+    [
+      "#6c6878",
+      1
+    ],
+    [
+      "#fffdf8",
+      1
+    ],
+    [
+      "#0b0d1e",
+      1
+    ]
+  ]
+}

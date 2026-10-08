@@ -1,0 +1,863 @@
+{
+  "name": "Docspace",
+  "source": "https://docspace.framer.website/docs",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#ffffff",
+    "paper": "#fafafa",
+    "ink": "#202020",
+    "accent": "#6259e3",
+    "muted": "#6b6b6b"
+  },
+  "type": {
+    "body": "Geist",
+    "display": "Geist",
+    "roles": [
+      {
+        "role": "Wordmark",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 24.0,
+        "linePx": 28.8,
+        "tracking": "-0.04em"
+      },
+      {
+        "role": "Documentation search",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 14.0,
+        "linePx": 16.8,
+        "tracking": "0"
+      },
+      {
+        "role": "Primary navigation",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 14.0,
+        "linePx": 16.8,
+        "tracking": "0"
+      },
+      {
+        "role": "Sidebar group",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 15.0,
+        "linePx": 18.0,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "Sidebar link",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 15.0,
+        "linePx": 16.5,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "Breadcrumb",
+        "family": "Geist",
+        "weight": 400,
+        "sizePx": 14.0,
+        "linePx": 16.8,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Docs hub h1 / desktop",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 32.0,
+        "linePx": 38.4,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Hub description",
+        "family": "Geist",
+        "weight": 400,
+        "sizePx": 16.0,
+        "linePx": 22.4,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Category card h2",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 20.0,
+        "linePx": 22.0,
+        "tracking": "-0.3px"
+      },
+      {
+        "role": "Category card body",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 14.0,
+        "linePx": 16.1,
+        "tracking": "-0.3px"
+      },
+      {
+        "role": "TOC overline",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 12.0,
+        "linePx": 14.4,
+        "tracking": "-0.04em"
+      },
+      {
+        "role": "Article h1 / desktop base",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 32.0,
+        "linePx": 38.4,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Article h2 / desktop base",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 28.0,
+        "linePx": 33.6,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Article paragraph / desktop base",
+        "family": "Geist",
+        "weight": 400,
+        "sizePx": 16.0,
+        "linePx": 22.4,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Article h3 / desktop base",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 24.0,
+        "linePx": 28.8,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Article code block",
+        "family": "Fragment Mono",
+        "weight": 400,
+        "sizePx": 15,
+        "linePx": 20.25,
+        "tracking": "-0.01em"
+      },
+      {
+        "role": "Article feedback prompt",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 16,
+        "linePx": 22.4,
+        "tracking": "-0.01em"
+      }
+    ],
+    "rolesEvidence": "Source HTML/CSS declaration roles in docspace-evidence-root. Unconditional base presets are selected before local inline overrides; media presets retained separately. documentation-custom-declarations.json preserves native pre/table/code/control nodes the generic collector misses. Numeric line heights are converted, not rendered measurements.",
+    "sourceRoleDetails": [
+      {
+        "role": "Wordmark",
+        "sourcePage": "https://docspace.framer.website/docs",
+        "tag": "p",
+        "path": [
+          "Desktop",
+          "Wrap",
+          "Top",
+          "Left",
+          "Logo"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(32, 32, 32)))",
+          "--framer-font-size": "24px",
+          "--framer-letter-spacing": "-0.04em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.2em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Documentation search",
+        "sourcePage": "https://docspace.framer.website/docs",
+        "tag": "p",
+        "path": [
+          "Desktop",
+          "Wrap",
+          "Top",
+          "Variant 1",
+          "Desktop",
+          "Wrap",
+          "Icon+Text"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-af300391-4ce2-4b2f-9cc7-f97a3b1518f7, rgb(128, 128, 128)))",
+          "--framer-font-size": "14px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.2em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Primary navigation",
+        "sourcePage": "https://docspace.framer.website/docs",
+        "tag": "p",
+        "path": [
+          "Desktop",
+          "Wrap",
+          "Bottom",
+          "Nav",
+          "List Items - Scroll",
+          "Menu Item",
+          "Active State",
+          "Text"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-628411a0-b8f6-49a1-b211-80b4f63f4624, rgb(79, 70, 229)))",
+          "--framer-font-size": "14px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.2em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Sidebar group",
+        "sourcePage": "https://docspace.framer.website/docs",
+        "tag": "p",
+        "path": [
+          "Left Sidebar",
+          "Docs Menu",
+          "Open",
+          "Header",
+          "Variant 1",
+          "Headline"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(32, 32, 32)))",
+          "--framer-font-size": "15px",
+          "--framer-letter-spacing": "-0.02em",
+          "--framer-text-transform": "capitalize",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.2em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Sidebar link",
+        "sourcePage": "https://docspace.framer.website/docs",
+        "tag": "p",
+        "path": [
+          "Left Sidebar",
+          "Docs Menu",
+          "Open",
+          "Menu",
+          "Primary state",
+          "Content Wrap",
+          "Text"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f, rgb(94, 94, 94)))",
+          "--framer-font-size": "15px",
+          "--framer-letter-spacing": "-0.02em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.1em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Breadcrumb",
+        "sourcePage": "https://docspace.framer.website/docs",
+        "tag": "p",
+        "path": [
+          "Main",
+          "Section",
+          "Container",
+          "Content Wrap",
+          "Main Content",
+          "Breadcrumb",
+          "Container",
+          "Breadcrumb"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.04em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f,#5e5e5e)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Unconditional base preset plus local inline overrides; media presets separately recorded; not rendered measurements"
+      },
+      {
+        "role": "Docs hub h1 / desktop",
+        "sourcePage": "https://docspace.framer.website/docs",
+        "tag": "h1",
+        "path": [
+          "Main",
+          "Section",
+          "Container",
+          "Content Wrap",
+          "Main Content",
+          "Content Wrap",
+          "Container",
+          "Header",
+          "Title"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "32px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#0a0a0a)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Unconditional base preset plus local inline overrides; media presets separately recorded; not rendered measurements"
+      },
+      {
+        "role": "Hub description",
+        "sourcePage": "https://docspace.framer.website/docs",
+        "tag": "p",
+        "path": [
+          "Main",
+          "Section",
+          "Container",
+          "Content Wrap",
+          "Main Content",
+          "Content Wrap",
+          "Container",
+          "Header",
+          "Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv09\" on, \"cv03\" on, \"cv04\" on, \"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "500",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.4em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f,#6b6b6b)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Unconditional base preset plus local inline overrides; media presets separately recorded; not rendered measurements"
+      },
+      {
+        "role": "Category card h2",
+        "sourcePage": "https://docspace.framer.website/docs",
+        "tag": "h2",
+        "path": [
+          "Main",
+          "Section",
+          "Container",
+          "Content Wrap",
+          "Main Content",
+          "Content Wrap",
+          "Container",
+          "Content",
+          "Desktop",
+          "Contnet",
+          "Heading"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-1of0zx5, var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10)))",
+          "--framer-font-size": "20px",
+          "--framer-letter-spacing": "-0.3px",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "110%",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Category card body",
+        "sourcePage": "https://docspace.framer.website/docs",
+        "tag": "p",
+        "path": [
+          "Main",
+          "Section",
+          "Container",
+          "Content Wrap",
+          "Main Content",
+          "Content Wrap",
+          "Container",
+          "Content",
+          "Desktop",
+          "Contnet",
+          "Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-af300391-4ce2-4b2f-9cc7-f97a3b1518f7, rgb(128, 128, 128)))",
+          "--framer-font-size": "14px",
+          "--framer-letter-spacing": "-0.3px",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.15em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "TOC overline",
+        "sourcePage": "https://docspace.framer.website/docs",
+        "tag": "p",
+        "path": [
+          "Main",
+          "Section",
+          "Container",
+          "Content Wrap",
+          "Right Sidebar",
+          "Scroll Container",
+          "Variant 1",
+          "Header"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f, rgb(94, 94, 94)))",
+          "--framer-font-size": "12px",
+          "--framer-letter-spacing": "-0.04em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.2em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "role": "Article h1 / desktop base",
+        "sourcePage": "https://docspace.framer.website/docs/introduction",
+        "tag": "h1",
+        "path": [
+          "Main",
+          "Section",
+          "Container",
+          "Content Wrap",
+          "Main Content",
+          "Content Wrap",
+          "Container",
+          "Header",
+          "Title"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "32px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#0a0a0a)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Unconditional base preset plus local inline overrides; media presets separately recorded; not rendered measurements"
+      },
+      {
+        "role": "Article h2 / desktop base",
+        "sourcePage": "https://docspace.framer.website/docs/introduction",
+        "tag": "h2",
+        "path": [
+          "Main",
+          "Section",
+          "Container",
+          "Content Wrap",
+          "Main Content",
+          "Content Wrap",
+          "Container",
+          "Content"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv09\" on, \"cv03\" on, \"cv04\" on, \"cv11\" on",
+          "--framer-font-size": "28px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Unconditional base preset plus local inline overrides; media presets separately recorded; not rendered measurements"
+      },
+      {
+        "role": "Article paragraph / desktop base",
+        "sourcePage": "https://docspace.framer.website/docs/introduction",
+        "tag": "p",
+        "path": [
+          "Main",
+          "Section",
+          "Container",
+          "Content Wrap",
+          "Main Content",
+          "Content Wrap",
+          "Container",
+          "Content"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv09\" on, \"cv03\" on, \"cv04\" on, \"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "500",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.4em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-3ce984b8-344d-4185-85fc-ccb4d5d8ea7f,#6b6b6b)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Unconditional base preset plus local inline overrides; media presets separately recorded; not rendered measurements"
+      },
+      {
+        "role": "Article h3 / desktop base",
+        "sourcePage": "https://docspace.framer.website/docs/introduction",
+        "tag": "h3",
+        "path": [
+          "Main",
+          "Section",
+          "Container",
+          "Content Wrap",
+          "Main Content",
+          "Content Wrap",
+          "Container",
+          "Content"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "24px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368,#202020)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "Unconditional base preset plus local inline overrides; media presets separately recorded; not rendered measurements"
+      },
+      {
+        "role": "Article code block",
+        "tag": "pre",
+        "sourcePage": "https://docspace.framer.website/docs/introduction",
+        "path": [
+          "Main",
+          "Section",
+          "Container",
+          "Content Wrap",
+          "Main Content",
+          "Content Wrap",
+          "Container",
+          "Content",
+          "Variant 1",
+          "Code Block - Fit Height"
+        ],
+        "declarations": {
+          "margin": "0",
+          "min-width": "0",
+          "white-space": "pre-wrap",
+          "overflow-wrap": "anywhere",
+          "word-break": "break-word",
+          "tab-size": "2",
+          "font-family": "\"Fragment Mono\", \"Fragment Mono Placeholder\", monospace",
+          "font-size": "15px",
+          "font-style": "normal",
+          "font-weight": "400",
+          "letter-spacing": "-0.01em",
+          "line-height": "1.35em"
+        },
+        "basis": "Exact custom component inline declarations"
+      },
+      {
+        "role": "Article feedback prompt",
+        "sourcePage": "https://docspace.framer.website/docs/introduction",
+        "tag": "p",
+        "path": [
+          "Main",
+          "Section",
+          "Container",
+          "Content Wrap",
+          "Main Content",
+          "Content Wrap",
+          "Container",
+          "Feedback Form",
+          "Desktop"
+        ],
+        "declarations": {
+          "margin": "0",
+          "color": "var(--token-c124f032-e7f5-46af-ab8c-726254cbe368, rgb(10, 10, 10))",
+          "font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "font-size": "16px",
+          "font-style": "normal",
+          "font-weight": "500",
+          "letter-spacing": "-0.01em",
+          "line-height": "1.4em",
+          "text-align": "left"
+        },
+        "basis": "Exact custom component inline declarations"
+      }
+    ],
+    "variationAxes": {
+      "source": "Presets declare normal when present. No custom numerical axis tuple found; Geist Variable component family is recorded separately from static Geist reading roles."
+    },
+    "systemFontFamilies": []
+  },
+  "spacing": {
+    "desktopGutterPx": 32,
+    "componentGapPx": 20,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 12,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (prefers-color-scheme:dark)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:809.98px)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      0.0,
+      809.0,
+      809.98,
+      810.0,
+      1199.0,
+      1199.98,
+      1200.0
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Documentation / help centers",
+    "branch": "Developer documentation",
+    "fitEvidence": "Selected /docs primary screen is a standalone developer documentation hub with persistent grouped topic sidebar, documentation search, breadcrumbs, category grid and on-page navigation. Its introduction article supplies reading, code and related-navigation anatomy; this is not the product-marketing preview home."
+  },
+  "sectionAnchors": [
+    {
+      "id": "main",
+      "tag": "div",
+      "path": [],
+      "meaning": "Source DOM ID; no invented content anchor"
+    }
+  ],
+  "sourceColorContext": "Light body tokens declare canvas#fff, ink#202020, violet#6259e3, gray#6b6b6b and paper#fafafa. prefers-color-scheme dark changes canvas#000, ink#e8e8e8 and accent#9991ff. Active runtime/manual theme is not established by source alone.",
+  "siteBlueprint": {
+    "file": "SITE-BLUEPRINT.md",
+    "backendVerified": false
+  }
+}

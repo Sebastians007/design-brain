@@ -1,0 +1,33 @@
+# Financial Advisor / Wealthora component recipes
+
+Source basis: official marketplace imagery, public home HTML/CSS and the inspected `/fees` source. Calculations, credentials, case outcomes, advisor identities and fee values are sample source content. Suggestions are optional reconstruction guidance.
+
+## 1. Fee-only hero and retirement-plan demonstration
+
+SOURCE DECLARED: Hero/WoHero introduces a fee-only practice with Will your money last as long as you do?, body summary, free review and fee actions, family photograph and dark Your plan, live panel. Range inputs have source IDs woh-age, woh-saved and woh-monthly. Their labels are age, savings and monthly contribution; the chart includes retirement marker, projection curve, axes and source assumptions retire65/spend$85k/growth4%. Intended display/body/metadata variable defaults name Schibsted Grotesk, Albert Sans and JetBrains Mono. Hero h1 declares clamp(44px,5.6vw,92px), .98 line-height and inline weight500; numeric config rows evaluate the expression at1440px, not a measurement.
+
+OPTIONAL RECOMMENDATION: preserve the inputs and chart as a labelled illustrative planning demonstration. Explain assumptions alongside the result in text and retain native keyboard-operable ranges. Keep a static summary available when graphics or scripting fail. Any recreation formula needs an explicit documented model and professional validation before financial use; this kit establishes only the visual/control anatomy. On phone, put inputs ahead of the chart, keep age/savings/currency formatting distinct, and preserve the free-review/fees route hierarchy.
+
+## 2. Sticky questions and advisory service folders
+
+SOURCE DECLARED: Stack/WoStack presents three first-client questions: saving enough, when to retire and paying too much tax. Each has a number, heading, short explanation and illustrative figure. Folders/WoFolders follows with six service choices: financial planning, investments, tax, retirement, estate/family and insurance. Document-like panels carry a section number, title, financial illustration, three-line outline, advisor signoff and Read more route. Source service URLs are explicit; these are not home anchors.
+
+OPTIONAL RECOMMENDATION: recreate the sticky question sequence with normal document order and a static fallback. The six service rows should remain accessible links or buttons with an explicit selected state; service detail actions stay normal links. Keep folder art behind the currently visible document, so text does not collide with angled or translated paper. The panel outline gives prospects a concrete sense of a written plan and should remain distinct from generic feature cards. Preserve the subject labels while replacing sample financial figures with approved content.
+
+## 3. Long-horizon chapter and four-step process
+
+SOURCE DECLARED: Zoom/WoZoom is a dark life-horizon chapter headed Thirty years of decisions… with a financial line, milestones and …start with the next twelve months. Steps/WoSteps has four steps: free plan review, written plan, put it to work and quarterly check-in. Timeline labels are Week1, Weeks2–3, Week4 and ongoing. WoLoader is a separate once-per-session presentation; SSR CSS defines an8s delay and.8s fallback hide, but the hydrated runtime disables that fallback: duration2.4s of active RAF, then700ms pin and1300ms open; gaps over120ms are subtracted. Completion writes sessionStorage wo-loaded=1. No skip button was found. WoPageTrans is a bar-chart transition, not a home content section.
+
+OPTIONAL RECOMMENDATION: preserve milestone captions and time labels as readable text outside chart geometry. Use the four process steps to explain relationship expectations, with one Start with step one booking link. Avoid requiring scroll pinning or animated loader completion to access the page. The loader should be optional and promptly removable; its retirement-age animation does not authenticate a financial projection. Under reduced motion, show the source chapter and process immediately with a static life-horizon image.
+
+## 4. Transparent fees and advisor/client evidence
+
+SOURCE DECLARED: Fees/WoFees combines an investment amount slider and typical1% versus flat fee comparison with Plan/Ongoing/complexity-oriented service cards. The home uses source sample values including Plan$2,400 once and Ongoing$400 monthly. Team/WoTeam presents four advisors with names, specialties and credentials. Blinds is a client quotation/photo interval; Cases shows story cards with before/after curves and plan changes. Inward follows with Why families stay, Fee-only. Fiduciary. Independent. and counters. The secondary `/fees` source includes page hero, fees, WoCompare, FAQ and booking.
+
+OPTIONAL RECOMMENDATION: model fee cards separately from demonstration calculator assumptions. Define currency, billing cadence, scope and exclusions explicitly. Keep before/after cases labelled illustrative and remove unsubstantiated outcomes from a live adaptation. Advisors need owner-supplied identities/credentials/photos; a template portrait is not a verified professional. Maintain a direct fee-route destination from the hero. The comparison layout may be recreated as static labelled bars until a checked model is available; do not imply that any estimate establishes savings or suitable financial advice.
+
+## 5. Money notes, filtered FAQ and booking card
+
+SOURCE DECLARED: Notes/WoNotes contains four topic-oriented articles with title, summary and read-time destinations. Faq/WoFaq displays Before you book, category tabs All/Fees/Working together/Planning/Investing, numbered questions and answer structures. Book/WoBook repeats the free-review invitation and shows advisor attribution, five weekday/day choices and time choices9:00/10:30/13:00/14:30/16:00. The source selected link carries `/book?day=Tue&time=10%3A30`. Footer includes newsletter form, service/company/client/help/legal links and sample contact details. The optional SoloFoundry Assistant belongs to a separate creator capability.
+
+OPTIONAL RECOMMENDATION: use semantic article links and accessible FAQ buttons with expanded state. Selected booking day/time should appear in the visible action label and URL, while timezone and real availability require explicit configuration. Keep the card as a local selection demo until an actual calendar handoff exists; source controls do not establish a reserved slot. Newsletter success should only appear after configured provider acceptance. Preserve route access without loading the optional assistant, and avoid putting private financial information into demo booking or assistant inputs.

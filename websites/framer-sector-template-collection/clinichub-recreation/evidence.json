@@ -1,0 +1,1396 @@
+{
+  "template": "ClinicHub",
+  "preview": "https://clinichub.framer.ai/",
+  "marketplace": "https://www.framer.com/marketplace/templates/clinichub/",
+  "creator": "Adheeb Hameed",
+  "coverage": "Public source declarations, official marketplace artwork and actual browser captures at the individually recorded viewport/state. Phone/tablet, complete motion and backend behavior unverified.",
+  "viewport": {
+    "devicePixelRatio": 1,
+    "height": 936,
+    "width": 1363
+  },
+  "pageHeight": 8332,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 4 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 4 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 3 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 4 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 936,
+      "id": "",
+      "tag": "MAIN",
+      "width": 1348,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "40px",
+      "height": 140,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 936
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 1204,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 1076
+    },
+    {
+      "background": "rgb(9, 41, 43)",
+      "display": "flex",
+      "gap": "40px",
+      "height": 388,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1332,
+      "x": 8,
+      "y": 1084
+    },
+    {
+      "background": "rgb(9, 41, 43)",
+      "display": "flex",
+      "gap": "40px",
+      "height": 800,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1332,
+      "x": 8,
+      "y": 1472
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "40px",
+      "height": 873.203125,
+      "id": "expertise",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 2280
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "40px",
+      "height": 822.015625,
+      "id": "how-it-works",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 3153.203125
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "40px",
+      "height": 1217.609375,
+      "id": "why-us",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 3975.21875
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "60px",
+      "height": 737.203125,
+      "id": "doctors",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 5192.828125
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "display": "flex",
+      "gap": "40px",
+      "height": 768.03125,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 5930.03125
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "40px",
+      "height": 662.203125,
+      "id": "faq",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 6698.0625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "normal",
+      "height": 55.203125,
+      "id": "",
+      "tag": "NAV",
+      "width": 1200,
+      "x": 74,
+      "y": 25
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "80px",
+      "height": 971.359375,
+      "id": "",
+      "tag": "FOOTER",
+      "width": 1348,
+      "x": 0,
+      "y": 7360.265625
+    }
+  ],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-0.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/UjlFhCnUjxhNfep4oYBPqnEssyo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-500-1.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-2.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/ia3uin3hQWqDrVloC1zEtYHWw.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-3.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/Bo5CNzBv77CafbxOtKIkpw9egw.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-500-4.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/pKRFNWFoZl77qYCAIp84lN1h944.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-5.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-600-6.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/fuyXZpVvOjq8NesCOfgirHCWyg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-600-7.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Lora",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/YQA3KKRVULCXJDCXSAONFQCA74AMMQFS/RGNGUOW44MB34GT7X2FQPGZNLW2Z3P3F/ZAXBVAFTWGWMVEZN7M2EPCUJJ4KGZZCI.woff2",
+      "range": "",
+      "file": "assets/fonts/lora-400-8.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Lora",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/XKPJY3ZSUVQFS2W4WC5RDSDQZMJCKM2K/LN3QKDXOGSZ4KFDCY6RFVWPIXHDZPZVG/MDERQV6X2U5ARGQRZSXHPLMPXHJIHIQI.woff2",
+      "range": "",
+      "file": "assets/fonts/lora-700-9.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Lora",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/MR5BT2YPOEXTQ4MEELWWJJ7NTKX2G5PM/KTOVFALLVL2MWILR5BZG42LMYPMDBWMV/EXS4XC5TKOJSULVQYC7H3KETY6RINWLE.woff2",
+      "range": "",
+      "file": "assets/fonts/lora-700-10.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Lora",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/TKLVZDTQCUHIWAN3QIZGCNX4HOOUXHFA/JM2JUOZH27EVDC6FKNUOYGZ3IADBKMM3/DJA2WADOVWLNFBBL4PE4KM6NGVIOXNBS.woff2",
+      "range": "",
+      "file": "assets/fonts/lora-400-11.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Lora",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/UZVLDSVSCU6EHBA34MAMH3Z2RHDHB3QE/2GS24NKY26JCCD3ZHG5B4BSZKB4M5UH3/FKKAYEWGEGLZTIS3AJ3RN5KHPKRTYLGL.woff2",
+      "range": "",
+      "file": "assets/fonts/lora-500-12.woff2",
+      "actualFormat": "woff2"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/images/9couhjelan4XsaHiDc5LY5DHUc.webp?width=5504&height=3072",
+      "srcset": "https://framerusercontent.com/images/9couhjelan4XsaHiDc5LY5DHUc.webp?scale-down-to=512&width=5504&height=3072 512w,https://framerusercontent.com/images/9couhjelan4XsaHiDc5LY5DHUc.webp?scale-down-to=1024&width=5504&height=3072 1024w,https://framerusercontent.com/images/9couhjelan4XsaHiDc5LY5DHUc.webp?scale-down-to=2048&width=5504&height=3072 2048w,https://framerusercontent.com/images/9couhjelan4XsaHiDc5LY5DHUc.webp?scale-down-to=4096&width=5504&height=3072 4096w,https://framerusercontent.com/images/9couhjelan4XsaHiDc5LY5DHUc.webp?width=5504&height=3072 5504w",
+      "alt": "doctors images",
+      "width": "5504",
+      "height": "3072",
+      "path": [
+        "Hero - Section",
+        "Content Stack",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/9couhjelan4XsaHiDc5LY5DHUc.webp?width=5504&height=3072",
+      "srcset": "https://framerusercontent.com/images/9couhjelan4XsaHiDc5LY5DHUc.webp?scale-down-to=512&width=5504&height=3072 512w,https://framerusercontent.com/images/9couhjelan4XsaHiDc5LY5DHUc.webp?scale-down-to=1024&width=5504&height=3072 1024w,https://framerusercontent.com/images/9couhjelan4XsaHiDc5LY5DHUc.webp?scale-down-to=2048&width=5504&height=3072 2048w,https://framerusercontent.com/images/9couhjelan4XsaHiDc5LY5DHUc.webp?scale-down-to=4096&width=5504&height=3072 4096w,https://framerusercontent.com/images/9couhjelan4XsaHiDc5LY5DHUc.webp?width=5504&height=3072 5504w",
+      "alt": "doctors images",
+      "width": "5504",
+      "height": "3072",
+      "path": [
+        "Hero - Section",
+        "Content Stack",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:63.4% 49.7%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/peDRCKM2ULxKcFgv28pKHFKFpgc.png?width=5504&height=3072",
+      "srcset": "https://framerusercontent.com/images/peDRCKM2ULxKcFgv28pKHFKFpgc.png?scale-down-to=512&width=5504&height=3072 512w,https://framerusercontent.com/images/peDRCKM2ULxKcFgv28pKHFKFpgc.png?scale-down-to=1024&width=5504&height=3072 1024w,https://framerusercontent.com/images/peDRCKM2ULxKcFgv28pKHFKFpgc.png?scale-down-to=2048&width=5504&height=3072 2048w,https://framerusercontent.com/images/peDRCKM2ULxKcFgv28pKHFKFpgc.png?scale-down-to=4096&width=5504&height=3072 4096w,https://framerusercontent.com/images/peDRCKM2ULxKcFgv28pKHFKFpgc.png?width=5504&height=3072 5504w",
+      "alt": "",
+      "width": "5504",
+      "height": "3072",
+      "path": [
+        "Hero - Section",
+        "Content Stack",
+        "Text & Video",
+        "Video",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Rh9jgSNvkFt2UboTuF2fTrs8gI.webp?width=850&height=1000",
+      "srcset": "https://framerusercontent.com/images/Rh9jgSNvkFt2UboTuF2fTrs8gI.webp?width=850&height=1000 850w",
+      "alt": "Image 1",
+      "width": null,
+      "height": null,
+      "path": [
+        "About - Section",
+        "Meet Clinichub- Section"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6Z0rKqwpS2TiTO3vsBMNddnda14.jpg?width=1193&height=1207",
+      "srcset": "https://framerusercontent.com/images/6Z0rKqwpS2TiTO3vsBMNddnda14.jpg?scale-down-to=1024&width=1193&height=1207 1012w,https://framerusercontent.com/images/6Z0rKqwpS2TiTO3vsBMNddnda14.jpg?width=1193&height=1207 1193w",
+      "alt": "Image 2",
+      "width": null,
+      "height": null,
+      "path": [
+        "About - Section",
+        "Meet Clinichub- Section"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ofe6wOh38RXYHQbNMmwCWyZpJqk.jpg?width=1088&height=1368",
+      "srcset": "https://framerusercontent.com/images/ofe6wOh38RXYHQbNMmwCWyZpJqk.jpg?scale-down-to=1024&width=1088&height=1368 814w,https://framerusercontent.com/images/ofe6wOh38RXYHQbNMmwCWyZpJqk.jpg?width=1088&height=1368 1088w",
+      "alt": "Image 3",
+      "width": null,
+      "height": null,
+      "path": [
+        "About - Section",
+        "Meet Clinichub- Section"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/kxEwJwnW5g6daa5b5ekLm842SM.jpg?width=600&height=800",
+      "srcset": "https://framerusercontent.com/images/kxEwJwnW5g6daa5b5ekLm842SM.jpg?width=600&height=800 600w",
+      "alt": "Image 4",
+      "width": null,
+      "height": null,
+      "path": [
+        "About - Section",
+        "Meet Clinichub- Section"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Vb8Kc37nuOZplemtMXMsooO3Ps.jpg?width=736&height=920",
+      "srcset": "https://framerusercontent.com/images/Vb8Kc37nuOZplemtMXMsooO3Ps.jpg?width=736&height=920 736w",
+      "alt": "Image 5",
+      "width": null,
+      "height": null,
+      "path": [
+        "About - Section",
+        "Meet Clinichub- Section"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7lNYd2rQbORrTGJCszMScJqIbGo.jpg?width=562&height=567",
+      "srcset": "https://framerusercontent.com/images/7lNYd2rQbORrTGJCszMScJqIbGo.jpg?width=562&height=567 562w",
+      "alt": "Image",
+      "width": null,
+      "height": null,
+      "path": [
+        "About - Section",
+        "Meet Clinichub- Section"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Rh9jgSNvkFt2UboTuF2fTrs8gI.webp?width=850&height=1000",
+      "srcset": "https://framerusercontent.com/images/Rh9jgSNvkFt2UboTuF2fTrs8gI.webp?width=850&height=1000 850w",
+      "alt": "Image 1",
+      "width": null,
+      "height": null,
+      "path": [
+        "About - Section",
+        "Meet Clinichub- Section"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6Z0rKqwpS2TiTO3vsBMNddnda14.jpg?width=1193&height=1207",
+      "srcset": "https://framerusercontent.com/images/6Z0rKqwpS2TiTO3vsBMNddnda14.jpg?scale-down-to=1024&width=1193&height=1207 1012w,https://framerusercontent.com/images/6Z0rKqwpS2TiTO3vsBMNddnda14.jpg?width=1193&height=1207 1193w",
+      "alt": "Image 2",
+      "width": null,
+      "height": null,
+      "path": [
+        "About - Section",
+        "Meet Clinichub- Section"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ofe6wOh38RXYHQbNMmwCWyZpJqk.jpg?width=1088&height=1368",
+      "srcset": "https://framerusercontent.com/images/ofe6wOh38RXYHQbNMmwCWyZpJqk.jpg?scale-down-to=1024&width=1088&height=1368 814w,https://framerusercontent.com/images/ofe6wOh38RXYHQbNMmwCWyZpJqk.jpg?width=1088&height=1368 1088w",
+      "alt": "Image 3",
+      "width": null,
+      "height": null,
+      "path": [
+        "About - Section",
+        "Meet Clinichub- Section"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/kxEwJwnW5g6daa5b5ekLm842SM.jpg?width=600&height=800",
+      "srcset": "https://framerusercontent.com/images/kxEwJwnW5g6daa5b5ekLm842SM.jpg?width=600&height=800 600w",
+      "alt": "Image 4",
+      "width": null,
+      "height": null,
+      "path": [
+        "About - Section",
+        "Meet Clinichub- Section"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Vb8Kc37nuOZplemtMXMsooO3Ps.jpg?width=736&height=920",
+      "srcset": "https://framerusercontent.com/images/Vb8Kc37nuOZplemtMXMsooO3Ps.jpg?width=736&height=920 736w",
+      "alt": "Image 5",
+      "width": null,
+      "height": null,
+      "path": [
+        "About - Section",
+        "Meet Clinichub- Section"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7lNYd2rQbORrTGJCszMScJqIbGo.jpg?width=562&height=567",
+      "srcset": "https://framerusercontent.com/images/7lNYd2rQbORrTGJCszMScJqIbGo.jpg?width=562&height=567 562w",
+      "alt": "Image",
+      "width": null,
+      "height": null,
+      "path": [
+        "About - Section",
+        "Meet Clinichub- Section"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Rh9jgSNvkFt2UboTuF2fTrs8gI.webp?width=850&height=1000",
+      "srcset": "https://framerusercontent.com/images/Rh9jgSNvkFt2UboTuF2fTrs8gI.webp?width=850&height=1000 850w",
+      "alt": "Image 1",
+      "width": null,
+      "height": null,
+      "path": [
+        "About - Section",
+        "Meet Clinichub- Section"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6Z0rKqwpS2TiTO3vsBMNddnda14.jpg?width=1193&height=1207",
+      "srcset": "https://framerusercontent.com/images/6Z0rKqwpS2TiTO3vsBMNddnda14.jpg?scale-down-to=1024&width=1193&height=1207 1012w,https://framerusercontent.com/images/6Z0rKqwpS2TiTO3vsBMNddnda14.jpg?width=1193&height=1207 1193w",
+      "alt": "Image 2",
+      "width": null,
+      "height": null,
+      "path": [
+        "About - Section",
+        "Meet Clinichub- Section"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ofe6wOh38RXYHQbNMmwCWyZpJqk.jpg?width=1088&height=1368",
+      "srcset": "https://framerusercontent.com/images/ofe6wOh38RXYHQbNMmwCWyZpJqk.jpg?scale-down-to=1024&width=1088&height=1368 814w,https://framerusercontent.com/images/ofe6wOh38RXYHQbNMmwCWyZpJqk.jpg?width=1088&height=1368 1088w",
+      "alt": "Image 3",
+      "width": null,
+      "height": null,
+      "path": [
+        "About - Section",
+        "Meet Clinichub- Section"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/kxEwJwnW5g6daa5b5ekLm842SM.jpg?width=600&height=800",
+      "srcset": "https://framerusercontent.com/images/kxEwJwnW5g6daa5b5ekLm842SM.jpg?width=600&height=800 600w",
+      "alt": "Image 4",
+      "width": null,
+      "height": null,
+      "path": [
+        "About - Section",
+        "Meet Clinichub- Section"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Vb8Kc37nuOZplemtMXMsooO3Ps.jpg?width=736&height=920",
+      "srcset": "https://framerusercontent.com/images/Vb8Kc37nuOZplemtMXMsooO3Ps.jpg?width=736&height=920 736w",
+      "alt": "Image 5",
+      "width": null,
+      "height": null,
+      "path": [
+        "About - Section",
+        "Meet Clinichub- Section"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7lNYd2rQbORrTGJCszMScJqIbGo.jpg?width=562&height=567",
+      "srcset": "https://framerusercontent.com/images/7lNYd2rQbORrTGJCszMScJqIbGo.jpg?width=562&height=567 562w",
+      "alt": "Image",
+      "width": null,
+      "height": null,
+      "path": [
+        "About - Section",
+        "Meet Clinichub- Section"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/fzJEkRRZLOBK5G6IX1gNOgVMM.webp?width=4096&height=4096",
+      "srcset": "https://framerusercontent.com/images/fzJEkRRZLOBK5G6IX1gNOgVMM.webp?scale-down-to=512&width=4096&height=4096 512w,https://framerusercontent.com/images/fzJEkRRZLOBK5G6IX1gNOgVMM.webp?scale-down-to=1024&width=4096&height=4096 1024w,https://framerusercontent.com/images/fzJEkRRZLOBK5G6IX1gNOgVMM.webp?scale-down-to=2048&width=4096&height=4096 2048w,https://framerusercontent.com/images/fzJEkRRZLOBK5G6IX1gNOgVMM.webp?width=4096&height=4096 4096w",
+      "alt": "dental image",
+      "width": "4096",
+      "height": "4096",
+      "path": [
+        "Expertise - Section",
+        "Content Stack",
+        "Info Stack",
+        "Testimonial Card",
+        "Service Stack",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/fzJEkRRZLOBK5G6IX1gNOgVMM.webp?width=4096&height=4096",
+      "srcset": "https://framerusercontent.com/images/fzJEkRRZLOBK5G6IX1gNOgVMM.webp?scale-down-to=512&width=4096&height=4096 512w,https://framerusercontent.com/images/fzJEkRRZLOBK5G6IX1gNOgVMM.webp?scale-down-to=1024&width=4096&height=4096 1024w,https://framerusercontent.com/images/fzJEkRRZLOBK5G6IX1gNOgVMM.webp?scale-down-to=2048&width=4096&height=4096 2048w,https://framerusercontent.com/images/fzJEkRRZLOBK5G6IX1gNOgVMM.webp?width=4096&height=4096 4096w",
+      "alt": "dental image",
+      "width": "4096",
+      "height": "4096",
+      "path": [
+        "Expertise - Section",
+        "Content Stack",
+        "Info Stack",
+        "Testimonial Card",
+        "Service Stack",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/xofM4FXjNsAhbel5aAOnKsI5YQ.webp?width=4096&height=4096",
+      "srcset": "https://framerusercontent.com/images/xofM4FXjNsAhbel5aAOnKsI5YQ.webp?scale-down-to=512&width=4096&height=4096 512w,https://framerusercontent.com/images/xofM4FXjNsAhbel5aAOnKsI5YQ.webp?scale-down-to=1024&width=4096&height=4096 1024w,https://framerusercontent.com/images/xofM4FXjNsAhbel5aAOnKsI5YQ.webp?scale-down-to=2048&width=4096&height=4096 2048w,https://framerusercontent.com/images/xofM4FXjNsAhbel5aAOnKsI5YQ.webp?width=4096&height=4096 4096w",
+      "alt": "orthopedic image",
+      "width": "4096",
+      "height": "4096",
+      "path": [
+        "Expertise - Section",
+        "Content Stack",
+        "Info Stack",
+        "Testimonial Card",
+        "Service Stack",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/xofM4FXjNsAhbel5aAOnKsI5YQ.webp?width=4096&height=4096",
+      "srcset": "https://framerusercontent.com/images/xofM4FXjNsAhbel5aAOnKsI5YQ.webp?scale-down-to=512&width=4096&height=4096 512w,https://framerusercontent.com/images/xofM4FXjNsAhbel5aAOnKsI5YQ.webp?scale-down-to=1024&width=4096&height=4096 1024w,https://framerusercontent.com/images/xofM4FXjNsAhbel5aAOnKsI5YQ.webp?scale-down-to=2048&width=4096&height=4096 2048w,https://framerusercontent.com/images/xofM4FXjNsAhbel5aAOnKsI5YQ.webp?width=4096&height=4096 4096w",
+      "alt": "orthopedic image",
+      "width": "4096",
+      "height": "4096",
+      "path": [
+        "Expertise - Section",
+        "Content Stack",
+        "Info Stack",
+        "Testimonial Card",
+        "Service Stack",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VpnNnqYD7pP5JnRwjrJ2zbZk2U.webp?width=5504&height=3072",
+      "srcset": "https://framerusercontent.com/images/VpnNnqYD7pP5JnRwjrJ2zbZk2U.webp?scale-down-to=512&width=5504&height=3072 512w,https://framerusercontent.com/images/VpnNnqYD7pP5JnRwjrJ2zbZk2U.webp?scale-down-to=1024&width=5504&height=3072 1024w,https://framerusercontent.com/images/VpnNnqYD7pP5JnRwjrJ2zbZk2U.webp?scale-down-to=2048&width=5504&height=3072 2048w,https://framerusercontent.com/images/VpnNnqYD7pP5JnRwjrJ2zbZk2U.webp?scale-down-to=4096&width=5504&height=3072 4096w,https://framerusercontent.com/images/VpnNnqYD7pP5JnRwjrJ2zbZk2U.webp?width=5504&height=3072 5504w",
+      "alt": "general medicine ",
+      "width": "5504",
+      "height": "3072",
+      "path": [
+        "Expertise - Section",
+        "Content Stack",
+        "Info Stack",
+        "Testimonial Card",
+        "Service Stack",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HM5PHGoa60qPQJbIT4qAtJbLfY0.png?width=118&height=118",
+      "srcset": null,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Expertise - Section",
+        "Content Stack",
+        "Info Stack",
+        "Testimonial Card",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TaH1z9npw2fIqyzXVUtHEQHqwCg.webp?width=4096&height=4096",
+      "srcset": "https://framerusercontent.com/images/TaH1z9npw2fIqyzXVUtHEQHqwCg.webp?scale-down-to=512&width=4096&height=4096 512w,https://framerusercontent.com/images/TaH1z9npw2fIqyzXVUtHEQHqwCg.webp?scale-down-to=1024&width=4096&height=4096 1024w,https://framerusercontent.com/images/TaH1z9npw2fIqyzXVUtHEQHqwCg.webp?scale-down-to=2048&width=4096&height=4096 2048w,https://framerusercontent.com/images/TaH1z9npw2fIqyzXVUtHEQHqwCg.webp?width=4096&height=4096 4096w",
+      "alt": "dermatology image",
+      "width": "4096",
+      "height": "4096",
+      "path": [
+        "Expertise - Section",
+        "Content Stack",
+        "Info Stack",
+        "Testimonial Card",
+        "Service Stack",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TaH1z9npw2fIqyzXVUtHEQHqwCg.webp?width=4096&height=4096",
+      "srcset": "https://framerusercontent.com/images/TaH1z9npw2fIqyzXVUtHEQHqwCg.webp?scale-down-to=512&width=4096&height=4096 512w,https://framerusercontent.com/images/TaH1z9npw2fIqyzXVUtHEQHqwCg.webp?scale-down-to=1024&width=4096&height=4096 1024w,https://framerusercontent.com/images/TaH1z9npw2fIqyzXVUtHEQHqwCg.webp?scale-down-to=2048&width=4096&height=4096 2048w,https://framerusercontent.com/images/TaH1z9npw2fIqyzXVUtHEQHqwCg.webp?width=4096&height=4096 4096w",
+      "alt": "dermatology image",
+      "width": "4096",
+      "height": "4096",
+      "path": [
+        "Expertise - Section",
+        "Content Stack",
+        "Info Stack",
+        "Testimonial Card",
+        "Service Stack",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/m4KURX6Rwp3zrlunC62tjF8ovYw.webp?width=4096&height=4096",
+      "srcset": "https://framerusercontent.com/images/m4KURX6Rwp3zrlunC62tjF8ovYw.webp?scale-down-to=512&width=4096&height=4096 512w,https://framerusercontent.com/images/m4KURX6Rwp3zrlunC62tjF8ovYw.webp?scale-down-to=1024&width=4096&height=4096 1024w,https://framerusercontent.com/images/m4KURX6Rwp3zrlunC62tjF8ovYw.webp?scale-down-to=2048&width=4096&height=4096 2048w,https://framerusercontent.com/images/m4KURX6Rwp3zrlunC62tjF8ovYw.webp?width=4096&height=4096 4096w",
+      "alt": "gynecology image",
+      "width": "4096",
+      "height": "4096",
+      "path": [
+        "Expertise - Section",
+        "Content Stack",
+        "Info Stack",
+        "Testimonial Card",
+        "Service Stack",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/m4KURX6Rwp3zrlunC62tjF8ovYw.webp?width=4096&height=4096",
+      "srcset": "https://framerusercontent.com/images/m4KURX6Rwp3zrlunC62tjF8ovYw.webp?scale-down-to=512&width=4096&height=4096 512w,https://framerusercontent.com/images/m4KURX6Rwp3zrlunC62tjF8ovYw.webp?scale-down-to=1024&width=4096&height=4096 1024w,https://framerusercontent.com/images/m4KURX6Rwp3zrlunC62tjF8ovYw.webp?scale-down-to=2048&width=4096&height=4096 2048w,https://framerusercontent.com/images/m4KURX6Rwp3zrlunC62tjF8ovYw.webp?width=4096&height=4096 4096w",
+      "alt": "gynecology image",
+      "width": "4096",
+      "height": "4096",
+      "path": [
+        "Expertise - Section",
+        "Content Stack",
+        "Info Stack",
+        "Testimonial Card",
+        "Service Stack",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dnZb33DmmRRvt25AkFHxFEtUfmE.webp?width=5504&height=3072",
+      "srcset": "https://framerusercontent.com/images/dnZb33DmmRRvt25AkFHxFEtUfmE.webp?scale-down-to=512&width=5504&height=3072 512w,https://framerusercontent.com/images/dnZb33DmmRRvt25AkFHxFEtUfmE.webp?scale-down-to=1024&width=5504&height=3072 1024w,https://framerusercontent.com/images/dnZb33DmmRRvt25AkFHxFEtUfmE.webp?scale-down-to=2048&width=5504&height=3072 2048w,https://framerusercontent.com/images/dnZb33DmmRRvt25AkFHxFEtUfmE.webp?scale-down-to=4096&width=5504&height=3072 4096w,https://framerusercontent.com/images/dnZb33DmmRRvt25AkFHxFEtUfmE.webp?width=5504&height=3072 5504w",
+      "alt": "pediatric care ",
+      "width": "5504",
+      "height": "3072",
+      "path": [
+        "Expertise - Section",
+        "Content Stack",
+        "Info Stack",
+        "Testimonial Card",
+        "Service Stack",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Bjwzn8ds2ahRmHbBNEDpahWqPY.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/Bjwzn8ds2ahRmHbBNEDpahWqPY.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/Bjwzn8ds2ahRmHbBNEDpahWqPY.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/Bjwzn8ds2ahRmHbBNEDpahWqPY.png?width=1200&height=1200 1200w",
+      "alt": "step 1 illustration",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "How it Works - Section",
+        "Content Stack",
+        "Steps Stack",
+        "Step 1",
+        "Top Stack",
+        "Logo 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4VzK1YnrygKcUycRt2ixVfrpp7k.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/4VzK1YnrygKcUycRt2ixVfrpp7k.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/4VzK1YnrygKcUycRt2ixVfrpp7k.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/4VzK1YnrygKcUycRt2ixVfrpp7k.png?width=1200&height=1200 1200w",
+      "alt": "step 2 illustraiton",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "How it Works - Section",
+        "Content Stack",
+        "Steps Stack",
+        "Step 2",
+        "Top Stack",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/A8s7Qtmg128vQG2csKMmD6oLNc.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/A8s7Qtmg128vQG2csKMmD6oLNc.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/A8s7Qtmg128vQG2csKMmD6oLNc.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/A8s7Qtmg128vQG2csKMmD6oLNc.png?width=1200&height=1200 1200w",
+      "alt": "step 3 illustation",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "How it Works - Section",
+        "Content Stack",
+        "Steps Stack",
+        "Step 3",
+        "Top Stack",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NyHAAOvVVy1zwhT2jhcsCaheuI.webp?width=6336&height=2688",
+      "srcset": "https://framerusercontent.com/images/NyHAAOvVVy1zwhT2jhcsCaheuI.webp?scale-down-to=512&width=6336&height=2688 512w,https://framerusercontent.com/images/NyHAAOvVVy1zwhT2jhcsCaheuI.webp?scale-down-to=1024&width=6336&height=2688 1024w,https://framerusercontent.com/images/NyHAAOvVVy1zwhT2jhcsCaheuI.webp?scale-down-to=2048&width=6336&height=2688 2048w,https://framerusercontent.com/images/NyHAAOvVVy1zwhT2jhcsCaheuI.webp?scale-down-to=4096&width=6336&height=2688 4096w,https://framerusercontent.com/images/NyHAAOvVVy1zwhT2jhcsCaheuI.webp?width=6336&height=2688 6336w",
+      "alt": "women holding a child",
+      "width": "6336",
+      "height": "2688",
+      "path": [
+        "Why Clinichub - Section",
+        "Inner Stack",
+        "24"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/j5kG5NmbDRZo3vXZBX1b7oZRgic.webp?width=1104&height=949",
+      "srcset": "https://framerusercontent.com/images/j5kG5NmbDRZo3vXZBX1b7oZRgic.webp?scale-down-to=512&width=1104&height=949 512w,https://framerusercontent.com/images/j5kG5NmbDRZo3vXZBX1b7oZRgic.webp?scale-down-to=1024&width=1104&height=949 1024w,https://framerusercontent.com/images/j5kG5NmbDRZo3vXZBX1b7oZRgic.webp?width=1104&height=949 1104w",
+      "alt": "dawward winning doctor image",
+      "width": "1104",
+      "height": "949",
+      "path": [
+        "Why Clinichub - Section",
+        "Inner Stack",
+        "Card Grid",
+        "Card 1",
+        "UI Illustration",
+        "UI Card"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/qzYcI8aegtUFr7W9xFiYDmexQ.webp?width=3584&height=4800",
+      "srcset": "https://framerusercontent.com/images/qzYcI8aegtUFr7W9xFiYDmexQ.webp?scale-down-to=1024&width=3584&height=4800 764w,https://framerusercontent.com/images/qzYcI8aegtUFr7W9xFiYDmexQ.webp?scale-down-to=2048&width=3584&height=4800 1529w,https://framerusercontent.com/images/qzYcI8aegtUFr7W9xFiYDmexQ.webp?scale-down-to=4096&width=3584&height=4800 3058w,https://framerusercontent.com/images/qzYcI8aegtUFr7W9xFiYDmexQ.webp?width=3584&height=4800 3584w",
+      "alt": "doctors image",
+      "width": "3584",
+      "height": "4800",
+      "path": [
+        "Our Team - Section",
+        "Content Stack",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/x1M0jXgcq6DfqsX6Mgl3ApHtp94.webp?width=3584&height=4800",
+      "srcset": "https://framerusercontent.com/images/x1M0jXgcq6DfqsX6Mgl3ApHtp94.webp?scale-down-to=1024&width=3584&height=4800 764w,https://framerusercontent.com/images/x1M0jXgcq6DfqsX6Mgl3ApHtp94.webp?scale-down-to=2048&width=3584&height=4800 1529w,https://framerusercontent.com/images/x1M0jXgcq6DfqsX6Mgl3ApHtp94.webp?scale-down-to=4096&width=3584&height=4800 3058w,https://framerusercontent.com/images/x1M0jXgcq6DfqsX6Mgl3ApHtp94.webp?width=3584&height=4800 3584w",
+      "alt": "",
+      "width": "3584",
+      "height": "4800",
+      "path": [
+        "Our Team - Section",
+        "Content Stack",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5fvHtP5fkhRSpRfklvhzz9ZvBtw.webp?width=3584&height=4800",
+      "srcset": "https://framerusercontent.com/images/5fvHtP5fkhRSpRfklvhzz9ZvBtw.webp?scale-down-to=1024&width=3584&height=4800 764w,https://framerusercontent.com/images/5fvHtP5fkhRSpRfklvhzz9ZvBtw.webp?scale-down-to=2048&width=3584&height=4800 1529w,https://framerusercontent.com/images/5fvHtP5fkhRSpRfklvhzz9ZvBtw.webp?scale-down-to=4096&width=3584&height=4800 3058w,https://framerusercontent.com/images/5fvHtP5fkhRSpRfklvhzz9ZvBtw.webp?width=3584&height=4800 3584w",
+      "alt": "",
+      "width": "3584",
+      "height": "4800",
+      "path": [
+        "Our Team - Section",
+        "Content Stack",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/cHNCzlShgn6eFCEPlpB25nhPoi8.webp?width=3584&height=4800",
+      "srcset": "https://framerusercontent.com/images/cHNCzlShgn6eFCEPlpB25nhPoi8.webp?scale-down-to=1024&width=3584&height=4800 764w,https://framerusercontent.com/images/cHNCzlShgn6eFCEPlpB25nhPoi8.webp?scale-down-to=2048&width=3584&height=4800 1529w,https://framerusercontent.com/images/cHNCzlShgn6eFCEPlpB25nhPoi8.webp?scale-down-to=4096&width=3584&height=4800 3058w,https://framerusercontent.com/images/cHNCzlShgn6eFCEPlpB25nhPoi8.webp?width=3584&height=4800 3584w",
+      "alt": "",
+      "width": "3584",
+      "height": "4800",
+      "path": [
+        "Our Team - Section",
+        "Content Stack",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BeJY8k7K93OAeh6rH3XAADJA1gw.webp?width=3584&height=4800",
+      "srcset": "https://framerusercontent.com/images/BeJY8k7K93OAeh6rH3XAADJA1gw.webp?scale-down-to=1024&width=3584&height=4800 764w,https://framerusercontent.com/images/BeJY8k7K93OAeh6rH3XAADJA1gw.webp?scale-down-to=2048&width=3584&height=4800 1529w,https://framerusercontent.com/images/BeJY8k7K93OAeh6rH3XAADJA1gw.webp?scale-down-to=4096&width=3584&height=4800 3058w,https://framerusercontent.com/images/BeJY8k7K93OAeh6rH3XAADJA1gw.webp?width=3584&height=4800 3584w",
+      "alt": "",
+      "width": "3584",
+      "height": "4800",
+      "path": [
+        "Our Team - Section",
+        "Content Stack",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/xO3NkRn0CB9TAUohuaB0HAj7e8.webp?width=5504&height=3072",
+      "srcset": "https://framerusercontent.com/images/xO3NkRn0CB9TAUohuaB0HAj7e8.webp?scale-down-to=512&width=5504&height=3072 512w,https://framerusercontent.com/images/xO3NkRn0CB9TAUohuaB0HAj7e8.webp?scale-down-to=1024&width=5504&height=3072 1024w,https://framerusercontent.com/images/xO3NkRn0CB9TAUohuaB0HAj7e8.webp?scale-down-to=2048&width=5504&height=3072 2048w,https://framerusercontent.com/images/xO3NkRn0CB9TAUohuaB0HAj7e8.webp?scale-down-to=4096&width=5504&height=3072 4096w,https://framerusercontent.com/images/xO3NkRn0CB9TAUohuaB0HAj7e8.webp?width=5504&height=3072 5504w",
+      "alt": "",
+      "width": "5504",
+      "height": "3072",
+      "path": [
+        "Variant 1",
+        "Content Stack",
+        "Testimonial Stack",
+        "Variant 1",
+        "Image Stack",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NdDNXmcjZE8htauBcZMigIa0DQ.webp?width=5504&height=3072",
+      "srcset": "https://framerusercontent.com/images/NdDNXmcjZE8htauBcZMigIa0DQ.webp?scale-down-to=512&width=5504&height=3072 512w,https://framerusercontent.com/images/NdDNXmcjZE8htauBcZMigIa0DQ.webp?scale-down-to=1024&width=5504&height=3072 1024w,https://framerusercontent.com/images/NdDNXmcjZE8htauBcZMigIa0DQ.webp?scale-down-to=2048&width=5504&height=3072 2048w,https://framerusercontent.com/images/NdDNXmcjZE8htauBcZMigIa0DQ.webp?scale-down-to=4096&width=5504&height=3072 4096w,https://framerusercontent.com/images/NdDNXmcjZE8htauBcZMigIa0DQ.webp?width=5504&height=3072 5504w",
+      "alt": "",
+      "width": "5504",
+      "height": "3072",
+      "path": [
+        "Variant 1",
+        "Content Stack",
+        "Testimonial Stack",
+        "Variant 1",
+        "Image Stack",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rWZWPaaN4IHjZchp7BCsL6lhsYE.webp?width=5504&height=3072",
+      "srcset": "https://framerusercontent.com/images/rWZWPaaN4IHjZchp7BCsL6lhsYE.webp?scale-down-to=512&width=5504&height=3072 512w,https://framerusercontent.com/images/rWZWPaaN4IHjZchp7BCsL6lhsYE.webp?scale-down-to=1024&width=5504&height=3072 1024w,https://framerusercontent.com/images/rWZWPaaN4IHjZchp7BCsL6lhsYE.webp?scale-down-to=2048&width=5504&height=3072 2048w,https://framerusercontent.com/images/rWZWPaaN4IHjZchp7BCsL6lhsYE.webp?scale-down-to=4096&width=5504&height=3072 4096w,https://framerusercontent.com/images/rWZWPaaN4IHjZchp7BCsL6lhsYE.webp?width=5504&height=3072 5504w",
+      "alt": "",
+      "width": "5504",
+      "height": "3072",
+      "path": [
+        "Variant 1",
+        "Content Stack",
+        "Testimonial Stack",
+        "Variant 1",
+        "Image Stack",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/xO3NkRn0CB9TAUohuaB0HAj7e8.webp?width=5504&height=3072",
+      "srcset": "https://framerusercontent.com/images/xO3NkRn0CB9TAUohuaB0HAj7e8.webp?scale-down-to=512&width=5504&height=3072 512w,https://framerusercontent.com/images/xO3NkRn0CB9TAUohuaB0HAj7e8.webp?scale-down-to=1024&width=5504&height=3072 1024w,https://framerusercontent.com/images/xO3NkRn0CB9TAUohuaB0HAj7e8.webp?scale-down-to=2048&width=5504&height=3072 2048w,https://framerusercontent.com/images/xO3NkRn0CB9TAUohuaB0HAj7e8.webp?scale-down-to=4096&width=5504&height=3072 4096w,https://framerusercontent.com/images/xO3NkRn0CB9TAUohuaB0HAj7e8.webp?width=5504&height=3072 5504w",
+      "alt": "",
+      "width": "5504",
+      "height": "3072",
+      "path": [
+        "Mobile 1",
+        "Content Stack",
+        "Testimonial Stack",
+        "Variant 2",
+        "Image Stack",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NdDNXmcjZE8htauBcZMigIa0DQ.webp?width=5504&height=3072",
+      "srcset": "https://framerusercontent.com/images/NdDNXmcjZE8htauBcZMigIa0DQ.webp?scale-down-to=512&width=5504&height=3072 512w,https://framerusercontent.com/images/NdDNXmcjZE8htauBcZMigIa0DQ.webp?scale-down-to=1024&width=5504&height=3072 1024w,https://framerusercontent.com/images/NdDNXmcjZE8htauBcZMigIa0DQ.webp?scale-down-to=2048&width=5504&height=3072 2048w,https://framerusercontent.com/images/NdDNXmcjZE8htauBcZMigIa0DQ.webp?scale-down-to=4096&width=5504&height=3072 4096w,https://framerusercontent.com/images/NdDNXmcjZE8htauBcZMigIa0DQ.webp?width=5504&height=3072 5504w",
+      "alt": "",
+      "width": "5504",
+      "height": "3072",
+      "path": [
+        "Mobile 1",
+        "Content Stack",
+        "Testimonial Stack",
+        "Variant 2",
+        "Image Stack",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rWZWPaaN4IHjZchp7BCsL6lhsYE.webp?width=5504&height=3072",
+      "srcset": "https://framerusercontent.com/images/rWZWPaaN4IHjZchp7BCsL6lhsYE.webp?scale-down-to=512&width=5504&height=3072 512w,https://framerusercontent.com/images/rWZWPaaN4IHjZchp7BCsL6lhsYE.webp?scale-down-to=1024&width=5504&height=3072 1024w,https://framerusercontent.com/images/rWZWPaaN4IHjZchp7BCsL6lhsYE.webp?scale-down-to=2048&width=5504&height=3072 2048w,https://framerusercontent.com/images/rWZWPaaN4IHjZchp7BCsL6lhsYE.webp?scale-down-to=4096&width=5504&height=3072 4096w,https://framerusercontent.com/images/rWZWPaaN4IHjZchp7BCsL6lhsYE.webp?width=5504&height=3072 5504w",
+      "alt": "",
+      "width": "5504",
+      "height": "3072",
+      "path": [
+        "Mobile 1",
+        "Content Stack",
+        "Testimonial Stack",
+        "Variant 2",
+        "Image Stack",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/xO3NkRn0CB9TAUohuaB0HAj7e8.webp?width=5504&height=3072",
+      "srcset": "https://framerusercontent.com/images/xO3NkRn0CB9TAUohuaB0HAj7e8.webp?scale-down-to=512&width=5504&height=3072 512w,https://framerusercontent.com/images/xO3NkRn0CB9TAUohuaB0HAj7e8.webp?scale-down-to=1024&width=5504&height=3072 1024w,https://framerusercontent.com/images/xO3NkRn0CB9TAUohuaB0HAj7e8.webp?scale-down-to=2048&width=5504&height=3072 2048w,https://framerusercontent.com/images/xO3NkRn0CB9TAUohuaB0HAj7e8.webp?scale-down-to=4096&width=5504&height=3072 4096w,https://framerusercontent.com/images/xO3NkRn0CB9TAUohuaB0HAj7e8.webp?width=5504&height=3072 5504w",
+      "alt": "",
+      "width": "5504",
+      "height": "3072",
+      "path": [
+        "Mobile 1",
+        "Content Stack",
+        "Testimonial Stack",
+        "Variant 2",
+        "Image Stack",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NdDNXmcjZE8htauBcZMigIa0DQ.webp?width=5504&height=3072",
+      "srcset": "https://framerusercontent.com/images/NdDNXmcjZE8htauBcZMigIa0DQ.webp?scale-down-to=512&width=5504&height=3072 512w,https://framerusercontent.com/images/NdDNXmcjZE8htauBcZMigIa0DQ.webp?scale-down-to=1024&width=5504&height=3072 1024w,https://framerusercontent.com/images/NdDNXmcjZE8htauBcZMigIa0DQ.webp?scale-down-to=2048&width=5504&height=3072 2048w,https://framerusercontent.com/images/NdDNXmcjZE8htauBcZMigIa0DQ.webp?scale-down-to=4096&width=5504&height=3072 4096w,https://framerusercontent.com/images/NdDNXmcjZE8htauBcZMigIa0DQ.webp?width=5504&height=3072 5504w",
+      "alt": "",
+      "width": "5504",
+      "height": "3072",
+      "path": [
+        "Mobile 1",
+        "Content Stack",
+        "Testimonial Stack",
+        "Variant 2",
+        "Image Stack",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rWZWPaaN4IHjZchp7BCsL6lhsYE.webp?width=5504&height=3072",
+      "srcset": "https://framerusercontent.com/images/rWZWPaaN4IHjZchp7BCsL6lhsYE.webp?scale-down-to=512&width=5504&height=3072 512w,https://framerusercontent.com/images/rWZWPaaN4IHjZchp7BCsL6lhsYE.webp?scale-down-to=1024&width=5504&height=3072 1024w,https://framerusercontent.com/images/rWZWPaaN4IHjZchp7BCsL6lhsYE.webp?scale-down-to=2048&width=5504&height=3072 2048w,https://framerusercontent.com/images/rWZWPaaN4IHjZchp7BCsL6lhsYE.webp?scale-down-to=4096&width=5504&height=3072 4096w,https://framerusercontent.com/images/rWZWPaaN4IHjZchp7BCsL6lhsYE.webp?width=5504&height=3072 5504w",
+      "alt": "",
+      "width": "5504",
+      "height": "3072",
+      "path": [
+        "Mobile 1",
+        "Content Stack",
+        "Testimonial Stack",
+        "Variant 2",
+        "Image Stack",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HM5PHGoa60qPQJbIT4qAtJbLfY0.png?width=118&height=118",
+      "srcset": null,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "FAQ - Section",
+        "Content Stack",
+        "Booking Card",
+        "Top Stack"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/oBwn9sqZ99XUyekqmWbeTyTZgA.png?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/oBwn9sqZ99XUyekqmWbeTyTZgA.png?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/oBwn9sqZ99XUyekqmWbeTyTZgA.png?width=600&height=600 600w",
+      "alt": "",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Nav Frame",
+        "Desktop",
+        "Top Nav",
+        "Logo",
+        "Logo & Text",
+        "logo (change)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/oBwn9sqZ99XUyekqmWbeTyTZgA.png?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/oBwn9sqZ99XUyekqmWbeTyTZgA.png?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/oBwn9sqZ99XUyekqmWbeTyTZgA.png?width=600&height=600 600w",
+      "alt": "",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Nav Frame",
+        "Mobile Close",
+        "Top Nav",
+        "Logo",
+        "Logo & Text",
+        "logo (change)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/oBwn9sqZ99XUyekqmWbeTyTZgA.png?width=600&height=600",
+      "srcset": "https://framerusercontent.com/images/oBwn9sqZ99XUyekqmWbeTyTZgA.png?scale-down-to=512&width=600&height=600 512w,https://framerusercontent.com/images/oBwn9sqZ99XUyekqmWbeTyTZgA.png?width=600&height=600 600w",
+      "alt": "clinic hub logo",
+      "width": "600",
+      "height": "600",
+      "path": [
+        "Footer - Section",
+        "CTA Stack",
+        "Content Stack",
+        "Logo Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/y5R3ZNnaDuy1KlEBbhlyKy51Qug.png?width=508&height=224",
+      "srcset": null,
+      "alt": "iso badge",
+      "width": "508",
+      "height": "224",
+      "path": [
+        "Footer - Section",
+        "Footer Stack",
+        "Info Stack",
+        "Badges",
+        "Badges",
+        "ISO Badge@4x"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/9W1CV7YW6gpU5vsaREXM4raf2o.png?width=704&height=224",
+      "srcset": "https://framerusercontent.com/images/9W1CV7YW6gpU5vsaREXM4raf2o.png?scale-down-to=512&width=704&height=224 512w,https://framerusercontent.com/images/9W1CV7YW6gpU5vsaREXM4raf2o.png?width=704&height=224 704w",
+      "alt": "hippa badge",
+      "width": "704",
+      "height": "224",
+      "path": [
+        "Footer - Section",
+        "Footer Stack",
+        "Info Stack",
+        "Badges",
+        "Badges",
+        "Hippa Badge@4x"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    }
+  ],
+  "videoReferences": [],
+  "linksDeclaredInSource": [
+    "https://clinichub.framer.ai/",
+    "https://clinichub.framer.ai/#doctors",
+    "https://clinichub.framer.ai/#expertise",
+    "https://clinichub.framer.ai/#how-it-works",
+    "https://clinichub.framer.ai/#reviews",
+    "https://clinichub.framer.ai/#why-us",
+    "https://clinichub.framer.ai/privacy-policy",
+    "https://clinichub.framer.ai/visit-us",
+    "https://www.framer.com",
+    "https://x.com/adheebhameed"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F63137%2Fclinichub-kFe2aGBWvaaZPq8NZS1as2v829Chba&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F63137%2Fclinichub-bSdPNEgOqUqASQjk1zUjUR9YY00cZq&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F63137%2Fclinichub-X0GtiJKI9PxSQn2Sj1qMAgqA0HdEos&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-04.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F63137%2Fclinichub-xDhTbrGoWsOWN3lfR6wfH4pz7SbYvn&w=2048&q=80"
+    }
+  ],
+  "category": {
+    "parent": "Healthcare",
+    "branch": "Medical clinic",
+    "fitEvidence": "Official Marketplace Medical classification and explicit clinic/doctor/practice positioning; home exposes services, clinician cards and appointment CTA.",
+    "marketplace": "https://www.framer.com/marketplace/templates/clinichub/"
+  },
+  "backendVerified": false,
+  "secondaryDeclarationsFile": "secondary-declarations.json",
+  "regulatedContentScope": "Design reference only. Financial, medical and donation copy is source context, not advice or verified claims. Authentication, payment, forms, appointments and donations were not tested.",
+  "captureRasterPx": {
+    "width": 1348,
+    "height": 926
+  },
+  "browserObservationsFile": "BROWSER-OBSERVATIONS.json",
+  "nativeBrowserCaptures": [
+    {
+      "file": "screenshots/live-home.jpg",
+      "label": "home",
+      "url": "https://clinichub.framer.ai/",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    },
+    {
+      "file": "screenshots/live-secondary.jpg",
+      "label": "secondary",
+      "url": "https://clinichub.framer.ai/visit-us",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    }
+  ],
+  "phoneTabletRendered": false
+}

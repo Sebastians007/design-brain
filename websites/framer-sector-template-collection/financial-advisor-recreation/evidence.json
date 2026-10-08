@@ -1,0 +1,998 @@
+{
+  "template": "Financial Advisor",
+  "preview": "https://confident-skills-748945.framer.app/",
+  "marketplace": "https://www.framer.com/marketplace/templates/financial-advisor/",
+  "creator": "SoloFoundry",
+  "coverage": "Public source declarations, official marketplace artwork and actual browser captures at the individually recorded viewport/state. Phone/tablet, complete motion and backend behavior unverified.",
+  "viewport": {
+    "devicePixelRatio": 1,
+    "height": 936,
+    "width": 1363
+  },
+  "pageHeight": 19354,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 4 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-05.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 5 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 4 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-05.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 5 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "block",
+      "gap": "normal",
+      "height": 112,
+      "id": "",
+      "tag": "HEADER",
+      "width": 1348,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "2px",
+      "height": 38,
+      "id": "",
+      "tag": "NAV",
+      "width": 378.84375,
+      "x": 441.5,
+      "y": 60
+    },
+    {
+      "background": "rgb(242, 241, 236)",
+      "display": "block",
+      "gap": "normal",
+      "height": 865.03125,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "grid",
+      "gap": "6px",
+      "height": 63.984375,
+      "id": "",
+      "tag": "HEADER",
+      "width": 223.515625,
+      "x": 662.40625,
+      "y": 489.109375
+    },
+    {
+      "background": "rgb(20, 26, 34)",
+      "display": "block",
+      "gap": "normal",
+      "height": 156,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 865.03125
+    },
+    {
+      "background": "rgb(242, 241, 236)",
+      "display": "block",
+      "gap": "normal",
+      "height": 1922.34375,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 1021.03125
+    },
+    {
+      "background": "rgb(242, 241, 236)",
+      "display": "block",
+      "gap": "normal",
+      "height": 1044.515625,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 2943.375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "grid",
+      "gap": "22px",
+      "height": 158.3125,
+      "id": "",
+      "tag": "HEADER",
+      "width": 900,
+      "x": 56,
+      "y": 3025.140625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 26,
+      "id": "",
+      "tag": "HEADER",
+      "width": 453.15625,
+      "x": 750.09375,
+      "y": 3283.59375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 45,
+      "id": "",
+      "tag": "FOOTER",
+      "width": 453.15625,
+      "x": 750.09375,
+      "y": 3702.59375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 30.743896484375,
+      "id": "",
+      "tag": "HEADER",
+      "width": 453.40374755859375,
+      "x": 756.9121704101562,
+      "y": 3453.768310546875
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 49.742919921875,
+      "id": "",
+      "tag": "FOOTER",
+      "width": 453.60260009765625,
+      "x": 761.2998657226562,
+      "y": 3872.745361328125
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 32.324462890625,
+      "id": "",
+      "tag": "HEADER",
+      "width": 453.47503662109375,
+      "x": 780.6780395507812,
+      "y": 3445.99853515625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 51.322509765625,
+      "id": "",
+      "tag": "FOOTER",
+      "width": 453.7403564453125,
+      "x": 774.5626220703125,
+      "y": 3864.957763671875
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 43.37646484375,
+      "id": "",
+      "tag": "HEADER",
+      "width": 453.82025146484375,
+      "x": 804.3030395507812,
+      "y": 3433.781494140625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 62.362548828125,
+      "id": "",
+      "tag": "FOOTER",
+      "width": 454.5496826171875,
+      "x": 787.4891357421875,
+      "y": 3852.47265625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 54.402587890625,
+      "id": "",
+      "tag": "HEADER",
+      "width": 453.8946533203125,
+      "x": 828.0523681640625,
+      "y": 3421.865478515625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 73.364990234375,
+      "id": "",
+      "tag": "FOOTER",
+      "width": 455.0875244140625,
+      "x": 800.5501708984375,
+      "y": 3840.038818359375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 65.396240234375,
+      "id": "",
+      "tag": "HEADER",
+      "width": 453.6979370117187,
+      "x": 851.9191284179688,
+      "y": 3410.253662109375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 84.323974609375,
+      "id": "",
+      "tag": "FOOTER",
+      "width": 455.35394287109375,
+      "x": 813.7449340820312,
+      "y": 3827.6591796875
+    },
+    {
+      "background": "rgb(20, 26, 34)",
+      "display": "block",
+      "gap": "normal",
+      "height": 3182.390625,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 3987.890625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "grid",
+      "gap": "18px",
+      "height": 221,
+      "id": "",
+      "tag": "HEADER",
+      "width": 1236,
+      "x": 56,
+      "y": 4119.109375
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "display": "block",
+      "gap": "normal",
+      "height": 972.390625,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 7088.515625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "grid",
+      "gap": "54.52px",
+      "height": 163.90625,
+      "id": "",
+      "tag": "HEADER",
+      "width": 1236,
+      "x": 56,
+      "y": 7170.28125
+    },
+    {
+      "background": "rgb(242, 241, 236)",
+      "display": "block",
+      "gap": "normal",
+      "height": 1087.953125,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 8060.90625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "grid",
+      "gap": "22px",
+      "height": 253.46875,
+      "id": "",
+      "tag": "HEADER",
+      "width": 860,
+      "x": 56,
+      "y": 8197.203125
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "8px",
+      "height": 27,
+      "id": "",
+      "tag": "HEADER",
+      "width": 182.609375,
+      "x": 564.765625,
+      "y": 8626.5625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "8px",
+      "height": 38,
+      "id": "",
+      "tag": "HEADER",
+      "width": 182.609375,
+      "x": 822.953125,
+      "y": 8587.0625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "8px",
+      "height": 27,
+      "id": "",
+      "tag": "HEADER",
+      "width": 182.609375,
+      "x": 1081.140625,
+      "y": 8587.0625
+    },
+    {
+      "background": "rgb(242, 241, 236)",
+      "display": "block",
+      "gap": "normal",
+      "height": 1117.953125,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 9148.859375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "grid",
+      "gap": "54.52px",
+      "height": 177.09375,
+      "id": "",
+      "tag": "HEADER",
+      "width": 1236,
+      "x": 56,
+      "y": 9285.15625
+    },
+    {
+      "background": "rgb(242, 241, 236)",
+      "display": "block",
+      "gap": "normal",
+      "height": 2433.59375,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 10266.8125
+    },
+    {
+      "background": "rgb(10, 12, 15)",
+      "display": "block",
+      "gap": "normal",
+      "height": 2808,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 12700.40625
+    },
+    {
+      "background": "rgb(200, 240, 74)",
+      "display": "block",
+      "gap": "normal",
+      "height": 614.90625,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 15508.40625
+    },
+    {
+      "background": "rgb(242, 241, 236)",
+      "display": "block",
+      "gap": "normal",
+      "height": 967.578125,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 16123.3125
+    }
+  ],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Noto Serif",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/notoserif/v33/ga6iaw1J5X9T9RW6j9bNVls-hfgvz8JcMofYTa32J4wsL2JAlAhZqFCTx8cK.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/noto-serif-400-0.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Playfair Display",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDXbtM.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/playfair-display-400-1.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Work Sans",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXBi8Jpg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/work-sans-400-2.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/fragment-mono-400-3.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Space Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/spacemono/v17/i7dPIFZifjKcF5UAWdDRYEF8RQ.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/space-mono-400-4.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-5.woff2",
+      "actualFormat": "woff2"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "300",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSH9ZP_rA.ttf",
+      "range": "",
+      "file": "assets/fonts/albert-sans-300-6.ttf",
+      "actualFormat": "truetype"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSHq5P_rA.ttf",
+      "range": "",
+      "file": "assets/fonts/albert-sans-400-7.ttf",
+      "actualFormat": "truetype"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSHmZP_rA.ttf",
+      "range": "",
+      "file": "assets/fonts/albert-sans-500-8.ttf",
+      "actualFormat": "truetype"
+    },
+    {
+      "family": "Albert Sans",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/albertsans/v4/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSHdZT_rA.ttf",
+      "range": "",
+      "file": "assets/fonts/albert-sans-600-9.ttf",
+      "actualFormat": "truetype"
+    },
+    {
+      "family": "JetBrains Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxjPQ.ttf",
+      "range": "",
+      "file": "assets/fonts/jetbrains-mono-400-10.ttf",
+      "actualFormat": "truetype"
+    },
+    {
+      "family": "JetBrains Mono",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxjPQ.ttf",
+      "range": "",
+      "file": "assets/fonts/jetbrains-mono-500-11.ttf",
+      "actualFormat": "truetype"
+    },
+    {
+      "family": "Newsreader",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/newsreader/v26/cY9kfjOCX1hbuyalUrK439vogqC9yFZCYg7oRZaLP4obnf7fTXglsMwoT-ZA.ttf",
+      "range": "",
+      "file": "assets/fonts/newsreader-400-12.ttf",
+      "actualFormat": "truetype"
+    },
+    {
+      "family": "Schibsted Grotesk",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/schibstedgrotesk/v7/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMNIsEATw.ttf",
+      "range": "",
+      "file": "assets/fonts/schibsted-grotesk-400-13.ttf",
+      "actualFormat": "truetype"
+    },
+    {
+      "family": "Schibsted Grotesk",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/schibstedgrotesk/v7/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMNEMEATw.ttf",
+      "range": "",
+      "file": "assets/fonts/schibsted-grotesk-500-14.ttf",
+      "actualFormat": "truetype"
+    },
+    {
+      "family": "Schibsted Grotesk",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/schibstedgrotesk/v7/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMN_MYATw.ttf",
+      "range": "",
+      "file": "assets/fonts/schibsted-grotesk-600-15.ttf",
+      "actualFormat": "truetype"
+    },
+    {
+      "family": "Schibsted Grotesk",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/schibstedgrotesk/v7/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMNxcYATw.ttf",
+      "range": "",
+      "file": "assets/fonts/schibsted-grotesk-700-16.ttf",
+      "actualFormat": "truetype"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/images/JSFWJLjJBWM5GyirP5JG2xLXGY.webp?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/JSFWJLjJBWM5GyirP5JG2xLXGY.webp?scale-down-to=512 512w, https://framerusercontent.com/images/JSFWJLjJBWM5GyirP5JG2xLXGY.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/JSFWJLjJBWM5GyirP5JG2xLXGY.webp?scale-down-to=2048 2048w",
+      "alt": "A calm office by a tall window over the city, a laptop open on the desk",
+      "width": null,
+      "height": null,
+      "path": [
+        "Hero",
+        "WoHero"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/usqWv0nBbL7NCqXY4flfKIp1tFU.webp?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/usqWv0nBbL7NCqXY4flfKIp1tFU.webp?scale-down-to=512 512w, https://framerusercontent.com/images/usqWv0nBbL7NCqXY4flfKIp1tFU.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/usqWv0nBbL7NCqXY4flfKIp1tFU.webp?scale-down-to=2048 2048w",
+      "alt": "Helena Marsh",
+      "width": null,
+      "height": null,
+      "path": [
+        "Team",
+        "WoTeam"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DXc56U8OKLJyD4B6XbZGPY2oAw.webp?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/DXc56U8OKLJyD4B6XbZGPY2oAw.webp?scale-down-to=512 512w, https://framerusercontent.com/images/DXc56U8OKLJyD4B6XbZGPY2oAw.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/DXc56U8OKLJyD4B6XbZGPY2oAw.webp?scale-down-to=2048 2048w",
+      "alt": "Daniel Okafor",
+      "width": null,
+      "height": null,
+      "path": [
+        "Team",
+        "WoTeam"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/PEE74xKxywH6PoOiheZETwKpo.webp?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/PEE74xKxywH6PoOiheZETwKpo.webp?scale-down-to=512 512w, https://framerusercontent.com/images/PEE74xKxywH6PoOiheZETwKpo.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/PEE74xKxywH6PoOiheZETwKpo.webp?scale-down-to=2048 2048w",
+      "alt": "Priya Raman",
+      "width": null,
+      "height": null,
+      "path": [
+        "Team",
+        "WoTeam"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/YNTEdLqIdCu9sZEBY63OnYENnHA.webp?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/YNTEdLqIdCu9sZEBY63OnYENnHA.webp?scale-down-to=512 512w, https://framerusercontent.com/images/YNTEdLqIdCu9sZEBY63OnYENnHA.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/YNTEdLqIdCu9sZEBY63OnYENnHA.webp?scale-down-to=2048 2048w",
+      "alt": "Tom Whitfield",
+      "width": null,
+      "height": null,
+      "path": [
+        "Team",
+        "WoTeam"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/z6JoyDgZBpe87M2Ar2N6Lszvaoo.webp?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/z6JoyDgZBpe87M2Ar2N6Lszvaoo.webp?scale-down-to=512 512w, https://framerusercontent.com/images/z6JoyDgZBpe87M2Ar2N6Lszvaoo.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/z6JoyDgZBpe87M2Ar2N6Lszvaoo.webp?scale-down-to=2048 2048w",
+      "alt": "Two armchairs by a tall window in a quiet meeting room",
+      "width": null,
+      "height": null,
+      "path": [
+        "Blinds",
+        "WoBlinds"
+      ],
+      "inlineStyle": "object-position:50% 50%",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DcU3ZAHOZMLOQ70ivdTyitFRjnE.webp?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/DcU3ZAHOZMLOQ70ivdTyitFRjnE.webp?scale-down-to=512 512w, https://framerusercontent.com/images/DcU3ZAHOZMLOQ70ivdTyitFRjnE.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/DcU3ZAHOZMLOQ70ivdTyitFRjnE.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Notes",
+        "WoNotes"
+      ],
+      "inlineStyle": "object-position:50% 40%;transition-delay:200ms",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/a9I201sSraDhkVnLPkkCTCHoE.webp?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/a9I201sSraDhkVnLPkkCTCHoE.webp?scale-down-to=512 512w, https://framerusercontent.com/images/a9I201sSraDhkVnLPkkCTCHoE.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/a9I201sSraDhkVnLPkkCTCHoE.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Notes",
+        "WoNotes"
+      ],
+      "inlineStyle": "object-position:50% 40%;transition-delay:340ms",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Ai5nqi5bsjq2e1wkcVWKpfiZLw.webp?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/Ai5nqi5bsjq2e1wkcVWKpfiZLw.webp?scale-down-to=512 512w, https://framerusercontent.com/images/Ai5nqi5bsjq2e1wkcVWKpfiZLw.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/Ai5nqi5bsjq2e1wkcVWKpfiZLw.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Notes",
+        "WoNotes"
+      ],
+      "inlineStyle": "object-position:50% 40%;transition-delay:480ms",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/s3Vnwoln6kUz7rBy40TK8CtF4.webp?scale-down-to=1024",
+      "srcset": "https://framerusercontent.com/images/s3Vnwoln6kUz7rBy40TK8CtF4.webp?scale-down-to=512 512w, https://framerusercontent.com/images/s3Vnwoln6kUz7rBy40TK8CtF4.webp?scale-down-to=1024 1024w, https://framerusercontent.com/images/s3Vnwoln6kUz7rBy40TK8CtF4.webp?scale-down-to=2048 2048w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Notes",
+        "WoNotes"
+      ],
+      "inlineStyle": "object-position:50% 40%;transition-delay:620ms",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/usqWv0nBbL7NCqXY4flfKIp1tFU.webp?scale-down-to=1024",
+      "srcset": null,
+      "alt": "",
+      "width": "32",
+      "height": "32",
+      "path": [
+        "Book",
+        "WoBook"
+      ],
+      "inlineStyle": "",
+      "box": null
+    }
+  ],
+  "videoReferences": [],
+  "linksDeclaredInSource": [
+    "https://confident-skills-748945.framer.app/",
+    "https://confident-skills-748945.framer.app/#main",
+    "https://confident-skills-748945.framer.app/about",
+    "https://confident-skills-748945.framer.app/book",
+    "https://confident-skills-748945.framer.app/book?day=Tue&time=10%3A30",
+    "https://confident-skills-748945.framer.app/contact",
+    "https://confident-skills-748945.framer.app/faq",
+    "https://confident-skills-748945.framer.app/fees",
+    "https://confident-skills-748945.framer.app/insights",
+    "https://confident-skills-748945.framer.app/insights/how-much-to-retire",
+    "https://confident-skills-748945.framer.app/insights/rebalancing",
+    "https://confident-skills-748945.framer.app/insights/roth-conversions",
+    "https://confident-skills-748945.framer.app/insights/the-family-folder",
+    "https://confident-skills-748945.framer.app/login",
+    "https://confident-skills-748945.framer.app/privacy",
+    "https://confident-skills-748945.framer.app/services",
+    "https://confident-skills-748945.framer.app/services/estate-and-family",
+    "https://confident-skills-748945.framer.app/services/financial-planning",
+    "https://confident-skills-748945.framer.app/services/insurance",
+    "https://confident-skills-748945.framer.app/services/investments",
+    "https://confident-skills-748945.framer.app/services/retirement",
+    "https://confident-skills-748945.framer.app/services/tax-planning",
+    "https://confident-skills-748945.framer.app/stories",
+    "https://confident-skills-748945.framer.app/stories/the-business-sale",
+    "https://confident-skills-748945.framer.app/stories/the-late-starters",
+    "https://confident-skills-748945.framer.app/stories/the-surgeon",
+    "https://confident-skills-748945.framer.app/stories/the-widow",
+    "https://confident-skills-748945.framer.app/terms",
+    "https://www.framer.com",
+    "mailto:hello@wealthora.com",
+    "tel:+14155550142",
+    "tel:200140094104"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://image.mux.com/tai8ZqC5y1HrQErZYAeI6HbNUMKWJPsmEFVWQBVW1Bo/thumbnail.webp?time=4.967"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F1d92921a-f446-49df-bde9-d8673dfd6a1c%2F01a0d7ff-b133-7105-a927-776f2134718a.jpg&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F1d92921a-f446-49df-bde9-d8673dfd6a1c%2F01a0d7ff-b09a-76bb-9729-72e55c661f70.jpg&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-04.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F1d92921a-f446-49df-bde9-d8673dfd6a1c%2F01a0d7ff-b07d-717b-be3f-38eb290cbf2c.jpg&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-05.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F1d92921a-f446-49df-bde9-d8673dfd6a1c%2F01a0d7ff-b07d-7576-8128-09c545c0022b.jpg&w=2048&q=80"
+    }
+  ],
+  "category": {
+    "parent": "Finance / fintech",
+    "branch": "Financial advisory firm",
+    "fitEvidence": "Official listing explicitly addresses financial planners, wealth managers and fee-only advisory firms; preview includes advisory services, fee plans, advisor profiles, client stories and consultation booking.",
+    "marketplace": "https://www.framer.com/marketplace/templates/financial-advisor/"
+  },
+  "backendVerified": false,
+  "secondaryDeclarationsFile": "secondary-declarations.json",
+  "regulatedContentScope": "Design reference only. Financial, medical and donation copy is source context, not advice or verified claims. Authentication, payment, forms, appointments and donations were not tested.",
+  "captureRasterPx": {
+    "width": 1348,
+    "height": 926
+  },
+  "browserObservationsFile": "BROWSER-OBSERVATIONS.json",
+  "nativeBrowserCaptures": [
+    {
+      "file": "screenshots/live-home.jpg",
+      "label": "home",
+      "url": "https://confident-skills-748945.framer.app/",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    },
+    {
+      "file": "screenshots/live-home-intro.jpg",
+      "label": "home-intro",
+      "url": "https://confident-skills-748945.framer.app/",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1363,
+        "height": 936
+      }
+    },
+    {
+      "file": "screenshots/live-secondary.jpg",
+      "label": "secondary",
+      "url": "https://confident-skills-748945.framer.app/fees",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    },
+    {
+      "file": "screenshots/live-secondary-intro.jpg",
+      "label": "secondary-intro",
+      "url": "https://confident-skills-748945.framer.app/fees",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1363,
+        "height": 936
+      }
+    }
+  ],
+  "phoneTabletRendered": false
+}
