@@ -1,0 +1,1323 @@
+{
+  "url": "https://most-task-208471.framer.app/join",
+  "status": "Public HTML/CSS fetched",
+  "scope": "SOURCE DECLARED; not rendered geometry or backend verification",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Request your seat",
+      "path": [
+        "Header"
+      ]
+    },
+    {
+      "tag": "h3",
+      "text": "KEEP",
+      "path": [
+        "Footer",
+        "Content",
+        "Brand"
+      ]
+    }
+  ],
+  "structure": [
+    "Desktop",
+    "TopRow",
+    "Primary",
+    "Letter K0",
+    "Letter E1",
+    "Letter E2",
+    "Letter P3",
+    "Links",
+    "Phone",
+    "Header",
+    "Form Section",
+    "Form",
+    "Footer",
+    "Content",
+    "Brand",
+    "Explore",
+    "Info",
+    "Bottom",
+    "Wordmark",
+    "Light",
+    "Accent",
+    "Backdrop",
+    "Logo",
+    "Text",
+    "Border"
+  ],
+  "typographyPresets": [
+    {
+      "selector": ".framer-4ePcD .framer-styles-preset-xc1ghi:not(.rich-text-wrapper),.framer-4ePcD .framer-styles-preset-xc1ghi.rich-text-wrapper h3",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Clash Grotesk\",\"Clash Grotesk Placeholder\",sans-serif",
+        "--framer-font-family-bold": "\"Clash Grotesk\",\"Clash Grotesk Placeholder\",sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+        "--framer-font-size": "24px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "600",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "-.4px",
+        "--framer-line-height": "1.15em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-474ca55e-d7fb-4afd-be4d-e2a2775415ae)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".text-styles-preset-reset.framer-text",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter,Inter Placeholder,sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      }
+    },
+    {
+      "selector": "[data-framer-component-type=DeprecatedRichText] .text-styles-preset-reset",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter,Inter Placeholder,sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--font-variation-settings": "normal"
+      }
+    },
+    {
+      "selector": ".framer-juSvK .framer-styles-preset-1yj8w7t:not(.rich-text-wrapper),.framer-juSvK .framer-styles-preset-1yj8w7t.rich-text-wrapper p",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"IBM Plex Mono\",\"IBM Plex Mono Placeholder\",monospace",
+        "--framer-font-family-bold": "\"IBM Plex Mono\",\"IBM Plex Mono Placeholder\",monospace",
+        "--framer-font-family-bold-italic": "\"IBM Plex Mono\",\"IBM Plex Mono Placeholder\",monospace",
+        "--framer-font-family-italic": "\"IBM Plex Mono\",\"IBM Plex Mono Placeholder\",monospace",
+        "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+        "--framer-font-size": "12px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-style-bold-italic": "italic",
+        "--framer-font-style-italic": "italic",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-font-weight-bold-italic": "700",
+        "--framer-font-weight-italic": "500",
+        "--framer-letter-spacing": ".14em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-5325c272-f998-4b3e-a20c-0112407c0431)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-W08D3 .framer-styles-preset-mr9x85:not(.rich-text-wrapper),.framer-W08D3 .framer-styles-preset-mr9x85.rich-text-wrapper h1",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Clash Grotesk\",\"Clash Grotesk Placeholder\",sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+        "--framer-font-size": "76px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "700",
+        "--framer-letter-spacing": "-2.5px",
+        "--framer-line-height": "1em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-474ca55e-d7fb-4afd-be4d-e2a2775415ae)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      }
+    },
+    {
+      "selector": ".framer-W08D3 .framer-styles-preset-mr9x85:not(.rich-text-wrapper),.framer-W08D3 .framer-styles-preset-mr9x85.rich-text-wrapper h1",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Clash Grotesk\",\"Clash Grotesk Placeholder\",sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+        "--framer-font-size": "54px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "700",
+        "--framer-letter-spacing": "-1.6px",
+        "--framer-line-height": "1em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-474ca55e-d7fb-4afd-be4d-e2a2775415ae)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      }
+    },
+    {
+      "selector": ".framer-W08D3 .framer-styles-preset-mr9x85:not(.rich-text-wrapper),.framer-W08D3 .framer-styles-preset-mr9x85.rich-text-wrapper h1",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Clash Grotesk\",\"Clash Grotesk Placeholder\",sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+        "--framer-font-size": "40px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "700",
+        "--framer-letter-spacing": "-1px",
+        "--framer-line-height": "1em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-474ca55e-d7fb-4afd-be4d-e2a2775415ae)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      }
+    },
+    {
+      "selector": ".framer-nYKNh .framer-styles-preset-3ahds4:not(.rich-text-wrapper),.framer-nYKNh .framer-styles-preset-3ahds4.rich-text-wrapper p",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Fira Sans\",\"Fira Sans Placeholder\",sans-serif",
+        "--framer-font-family-bold": "\"Fira Sans\",\"Fira Sans Placeholder\",sans-serif",
+        "--framer-font-family-bold-italic": "\"Fira Sans\",\"Fira Sans Placeholder\",sans-serif",
+        "--framer-font-family-italic": "\"Fira Sans\",\"Fira Sans Placeholder\",sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-style-bold-italic": "italic",
+        "--framer-font-style-italic": "italic",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-font-weight-bold": "700",
+        "--framer-font-weight-bold-italic": "700",
+        "--framer-font-weight-italic": "400",
+        "--framer-letter-spacing": "-.02em",
+        "--framer-line-height": "1.6em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-5325c272-f998-4b3e-a20c-0112407c0431)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      }
+    },
+    {
+      "selector": ".framer-qvC7b .framer-styles-preset-18ubu0t:not(.rich-text-wrapper),.framer-qvC7b .framer-styles-preset-18ubu0t.rich-text-wrapper p",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Fira Sans\",\"Fira Sans Placeholder\",sans-serif",
+        "--framer-font-family-bold": "\"Fira Sans\",\"Fira Sans Placeholder\",sans-serif",
+        "--framer-font-family-bold-italic": "\"Fira Sans\",\"Fira Sans Placeholder\",sans-serif",
+        "--framer-font-family-italic": "\"Fira Sans\",\"Fira Sans Placeholder\",sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+        "--framer-font-size": "13.5px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-style-bold-italic": "italic",
+        "--framer-font-style-italic": "italic",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-font-weight-bold": "700",
+        "--framer-font-weight-bold-italic": "700",
+        "--framer-font-weight-italic": "400",
+        "--framer-letter-spacing": "-.02em",
+        "--framer-line-height": "1.55em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-5325c272-f998-4b3e-a20c-0112407c0431)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-J1Cpd .framer-styles-preset-17wxv2a:not(.rich-text-wrapper),.framer-J1Cpd .framer-styles-preset-17wxv2a.rich-text-wrapper p",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Fira Sans\",\"Fira Sans Placeholder\",sans-serif",
+        "--framer-font-family-bold": "\"Fira Sans\",\"Fira Sans Placeholder\",sans-serif",
+        "--framer-font-family-bold-italic": "\"Fira Sans\",\"Fira Sans Placeholder\",sans-serif",
+        "--framer-font-family-italic": "\"Fira Sans\",\"Fira Sans Placeholder\",sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+        "--framer-font-size": "14px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-style-bold-italic": "italic",
+        "--framer-font-style-italic": "italic",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "600",
+        "--framer-font-weight-bold": "900",
+        "--framer-font-weight-bold-italic": "900",
+        "--framer-font-weight-italic": "600",
+        "--framer-letter-spacing": ".01em",
+        "--framer-line-height": "1.6em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "#666",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    }
+  ],
+  "roles": [
+    {
+      "tag": "p",
+      "sample": "K",
+      "path": [
+        "Desktop",
+        "TopRow",
+        "Primary",
+        "Letter K0"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "K",
+      "path": [
+        "Desktop",
+        "TopRow",
+        "Primary",
+        "Letter K0"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "K",
+      "path": [
+        "Desktop",
+        "TopRow",
+        "Primary",
+        "Letter K0"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "K",
+      "path": [
+        "Desktop",
+        "TopRow",
+        "Primary",
+        "Letter K0"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-474ca55e-d7fb-4afd-be4d-e2a2775415ae))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "E",
+      "path": [
+        "Desktop",
+        "TopRow",
+        "Primary",
+        "Letter E1"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "E",
+      "path": [
+        "Desktop",
+        "TopRow",
+        "Primary",
+        "Letter E1"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "E",
+      "path": [
+        "Desktop",
+        "TopRow",
+        "Primary",
+        "Letter E1"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "E",
+      "path": [
+        "Desktop",
+        "TopRow",
+        "Primary",
+        "Letter E1"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-474ca55e-d7fb-4afd-be4d-e2a2775415ae))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "E",
+      "path": [
+        "Desktop",
+        "TopRow",
+        "Primary",
+        "Letter E2"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "E",
+      "path": [
+        "Desktop",
+        "TopRow",
+        "Primary",
+        "Letter E2"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "E",
+      "path": [
+        "Desktop",
+        "TopRow",
+        "Primary",
+        "Letter E2"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "E",
+      "path": [
+        "Desktop",
+        "TopRow",
+        "Primary",
+        "Letter E2"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-474ca55e-d7fb-4afd-be4d-e2a2775415ae))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "P",
+      "path": [
+        "Desktop",
+        "TopRow",
+        "Primary",
+        "Letter P3"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "P",
+      "path": [
+        "Desktop",
+        "TopRow",
+        "Primary",
+        "Letter P3"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "P",
+      "path": [
+        "Desktop",
+        "TopRow",
+        "Primary",
+        "Letter P3"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "P",
+      "path": [
+        "Desktop",
+        "TopRow",
+        "Primary",
+        "Letter P3"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-474ca55e-d7fb-4afd-be4d-e2a2775415ae))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Membership",
+      "path": [
+        "Desktop",
+        "Links"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "Inside",
+      "path": [
+        "Desktop",
+        "Links"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "Events",
+      "path": [
+        "Desktop",
+        "Links"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "Resources",
+      "path": [
+        "Desktop",
+        "Links"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "Stories",
+      "path": [
+        "Desktop",
+        "Links"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "Request Access",
+      "path": [
+        "Desktop",
+        "Primary"
+      ],
+      "attributes": {
+        "style": "--framer-text-alignment:start;--framer-text-color:var(--extracted-r6o4lv, var(--token-bb20bffe-e949-4153-a944-8d4bcda7fba2))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "K",
+      "path": [
+        "Phone",
+        "TopRow",
+        "Primary",
+        "Letter K0"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "K",
+      "path": [
+        "Phone",
+        "TopRow",
+        "Primary",
+        "Letter K0"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "K",
+      "path": [
+        "Phone",
+        "TopRow",
+        "Primary",
+        "Letter K0"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "K",
+      "path": [
+        "Phone",
+        "TopRow",
+        "Primary",
+        "Letter K0"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-474ca55e-d7fb-4afd-be4d-e2a2775415ae))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "E",
+      "path": [
+        "Phone",
+        "TopRow",
+        "Primary",
+        "Letter E1"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "E",
+      "path": [
+        "Phone",
+        "TopRow",
+        "Primary",
+        "Letter E1"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "E",
+      "path": [
+        "Phone",
+        "TopRow",
+        "Primary",
+        "Letter E1"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "E",
+      "path": [
+        "Phone",
+        "TopRow",
+        "Primary",
+        "Letter E1"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-474ca55e-d7fb-4afd-be4d-e2a2775415ae))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "E",
+      "path": [
+        "Phone",
+        "TopRow",
+        "Primary",
+        "Letter E2"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "E",
+      "path": [
+        "Phone",
+        "TopRow",
+        "Primary",
+        "Letter E2"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "E",
+      "path": [
+        "Phone",
+        "TopRow",
+        "Primary",
+        "Letter E2"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "E",
+      "path": [
+        "Phone",
+        "TopRow",
+        "Primary",
+        "Letter E2"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-474ca55e-d7fb-4afd-be4d-e2a2775415ae))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "P",
+      "path": [
+        "Phone",
+        "TopRow",
+        "Primary",
+        "Letter P3"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "P",
+      "path": [
+        "Phone",
+        "TopRow",
+        "Primary",
+        "Letter P3"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "P",
+      "path": [
+        "Phone",
+        "TopRow",
+        "Primary",
+        "Letter P3"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-e8837558-3e84-43f3-9b15-f33b5993bcbf))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "P",
+      "path": [
+        "Phone",
+        "TopRow",
+        "Primary",
+        "Letter P3"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:25px;--framer-font-weight:700;--framer-letter-spacing:-0.5px;--framer-text-color:var(--extracted-r6o4lv, var(--token-474ca55e-d7fb-4afd-be4d-e2a2775415ae))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "[ APPLY ]",
+      "path": [
+        "Header"
+      ],
+      "attributes": {
+        "style": "--framer-text-color:var(--token-5325c272-f998-4b3e-a20c-0112407c0431)"
+      }
+    },
+    {
+      "tag": "h1",
+      "sample": "Request your seat",
+      "path": [
+        "Header"
+      ],
+      "attributes": {
+        "style": "--framer-text-alignment:center"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "We read every application ourselves. Tell us honestly why you want in \u2014 that\u2019s what we\u2019re actually looking for.",
+      "path": [
+        "Header"
+      ],
+      "attributes": {
+        "style": "--framer-text-alignment:center"
+      }
+    },
+    {
+      "tag": "form",
+      "sample": "Full name Email What do you do? Which tier? Circle \u2014 $95/mo The Table \u2014 $220/mo Inner Circle \u2014 $480/mo Why do you want i",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "Full name",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "input",
+      "sample": "",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {
+        "type": "text",
+        "required": "",
+        "name": "name"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Email",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "input",
+      "sample": "",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {
+        "type": "email",
+        "required": "",
+        "name": "email"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "What do you do?",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "input",
+      "sample": "",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {
+        "type": "text",
+        "required": "",
+        "name": "role"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Which tier?",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "select",
+      "sample": "Circle \u2014 $95/mo The Table \u2014 $220/mo Inner Circle \u2014 $480/mo",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {
+        "name": "tier"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Why do you want in?",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "textarea",
+      "sample": "",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {
+        "name": "why"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Submit application",
+      "path": [
+        "Form Section",
+        "Form",
+        "Primary"
+      ],
+      "attributes": {
+        "style": "--framer-text-color:var(--extracted-r6o4lv, var(--token-bb20bffe-e949-4153-a944-8d4bcda7fba2))"
+      }
+    },
+    {
+      "tag": "input",
+      "sample": "",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {
+        "type": "text",
+        "name": "website",
+        "style": "position:absolute;transform:scale(0)"
+      }
+    },
+    {
+      "tag": "input",
+      "sample": "",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {
+        "type": "text",
+        "name": "company",
+        "style": "position:absolute;transform:scale(0)"
+      }
+    },
+    {
+      "tag": "input",
+      "sample": "",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {
+        "type": "text",
+        "name": "message",
+        "style": "position:absolute;transform:scale(0)"
+      }
+    },
+    {
+      "tag": "input",
+      "sample": "",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {
+        "type": "text",
+        "name": "subject",
+        "style": "position:absolute;transform:scale(0)"
+      }
+    },
+    {
+      "tag": "input",
+      "sample": "",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {
+        "type": "text",
+        "name": "title",
+        "style": "position:absolute;transform:scale(0)"
+      }
+    },
+    {
+      "tag": "input",
+      "sample": "",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {
+        "type": "text",
+        "name": "description",
+        "style": "position:absolute;transform:scale(0)"
+      }
+    },
+    {
+      "tag": "input",
+      "sample": "",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {
+        "type": "text",
+        "name": "feedback",
+        "style": "position:absolute;transform:scale(0)"
+      }
+    },
+    {
+      "tag": "input",
+      "sample": "",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {
+        "type": "text",
+        "name": "notes",
+        "style": "position:absolute;transform:scale(0)"
+      }
+    },
+    {
+      "tag": "input",
+      "sample": "",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {
+        "type": "text",
+        "name": "details",
+        "style": "position:absolute;transform:scale(0)"
+      }
+    },
+    {
+      "tag": "input",
+      "sample": "",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {
+        "type": "text",
+        "name": "remarks",
+        "style": "position:absolute;transform:scale(0)"
+      }
+    },
+    {
+      "tag": "input",
+      "sample": "",
+      "path": [
+        "Form Section",
+        "Form"
+      ],
+      "attributes": {
+        "type": "text",
+        "name": "comments",
+        "style": "position:absolute;transform:scale(0)"
+      }
+    },
+    {
+      "tag": "h3",
+      "sample": "KEEP",
+      "path": [
+        "Footer",
+        "Content",
+        "Brand"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "A private table for operators who\u2019d rather learn from people three steps ahead.",
+      "path": [
+        "Footer",
+        "Content",
+        "Brand"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "EXPLORE",
+      "path": [
+        "Footer",
+        "Content",
+        "Explore"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "Membership",
+      "path": [
+        "Footer",
+        "Content",
+        "Explore"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "Inside",
+      "path": [
+        "Footer",
+        "Content",
+        "Explore"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "Events",
+      "path": [
+        "Footer",
+        "Content",
+        "Explore"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "Resources",
+      "path": [
+        "Footer",
+        "Content",
+        "Explore"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "INFO",
+      "path": [
+        "Footer",
+        "Content",
+        "Info"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "About",
+      "path": [
+        "Footer",
+        "Content",
+        "Info"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "Stories",
+      "path": [
+        "Footer",
+        "Content",
+        "Info"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "FAQ",
+      "path": [
+        "Footer",
+        "Content",
+        "Info"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "Contact",
+      "path": [
+        "Footer",
+        "Content",
+        "Info"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "Waitlist",
+      "path": [
+        "Footer",
+        "Content",
+        "Info"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "\u00a9 2026 Keep. All rights reserved.",
+      "path": [
+        "Footer",
+        "Bottom"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "Get in touch \u2192",
+      "path": [
+        "Footer",
+        "Bottom"
+      ],
+      "attributes": {}
+    },
+    {
+      "tag": "p",
+      "sample": "KEEP",
+      "path": [
+        "Footer",
+        "Wordmark"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:260px;--framer-font-weight:700;--framer-letter-spacing:-6px;--framer-line-height:1em;--framer-text-alignment:center;--framer-text-color:rgba(0,0,0,0);--framer-text-stroke-color:#FF6B35;--framer-text-stroke-width:1.5px"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "KEEP",
+      "path": [
+        "Footer",
+        "Wordmark"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:100px;--framer-font-weight:700;--framer-letter-spacing:-6px;--framer-line-height:1em;--framer-text-alignment:center;--framer-text-color:rgba(0, 0, 0, 0);--framer-text-stroke-color:#FF6B35;--framer-text-stroke-width:1.5px"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "KEEP",
+      "path": [
+        "Footer",
+        "Wordmark"
+      ],
+      "attributes": {
+        "style": "--font-selector:RlM7Q2xhc2ggR3JvdGVzay1ib2xk;--framer-font-family:\"Clash Grotesk\", \"Clash Grotesk Placeholder\", sans-serif;--framer-font-size:180px;--framer-font-weight:700;--framer-letter-spacing:-6px;--framer-line-height:1em;--framer-text-alignment:center;--framer-text-color:rgba(0, 0, 0, 0);--framer-text-stroke-color:#FF6B35;--framer-text-stroke-width:1.5px"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Get This Template",
+      "path": [
+        "Light"
+      ],
+      "attributes": {
+        "style": "--font-selector:SW50ZXItU2VtaUJvbGQ=;--framer-font-size:13px;--framer-font-weight:600;--framer-letter-spacing:0.02em;--framer-line-height:1em;--framer-text-alignment:center;--framer-text-color:var(--extracted-r6o4lv, var(--token-c7baa044-b113-4eb2-b9a8-0d047d3b0a02));--framer-text-transform:uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Hire For Custom Website",
+      "path": [
+        "Accent"
+      ],
+      "attributes": {
+        "style": "--font-selector:SW50ZXItU2VtaUJvbGQ=;--framer-font-size:13px;--framer-font-weight:600;--framer-letter-spacing:0.02em;--framer-line-height:1em;--framer-text-alignment:center;--framer-text-color:var(--extracted-r6o4lv, rgb(255, 255, 255));--framer-text-transform:uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+      "path": [
+        "Light",
+        "Content"
+      ],
+      "attributes": {
+        "style": "position:absolute;transform:scale(0.001)"
+      }
+    }
+  ],
+  "routes": [
+    "https://contra.com/payment-link/A7VdK603-willow-creek-cottage",
+    "https://linktr.ee/anowarhdesign",
+    "https://most-task-208471.framer.app/",
+    "https://most-task-208471.framer.app/about",
+    "https://most-task-208471.framer.app/contact",
+    "https://most-task-208471.framer.app/events",
+    "https://most-task-208471.framer.app/faq",
+    "https://most-task-208471.framer.app/inside",
+    "https://most-task-208471.framer.app/membership",
+    "https://most-task-208471.framer.app/resources",
+    "https://most-task-208471.framer.app/stories",
+    "https://most-task-208471.framer.app/waitlist",
+    "https://www.framer.com"
+  ],
+  "mediaQueries": [
+    "@media(min-width: 1200px)",
+    "@media(min-width: 810px) and (max-width: 1199.98px)",
+    "@media(max-width: 809.98px)",
+    "@media (prefers-color-scheme:dark)",
+    "@media (max-width:809.98px)",
+    "@media (max-width:1199px) and (min-width:810px)",
+    "@media (max-width:809px) and (min-width:0)",
+    "@media (min-width:810px) and (max-width:1199.98px)"
+  ],
+  "backendVerified": false
+}

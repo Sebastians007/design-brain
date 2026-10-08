@@ -1,0 +1,528 @@
+{
+  "name": "Foodly",
+  "source": "https://foodly.framer.media/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#fcf3e1",
+    "paper": "#f6f4ed",
+    "ink": "#1a1a1a",
+    "accent": "#267d53",
+    "muted": "#485f4e"
+  },
+  "type": {
+    "body": "Karla",
+    "display": "Calistoga",
+    "roles": [
+      {
+        "role": "Offer ticker / body",
+        "family": "Karla",
+        "weight": 400,
+        "sizePx": 16.0,
+        "linePx": 24.0,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Hero h1 / tablet and phone CSS preset",
+        "family": "Calistoga",
+        "weight": 400,
+        "sizePx": 40,
+        "linePx": 44,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Hero h1 / desktop preset",
+        "family": "Calistoga",
+        "weight": 400,
+        "sizePx": 60.0,
+        "linePx": 66.0,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Section h2 / desktop CSS preset",
+        "family": "Calistoga",
+        "weight": 400,
+        "sizePx": 48,
+        "linePx": 52.8,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Section h2 / tablet preset",
+        "family": "Calistoga",
+        "weight": 400,
+        "sizePx": 32.0,
+        "linePx": 35.2,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Section h2 / phone CSS preset",
+        "family": "Calistoga",
+        "weight": 400,
+        "sizePx": 24,
+        "linePx": 26.4,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Metrics display",
+        "family": "Bricolage Grotesque",
+        "weight": 200,
+        "sizePx": 48.0,
+        "linePx": 42.24,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "Metric label",
+        "family": "Karla",
+        "weight": 400,
+        "sizePx": 28.0,
+        "linePx": 39.2,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Dish title h5",
+        "family": "General Sans",
+        "weight": 500,
+        "sizePx": 24.0,
+        "linePx": 33.6,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Menu category h3 / desktop",
+        "family": "Calistoga",
+        "weight": 400,
+        "sizePx": 40.0,
+        "linePx": 48.0,
+        "tracking": "-.05em"
+      },
+      {
+        "role": "Dish price h4",
+        "family": "General Sans",
+        "weight": 500,
+        "sizePx": 24.0,
+        "linePx": 31.2,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Footer copyright",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 20.0,
+        "linePx": 28.0,
+        "tracking": "-0.03em"
+      },
+      {
+        "role": "Creator attribution",
+        "family": "Satoshi",
+        "weight": 500,
+        "sizePx": 12.0,
+        "linePx": 18.0,
+        "tracking": "-0.02em"
+      }
+    ],
+    "rolesEvidence": "Public preview HTML/CSS presets and inline overrides in foodly-evidence-root; representative role paths and exact custom-property values recorded below. linePx converts declared em/percentage values using declared size. Source font-face weight/style details and all presets remain in source-facts.json. Calistoga h2 desktop base is 48px despite first-match tablet extraction at 32px; typePresetRules confirms base/media order. Bricolage Grotesque metrics declare 48px at 200 weight and 88% line height. Role axes declare normal, not a custom axis tuple.",
+    "sourceRoleDetails": [
+      {
+        "role": "Offer ticker / body",
+        "tag": "p",
+        "path": [
+          "Desktop",
+          "Topbar",
+          "Desktop",
+          "Container",
+          "Offer Ticker",
+          "Desktop",
+          "Taco Tuesday \u2014 Buy 1 Get 1 Free"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Karla\", \"Karla Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Karla\", \"Karla Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Karla\", \"Karla Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Karla\", \"Karla Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-dc176b44-76f2-4d82-b520-17c069e6ae09, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Hero h1 / desktop preset",
+        "tag": "h1",
+        "path": [
+          "Hero",
+          "Main Container Wrapper",
+          "Text Container Wrapper",
+          "Shop Smart Live Green"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Calistoga\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "60px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.04em",
+          "--framer-line-height": "1.1em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-86dbb439-c396-48fd-926a-93eef5aacd34,#1a1a1a)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Section h2 / tablet preset",
+        "tag": "h2",
+        "path": [
+          "About Us",
+          "Container",
+          "Image And Text Container Wrapper",
+          "Text Container Wrapper",
+          "Variant 2"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Calistoga\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "32px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.04em",
+          "--framer-line-height": "1.1em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-86dbb439-c396-48fd-926a-93eef5aacd34,#1a1a1a)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Metrics display",
+        "tag": "h1",
+        "path": [
+          "About Us",
+          "Container",
+          "Image And Text Container Wrapper",
+          "Metrics Grid Wrapper",
+          "Primary"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Bricolage Grotesque\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "200",
+          "--framer-text-color": "var(--extracted-gdpscs, var(--token-4feccc2a-94d4-4a41-8f63-2f808655e842, rgb(38, 115, 101)))",
+          "--framer-font-size": "48px",
+          "--framer-letter-spacing": "-0.02em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "88%",
+          "--framer-text-alignment": "left",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Metric label",
+        "tag": "p",
+        "path": [
+          "About Us",
+          "Container",
+          "Image And Text Container Wrapper",
+          "Metrics Grid Wrapper",
+          "Primary"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Karla\", \"Karla Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Karla\", \"Karla Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Karla\", \"Karla Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Karla\", \"Karla Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "28px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.4em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-86dbb439-c396-48fd-926a-93eef5aacd34, rgb(26, 26, 26)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Dish title h5",
+        "tag": "h5",
+        "path": [
+          "Menu Section",
+          "Container",
+          "DIshes Section",
+          "Main Content",
+          "Default",
+          "Card Body",
+          "Text Block",
+          "Title"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "24px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "-.04em",
+          "--framer-line-height": "1.4em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-86dbb439-c396-48fd-926a-93eef5aacd34,#1a1a1a)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Menu category h3 / desktop",
+        "tag": "h3",
+        "path": [
+          "Menu Section",
+          "Container",
+          "Desktop",
+          "Slideshow",
+          "Soups Card",
+          "Desktop",
+          "Content",
+          "Title & Card",
+          "Nigiri (2 pcs)"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Calistoga\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "40px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.05em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-a0htzi, var(--token-4feccc2a-94d4-4a41-8f63-2f808655e842, rgb(38, 125, 83)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Dish price h4",
+        "tag": "h4",
+        "path": [
+          "Menu Section",
+          "Container",
+          "Desktop",
+          "Slideshow",
+          "Soups Card",
+          "Desktop",
+          "Content",
+          "Title & Card",
+          "Card Wrapper",
+          "Desktop",
+          "$5"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "24px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "-.04em",
+          "--framer-line-height": "1.3em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-1eung3n, var(--token-a0127f30-7655-4c75-b76c-6a71132236c7, rgb(242, 115, 62)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Footer copyright",
+        "tag": "p",
+        "path": [
+          "Desktop",
+          "Container",
+          "Bottom wrapper",
+          "Text wrapper"
+        ],
+        "declarations": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-dc176b44-76f2-4d82-b520-17c069e6ae09, rgb(255, 255, 255)))",
+          "--framer-font-size": "20px",
+          "--framer-letter-spacing": "-0.03em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.4em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Creator attribution",
+        "tag": "p",
+        "path": [
+          "Desktop",
+          "Crafted By Anayatul Islam",
+          "Desktop",
+          "Crafted By"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Satoshi\", \"Satoshi Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-dc176b44-76f2-4d82-b520-17c069e6ae09, rgb(255, 255, 255)))",
+          "--framer-font-size": "12px",
+          "--framer-letter-spacing": "-0.02em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.5em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": []
+      }
+    ],
+    "variationAxes": {
+      "basis": "CSS role declarations",
+      "declaredValues": [
+        "normal"
+      ],
+      "customNumericAxesObserved": false
+    },
+    "systemFontFamilies": []
+  },
+  "spacing": {
+    "desktopGutterPx": 80,
+    "componentGapPx": 40,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 8,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (max-width:809.98px)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)",
+      "@media (min-width:810px) and (max-width:1199.98px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      809.0,
+      809.98,
+      810.0,
+      1199.0,
+      1199.98,
+      1200.0
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Hospitality",
+    "branch": "Restaurant / cafe",
+    "fitEvidence": "Official Marketplace identifies restaurants and cafes, categorized CMS menu items and table reservations; public preview contains culinary menu and reservation content."
+  },
+  "sectionAnchors": [],
+  "sourceColorContext": "Source palette; the active theme is scoped to each native browser observation.",
+  "siteBlueprint": {
+    "file": "SITE-BLUEPRINT.md",
+    "backendVerified": false
+  }
+}

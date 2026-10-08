@@ -1,0 +1,2961 @@
+{
+  "template": "Foodly",
+  "preview": "https://foodly.framer.media/",
+  "marketplace": "https://www.framer.com/marketplace/templates/foodly/",
+  "creator": "Anayatul Islam",
+  "coverage": "Public source declarations, official marketplace artwork and actual browser captures at the individually recorded viewport/state. Phone/tablet, complete motion and backend behavior unverified.",
+  "viewport": {
+    "devicePixelRatio": 1,
+    "height": 936,
+    "width": 1363
+  },
+  "pageHeight": 10466,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 4 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 4 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 3 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 4 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 104,
+      "id": "",
+      "tag": "NAV",
+      "width": 1348,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 1205.203125,
+      "id": "about",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 720
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 1056,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 1925.203125
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 1978.609375,
+      "id": "services",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 2981.203125
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 879.8125,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1120,
+      "x": 114,
+      "y": 3450
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "normal",
+      "height": 550,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1120,
+      "x": 114,
+      "y": 4409.8125
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 1305.59375,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 4959.8125
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 1014.390625,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 6265.40625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 1014.390625,
+      "id": "Reservation",
+      "tag": "SECTION",
+      "width": 1280,
+      "x": 34,
+      "y": 6265.40625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 1787.984375,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 8210.984375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 467,
+      "id": "",
+      "tag": "FOOTER",
+      "width": 1348,
+      "x": 0,
+      "y": 9998.96875
+    }
+  ],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Bricolage Grotesque",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvSni-Molsg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/bricolage-grotesque-500-0.woff2"
+    },
+    {
+      "family": "Plus Jakarta Sans",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/plusjakartasans/v12/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_Tkn9TR_V.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/plus-jakarta-sans-700-1.woff2"
+    },
+    {
+      "family": "Bricolage Grotesque",
+      "weight": "200",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvZvi-Molsg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/bricolage-grotesque-200-2.woff2"
+    },
+    {
+      "family": "Calistoga",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/calistoga/v18/6NUU8F2OJg6MeR7l4e0vscYAwdRZfw.woff2",
+      "range": "",
+      "file": "assets/fonts/calistoga-400-3.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-4.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-5.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-600-6.woff2"
+    },
+    {
+      "family": "Karla",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/WYQR63HYLSFXANVDXEVDIUCR5ZA4BMBT/BHK7NVIOUFBRSAWSZITEB3JNGWKZPMNF/GQPINB4H2DFPHIUPYCAOCNG2YFF6OWN5.woff2",
+      "range": "",
+      "file": "assets/fonts/karla-400-7.woff2"
+    },
+    {
+      "family": "Karla",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/HP3Q3DMPSSAWKCMUNQEU756AST7WMOBI/APROKPT76FFBPLZDYGFTPTOR7MFVRF2C/CQM2FQLMCGDGQUOUKBFNHXOME4UHHUZ2.woff2",
+      "range": "",
+      "file": "assets/fonts/karla-700-8.woff2"
+    },
+    {
+      "family": "Karla",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/GSFG6NXNLYXRP2VRWZ3VOUXQURTWMIT7/R2ZQRIIYPESM37OHHQSWFWU3KJHNOV5M/ZYBBANH7AYGOTZXTU4SOJR6KPZPQHURD.woff2",
+      "range": "",
+      "file": "assets/fonts/karla-700-9.woff2"
+    },
+    {
+      "family": "Karla",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/6C26MM3AQVQGUGBVTSPCBZ73J2ZA46LB/F4NEMWFVHDPEEELAKRUZTRKA5HPEWQT6/M4S76B4BXSEAFYITBCYQZODTJAH2TIDU.woff2",
+      "range": "",
+      "file": "assets/fonts/karla-400-10.woff2"
+    },
+    {
+      "family": "General Sans",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/3RZHWSNONLLWJK3RLPEKUZOMM56GO4LJ/BPDRY7AHVI3MCDXXVXTQQ76H3UXA63S3/SB2OEB6IKZPRR6JT4GFJ2TFT6HBB6AZN.woff2",
+      "range": "",
+      "file": "assets/fonts/general-sans-500-11.woff2"
+    },
+    {
+      "family": "General Sans",
+      "weight": "500",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/ST6AL2GVQRSWVDOXZNSHY2SMWYYSVFEK/WJ26NN5JS6IPLBXEKX7WHB7HACXDTAKH/H7W54QQR2V6KL5KMDA2PD2KSQRCZHPRE.woff2",
+      "range": "",
+      "file": "assets/fonts/general-sans-500-12.woff2"
+    },
+    {
+      "family": "General Sans",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/KWXO5X3YW4X7OLUMPO4X24HQJGJU7E2Q/VOWUQZS3YLP66ZHPTXAFSH6YACY4WJHT/NIQ54PVBBIWVK3PFSOIOUJSXIJ5WTNDP.woff2",
+      "range": "",
+      "file": "assets/fonts/general-sans-700-13.woff2"
+    },
+    {
+      "family": "General Sans",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/IZAMKIKJNFHYAA4XTXOGUSQUJWNXQHPE/2S5HU7TKNAV6MHTRNU2NPZD7U4OT6VKE/HCZ5OQRTYQOAVSHRS6UOFWUZ5CGI6JRO.woff2",
+      "range": "",
+      "file": "assets/fonts/general-sans-700-14.woff2"
+    },
+    {
+      "family": "Satoshi",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/TTX2Z3BF3P6Y5BQT3IV2VNOK6FL22KUT/7QYRJOI3JIMYHGY6CH7SOIFRQLZOLNJ6/KFIAZD4RUMEZIYV6FQ3T3GP5PDBDB6JY.woff2",
+      "range": "",
+      "file": "assets/fonts/satoshi-400-15.woff2"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/images/RS97MZAZnknLHeachRBD5X6e4iI.svg?width=464&height=133",
+      "srcset": null,
+      "alt": "",
+      "width": "464",
+      "height": "133",
+      "path": [
+        "Desktop",
+        "Container Wrapper",
+        "Container Wrapper",
+        "Menu Wrapper",
+        "Menu Container Wrapper",
+        "Logo+ Hamburger Icon",
+        "Logo Wrapper",
+        "Variant 1",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RS97MZAZnknLHeachRBD5X6e4iI.svg?width=464&height=133",
+      "srcset": null,
+      "alt": "",
+      "width": "464",
+      "height": "133",
+      "path": [
+        "Mobile Close",
+        "Container Wrapper",
+        "Container Wrapper",
+        "Menu Wrapper",
+        "Menu Container Wrapper",
+        "Logo+ Hamburger Icon",
+        "Logo Wrapper",
+        "Variant 1",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?width=5327&height=7990",
+      "srcset": "https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?scale-down-to=1024&width=5327&height=7990 682w,https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?scale-down-to=2048&width=5327&height=7990 1365w,https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?scale-down-to=4096&width=5327&height=7990 2730w,https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?width=5327&height=7990 5327w",
+      "alt": "",
+      "width": "5327",
+      "height": "7990",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper",
+        "Avatars Wrapper",
+        "Customer",
+        "Image 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?width=5327&height=7990",
+      "srcset": "https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?scale-down-to=1024&width=5327&height=7990 682w,https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?scale-down-to=2048&width=5327&height=7990 1365w,https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?scale-down-to=4096&width=5327&height=7990 2730w,https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?width=5327&height=7990 5327w",
+      "alt": "",
+      "width": "5327",
+      "height": "7990",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper",
+        "Avatars Wrapper",
+        "Customer",
+        "Image 2"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aPmLRwVTMfvPcGwnUsDZPr3oQ.png?width=900&height=1200",
+      "srcset": "https://framerusercontent.com/images/aPmLRwVTMfvPcGwnUsDZPr3oQ.png?scale-down-to=1024&width=900&height=1200 768w,https://framerusercontent.com/images/aPmLRwVTMfvPcGwnUsDZPr3oQ.png?width=900&height=1200 900w",
+      "alt": "",
+      "width": "900",
+      "height": "1200",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper",
+        "Avatars Wrapper",
+        "Customer",
+        "Image 3"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/WejsEyuAfCuU0aOunFjq51FM.svg?width=513&height=209",
+      "srcset": "https://framerusercontent.com/images/WejsEyuAfCuU0aOunFjq51FM.svg?scale-down-to=512&width=513&height=209 512w,https://framerusercontent.com/images/WejsEyuAfCuU0aOunFjq51FM.svg?width=513&height=209 513w",
+      "alt": "",
+      "width": "513",
+      "height": "209",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/WejsEyuAfCuU0aOunFjq51FM.svg?width=513&height=209",
+      "srcset": "https://framerusercontent.com/images/WejsEyuAfCuU0aOunFjq51FM.svg?scale-down-to=512&width=513&height=209 512w,https://framerusercontent.com/images/WejsEyuAfCuU0aOunFjq51FM.svg?width=513&height=209 513w",
+      "alt": "",
+      "width": "513",
+      "height": "209",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?width=1200&height=800",
+      "srcset": "https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?scale-down-to=512&width=1200&height=800 512w,https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?scale-down-to=1024&width=1200&height=800 1024w,https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?width=1200&height=800 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "800",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper",
+        "Desktop - Hero Image 01",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?width=1200&height=800",
+      "srcset": "https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?scale-down-to=512&width=1200&height=800 512w,https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?scale-down-to=1024&width=1200&height=800 1024w,https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?width=1200&height=800 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "800",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper",
+        "Desktop - Hero Image 01",
+        "Image 01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hIIGLaE1n7pYyhK7KEeivzZAvY.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/hIIGLaE1n7pYyhK7KEeivzZAvY.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/hIIGLaE1n7pYyhK7KEeivzZAvY.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/hIIGLaE1n7pYyhK7KEeivzZAvY.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper",
+        "Desktop - Hero Image 01",
+        "Image 02"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VE5ROJhQ865c9pooZTJro53M44.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/VE5ROJhQ865c9pooZTJro53M44.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/VE5ROJhQ865c9pooZTJro53M44.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/VE5ROJhQ865c9pooZTJro53M44.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper",
+        "Desktop - Hero Image 01",
+        "Image 03"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/emDm7UfNBA4cK3hLKQV1nI7Qcw.png?width=1200&height=800",
+      "srcset": "https://framerusercontent.com/images/emDm7UfNBA4cK3hLKQV1nI7Qcw.png?scale-down-to=512&width=1200&height=800 512w,https://framerusercontent.com/images/emDm7UfNBA4cK3hLKQV1nI7Qcw.png?scale-down-to=1024&width=1200&height=800 1024w,https://framerusercontent.com/images/emDm7UfNBA4cK3hLKQV1nI7Qcw.png?width=1200&height=800 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "800",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper",
+        "Desktop - Hero Image 01",
+        "Image 04"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?width=1200&height=800",
+      "srcset": "https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?scale-down-to=512&width=1200&height=800 512w,https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?scale-down-to=1024&width=1200&height=800 1024w,https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?width=1200&height=800 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "800",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper",
+        "Desktop - Hero Image 01",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?width=1200&height=800",
+      "srcset": "https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?scale-down-to=512&width=1200&height=800 512w,https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?scale-down-to=1024&width=1200&height=800 1024w,https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?width=1200&height=800 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "800",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper",
+        "Desktop - Hero Image 01",
+        "Image 01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hIIGLaE1n7pYyhK7KEeivzZAvY.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/hIIGLaE1n7pYyhK7KEeivzZAvY.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/hIIGLaE1n7pYyhK7KEeivzZAvY.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/hIIGLaE1n7pYyhK7KEeivzZAvY.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper",
+        "Desktop - Hero Image 01",
+        "Image 02"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VE5ROJhQ865c9pooZTJro53M44.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/VE5ROJhQ865c9pooZTJro53M44.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/VE5ROJhQ865c9pooZTJro53M44.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/VE5ROJhQ865c9pooZTJro53M44.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper",
+        "Desktop - Hero Image 01",
+        "Image 03"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/emDm7UfNBA4cK3hLKQV1nI7Qcw.png?width=1200&height=800",
+      "srcset": "https://framerusercontent.com/images/emDm7UfNBA4cK3hLKQV1nI7Qcw.png?scale-down-to=512&width=1200&height=800 512w,https://framerusercontent.com/images/emDm7UfNBA4cK3hLKQV1nI7Qcw.png?scale-down-to=1024&width=1200&height=800 1024w,https://framerusercontent.com/images/emDm7UfNBA4cK3hLKQV1nI7Qcw.png?width=1200&height=800 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "800",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper",
+        "Desktop - Hero Image 01",
+        "Image 04"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?width=1200&height=800",
+      "srcset": "https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?scale-down-to=512&width=1200&height=800 512w,https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?scale-down-to=1024&width=1200&height=800 1024w,https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?width=1200&height=800 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "800",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper",
+        "Desktop - Hero Image 01",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?width=1200&height=800",
+      "srcset": "https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?scale-down-to=512&width=1200&height=800 512w,https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?scale-down-to=1024&width=1200&height=800 1024w,https://framerusercontent.com/images/JB8kwea9I9aMUgHTTjFNBOBhqo0.png?width=1200&height=800 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "800",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper",
+        "Desktop - Hero Image 01",
+        "Image 01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hIIGLaE1n7pYyhK7KEeivzZAvY.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/hIIGLaE1n7pYyhK7KEeivzZAvY.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/hIIGLaE1n7pYyhK7KEeivzZAvY.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/hIIGLaE1n7pYyhK7KEeivzZAvY.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper",
+        "Desktop - Hero Image 01",
+        "Image 02"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VE5ROJhQ865c9pooZTJro53M44.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/VE5ROJhQ865c9pooZTJro53M44.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/VE5ROJhQ865c9pooZTJro53M44.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/VE5ROJhQ865c9pooZTJro53M44.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper",
+        "Desktop - Hero Image 01",
+        "Image 03"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/emDm7UfNBA4cK3hLKQV1nI7Qcw.png?width=1200&height=800",
+      "srcset": "https://framerusercontent.com/images/emDm7UfNBA4cK3hLKQV1nI7Qcw.png?scale-down-to=512&width=1200&height=800 512w,https://framerusercontent.com/images/emDm7UfNBA4cK3hLKQV1nI7Qcw.png?scale-down-to=1024&width=1200&height=800 1024w,https://framerusercontent.com/images/emDm7UfNBA4cK3hLKQV1nI7Qcw.png?width=1200&height=800 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "800",
+      "path": [
+        "Hero",
+        "Main Container Wrapper",
+        "Text Container Wrapper",
+        "Desktop - Hero Image 01",
+        "Image 04"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ycYNJDhVVhcMN54l11jobkWZZUc.png?width=673&height=1200",
+      "srcset": "https://framerusercontent.com/images/ycYNJDhVVhcMN54l11jobkWZZUc.png?scale-down-to=1024&width=673&height=1200 574w,https://framerusercontent.com/images/ycYNJDhVVhcMN54l11jobkWZZUc.png?width=673&height=1200 673w",
+      "alt": "",
+      "width": "673",
+      "height": "1200",
+      "path": [
+        "About Us",
+        "Container",
+        "Image And Text Container Wrapper",
+        "Desktop Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ycYNJDhVVhcMN54l11jobkWZZUc.png?width=673&height=1200",
+      "srcset": "https://framerusercontent.com/images/ycYNJDhVVhcMN54l11jobkWZZUc.png?scale-down-to=1024&width=673&height=1200 574w,https://framerusercontent.com/images/ycYNJDhVVhcMN54l11jobkWZZUc.png?width=673&height=1200 673w",
+      "alt": "",
+      "width": "673",
+      "height": "1200",
+      "path": [
+        "About Us",
+        "Container",
+        "Image And Text Container Wrapper",
+        "Tablet Image 01",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "About Us",
+        "Container",
+        "Image And Text Container Wrapper",
+        "Desktop Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "About Us",
+        "Container",
+        "Image And Text Container Wrapper",
+        "Tablet Image 01",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tnZzabPn4bcJrdQgSnYZlqaYjo.jpg?width=5760&height=3840",
+      "srcset": "https://framerusercontent.com/images/tnZzabPn4bcJrdQgSnYZlqaYjo.jpg?scale-down-to=512&width=5760&height=3840 512w,https://framerusercontent.com/images/tnZzabPn4bcJrdQgSnYZlqaYjo.jpg?scale-down-to=1024&width=5760&height=3840 1024w,https://framerusercontent.com/images/tnZzabPn4bcJrdQgSnYZlqaYjo.jpg?scale-down-to=2048&width=5760&height=3840 2048w,https://framerusercontent.com/images/tnZzabPn4bcJrdQgSnYZlqaYjo.jpg?scale-down-to=4096&width=5760&height=3840 4096w,https://framerusercontent.com/images/tnZzabPn4bcJrdQgSnYZlqaYjo.jpg?width=5760&height=3840 5760w",
+      "alt": "",
+      "width": "5760",
+      "height": "3840",
+      "path": [
+        "About Us",
+        "Container",
+        "Image And Text Container Wrapper",
+        "Desktop Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:19.5% 38.8%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tnZzabPn4bcJrdQgSnYZlqaYjo.jpg?width=5760&height=3840",
+      "srcset": "https://framerusercontent.com/images/tnZzabPn4bcJrdQgSnYZlqaYjo.jpg?scale-down-to=512&width=5760&height=3840 512w,https://framerusercontent.com/images/tnZzabPn4bcJrdQgSnYZlqaYjo.jpg?scale-down-to=1024&width=5760&height=3840 1024w,https://framerusercontent.com/images/tnZzabPn4bcJrdQgSnYZlqaYjo.jpg?scale-down-to=2048&width=5760&height=3840 2048w,https://framerusercontent.com/images/tnZzabPn4bcJrdQgSnYZlqaYjo.jpg?scale-down-to=4096&width=5760&height=3840 4096w,https://framerusercontent.com/images/tnZzabPn4bcJrdQgSnYZlqaYjo.jpg?width=5760&height=3840 5760w",
+      "alt": "",
+      "width": "5760",
+      "height": "3840",
+      "path": [
+        "About Us",
+        "Container",
+        "Image And Text Container Wrapper",
+        "Tablet Image 01",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:19.5% 38.8%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RCSGiMMCtu03yicQlUNoev9XJXU.png?width=512&height=512",
+      "srcset": null,
+      "alt": "",
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Offer Banner",
+        "Content",
+        "Helper Frame and Supporting Text",
+        "Helper Frame",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RCSGiMMCtu03yicQlUNoev9XJXU.png?width=512&height=512",
+      "srcset": null,
+      "alt": "",
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Offer Banner",
+        "Content",
+        "Helper Frame and Supporting Text",
+        "Helper Frame",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HYZ2H9kiq6e8ONWdMCb7Pkt4iMc.png?width=512&height=512",
+      "srcset": null,
+      "alt": "",
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Offer Banner",
+        "Content",
+        "Helper Frame and Supporting Text",
+        "Helper Frame",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/usqQU1GlHt4yzw3iyJi9TnZIBNY.png?width=2000&height=2000",
+      "srcset": "https://framerusercontent.com/images/usqQU1GlHt4yzw3iyJi9TnZIBNY.png?scale-down-to=512&width=2000&height=2000 512w,https://framerusercontent.com/images/usqQU1GlHt4yzw3iyJi9TnZIBNY.png?scale-down-to=1024&width=2000&height=2000 1024w,https://framerusercontent.com/images/usqQU1GlHt4yzw3iyJi9TnZIBNY.png?width=2000&height=2000 2000w",
+      "alt": "",
+      "width": "2000",
+      "height": "2000",
+      "path": [
+        "Offer Banner",
+        "Content",
+        "Helper Frame and Supporting Text",
+        "Helper Frame",
+        "Text Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/usqQU1GlHt4yzw3iyJi9TnZIBNY.png?width=2000&height=2000",
+      "srcset": "https://framerusercontent.com/images/usqQU1GlHt4yzw3iyJi9TnZIBNY.png?scale-down-to=512&width=2000&height=2000 512w,https://framerusercontent.com/images/usqQU1GlHt4yzw3iyJi9TnZIBNY.png?scale-down-to=1024&width=2000&height=2000 1024w,https://framerusercontent.com/images/usqQU1GlHt4yzw3iyJi9TnZIBNY.png?width=2000&height=2000 2000w",
+      "alt": "",
+      "width": "2000",
+      "height": "2000",
+      "path": [
+        "Offer Banner",
+        "Content",
+        "Helper Frame and Supporting Text",
+        "Helper Frame",
+        "Text Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BaxXy1VROYoSFL5iwc3SxrurBN0.png?width=512&height=512",
+      "srcset": null,
+      "alt": "",
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Offer Banner",
+        "Content",
+        "Helper Frame and Supporting Text",
+        "Helper Frame",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BaxXy1VROYoSFL5iwc3SxrurBN0.png?width=512&height=512",
+      "srcset": null,
+      "alt": "",
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Offer Banner",
+        "Content",
+        "Helper Frame and Supporting Text",
+        "Helper Frame",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Dvfq7HCz9qGMAovHMHwwOX84M.png?width=512&height=512",
+      "srcset": null,
+      "alt": "",
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Offer Banner",
+        "Content",
+        "Helper Frame and Supporting Text",
+        "Helper Frame",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/A5JPL6ItiH8UXdxyF2ZDFJKply8.png?width=512&height=512",
+      "srcset": null,
+      "alt": "",
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Offer Banner",
+        "Content",
+        "Helper Frame and Supporting Text",
+        "Helper Frame",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/02hfy1BwOmdOvTJhTQ5IZMjlCY.png?width=512&height=512",
+      "srcset": null,
+      "alt": "",
+      "width": "512",
+      "height": "512",
+      "path": [
+        "Offer Banner",
+        "Content",
+        "Helper Frame and Supporting Text",
+        "Helper Frame",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/GvuECehN4isoaPcCIEzeaDBkaA.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/GvuECehN4isoaPcCIEzeaDBkaA.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/GvuECehN4isoaPcCIEzeaDBkaA.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/GvuECehN4isoaPcCIEzeaDBkaA.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Menu Section",
+        "Container",
+        "DIshes Section",
+        "Main Content",
+        "Default",
+        "Image Wrap",
+        "Card Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/GvuECehN4isoaPcCIEzeaDBkaA.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/GvuECehN4isoaPcCIEzeaDBkaA.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/GvuECehN4isoaPcCIEzeaDBkaA.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/GvuECehN4isoaPcCIEzeaDBkaA.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Menu Section",
+        "Container",
+        "DIshes Section",
+        "Main Content",
+        "Small",
+        "Image Wrap",
+        "Card Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/GvuECehN4isoaPcCIEzeaDBkaA.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/GvuECehN4isoaPcCIEzeaDBkaA.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/GvuECehN4isoaPcCIEzeaDBkaA.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/GvuECehN4isoaPcCIEzeaDBkaA.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Menu Section",
+        "Container",
+        "DIshes Section",
+        "Main Content",
+        "Small",
+        "Image Wrap",
+        "Card Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Menu Section",
+        "Container",
+        "DIshes Section",
+        "Main Content",
+        "Default",
+        "Image Wrap",
+        "Card Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Menu Section",
+        "Container",
+        "DIshes Section",
+        "Main Content",
+        "Small",
+        "Image Wrap",
+        "Card Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Menu Section",
+        "Container",
+        "DIshes Section",
+        "Main Content",
+        "Small",
+        "Image Wrap",
+        "Card Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/S1TaVTXCntAjxRRA2uEXRA0uuto.png?width=849&height=1200",
+      "srcset": "https://framerusercontent.com/images/S1TaVTXCntAjxRRA2uEXRA0uuto.png?scale-down-to=1024&width=849&height=1200 724w,https://framerusercontent.com/images/S1TaVTXCntAjxRRA2uEXRA0uuto.png?width=849&height=1200 849w",
+      "alt": "",
+      "width": "849",
+      "height": "1200",
+      "path": [
+        "Menu Section",
+        "Container",
+        "DIshes Section",
+        "Main Content",
+        "Default",
+        "Image Wrap",
+        "Card Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/S1TaVTXCntAjxRRA2uEXRA0uuto.png?width=849&height=1200",
+      "srcset": "https://framerusercontent.com/images/S1TaVTXCntAjxRRA2uEXRA0uuto.png?scale-down-to=1024&width=849&height=1200 724w,https://framerusercontent.com/images/S1TaVTXCntAjxRRA2uEXRA0uuto.png?width=849&height=1200 849w",
+      "alt": "",
+      "width": "849",
+      "height": "1200",
+      "path": [
+        "Menu Section",
+        "Container",
+        "DIshes Section",
+        "Main Content",
+        "Small",
+        "Image Wrap",
+        "Card Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/S1TaVTXCntAjxRRA2uEXRA0uuto.png?width=849&height=1200",
+      "srcset": "https://framerusercontent.com/images/S1TaVTXCntAjxRRA2uEXRA0uuto.png?scale-down-to=1024&width=849&height=1200 724w,https://framerusercontent.com/images/S1TaVTXCntAjxRRA2uEXRA0uuto.png?width=849&height=1200 849w",
+      "alt": "",
+      "width": "849",
+      "height": "1200",
+      "path": [
+        "Menu Section",
+        "Container",
+        "DIshes Section",
+        "Main Content",
+        "Small",
+        "Image Wrap",
+        "Card Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Menu Section",
+        "Container",
+        "DIshes Section",
+        "Main Content",
+        "Default",
+        "Image Wrap",
+        "Card Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Menu Section",
+        "Container",
+        "DIshes Section",
+        "Main Content",
+        "Small",
+        "Image Wrap",
+        "Card Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Menu Section",
+        "Container",
+        "DIshes Section",
+        "Main Content",
+        "Small",
+        "Image Wrap",
+        "Card Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?width=1200&height=673",
+      "srcset": "https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?scale-down-to=512&width=1200&height=673 512w,https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?scale-down-to=1024&width=1200&height=673 1024w,https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?width=1200&height=673 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "673",
+      "path": [
+        "Menu Section",
+        "Container",
+        "DIshes Section",
+        "Main Content",
+        "Default",
+        "Image Wrap",
+        "Card Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?width=1200&height=673",
+      "srcset": "https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?scale-down-to=512&width=1200&height=673 512w,https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?scale-down-to=1024&width=1200&height=673 1024w,https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?width=1200&height=673 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "673",
+      "path": [
+        "Menu Section",
+        "Container",
+        "DIshes Section",
+        "Main Content",
+        "Small",
+        "Image Wrap",
+        "Card Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?width=1200&height=673",
+      "srcset": "https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?scale-down-to=512&width=1200&height=673 512w,https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?scale-down-to=1024&width=1200&height=673 1024w,https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?width=1200&height=673 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "673",
+      "path": [
+        "Menu Section",
+        "Container",
+        "DIshes Section",
+        "Main Content",
+        "Small",
+        "Image Wrap",
+        "Card Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?width=2016&height=3024",
+      "srcset": "https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?scale-down-to=1024&width=2016&height=3024 682w,https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?scale-down-to=2048&width=2016&height=3024 1365w,https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?width=2016&height=3024 2016w",
+      "alt": "",
+      "width": "2016",
+      "height": "3024",
+      "path": [
+        "Menu Section",
+        "Container",
+        "DIshes Section",
+        "Main Content",
+        "Default",
+        "Image Wrap",
+        "Card Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?width=2016&height=3024",
+      "srcset": "https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?scale-down-to=1024&width=2016&height=3024 682w,https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?scale-down-to=2048&width=2016&height=3024 1365w,https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?width=2016&height=3024 2016w",
+      "alt": "",
+      "width": "2016",
+      "height": "3024",
+      "path": [
+        "Menu Section",
+        "Container",
+        "DIshes Section",
+        "Main Content",
+        "Small",
+        "Image Wrap",
+        "Card Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?width=2016&height=3024",
+      "srcset": "https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?scale-down-to=1024&width=2016&height=3024 682w,https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?scale-down-to=2048&width=2016&height=3024 1365w,https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?width=2016&height=3024 2016w",
+      "alt": "",
+      "width": "2016",
+      "height": "3024",
+      "path": [
+        "Menu Section",
+        "Container",
+        "DIshes Section",
+        "Main Content",
+        "Small",
+        "Image Wrap",
+        "Card Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5DhyAMIMoiY50s972DXmCZVLqy0.png?width=849&height=1200",
+      "srcset": "https://framerusercontent.com/images/5DhyAMIMoiY50s972DXmCZVLqy0.png?scale-down-to=1024&width=849&height=1200 724w,https://framerusercontent.com/images/5DhyAMIMoiY50s972DXmCZVLqy0.png?width=849&height=1200 849w",
+      "alt": "",
+      "width": "849",
+      "height": "1200",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Desktop",
+        "Slideshow",
+        "Soups Card",
+        "Desktop",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5BfiX3qj8iX5Xm4joizUfP3CyI.png?width=673&height=1200",
+      "srcset": "https://framerusercontent.com/images/5BfiX3qj8iX5Xm4joizUfP3CyI.png?scale-down-to=1024&width=673&height=1200 574w,https://framerusercontent.com/images/5BfiX3qj8iX5Xm4joizUfP3CyI.png?width=673&height=1200 673w",
+      "alt": "",
+      "width": "673",
+      "height": "1200",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Desktop",
+        "Slideshow",
+        "Drinks",
+        "Desktop",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?width=3777&height=5665",
+      "srcset": "https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?scale-down-to=1024&width=3777&height=5665 682w,https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?scale-down-to=2048&width=3777&height=5665 1365w,https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?scale-down-to=4096&width=3777&height=5665 2730w,https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?width=3777&height=5665 3777w",
+      "alt": "",
+      "width": "3777",
+      "height": "5665",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Desktop",
+        "Slideshow",
+        "Salads & Sides Card",
+        "Desktop",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?width=3840&height=4800",
+      "srcset": "https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?scale-down-to=1024&width=3840&height=4800 819w,https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?scale-down-to=2048&width=3840&height=4800 1638w,https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?scale-down-to=4096&width=3840&height=4800 3276w,https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?width=3840&height=4800 3840w",
+      "alt": "",
+      "width": "3840",
+      "height": "4800",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Desktop",
+        "Slideshow",
+        "Meat & Grill Card",
+        "Desktop",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?width=3840&height=4800",
+      "srcset": "https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?scale-down-to=1024&width=3840&height=4800 819w,https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?scale-down-to=2048&width=3840&height=4800 1638w,https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?scale-down-to=4096&width=3840&height=4800 3276w,https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?width=3840&height=4800 3840w",
+      "alt": "",
+      "width": "3840",
+      "height": "4800",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Desktop",
+        "Slideshow",
+        "Seafood Card",
+        "Desktop",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tEzcLHiec4GbqaRoZhpBbWc18mI.svg?width=86&height=86",
+      "srcset": null,
+      "alt": "Back Arrow",
+      "width": "42",
+      "height": "42",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Desktop",
+        "Slideshow"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/O0bOor0hO76GQ0DZjtTYXbMew.svg?width=86&height=86",
+      "srcset": null,
+      "alt": "Next Arrow",
+      "width": "42",
+      "height": "42",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Desktop",
+        "Slideshow"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5DhyAMIMoiY50s972DXmCZVLqy0.png?width=849&height=1200",
+      "srcset": "https://framerusercontent.com/images/5DhyAMIMoiY50s972DXmCZVLqy0.png?scale-down-to=1024&width=849&height=1200 724w,https://framerusercontent.com/images/5DhyAMIMoiY50s972DXmCZVLqy0.png?width=849&height=1200 849w",
+      "alt": "",
+      "width": "849",
+      "height": "1200",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Phone",
+        "Slideshow",
+        "Soups Card",
+        "Phone",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5BfiX3qj8iX5Xm4joizUfP3CyI.png?width=673&height=1200",
+      "srcset": "https://framerusercontent.com/images/5BfiX3qj8iX5Xm4joizUfP3CyI.png?scale-down-to=1024&width=673&height=1200 574w,https://framerusercontent.com/images/5BfiX3qj8iX5Xm4joizUfP3CyI.png?width=673&height=1200 673w",
+      "alt": "",
+      "width": "673",
+      "height": "1200",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Phone",
+        "Slideshow",
+        "Drinks",
+        "Phone",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?width=3777&height=5665",
+      "srcset": "https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?scale-down-to=1024&width=3777&height=5665 682w,https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?scale-down-to=2048&width=3777&height=5665 1365w,https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?scale-down-to=4096&width=3777&height=5665 2730w,https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?width=3777&height=5665 3777w",
+      "alt": "",
+      "width": "3777",
+      "height": "5665",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Phone",
+        "Slideshow",
+        "Salads & Sides Card",
+        "Phone",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?width=3840&height=4800",
+      "srcset": "https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?scale-down-to=1024&width=3840&height=4800 819w,https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?scale-down-to=2048&width=3840&height=4800 1638w,https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?scale-down-to=4096&width=3840&height=4800 3276w,https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?width=3840&height=4800 3840w",
+      "alt": "",
+      "width": "3840",
+      "height": "4800",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Phone",
+        "Slideshow",
+        "Meat & Grill Card",
+        "Phone",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?width=3840&height=4800",
+      "srcset": "https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?scale-down-to=1024&width=3840&height=4800 819w,https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?scale-down-to=2048&width=3840&height=4800 1638w,https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?scale-down-to=4096&width=3840&height=4800 3276w,https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?width=3840&height=4800 3840w",
+      "alt": "",
+      "width": "3840",
+      "height": "4800",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Phone",
+        "Slideshow",
+        "Seafood Card",
+        "Phone",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tEzcLHiec4GbqaRoZhpBbWc18mI.svg?width=86&height=86",
+      "srcset": null,
+      "alt": "Back Arrow",
+      "width": "42",
+      "height": "42",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Phone",
+        "Slideshow"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/O0bOor0hO76GQ0DZjtTYXbMew.svg?width=86&height=86",
+      "srcset": null,
+      "alt": "Next Arrow",
+      "width": "42",
+      "height": "42",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Phone",
+        "Slideshow"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5DhyAMIMoiY50s972DXmCZVLqy0.png?width=849&height=1200",
+      "srcset": "https://framerusercontent.com/images/5DhyAMIMoiY50s972DXmCZVLqy0.png?scale-down-to=1024&width=849&height=1200 724w,https://framerusercontent.com/images/5DhyAMIMoiY50s972DXmCZVLqy0.png?width=849&height=1200 849w",
+      "alt": "",
+      "width": "849",
+      "height": "1200",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Variant 3",
+        "Slideshow",
+        "Soups Card",
+        "Desktop",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5BfiX3qj8iX5Xm4joizUfP3CyI.png?width=673&height=1200",
+      "srcset": "https://framerusercontent.com/images/5BfiX3qj8iX5Xm4joizUfP3CyI.png?scale-down-to=1024&width=673&height=1200 574w,https://framerusercontent.com/images/5BfiX3qj8iX5Xm4joizUfP3CyI.png?width=673&height=1200 673w",
+      "alt": "",
+      "width": "673",
+      "height": "1200",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Variant 3",
+        "Slideshow",
+        "Drinks",
+        "Desktop",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?width=3777&height=5665",
+      "srcset": "https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?scale-down-to=1024&width=3777&height=5665 682w,https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?scale-down-to=2048&width=3777&height=5665 1365w,https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?scale-down-to=4096&width=3777&height=5665 2730w,https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?width=3777&height=5665 3777w",
+      "alt": "",
+      "width": "3777",
+      "height": "5665",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Variant 3",
+        "Slideshow",
+        "Salads & Sides Card",
+        "Desktop",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?width=3840&height=4800",
+      "srcset": "https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?scale-down-to=1024&width=3840&height=4800 819w,https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?scale-down-to=2048&width=3840&height=4800 1638w,https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?scale-down-to=4096&width=3840&height=4800 3276w,https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?width=3840&height=4800 3840w",
+      "alt": "",
+      "width": "3840",
+      "height": "4800",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Variant 3",
+        "Slideshow",
+        "Meat & Grill Card",
+        "Desktop",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?width=3840&height=4800",
+      "srcset": "https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?scale-down-to=1024&width=3840&height=4800 819w,https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?scale-down-to=2048&width=3840&height=4800 1638w,https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?scale-down-to=4096&width=3840&height=4800 3276w,https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?width=3840&height=4800 3840w",
+      "alt": "",
+      "width": "3840",
+      "height": "4800",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Variant 3",
+        "Slideshow",
+        "Seafood Card",
+        "Desktop",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tEzcLHiec4GbqaRoZhpBbWc18mI.svg?width=86&height=86",
+      "srcset": null,
+      "alt": "Back Arrow",
+      "width": "42",
+      "height": "42",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Variant 3",
+        "Slideshow"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/O0bOor0hO76GQ0DZjtTYXbMew.svg?width=86&height=86",
+      "srcset": null,
+      "alt": "Next Arrow",
+      "width": "42",
+      "height": "42",
+      "path": [
+        "Menu Section",
+        "Container",
+        "Variant 3",
+        "Slideshow"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5BfiX3qj8iX5Xm4joizUfP3CyI.png?width=673&height=1200",
+      "srcset": "https://framerusercontent.com/images/5BfiX3qj8iX5Xm4joizUfP3CyI.png?scale-down-to=1024&width=673&height=1200 574w,https://framerusercontent.com/images/5BfiX3qj8iX5Xm4joizUfP3CyI.png?width=673&height=1200 673w",
+      "alt": "Gallery Image",
+      "width": "673",
+      "height": "1200",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Desktop",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5BfiX3qj8iX5Xm4joizUfP3CyI.png?width=673&height=1200",
+      "srcset": "https://framerusercontent.com/images/5BfiX3qj8iX5Xm4joizUfP3CyI.png?scale-down-to=1024&width=673&height=1200 574w,https://framerusercontent.com/images/5BfiX3qj8iX5Xm4joizUfP3CyI.png?width=673&height=1200 673w",
+      "alt": "Gallery Image",
+      "width": "673",
+      "height": "1200",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Phone",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?width=3777&height=5665",
+      "srcset": "https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?scale-down-to=1024&width=3777&height=5665 682w,https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?scale-down-to=2048&width=3777&height=5665 1365w,https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?scale-down-to=4096&width=3777&height=5665 2730w,https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?width=3777&height=5665 3777w",
+      "alt": "Gallery Image",
+      "width": "3777",
+      "height": "5665",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Desktop",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?width=3777&height=5665",
+      "srcset": "https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?scale-down-to=1024&width=3777&height=5665 682w,https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?scale-down-to=2048&width=3777&height=5665 1365w,https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?scale-down-to=4096&width=3777&height=5665 2730w,https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?width=3777&height=5665 3777w",
+      "alt": "Gallery Image",
+      "width": "3777",
+      "height": "5665",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Phone",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?width=3777&height=5665",
+      "srcset": "https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?scale-down-to=1024&width=3777&height=5665 682w,https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?scale-down-to=2048&width=3777&height=5665 1365w,https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?scale-down-to=4096&width=3777&height=5665 2730w,https://framerusercontent.com/images/VKjUimIYXf9ypRCfTaIy2C9hfQ.jpg?width=3777&height=5665 3777w",
+      "alt": "Gallery Image",
+      "width": "3777",
+      "height": "5665",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Desktop",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?width=3840&height=4800",
+      "srcset": "https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?scale-down-to=1024&width=3840&height=4800 819w,https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?scale-down-to=2048&width=3840&height=4800 1638w,https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?scale-down-to=4096&width=3840&height=4800 3276w,https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?width=3840&height=4800 3840w",
+      "alt": "Gallery Image",
+      "width": "3840",
+      "height": "4800",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Desktop",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?width=3840&height=4800",
+      "srcset": "https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?scale-down-to=1024&width=3840&height=4800 819w,https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?scale-down-to=2048&width=3840&height=4800 1638w,https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?scale-down-to=4096&width=3840&height=4800 3276w,https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?width=3840&height=4800 3840w",
+      "alt": "Gallery Image",
+      "width": "3840",
+      "height": "4800",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Phone",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?width=3840&height=4800",
+      "srcset": "https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?scale-down-to=1024&width=3840&height=4800 819w,https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?scale-down-to=2048&width=3840&height=4800 1638w,https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?scale-down-to=4096&width=3840&height=4800 3276w,https://framerusercontent.com/images/gr6oo4oaIQeMMMsVbdXNxihUtdI.jpg?width=3840&height=4800 3840w",
+      "alt": "Gallery Image",
+      "width": "3840",
+      "height": "4800",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Desktop",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?width=3840&height=4800",
+      "srcset": "https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?scale-down-to=1024&width=3840&height=4800 819w,https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?scale-down-to=2048&width=3840&height=4800 1638w,https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?scale-down-to=4096&width=3840&height=4800 3276w,https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?width=3840&height=4800 3840w",
+      "alt": "Gallery Image",
+      "width": "3840",
+      "height": "4800",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Desktop",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?width=3840&height=4800",
+      "srcset": "https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?scale-down-to=1024&width=3840&height=4800 819w,https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?scale-down-to=2048&width=3840&height=4800 1638w,https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?scale-down-to=4096&width=3840&height=4800 3276w,https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?width=3840&height=4800 3840w",
+      "alt": "Gallery Image",
+      "width": "3840",
+      "height": "4800",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Phone",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?width=3840&height=4800",
+      "srcset": "https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?scale-down-to=1024&width=3840&height=4800 819w,https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?scale-down-to=2048&width=3840&height=4800 1638w,https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?scale-down-to=4096&width=3840&height=4800 3276w,https://framerusercontent.com/images/jnR7Yemq1tARlfzENxTOjninLM.jpg?width=3840&height=4800 3840w",
+      "alt": "Gallery Image",
+      "width": "3840",
+      "height": "4800",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Desktop",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5DhyAMIMoiY50s972DXmCZVLqy0.png?width=849&height=1200",
+      "srcset": "https://framerusercontent.com/images/5DhyAMIMoiY50s972DXmCZVLqy0.png?scale-down-to=1024&width=849&height=1200 724w,https://framerusercontent.com/images/5DhyAMIMoiY50s972DXmCZVLqy0.png?width=849&height=1200 849w",
+      "alt": "Gallery Image",
+      "width": "849",
+      "height": "1200",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Desktop",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5DhyAMIMoiY50s972DXmCZVLqy0.png?width=849&height=1200",
+      "srcset": "https://framerusercontent.com/images/5DhyAMIMoiY50s972DXmCZVLqy0.png?scale-down-to=1024&width=849&height=1200 724w,https://framerusercontent.com/images/5DhyAMIMoiY50s972DXmCZVLqy0.png?width=849&height=1200 849w",
+      "alt": "Gallery Image",
+      "width": "849",
+      "height": "1200",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Phone",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ckrlVIFYdv1Pj4HLO1r9ZuNGGg.png?width=655&height=1200",
+      "srcset": "https://framerusercontent.com/images/ckrlVIFYdv1Pj4HLO1r9ZuNGGg.png?scale-down-to=1024&width=655&height=1200 558w,https://framerusercontent.com/images/ckrlVIFYdv1Pj4HLO1r9ZuNGGg.png?width=655&height=1200 655w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BnjPXn2EI0Rsw8miXo5IslztdM.jpg?width=4186&height=6279",
+      "srcset": "https://framerusercontent.com/images/BnjPXn2EI0Rsw8miXo5IslztdM.jpg?scale-down-to=1024&width=4186&height=6279 682w,https://framerusercontent.com/images/BnjPXn2EI0Rsw8miXo5IslztdM.jpg?scale-down-to=2048&width=4186&height=6279 1365w,https://framerusercontent.com/images/BnjPXn2EI0Rsw8miXo5IslztdM.jpg?scale-down-to=4096&width=4186&height=6279 2730w,https://framerusercontent.com/images/BnjPXn2EI0Rsw8miXo5IslztdM.jpg?width=4186&height=6279 4186w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gRg4e7oMw7NKJAIJTlDMgLgfzg.jpg?width=2800&height=4096",
+      "srcset": "https://framerusercontent.com/images/gRg4e7oMw7NKJAIJTlDMgLgfzg.jpg?scale-down-to=1024&width=2800&height=4096 700w,https://framerusercontent.com/images/gRg4e7oMw7NKJAIJTlDMgLgfzg.jpg?scale-down-to=2048&width=2800&height=4096 1400w,https://framerusercontent.com/images/gRg4e7oMw7NKJAIJTlDMgLgfzg.jpg?width=2800&height=4096 2800w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/US8YbJBqUXsaYEVvi9l3UZasBOo.png?width=904&height=1200",
+      "srcset": "https://framerusercontent.com/images/US8YbJBqUXsaYEVvi9l3UZasBOo.png?scale-down-to=1024&width=904&height=1200 771w,https://framerusercontent.com/images/US8YbJBqUXsaYEVvi9l3UZasBOo.png?width=904&height=1200 904w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ckrlVIFYdv1Pj4HLO1r9ZuNGGg.png?width=655&height=1200",
+      "srcset": "https://framerusercontent.com/images/ckrlVIFYdv1Pj4HLO1r9ZuNGGg.png?scale-down-to=1024&width=655&height=1200 558w,https://framerusercontent.com/images/ckrlVIFYdv1Pj4HLO1r9ZuNGGg.png?width=655&height=1200 655w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/1dkAxAlL1ygnh84QLMJtiF2tzgA.png?width=800&height=1200",
+      "srcset": "https://framerusercontent.com/images/1dkAxAlL1ygnh84QLMJtiF2tzgA.png?scale-down-to=1024&width=800&height=1200 682w,https://framerusercontent.com/images/1dkAxAlL1ygnh84QLMJtiF2tzgA.png?width=800&height=1200 800w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/W9yxCV1MXEZktBKCxloBzn4SGeI.png?width=904&height=1200",
+      "srcset": "https://framerusercontent.com/images/W9yxCV1MXEZktBKCxloBzn4SGeI.png?scale-down-to=1024&width=904&height=1200 771w,https://framerusercontent.com/images/W9yxCV1MXEZktBKCxloBzn4SGeI.png?width=904&height=1200 904w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ycYNJDhVVhcMN54l11jobkWZZUc.png?width=673&height=1200",
+      "srcset": "https://framerusercontent.com/images/ycYNJDhVVhcMN54l11jobkWZZUc.png?scale-down-to=1024&width=673&height=1200 574w,https://framerusercontent.com/images/ycYNJDhVVhcMN54l11jobkWZZUc.png?width=673&height=1200 673w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ckrlVIFYdv1Pj4HLO1r9ZuNGGg.png?width=655&height=1200",
+      "srcset": "https://framerusercontent.com/images/ckrlVIFYdv1Pj4HLO1r9ZuNGGg.png?scale-down-to=1024&width=655&height=1200 558w,https://framerusercontent.com/images/ckrlVIFYdv1Pj4HLO1r9ZuNGGg.png?width=655&height=1200 655w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BnjPXn2EI0Rsw8miXo5IslztdM.jpg?width=4186&height=6279",
+      "srcset": "https://framerusercontent.com/images/BnjPXn2EI0Rsw8miXo5IslztdM.jpg?scale-down-to=1024&width=4186&height=6279 682w,https://framerusercontent.com/images/BnjPXn2EI0Rsw8miXo5IslztdM.jpg?scale-down-to=2048&width=4186&height=6279 1365w,https://framerusercontent.com/images/BnjPXn2EI0Rsw8miXo5IslztdM.jpg?scale-down-to=4096&width=4186&height=6279 2730w,https://framerusercontent.com/images/BnjPXn2EI0Rsw8miXo5IslztdM.jpg?width=4186&height=6279 4186w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gRg4e7oMw7NKJAIJTlDMgLgfzg.jpg?width=2800&height=4096",
+      "srcset": "https://framerusercontent.com/images/gRg4e7oMw7NKJAIJTlDMgLgfzg.jpg?scale-down-to=1024&width=2800&height=4096 700w,https://framerusercontent.com/images/gRg4e7oMw7NKJAIJTlDMgLgfzg.jpg?scale-down-to=2048&width=2800&height=4096 1400w,https://framerusercontent.com/images/gRg4e7oMw7NKJAIJTlDMgLgfzg.jpg?width=2800&height=4096 2800w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/US8YbJBqUXsaYEVvi9l3UZasBOo.png?width=904&height=1200",
+      "srcset": "https://framerusercontent.com/images/US8YbJBqUXsaYEVvi9l3UZasBOo.png?scale-down-to=1024&width=904&height=1200 771w,https://framerusercontent.com/images/US8YbJBqUXsaYEVvi9l3UZasBOo.png?width=904&height=1200 904w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ckrlVIFYdv1Pj4HLO1r9ZuNGGg.png?width=655&height=1200",
+      "srcset": "https://framerusercontent.com/images/ckrlVIFYdv1Pj4HLO1r9ZuNGGg.png?scale-down-to=1024&width=655&height=1200 558w,https://framerusercontent.com/images/ckrlVIFYdv1Pj4HLO1r9ZuNGGg.png?width=655&height=1200 655w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/1dkAxAlL1ygnh84QLMJtiF2tzgA.png?width=800&height=1200",
+      "srcset": "https://framerusercontent.com/images/1dkAxAlL1ygnh84QLMJtiF2tzgA.png?scale-down-to=1024&width=800&height=1200 682w,https://framerusercontent.com/images/1dkAxAlL1ygnh84QLMJtiF2tzgA.png?width=800&height=1200 800w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/W9yxCV1MXEZktBKCxloBzn4SGeI.png?width=904&height=1200",
+      "srcset": "https://framerusercontent.com/images/W9yxCV1MXEZktBKCxloBzn4SGeI.png?scale-down-to=1024&width=904&height=1200 771w,https://framerusercontent.com/images/W9yxCV1MXEZktBKCxloBzn4SGeI.png?width=904&height=1200 904w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ycYNJDhVVhcMN54l11jobkWZZUc.png?width=673&height=1200",
+      "srcset": "https://framerusercontent.com/images/ycYNJDhVVhcMN54l11jobkWZZUc.png?scale-down-to=1024&width=673&height=1200 574w,https://framerusercontent.com/images/ycYNJDhVVhcMN54l11jobkWZZUc.png?width=673&height=1200 673w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ckrlVIFYdv1Pj4HLO1r9ZuNGGg.png?width=655&height=1200",
+      "srcset": "https://framerusercontent.com/images/ckrlVIFYdv1Pj4HLO1r9ZuNGGg.png?scale-down-to=1024&width=655&height=1200 558w,https://framerusercontent.com/images/ckrlVIFYdv1Pj4HLO1r9ZuNGGg.png?width=655&height=1200 655w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BnjPXn2EI0Rsw8miXo5IslztdM.jpg?width=4186&height=6279",
+      "srcset": "https://framerusercontent.com/images/BnjPXn2EI0Rsw8miXo5IslztdM.jpg?scale-down-to=1024&width=4186&height=6279 682w,https://framerusercontent.com/images/BnjPXn2EI0Rsw8miXo5IslztdM.jpg?scale-down-to=2048&width=4186&height=6279 1365w,https://framerusercontent.com/images/BnjPXn2EI0Rsw8miXo5IslztdM.jpg?scale-down-to=4096&width=4186&height=6279 2730w,https://framerusercontent.com/images/BnjPXn2EI0Rsw8miXo5IslztdM.jpg?width=4186&height=6279 4186w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gRg4e7oMw7NKJAIJTlDMgLgfzg.jpg?width=2800&height=4096",
+      "srcset": "https://framerusercontent.com/images/gRg4e7oMw7NKJAIJTlDMgLgfzg.jpg?scale-down-to=1024&width=2800&height=4096 700w,https://framerusercontent.com/images/gRg4e7oMw7NKJAIJTlDMgLgfzg.jpg?scale-down-to=2048&width=2800&height=4096 1400w,https://framerusercontent.com/images/gRg4e7oMw7NKJAIJTlDMgLgfzg.jpg?width=2800&height=4096 2800w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/US8YbJBqUXsaYEVvi9l3UZasBOo.png?width=904&height=1200",
+      "srcset": "https://framerusercontent.com/images/US8YbJBqUXsaYEVvi9l3UZasBOo.png?scale-down-to=1024&width=904&height=1200 771w,https://framerusercontent.com/images/US8YbJBqUXsaYEVvi9l3UZasBOo.png?width=904&height=1200 904w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ckrlVIFYdv1Pj4HLO1r9ZuNGGg.png?width=655&height=1200",
+      "srcset": "https://framerusercontent.com/images/ckrlVIFYdv1Pj4HLO1r9ZuNGGg.png?scale-down-to=1024&width=655&height=1200 558w,https://framerusercontent.com/images/ckrlVIFYdv1Pj4HLO1r9ZuNGGg.png?width=655&height=1200 655w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/1dkAxAlL1ygnh84QLMJtiF2tzgA.png?width=800&height=1200",
+      "srcset": "https://framerusercontent.com/images/1dkAxAlL1ygnh84QLMJtiF2tzgA.png?scale-down-to=1024&width=800&height=1200 682w,https://framerusercontent.com/images/1dkAxAlL1ygnh84QLMJtiF2tzgA.png?width=800&height=1200 800w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/W9yxCV1MXEZktBKCxloBzn4SGeI.png?width=904&height=1200",
+      "srcset": "https://framerusercontent.com/images/W9yxCV1MXEZktBKCxloBzn4SGeI.png?scale-down-to=1024&width=904&height=1200 771w,https://framerusercontent.com/images/W9yxCV1MXEZktBKCxloBzn4SGeI.png?width=904&height=1200 904w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ycYNJDhVVhcMN54l11jobkWZZUc.png?width=673&height=1200",
+      "srcset": "https://framerusercontent.com/images/ycYNJDhVVhcMN54l11jobkWZZUc.png?scale-down-to=1024&width=673&height=1200 574w,https://framerusercontent.com/images/ycYNJDhVVhcMN54l11jobkWZZUc.png?width=673&height=1200 673w",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "path": [
+        "Gallery Section",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Desktop",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/NWGUIaPxN387fq8c1vOSO1Z0QTk.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Phone",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?width=2016&height=3024",
+      "srcset": "https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?scale-down-to=1024&width=2016&height=3024 682w,https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?scale-down-to=2048&width=2016&height=3024 1365w,https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?width=2016&height=3024 2016w",
+      "alt": "Gallery Image",
+      "width": "2016",
+      "height": "3024",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Desktop",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?width=2016&height=3024",
+      "srcset": "https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?scale-down-to=1024&width=2016&height=3024 682w,https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?scale-down-to=2048&width=2016&height=3024 1365w,https://framerusercontent.com/images/HwISFa04nWpf41hX9eo2AdwBg.jpg?width=2016&height=3024 2016w",
+      "alt": "Gallery Image",
+      "width": "2016",
+      "height": "3024",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Phone",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?width=1200&height=673",
+      "srcset": "https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?scale-down-to=512&width=1200&height=673 512w,https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?scale-down-to=1024&width=1200&height=673 1024w,https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?width=1200&height=673 1200w",
+      "alt": "Gallery Image",
+      "width": "1200",
+      "height": "673",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Desktop",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?width=1200&height=673",
+      "srcset": "https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?scale-down-to=512&width=1200&height=673 512w,https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?scale-down-to=1024&width=1200&height=673 1024w,https://framerusercontent.com/images/9yyO72AeqMvyZ3M9tvaNcfmRoTY.png?width=1200&height=673 1200w",
+      "alt": "Gallery Image",
+      "width": "1200",
+      "height": "673",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Phone",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/S1TaVTXCntAjxRRA2uEXRA0uuto.png?width=849&height=1200",
+      "srcset": "https://framerusercontent.com/images/S1TaVTXCntAjxRRA2uEXRA0uuto.png?scale-down-to=1024&width=849&height=1200 724w,https://framerusercontent.com/images/S1TaVTXCntAjxRRA2uEXRA0uuto.png?width=849&height=1200 849w",
+      "alt": "Gallery Image",
+      "width": "849",
+      "height": "1200",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Desktop",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/S1TaVTXCntAjxRRA2uEXRA0uuto.png?width=849&height=1200",
+      "srcset": "https://framerusercontent.com/images/S1TaVTXCntAjxRRA2uEXRA0uuto.png?scale-down-to=1024&width=849&height=1200 724w,https://framerusercontent.com/images/S1TaVTXCntAjxRRA2uEXRA0uuto.png?width=849&height=1200 849w",
+      "alt": "Gallery Image",
+      "width": "849",
+      "height": "1200",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Phone",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?width=1200&height=1200 1200w",
+      "alt": "Gallery Image",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Desktop",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/UfqMCYyAXgIKNsuI9xJMbv9u80.png?width=1200&height=1200 1200w",
+      "alt": "Gallery Image",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Gallery Section",
+        "Container",
+        "Card Wrapper",
+        "Phone",
+        "Gallery Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?width=3221&height=1772",
+      "srcset": "https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?scale-down-to=512&width=3221&height=1772 512w,https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?scale-down-to=1024&width=3221&height=1772 1024w,https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?scale-down-to=2048&width=3221&height=1772 2048w,https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?width=3221&height=1772 3221w",
+      "alt": "BG Shape",
+      "width": "3221",
+      "height": "1772",
+      "path": [
+        "Book Your Table Section",
+        "Container Wrapper",
+        "Container",
+        "Mask group"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BeVivIZCxQHg7lgyfl8jsOiSqw.png?width=1163&height=1200",
+      "srcset": "https://framerusercontent.com/images/BeVivIZCxQHg7lgyfl8jsOiSqw.png?scale-down-to=1024&width=1163&height=1200 992w,https://framerusercontent.com/images/BeVivIZCxQHg7lgyfl8jsOiSqw.png?width=1163&height=1200 1163w",
+      "alt": "",
+      "width": "1163",
+      "height": "1200",
+      "path": [
+        "Testimonials",
+        "Container",
+        "Testimonial One",
+        "Testimonial Card",
+        "Desktop/Tablet",
+        "Customer Details",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BeVivIZCxQHg7lgyfl8jsOiSqw.png?width=1163&height=1200",
+      "srcset": "https://framerusercontent.com/images/BeVivIZCxQHg7lgyfl8jsOiSqw.png?scale-down-to=1024&width=1163&height=1200 992w,https://framerusercontent.com/images/BeVivIZCxQHg7lgyfl8jsOiSqw.png?width=1163&height=1200 1163w",
+      "alt": "",
+      "width": "1163",
+      "height": "1200",
+      "path": [
+        "Testimonials",
+        "Container",
+        "Testimonial One Phone",
+        "Testimonial Card",
+        "Phone",
+        "Customer Details",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BeVivIZCxQHg7lgyfl8jsOiSqw.png?width=1163&height=1200",
+      "srcset": "https://framerusercontent.com/images/BeVivIZCxQHg7lgyfl8jsOiSqw.png?scale-down-to=1024&width=1163&height=1200 992w,https://framerusercontent.com/images/BeVivIZCxQHg7lgyfl8jsOiSqw.png?width=1163&height=1200 1163w",
+      "alt": "",
+      "width": "1163",
+      "height": "1200",
+      "path": [
+        "Testimonials",
+        "Container",
+        "Testimonial One Tablet",
+        "Testimonial Card",
+        "Desktop/Tablet",
+        "Customer Details",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Contact Section",
+        "Container",
+        "Location Card 1",
+        "Desktop",
+        "IMAGE"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?width=5327&height=7990",
+      "srcset": "https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?scale-down-to=1024&width=5327&height=7990 682w,https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?scale-down-to=2048&width=5327&height=7990 1365w,https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?scale-down-to=4096&width=5327&height=7990 2730w,https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?width=5327&height=7990 5327w",
+      "alt": "",
+      "width": "5327",
+      "height": "7990",
+      "path": [
+        "Contact Section",
+        "Container",
+        "Location Card 1",
+        "Desktop",
+        "RIGHT CONTENT",
+        "Content",
+        "Avatars Wrapper",
+        "Customer",
+        "Image 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?width=5327&height=7990",
+      "srcset": "https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?scale-down-to=1024&width=5327&height=7990 682w,https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?scale-down-to=2048&width=5327&height=7990 1365w,https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?scale-down-to=4096&width=5327&height=7990 2730w,https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?width=5327&height=7990 5327w",
+      "alt": "",
+      "width": "5327",
+      "height": "7990",
+      "path": [
+        "Contact Section",
+        "Container",
+        "Location Card 1",
+        "Desktop",
+        "RIGHT CONTENT",
+        "Content",
+        "Avatars Wrapper",
+        "Customer",
+        "Image 2"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aPmLRwVTMfvPcGwnUsDZPr3oQ.png?width=900&height=1200",
+      "srcset": "https://framerusercontent.com/images/aPmLRwVTMfvPcGwnUsDZPr3oQ.png?scale-down-to=1024&width=900&height=1200 768w,https://framerusercontent.com/images/aPmLRwVTMfvPcGwnUsDZPr3oQ.png?width=900&height=1200 900w",
+      "alt": "",
+      "width": "900",
+      "height": "1200",
+      "path": [
+        "Contact Section",
+        "Container",
+        "Location Card 1",
+        "Desktop",
+        "RIGHT CONTENT",
+        "Content",
+        "Avatars Wrapper",
+        "Customer",
+        "Image 3"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Contact Section",
+        "Container",
+        "Location Card 1",
+        "Phone",
+        "IMAGE"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?width=5327&height=7990",
+      "srcset": "https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?scale-down-to=1024&width=5327&height=7990 682w,https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?scale-down-to=2048&width=5327&height=7990 1365w,https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?scale-down-to=4096&width=5327&height=7990 2730w,https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?width=5327&height=7990 5327w",
+      "alt": "",
+      "width": "5327",
+      "height": "7990",
+      "path": [
+        "Contact Section",
+        "Container",
+        "Location Card 1",
+        "Phone",
+        "RIGHT CONTENT",
+        "Content",
+        "Avatars Wrapper",
+        "Customer",
+        "Image 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?width=5327&height=7990",
+      "srcset": "https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?scale-down-to=1024&width=5327&height=7990 682w,https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?scale-down-to=2048&width=5327&height=7990 1365w,https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?scale-down-to=4096&width=5327&height=7990 2730w,https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?width=5327&height=7990 5327w",
+      "alt": "",
+      "width": "5327",
+      "height": "7990",
+      "path": [
+        "Contact Section",
+        "Container",
+        "Location Card 1",
+        "Phone",
+        "RIGHT CONTENT",
+        "Content",
+        "Avatars Wrapper",
+        "Customer",
+        "Image 2"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aPmLRwVTMfvPcGwnUsDZPr3oQ.png?width=900&height=1200",
+      "srcset": "https://framerusercontent.com/images/aPmLRwVTMfvPcGwnUsDZPr3oQ.png?scale-down-to=1024&width=900&height=1200 768w,https://framerusercontent.com/images/aPmLRwVTMfvPcGwnUsDZPr3oQ.png?width=900&height=1200 900w",
+      "alt": "",
+      "width": "900",
+      "height": "1200",
+      "path": [
+        "Contact Section",
+        "Container",
+        "Location Card 1",
+        "Phone",
+        "RIGHT CONTENT",
+        "Content",
+        "Avatars Wrapper",
+        "Customer",
+        "Image 3"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/JQNk59SdaiPVw6E84EvmyoaiMY.png?width=1200&height=1200 1200w",
+      "alt": "",
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Contact Section",
+        "Container",
+        "Location Card 1",
+        "Tablet",
+        "IMAGE"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?width=5327&height=7990",
+      "srcset": "https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?scale-down-to=1024&width=5327&height=7990 682w,https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?scale-down-to=2048&width=5327&height=7990 1365w,https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?scale-down-to=4096&width=5327&height=7990 2730w,https://framerusercontent.com/images/KAknkKRPthF764GKw4WHZXXA.jpg?width=5327&height=7990 5327w",
+      "alt": "",
+      "width": "5327",
+      "height": "7990",
+      "path": [
+        "Contact Section",
+        "Container",
+        "Location Card 1",
+        "Tablet",
+        "RIGHT CONTENT",
+        "Content",
+        "Avatars Wrapper",
+        "Customer",
+        "Image 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?width=5327&height=7990",
+      "srcset": "https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?scale-down-to=1024&width=5327&height=7990 682w,https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?scale-down-to=2048&width=5327&height=7990 1365w,https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?scale-down-to=4096&width=5327&height=7990 2730w,https://framerusercontent.com/images/53RVfwkOcfYEkea349tE93dAMzI.jpg?width=5327&height=7990 5327w",
+      "alt": "",
+      "width": "5327",
+      "height": "7990",
+      "path": [
+        "Contact Section",
+        "Container",
+        "Location Card 1",
+        "Tablet",
+        "RIGHT CONTENT",
+        "Content",
+        "Avatars Wrapper",
+        "Customer",
+        "Image 2"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aPmLRwVTMfvPcGwnUsDZPr3oQ.png?width=900&height=1200",
+      "srcset": "https://framerusercontent.com/images/aPmLRwVTMfvPcGwnUsDZPr3oQ.png?scale-down-to=1024&width=900&height=1200 768w,https://framerusercontent.com/images/aPmLRwVTMfvPcGwnUsDZPr3oQ.png?width=900&height=1200 900w",
+      "alt": "",
+      "width": "900",
+      "height": "1200",
+      "path": [
+        "Contact Section",
+        "Container",
+        "Location Card 1",
+        "Tablet",
+        "RIGHT CONTENT",
+        "Content",
+        "Avatars Wrapper",
+        "Customer",
+        "Image 3"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RS97MZAZnknLHeachRBD5X6e4iI.svg?width=464&height=133",
+      "srcset": null,
+      "alt": "",
+      "width": "464",
+      "height": "133",
+      "path": [
+        "Desktop",
+        "Container",
+        "Main wrapper",
+        "Text wrapper",
+        "Variant 1",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?width=3221&height=1772",
+      "srcset": "https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?scale-down-to=512&width=3221&height=1772 512w,https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?scale-down-to=1024&width=3221&height=1772 1024w,https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?scale-down-to=2048&width=3221&height=1772 2048w,https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?width=3221&height=1772 3221w",
+      "alt": "BG Shape",
+      "width": "3221",
+      "height": "1772",
+      "path": [
+        "Desktop",
+        "Mask group"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/XymqDyW7WbDQW0rljE4UEjEy4o.png?width=180&height=180",
+      "srcset": null,
+      "alt": "Profile portrait of a man in a grey shirt",
+      "width": "180",
+      "height": "180",
+      "path": [
+        "Desktop",
+        "Crafted By Anayatul Islam",
+        "Desktop",
+        "Image",
+        "Avatar"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RS97MZAZnknLHeachRBD5X6e4iI.svg?width=464&height=133",
+      "srcset": null,
+      "alt": "",
+      "width": "464",
+      "height": "133",
+      "path": [
+        "Tablet",
+        "Container",
+        "Main wrapper",
+        "Text wrapper",
+        "Variant 1",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?width=3221&height=1772",
+      "srcset": "https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?scale-down-to=512&width=3221&height=1772 512w,https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?scale-down-to=1024&width=3221&height=1772 1024w,https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?scale-down-to=2048&width=3221&height=1772 2048w,https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?width=3221&height=1772 3221w",
+      "alt": "BG Shape",
+      "width": "3221",
+      "height": "1772",
+      "path": [
+        "Tablet",
+        "Mask group"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/XymqDyW7WbDQW0rljE4UEjEy4o.png?width=180&height=180",
+      "srcset": null,
+      "alt": "Profile portrait of a man in a grey shirt",
+      "width": "180",
+      "height": "180",
+      "path": [
+        "Tablet",
+        "Crafted By Anayatul Islam",
+        "Desktop",
+        "Image",
+        "Avatar"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RS97MZAZnknLHeachRBD5X6e4iI.svg?width=464&height=133",
+      "srcset": null,
+      "alt": "",
+      "width": "464",
+      "height": "133",
+      "path": [
+        "Phone",
+        "Container",
+        "Main wrapper",
+        "Text wrapper",
+        "Variant 1",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?width=3221&height=1772",
+      "srcset": "https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?scale-down-to=512&width=3221&height=1772 512w,https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?scale-down-to=1024&width=3221&height=1772 1024w,https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?scale-down-to=2048&width=3221&height=1772 2048w,https://framerusercontent.com/images/AQQHidpFB5yzIOpaQGi6qU4TA8.svg?width=3221&height=1772 3221w",
+      "alt": "BG Shape",
+      "width": "3221",
+      "height": "1772",
+      "path": [
+        "Phone",
+        "Mask group"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/XymqDyW7WbDQW0rljE4UEjEy4o.png?width=180&height=180",
+      "srcset": null,
+      "alt": "Profile portrait of a man in a grey shirt",
+      "width": "180",
+      "height": "180",
+      "path": [
+        "Phone",
+        "Crafted By Anayatul Islam",
+        "Desktop",
+        "Image",
+        "Avatar"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    }
+  ],
+  "videoReferences": [],
+  "linksDeclaredInSource": [
+    "https://foodly.framer.media/",
+    "https://foodly.framer.media/#about",
+    "https://foodly.framer.media/#services",
+    "https://foodly.framer.media/contact",
+    "https://foodly.framer.media/menu",
+    "https://foodly.framer.media/privacy-policy",
+    "https://foodly.framer.media/reservation",
+    "https://framer.link/qGfdwe5",
+    "https://instagram.com",
+    "https://www.facebook.com/",
+    "https://www.framer.com",
+    "https://www.instagram.com/",
+    "https://www.linkedin.com/",
+    "https://x.com/",
+    "https://x.com/anayatul_islam",
+    "mailto:hello@foodly.com",
+    "tel:+1 (234) 567-8900"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2Fd7f84517-75c8-4e5c-9f66-b6278dca4f3c%2F019fb39f-57d4-73a6-8ec2-0e869d87c6f3.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2Fd7f84517-75c8-4e5c-9f66-b6278dca4f3c%2F019fb3a4-e898-761d-bc3f-ed9e06ffa33b.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2Fd7f84517-75c8-4e5c-9f66-b6278dca4f3c%2F01a104a9-07bc-712c-90ed-a1dfbdeef2be.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-04.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2Fd7f84517-75c8-4e5c-9f66-b6278dca4f3c%2F01a104a9-2b11-7032-bd5e-48e70292aba6.png&w=2048&q=80"
+    }
+  ],
+  "category": {
+    "parent": "Hospitality",
+    "branch": "Restaurant / cafe",
+    "fitEvidence": "Official Marketplace identifies restaurants and cafes, categorized CMS menu items and table reservations; public preview contains culinary menu and reservation content.",
+    "marketplace": "https://www.framer.com/marketplace/templates/foodly/"
+  },
+  "backendVerified": false,
+  "secondaryDeclarationsFile": "secondary-declarations.json",
+  "captureRasterPx": {
+    "width": 1348,
+    "height": 926
+  },
+  "browserObservationsFile": "BROWSER-OBSERVATIONS.json",
+  "nativeBrowserCaptures": [
+    {
+      "file": "screenshots/live-home.jpg",
+      "label": "home",
+      "url": "https://foodly.framer.media/",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    },
+    {
+      "file": "screenshots/live-reservation.jpg",
+      "label": "reservation",
+      "url": "https://foodly.framer.media/reservation",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    },
+    {
+      "file": "screenshots/live-secondary.jpg",
+      "label": "secondary",
+      "url": "https://foodly.framer.media/menu",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    }
+  ],
+  "phoneTabletRendered": false
+}

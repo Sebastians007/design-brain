@@ -1,0 +1,1624 @@
+{
+  "template": "Marginalia",
+  "preview": "https://appreciative-notes-865583.framer.app/",
+  "marketplace": "https://www.framer.com/marketplace/templates/marginalia/",
+  "creator": "Vexora Studio",
+  "coverage": "Public source declarations, official marketplace artwork and actual browser captures at the individually recorded viewport/state. Phone/tablet, complete motion and backend behavior unverified.",
+  "viewport": {
+    "devicePixelRatio": 1,
+    "height": 936,
+    "width": 1363
+  },
+  "pageHeight": 18696,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        102,
+        153,
+        1945,
+        1126
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 4 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-05.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 5 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        204,
+        281,
+        1187,
+        896
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 4 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-05.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 5 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [
+    {
+      "background": "rgb(244, 241, 234)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 119.796875,
+      "id": "",
+      "tag": "NAV",
+      "width": 1348,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 1116.9375,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 119.796875
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "36px",
+      "height": 824.71875,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 1236.734375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 780,
+      "id": "t-cover",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 2061.453125
+    },
+    {
+      "background": "color(display-p3 0.87 0.3 0.19)",
+      "display": "flex",
+      "gap": "36px",
+      "height": 517.796875,
+      "id": "t-quote",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 2978.734375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "36px",
+      "height": 744.75,
+      "id": "t-inissue",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 3496.53125
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "36px",
+      "height": 833,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 4241.28125
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "36px",
+      "height": 1217.515625,
+      "id": "t-mostread",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 5074.28125
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "36px",
+      "height": 1030.328125,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 6429.078125
+    },
+    {
+      "background": "rgb(234, 229, 217)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 575.59375,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 7459.40625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 153.28125,
+      "id": "t-ticker",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 8035
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "20px",
+      "height": 640,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 8188.28125
+    },
+    {
+      "background": "rgb(234, 229, 217)",
+      "display": "flex",
+      "gap": "36px",
+      "height": 579.375,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 8828.28125
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "36px",
+      "height": 676.3125,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 9407.65625
+    },
+    {
+      "background": "rgb(234, 229, 217)",
+      "display": "flex",
+      "gap": "36px",
+      "height": 1005.515625,
+      "id": "t-archive",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 10083.96875
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "36px",
+      "height": 1124.328125,
+      "id": "t-contrib",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 11226.765625
+    },
+    {
+      "background": "rgb(234, 229, 217)",
+      "display": "flex",
+      "gap": "36px",
+      "height": 881.515625,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 12351.09375
+    },
+    {
+      "background": "rgb(20, 20, 20)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 142.875,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 13232.609375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "36px",
+      "height": 807.46875,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 13375.484375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "36px",
+      "height": 349.6875,
+      "id": "t-numbers",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 14182.953125
+    },
+    {
+      "background": "rgb(20, 20, 20)",
+      "display": "flex",
+      "gap": "28px",
+      "height": 587.84375,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 14532.640625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "36px",
+      "height": 598.53125,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 15120.484375
+    },
+    {
+      "background": "color(display-p3 0.87 0.3 0.19)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 669.40625,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 15856.296875
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "36px",
+      "height": 666.515625,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 16525.703125
+    },
+    {
+      "background": "rgb(234, 229, 217)",
+      "display": "flex",
+      "gap": "36px",
+      "height": 527.125,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 17192.21875
+    },
+    {
+      "background": "color(display-p3 0.87 0.3 0.19)",
+      "display": "flex",
+      "gap": "36px",
+      "height": 616,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1200,
+      "x": 74,
+      "y": 17719.34375
+    },
+    {
+      "background": "rgb(244, 241, 234)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 359.515625,
+      "id": "",
+      "tag": "FOOTER",
+      "width": 1348,
+      "x": 0,
+      "y": 18335.34375
+    }
+  ],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnN4FNh4UI_1U.woff2",
+      "range": "",
+      "file": "assets/fonts/fragment-mono-400-0.woff2"
+    },
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iC16K5wfMRRjxp0DA6-2CLnB4ZHhqcN71URtQ.woff2",
+      "range": "",
+      "file": "assets/fonts/fragment-mono-400-1.woff2"
+    },
+    {
+      "family": "Literata Variable",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/KN664EMG3NVEZG3VBPPRZPN5AQAGCY5X/MSM7FVKIBWW3Q6X65E2YJQPFW5MJY5WY/7EBS3IMYIOXQAIQHH3MHB5O6IEHHGXBJ.woff2",
+      "range": "",
+      "file": "assets/fonts/literata-variable-400-2.woff2"
+    },
+    {
+      "family": "Literata Variable",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/G5TSYBYOS3B2UHUZXCPMI5R7FGXNUXPL/CWSD2Y6M7FPLW3TO3UXBXG442WT5DJ7N/ZPETCLDQL2VLZBKMQ6BZVA7D3ULIYGJJ.woff2",
+      "range": "",
+      "file": "assets/fonts/literata-variable-400-3.woff2"
+    },
+    {
+      "family": "Literata",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/IHLKAM5Y4A2ZS5VXTXDLUZ2LB6O2P4PX/F32SXKG5NHNNJSRTDSICFW37TANPANWQ/FXMZX7QWHFRRDZIX4HZHD46UTQPCLCSB.woff2",
+      "range": "",
+      "file": "assets/fonts/literata-400-4.woff2"
+    },
+    {
+      "family": "Literata",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/WEXV4HCWGZB5DMGXDVOJJ2Y422K67IIF/DPNUP5KLI6F2DL6M5Y4P7IIMJYDB2DKJ/BYTTXLUEXBZFNUJKSRROFBQLFEVZCYND.woff2",
+      "range": "",
+      "file": "assets/fonts/literata-700-5.woff2"
+    },
+    {
+      "family": "Literata",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/FKOGCBJDYVPQIXBVFQ5JQAOGMGO7HFR5/KKL7QDBKHZSGZD3LF5F4E3HGYL234WY2/ENT7CUPEY76XWHGFVYWAOICQIZHXJ6VH.woff2",
+      "range": "",
+      "file": "assets/fonts/literata-700-6.woff2"
+    },
+    {
+      "family": "Literata",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/TDFYGRKQUA4TSETCYNRKNETFKPBNU3AU/DKG5OWAXNQEQHSZ66TVJFNC6HZCEK6KZ/WM5LTV2SVHV3XC2IYYKCXKAZ25KN4G3B.woff2",
+      "range": "",
+      "file": "assets/fonts/literata-400-7.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-8.woff2"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?width=1400&height=2111",
+      "srcset": "https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?scale-down-to=1024&width=1400&height=2111 679w,https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?scale-down-to=2048&width=1400&height=2111 1358w,https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?width=1400&height=2111 1400w",
+      "alt": "Cover of Repair",
+      "width": "1400",
+      "height": "2111",
+      "path": [
+        "Contents",
+        "Current Issue (CMS)",
+        "Issue",
+        "Body",
+        "Cover",
+        "Cover Image",
+        "Cover Photo (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?width=1400&height=2111",
+      "srcset": "https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?scale-down-to=1024&width=1400&height=2111 679w,https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?scale-down-to=2048&width=1400&height=2111 1358w,https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?width=1400&height=2111 1400w",
+      "alt": "Cover of Repair",
+      "width": "1400",
+      "height": "2111",
+      "path": [
+        "Back Issues",
+        "Ring Stage (motion)",
+        "Ring Ticker",
+        "Issues (CMS)",
+        "Issue",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tYJFXPdwlw8qYUp2vRpsEGAZC5I.jpg?width=1200&height=1500",
+      "srcset": "https://framerusercontent.com/images/tYJFXPdwlw8qYUp2vRpsEGAZC5I.jpg?scale-down-to=1024&width=1200&height=1500 819w,https://framerusercontent.com/images/tYJFXPdwlw8qYUp2vRpsEGAZC5I.jpg?width=1200&height=1500 1200w",
+      "alt": "Cover of Night Shift",
+      "width": "1200",
+      "height": "1500",
+      "path": [
+        "Back Issues",
+        "Ring Stage (motion)",
+        "Ring Ticker",
+        "Issues (CMS)",
+        "Issue",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/08USFS8v27AsfOTqZg1EJtOl6g.jpg?width=1200&height=1800",
+      "srcset": "https://framerusercontent.com/images/08USFS8v27AsfOTqZg1EJtOl6g.jpg?scale-down-to=1024&width=1200&height=1800 682w,https://framerusercontent.com/images/08USFS8v27AsfOTqZg1EJtOl6g.jpg?width=1200&height=1800 1200w",
+      "alt": "Cover of Water",
+      "width": "1200",
+      "height": "1800",
+      "path": [
+        "Back Issues",
+        "Ring Stage (motion)",
+        "Ring Ticker",
+        "Issues (CMS)",
+        "Issue",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4PRHtG8dLQcmK65neJ06oryM4A.jpg?width=1200&height=1797",
+      "srcset": "https://framerusercontent.com/images/4PRHtG8dLQcmK65neJ06oryM4A.jpg?scale-down-to=1024&width=1200&height=1797 683w,https://framerusercontent.com/images/4PRHtG8dLQcmK65neJ06oryM4A.jpg?width=1200&height=1797 1200w",
+      "alt": "Cover of Borrowed",
+      "width": "1200",
+      "height": "1797",
+      "path": [
+        "Back Issues",
+        "Ring Stage (motion)",
+        "Ring Ticker",
+        "Issues (CMS)",
+        "Issue",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/D2EZZ4ShJb9IzNJLzvs5ixupeNY.jpg?width=1200&height=1652",
+      "srcset": "https://framerusercontent.com/images/D2EZZ4ShJb9IzNJLzvs5ixupeNY.jpg?scale-down-to=1024&width=1200&height=1652 743w,https://framerusercontent.com/images/D2EZZ4ShJb9IzNJLzvs5ixupeNY.jpg?width=1200&height=1652 1200w",
+      "alt": "Cover of Noise",
+      "width": "1200",
+      "height": "1652",
+      "path": [
+        "Back Issues",
+        "Ring Stage (motion)",
+        "Ring Ticker",
+        "Issues (CMS)",
+        "Issue",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?width=1400&height=2111",
+      "srcset": "https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?scale-down-to=1024&width=1400&height=2111 679w,https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?scale-down-to=2048&width=1400&height=2111 1358w,https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?width=1400&height=2111 1400w",
+      "alt": "Cover of Repair",
+      "width": "1400",
+      "height": "2111",
+      "path": [
+        "Back Issues",
+        "Ring Stage (motion)",
+        "Ring Ticker",
+        "Issues (CMS)",
+        "Issue",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tYJFXPdwlw8qYUp2vRpsEGAZC5I.jpg?width=1200&height=1500",
+      "srcset": "https://framerusercontent.com/images/tYJFXPdwlw8qYUp2vRpsEGAZC5I.jpg?scale-down-to=1024&width=1200&height=1500 819w,https://framerusercontent.com/images/tYJFXPdwlw8qYUp2vRpsEGAZC5I.jpg?width=1200&height=1500 1200w",
+      "alt": "Cover of Night Shift",
+      "width": "1200",
+      "height": "1500",
+      "path": [
+        "Back Issues",
+        "Ring Stage (motion)",
+        "Ring Ticker",
+        "Issues (CMS)",
+        "Issue",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/08USFS8v27AsfOTqZg1EJtOl6g.jpg?width=1200&height=1800",
+      "srcset": "https://framerusercontent.com/images/08USFS8v27AsfOTqZg1EJtOl6g.jpg?scale-down-to=1024&width=1200&height=1800 682w,https://framerusercontent.com/images/08USFS8v27AsfOTqZg1EJtOl6g.jpg?width=1200&height=1800 1200w",
+      "alt": "Cover of Water",
+      "width": "1200",
+      "height": "1800",
+      "path": [
+        "Back Issues",
+        "Ring Stage (motion)",
+        "Ring Ticker",
+        "Issues (CMS)",
+        "Issue",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4PRHtG8dLQcmK65neJ06oryM4A.jpg?width=1200&height=1797",
+      "srcset": "https://framerusercontent.com/images/4PRHtG8dLQcmK65neJ06oryM4A.jpg?scale-down-to=1024&width=1200&height=1797 683w,https://framerusercontent.com/images/4PRHtG8dLQcmK65neJ06oryM4A.jpg?width=1200&height=1797 1200w",
+      "alt": "Cover of Borrowed",
+      "width": "1200",
+      "height": "1797",
+      "path": [
+        "Back Issues",
+        "Ring Stage (motion)",
+        "Ring Ticker",
+        "Issues (CMS)",
+        "Issue",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/D2EZZ4ShJb9IzNJLzvs5ixupeNY.jpg?width=1200&height=1652",
+      "srcset": "https://framerusercontent.com/images/D2EZZ4ShJb9IzNJLzvs5ixupeNY.jpg?scale-down-to=1024&width=1200&height=1652 743w,https://framerusercontent.com/images/D2EZZ4ShJb9IzNJLzvs5ixupeNY.jpg?width=1200&height=1652 1200w",
+      "alt": "Cover of Noise",
+      "width": "1200",
+      "height": "1652",
+      "path": [
+        "Back Issues",
+        "Ring Stage (motion)",
+        "Ring Ticker",
+        "Issues (CMS)",
+        "Issue",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?width=1400&height=2111",
+      "srcset": "https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?scale-down-to=1024&width=1400&height=2111 679w,https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?scale-down-to=2048&width=1400&height=2111 1358w,https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?width=1400&height=2111 1400w",
+      "alt": "Cover of Repair",
+      "width": "1400",
+      "height": "2111",
+      "path": [
+        "Back Issues",
+        "Ring Stage (motion)",
+        "Ring Ticker",
+        "Issues (CMS)",
+        "Issue",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tYJFXPdwlw8qYUp2vRpsEGAZC5I.jpg?width=1200&height=1500",
+      "srcset": "https://framerusercontent.com/images/tYJFXPdwlw8qYUp2vRpsEGAZC5I.jpg?scale-down-to=1024&width=1200&height=1500 819w,https://framerusercontent.com/images/tYJFXPdwlw8qYUp2vRpsEGAZC5I.jpg?width=1200&height=1500 1200w",
+      "alt": "Cover of Night Shift",
+      "width": "1200",
+      "height": "1500",
+      "path": [
+        "Back Issues",
+        "Ring Stage (motion)",
+        "Ring Ticker",
+        "Issues (CMS)",
+        "Issue",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/08USFS8v27AsfOTqZg1EJtOl6g.jpg?width=1200&height=1800",
+      "srcset": "https://framerusercontent.com/images/08USFS8v27AsfOTqZg1EJtOl6g.jpg?scale-down-to=1024&width=1200&height=1800 682w,https://framerusercontent.com/images/08USFS8v27AsfOTqZg1EJtOl6g.jpg?width=1200&height=1800 1200w",
+      "alt": "Cover of Water",
+      "width": "1200",
+      "height": "1800",
+      "path": [
+        "Back Issues",
+        "Ring Stage (motion)",
+        "Ring Ticker",
+        "Issues (CMS)",
+        "Issue",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4PRHtG8dLQcmK65neJ06oryM4A.jpg?width=1200&height=1797",
+      "srcset": "https://framerusercontent.com/images/4PRHtG8dLQcmK65neJ06oryM4A.jpg?scale-down-to=1024&width=1200&height=1797 683w,https://framerusercontent.com/images/4PRHtG8dLQcmK65neJ06oryM4A.jpg?width=1200&height=1797 1200w",
+      "alt": "Cover of Borrowed",
+      "width": "1200",
+      "height": "1797",
+      "path": [
+        "Back Issues",
+        "Ring Stage (motion)",
+        "Ring Ticker",
+        "Issues (CMS)",
+        "Issue",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/D2EZZ4ShJb9IzNJLzvs5ixupeNY.jpg?width=1200&height=1652",
+      "srcset": "https://framerusercontent.com/images/D2EZZ4ShJb9IzNJLzvs5ixupeNY.jpg?scale-down-to=1024&width=1200&height=1652 743w,https://framerusercontent.com/images/D2EZZ4ShJb9IzNJLzvs5ixupeNY.jpg?width=1200&height=1652 1200w",
+      "alt": "Cover of Noise",
+      "width": "1200",
+      "height": "1652",
+      "path": [
+        "Back Issues",
+        "Ring Stage (motion)",
+        "Ring Ticker",
+        "Issues (CMS)",
+        "Issue",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rRy5TTn1uQ8gjUhYZbKIhgu08.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/rRy5TTn1uQ8gjUhYZbKIhgu08.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/rRy5TTn1uQ8gjUhYZbKIhgu08.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/rRy5TTn1uQ8gjUhYZbKIhgu08.jpg?width=1600&height=1067 1600w",
+      "alt": "The Honest Screw",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "Cover Story (CMS)",
+        "Cover Story",
+        "Cover Story Photo (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/T268pmZhFL1OYLbFSTxL7ZYSN7k.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/T268pmZhFL1OYLbFSTxL7ZYSN7k.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/T268pmZhFL1OYLbFSTxL7ZYSN7k.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/T268pmZhFL1OYLbFSTxL7ZYSN7k.jpg?width=1600&height=1067 1600w",
+      "alt": "Saturday at the Repair Caf\u00e9",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "In This Issue",
+        "Stories (CMS)",
+        "Card",
+        "Card Image (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/045ayePXEp5HnrVlNuX3PYT3HL0.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/045ayePXEp5HnrVlNuX3PYT3HL0.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/045ayePXEp5HnrVlNuX3PYT3HL0.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/045ayePXEp5HnrVlNuX3PYT3HL0.jpg?width=1600&height=1067 1600w",
+      "alt": "The Last Watchmaker on Nieuwe Binnenweg",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "In This Issue",
+        "Stories (CMS)",
+        "Card",
+        "Card Image (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wmB8SMxakxbDmA5gfRtBbH5rcwQ.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/wmB8SMxakxbDmA5gfRtBbH5rcwQ.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/wmB8SMxakxbDmA5gfRtBbH5rcwQ.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/wmB8SMxakxbDmA5gfRtBbH5rcwQ.jpg?width=1600&height=1067 1600w",
+      "alt": "A Darned Sock, 1943",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "In This Issue",
+        "Stories (CMS)",
+        "Card",
+        "Card Image (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/T268pmZhFL1OYLbFSTxL7ZYSN7k.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/T268pmZhFL1OYLbFSTxL7ZYSN7k.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/T268pmZhFL1OYLbFSTxL7ZYSN7k.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/T268pmZhFL1OYLbFSTxL7ZYSN7k.jpg?width=1600&height=1067 1600w",
+      "alt": "Saturday at the Repair Caf\u00e9",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "In This Issue",
+        "Stories (CMS)",
+        "Card",
+        "Card Image (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/045ayePXEp5HnrVlNuX3PYT3HL0.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/045ayePXEp5HnrVlNuX3PYT3HL0.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/045ayePXEp5HnrVlNuX3PYT3HL0.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/045ayePXEp5HnrVlNuX3PYT3HL0.jpg?width=1600&height=1067 1600w",
+      "alt": "The Last Watchmaker on Nieuwe Binnenweg",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "In This Issue",
+        "Stories (CMS)",
+        "Card",
+        "Card Image (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wmB8SMxakxbDmA5gfRtBbH5rcwQ.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/wmB8SMxakxbDmA5gfRtBbH5rcwQ.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/wmB8SMxakxbDmA5gfRtBbH5rcwQ.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/wmB8SMxakxbDmA5gfRtBbH5rcwQ.jpg?width=1600&height=1067 1600w",
+      "alt": "A Darned Sock, 1943",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "In This Issue",
+        "Stories (CMS)",
+        "Card",
+        "Card Image (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SPRYQPbiOU4n2b3YUqRdQNh0Wlo.jpg?width=1600&height=1200",
+      "srcset": "https://framerusercontent.com/images/SPRYQPbiOU4n2b3YUqRdQNh0Wlo.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/SPRYQPbiOU4n2b3YUqRdQNh0Wlo.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/SPRYQPbiOU4n2b3YUqRdQNh0Wlo.jpg?width=1600&height=1200 1600w",
+      "alt": "Spare Parts, Katendrecht",
+      "width": "1600",
+      "height": "1200",
+      "path": [
+        "In This Issue",
+        "Stories (CMS)",
+        "Card",
+        "Card Image (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rRy5TTn1uQ8gjUhYZbKIhgu08.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/rRy5TTn1uQ8gjUhYZbKIhgu08.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/rRy5TTn1uQ8gjUhYZbKIhgu08.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/rRy5TTn1uQ8gjUhYZbKIhgu08.jpg?width=1600&height=1067 1600w",
+      "alt": "The Honest Screw",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "Most Read",
+        "Stories (CMS)",
+        "Story Row",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/T268pmZhFL1OYLbFSTxL7ZYSN7k.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/T268pmZhFL1OYLbFSTxL7ZYSN7k.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/T268pmZhFL1OYLbFSTxL7ZYSN7k.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/T268pmZhFL1OYLbFSTxL7ZYSN7k.jpg?width=1600&height=1067 1600w",
+      "alt": "Saturday at the Repair Caf\u00e9",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "Most Read",
+        "Stories (CMS)",
+        "Story Row",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7YRhsdPfzlcE3ZM0FBRg2fNks.jpg?width=1600&height=1068",
+      "srcset": "https://framerusercontent.com/images/7YRhsdPfzlcE3ZM0FBRg2fNks.jpg?scale-down-to=512&width=1600&height=1068 512w,https://framerusercontent.com/images/7YRhsdPfzlcE3ZM0FBRg2fNks.jpg?scale-down-to=1024&width=1600&height=1068 1024w,https://framerusercontent.com/images/7YRhsdPfzlcE3ZM0FBRg2fNks.jpg?width=1600&height=1068 1600w",
+      "alt": "The 04:10 Night Bus",
+      "width": "1600",
+      "height": "1068",
+      "path": [
+        "Most Read",
+        "Stories (CMS)",
+        "Story Row",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/g8JbFE3eq7vBPmmE1cXIAVhR8.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/g8JbFE3eq7vBPmmE1cXIAVhR8.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/g8JbFE3eq7vBPmmE1cXIAVhR8.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/g8JbFE3eq7vBPmmE1cXIAVhR8.jpg?width=1600&height=1067 1600w",
+      "alt": "Living Below Sea Level",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "Most Read",
+        "Stories (CMS)",
+        "Story Row",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/qfI9fyt4iT8WyTgaIKu2tXUBY4.jpg?width=1800&height=1350",
+      "srcset": "https://framerusercontent.com/images/qfI9fyt4iT8WyTgaIKu2tXUBY4.jpg?scale-down-to=512&width=1800&height=1350 512w,https://framerusercontent.com/images/qfI9fyt4iT8WyTgaIKu2tXUBY4.jpg?scale-down-to=1024&width=1800&height=1350 1024w,https://framerusercontent.com/images/qfI9fyt4iT8WyTgaIKu2tXUBY4.jpg?width=1800&height=1350 1800w",
+      "alt": "The Tool Library on Mathenesserlaan",
+      "width": "1800",
+      "height": "1350",
+      "path": [
+        "Most Read",
+        "Stories (CMS)",
+        "Story Row",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/al03l7IlTui6vtfMXl2P6gI8dE.jpg?width=1600&height=1061",
+      "srcset": "https://framerusercontent.com/images/al03l7IlTui6vtfMXl2P6gI8dE.jpg?scale-down-to=512&width=1600&height=1061 512w,https://framerusercontent.com/images/al03l7IlTui6vtfMXl2P6gI8dE.jpg?scale-down-to=1024&width=1600&height=1061 1024w,https://framerusercontent.com/images/al03l7IlTui6vtfMXl2P6gI8dE.jpg?width=1600&height=1061 1600w",
+      "alt": "The Loudest Street in Rotterdam",
+      "width": "1600",
+      "height": "1061",
+      "path": [
+        "Most Read",
+        "Stories (CMS)",
+        "Story Row",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/045ayePXEp5HnrVlNuX3PYT3HL0.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/045ayePXEp5HnrVlNuX3PYT3HL0.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/045ayePXEp5HnrVlNuX3PYT3HL0.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/045ayePXEp5HnrVlNuX3PYT3HL0.jpg?width=1600&height=1067 1600w",
+      "alt": "The Last Watchmaker on Nieuwe Binnenweg",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "Photo Essay",
+        "Photos (CMS)",
+        "Photo Card",
+        "Photo (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wmB8SMxakxbDmA5gfRtBbH5rcwQ.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/wmB8SMxakxbDmA5gfRtBbH5rcwQ.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/wmB8SMxakxbDmA5gfRtBbH5rcwQ.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/wmB8SMxakxbDmA5gfRtBbH5rcwQ.jpg?width=1600&height=1067 1600w",
+      "alt": "A Darned Sock, 1943",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "Photo Essay",
+        "Photos (CMS)",
+        "Photo Card",
+        "Photo (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SPRYQPbiOU4n2b3YUqRdQNh0Wlo.jpg?width=1600&height=1200",
+      "srcset": "https://framerusercontent.com/images/SPRYQPbiOU4n2b3YUqRdQNh0Wlo.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/SPRYQPbiOU4n2b3YUqRdQNh0Wlo.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/SPRYQPbiOU4n2b3YUqRdQNh0Wlo.jpg?width=1600&height=1200 1600w",
+      "alt": "Spare Parts, Katendrecht",
+      "width": "1600",
+      "height": "1200",
+      "path": [
+        "Photo Essay",
+        "Photos (CMS)",
+        "Photo Card",
+        "Photo (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TE5zDa34AUyd71Ca6muh7BgVA0.jpg?width=1600&height=898",
+      "srcset": "https://framerusercontent.com/images/TE5zDa34AUyd71Ca6muh7BgVA0.jpg?scale-down-to=512&width=1600&height=898 512w,https://framerusercontent.com/images/TE5zDa34AUyd71Ca6muh7BgVA0.jpg?scale-down-to=1024&width=1600&height=898 1024w,https://framerusercontent.com/images/TE5zDa34AUyd71Ca6muh7BgVA0.jpg?width=1600&height=898 1600w",
+      "alt": "In Praise of the Server Room Hum",
+      "width": "1600",
+      "height": "898",
+      "path": [
+        "Photo Essay",
+        "Photos (CMS)",
+        "Photo Card",
+        "Photo (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/sCp5ZbU8qESuWQ2Wt1TdzCK8g.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/sCp5ZbU8qESuWQ2Wt1TdzCK8g.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/sCp5ZbU8qESuWQ2Wt1TdzCK8g.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/sCp5ZbU8qESuWQ2Wt1TdzCK8g.jpg?width=1600&height=1067 1600w",
+      "alt": "Flour Before Dawn",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "Photo Essay",
+        "Photos (CMS)",
+        "Photo Card",
+        "Photo (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Hj4m15SZ4VfMWn1vRggYbGFkMU.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/Hj4m15SZ4VfMWn1vRggYbGFkMU.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/Hj4m15SZ4VfMWn1vRggYbGFkMU.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/Hj4m15SZ4VfMWn1vRggYbGFkMU.jpg?width=1600&height=1067 1600w",
+      "alt": "Lights Left On",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "Photo Essay",
+        "Photos (CMS)",
+        "Photo Card",
+        "Photo (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/pEnWwEFwwYZYRjr1vJp1641wlGM.jpg?width=800&height=1000",
+      "srcset": "https://framerusercontent.com/images/pEnWwEFwwYZYRjr1vJp1641wlGM.jpg?width=800&height=1000 800w",
+      "alt": "Portrait of Ines Vallejo, editor-in-chief",
+      "width": "800",
+      "height": "1000",
+      "path": [
+        "Letter from the Editor",
+        "Inner",
+        "Signature (motion)",
+        "Portrait"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/sVnZjnZHKCxw5xWQX7F3cyHoh6Y.jpg?width=1400&height=935",
+      "srcset": "https://framerusercontent.com/images/sVnZjnZHKCxw5xWQX7F3cyHoh6Y.jpg?scale-down-to=512&width=1400&height=935 512w,https://framerusercontent.com/images/sVnZjnZHKCxw5xWQX7F3cyHoh6Y.jpg?scale-down-to=1024&width=1400&height=935 1024w,https://framerusercontent.com/images/sVnZjnZHKCxw5xWQX7F3cyHoh6Y.jpg?width=1400&height=935 1400w",
+      "alt": "",
+      "width": "1400",
+      "height": "935",
+      "path": [
+        "Photo Quote (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?width=1400&height=2111",
+      "srcset": "https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?scale-down-to=1024&width=1400&height=2111 679w,https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?scale-down-to=2048&width=1400&height=2111 1358w,https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?width=1400&height=2111 1400w",
+      "alt": "Cover of Repair",
+      "width": "1400",
+      "height": "2111",
+      "path": [
+        "Every Cover",
+        "Issues (CMS)",
+        "Cover Card",
+        "Issue Cover (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tYJFXPdwlw8qYUp2vRpsEGAZC5I.jpg?width=1200&height=1500",
+      "srcset": "https://framerusercontent.com/images/tYJFXPdwlw8qYUp2vRpsEGAZC5I.jpg?scale-down-to=1024&width=1200&height=1500 819w,https://framerusercontent.com/images/tYJFXPdwlw8qYUp2vRpsEGAZC5I.jpg?width=1200&height=1500 1200w",
+      "alt": "Cover of Night Shift",
+      "width": "1200",
+      "height": "1500",
+      "path": [
+        "Every Cover",
+        "Issues (CMS)",
+        "Cover Card",
+        "Issue Cover (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/08USFS8v27AsfOTqZg1EJtOl6g.jpg?width=1200&height=1800",
+      "srcset": "https://framerusercontent.com/images/08USFS8v27AsfOTqZg1EJtOl6g.jpg?scale-down-to=1024&width=1200&height=1800 682w,https://framerusercontent.com/images/08USFS8v27AsfOTqZg1EJtOl6g.jpg?width=1200&height=1800 1200w",
+      "alt": "Cover of Water",
+      "width": "1200",
+      "height": "1800",
+      "path": [
+        "Every Cover",
+        "Issues (CMS)",
+        "Cover Card",
+        "Issue Cover (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4PRHtG8dLQcmK65neJ06oryM4A.jpg?width=1200&height=1797",
+      "srcset": "https://framerusercontent.com/images/4PRHtG8dLQcmK65neJ06oryM4A.jpg?scale-down-to=1024&width=1200&height=1797 683w,https://framerusercontent.com/images/4PRHtG8dLQcmK65neJ06oryM4A.jpg?width=1200&height=1797 1200w",
+      "alt": "Cover of Borrowed",
+      "width": "1200",
+      "height": "1797",
+      "path": [
+        "Every Cover",
+        "Issues (CMS)",
+        "Cover Card",
+        "Issue Cover (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/D2EZZ4ShJb9IzNJLzvs5ixupeNY.jpg?width=1200&height=1652",
+      "srcset": "https://framerusercontent.com/images/D2EZZ4ShJb9IzNJLzvs5ixupeNY.jpg?scale-down-to=1024&width=1200&height=1652 743w,https://framerusercontent.com/images/D2EZZ4ShJb9IzNJLzvs5ixupeNY.jpg?width=1200&height=1652 1200w",
+      "alt": "Cover of Noise",
+      "width": "1200",
+      "height": "1652",
+      "path": [
+        "Every Cover",
+        "Issues (CMS)",
+        "Cover Card",
+        "Issue Cover (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?width=1400&height=2111",
+      "srcset": "https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?scale-down-to=1024&width=1400&height=2111 679w,https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?scale-down-to=2048&width=1400&height=2111 1358w,https://framerusercontent.com/images/wMhlPJjbYNbUIQRjTzyhhx0ou4.jpg?width=1400&height=2111 1400w",
+      "alt": "Cover of Repair",
+      "width": "1400",
+      "height": "2111",
+      "path": [
+        "Archive Index",
+        "Issues (CMS)",
+        "Issue Row",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tYJFXPdwlw8qYUp2vRpsEGAZC5I.jpg?width=1200&height=1500",
+      "srcset": "https://framerusercontent.com/images/tYJFXPdwlw8qYUp2vRpsEGAZC5I.jpg?scale-down-to=1024&width=1200&height=1500 819w,https://framerusercontent.com/images/tYJFXPdwlw8qYUp2vRpsEGAZC5I.jpg?width=1200&height=1500 1200w",
+      "alt": "Cover of Night Shift",
+      "width": "1200",
+      "height": "1500",
+      "path": [
+        "Archive Index",
+        "Issues (CMS)",
+        "Issue Row",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/08USFS8v27AsfOTqZg1EJtOl6g.jpg?width=1200&height=1800",
+      "srcset": "https://framerusercontent.com/images/08USFS8v27AsfOTqZg1EJtOl6g.jpg?scale-down-to=1024&width=1200&height=1800 682w,https://framerusercontent.com/images/08USFS8v27AsfOTqZg1EJtOl6g.jpg?width=1200&height=1800 1200w",
+      "alt": "Cover of Water",
+      "width": "1200",
+      "height": "1800",
+      "path": [
+        "Archive Index",
+        "Issues (CMS)",
+        "Issue Row",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4PRHtG8dLQcmK65neJ06oryM4A.jpg?width=1200&height=1797",
+      "srcset": "https://framerusercontent.com/images/4PRHtG8dLQcmK65neJ06oryM4A.jpg?scale-down-to=1024&width=1200&height=1797 683w,https://framerusercontent.com/images/4PRHtG8dLQcmK65neJ06oryM4A.jpg?width=1200&height=1797 1200w",
+      "alt": "Cover of Borrowed",
+      "width": "1200",
+      "height": "1797",
+      "path": [
+        "Archive Index",
+        "Issues (CMS)",
+        "Issue Row",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/D2EZZ4ShJb9IzNJLzvs5ixupeNY.jpg?width=1200&height=1652",
+      "srcset": "https://framerusercontent.com/images/D2EZZ4ShJb9IzNJLzvs5ixupeNY.jpg?scale-down-to=1024&width=1200&height=1652 743w,https://framerusercontent.com/images/D2EZZ4ShJb9IzNJLzvs5ixupeNY.jpg?width=1200&height=1652 1200w",
+      "alt": "Cover of Noise",
+      "width": "1200",
+      "height": "1652",
+      "path": [
+        "Archive Index",
+        "Issues (CMS)",
+        "Issue Row",
+        "Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/pEnWwEFwwYZYRjr1vJp1641wlGM.jpg?width=800&height=1000",
+      "srcset": "https://framerusercontent.com/images/pEnWwEFwwYZYRjr1vJp1641wlGM.jpg?width=800&height=1000 800w",
+      "alt": "Portrait of Ines Vallejo",
+      "width": "800",
+      "height": "1000",
+      "path": [
+        "Contributors",
+        "Contributors (CMS)",
+        "Person",
+        "Person Portrait (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/kgMUplSG6SSnePVjF3W3cRmGxjw.jpg?width=800&height=1200",
+      "srcset": "https://framerusercontent.com/images/kgMUplSG6SSnePVjF3W3cRmGxjw.jpg?scale-down-to=1024&width=800&height=1200 682w,https://framerusercontent.com/images/kgMUplSG6SSnePVjF3W3cRmGxjw.jpg?width=800&height=1200 800w",
+      "alt": "Portrait of Tom\u00e1s Okafor",
+      "width": "800",
+      "height": "1200",
+      "path": [
+        "Contributors",
+        "Contributors (CMS)",
+        "Person",
+        "Person Portrait (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Pw5eQqR8ikzb45pjId6dQ6dZoWo.jpg?width=800&height=1200",
+      "srcset": "https://framerusercontent.com/images/Pw5eQqR8ikzb45pjId6dQ6dZoWo.jpg?scale-down-to=1024&width=800&height=1200 682w,https://framerusercontent.com/images/Pw5eQqR8ikzb45pjId6dQ6dZoWo.jpg?width=800&height=1200 800w",
+      "alt": "Portrait of Hana S\u00f8rlie",
+      "width": "800",
+      "height": "1200",
+      "path": [
+        "Contributors",
+        "Contributors (CMS)",
+        "Person",
+        "Person Portrait (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4hO6KbiNUQAJy6O4bkr9KNbHUo.jpg?width=800&height=1422",
+      "srcset": "https://framerusercontent.com/images/4hO6KbiNUQAJy6O4bkr9KNbHUo.jpg?scale-down-to=1024&width=800&height=1422 576w,https://framerusercontent.com/images/4hO6KbiNUQAJy6O4bkr9KNbHUo.jpg?width=800&height=1422 800w",
+      "alt": "Portrait of Priya Raman",
+      "width": "800",
+      "height": "1422",
+      "path": [
+        "Contributors",
+        "Contributors (CMS)",
+        "Person",
+        "Person Portrait (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/90hB4XiT35qmyNCLuvH6wpoSx8.jpg?width=800&height=1200",
+      "srcset": "https://framerusercontent.com/images/90hB4XiT35qmyNCLuvH6wpoSx8.jpg?scale-down-to=1024&width=800&height=1200 682w,https://framerusercontent.com/images/90hB4XiT35qmyNCLuvH6wpoSx8.jpg?width=800&height=1200 800w",
+      "alt": "Portrait of Luuk de Vries",
+      "width": "800",
+      "height": "1200",
+      "path": [
+        "Contributors",
+        "Contributors (CMS)",
+        "Person",
+        "Person Portrait (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/XYtxqZvLNfzx3vygZ6TwL0Awf00.jpg?width=800&height=1200",
+      "srcset": "https://framerusercontent.com/images/XYtxqZvLNfzx3vygZ6TwL0Awf00.jpg?scale-down-to=1024&width=800&height=1200 682w,https://framerusercontent.com/images/XYtxqZvLNfzx3vygZ6TwL0Awf00.jpg?width=800&height=1200 800w",
+      "alt": "Portrait of Mei Tanaka",
+      "width": "800",
+      "height": "1200",
+      "path": [
+        "Contributors",
+        "Contributors (CMS)",
+        "Person",
+        "Person Portrait (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4fQjS4vWOmyOLLzS05jtfx4vik.jpg?width=800&height=1200",
+      "srcset": "https://framerusercontent.com/images/4fQjS4vWOmyOLLzS05jtfx4vik.jpg?scale-down-to=1024&width=800&height=1200 682w,https://framerusercontent.com/images/4fQjS4vWOmyOLLzS05jtfx4vik.jpg?width=800&height=1200 800w",
+      "alt": "Portrait of Kwame Asante",
+      "width": "800",
+      "height": "1200",
+      "path": [
+        "Contributors",
+        "Contributors (CMS)",
+        "Person",
+        "Person Portrait (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/R2LiiCK4BrTSqNnGA5ccETTG0U.jpg?width=800&height=1200",
+      "srcset": "https://framerusercontent.com/images/R2LiiCK4BrTSqNnGA5ccETTG0U.jpg?scale-down-to=1024&width=800&height=1200 682w,https://framerusercontent.com/images/R2LiiCK4BrTSqNnGA5ccETTG0U.jpg?width=800&height=1200 800w",
+      "alt": "Portrait of Aur\u00e9lie Brun",
+      "width": "800",
+      "height": "1200",
+      "path": [
+        "Contributors",
+        "Contributors (CMS)",
+        "Person",
+        "Person Portrait (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rcC0jcgX6oQYXvT60RBD2iWQdQs.jpg?width=720&height=900",
+      "srcset": "https://framerusercontent.com/images/rcC0jcgX6oQYXvT60RBD2iWQdQs.jpg?width=720&height=900 720w",
+      "alt": "",
+      "width": "720",
+      "height": "900",
+      "path": [
+        "Interview",
+        "Interview Grid",
+        "Interview Portrait (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rRy5TTn1uQ8gjUhYZbKIhgu08.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/rRy5TTn1uQ8gjUhYZbKIhgu08.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/rRy5TTn1uQ8gjUhYZbKIhgu08.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/rRy5TTn1uQ8gjUhYZbKIhgu08.jpg?width=1600&height=1067 1600w",
+      "alt": "The Last Brass Meter",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "Listen",
+        "Episodes (CMS)",
+        "Episode Card",
+        "Episode Cover (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/045ayePXEp5HnrVlNuX3PYT3HL0.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/045ayePXEp5HnrVlNuX3PYT3HL0.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/045ayePXEp5HnrVlNuX3PYT3HL0.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/045ayePXEp5HnrVlNuX3PYT3HL0.jpg?width=1600&height=1067 1600w",
+      "alt": "Night Shift, Line 12",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "Listen",
+        "Episodes (CMS)",
+        "Episode Card",
+        "Episode Cover (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SPRYQPbiOU4n2b3YUqRdQNh0Wlo.jpg?width=1600&height=1200",
+      "srcset": "https://framerusercontent.com/images/SPRYQPbiOU4n2b3YUqRdQNh0Wlo.jpg?scale-down-to=512&width=1600&height=1200 512w,https://framerusercontent.com/images/SPRYQPbiOU4n2b3YUqRdQNh0Wlo.jpg?scale-down-to=1024&width=1600&height=1200 1024w,https://framerusercontent.com/images/SPRYQPbiOU4n2b3YUqRdQNh0Wlo.jpg?width=1600&height=1200 1600w",
+      "alt": "Borrowing a Drill",
+      "width": "1600",
+      "height": "1200",
+      "path": [
+        "Listen",
+        "Episodes (CMS)",
+        "Episode Card",
+        "Episode Cover (motion)"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    }
+  ],
+  "videoReferences": [
+    {
+      "src": "https://framerusercontent.com/assets/HKfKjuK45X9DOMhbwAkvaXYdbU.mp4",
+      "poster": "[object Object]",
+      "path": [
+        "In Motion",
+        "Videos",
+        "Video Card",
+        "Video (motion)"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/jPfca9bjXUHhPL6ASUOo1TcU3TI.mp4",
+      "poster": "[object Object]",
+      "path": [
+        "In Motion",
+        "Videos",
+        "Video Card",
+        "Video (motion)"
+      ]
+    }
+  ],
+  "linksDeclaredInSource": [
+    "https://appreciative-notes-865583.framer.app/",
+    "https://appreciative-notes-865583.framer.app/about",
+    "https://appreciative-notes-865583.framer.app/archive",
+    "https://appreciative-notes-865583.framer.app/contributors",
+    "https://appreciative-notes-865583.framer.app/contributors/aurelie-brun",
+    "https://appreciative-notes-865583.framer.app/contributors/hana-sorlie",
+    "https://appreciative-notes-865583.framer.app/contributors/ines-vallejo",
+    "https://appreciative-notes-865583.framer.app/contributors/kwame-asante",
+    "https://appreciative-notes-865583.framer.app/contributors/luuk-de-vries",
+    "https://appreciative-notes-865583.framer.app/contributors/mei-tanaka",
+    "https://appreciative-notes-865583.framer.app/contributors/priya-raman",
+    "https://appreciative-notes-865583.framer.app/contributors/tomas-okafor",
+    "https://appreciative-notes-865583.framer.app/events",
+    "https://appreciative-notes-865583.framer.app/issues",
+    "https://appreciative-notes-865583.framer.app/issues/borrowed",
+    "https://appreciative-notes-865583.framer.app/issues/night-shift",
+    "https://appreciative-notes-865583.framer.app/issues/noise",
+    "https://appreciative-notes-865583.framer.app/issues/repair",
+    "https://appreciative-notes-865583.framer.app/issues/water",
+    "https://appreciative-notes-865583.framer.app/membership",
+    "https://appreciative-notes-865583.framer.app/pitch",
+    "https://appreciative-notes-865583.framer.app/podcast",
+    "https://appreciative-notes-865583.framer.app/podcast/episode-2",
+    "https://appreciative-notes-865583.framer.app/podcast/episode-3",
+    "https://appreciative-notes-865583.framer.app/podcast/episode-4",
+    "https://appreciative-notes-865583.framer.app/privacy",
+    "https://appreciative-notes-865583.framer.app/sections/essays",
+    "https://appreciative-notes-865583.framer.app/sections/field-notes",
+    "https://appreciative-notes-865583.framer.app/sections/interviews",
+    "https://appreciative-notes-865583.framer.app/sections/objects",
+    "https://appreciative-notes-865583.framer.app/sections/reportage",
+    "https://appreciative-notes-865583.framer.app/store",
+    "https://appreciative-notes-865583.framer.app/stories",
+    "https://appreciative-notes-865583.framer.app/stories/a-darned-sock-1943",
+    "https://appreciative-notes-865583.framer.app/stories/flour-before-dawn",
+    "https://appreciative-notes-865583.framer.app/stories/in-praise-of-the-server-room-hum",
+    "https://appreciative-notes-865583.framer.app/stories/lights-left-on",
+    "https://appreciative-notes-865583.framer.app/stories/living-below-sea-level",
+    "https://appreciative-notes-865583.framer.app/stories/saturday-at-the-repair-cafe",
+    "https://appreciative-notes-865583.framer.app/stories/spare-parts-katendrecht",
+    "https://appreciative-notes-865583.framer.app/stories/the-04-10-night-bus",
+    "https://appreciative-notes-865583.framer.app/stories/the-honest-screw",
+    "https://appreciative-notes-865583.framer.app/stories/the-last-watchmaker-on-nieuwe-binnenweg",
+    "https://appreciative-notes-865583.framer.app/stories/the-loudest-street-in-rotterdam",
+    "https://appreciative-notes-865583.framer.app/stories/the-tool-library-on-mathenesserlaan",
+    "https://appreciative-notes-865583.framer.app/subscribe",
+    "https://appreciative-notes-865583.framer.app/terms",
+    "https://instagram.com",
+    "https://www.framer.com",
+    "mailto:letters@marginalia.press"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F08a0564c-901d-4623-9aae-4f9c87e1bb77%2F01a10753-512f-77ec-82b4-72bd54f29faa.jpg&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F08a0564c-901d-4623-9aae-4f9c87e1bb77%2F01a10753-df53-73e5-a721-be2dc266a9ad.jpg&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F08a0564c-901d-4623-9aae-4f9c87e1bb77%2F01a10754-08e1-7351-8437-da97bca6ea27.jpg&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-04.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F08a0564c-901d-4623-9aae-4f9c87e1bb77%2F01a10754-2b81-70a8-b6a4-7297e148fda8.jpg&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-05.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F08a0564c-901d-4623-9aae-4f9c87e1bb77%2F01a10754-4fc7-76eb-b648-5f6dba20021f.jpg&w=2048&q=80"
+    }
+  ],
+  "category": {
+    "parent": "Publishing",
+    "branch": "Editorial magazine",
+    "fitEvidence": "Official listing identifies an issue-based magazine with per-issue covers, editor letters, story archives and contributors.",
+    "marketplace": "https://www.framer.com/marketplace/templates/marginalia/"
+  },
+  "backendVerified": false,
+  "secondaryDeclarationsFile": "secondary-declarations.json",
+  "captureRasterPx": {
+    "width": 1348,
+    "height": 926
+  },
+  "browserObservationsFile": "BROWSER-OBSERVATIONS.json",
+  "nativeBrowserCaptures": [
+    {
+      "file": "screenshots/live-home.jpg",
+      "label": "home",
+      "url": "https://appreciative-notes-865583.framer.app/",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    },
+    {
+      "file": "screenshots/live-secondary.jpg",
+      "label": "secondary",
+      "url": "https://appreciative-notes-865583.framer.app/stories/the-honest-screw",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    }
+  ],
+  "phoneTabletRendered": false
+}

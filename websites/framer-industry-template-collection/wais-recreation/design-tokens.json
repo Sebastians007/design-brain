@@ -1,0 +1,1319 @@
+{
+  "name": "WAIS",
+  "source": "https://wais-theconfrence.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#f8f6f6",
+    "paper": "#ffffff",
+    "ink": "#000000",
+    "accent": "#a58eff",
+    "muted": "#363636"
+  },
+  "type": {
+    "body": "Host Grotesk",
+    "display": "Host Grotesk",
+    "roles": [
+      {
+        "role": "Navigation / p preset",
+        "family": "Host Grotesk",
+        "weight": 400,
+        "sizePx": 16,
+        "linePx": 19.2,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Hero / desktop h1 preset",
+        "family": "Host Grotesk",
+        "weight": 400,
+        "sizePx": 90,
+        "linePx": 90,
+        "tracking": "-.05em"
+      },
+      {
+        "role": "Hero / 810\u2013817px preset",
+        "family": "Host Grotesk",
+        "weight": 400,
+        "sizePx": 64,
+        "linePx": 64,
+        "tracking": "-.05em"
+      },
+      {
+        "role": "Hero / <=809px preset",
+        "family": "Host Grotesk",
+        "weight": 400,
+        "sizePx": 50,
+        "linePx": 50,
+        "tracking": "-.05em"
+      },
+      {
+        "role": "Section heading / base h2 preset",
+        "family": "Host Grotesk",
+        "weight": 400,
+        "sizePx": 64,
+        "linePx": 64,
+        "tracking": "-.05em"
+      },
+      {
+        "role": "Ticket heading / base h3 preset",
+        "family": "Host Grotesk",
+        "weight": 400,
+        "sizePx": 44,
+        "linePx": 52.8,
+        "tracking": "-.05em"
+      },
+      {
+        "role": "Agenda date / base h4 preset",
+        "family": "Host Grotesk",
+        "weight": 400,
+        "sizePx": 32,
+        "linePx": 38.4,
+        "tracking": "-.05em"
+      },
+      {
+        "role": "Speaker and date caption / base h5 preset",
+        "family": "Host Grotesk",
+        "weight": 400,
+        "sizePx": 20,
+        "linePx": 24,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Day label / p preset",
+        "family": "Host Grotesk",
+        "weight": 400,
+        "sizePx": 12,
+        "linePx": 14.4,
+        "tracking": "0em"
+      },
+      {
+        "role": "Ticket check glyph / inline p",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 12,
+        "linePx": 19.2,
+        "tracking": "0"
+      }
+    ],
+    "rolesEvidence": "SOURCE DECLARED: HTML/CSS presets and inline overrides in wais-evidence-root. Numeric base roles were checked against media-free typePresetRules, with h1 tablet/phone rows explicitly labeled. linePx is em \u00d7 declared font size. No browser-rendered geometry; font variation axes are normal, not an inferred variable-font axis.",
+    "sourceRoleDetails": [
+      {
+        "tag": "p",
+        "sample": "About",
+        "path": [
+          "Desktop",
+          "Content",
+          "Links",
+          "Variant 1"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "16px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-35fcbc83-ee9d-4b1e-82fa-54a3134888cc, rgb(0, 0, 0)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "p",
+        "sample": "Get Your Ticket",
+        "path": [
+          "Desktop",
+          "Content",
+          "Links",
+          "Primary L"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "16px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "#666",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "p",
+        "sample": "The two-days conference for founders, builder",
+        "path": [
+          "Main",
+          "Hero",
+          "Content L",
+          "Text Content"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "16px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-35fcbc83-ee9d-4b1e-82fa-54a3134888cc, rgb(0, 0, 0))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "h1",
+        "sample": "B u i l d W i t h A I",
+        "path": [
+          "Main",
+          "Hero",
+          "Content L",
+          "Text Content"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "90px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.05em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-35fcbc83-ee9d-4b1e-82fa-54a3134888cc, rgb(0, 0, 0))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "white-space": "nowrap"
+          }
+        ],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "h5",
+        "sample": "Sep 18-19, 2026",
+        "path": [
+          "Main",
+          "Hero",
+          "Content L",
+          "Image Content",
+          "Variant 1"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "21px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "#000",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "h2",
+        "sample": "B u i l t f o r b u i l d e r s . N o t s p e",
+        "path": [
+          "Main",
+          "Section What is it",
+          "Content L",
+          "Left Content"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "55px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.05em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-35fcbc83-ee9d-4b1e-82fa-54a3134888cc, rgb(0, 0, 0))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          }
+        ],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "p",
+        "sample": "BuildWithAI Summit is a two-days conference f",
+        "path": [
+          "Main",
+          "Section What is it",
+          "Content L",
+          "Right text",
+          "Text"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "16px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-35fcbc83-ee9d-4b1e-82fa-54a3134888cc, rgb(0, 0, 0))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "h2",
+        "sample": "M e e t t h e p e o p l e o n s t a g e .",
+        "path": [
+          "Main",
+          "Section Speakers",
+          "Text Content"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "55px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.05em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-0c35c7d3-21de-4070-8046-4a3fa0c5baf0, rgb(255, 255, 255))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          }
+        ],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "p",
+        "sample": "Every speaker was hand-selected. No \"thought ",
+        "path": [
+          "Main",
+          "Section Speakers",
+          "Text Content"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "16px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-0c35c7d3-21de-4070-8046-4a3fa0c5baf0, rgb(255, 255, 255))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "p",
+        "sample": "Meet the Speakers",
+        "path": [
+          "Main",
+          "Section Speakers",
+          "Text Content",
+          "Secondary L"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "16px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-3f0763b5-08c9-463f-b846-18b8ae3785f8, rgb(217, 217, 217)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "h5",
+        "sample": "Dr. Kwame Asante",
+        "path": [
+          "Main",
+          "Section Speakers",
+          "Desktop Var 1",
+          "Name"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "21px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-1lwpl3i, var(--token-0c35c7d3-21de-4070-8046-4a3fa0c5baf0, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "h5",
+        "sample": "Day 1",
+        "path": [
+          "Main",
+          "Section Agenda",
+          "Content L",
+          "Right text"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "21px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-35fcbc83-ee9d-4b1e-82fa-54a3134888cc, rgb(0, 0, 0))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "p",
+        "sample": "Day 1",
+        "path": [
+          "Main",
+          "Section Agenda",
+          "Content L",
+          "Right text"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "12px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "13px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-35fcbc83-ee9d-4b1e-82fa-54a3134888cc, rgb(0, 0, 0))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "h4",
+        "sample": "Sep 18",
+        "path": [
+          "Main",
+          "Section Agenda",
+          "Content L",
+          "Right text"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "25px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.05em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-35fcbc83-ee9d-4b1e-82fa-54a3134888cc, rgb(0, 0, 0))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "h2",
+        "sample": "P i c k y o u r s e a t .",
+        "path": [
+          "Main",
+          "Section Pricing"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "55px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.05em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-0c35c7d3-21de-4070-8046-4a3fa0c5baf0, rgb(255, 255, 255))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          }
+        ],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "h3",
+        "sample": "Launch Price",
+        "path": [
+          "Main",
+          "Section Pricing",
+          "Content L",
+          "Default",
+          "Content",
+          "Top",
+          "Content",
+          "Tier"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "30px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.05em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-a0htzi, var(--token-0c35c7d3-21de-4070-8046-4a3fa0c5baf0, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "p",
+        "sample": "$399",
+        "path": [
+          "Main",
+          "Section Pricing",
+          "Content L",
+          "Default",
+          "Content",
+          "Top",
+          "Content",
+          "Price",
+          "Helper (Bottom Padding)"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "12px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "13px",
+          "--framer-text-alignment": "right",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-3f0763b5-08c9-463f-b846-18b8ae3785f8, rgb(217, 217, 217)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "h4",
+        "sample": "$249",
+        "path": [
+          "Main",
+          "Section Pricing",
+          "Content L",
+          "Default",
+          "Content",
+          "Top",
+          "Content",
+          "Price"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "25px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.05em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-1eung3n, var(--token-0c35c7d3-21de-4070-8046-4a3fa0c5baf0, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "p",
+        "sample": "\u2713",
+        "path": [
+          "Main",
+          "Section Pricing",
+          "Content L",
+          "Default",
+          "Content",
+          "Features",
+          "Feature Block",
+          "Check"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter,Inter Placeholder,sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-35fcbc83-ee9d-4b1e-82fa-54a3134888cc, rgb(10, 10, 10)))",
+          "--framer-font-size": "12px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.6em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "p",
+        "sample": "Full day access",
+        "path": [
+          "Main",
+          "Section Pricing",
+          "Content L",
+          "Default",
+          "Content",
+          "Features",
+          "Feature Block"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "16px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0c35c7d3-21de-4070-8046-4a3fa0c5baf0, rgb(250, 250, 250)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "p",
+        "sample": "Available until August 1, 2026 or offer Sold ",
+        "path": [
+          "Main",
+          "Section Pricing",
+          "Content L",
+          "Default"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "12px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "13px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0c35c7d3-21de-4070-8046-4a3fa0c5baf0, rgb(250, 250, 250)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "h4",
+        "sample": "Where exactly is the venue?",
+        "path": [
+          "Main",
+          "Section FAQ",
+          "Content S",
+          "Default",
+          "Closed",
+          "Question"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "25px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.05em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "#000",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "p",
+        "sample": "Yerba Buena Center for the Arts, 701 Mission ",
+        "path": [
+          "Main",
+          "Section FAQ",
+          "Content S",
+          "Default",
+          "Closed",
+          "Question"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "16px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-35fcbc83-ee9d-4b1e-82fa-54a3134888cc, rgb(0, 0, 0)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "p",
+        "sample": "Yerba Buena Center for the Arts, 701 Mission ",
+        "path": [
+          "Main",
+          "Section FAQ",
+          "Content S",
+          "Default Mobile",
+          "Closed Mobile",
+          "Question"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "12px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "13px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-35fcbc83-ee9d-4b1e-82fa-54a3134888cc, rgb(0, 0, 0)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "h2",
+        "sample": "R e a d y t o b u i l d s m a r t e r ? Y o u",
+        "path": [
+          "Desktop",
+          "Content",
+          "CTA Text"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "55px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.05em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-1of0zx5, var(--token-0c35c7d3-21de-4070-8046-4a3fa0c5baf0, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          }
+        ],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "p",
+        "sample": "\u00a9 2026 Made by Aprilia L. Gunawan \u2726 @byaoril.",
+        "path": [
+          "Desktop",
+          "Content",
+          "Logo + Text"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "12px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "13px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0c35c7d3-21de-4070-8046-4a3fa0c5baf0, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "p",
+        "sample": "About",
+        "path": [
+          "Desktop",
+          "Content",
+          "Logo + Text",
+          "Variant 2"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "16px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0c35c7d3-21de-4070-8046-4a3fa0c5baf0, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      },
+      {
+        "tag": "p",
+        "sample": "\u00a9 2026 Made by Aprilia L. Gunawan \u2726 @byaoril.",
+        "path": [
+          "Phone",
+          "Content",
+          "Logo + Text"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Host Grotesk\",\"Host Grotesk Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv09\" on,\"cv03\" on,\"cv04\" on,\"cv11\" on",
+          "--framer-font-size": "12px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "13px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0c35c7d3-21de-4070-8046-4a3fa0c5baf0, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [],
+        "basis": "source declarations; not rendered measurement"
+      }
+    ],
+    "variationAxes": {
+      "sourceDeclaration": "normal on primary role declarations; some hand-styled tape/step rows omit the property",
+      "fontWeightFaces": "Static weights from @font-face; no custom numeric variation-axis value declared",
+      "backendVerified": false
+    },
+    "systemFontFamilies": []
+  },
+  "spacing": {
+    "desktopGutterPx": 32,
+    "componentGapPx": 32,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 8,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (prefers-color-scheme:dark)",
+      "@media (max-width:817px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)",
+      "@media (max-width:767px) and (min-width:320px)",
+      "@media (max-width:319px) and (min-width:0)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:809.98px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      319.0,
+      320.0,
+      767.0,
+      809.0,
+      809.98,
+      810.0,
+      817.0,
+      1199.98,
+      1200.0
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Events / community",
+    "branch": "Conference / summit",
+    "fitEvidence": "Official marketplace identifies a conference and event template with speakers, a two-day agenda, venue, sponsors and tickets; public preview source will constrain actual page structure."
+  },
+  "sectionAnchors": [],
+  "sourceColorContext": "Source palette; the active theme is scoped to each native browser observation.",
+  "siteBlueprint": {
+    "file": "SITE-BLUEPRINT.md",
+    "backendVerified": false
+  }
+}

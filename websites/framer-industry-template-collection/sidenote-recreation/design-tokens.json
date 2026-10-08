@@ -1,0 +1,689 @@
+{
+  "name": "Sidenote",
+  "source": "https://inventive-guidance-390250.framer.app/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#f6f7f4",
+    "paper": "#eceee9",
+    "ink": "#16181d",
+    "accent": "#245ced",
+    "muted": "#5e636c"
+  },
+  "type": {
+    "body": "Newsreader Variable",
+    "display": "Newsreader Variable",
+    "roles": [
+      {
+        "role": "Brand / Wordmark / p",
+        "family": "Geist",
+        "weight": 600,
+        "sizePx": 16.0,
+        "linePx": 19.2,
+        "tracking": "-.012em"
+      },
+      {
+        "role": "Links / Link Essays / p",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 15.0,
+        "linePx": 19.5,
+        "tracking": "-.005em"
+      },
+      {
+        "role": "Menu Button / Menu Label / p",
+        "family": "Geist Mono",
+        "weight": 500,
+        "sizePx": 12.0,
+        "linePx": 15.6,
+        "tracking": ".06em"
+      },
+      {
+        "role": "Links / Link Essays / p",
+        "family": "Newsreader Variable",
+        "weight": 400,
+        "sizePx": 22.0,
+        "linePx": 27.5,
+        "tracking": "-.01em"
+      },
+      {
+        "role": "Hero / Hero Sentence / h1",
+        "family": "Newsreader Variable",
+        "weight": 400,
+        "sizePx": 96.0,
+        "linePx": 101.76,
+        "tracking": "-.025em"
+      },
+      {
+        "role": "Hero / Hero Notes / p",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 16.0,
+        "linePx": 19.2,
+        "tracking": "0"
+      },
+      {
+        "role": "Hero Subscribe / Subscribe Note / p",
+        "family": "Geist Mono",
+        "weight": 400,
+        "sizePx": 13.0,
+        "linePx": 20.15,
+        "tracking": "0em"
+      },
+      {
+        "role": "Video Copy / Video Heading / h2",
+        "family": "Newsreader Variable",
+        "weight": 400,
+        "sizePx": 30.0,
+        "linePx": 36.0,
+        "tracking": "-.012em"
+      },
+      {
+        "role": "Video Copy / Video Text / p",
+        "family": "Newsreader Variable",
+        "weight": 400,
+        "sizePx": 21.0,
+        "linePx": 33.6,
+        "tracking": "0em"
+      },
+      {
+        "role": "Latest Main / Latest Title / h2",
+        "family": "Newsreader Variable",
+        "weight": 400,
+        "sizePx": 56.0,
+        "linePx": 59.36,
+        "tracking": "-.022em"
+      },
+      {
+        "role": "Latest Main / Latest Dek / p",
+        "family": "Newsreader Variable",
+        "weight": 400,
+        "sizePx": 24.0,
+        "linePx": 33.6,
+        "tracking": "-.005em"
+      },
+      {
+        "role": "Start Numeral Tab / Start Numeral / p",
+        "family": "Geist Mono",
+        "weight": 300,
+        "sizePx": 56.0,
+        "linePx": 56.0,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Start Card 1 (motion) / Start Title / h3",
+        "family": "Geist",
+        "weight": 600,
+        "sizePx": 20.0,
+        "linePx": 26.0,
+        "tracking": "-.01em"
+      },
+      {
+        "role": "Start Card 1 (motion) / Start Dek / p",
+        "family": "Geist",
+        "weight": 400,
+        "sizePx": 16.0,
+        "linePx": 24.0,
+        "tracking": "0em"
+      }
+    ],
+    "rolesEvidence": "Public source HTML/CSS and inline declarations. Base preset rows are not computed browser styles; keep media alternatives in source-facts.json. linePx converts declared em by sizePx. Variable axes are distinct from font-weight; Literata/Newsreader optical-size and weight settings must survive reconstruction. Reference images inspected independently.",
+    "sourceRoleDetails": [
+      {
+        "tag": "p",
+        "sample": "Mara Ellison",
+        "path": [
+          "Site Nav",
+          "Desktop",
+          "Bar",
+          "Brand",
+          "Wordmark"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "600",
+          "--framer-font-weight-bold": "900",
+          "--framer-font-weight-bold-italic": "900",
+          "--framer-font-weight-italic": "600",
+          "--framer-letter-spacing": "-.012em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-86688cff-a8f8-499a-8171-4571d505e42f))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "Essays",
+        "path": [
+          "Site Nav",
+          "Desktop",
+          "Links",
+          "Link Essays"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "15px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "-.005em",
+          "--framer-line-height": "1.3em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-2624ec0b-baea-4198-b559-6bc063886b72))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "Menu",
+        "path": [
+          "Site Nav",
+          "Phone",
+          "Bar",
+          "Menu Button",
+          "Menu Label"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist Mono\", \"Geist Mono Placeholder\", monospace",
+          "--framer-font-family-bold": "\"Geist Mono\", \"Geist Mono Placeholder\", monospace",
+          "--framer-font-family-bold-italic": "\"Geist Mono\", \"Geist Mono Placeholder\", monospace",
+          "--framer-font-family-italic": "\"Geist Mono\", \"Geist Mono Placeholder\", monospace",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "12px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": ".06em",
+          "--framer-line-height": "1.3em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-86688cff-a8f8-499a-8171-4571d505e42f))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "Essays",
+        "path": [
+          "Site Nav",
+          "Phone",
+          "Links",
+          "Link Essays"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Newsreader Variable\", \"Newsreader Variable Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "22px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "\"opsz\" 24, \"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.01em",
+          "--framer-line-height": "1.25em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-2624ec0b-baea-4198-b559-6bc063886b72))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "h1",
+        "sample": "I design quiet software in Lisbon and write a",
+        "path": [
+          "Hero",
+          "Hero Sentence"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Newsreader Variable\", \"Newsreader Variable Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "96px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "\"opsz\" 72, \"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.025em",
+          "--framer-line-height": "1.06em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-86688cff-a8f8-499a-8171-4571d505e42f)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "Mostly on grid paper first, and usually in th",
+        "path": [
+          "Hero",
+          "Hero Notes"
+        ],
+        "declarations": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "#000",
+          "--framer-font-size": "16px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.2em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "New essays about twice a month. No tracking, ",
+        "path": [
+          "Hero",
+          "Hero Subscribe",
+          "Subscribe Note"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist Mono\", \"Geist Mono Placeholder\", monospace",
+          "--framer-font-family-bold": "\"Geist Mono\", \"Geist Mono Placeholder\", monospace",
+          "--framer-font-family-bold-italic": "\"Geist Mono\", \"Geist Mono Placeholder\", monospace",
+          "--framer-font-family-italic": "\"Geist Mono\", \"Geist Mono Placeholder\", monospace",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "13px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.55em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-2624ec0b-baea-4198-b559-6bc063886b72)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "h2",
+        "sample": "Notes that arrive with the sentence they belo",
+        "path": [
+          "See It Move",
+          "Video Inner",
+          "Video Copy",
+          "Video Heading"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Newsreader Variable\", \"Newsreader Variable Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "30px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "\"opsz\" 36, \"wght\" 500",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.012em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-86688cff-a8f8-499a-8171-4571d505e42f)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "On a wide screen each note sits in the margin",
+        "path": [
+          "See It Move",
+          "Video Inner",
+          "Video Copy",
+          "Video Text"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Newsreader Variable\", \"Newsreader Variable Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "21px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "\"opsz\" 16, \"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.6em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-2624ec0b-baea-4198-b559-6bc063886b72)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "h2",
+        "sample": "The Undo Button Is a Moral Position",
+        "path": [
+          "Latest Essay",
+          "Latest List",
+          "Latest Item (motion)",
+          "Latest Main",
+          "Latest Title"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Newsreader Variable\", \"Newsreader Variable Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "56px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "\"opsz\" 72, \"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.022em",
+          "--framer-line-height": "1.06em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-86688cff-a8f8-499a-8171-4571d505e42f)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "Every tool decides how expensive a mistake sh",
+        "path": [
+          "Latest Essay",
+          "Latest List",
+          "Latest Item (motion)",
+          "Latest Main",
+          "Latest Dek"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Newsreader Variable\", \"Newsreader Variable Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "24px",
+          "--framer-font-style": "italic",
+          "--framer-font-variation-axes": "\"opsz\" 24, \"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.005em",
+          "--framer-line-height": "1.4em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-2624ec0b-baea-4198-b559-6bc063886b72)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "1",
+        "path": [
+          "Start Here",
+          "Start Row",
+          "Start Card 1 (motion)",
+          "Start Numeral Tab",
+          "Start Numeral"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist Mono\", \"Geist Mono Placeholder\", monospace",
+          "--framer-font-family-bold": "\"Geist Mono\", \"Geist Mono Placeholder\", monospace",
+          "--framer-font-family-bold-italic": "\"Geist Mono\", \"Geist Mono Placeholder\", monospace",
+          "--framer-font-family-italic": "\"Geist Mono\", \"Geist Mono Placeholder\", monospace",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "56px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "300",
+          "--framer-font-weight-bold": "400",
+          "--framer-font-weight-bold-italic": "400",
+          "--framer-font-weight-italic": "300",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-e6ce3ab5-29fc-478a-a17f-e34352342424)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "h3",
+        "sample": "The Undo Button Is a Moral Position",
+        "path": [
+          "Start Here",
+          "Start Row",
+          "Start Card 1 (motion)",
+          "Start Title"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "20px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "600",
+          "--framer-font-weight-bold": "900",
+          "--framer-font-weight-bold-italic": "900",
+          "--framer-font-weight-italic": "600",
+          "--framer-letter-spacing": "-.01em",
+          "--framer-line-height": "1.3em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-86688cff-a8f8-499a-8171-4571d505e42f)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "The longest one, and the argument the rest of",
+        "path": [
+          "Start Here",
+          "Start Row",
+          "Start Card 1 (motion)",
+          "Start Dek"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Geist\", \"Geist Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-2624ec0b-baea-4198-b559-6bc063886b72)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      }
+    ],
+    "variationAxes": {
+      "Links / Link Essays": "\"opsz\" 24, \"wght\" 400",
+      "Links / Link Notes": "\"opsz\" 24, \"wght\" 400",
+      "Links / Link Series": "\"opsz\" 24, \"wght\" 400",
+      "Links / Link Now": "\"opsz\" 24, \"wght\" 400",
+      "Links / Link About": "\"opsz\" 24, \"wght\" 400",
+      "Hero / Hero Sentence": "\"opsz\" 72, \"wght\" 400",
+      "Video Copy / Video Heading": "\"opsz\" 36, \"wght\" 500",
+      "Video Copy / Video Text": "\"opsz\" 16, \"wght\" 400",
+      "Latest Main / Latest Title": "\"opsz\" 72, \"wght\" 400",
+      "Latest Main / Latest Dek": "\"opsz\" 24, \"wght\" 400",
+      "Latest Opening / Opening Line": "\"opsz\" 16, \"wght\" 400",
+      "Index Head / Index Heading": "\"opsz\" 36, \"wght\" 500",
+      "Index Row (motion) / Row Title": "\"opsz\" 24, \"wght\" 400",
+      "Start Head / Start Heading": "\"opsz\" 36, \"wght\" 500",
+      "Notes Heading Group / Notes Heading": "\"opsz\" 36, \"wght\" 500",
+      "Series Head / Series Heading": "\"opsz\" 36, \"wght\" 500",
+      "Series Shelf / Series Card (motion)": "\"opsz\" 72, \"wght\" 400",
+      "On the shelf Head / On the shelf Heading": "\"opsz\" 36, \"wght\" 500",
+      "Browse by topic Head / Browse by topic Heading": "\"opsz\" 36, \"wght\" 500",
+      "Letters Head / Letters Heading": "\"opsz\" 36, \"wght\" 500",
+      "Letter 1 / Letter Text": "\"opsz\" 16, \"wght\" 400",
+      "Letter 4 / Letter Text": "\"opsz\" 16, \"wght\" 400",
+      "Letter 2 / Letter Text": "\"opsz\" 16, \"wght\" 400",
+      "Letter 5 / Letter Text": "\"opsz\" 16, \"wght\" 400",
+      "Letter 3 / Letter Text": "\"opsz\" 16, \"wght\" 400",
+      "Letter 6 / Letter Text": "\"opsz\" 16, \"wght\" 400",
+      "Archive Copy / Archive Heading": "\"opsz\" 36, \"wght\" 500",
+      "Archive Copy / Archive Text": "\"opsz\" 16, \"wght\" 400",
+      "Letter / Closing Line": "\"opsz\" 36, \"wght\" 500"
+    },
+    "systemFontFamilies": []
+  },
+  "spacing": {
+    "desktopGutterPx": 40,
+    "componentGapPx": 36,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 24,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      768
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 768px) and (max-width: 1199.98px)",
+      "@media(max-width: 767.98px)",
+      "@media (prefers-color-scheme:dark)",
+      "@media (max-width:1199px) and (min-width:768px)",
+      "@media (max-width:767px) and (min-width:0)",
+      "@media (min-width:768px) and (max-width:1199.98px)",
+      "@media (max-width:767.98px)",
+      "@media (prefers-reduced-motion:reduce)",
+      "@media (prefers-reduced-motion: reduce)",
+      "@media (max-width:767px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      767.0,
+      767.98,
+      768.0,
+      1199.0,
+      1199.98,
+      1200.0
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Publishing",
+    "branch": "Personal newsletter / essays",
+    "fitEvidence": "Official listing identifies a personal essay blog for writers, founders and consultants building newsletter audiences, with author-led long reading, notes, series and a dedicated Newsletter route."
+  },
+  "sectionAnchors": {
+    "Hero": "#top",
+    "Now Strip": "#now",
+    "Series": "#series",
+    "Reader Letters": "#letters",
+    "Newsletter Archive": "#archive"
+  },
+  "sourceColorContext": "Source palette; the active theme is scoped to each native browser observation.",
+  "siteBlueprint": {
+    "file": "SITE-BLUEPRINT.md",
+    "backendVerified": false
+  }
+}

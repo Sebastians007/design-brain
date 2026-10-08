@@ -1,0 +1,1862 @@
+{
+  "name": "LuxeRealty",
+  "source": "https://luxerealty.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#ffffff",
+    "paper": "#f2f2f2",
+    "ink": "#232327",
+    "accent": "#3900ad",
+    "muted": "#5e5e5e",
+    "highlight": "#ff6112"
+  },
+  "type": {
+    "body": "Riviera Nights Trial Regular",
+    "display": "Riviera Nights Trial Regular",
+    "roles": [
+      {
+        "role": "Hero CSS h1",
+        "family": "Riviera Nights Trial Regular",
+        "weight": 400,
+        "sizePx": 46,
+        "linePx": 55.2,
+        "tracking": "-2.6px"
+      },
+      {
+        "role": "Property scene / section CSS h2",
+        "family": "Riviera Nights Trial Regular",
+        "weight": 400,
+        "sizePx": 32,
+        "linePx": 35.2,
+        "tracking": "-.01em"
+      },
+      {
+        "role": "Navigation CSS p",
+        "family": "Riviera Nights Trial Regular",
+        "weight": 400,
+        "sizePx": 14,
+        "linePx": 21,
+        "tracking": "0em"
+      },
+      {
+        "role": "Property card CSS h3 desktop",
+        "family": "Riviera Nights Trial Medium",
+        "weight": 500,
+        "sizePx": 18,
+        "linePx": 25.2,
+        "tracking": "0em"
+      },
+      {
+        "role": "Property card CSS h3 compact preset",
+        "family": "Riviera Nights Trial Medium",
+        "weight": 500,
+        "sizePx": 16,
+        "linePx": 22.4,
+        "tracking": "0em"
+      },
+      {
+        "role": "Property metadata / CSS p",
+        "family": "Riviera Nights Trial Regular",
+        "weight": 400,
+        "sizePx": 12,
+        "linePx": 18,
+        "tracking": "0em"
+      },
+      {
+        "role": "Agent CSS h4",
+        "family": "Riviera Nights Trial Regular",
+        "weight": 400,
+        "sizePx": 24,
+        "linePx": 36,
+        "tracking": "-.5px"
+      },
+      {
+        "role": "Agency word CSS h1",
+        "family": "Riviera Nights Trial Regular",
+        "weight": 500,
+        "sizePx": 160,
+        "linePx": 192,
+        "tracking": "-7.4px"
+      },
+      {
+        "role": "Nav wordmark CSS",
+        "family": "BT Suave Regular",
+        "weight": 500,
+        "sizePx": 24,
+        "linePx": 28.8,
+        "tracking": "0"
+      },
+      {
+        "role": "Supporting copy desktop preset",
+        "family": "Riviera Nights Trial Regular",
+        "weight": 400,
+        "sizePx": 14,
+        "linePx": 19.6,
+        "tracking": "0em"
+      }
+    ],
+    "rolesEvidence": "Source CSS presets plus inline overrides, saved in luxerealty-evidence-root. Numeric values convert em/% line-height using declared font size. First-match extractor can show compact supporting copy 16px, while the base desktop paragraph preset is 14px/140%; the separate desktop/compact roles above come from typePresetRules. Wordmark is BT Suave Regular; no variable axes beyond normal are declared for the main families.",
+    "sourceRoleDetails": [
+      {
+        "tag": "p",
+        "sample": "BEYOND DESIRE",
+        "path": [
+          "New Property List",
+          "Hero Section",
+          "Content",
+          "Content",
+          "Variant 1"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--extracted-r6o4lv, rgb(255, 255, 255))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        }
+      },
+      {
+        "tag": "h1",
+        "sample": "The Art of Fine Living.",
+        "path": [
+          "New Property List",
+          "Hero Section",
+          "Content",
+          "Content",
+          "Variant 1"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "46px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-2.6px",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "#fff",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "h2",
+        "sample": "La Mer Oceanfront",
+        "path": [
+          "New Property List",
+          "Property1 - La Mer Oceanfront",
+          "Content",
+          "Content card",
+          "Variant 1",
+          "Media Size"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "32px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.01em",
+          "--framer-line-height": "1.1em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--extracted-1of0zx5, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "Malibu, Florida",
+        "path": [
+          "New Property List",
+          "Property1 - La Mer Oceanfront",
+          "Content",
+          "Content card",
+          "Variant 1",
+          "Media Size"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "150%",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "Explore",
+        "path": [
+          "New Property List",
+          "Property1 - La Mer Oceanfront",
+          "Content",
+          "Content card",
+          "Variant 1",
+          "Media Size",
+          "Variant 4",
+          "Container"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "150%",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "h2",
+        "sample": "The Dynasty Manor",
+        "path": [
+          "New Property List",
+          "Property2 - The Dynasty Manor",
+          "Content",
+          "Content card",
+          "Variant 1",
+          "Media Size"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "32px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.01em",
+          "--framer-line-height": "1.1em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50,#232327)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "Palm Beach, Florida",
+        "path": [
+          "New Property List",
+          "Property2 - The Dynasty Manor",
+          "Content",
+          "Content card",
+          "Variant 1",
+          "Media Size"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "150%",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50,#232327)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "h5",
+        "sample": "properties",
+        "path": [
+          "Featured Properties",
+          "Tag, Heading, Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.5px",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "h2",
+        "sample": "Featured Properties",
+        "path": [
+          "Featured Properties",
+          "Tag, Heading, Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "32px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.01em",
+          "--framer-line-height": "1.1em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "Check out some of our most exclusive houses, ",
+        "path": [
+          "Featured Properties",
+          "Tag, Heading, Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "Check out some of our most exclusive houses, ",
+        "path": [
+          "Featured Properties",
+          "Tag, Heading, Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(140, 140, 140))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "Oceanfront",
+        "path": [
+          "Featured Properties",
+          "Property Collection",
+          "The Celeste Manor",
+          "Desktop",
+          "Ocean Front"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+          "--framer-font-size": "12px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "uppercase",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.5em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "Malibu, CA",
+        "path": [
+          "Featured Properties",
+          "Property Collection",
+          "The Celeste Manor",
+          "Desktop",
+          "Ocean Front"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+          "--framer-font-size": "12px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "uppercase",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.5em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        }
+      },
+      {
+        "tag": "h3",
+        "sample": "La Mer Oceanfront Estate",
+        "path": [
+          "Featured Properties",
+          "Property Collection",
+          "The Celeste Manor",
+          "Desktop",
+          "Property Title"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Medium\", \"Riviera Nights Trial Medium Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Riviera Nights Trial Bold\", \"Riviera Nights Trial Bold Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "18px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "140%",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "capitalize"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "$48,000,000",
+        "path": [
+          "Featured Properties",
+          "Property Collection",
+          "The Celeste Manor",
+          "Desktop",
+          "Price"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "7",
+        "path": [
+          "Featured Properties",
+          "Property Collection",
+          "The Celeste Manor",
+          "Desktop",
+          "Bedroom Count"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "150%",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "BEDS",
+        "path": [
+          "Featured Properties",
+          "Property Collection",
+          "The Celeste Manor",
+          "Desktop",
+          "Bedroom Count"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "12px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "150%",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "\u30fb",
+        "path": [
+          "Featured Properties",
+          "Property Collection",
+          "The Celeste Manor",
+          "Desktop"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+          "--framer-font-size": "18px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "uppercase",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.2em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        }
+      },
+      {
+        "tag": "h5",
+        "sample": "About luxe",
+        "path": [
+          "About Luxe",
+          "Tag, Heading, Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.5px",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "h2",
+        "sample": "The Ultimate Luxury",
+        "path": [
+          "About Luxe",
+          "Tag, Heading, Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "32px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.01em",
+          "--framer-line-height": "1.1em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "we redefine luxury real estate by curating th",
+        "path": [
+          "About Luxe",
+          "Tag, Heading, Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "140%",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "h5",
+        "sample": "agent",
+        "path": [
+          "Agents",
+          "Tag, Heading, Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.5px",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "h2",
+        "sample": "property agents",
+        "path": [
+          "Agents",
+          "Tag, Heading, Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "32px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.01em",
+          "--framer-line-height": "1.1em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "Agent combines market expertise with entrepre",
+        "path": [
+          "Agents",
+          "Tag, Heading, Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "Licensed",
+        "path": [
+          "Agents",
+          "Agent Lists",
+          "Victoria Sterling",
+          "Agent card",
+          "Info stack",
+          "Details"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "12px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "150%",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "h4",
+        "sample": "Victoria Sterling",
+        "path": [
+          "Agents",
+          "Agent Lists",
+          "Victoria Sterling",
+          "Agent card",
+          "Info stack",
+          "Details",
+          "Name, Email"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "24px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.5px",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-1eung3n, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "capitalize"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "alex.pamero@luxerealty.com",
+        "path": [
+          "Agents",
+          "Agent Lists",
+          "Victoria Sterling",
+          "Agent card",
+          "Info stack",
+          "Details",
+          "Name, Email",
+          "Email"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        }
+      },
+      {
+        "tag": "h1",
+        "sample": "Luxe",
+        "path": [
+          "Luxe Realty",
+          "Text"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255))",
+          "--framer-font-size": "160px",
+          "--framer-letter-spacing": "-7.4px",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.2em",
+          "--framer-text-alignment": "left",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        }
+      },
+      {
+        "tag": "h1",
+        "sample": "Luxe",
+        "path": [
+          "Luxe Realty",
+          "Text"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255))",
+          "--framer-font-size": "99px",
+          "--framer-letter-spacing": "-7.4px",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.2em",
+          "--framer-text-alignment": "left",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        }
+      },
+      {
+        "tag": "h5",
+        "sample": "our expertise",
+        "path": [
+          "Our Expertise",
+          "Tag, Heading, Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.5px",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "h2",
+        "sample": "Why Choose Luxe",
+        "path": [
+          "Our Expertise",
+          "Tag, Heading, Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "32px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.01em",
+          "--framer-line-height": "1.1em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "We believe luxury goes beyond real estate\u2014it\u2019",
+        "path": [
+          "Our Expertise",
+          "Tag, Heading, Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "Only the most prestigious properties make it ",
+        "path": [
+          "Our Expertise",
+          "Expertise List",
+          "Variant 1",
+          "Texts",
+          "Robust Data Security",
+          "Active",
+          "Columns",
+          "Koin es la mejor soluci\u00f3n de medios de pago y financiaci\u00f3n digitales que permite a empresas y consumidores conectarse y realizar transacciones de forma pr\u00e1ctica y segura."
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "140%",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "h4",
+        "sample": "Global Network",
+        "path": [
+          "Our Expertise",
+          "Expertise List",
+          "Variant 1",
+          "Texts",
+          "Scalable Architecture",
+          "Inactive",
+          "Columns",
+          "10 anos de opera\u00e7\u00e3o"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "24px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.5px",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50,#232327)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "capitalize"
+        }
+      },
+      {
+        "tag": "h5",
+        "sample": "global reach",
+        "path": [
+          "Global Reach",
+          "Desktop",
+          "Tag, Heading, Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.5px",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--extracted-1lwpl3i, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "h2",
+        "sample": "Access to the BestNetwork in the World",
+        "path": [
+          "Global Reach",
+          "Desktop",
+          "Tag, Heading, Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "32px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.01em",
+          "--framer-line-height": "1.1em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--extracted-1of0zx5, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "Buy and sell homes all over the world with a ",
+        "path": [
+          "Global Reach",
+          "Desktop",
+          "Tag, Heading, Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "140%",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "h5",
+        "sample": "Continents",
+        "path": [
+          "Global Reach",
+          "Desktop",
+          "Tag, Heading, Description",
+          "Metrics",
+          "Continents"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Medium\", \"Riviera Nights Trial Medium Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-letter-spacing": "-.1px",
+          "--framer-line-height": "1.3em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--extracted-1lwpl3i, var(--token-a188fb0b-dae3-417a-a866-7b285de2c971, rgb(242, 242, 242)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "capitalize"
+        }
+      },
+      {
+        "tag": "h5",
+        "sample": "Projects",
+        "path": [
+          "Global Reach",
+          "Desktop",
+          "Tag, Heading, Description",
+          "Metrics",
+          "Total Projects"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Medium\", \"Riviera Nights Trial Medium Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-letter-spacing": "-.1px",
+          "--framer-line-height": "1.3em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--extracted-1lwpl3i, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "capitalize"
+        }
+      },
+      {
+        "tag": "h5",
+        "sample": "global reach",
+        "path": [
+          "Global Reach",
+          "Phone",
+          "Tag, Heading, Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.5px",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--extracted-1lwpl3i, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "h2",
+        "sample": "Access to the BestNetwork in the World",
+        "path": [
+          "Global Reach",
+          "Phone",
+          "Tag, Heading, Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "32px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.01em",
+          "--framer-line-height": "1.1em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--extracted-1of0zx5, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "Buy and sell homes all over the world with a ",
+        "path": [
+          "Global Reach",
+          "Phone",
+          "Tag, Heading, Description"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "140%",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--extracted-r6o4lv, rgba(255, 255, 255, 0.8))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "h5",
+        "sample": "Continents",
+        "path": [
+          "Global Reach",
+          "Phone",
+          "Tag, Heading, Description",
+          "Metrics",
+          "Continents"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Medium\", \"Riviera Nights Trial Medium Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-letter-spacing": "-.1px",
+          "--framer-line-height": "1.3em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--extracted-1lwpl3i, rgb(255, 255, 255))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "capitalize"
+        }
+      },
+      {
+        "tag": "h5",
+        "sample": "Newsletter",
+        "path": [
+          "Desktop",
+          "Tag, Heading, Description, Form"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.5px",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--extracted-1lwpl3i, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "h2",
+        "sample": "Join the Elite",
+        "path": [
+          "Desktop",
+          "Tag, Heading, Description, Form"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "32px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.01em",
+          "--framer-line-height": "1.1em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--extracted-1of0zx5, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "send",
+        "path": [
+          "Desktop",
+          "Tag, Heading, Description, Form",
+          "Button",
+          "Form Button"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Medium\", \"Riviera Nights Trial Medium Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+          "--framer-font-size": "14px",
+          "--framer-letter-spacing": "-0.02em",
+          "--framer-text-transform": "uppercase",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.3em",
+          "--framer-text-alignment": "left",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "Stay ahead in the world of luxury real estate",
+        "path": [
+          "Tablet",
+          "Tag, Heading, Description, Form"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "LUXEREALTY",
+        "path": [
+          "Desktop",
+          "Container",
+          "Logo"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BT Suave Regular\", \"BT Suave Regular Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+          "--framer-font-size": "24px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.2em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "Properties",
+        "path": [
+          "Desktop",
+          "Container",
+          "Links",
+          "Properties",
+          "Primary button",
+          "Link Wrap",
+          "Label",
+          "Text"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "150%",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "We are committed to providing a seamless luxu",
+        "path": [
+          "Desktop",
+          "Tag, Heading, Details"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "First Name",
+        "path": [
+          "Desktop",
+          "Form",
+          "Contact us form",
+          "First Name"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none",
+          "--framer-text-wrap": "balance"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "Submit",
+        "path": [
+          "Desktop",
+          "Form",
+          "Contact us form",
+          "Form Button"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Medium\", \"Riviera Nights Trial Medium Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-605e6fbd-e1ee-488f-b936-6981354aa564, rgb(57, 0, 173)))",
+          "--framer-font-size": "14px",
+          "--framer-letter-spacing": "-0.02em",
+          "--framer-text-transform": "uppercase",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.3em",
+          "--framer-text-alignment": "left",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "la mer oceanfont",
+        "path": [
+          "Desktop",
+          "Container",
+          "Content",
+          "Links & Copyright",
+          "Links",
+          "Heading, Links",
+          "Home",
+          "Footer link",
+          "Label Wrap"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "12px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "150%",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "2025",
+        "path": [
+          "Desktop",
+          "Container",
+          "Content",
+          "Links & Copyright",
+          "Copyright",
+          "Wrapper"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "140%",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "h5",
+        "sample": "FTC Studio",
+        "path": [
+          "Desktop",
+          "Container",
+          "Content",
+          "Links & Copyright",
+          "Copyright"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.5px",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--extracted-1lwpl3i, rgb(255, 255, 255))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        }
+      },
+      {
+        "tag": "p",
+        "sample": "Get Template",
+        "path": [
+          "Variant 1",
+          "Label",
+          "Text"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "600",
+          "--framer-text-color": "#000",
+          "--framer-font-size": "14px",
+          "--framer-letter-spacing": "-0.02em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        }
+      }
+    ],
+    "variationAxes": {
+      "Riviera Nights Trial Regular": "normal",
+      "Riviera Nights Trial Medium": "normal",
+      "BT Suave Regular": "not declared; weight500 inline, font-face400"
+    },
+    "systemFontFamilies": []
+  },
+  "spacing": {
+    "desktopGutterPx": 32,
+    "componentGapPx": 32,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 0,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1440,
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1440px)",
+      "@media(min-width: 810px) and (max-width: 1439.98px)",
+      "@media(max-width: 809.98px)",
+      "@media(min-width: 1200px) and (max-width: 1439.98px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media (max-width:809.98px)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:1199px) and (min-width:0)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)",
+      "@media (min-width:810px) and (max-width:1439.98px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      809.0,
+      809.98,
+      810.0,
+      1199.0,
+      1199.98,
+      1200.0,
+      1439.98,
+      1440.0
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Real estate",
+    "branch": "Searchable property listings",
+    "fitEvidence": "Official listing describes property listings, advanced search/filtering, categories/locations, agent profiles, saved properties and Framer CMS. Public source includes property routes and filter/search controls; execution and persistence are untested."
+  },
+  "sectionAnchors": [],
+  "sourceColorContext": "Source palette; the active theme is scoped to each native browser observation.",
+  "siteBlueprint": {
+    "file": "SITE-BLUEPRINT.md",
+    "backendVerified": false
+  }
+}

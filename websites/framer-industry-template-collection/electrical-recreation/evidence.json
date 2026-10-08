@@ -1,0 +1,2311 @@
+{
+  "template": "Electrical",
+  "preview": "https://electrical-wbs.framer.website/",
+  "marketplace": "https://www.framer.com/marketplace/templates/electrical/",
+  "creator": "Salim from Webestica",
+  "coverage": "Public source declarations, official marketplace artwork and actual browser captures at the individually recorded viewport/state. Phone/tablet, complete motion and backend behavior unverified.",
+  "viewport": {
+    "devicePixelRatio": 1,
+    "height": 936,
+    "width": 1363
+  },
+  "pageHeight": 11018,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 4 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 4 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 3 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 4 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 79.59375,
+      "id": "",
+      "tag": "NAV",
+      "width": 1348,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 9916.546875,
+      "id": "",
+      "tag": "MAIN",
+      "width": 1348,
+      "x": 0,
+      "y": 79.59375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 727.796875,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 79.59375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 94,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 807.390625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 712.359375,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 901.390625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 2840.390625,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 1613.75
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 887.53125,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 4454.140625
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 719.578125,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 5341.671875
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 1225.546875,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 6061.25
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 732.8125,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 7286.796875
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 561.1875,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 8019.609375
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 670.15625,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 8580.796875
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "10px",
+      "height": 745.1875,
+      "id": "",
+      "tag": "SECTION",
+      "width": 1348,
+      "x": 0,
+      "y": 9250.953125
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "display": "flex",
+      "gap": "0px",
+      "height": 1021.578125,
+      "id": "",
+      "tag": "FOOTER",
+      "width": 1348,
+      "x": 0,
+      "y": 9996.140625
+    }
+  ],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Stack Sans Headline",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/stacksansheadline/v1/1PtFg9jZXvmMnkLnuURbaukKZJTyrDV326uH6mSinjBIwc5tIgFCqgUA3ZCX.woff2",
+      "range": "",
+      "file": "assets/fonts/stack-sans-headline-400-0.woff2"
+    },
+    {
+      "family": "Stack Sans Headline",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/stacksansheadline/v1/1PtFg9jZXvmMnkLnuURbaukKZJTyrDV326uH6mSinjBIwc6KJQFCqgUA3ZCX.woff2",
+      "range": "",
+      "file": "assets/fonts/stack-sans-headline-700-1.woff2"
+    },
+    {
+      "family": "Stack Sans Headline",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/stacksansheadline/v1/1PtFg9jZXvmMnkLnuURbaukKZJTyrDV326uH6mSinjBIwc5fIgFCqgUA3ZCX.woff2",
+      "range": "",
+      "file": "assets/fonts/stack-sans-headline-500-2.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-3.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-600-4.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-5.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/ia3uin3hQWqDrVloC1zEtYHWw.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-6.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/pKRFNWFoZl77qYCAIp84lN1h944.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-7.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/rZ5DdENNqIdFTIyQQiP5isO7M.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-900-8.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "900",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/gcnfba68tfm7qAyrWRCf9r34jg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-900-9.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/fuyXZpVvOjq8NesCOfgirHCWyg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-600-10.woff2"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/images/5KvrL7H61F5oaQzTI6zKBaI8.svg?width=149&height=36",
+      "srcset": null,
+      "alt": "Brand Logo",
+      "width": "149",
+      "height": "36",
+      "path": [
+        "Desktop",
+        "Container",
+        "Content",
+        "Left",
+        "Default"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5KvrL7H61F5oaQzTI6zKBaI8.svg?width=149&height=36",
+      "srcset": null,
+      "alt": "Brand Logo",
+      "width": "149",
+      "height": "36",
+      "path": [
+        "Tablet",
+        "Container",
+        "Content",
+        "Left",
+        "Default"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5KvrL7H61F5oaQzTI6zKBaI8.svg?width=149&height=36",
+      "srcset": null,
+      "alt": "Brand Logo",
+      "width": "149",
+      "height": "36",
+      "path": [
+        "Phone",
+        "Container",
+        "Content",
+        "Left",
+        "Default"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/U8x8p186bsd7S7TFsVln0zl9xcc.svg?width=11&height=12",
+      "srcset": null,
+      "alt": "Video Icon",
+      "width": "11",
+      "height": "12",
+      "path": [
+        "Main",
+        "Hero",
+        "Container",
+        "Content",
+        "Left",
+        "Bottom",
+        "Right"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/XvAmgT76R0TmQjmdLzjTvtHqEg.png?width=3936&height=2574",
+      "srcset": "https://framerusercontent.com/images/XvAmgT76R0TmQjmdLzjTvtHqEg.png?scale-down-to=512&width=3936&height=2574 512w,https://framerusercontent.com/images/XvAmgT76R0TmQjmdLzjTvtHqEg.png?scale-down-to=1024&width=3936&height=2574 1024w,https://framerusercontent.com/images/XvAmgT76R0TmQjmdLzjTvtHqEg.png?scale-down-to=2048&width=3936&height=2574 2048w,https://framerusercontent.com/images/XvAmgT76R0TmQjmdLzjTvtHqEg.png?width=3936&height=2574 3936w",
+      "alt": "Vector",
+      "width": "3936",
+      "height": "2574",
+      "path": [
+        "Main",
+        "Hero",
+        "Container",
+        "Content",
+        "Left",
+        "Vector"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/LtAfwVJh7UOMdfG7Ba1sfu1Iig.jpg?width=1200&height=1349",
+      "srcset": "https://framerusercontent.com/images/LtAfwVJh7UOMdfG7Ba1sfu1Iig.jpg?scale-down-to=1024&width=1200&height=1349 910w,https://framerusercontent.com/images/LtAfwVJh7UOMdfG7Ba1sfu1Iig.jpg?width=1200&height=1349 1200w",
+      "alt": "Hero Image",
+      "width": "1200",
+      "height": "1349",
+      "path": [
+        "Main",
+        "Hero",
+        "Container",
+        "Content",
+        "Right",
+        "BG Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CuuDwJMRPJmk434aR5vBRko80Qc.svg?width=130&height=35",
+      "srcset": null,
+      "alt": "Client Logo",
+      "width": "130",
+      "height": "35",
+      "path": [
+        "Main",
+        "Client",
+        "Container",
+        "Content",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/cNRbbALSdiO85T5ITRmgjB1vzc.svg?width=130&height=30",
+      "srcset": null,
+      "alt": "Client Image",
+      "width": "130",
+      "height": "30",
+      "path": [
+        "Main",
+        "Client",
+        "Container",
+        "Content",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NzQUcyjrhLKCwx16QbjCT8HjDDI.svg?width=130&height=28",
+      "srcset": null,
+      "alt": "Client Image",
+      "width": "130",
+      "height": "28",
+      "path": [
+        "Main",
+        "Client",
+        "Container",
+        "Content",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZGYHdqsZmvWmhlEkxZLNBJE0w.svg?width=130&height=28",
+      "srcset": null,
+      "alt": "Client Image",
+      "width": "130",
+      "height": "28",
+      "path": [
+        "Main",
+        "Client",
+        "Container",
+        "Content",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HWl844PToJkuLxoG2dfxlqAktQY.svg?width=130&height=29",
+      "srcset": null,
+      "alt": "Client Image",
+      "width": "130",
+      "height": "29",
+      "path": [
+        "Main",
+        "Client",
+        "Container",
+        "Content",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/H0lyRlRy2BtaBRRo6BcDoCRaQs.svg?width=130&height=31",
+      "srcset": null,
+      "alt": "Client Image",
+      "width": "130",
+      "height": "31",
+      "path": [
+        "Main",
+        "Client",
+        "Container",
+        "Content",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/lP9CI1OCKMrnQkbEgCYYESnXA.svg?width=130&height=28",
+      "srcset": null,
+      "alt": "Client Image",
+      "width": "130",
+      "height": "28",
+      "path": [
+        "Main",
+        "Client",
+        "Container",
+        "Content",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZAfBRp0Av6HHDmAoj9vZw7k2ulc.svg?width=130&height=28",
+      "srcset": null,
+      "alt": "Client Image",
+      "width": "130",
+      "height": "28",
+      "path": [
+        "Main",
+        "Client",
+        "Container",
+        "Content",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/MtTxuuQzvJm6F5JHut9UofyEP0.svg?width=130&height=28",
+      "srcset": null,
+      "alt": "Client Image",
+      "width": "130",
+      "height": "28",
+      "path": [
+        "Main",
+        "Client",
+        "Container",
+        "Content",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CuuDwJMRPJmk434aR5vBRko80Qc.svg?width=130&height=35",
+      "srcset": null,
+      "alt": "Client Logo",
+      "width": "130",
+      "height": "35",
+      "path": [
+        "Main",
+        "Client",
+        "Container",
+        "Content",
+        "Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/cNRbbALSdiO85T5ITRmgjB1vzc.svg?width=130&height=30",
+      "srcset": null,
+      "alt": "Client Image",
+      "width": "130",
+      "height": "30",
+      "path": [
+        "Main",
+        "Client",
+        "Container",
+        "Content",
+        "Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NzQUcyjrhLKCwx16QbjCT8HjDDI.svg?width=130&height=28",
+      "srcset": null,
+      "alt": "Client Image",
+      "width": "130",
+      "height": "28",
+      "path": [
+        "Main",
+        "Client",
+        "Container",
+        "Content",
+        "Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZGYHdqsZmvWmhlEkxZLNBJE0w.svg?width=130&height=28",
+      "srcset": null,
+      "alt": "Client Image",
+      "width": "130",
+      "height": "28",
+      "path": [
+        "Main",
+        "Client",
+        "Container",
+        "Content",
+        "Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HWl844PToJkuLxoG2dfxlqAktQY.svg?width=130&height=29",
+      "srcset": null,
+      "alt": "Client Image",
+      "width": "130",
+      "height": "29",
+      "path": [
+        "Main",
+        "Client",
+        "Container",
+        "Content",
+        "Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/H0lyRlRy2BtaBRRo6BcDoCRaQs.svg?width=130&height=31",
+      "srcset": null,
+      "alt": "Client Image",
+      "width": "130",
+      "height": "31",
+      "path": [
+        "Main",
+        "Client",
+        "Container",
+        "Content",
+        "Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/lP9CI1OCKMrnQkbEgCYYESnXA.svg?width=130&height=28",
+      "srcset": null,
+      "alt": "Client Image",
+      "width": "130",
+      "height": "28",
+      "path": [
+        "Main",
+        "Client",
+        "Container",
+        "Content",
+        "Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZAfBRp0Av6HHDmAoj9vZw7k2ulc.svg?width=130&height=28",
+      "srcset": null,
+      "alt": "Client Image",
+      "width": "130",
+      "height": "28",
+      "path": [
+        "Main",
+        "Client",
+        "Container",
+        "Content",
+        "Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/MtTxuuQzvJm6F5JHut9UofyEP0.svg?width=130&height=28",
+      "srcset": null,
+      "alt": "Client Image",
+      "width": "130",
+      "height": "28",
+      "path": [
+        "Main",
+        "Client",
+        "Container",
+        "Content",
+        "Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/PIqr4FiQwC6Q1DhtPGRLDQdnmYg.svg?width=361&height=194",
+      "srcset": null,
+      "alt": "Vector",
+      "width": "361",
+      "height": "194",
+      "path": [
+        "Main",
+        "States",
+        "Container",
+        "Content",
+        "Bottom",
+        "01",
+        "02",
+        "Vector"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DmZsjZX4SY3WDm5soXyaBeJ0.jpg?width=1200&height=930",
+      "srcset": "https://framerusercontent.com/images/DmZsjZX4SY3WDm5soXyaBeJ0.jpg?scale-down-to=512&width=1200&height=930 512w,https://framerusercontent.com/images/DmZsjZX4SY3WDm5soXyaBeJ0.jpg?scale-down-to=1024&width=1200&height=930 1024w,https://framerusercontent.com/images/DmZsjZX4SY3WDm5soXyaBeJ0.jpg?width=1200&height=930 1200w",
+      "alt": "About Image",
+      "width": "1200",
+      "height": "930",
+      "path": [
+        "Main",
+        "States",
+        "Container",
+        "Content",
+        "Bottom",
+        "02",
+        "BG Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZBcW1IQqSxqunEJvm3fEehAG8JE.jpg?width=250&height=250",
+      "srcset": null,
+      "alt": "Avatar",
+      "width": "250",
+      "height": "250",
+      "path": [
+        "Main",
+        "States",
+        "Container",
+        "Content",
+        "Bottom",
+        "03",
+        "Avatar List 01",
+        "01",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZBcW1IQqSxqunEJvm3fEehAG8JE.jpg?width=250&height=250",
+      "srcset": null,
+      "alt": "Avatar",
+      "width": "250",
+      "height": "250",
+      "path": [
+        "Main",
+        "States",
+        "Container",
+        "Content",
+        "Bottom",
+        "03",
+        "Avatar List 01",
+        "01",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8NqUSRoIKRZdD0jriyRdgLLJTs.jpg?width=250&height=250",
+      "srcset": null,
+      "alt": "Avatar",
+      "width": "250",
+      "height": "250",
+      "path": [
+        "Main",
+        "States",
+        "Container",
+        "Content",
+        "Bottom",
+        "03",
+        "Avatar List 01",
+        "02",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8NqUSRoIKRZdD0jriyRdgLLJTs.jpg?width=250&height=250",
+      "srcset": null,
+      "alt": "Avatar",
+      "width": "250",
+      "height": "250",
+      "path": [
+        "Main",
+        "States",
+        "Container",
+        "Content",
+        "Bottom",
+        "03",
+        "Avatar List 01",
+        "02",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BEWV0fpjVV3SIUQnTAJMsQT64Y.jpg?width=250&height=250",
+      "srcset": null,
+      "alt": "Avatar",
+      "width": "250",
+      "height": "250",
+      "path": [
+        "Main",
+        "States",
+        "Container",
+        "Content",
+        "Bottom",
+        "03",
+        "Avatar List 01",
+        "03",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BEWV0fpjVV3SIUQnTAJMsQT64Y.jpg?width=250&height=250",
+      "srcset": null,
+      "alt": "Avatar",
+      "width": "250",
+      "height": "250",
+      "path": [
+        "Main",
+        "States",
+        "Container",
+        "Content",
+        "Bottom",
+        "03",
+        "Avatar List 01",
+        "03",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/xp3uVtNqFc08ahIXKhsSqOYHP0.jpg?width=250&height=250",
+      "srcset": null,
+      "alt": "Avatar",
+      "width": "250",
+      "height": "250",
+      "path": [
+        "Main",
+        "States",
+        "Container",
+        "Content",
+        "Bottom",
+        "03",
+        "Avatar List 01",
+        "04",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/xp3uVtNqFc08ahIXKhsSqOYHP0.jpg?width=250&height=250",
+      "srcset": null,
+      "alt": "Avatar",
+      "width": "250",
+      "height": "250",
+      "path": [
+        "Main",
+        "States",
+        "Container",
+        "Content",
+        "Bottom",
+        "03",
+        "Avatar List 01",
+        "04",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jDid9A91d3RqMlgFie2YTYeOPRs.jpg?width=250&height=250",
+      "srcset": null,
+      "alt": "Avatar",
+      "width": "250",
+      "height": "250",
+      "path": [
+        "Main",
+        "States",
+        "Container",
+        "Content",
+        "Bottom",
+        "03",
+        "Avatar List 02",
+        "01",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jDid9A91d3RqMlgFie2YTYeOPRs.jpg?width=250&height=250",
+      "srcset": null,
+      "alt": "Avatar",
+      "width": "250",
+      "height": "250",
+      "path": [
+        "Main",
+        "States",
+        "Container",
+        "Content",
+        "Bottom",
+        "03",
+        "Avatar List 02",
+        "01",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/J9EUsDs7ZLIJuePpD13JJaeY8zo.jpg?width=250&height=250",
+      "srcset": null,
+      "alt": "Avatar",
+      "width": "250",
+      "height": "250",
+      "path": [
+        "Main",
+        "States",
+        "Container",
+        "Content",
+        "Bottom",
+        "03",
+        "Avatar List 02",
+        "02",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/J9EUsDs7ZLIJuePpD13JJaeY8zo.jpg?width=250&height=250",
+      "srcset": null,
+      "alt": "Avatar",
+      "width": "250",
+      "height": "250",
+      "path": [
+        "Main",
+        "States",
+        "Container",
+        "Content",
+        "Bottom",
+        "03",
+        "Avatar List 02",
+        "02",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wh7ZgctmfecU0knqbDwEqgN90.jpg?width=250&height=250",
+      "srcset": null,
+      "alt": "Avatar",
+      "width": "250",
+      "height": "250",
+      "path": [
+        "Main",
+        "States",
+        "Container",
+        "Content",
+        "Bottom",
+        "03",
+        "Avatar List 02",
+        "03",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wh7ZgctmfecU0knqbDwEqgN90.jpg?width=250&height=250",
+      "srcset": null,
+      "alt": "Avatar",
+      "width": "250",
+      "height": "250",
+      "path": [
+        "Main",
+        "States",
+        "Container",
+        "Content",
+        "Bottom",
+        "03",
+        "Avatar List 02",
+        "03",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RZBFLQZRdSAuO8JrUpgmiJi5iM8.jpg?width=250&height=250",
+      "srcset": null,
+      "alt": "Avatar",
+      "width": "250",
+      "height": "250",
+      "path": [
+        "Main",
+        "States",
+        "Container",
+        "Content",
+        "Bottom",
+        "03",
+        "Avatar List 02",
+        "04",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RZBFLQZRdSAuO8JrUpgmiJi5iM8.jpg?width=250&height=250",
+      "srcset": null,
+      "alt": "Avatar",
+      "width": "250",
+      "height": "250",
+      "path": [
+        "Main",
+        "States",
+        "Container",
+        "Content",
+        "Bottom",
+        "03",
+        "Avatar List 02",
+        "04",
+        "Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4FbsKYnJB2la5xoJT9twCRoe9E.svg?width=25&height=25",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "25",
+      "height": "25",
+      "path": [
+        "Main",
+        "Why Choose Us",
+        "Container",
+        "Content",
+        "01",
+        "Desktop",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4FbsKYnJB2la5xoJT9twCRoe9E.svg?width=25&height=25",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "25",
+      "height": "25",
+      "path": [
+        "Main",
+        "Why Choose Us",
+        "Container",
+        "Content",
+        "01",
+        "Phone",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Hf2SthgbrySYCFVXSac2BL3FvQ.svg?width=21&height=25",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "21",
+      "height": "25",
+      "path": [
+        "Main",
+        "Why Choose Us",
+        "Container",
+        "Content",
+        "02",
+        "Desktop",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Hf2SthgbrySYCFVXSac2BL3FvQ.svg?width=21&height=25",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "21",
+      "height": "25",
+      "path": [
+        "Main",
+        "Why Choose Us",
+        "Container",
+        "Content",
+        "02",
+        "Phone",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/yrkxvWnJ8NrkBURPk3OxZhJbVk.svg?width=16&height=25",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "16",
+      "height": "25",
+      "path": [
+        "Main",
+        "Why Choose Us",
+        "Container",
+        "Content",
+        "03",
+        "Desktop",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/yrkxvWnJ8NrkBURPk3OxZhJbVk.svg?width=16&height=25",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "16",
+      "height": "25",
+      "path": [
+        "Main",
+        "Why Choose Us",
+        "Container",
+        "Content",
+        "03",
+        "Phone",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6dSuIwIgen2lzoEkQMJvPr6oSQ.svg?width=21&height=25",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "21",
+      "height": "25",
+      "path": [
+        "Main",
+        "Why Choose Us",
+        "Container",
+        "Content",
+        "04",
+        "Desktop",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6dSuIwIgen2lzoEkQMJvPr6oSQ.svg?width=21&height=25",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "21",
+      "height": "25",
+      "path": [
+        "Main",
+        "Why Choose Us",
+        "Container",
+        "Content",
+        "04",
+        "Phone",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/bphS41hVtvFCNiuHkZkxk8imJk.jpg?width=150&height=150",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "150",
+      "height": "150",
+      "path": [
+        "Main",
+        "Customer Reviews",
+        "Container",
+        "Content",
+        "Left",
+        "Bottom",
+        "Bottom",
+        "Avatar"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/F2DbgzoSBz7kCMWj2WzjI71yDIE.png?width=3701&height=1486",
+      "srcset": "https://framerusercontent.com/images/F2DbgzoSBz7kCMWj2WzjI71yDIE.png?scale-down-to=512&width=3701&height=1486 512w,https://framerusercontent.com/images/F2DbgzoSBz7kCMWj2WzjI71yDIE.png?scale-down-to=1024&width=3701&height=1486 1024w,https://framerusercontent.com/images/F2DbgzoSBz7kCMWj2WzjI71yDIE.png?scale-down-to=2048&width=3701&height=1486 2048w,https://framerusercontent.com/images/F2DbgzoSBz7kCMWj2WzjI71yDIE.png?width=3701&height=1486 3701w",
+      "alt": "Google Logo",
+      "width": "3701",
+      "height": "1486",
+      "path": [
+        "Main",
+        "Customer Reviews",
+        "Container",
+        "Content",
+        "Right",
+        "Top",
+        "Bottom",
+        "Default"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/F2DbgzoSBz7kCMWj2WzjI71yDIE.png?width=3701&height=1486",
+      "srcset": "https://framerusercontent.com/images/F2DbgzoSBz7kCMWj2WzjI71yDIE.png?scale-down-to=512&width=3701&height=1486 512w,https://framerusercontent.com/images/F2DbgzoSBz7kCMWj2WzjI71yDIE.png?scale-down-to=1024&width=3701&height=1486 1024w,https://framerusercontent.com/images/F2DbgzoSBz7kCMWj2WzjI71yDIE.png?scale-down-to=2048&width=3701&height=1486 2048w,https://framerusercontent.com/images/F2DbgzoSBz7kCMWj2WzjI71yDIE.png?width=3701&height=1486 3701w",
+      "alt": "Google Logo",
+      "width": "3701",
+      "height": "1486",
+      "path": [
+        "Main",
+        "Customer Reviews",
+        "Container",
+        "Content",
+        "Right",
+        "Top",
+        "Bottom",
+        "Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/J6mG0IVhS1ESDyVdAbEwo1lA5c.svg?width=86&height=40",
+      "srcset": null,
+      "alt": "Google Logo",
+      "width": "86",
+      "height": "40",
+      "path": [
+        "Main",
+        "Customer Reviews",
+        "Container",
+        "Content",
+        "Right",
+        "Top",
+        "Bottom",
+        "Default"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/J6mG0IVhS1ESDyVdAbEwo1lA5c.svg?width=86&height=40",
+      "srcset": null,
+      "alt": "Google Logo",
+      "width": "86",
+      "height": "40",
+      "path": [
+        "Main",
+        "Customer Reviews",
+        "Container",
+        "Content",
+        "Right",
+        "Top",
+        "Bottom",
+        "Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6KcT6zeErbu8kr4q901U2HtLc.svg?width=100&height=100",
+      "srcset": null,
+      "alt": "Vector",
+      "width": "100",
+      "height": "100",
+      "path": [
+        "Main",
+        "Electrical Licensed",
+        "Container",
+        "Content",
+        "Bottom",
+        "01",
+        "Content",
+        "Top",
+        "Vector"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RFRFyptW9MrvF6ehEpwr0KSCtsM.jpg?width=800&height=700",
+      "srcset": "https://framerusercontent.com/images/RFRFyptW9MrvF6ehEpwr0KSCtsM.jpg?scale-down-to=512&width=800&height=700 512w,https://framerusercontent.com/images/RFRFyptW9MrvF6ehEpwr0KSCtsM.jpg?width=800&height=700 800w",
+      "alt": "BG Image",
+      "width": "800",
+      "height": "700",
+      "path": [
+        "Main",
+        "Electrical Licensed",
+        "Container",
+        "Content",
+        "Bottom",
+        "01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RFRFyptW9MrvF6ehEpwr0KSCtsM.jpg?width=800&height=700",
+      "srcset": "https://framerusercontent.com/images/RFRFyptW9MrvF6ehEpwr0KSCtsM.jpg?scale-down-to=512&width=800&height=700 512w,https://framerusercontent.com/images/RFRFyptW9MrvF6ehEpwr0KSCtsM.jpg?width=800&height=700 800w",
+      "alt": "BG Image",
+      "width": "800",
+      "height": "700",
+      "path": [
+        "Main",
+        "Electrical Licensed",
+        "Container",
+        "Content",
+        "Bottom",
+        "01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/C2HR9wZtykEID7pRlQ4XqhXLvQ.jpg?width=800&height=699",
+      "srcset": "https://framerusercontent.com/images/C2HR9wZtykEID7pRlQ4XqhXLvQ.jpg?scale-down-to=512&width=800&height=699 512w,https://framerusercontent.com/images/C2HR9wZtykEID7pRlQ4XqhXLvQ.jpg?width=800&height=699 800w",
+      "alt": "BG Image",
+      "width": "800",
+      "height": "699",
+      "path": [
+        "Main",
+        "Electrical Licensed",
+        "Container",
+        "Content",
+        "Bottom",
+        "02"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/C2HR9wZtykEID7pRlQ4XqhXLvQ.jpg?width=800&height=699",
+      "srcset": "https://framerusercontent.com/images/C2HR9wZtykEID7pRlQ4XqhXLvQ.jpg?scale-down-to=512&width=800&height=699 512w,https://framerusercontent.com/images/C2HR9wZtykEID7pRlQ4XqhXLvQ.jpg?width=800&height=699 800w",
+      "alt": "BG Image",
+      "width": "800",
+      "height": "699",
+      "path": [
+        "Main",
+        "Electrical Licensed",
+        "Container",
+        "Content",
+        "Bottom",
+        "02"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gsTgG1zDjcL9W6UEizJxhjhnxm0.svg?width=100&height=100",
+      "srcset": null,
+      "alt": "Vector",
+      "width": "100",
+      "height": "100",
+      "path": [
+        "Main",
+        "Electrical Licensed",
+        "Container",
+        "Content",
+        "Bottom",
+        "02",
+        "Content",
+        "Top",
+        "Vector"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NZv3xiXjLC3XjYcUDCk7SpNDzM.svg?width=100&height=100",
+      "srcset": null,
+      "alt": "Vector",
+      "width": "100",
+      "height": "100",
+      "path": [
+        "Main",
+        "Electrical Licensed",
+        "Container",
+        "Content",
+        "Bottom",
+        "03",
+        "Content",
+        "Top",
+        "Vector"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/0sERN3vqUOScgZpSBwXKSZPen8.jpg?width=800&height=699",
+      "srcset": "https://framerusercontent.com/images/0sERN3vqUOScgZpSBwXKSZPen8.jpg?scale-down-to=512&width=800&height=699 512w,https://framerusercontent.com/images/0sERN3vqUOScgZpSBwXKSZPen8.jpg?width=800&height=699 800w",
+      "alt": "BG Image",
+      "width": "800",
+      "height": "699",
+      "path": [
+        "Main",
+        "Electrical Licensed",
+        "Container",
+        "Content",
+        "Bottom",
+        "03"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/0sERN3vqUOScgZpSBwXKSZPen8.jpg?width=800&height=699",
+      "srcset": "https://framerusercontent.com/images/0sERN3vqUOScgZpSBwXKSZPen8.jpg?scale-down-to=512&width=800&height=699 512w,https://framerusercontent.com/images/0sERN3vqUOScgZpSBwXKSZPen8.jpg?width=800&height=699 800w",
+      "alt": "BG Image",
+      "width": "800",
+      "height": "699",
+      "path": [
+        "Main",
+        "Electrical Licensed",
+        "Container",
+        "Content",
+        "Bottom",
+        "03"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/lsgs6mA6wuW7naXuPqZSCKmY21A.svg?width=18&height=30",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "18",
+      "height": "30",
+      "path": [
+        "Main",
+        "Reviews",
+        "Container",
+        "Content",
+        "Bottom",
+        "Left",
+        "Top",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4CAKNI5A26PSUkPxrDYc155srw.svg?width=78&height=12",
+      "srcset": null,
+      "alt": "Star",
+      "width": "78",
+      "height": "12",
+      "path": [
+        "Main",
+        "Reviews",
+        "Container",
+        "Content",
+        "Bottom",
+        "Left",
+        "Top",
+        "Bottom",
+        "Rating"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4CAKNI5A26PSUkPxrDYc155srw.svg?width=78&height=12",
+      "srcset": null,
+      "alt": "Star",
+      "width": "78",
+      "height": "12",
+      "path": [
+        "Main",
+        "Reviews",
+        "Container",
+        "Content",
+        "Bottom",
+        "Right",
+        "Review Ticker",
+        "Desktop",
+        "Top"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4CAKNI5A26PSUkPxrDYc155srw.svg?width=78&height=12",
+      "srcset": null,
+      "alt": "Star",
+      "width": "78",
+      "height": "12",
+      "path": [
+        "Main",
+        "Reviews",
+        "Container",
+        "Content",
+        "Bottom",
+        "Right",
+        "Review Ticker",
+        "Desktop",
+        "Top"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4CAKNI5A26PSUkPxrDYc155srw.svg?width=78&height=12",
+      "srcset": null,
+      "alt": "Star",
+      "width": "78",
+      "height": "12",
+      "path": [
+        "Main",
+        "Reviews",
+        "Container",
+        "Content",
+        "Bottom",
+        "Right",
+        "Review Ticker",
+        "Desktop",
+        "Top"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4CAKNI5A26PSUkPxrDYc155srw.svg?width=78&height=12",
+      "srcset": null,
+      "alt": "Star",
+      "width": "78",
+      "height": "12",
+      "path": [
+        "Main",
+        "Reviews",
+        "Container",
+        "Content",
+        "Bottom",
+        "Right",
+        "Review Ticker",
+        "Desktop",
+        "Top"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4CAKNI5A26PSUkPxrDYc155srw.svg?width=78&height=12",
+      "srcset": null,
+      "alt": "Star",
+      "width": "78",
+      "height": "12",
+      "path": [
+        "Main",
+        "Reviews",
+        "Container",
+        "Content",
+        "Bottom",
+        "Right",
+        "Review Ticker",
+        "Phone",
+        "Top"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4CAKNI5A26PSUkPxrDYc155srw.svg?width=78&height=12",
+      "srcset": null,
+      "alt": "Star",
+      "width": "78",
+      "height": "12",
+      "path": [
+        "Main",
+        "Reviews",
+        "Container",
+        "Content",
+        "Bottom",
+        "Right",
+        "Review Ticker",
+        "Phone",
+        "Top"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4CAKNI5A26PSUkPxrDYc155srw.svg?width=78&height=12",
+      "srcset": null,
+      "alt": "Star",
+      "width": "78",
+      "height": "12",
+      "path": [
+        "Main",
+        "Reviews",
+        "Container",
+        "Content",
+        "Bottom",
+        "Right",
+        "Review Ticker",
+        "Phone",
+        "Top"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4CAKNI5A26PSUkPxrDYc155srw.svg?width=78&height=12",
+      "srcset": null,
+      "alt": "Star",
+      "width": "78",
+      "height": "12",
+      "path": [
+        "Main",
+        "Reviews",
+        "Container",
+        "Content",
+        "Bottom",
+        "Right",
+        "Review Ticker",
+        "Phone",
+        "Top"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/bphS41hVtvFCNiuHkZkxk8imJk.jpg?width=150&height=150",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "150",
+      "height": "150",
+      "path": [
+        "Main",
+        "FAQs",
+        "Container",
+        "Content",
+        "Left",
+        "Bottom",
+        "Default",
+        "Left",
+        "Avatar"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7p4M1z927uNI7scwUDlmeCvWOL0.svg?width=16&height=16",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "16",
+      "height": "16",
+      "path": [
+        "Main",
+        "FAQs",
+        "Container",
+        "Content",
+        "Left",
+        "Bottom",
+        "Default",
+        "Left",
+        "Right",
+        "Inner"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/bphS41hVtvFCNiuHkZkxk8imJk.jpg?width=150&height=150",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "150",
+      "height": "150",
+      "path": [
+        "Main",
+        "FAQs",
+        "Container",
+        "Content",
+        "Left",
+        "Bottom",
+        "Phone",
+        "Left",
+        "Avatar"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7p4M1z927uNI7scwUDlmeCvWOL0.svg?width=16&height=16",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "16",
+      "height": "16",
+      "path": [
+        "Main",
+        "FAQs",
+        "Container",
+        "Content",
+        "Left",
+        "Bottom",
+        "Phone",
+        "Left",
+        "Right",
+        "Inner"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gT6a1nUllaFbmFbWTPeDOl3L1mw.jpg?width=1400&height=600",
+      "srcset": "https://framerusercontent.com/images/gT6a1nUllaFbmFbWTPeDOl3L1mw.jpg?scale-down-to=512&width=1400&height=600 512w,https://framerusercontent.com/images/gT6a1nUllaFbmFbWTPeDOl3L1mw.jpg?scale-down-to=1024&width=1400&height=600 1024w,https://framerusercontent.com/images/gT6a1nUllaFbmFbWTPeDOl3L1mw.jpg?width=1400&height=600 1400w",
+      "alt": "About Image",
+      "width": "1400",
+      "height": "600",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "BG Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/U0PTsQQ3LeXYx3f7OQtHis4VMyM.svg?width=149&height=36",
+      "srcset": null,
+      "alt": "Brand Logo",
+      "width": "149",
+      "height": "36",
+      "path": [
+        "Desktop",
+        "Container",
+        "Bottom",
+        "Top",
+        "Left",
+        "Light"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/c6Qjyclf9IcxynZXfetUnijGA.svg?width=11&height=18",
+      "srcset": null,
+      "alt": "Social Icon",
+      "width": "11",
+      "height": "18",
+      "path": [
+        "Desktop",
+        "Container",
+        "Bottom",
+        "Top",
+        "Left",
+        "Socials",
+        "Default"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/zEM6JFkNlLLvWAVtMb8iiDUJjik.svg?width=18&height=18",
+      "srcset": null,
+      "alt": "Social Icon",
+      "width": "18",
+      "height": "18",
+      "path": [
+        "Desktop",
+        "Container",
+        "Bottom",
+        "Top",
+        "Left",
+        "Socials",
+        "Default"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/yLG8qrGIvWLLoe7e2bWERV37ck.svg?width=18&height=18",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "18",
+      "height": "18",
+      "path": [
+        "Desktop",
+        "Container",
+        "Bottom",
+        "Top",
+        "Left",
+        "Socials",
+        "Default"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/x3CyQm2T8XOu5gNmikKAx1Cvfk.svg?width=18&height=18",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "18",
+      "height": "18",
+      "path": [
+        "Desktop",
+        "Container",
+        "Bottom",
+        "Top",
+        "Left",
+        "Socials",
+        "Default"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/vEfyBthDHHDBoJZ6Cv909wPN2gc.png?width=3936&height=2574",
+      "srcset": "https://framerusercontent.com/images/vEfyBthDHHDBoJZ6Cv909wPN2gc.png?scale-down-to=512&width=3936&height=2574 512w,https://framerusercontent.com/images/vEfyBthDHHDBoJZ6Cv909wPN2gc.png?scale-down-to=1024&width=3936&height=2574 1024w,https://framerusercontent.com/images/vEfyBthDHHDBoJZ6Cv909wPN2gc.png?scale-down-to=2048&width=3936&height=2574 2048w,https://framerusercontent.com/images/vEfyBthDHHDBoJZ6Cv909wPN2gc.png?width=3936&height=2574 3936w",
+      "alt": "Vector",
+      "width": "3936",
+      "height": "2574",
+      "path": [
+        "Desktop",
+        "Container",
+        "Bottom",
+        "Vector"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gT6a1nUllaFbmFbWTPeDOl3L1mw.jpg?width=1400&height=600",
+      "srcset": "https://framerusercontent.com/images/gT6a1nUllaFbmFbWTPeDOl3L1mw.jpg?scale-down-to=512&width=1400&height=600 512w,https://framerusercontent.com/images/gT6a1nUllaFbmFbWTPeDOl3L1mw.jpg?scale-down-to=1024&width=1400&height=600 1024w,https://framerusercontent.com/images/gT6a1nUllaFbmFbWTPeDOl3L1mw.jpg?width=1400&height=600 1400w",
+      "alt": "About Image",
+      "width": "1400",
+      "height": "600",
+      "path": [
+        "Tablet",
+        "Container",
+        "Top",
+        "BG Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/U0PTsQQ3LeXYx3f7OQtHis4VMyM.svg?width=149&height=36",
+      "srcset": null,
+      "alt": "Brand Logo",
+      "width": "149",
+      "height": "36",
+      "path": [
+        "Tablet",
+        "Container",
+        "Bottom",
+        "Top",
+        "Left",
+        "Light"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/c6Qjyclf9IcxynZXfetUnijGA.svg?width=11&height=18",
+      "srcset": null,
+      "alt": "Social Icon",
+      "width": "11",
+      "height": "18",
+      "path": [
+        "Tablet",
+        "Container",
+        "Bottom",
+        "Top",
+        "Left",
+        "Socials",
+        "Default - Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/zEM6JFkNlLLvWAVtMb8iiDUJjik.svg?width=18&height=18",
+      "srcset": null,
+      "alt": "Social Icon",
+      "width": "18",
+      "height": "18",
+      "path": [
+        "Tablet",
+        "Container",
+        "Bottom",
+        "Top",
+        "Left",
+        "Socials",
+        "Default - Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/yLG8qrGIvWLLoe7e2bWERV37ck.svg?width=18&height=18",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "18",
+      "height": "18",
+      "path": [
+        "Tablet",
+        "Container",
+        "Bottom",
+        "Top",
+        "Left",
+        "Socials",
+        "Default - Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/x3CyQm2T8XOu5gNmikKAx1Cvfk.svg?width=18&height=18",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "18",
+      "height": "18",
+      "path": [
+        "Tablet",
+        "Container",
+        "Bottom",
+        "Top",
+        "Left",
+        "Socials",
+        "Default - Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/vEfyBthDHHDBoJZ6Cv909wPN2gc.png?width=3936&height=2574",
+      "srcset": "https://framerusercontent.com/images/vEfyBthDHHDBoJZ6Cv909wPN2gc.png?scale-down-to=512&width=3936&height=2574 512w,https://framerusercontent.com/images/vEfyBthDHHDBoJZ6Cv909wPN2gc.png?scale-down-to=1024&width=3936&height=2574 1024w,https://framerusercontent.com/images/vEfyBthDHHDBoJZ6Cv909wPN2gc.png?scale-down-to=2048&width=3936&height=2574 2048w,https://framerusercontent.com/images/vEfyBthDHHDBoJZ6Cv909wPN2gc.png?width=3936&height=2574 3936w",
+      "alt": "Vector",
+      "width": "3936",
+      "height": "2574",
+      "path": [
+        "Tablet",
+        "Container",
+        "Bottom",
+        "Vector"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gT6a1nUllaFbmFbWTPeDOl3L1mw.jpg?width=1400&height=600",
+      "srcset": "https://framerusercontent.com/images/gT6a1nUllaFbmFbWTPeDOl3L1mw.jpg?scale-down-to=512&width=1400&height=600 512w,https://framerusercontent.com/images/gT6a1nUllaFbmFbWTPeDOl3L1mw.jpg?scale-down-to=1024&width=1400&height=600 1024w,https://framerusercontent.com/images/gT6a1nUllaFbmFbWTPeDOl3L1mw.jpg?width=1400&height=600 1400w",
+      "alt": "About Image",
+      "width": "1400",
+      "height": "600",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "BG Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/U0PTsQQ3LeXYx3f7OQtHis4VMyM.svg?width=149&height=36",
+      "srcset": null,
+      "alt": "Brand Logo",
+      "width": "149",
+      "height": "36",
+      "path": [
+        "Phone",
+        "Container",
+        "Bottom",
+        "Top",
+        "Left",
+        "Light"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/c6Qjyclf9IcxynZXfetUnijGA.svg?width=11&height=18",
+      "srcset": null,
+      "alt": "Social Icon",
+      "width": "11",
+      "height": "18",
+      "path": [
+        "Phone",
+        "Container",
+        "Bottom",
+        "Top",
+        "Left",
+        "Socials",
+        "Default - Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/zEM6JFkNlLLvWAVtMb8iiDUJjik.svg?width=18&height=18",
+      "srcset": null,
+      "alt": "Social Icon",
+      "width": "18",
+      "height": "18",
+      "path": [
+        "Phone",
+        "Container",
+        "Bottom",
+        "Top",
+        "Left",
+        "Socials",
+        "Default - Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/yLG8qrGIvWLLoe7e2bWERV37ck.svg?width=18&height=18",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "18",
+      "height": "18",
+      "path": [
+        "Phone",
+        "Container",
+        "Bottom",
+        "Top",
+        "Left",
+        "Socials",
+        "Default - Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/x3CyQm2T8XOu5gNmikKAx1Cvfk.svg?width=18&height=18",
+      "srcset": null,
+      "alt": "Icon",
+      "width": "18",
+      "height": "18",
+      "path": [
+        "Phone",
+        "Container",
+        "Bottom",
+        "Top",
+        "Left",
+        "Socials",
+        "Default - Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/vEfyBthDHHDBoJZ6Cv909wPN2gc.png?width=3936&height=2574",
+      "srcset": "https://framerusercontent.com/images/vEfyBthDHHDBoJZ6Cv909wPN2gc.png?scale-down-to=512&width=3936&height=2574 512w,https://framerusercontent.com/images/vEfyBthDHHDBoJZ6Cv909wPN2gc.png?scale-down-to=1024&width=3936&height=2574 1024w,https://framerusercontent.com/images/vEfyBthDHHDBoJZ6Cv909wPN2gc.png?scale-down-to=2048&width=3936&height=2574 2048w,https://framerusercontent.com/images/vEfyBthDHHDBoJZ6Cv909wPN2gc.png?width=3936&height=2574 3936w",
+      "alt": "Vector",
+      "width": "3936",
+      "height": "2574",
+      "path": [
+        "Phone",
+        "Container",
+        "Bottom",
+        "Vector"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tOR37e9vCwPaVeLieGtfzqbVgo.jpg?width=200&height=133",
+      "srcset": null,
+      "alt": "Thumbnail",
+      "width": "200",
+      "height": "133",
+      "path": [
+        "Desktop",
+        "Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    }
+  ],
+  "videoReferences": [],
+  "linksDeclaredInSource": [
+    "https://buy.polar.sh/polar_cl_3tHo1XycreLYLGC6OI3uCqbmExAvlNmk4hGOR48XzDP?utm_medium=preview-button",
+    "https://dribbble.com/",
+    "https://electrical-wbs.framer.website/",
+    "https://electrical-wbs.framer.website/about",
+    "https://electrical-wbs.framer.website/blog",
+    "https://electrical-wbs.framer.website/contact",
+    "https://electrical-wbs.framer.website/legal-pages/privacy-policy",
+    "https://electrical-wbs.framer.website/legal-pages/terms-conditions",
+    "https://electrical-wbs.framer.website/service",
+    "https://framer.com/",
+    "https://www.facebook.com",
+    "https://www.framer.com",
+    "https://www.google.com/maps",
+    "https://www.instagram.com/",
+    "https://www.webestica.com/",
+    "https://x.com/",
+    "mailto:support@yourbrand.com",
+    "tel:(512) 555-0182",
+    "tel:+1 (202) 555 0147",
+    "tel:512) 555-0182"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F54a3bc64-c491-4d5b-9e64-b06174a71a50%2F019f9e4f-2a70-701b-886f-03424465c8c1.jpg&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F54a3bc64-c491-4d5b-9e64-b06174a71a50%2F019f9e4f-2a51-75c9-95ef-c58910cf51a8.jpg&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F54a3bc64-c491-4d5b-9e64-b06174a71a50%2F019f9e4f-2a76-7548-bd05-542ab0bbe34b.jpg&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-04.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F54a3bc64-c491-4d5b-9e64-b06174a71a50%2F019f9e4f-2a71-746c-b9b8-5cdc2172397f.jpg&w=2048&q=80"
+    }
+  ],
+  "category": {
+    "parent": "Home services",
+    "branch": "Local electrician / electrical contractor",
+    "fitEvidence": "Official listing targets electricians and local home-service trades; preview presents electrical repairs, wiring, permits, customer reviews and service areas.",
+    "marketplace": "https://www.framer.com/marketplace/templates/electrical/"
+  },
+  "backendVerified": false,
+  "secondaryDeclarationsFile": "secondary-declarations.json",
+  "captureRasterPx": {
+    "width": 1348,
+    "height": 926
+  },
+  "browserObservationsFile": "BROWSER-OBSERVATIONS.json",
+  "nativeBrowserCaptures": [
+    {
+      "file": "screenshots/live-home.jpg",
+      "label": "home",
+      "url": "https://electrical-wbs.framer.website/",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    },
+    {
+      "file": "screenshots/live-secondary.jpg",
+      "label": "secondary",
+      "url": "https://electrical-wbs.framer.website/contact",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    }
+  ],
+  "phoneTabletRendered": false
+}

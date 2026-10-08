@@ -1,0 +1,23 @@
+# Sidenote component recipes
+
+Evidence: Vexora Studio's official Marketplace listing, five downloaded official images, the public home HTML/CSS and the public `/newsletter` source. The first official image shows the dark Lamp state; declared Day tokens are also present. Source declarations and optional recommendations are separated. Email delivery, provider integration, passcodes, search and theme persistence were not exercised.
+
+## 1. Author identity and notebook hero
+
+SOURCE DECLARED: the navigation identifies Mara Ellison and has Essays, Notes, Series, Library, Now, About, search, theme choices and Subscribe. Geist supplies interface labels: nav15px/1.3em weight500, tracking-.005em; wordmark16px/1.2em weight600. The hero sentence uses Newsreader Variable96px/1.06em, tracking-.025em, axes `"opsz"72,"wght"400`. Hero declares max-width1200px, padding136px40px112px and gap36px; the sentence width820px/max-width100%. Fine graph-paper layers and a numbered margin note complete the opening. OPTIONAL: build paper, cursor ink, text and notes as separate layers. Keep graph paper low-contrast and behind text. Author introduction and newsletter invitation should remain immediately readable with scripts or motion disabled.
+
+## 2. Margin notes with compact-screen access
+
+SOURCE DECLARED: named layers include Hero Notes, Hero Sidenotes and two sticky long-reading demonstration scenes. The listing describes Tufte-style notes and a bottom drawer on phones; current source coverage does not establish all interaction details. Variable serif paragraphs declare21px/1.6em with opsz16/wght400. The hero-note text is a separate Inter16px/1.2em role, so it should not automatically inherit the large serif. OPTIONAL: associate each numeric reference with its note using stable IDs, a meaningful accessible label and return focus. On wide screens place the note beside its passage; on compact screens expose a labelled button with an accessible drawer or inline alternative. Notes must be available to keyboard and touch visitors without hover, and long notes need their own readable scrolling behavior.
+
+## 3. Latest essay, chronological index and Start Here
+
+SOURCE DECLARED: Latest Essay precedes Essay Index and Start Here. The latest title declares Newsreader Variable56px/1.06em with -.022em tracking and axes72/400; its dek24px/1.4em with axes24/400. Start Here has three numbered recommended essays: numeral Geist Mono56px/1em at weight300; title Geist20px/1.3em weight600; dek Geist16px/1.5em weight400. Start Row declares three columns on desktop, one column on tablet/phone. OPTIONAL: store recommendation order separately from publication date. A pencil line can connect the curated path but should not cross titles or create a reading-order dependency. Each card remains a normal essay link with visible focus. The chronological index should be useful without image previews or animated hover states.
+
+## 4. Series shelf, bookshelf and topic chips
+
+SOURCE DECLARED: the source includes Series at `#series`, a Series Pinned(sticky) component, Reading List with Book Shelf, and Topics linking to `/essays?topic=...`. Official listing describes a sideways series shelf, annotated books and drag-around topic chips. Runtime drag boundaries and scroll pinning are not verified. OPTIONAL: present series as linked ordered collections and books as annotated references, preserving their different purposes. Provide controls or normal horizontal scrolling for a shelf rather than requiring drag. Topic chips should remain links to a clearly selected filter, with readable selected/focus states. If introducing a filter UI, retain the topic in URL state and provide an All option; this is an implementation recommendation, not proof of preview behavior.
+
+## 5. Newsletter invitation, archive and letters
+
+SOURCE DECLARED: the hero form, Reader Letters at `#letters`, Newsletter Archive at `#archive` and footer newsletter invitation repeat the publication's letter promise. Geist Mono metadata distinguishes the cadence and dates from the serif editorial copy. The secondary `/newsletter` source is titled The letter: one essay, three notes, nothing else and contains newsletter-specific structure and form declarations. Hero Subscribe becomes a vertical stack on phone. OPTIONAL: make the hero/footer forms share a provider configuration and consistent validation states without submitting twice. Preserve the stated cadence as editorial content requiring owner approval before publication. Archive entries should carry date, subject and a usable destination. Display success only after the configured provider confirms acceptance; until then use a labelled local demonstration. Treat reader praise and subscriber totals as sample content.

@@ -1,0 +1,931 @@
+{
+  "name": "Marginalia",
+  "source": "https://appreciative-notes-865583.framer.app/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#f4f1ea",
+    "paper": "#eae5d9",
+    "ink": "#141414",
+    "accent": "#f03d1f",
+    "muted": "#6b665e"
+  },
+  "type": {
+    "body": "Literata Variable",
+    "display": "Literata Variable",
+    "roles": [
+      {
+        "role": "Desktop / Issue Strip / p",
+        "family": "Fragment Mono",
+        "weight": 400,
+        "sizePx": 13.0,
+        "linePx": 18.2,
+        "tracking": ".01em"
+      },
+      {
+        "role": "Bar / Wordmark / p",
+        "family": "Literata Variable",
+        "weight": 500,
+        "sizePx": 34.0,
+        "linePx": 34.0,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "Bar / Links / p",
+        "family": "Fragment Mono",
+        "weight": 400,
+        "sizePx": 12.0,
+        "linePx": 15.6,
+        "tracking": ".08em"
+      },
+      {
+        "role": "Bar / Wordmark / p",
+        "family": "Literata Variable",
+        "weight": 500,
+        "sizePx": 26.0,
+        "linePx": 26.0,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "Phone / Drawer / h2",
+        "family": "Literata Variable",
+        "weight": 400,
+        "sizePx": 36.0,
+        "linePx": 39.6,
+        "tracking": "-.01em"
+      },
+      {
+        "role": "Issue / Cover Title Row / h1",
+        "family": "Literata Variable",
+        "weight": 400,
+        "sizePx": 224.0,
+        "linePx": 215.04,
+        "tracking": "-.045em"
+      },
+      {
+        "role": "Cover Title Row / Cover Numeral (motion) / p",
+        "family": "Literata Variable",
+        "weight": 400,
+        "sizePx": 200.0,
+        "linePx": 170.0,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Body / Lineup / p",
+        "family": "Literata Variable",
+        "weight": 400,
+        "sizePx": 22.0,
+        "linePx": 30.36,
+        "tracking": "0em"
+      },
+      {
+        "role": "Table of Contents (CMS) / Entry / h3",
+        "family": "Literata Variable",
+        "weight": 400,
+        "sizePx": 26.0,
+        "linePx": 31.2,
+        "tracking": "-.005em"
+      },
+      {
+        "role": "Cover / Caption / p",
+        "family": "Literata Variable",
+        "weight": 400,
+        "sizePx": 14.0,
+        "linePx": 20.3,
+        "tracking": "0em"
+      },
+      {
+        "role": "Shade / Text / h2",
+        "family": "Literata Variable",
+        "weight": 400,
+        "sizePx": 88.0,
+        "linePx": 93.28,
+        "tracking": "-.025em"
+      },
+      {
+        "role": "Loop Band mgLpA (motion) / p",
+        "family": "Literata",
+        "weight": 400,
+        "sizePx": 88.0,
+        "linePx": 93.28,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Pull Quote (motion) / p",
+        "family": "Literata Variable",
+        "weight": 400,
+        "sizePx": 60.0,
+        "linePx": 66.0,
+        "tracking": "-.015em"
+      },
+      {
+        "role": "Stories (CMS) / Card / p",
+        "family": "Literata Variable",
+        "weight": 400,
+        "sizePx": 17.0,
+        "linePx": 26.35,
+        "tracking": "0em"
+      },
+      {
+        "role": "Issue Row / Issue No (motion) / p",
+        "family": "Literata",
+        "weight": 400,
+        "sizePx": 72.0,
+        "linePx": 74.88,
+        "tracking": "-.015em"
+      },
+      {
+        "role": "Interview Grid / Answer / p",
+        "family": "Literata Variable",
+        "weight": 400,
+        "sizePx": 20.0,
+        "linePx": 32.4,
+        "tracking": "0em"
+      },
+      {
+        "role": "Stats / Stat / p",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 16.0,
+        "linePx": 19.2,
+        "tracking": "0"
+      },
+      {
+        "role": "Top / Sign-off / p",
+        "family": "Literata Variable",
+        "weight": 500,
+        "sizePx": 56.0,
+        "linePx": 56.0,
+        "tracking": "-0.025em"
+      },
+      {
+        "role": "Top / Sign-off / p",
+        "family": "Literata Variable",
+        "weight": 500,
+        "sizePx": 44.0,
+        "linePx": 44.0,
+        "tracking": "-0.025em"
+      }
+    ],
+    "rolesEvidence": "Public source HTML/CSS and inline declarations. Base preset rows are not computed browser styles; keep media alternatives in source-facts.json. linePx converts declared em by sizePx. Variable axes are distinct from font-weight; Literata/Newsreader optical-size and weight settings must survive reconstruction. Reference images inspected independently.",
+    "sourceRoleDetails": [
+      {
+        "tag": "p",
+        "sample": "Issue \u2116 07 \u2014 Repair \u00b7 Autumn 2026",
+        "path": [
+          "Desktop",
+          "Issue Strip"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Fragment Mono\", \"Fragment Mono Placeholder\", monospace",
+          "--framer-font-family-italic": "\"Fragment Mono\", \"Fragment Mono Placeholder\", monospace",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on, \"tnum\" on",
+          "--framer-font-size": "13px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": ".01em",
+          "--framer-line-height": "1.4em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fad6eb7f-f261-4b7a-a15c-6354120cfd9c)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "Marginalia",
+        "path": [
+          "Desktop",
+          "Bar",
+          "Wordmark"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Literata Variable\", \"Literata Variable Placeholder\", serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf2c4fc1-bd44-4dc5-a158-3ef14230840d))",
+          "--framer-font-size": "34px",
+          "--framer-letter-spacing": "-0.02em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial",
+          "--framer-font-variation-axes": "var(--extracted-2gg91v, \"opsz\" 72, \"wght\" 300)"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "Issues",
+        "path": [
+          "Desktop",
+          "Bar",
+          "Links"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Fragment Mono\", \"Fragment Mono Placeholder\", monospace",
+          "--framer-font-family-italic": "\"Fragment Mono\", \"Fragment Mono Placeholder\", monospace",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "12px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": ".08em",
+          "--framer-line-height": "1.3em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-bf2c4fc1-bd44-4dc5-a158-3ef14230840d)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "Marginalia",
+        "path": [
+          "Phone",
+          "Bar",
+          "Wordmark"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Literata Variable\", \"Literata Variable Placeholder\", serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf2c4fc1-bd44-4dc5-a158-3ef14230840d))",
+          "--framer-font-size": "26px",
+          "--framer-letter-spacing": "-0.02em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial",
+          "--framer-font-variation-axes": "var(--extracted-2gg91v, \"opsz\" 72, \"wght\" 300)"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "h2",
+        "sample": "Issues",
+        "path": [
+          "Phone",
+          "Drawer"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Literata Variable\", \"Literata Variable Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "36px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "\"opsz\" 48, \"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.01em",
+          "--framer-line-height": "1.1em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-bf2c4fc1-bd44-4dc5-a158-3ef14230840d)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "h1",
+        "sample": "Repair",
+        "path": [
+          "Contents",
+          "Current Issue (CMS)",
+          "Issue",
+          "Cover Title Row"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Literata Variable\", \"Literata Variable Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "224px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "\"opsz\" 72, \"wght\" 300",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.045em",
+          "--framer-line-height": ".96em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-bf2c4fc1-bd44-4dc5-a158-3ef14230840d)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "07",
+        "path": [
+          "Contents",
+          "Current Issue (CMS)",
+          "Issue",
+          "Cover Title Row",
+          "Cover Numeral (motion)"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Literata Variable\", \"Literata Variable Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on, \"tnum\" on, \"lnum\" on",
+          "--framer-font-size": "200px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "\"opsz\" 72, \"wght\" 200",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.04em",
+          "--framer-line-height": ".85em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "end",
+          "--framer-text-color": "var(--variable-reference-YhjlfD6u0-wrsHnEXvW)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "What we fix, and what fixing asks of us. Four",
+        "path": [
+          "Contents",
+          "Current Issue (CMS)",
+          "Issue",
+          "Body",
+          "Lineup"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Literata Variable\", \"Literata Variable Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "22px",
+          "--framer-font-style": "italic",
+          "--framer-font-variation-axes": "\"opsz\" 24, \"wght\" 350",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.38em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fad6eb7f-f261-4b7a-a15c-6354120cfd9c)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "h3",
+        "sample": "The Honest Screw",
+        "path": [
+          "Contents",
+          "Current Issue (CMS)",
+          "Issue",
+          "Body",
+          "Lineup",
+          "Table of Contents (CMS)",
+          "Entry"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Literata Variable\", \"Literata Variable Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "26px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "\"opsz\" 24, \"wght\" 500",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.005em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-bf2c4fc1-bd44-4dc5-a158-3ef14230840d)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "Cover photograph by Hana S\u00f8rlie",
+        "path": [
+          "Contents",
+          "Current Issue (CMS)",
+          "Issue",
+          "Body",
+          "Cover",
+          "Caption"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Literata Variable\", \"Literata Variable Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "italic",
+          "--framer-font-variation-axes": "\"opsz\" 10, \"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.45em",
+          "--framer-paragraph-spacing": "12px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fad6eb7f-f261-4b7a-a15c-6354120cfd9c)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "h2",
+        "sample": "The Honest Screw",
+        "path": [
+          "Cover Story (CMS)",
+          "Cover Story",
+          "Shade",
+          "Text"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Literata Variable\", \"Literata Variable Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "88px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "\"opsz\" 72, \"wght\" 300",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.025em",
+          "--framer-line-height": "1.06em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-b18de5f8-a062-4634-ac1f-7560798e0166)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "Issue 07 / Repair / Read the issue / Issue 07",
+        "path": [
+          "Loop Band mgLpA (motion)"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Literata\", \"Literata Placeholder\", serif",
+          "--framer-font-family-bold": "\"Literata\", \"Literata Placeholder\", serif",
+          "--framer-font-family-bold-italic": "\"Literata\", \"Literata Placeholder\", serif",
+          "--framer-font-family-italic": "\"Literata\", \"Literata Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "88px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.06em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-b18de5f8-a062-4634-ac1f-7560798e0166)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "An issue is a promise that somebody read ever",
+        "path": [
+          "Pull Quote (motion)"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Literata Variable\", \"Literata Variable Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "60px",
+          "--framer-font-style": "italic",
+          "--framer-font-variation-axes": "\"opsz\" 72, \"wght\" 300",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.015em",
+          "--framer-line-height": "1.1em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-b18de5f8-a062-4634-ac1f-7560798e0166)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(28px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(28px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(28px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(28px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(28px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(28px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(28px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(28px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(28px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(28px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(28px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "sample": "Four hours, thirty-one broken appliances and ",
+        "path": [
+          "In This Issue",
+          "Stories (CMS)",
+          "Card"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Literata Variable\", \"Literata Variable Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "17px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "\"opsz\" 14, \"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.55em",
+          "--framer-paragraph-spacing": "14px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fad6eb7f-f261-4b7a-a15c-6354120cfd9c)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "07",
+        "path": [
+          "Archive Index",
+          "Issues (CMS)",
+          "Issue Row",
+          "Issue No (motion)"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Literata\", \"Literata Placeholder\", serif",
+          "--framer-font-family-bold": "\"Literata\", \"Literata Placeholder\", serif",
+          "--framer-font-family-bold-italic": "\"Literata\", \"Literata Placeholder\", serif",
+          "--framer-font-family-italic": "\"Literata\", \"Literata Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "72px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.015em",
+          "--framer-line-height": "1.04em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-97f43f8a-3a32-44ad-af3a-abd983959b58)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "Because a repair takes longer than a headline",
+        "path": [
+          "Interview",
+          "Interview Grid",
+          "Answer"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Literata Variable\", \"Literata Variable Placeholder\", serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on, \"onum\" on",
+          "--framer-font-size": "20px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "\"opsz\" 14, \"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.62em",
+          "--framer-paragraph-spacing": "22px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-fad6eb7f-f261-4b7a-a15c-6354120cfd9c)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "reads, from essays to reportage",
+        "path": [
+          "Numbers Strip (motion)",
+          "Stats",
+          "Stat"
+        ],
+        "declarations": {
+          "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "#000",
+          "--framer-font-size": "16px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.2em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "Marginalia",
+        "path": [
+          "Desktop",
+          "Top",
+          "Sign-off"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Literata Variable\", \"Literata Variable Placeholder\", serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf2c4fc1-bd44-4dc5-a158-3ef14230840d))",
+          "--framer-font-size": "56px",
+          "--framer-letter-spacing": "-0.025em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial",
+          "--framer-font-variation-axes": "var(--extracted-2gg91v, \"opsz\" 72, \"wght\" 300)"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "tag": "p",
+        "sample": "Marginalia",
+        "path": [
+          "Phone",
+          "Top",
+          "Sign-off"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Literata Variable\", \"Literata Variable Placeholder\", serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf2c4fc1-bd44-4dc5-a158-3ef14230840d))",
+          "--framer-font-size": "44px",
+          "--framer-letter-spacing": "-0.025em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial",
+          "--framer-font-variation-axes": "var(--extracted-2gg91v, \"opsz\" 72, \"wght\" 300)"
+        },
+        "nestedSpanStyles": []
+      }
+    ],
+    "variationAxes": {
+      "Bar / Wordmark": "var(--extracted-2gg91v, \"opsz\" 72, \"wght\" 300)",
+      "Phone / Drawer": "\"opsz\" 48, \"wght\" 400",
+      "Issue / Cover Title Row": "\"opsz\" 72, \"wght\" 300",
+      "Cover Title Row / Cover Numeral (motion)": "\"opsz\" 72, \"wght\" 200",
+      "Body / Lineup": "\"opsz\" 24, \"wght\" 350",
+      "Table of Contents (CMS) / Entry": "\"opsz\" 24, \"wght\" 500",
+      "Cover / Caption": "\"opsz\" 10, \"wght\" 400",
+      "Back Issues / Header": "\"opsz\" 48, \"wght\" 400",
+      "Issue / Meta": "\"opsz\" 24, \"wght\" 500",
+      "Shade / Text": "\"opsz\" 72, \"wght\" 300",
+      "Text / Footer": "\"opsz\" 24, \"wght\" 350",
+      "Pull Quote (motion)": "\"opsz\" 72, \"wght\" 300",
+      "In This Issue / Header": "\"opsz\" 48, \"wght\" 400",
+      "Stories (CMS) / Card": "\"opsz\" 14, \"wght\" 400",
+      "In Motion / Header": "\"opsz\" 48, \"wght\" 400",
+      "Videos / Video Card": "\"opsz\" 14, \"wght\" 400",
+      "Most Read / Header": "\"opsz\" 48, \"wght\" 400",
+      "Story Row / Copy": "\"opsz\" 24, \"wght\" 500",
+      "Photo Essay / Header": "\"opsz\" 48, \"wght\" 400",
+      "Inner / Signature (motion)": "\"opsz\" 24, \"wght\" 500",
+      "Inner / Quote (motion)": "\"opsz\" 72, \"wght\" 300",
+      "Sections (CMS) / Section": "\"opsz\" 72, \"wght\" 300",
+      "Photo Quote (motion)": "\"opsz\" 72, \"wght\" 300",
+      "Section Index / Header": "\"opsz\" 48, \"wght\" 400",
+      "Sections (CMS) / Section Card": "\"opsz\" 14, \"wght\" 400",
+      "Every Cover / Header": "\"opsz\" 48, \"wght\" 400",
+      "Issues (CMS) / Cover Card": "\"opsz\" 24, \"wght\" 500",
+      "Archive Index / Header": "\"opsz\" 48, \"wght\" 400",
+      "Issues (CMS) / Issue Row": "\"opsz\" 48, \"wght\" 400",
+      "Contributors / Header": "\"opsz\" 48, \"wght\" 400",
+      "Contributors (CMS) / Person": "\"opsz\" 24, \"wght\" 500",
+      "Interview / Header": "\"opsz\" 48, \"wght\" 400",
+      "Interview Grid / Answer": "\"opsz\" 14, \"wght\" 400",
+      "How an Issue Is Made / Header": "\"opsz\" 48, \"wght\" 400",
+      "Spec Sheet / Spec Row": "\"opsz\" 14, \"wght\" 400",
+      "Next Issue (motion)": "\"opsz\" 24, \"wght\" 350",
+      "Reader Letters / Header": "\"opsz\" 48, \"wght\" 400",
+      "Letters / Letter": "\"opsz\" 24, \"wght\" 500",
+      "Inner / Copy": "\"opsz\" 14, \"wght\" 400",
+      "Listen / Header": "\"opsz\" 48, \"wght\" 400",
+      "Episodes (CMS) / Episode Card": "\"opsz\" 24, \"wght\" 500",
+      "Evenings / Header": "\"opsz\" 48, \"wght\" 400",
+      "Events (CMS) / Event Row": "\"opsz\" 24, \"wght\" 500",
+      "Membership Band": "\"opsz\" 24, \"wght\" 350",
+      "Top / Sign-off": "\"opsz\" 24, \"wght\" 350",
+      "Columns / Read": "\"opsz\" 14, \"wght\" 400",
+      "Columns / Join": "\"opsz\" 14, \"wght\" 400",
+      "Columns / Elsewhere": "\"opsz\" 14, \"wght\" 400"
+    },
+    "systemFontFamilies": []
+  },
+  "spacing": {
+    "desktopGutterPx": 40,
+    "componentGapPx": 28,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 0,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      768
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 768px) and (max-width: 1199.98px)",
+      "@media(max-width: 767.98px)",
+      "@media (prefers-color-scheme:dark)",
+      "@media (max-width:1199px) and (min-width:768px)",
+      "@media (max-width:767px) and (min-width:0)",
+      "@media (min-width:768px) and (max-width:1199.98px)",
+      "@media (max-width:767.98px)",
+      "@media (prefers-reduced-motion:reduce)",
+      "@media (prefers-reduced-motion: reduce)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      767.0,
+      767.98,
+      768.0,
+      1199.0,
+      1199.98,
+      1200.0
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Publishing",
+    "branch": "Editorial magazine",
+    "fitEvidence": "Official listing identifies an issue-based magazine with per-issue covers, editor letters, story archives and contributors."
+  },
+  "sectionAnchors": {
+    "Cover Story": "#t-cover",
+    "Pull Quote": "#t-quote",
+    "In This Issue": "#t-inissue",
+    "Most Read": "#t-mostread",
+    "Sections Ticker": "#t-ticker",
+    "Archive Index": "#t-archive",
+    "Contributors": "#t-contrib",
+    "Numbers Strip": "#t-numbers"
+  },
+  "sourceColorContext": "Source palette; the active theme is scoped to each native browser observation.",
+  "siteBlueprint": {
+    "file": "SITE-BLUEPRINT.md",
+    "backendVerified": false
+  }
+}

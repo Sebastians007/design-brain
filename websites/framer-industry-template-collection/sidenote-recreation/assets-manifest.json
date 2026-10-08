@@ -1,0 +1,520 @@
+{
+  "assets": [
+    {
+      "file": "assets/fonts/newsreader-400-0.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/newsreader/v26/cY9qfjOCX1hbuyalUrK49dLac06G1ZGsZBtoBCzBDXXD9JVF438weI_wC-ZF.woff2",
+      "kind": "font",
+      "bytes": 22480,
+      "sha256": "e66067814f1c672d33a457e4f4d102c818b481420e2234cf685ebdbf2f443904",
+      "family": "Newsreader",
+      "weight": "400",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/fragment-mono-400-1.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2",
+      "kind": "font",
+      "bytes": 25224,
+      "sha256": "44c4e39bff5e76652a24a872cbebabccbcfb20f62c4633b27c1f2745cba86b56",
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/geist-500-2.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RruM4mJPby1QNtA.woff2",
+      "kind": "font",
+      "bytes": 34120,
+      "sha256": "bcbc9a0403b04a20f28530d2c0f9b59b0ddce0ab2bebc7f69526f9ecfe3229c4",
+      "family": "Geist",
+      "weight": "500",
+      "style": "normal",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/geist-700-3.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_Re-Q4mJPby1QNtA.woff2",
+      "kind": "font",
+      "bytes": 34040,
+      "sha256": "5c0fb79bcf1e3d8b1b1459aaedd663a33c974b047fc35455911ca42ed66d1294",
+      "family": "Geist",
+      "weight": "700",
+      "style": "normal",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/geist-700-4.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/geist/v5/gyBjhwUxId8gMEwZAluvzlxA9ojEVKA32Zna6VEdtKCL.woff2",
+      "kind": "font",
+      "bytes": 35472,
+      "sha256": "42f5da08a5294d8a411a63524dbc3d2e45c322f96bbf4d1d95d854c95edf1081",
+      "family": "Geist",
+      "weight": "700",
+      "style": "italic",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/geist-500-5.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/geist/v5/gyBjhwUxId8gMEwZAluvzlxA9ojEVKDi3pna6VEdtKCL.woff2",
+      "kind": "font",
+      "bytes": 35520,
+      "sha256": "21dc3cb9c08ecc1279d5951125b2f3e62717030f412b3f17bf05e7dbcc391072",
+      "family": "Geist",
+      "weight": "500",
+      "style": "italic",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/geist-mono-500-6.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeEPKJ5W7ihaO_CS.woff2",
+      "kind": "font",
+      "bytes": 35964,
+      "sha256": "02e299ce5e9b019c59ec67388564cd52d2d62e851cc02cc4f24298dbf4a857c6",
+      "family": "Geist Mono",
+      "weight": "500",
+      "style": "normal",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/geist-mono-700-7.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHaL55W7ihaO_CS.woff2",
+      "kind": "font",
+      "bytes": 36076,
+      "sha256": "b4d4bf4664e532b4e9a14fdaa67f145b9c7adf17f40c273f96a4afb5dc50d6bc",
+      "family": "Geist Mono",
+      "weight": "700",
+      "style": "normal",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/geist-mono-700-8.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/geistmono/v6/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a5EX5Cl4PuCSdNg.woff2",
+      "kind": "font",
+      "bytes": 38816,
+      "sha256": "87aa6627e0a522ac5f08ad861ed923aeea49737f361e1eee8e240236af30906e",
+      "family": "Geist Mono",
+      "weight": "700",
+      "style": "italic",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/geist-mono-500-9.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/geistmono/v6/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a0QQ5Cl4PuCSdNg.woff2",
+      "kind": "font",
+      "bytes": 38724,
+      "sha256": "e08db84645cfd849d8a9a9faa7580c23e7662b570dba8e5caf0a3d4351cb9964",
+      "family": "Geist Mono",
+      "weight": "500",
+      "style": "italic",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/newsreader-variable-400-10.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/newsreader/v26/cY9AfjOCX1hbuyalUrK479z4jaBGNpY.woff2",
+      "kind": "font",
+      "bytes": 214872,
+      "sha256": "4cd9a710b4b79103b2144dbf12f93814bb12a393dba6630770e22668f66dcb5c",
+      "family": "Newsreader Variable",
+      "weight": "400",
+      "style": "normal",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/geist-mono-400-11.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeE9KJ5W7ihaO_CS.woff2",
+      "kind": "font",
+      "bytes": 34728,
+      "sha256": "fc62ef7551671fe51c66e4e591d6eb12a121c23ec1e3e6f2c5a44c95e9d9ea44",
+      "family": "Geist Mono",
+      "weight": "400",
+      "style": "normal",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/geist-mono-400-12.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/geistmono/v6/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a3YQ5Cl4PuCSdNg.woff2",
+      "kind": "font",
+      "bytes": 37512,
+      "sha256": "dac5b23161ab38acc4e5af516496b7e765b4bba5e6a33e8126a1a6ff10167404",
+      "family": "Geist Mono",
+      "weight": "400",
+      "style": "italic",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/newsreader-variable-400-13.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/newsreader/v26/cY9CfjOCX1hbuyalUrK439vyjIJDJpahZQ.woff2",
+      "kind": "font",
+      "bytes": 238800,
+      "sha256": "f43041765acb039b8cd591d9d4fa709a42f0ce3eae0c7021f111d536b5d5744d",
+      "family": "Newsreader Variable",
+      "weight": "400",
+      "style": "italic",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/geist-mono-300-14.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeFjKJ5W7ihaO_CS.woff2",
+      "kind": "font",
+      "bytes": 35316,
+      "sha256": "4083024aa1fca0d8d6ebb62f358b008933bfea8fcb167d223ade002acc67c425",
+      "family": "Geist Mono",
+      "weight": "300",
+      "style": "normal",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/geist-mono-300-15.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/geistmono/v6/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1aygQ5Cl4PuCSdNg.woff2",
+      "kind": "font",
+      "bytes": 38124,
+      "sha256": "24b91c83399a95ae12a375f5615098175a4e5802eb2af586700df9860615f318",
+      "family": "Geist Mono",
+      "weight": "300",
+      "style": "italic",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/geist-600-16.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RQuQ4mJPby1QNtA.woff2",
+      "kind": "font",
+      "bytes": 34060,
+      "sha256": "ece6e8814750aba251b0670294a450b810a191c1dfe148df8c671916bee0de8c",
+      "family": "Geist",
+      "weight": "600",
+      "style": "normal",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/geist-900-17.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RNeQ4mJPby1QNtA.woff2",
+      "kind": "font",
+      "bytes": 33596,
+      "sha256": "2d4724c5367c687335850de2e88035dc8ec8b6dd7f8ee864fdea454a0fd92036",
+      "family": "Geist",
+      "weight": "900",
+      "style": "normal",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/geist-900-18.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/geist/v5/gyBjhwUxId8gMEwZAluvzlxA9ojEVKB52Zna6VEdtKCL.woff2",
+      "kind": "font",
+      "bytes": 34996,
+      "sha256": "e3722b98218cfc2bb31237b705d92e326458306ae54d06c3c362ae928804b7ce",
+      "family": "Geist",
+      "weight": "900",
+      "style": "italic",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/geist-600-19.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/geist/v5/gyBjhwUxId8gMEwZAluvzlxA9ojEVKAO2Zna6VEdtKCL.woff2",
+      "kind": "font",
+      "bytes": 35460,
+      "sha256": "de680f0d0a52f55b05029f2ef36c53302bc3326b4f5f4492b37480e3e7f7fda2",
+      "family": "Geist",
+      "weight": "600",
+      "style": "italic",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/geist-400-20.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RnOM4mJPby1QNtA.woff2",
+      "kind": "font",
+      "bytes": 33224,
+      "sha256": "5c20f2508495b5e726a10d021f0d4148f2ddc14ffbfbcd831e951a678c07e29e",
+      "family": "Geist",
+      "weight": "400",
+      "style": "normal",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/geist-400-21.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/geist/v5/gyBjhwUxId8gMEwZAluvzlxA9ojEVKDQ3pna6VEdtKCL.woff2",
+      "kind": "font",
+      "bytes": 34620,
+      "sha256": "ee74d3348b10be84fa50586163fa4bdade942a9d4da18e3f9a4a588792c13cd6",
+      "family": "Geist",
+      "weight": "400",
+      "style": "italic",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/inter-400-22.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "kind": "font",
+      "bytes": 27380,
+      "sha256": "362b168da82d69bc67d2a358fa20c59151cb4ceac8a5506be6baef5e6827fa42",
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/images/source-01.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/rmvDuIyIUcaZ6GKvDoBW26zSOP8.jpg?width=1600&height=1067",
+      "kind": "image",
+      "bytes": 76079,
+      "sha256": "c9585b565bd9a3f3fa40b45f34d86483328860f1b6454f601ea23f8a845b46d5",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/rmvDuIyIUcaZ6GKvDoBW26zSOP8.jpg?width=1600&height=1067",
+          "srcset": "https://framerusercontent.com/images/rmvDuIyIUcaZ6GKvDoBW26zSOP8.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/rmvDuIyIUcaZ6GKvDoBW26zSOP8.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/rmvDuIyIUcaZ6GKvDoBW26zSOP8.jpg?width=1600&height=1067 1600w",
+          "alt": "A pencil sharpener and fresh shavings on a white desk",
+          "width": "1600",
+          "height": "1067",
+          "path": [
+            "Latest Essay",
+            "Latest List",
+            "Latest Item (motion)",
+            "Latest Opening",
+            "Latest Cover"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/rmvDuIyIUcaZ6GKvDoBW26zSOP8.jpg?width=1600&height=1067",
+          "srcset": "https://framerusercontent.com/images/rmvDuIyIUcaZ6GKvDoBW26zSOP8.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/rmvDuIyIUcaZ6GKvDoBW26zSOP8.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/rmvDuIyIUcaZ6GKvDoBW26zSOP8.jpg?width=1600&height=1067 1600w",
+          "alt": "A pencil sharpener and fresh shavings on a white desk",
+          "width": "1600",
+          "height": "1067",
+          "path": [
+            "Essay Index",
+            "Index List",
+            "Index Row (motion)",
+            "Row Cover"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-02.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/LM0zKTy2UQr5IzqKdaGpAuNQKyM.jpg?width=1600&height=1065",
+      "kind": "image",
+      "bytes": 193968,
+      "sha256": "daaa641f915d2ea58d4a9fb86bfbc3cc9100e0f9dd3770df5bffea74fac517bd",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/LM0zKTy2UQr5IzqKdaGpAuNQKyM.jpg?width=1600&height=1065",
+          "srcset": "https://framerusercontent.com/images/LM0zKTy2UQr5IzqKdaGpAuNQKyM.jpg?scale-down-to=512&width=1600&height=1065 512w,https://framerusercontent.com/images/LM0zKTy2UQr5IzqKdaGpAuNQKyM.jpg?scale-down-to=1024&width=1600&height=1065 1024w,https://framerusercontent.com/images/LM0zKTy2UQr5IzqKdaGpAuNQKyM.jpg?width=1600&height=1065 1600w",
+          "alt": "An empty room with one chair facing a sunlit window",
+          "width": "1600",
+          "height": "1065",
+          "path": [
+            "Essay Index",
+            "Index List",
+            "Index Row (motion)",
+            "Row Cover"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-03.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/6NgjriahDA8yIiLJEzzlVr1llQ.jpg?width=1600&height=1067",
+      "kind": "image",
+      "bytes": 89934,
+      "sha256": "fb316d77f96436c792f1027e99cd5cbe283c92e3bbced1e54a67dce8490024a2",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/6NgjriahDA8yIiLJEzzlVr1llQ.jpg?width=1600&height=1067",
+          "srcset": "https://framerusercontent.com/images/6NgjriahDA8yIiLJEzzlVr1llQ.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/6NgjriahDA8yIiLJEzzlVr1llQ.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/6NgjriahDA8yIiLJEzzlVr1llQ.jpg?width=1600&height=1067 1600w",
+          "alt": "A phone lying face up on a table in window shadow",
+          "width": "1600",
+          "height": "1067",
+          "path": [
+            "Essay Index",
+            "Index List",
+            "Index Row (motion)",
+            "Row Cover"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-04.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/5i1Je4qnrZK6S8YPyPnuA3NxLI.jpg?width=1600&height=1067",
+      "kind": "image",
+      "bytes": 199850,
+      "sha256": "6e9f68cef4949e998fe5a6a02c005068145b63fb04ad21021a80e2418d7b1986",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/5i1Je4qnrZK6S8YPyPnuA3NxLI.jpg?width=1600&height=1067",
+          "srcset": "https://framerusercontent.com/images/5i1Je4qnrZK6S8YPyPnuA3NxLI.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/5i1Je4qnrZK6S8YPyPnuA3NxLI.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/5i1Je4qnrZK6S8YPyPnuA3NxLI.jpg?width=1600&height=1067 1600w",
+          "alt": "A small desk by a window with a laptop and a plant",
+          "width": "1600",
+          "height": "1067",
+          "path": [
+            "Essay Index",
+            "Index List",
+            "Index Row (motion)",
+            "Row Cover"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-05.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/wrOnrXfBcjrx7nzYXKs8DRxsc.jpg?width=1600&height=1065",
+      "kind": "image",
+      "bytes": 163725,
+      "sha256": "59874857203b703c0c2e0a651319ee66e6611c539449e0273aaf158dde37dea4",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/wrOnrXfBcjrx7nzYXKs8DRxsc.jpg?width=1600&height=1065",
+          "srcset": "https://framerusercontent.com/images/wrOnrXfBcjrx7nzYXKs8DRxsc.jpg?scale-down-to=512&width=1600&height=1065 512w,https://framerusercontent.com/images/wrOnrXfBcjrx7nzYXKs8DRxsc.jpg?scale-down-to=1024&width=1600&height=1065 1024w,https://framerusercontent.com/images/wrOnrXfBcjrx7nzYXKs8DRxsc.jpg?width=1600&height=1065 1600w",
+          "alt": "Afternoon sun casting a window shadow on a plain wall",
+          "width": "1600",
+          "height": "1065",
+          "path": [
+            "Essay Index",
+            "Index List",
+            "Index Row (motion)",
+            "Row Cover"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-06.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/0beJRfb5AlSKewMzqDvZVhOlNA.jpg?width=1600&height=1067",
+      "kind": "image",
+      "bytes": 57845,
+      "sha256": "4f93a14492f382ffe8e8747d196816b9db185be3931384ef551df371e3b483af",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/0beJRfb5AlSKewMzqDvZVhOlNA.jpg?width=1600&height=1067",
+          "srcset": "https://framerusercontent.com/images/0beJRfb5AlSKewMzqDvZVhOlNA.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/0beJRfb5AlSKewMzqDvZVhOlNA.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/0beJRfb5AlSKewMzqDvZVhOlNA.jpg?width=1600&height=1067 1600w",
+          "alt": "An open notebook and a pen seen from above",
+          "width": "1600",
+          "height": "1067",
+          "path": [
+            "Essay Index",
+            "Index List",
+            "Index Row (motion)",
+            "Row Cover"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-07.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/DYBaaGS3C56mKm4odP15c70OE.jpg?width=1600&height=1067",
+      "kind": "image",
+      "bytes": 113022,
+      "sha256": "7fc3666a87999957153a3428efa3c34d1ecd0909637d3d2bcbbfac792aa3dc2f",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/DYBaaGS3C56mKm4odP15c70OE.jpg?width=1600&height=1067",
+          "srcset": "https://framerusercontent.com/images/DYBaaGS3C56mKm4odP15c70OE.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/DYBaaGS3C56mKm4odP15c70OE.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/DYBaaGS3C56mKm4odP15c70OE.jpg?width=1600&height=1067 1600w",
+          "alt": "A hand writing with a pencil in a spiral notebook",
+          "width": "1600",
+          "height": "1067",
+          "path": [
+            "Essay Index",
+            "Index List",
+            "Index Row (motion)",
+            "Row Cover"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-08.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/bAmyQqDJAPWoXa4rB93WxMzUeU.jpg?width=1600&height=1067",
+      "kind": "image",
+      "bytes": 396968,
+      "sha256": "0812e48394db12f6da4bb28c759dab8f2ac4514f2f5a362a0d90600991f90522",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/bAmyQqDJAPWoXa4rB93WxMzUeU.jpg?width=1600&height=1067",
+          "srcset": "https://framerusercontent.com/images/bAmyQqDJAPWoXa4rB93WxMzUeU.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/bAmyQqDJAPWoXa4rB93WxMzUeU.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/bAmyQqDJAPWoXa4rB93WxMzUeU.jpg?width=1600&height=1067 1600w",
+          "alt": "A Lisbon tram climbing a narrow cobbled street",
+          "width": "1600",
+          "height": "1067",
+          "path": [
+            "Essay Index",
+            "Index List",
+            "Index Row (motion)",
+            "Row Cover"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/js/gsap.min.js",
+      "kind": "caption-runtime",
+      "sourceUrl": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    {
+      "file": "screenshots/live-home.jpg",
+      "kind": "browser-capture",
+      "sourceUrl": "https://inventive-guidance-390250.framer.app/",
+      "bytes": 159940,
+      "sha256": "93bbd7bed17b0605b4b994b9a69d035dbe0e58a134b887824cdf4a13401d3271",
+      "label": "home",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "observationFile": "BROWSER-OBSERVATIONS.json"
+    },
+    {
+      "file": "screenshots/live-secondary.jpg",
+      "kind": "browser-capture",
+      "sourceUrl": "https://inventive-guidance-390250.framer.app/newsletter",
+      "bytes": 71516,
+      "sha256": "cf115a800c63b4dc68565ac19bd12d8f783b1118c6ad3cf5685aade57e1655e8",
+      "label": "secondary",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "observationFile": "BROWSER-OBSERVATIONS.json"
+    }
+  ],
+  "downloadFailures": [],
+  "imageExports": "Maximum2000px; original URLs retained.",
+  "fontScope": "Latin subsets where declared; font weights preserved.",
+  "unbundledMedia": []
+}

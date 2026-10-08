@@ -1,0 +1,641 @@
+{
+  "template": "Sidenote",
+  "preview": "https://inventive-guidance-390250.framer.app/",
+  "marketplace": "https://www.framer.com/marketplace/templates/sidenote/",
+  "creator": "Vexora Studio",
+  "coverage": "Public source declarations, official marketplace artwork and actual browser captures at the individually recorded viewport/state. Phone/tablet, complete motion and backend behavior unverified.",
+  "viewport": {
+    "devicePixelRatio": 1,
+    "height": 936,
+    "width": 1363
+  },
+  "pageHeight": 18259,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 4 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-05.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 5 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 4 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-05.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 5 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [
+    {
+      "background": "rgb(246, 247, 244)",
+      "display": "flex",
+      "gap": "normal",
+      "height": 72,
+      "id": "",
+      "tag": "NAV",
+      "width": 1348,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "background": "rgb(246, 247, 244)",
+      "display": "flex",
+      "gap": "24px",
+      "height": 467.75,
+      "id": "",
+      "tag": "FOOTER",
+      "width": 1348,
+      "x": 0,
+      "y": 17791.46875
+    }
+  ],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Newsreader",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/newsreader/v26/cY9qfjOCX1hbuyalUrK49dLac06G1ZGsZBtoBCzBDXXD9JVF438weI_wC-ZF.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/newsreader-400-0.woff2"
+    },
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/fragment-mono-400-1.woff2"
+    },
+    {
+      "family": "Geist",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RruM4mJPby1QNtA.woff2",
+      "range": "",
+      "file": "assets/fonts/geist-500-2.woff2"
+    },
+    {
+      "family": "Geist",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_Re-Q4mJPby1QNtA.woff2",
+      "range": "",
+      "file": "assets/fonts/geist-700-3.woff2"
+    },
+    {
+      "family": "Geist",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/geist/v5/gyBjhwUxId8gMEwZAluvzlxA9ojEVKA32Zna6VEdtKCL.woff2",
+      "range": "",
+      "file": "assets/fonts/geist-700-4.woff2"
+    },
+    {
+      "family": "Geist",
+      "weight": "500",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/geist/v5/gyBjhwUxId8gMEwZAluvzlxA9ojEVKDi3pna6VEdtKCL.woff2",
+      "range": "",
+      "file": "assets/fonts/geist-500-5.woff2"
+    },
+    {
+      "family": "Geist Mono",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeEPKJ5W7ihaO_CS.woff2",
+      "range": "",
+      "file": "assets/fonts/geist-mono-500-6.woff2"
+    },
+    {
+      "family": "Geist Mono",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHaL55W7ihaO_CS.woff2",
+      "range": "",
+      "file": "assets/fonts/geist-mono-700-7.woff2"
+    },
+    {
+      "family": "Geist Mono",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/geistmono/v6/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a5EX5Cl4PuCSdNg.woff2",
+      "range": "",
+      "file": "assets/fonts/geist-mono-700-8.woff2"
+    },
+    {
+      "family": "Geist Mono",
+      "weight": "500",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/geistmono/v6/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a0QQ5Cl4PuCSdNg.woff2",
+      "range": "",
+      "file": "assets/fonts/geist-mono-500-9.woff2"
+    },
+    {
+      "family": "Newsreader Variable",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/newsreader/v26/cY9AfjOCX1hbuyalUrK479z4jaBGNpY.woff2",
+      "range": "",
+      "file": "assets/fonts/newsreader-variable-400-10.woff2"
+    },
+    {
+      "family": "Geist Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeE9KJ5W7ihaO_CS.woff2",
+      "range": "",
+      "file": "assets/fonts/geist-mono-400-11.woff2"
+    },
+    {
+      "family": "Geist Mono",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/geistmono/v6/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a3YQ5Cl4PuCSdNg.woff2",
+      "range": "",
+      "file": "assets/fonts/geist-mono-400-12.woff2"
+    },
+    {
+      "family": "Newsreader Variable",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/newsreader/v26/cY9CfjOCX1hbuyalUrK439vyjIJDJpahZQ.woff2",
+      "range": "",
+      "file": "assets/fonts/newsreader-variable-400-13.woff2"
+    },
+    {
+      "family": "Geist Mono",
+      "weight": "300",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeFjKJ5W7ihaO_CS.woff2",
+      "range": "",
+      "file": "assets/fonts/geist-mono-300-14.woff2"
+    },
+    {
+      "family": "Geist Mono",
+      "weight": "300",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/geistmono/v6/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1aygQ5Cl4PuCSdNg.woff2",
+      "range": "",
+      "file": "assets/fonts/geist-mono-300-15.woff2"
+    },
+    {
+      "family": "Geist",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RQuQ4mJPby1QNtA.woff2",
+      "range": "",
+      "file": "assets/fonts/geist-600-16.woff2"
+    },
+    {
+      "family": "Geist",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RNeQ4mJPby1QNtA.woff2",
+      "range": "",
+      "file": "assets/fonts/geist-900-17.woff2"
+    },
+    {
+      "family": "Geist",
+      "weight": "900",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/geist/v5/gyBjhwUxId8gMEwZAluvzlxA9ojEVKB52Zna6VEdtKCL.woff2",
+      "range": "",
+      "file": "assets/fonts/geist-900-18.woff2"
+    },
+    {
+      "family": "Geist",
+      "weight": "600",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/geist/v5/gyBjhwUxId8gMEwZAluvzlxA9ojEVKAO2Zna6VEdtKCL.woff2",
+      "range": "",
+      "file": "assets/fonts/geist-600-19.woff2"
+    },
+    {
+      "family": "Geist",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RnOM4mJPby1QNtA.woff2",
+      "range": "",
+      "file": "assets/fonts/geist-400-20.woff2"
+    },
+    {
+      "family": "Geist",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/geist/v5/gyBjhwUxId8gMEwZAluvzlxA9ojEVKDQ3pna6VEdtKCL.woff2",
+      "range": "",
+      "file": "assets/fonts/geist-400-21.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-22.woff2"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/images/rmvDuIyIUcaZ6GKvDoBW26zSOP8.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/rmvDuIyIUcaZ6GKvDoBW26zSOP8.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/rmvDuIyIUcaZ6GKvDoBW26zSOP8.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/rmvDuIyIUcaZ6GKvDoBW26zSOP8.jpg?width=1600&height=1067 1600w",
+      "alt": "A pencil sharpener and fresh shavings on a white desk",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "Latest Essay",
+        "Latest List",
+        "Latest Item (motion)",
+        "Latest Opening",
+        "Latest Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rmvDuIyIUcaZ6GKvDoBW26zSOP8.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/rmvDuIyIUcaZ6GKvDoBW26zSOP8.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/rmvDuIyIUcaZ6GKvDoBW26zSOP8.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/rmvDuIyIUcaZ6GKvDoBW26zSOP8.jpg?width=1600&height=1067 1600w",
+      "alt": "A pencil sharpener and fresh shavings on a white desk",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "Essay Index",
+        "Index List",
+        "Index Row (motion)",
+        "Row Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/LM0zKTy2UQr5IzqKdaGpAuNQKyM.jpg?width=1600&height=1065",
+      "srcset": "https://framerusercontent.com/images/LM0zKTy2UQr5IzqKdaGpAuNQKyM.jpg?scale-down-to=512&width=1600&height=1065 512w,https://framerusercontent.com/images/LM0zKTy2UQr5IzqKdaGpAuNQKyM.jpg?scale-down-to=1024&width=1600&height=1065 1024w,https://framerusercontent.com/images/LM0zKTy2UQr5IzqKdaGpAuNQKyM.jpg?width=1600&height=1065 1600w",
+      "alt": "An empty room with one chair facing a sunlit window",
+      "width": "1600",
+      "height": "1065",
+      "path": [
+        "Essay Index",
+        "Index List",
+        "Index Row (motion)",
+        "Row Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6NgjriahDA8yIiLJEzzlVr1llQ.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/6NgjriahDA8yIiLJEzzlVr1llQ.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/6NgjriahDA8yIiLJEzzlVr1llQ.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/6NgjriahDA8yIiLJEzzlVr1llQ.jpg?width=1600&height=1067 1600w",
+      "alt": "A phone lying face up on a table in window shadow",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "Essay Index",
+        "Index List",
+        "Index Row (motion)",
+        "Row Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5i1Je4qnrZK6S8YPyPnuA3NxLI.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/5i1Je4qnrZK6S8YPyPnuA3NxLI.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/5i1Je4qnrZK6S8YPyPnuA3NxLI.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/5i1Je4qnrZK6S8YPyPnuA3NxLI.jpg?width=1600&height=1067 1600w",
+      "alt": "A small desk by a window with a laptop and a plant",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "Essay Index",
+        "Index List",
+        "Index Row (motion)",
+        "Row Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wrOnrXfBcjrx7nzYXKs8DRxsc.jpg?width=1600&height=1065",
+      "srcset": "https://framerusercontent.com/images/wrOnrXfBcjrx7nzYXKs8DRxsc.jpg?scale-down-to=512&width=1600&height=1065 512w,https://framerusercontent.com/images/wrOnrXfBcjrx7nzYXKs8DRxsc.jpg?scale-down-to=1024&width=1600&height=1065 1024w,https://framerusercontent.com/images/wrOnrXfBcjrx7nzYXKs8DRxsc.jpg?width=1600&height=1065 1600w",
+      "alt": "Afternoon sun casting a window shadow on a plain wall",
+      "width": "1600",
+      "height": "1065",
+      "path": [
+        "Essay Index",
+        "Index List",
+        "Index Row (motion)",
+        "Row Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/0beJRfb5AlSKewMzqDvZVhOlNA.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/0beJRfb5AlSKewMzqDvZVhOlNA.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/0beJRfb5AlSKewMzqDvZVhOlNA.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/0beJRfb5AlSKewMzqDvZVhOlNA.jpg?width=1600&height=1067 1600w",
+      "alt": "An open notebook and a pen seen from above",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "Essay Index",
+        "Index List",
+        "Index Row (motion)",
+        "Row Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DYBaaGS3C56mKm4odP15c70OE.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/DYBaaGS3C56mKm4odP15c70OE.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/DYBaaGS3C56mKm4odP15c70OE.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/DYBaaGS3C56mKm4odP15c70OE.jpg?width=1600&height=1067 1600w",
+      "alt": "A hand writing with a pencil in a spiral notebook",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "Essay Index",
+        "Index List",
+        "Index Row (motion)",
+        "Row Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/bAmyQqDJAPWoXa4rB93WxMzUeU.jpg?width=1600&height=1067",
+      "srcset": "https://framerusercontent.com/images/bAmyQqDJAPWoXa4rB93WxMzUeU.jpg?scale-down-to=512&width=1600&height=1067 512w,https://framerusercontent.com/images/bAmyQqDJAPWoXa4rB93WxMzUeU.jpg?scale-down-to=1024&width=1600&height=1067 1024w,https://framerusercontent.com/images/bAmyQqDJAPWoXa4rB93WxMzUeU.jpg?width=1600&height=1067 1600w",
+      "alt": "A Lisbon tram climbing a narrow cobbled street",
+      "width": "1600",
+      "height": "1067",
+      "path": [
+        "Essay Index",
+        "Index List",
+        "Index Row (motion)",
+        "Row Cover"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    }
+  ],
+  "videoReferences": [
+    {
+      "src": "https://framerusercontent.com/assets/ymCVCBe0ihye1BgLw8a5Bqd8Yw.webm",
+      "poster": "[object Object]",
+      "path": [
+        "See It Move",
+        "Video Inner",
+        "Video Frame (motion)",
+        "Sidenotes Clip"
+      ]
+    }
+  ],
+  "linksDeclaredInSource": [
+    "https://github.com",
+    "https://inventive-guidance-390250.framer.app/",
+    "https://inventive-guidance-390250.framer.app/#main",
+    "https://inventive-guidance-390250.framer.app/about",
+    "https://inventive-guidance-390250.framer.app/archive",
+    "https://inventive-guidance-390250.framer.app/changelog",
+    "https://inventive-guidance-390250.framer.app/essays",
+    "https://inventive-guidance-390250.framer.app/essays/a-studio-of-one",
+    "https://inventive-guidance-390250.framer.app/essays/against-the-badge",
+    "https://inventive-guidance-390250.framer.app/essays/pricing-the-afternoon",
+    "https://inventive-guidance-390250.framer.app/essays/reading-in-the-margins",
+    "https://inventive-guidance-390250.framer.app/essays/software-that-waits",
+    "https://inventive-guidance-390250.framer.app/essays/the-grid-paper-year",
+    "https://inventive-guidance-390250.framer.app/essays/the-undo-button-is-a-moral-position",
+    "https://inventive-guidance-390250.framer.app/essays/what-the-tram-taught-me-about-latency",
+    "https://inventive-guidance-390250.framer.app/essays?topic=Attention",
+    "https://inventive-guidance-390250.framer.app/essays?topic=Craft",
+    "https://inventive-guidance-390250.framer.app/essays?topic=Place",
+    "https://inventive-guidance-390250.framer.app/essays?topic=Tools",
+    "https://inventive-guidance-390250.framer.app/essays?topic=Work",
+    "https://inventive-guidance-390250.framer.app/library",
+    "https://inventive-guidance-390250.framer.app/newsletter",
+    "https://inventive-guidance-390250.framer.app/notes",
+    "https://inventive-guidance-390250.framer.app/now",
+    "https://inventive-guidance-390250.framer.app/privacy",
+    "https://inventive-guidance-390250.framer.app/read-me",
+    "https://inventive-guidance-390250.framer.app/search",
+    "https://inventive-guidance-390250.framer.app/series",
+    "https://inventive-guidance-390250.framer.app/style-guide",
+    "https://mastodon.social",
+    "https://www.are.na",
+    "https://www.framer.com"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F08a0564c-901d-4623-9aae-4f9c87e1bb77%2F01a117b4-270b-772d-8897-72b478d80e5c.jpg&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F08a0564c-901d-4623-9aae-4f9c87e1bb77%2F01a117b4-2647-77ea-919f-307e64bf1c14.jpg&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F08a0564c-901d-4623-9aae-4f9c87e1bb77%2F01a117b4-266b-70ff-806d-33a7bcffe953.jpg&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-04.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F08a0564c-901d-4623-9aae-4f9c87e1bb77%2F01a117b4-26a7-705a-85db-d417582f4145.jpg&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-05.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F08a0564c-901d-4623-9aae-4f9c87e1bb77%2F01a117b4-2647-7148-947e-8153364a9740.jpg&w=2048&q=80"
+    }
+  ],
+  "category": {
+    "parent": "Publishing",
+    "branch": "Personal newsletter / essays",
+    "fitEvidence": "Official listing identifies a personal essay blog for writers, founders and consultants building newsletter audiences, with author-led long reading, notes, series and a dedicated Newsletter route.",
+    "marketplace": "https://www.framer.com/marketplace/templates/sidenote/"
+  },
+  "backendVerified": false,
+  "secondaryDeclarationsFile": "secondary-declarations.json",
+  "captureRasterPx": {
+    "width": 1348,
+    "height": 926
+  },
+  "browserObservationsFile": "BROWSER-OBSERVATIONS.json",
+  "nativeBrowserCaptures": [
+    {
+      "file": "screenshots/live-home.jpg",
+      "label": "home",
+      "url": "https://inventive-guidance-390250.framer.app/",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    },
+    {
+      "file": "screenshots/live-secondary.jpg",
+      "label": "secondary",
+      "url": "https://inventive-guidance-390250.framer.app/newsletter",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    }
+  ],
+  "phoneTabletRendered": false
+}

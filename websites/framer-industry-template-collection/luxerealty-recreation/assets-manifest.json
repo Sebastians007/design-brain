@@ -1,0 +1,852 @@
+{
+  "assets": [
+    {
+      "file": "assets/fonts/outfit-600-0.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/outfit/v15/QGYyz_MVcBeNP4NjuGObqx1XmO1I4e6yO4a0Ew.woff2",
+      "kind": "font",
+      "bytes": 14140,
+      "sha256": "8cfe15c2c6de6ef8efff3eedbd52a383ac9ef23d6c23f6cd9f9b838f5f37dc36",
+      "family": "Outfit",
+      "weight": "600",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/riviera-nights-trial-regular-400-1.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/b48xUpf5U6MRuO6cyS2Sbr30rBI.woff2",
+      "kind": "font",
+      "bytes": 7648,
+      "sha256": "b4625fac390184761e9a461dcf9755c93b3af45bc0fc610db8e33e57dadea3bf",
+      "family": "Riviera Nights Trial Regular",
+      "weight": "400",
+      "style": "normal",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/riviera-nights-trial-medium-500-2.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/49DJoygo5qbzDWHFgx2lazdTlRA.woff2",
+      "kind": "font",
+      "bytes": 7792,
+      "sha256": "bc6ca1416756113d1d3d97ac591c200c36ed80a0fd340a0dffdd201000043e2c",
+      "family": "Riviera Nights Trial Medium",
+      "weight": "500",
+      "style": "normal",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/riviera-nights-trial-bold-700-3.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/BVKxnRKSnfc2YIVPsDxQhyhtE.woff2",
+      "kind": "font",
+      "bytes": 7816,
+      "sha256": "a738836a2b9a7cef097af9dbdd4b507b055c6e697a3f2be11a64352aae0705a0",
+      "family": "Riviera Nights Trial Bold",
+      "weight": "700",
+      "style": "normal",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/bt-suave-regular-400-4.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/NTOkhGrfJfvsvCjumEoEd2qdPN8.woff2",
+      "kind": "font",
+      "bytes": 19820,
+      "sha256": "8c0caa168c9689db5ddd601d2ea54186b2562bb5dce904f686e044964f3b2f0a",
+      "family": "BT Suave Regular",
+      "weight": "400",
+      "style": "normal",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/inter-400-5.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "kind": "font",
+      "bytes": 27380,
+      "sha256": "362b168da82d69bc67d2a358fa20c59151cb4ceac8a5506be6baef5e6827fa42",
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/inter-700-6.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/DXD0Q7LSl7HEvDzucnyLnGBHM.woff2",
+      "kind": "font",
+      "bytes": 27992,
+      "sha256": "2dc968863319a6f57e6428a7b4c292ae254d3e462b5f23f71bab492317067d5f",
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/inter-700-7.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/QxmhnWTzLtyjIiZcfaLIJ8EFBXU.woff2",
+      "kind": "font",
+      "bytes": 30200,
+      "sha256": "52d518599e326f2a7bc668afc1ad095b22b71687aba9e6f1866ccbaad634fca5",
+      "family": "Inter",
+      "weight": "700",
+      "style": "italic",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/inter-400-8.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/vFzuJY0c65av44uhEKB6vyjFMg.woff2",
+      "kind": "font",
+      "bytes": 29416,
+      "sha256": "202918a79e7bb02d71efa26cae71a84e2e56f3b8a104f65bbe26085670cc5e73",
+      "family": "Inter",
+      "weight": "400",
+      "style": "italic",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/inter-700-9.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "kind": "font",
+      "bytes": 27900,
+      "sha256": "fad48f71e77d72b44122a1d978820a7e7215b84f9a9c0e3a31d97d5987a710e9",
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/inter-700-10.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/ia3uin3hQWqDrVloC1zEtYHWw.woff2",
+      "kind": "font",
+      "bytes": 30368,
+      "sha256": "f24b0a0d59c1e80a82529f28543ca51c305288570600e326f73cd98963d2afb8",
+      "family": "Inter",
+      "weight": "700",
+      "style": "italic",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/inter-400-11.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/pKRFNWFoZl77qYCAIp84lN1h944.woff2",
+      "kind": "font",
+      "bytes": 29380,
+      "sha256": "54310e32e0595e3f6d7de1f723fedd662e71e8d2783bd6742b0a4b7458a22d7e",
+      "family": "Inter",
+      "weight": "400",
+      "style": "italic",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/inter-400-12.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/vQyevYAyHtARFwPqUzQGpnDs.woff2",
+      "kind": "font",
+      "bytes": 27404,
+      "sha256": "4107b11930c4eef1f6ae5a76d441562e6d21a601f1781f37fd085542cd87412b",
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/inter-900-13.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/jn4BtSPLlS0NDp1KiFAtFKiiY0o.woff2",
+      "kind": "font",
+      "bytes": 27364,
+      "sha256": "fa6a61a8262fb38f129185fb97e8480380ae6e6327b6ee1760d559df5dc2d5d1",
+      "family": "Inter",
+      "weight": "900",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/inter-900-14.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/g0c8vEViiXNlKAgI4Ymmk3Ig.woff2",
+      "kind": "font",
+      "bytes": 29696,
+      "sha256": "0e9f028b2d41c7978ff10b67d57b06eb4158f11db878f322017327c08d2319e3",
+      "family": "Inter",
+      "weight": "900",
+      "style": "italic",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/satoshi-700-15.woff2",
+      "sourceUrl": "https://framerusercontent.com/third-party-assets/fontshare/wf/LAFFD4SDUCDVQEXFPDC7C53EQ4ZELWQI/PXCT3G6LO6ICM5I3NTYENYPWJAECAWDD/GHM6WVH6MILNYOOCXHXB5GTSGNTMGXZR.woff2",
+      "kind": "font",
+      "bytes": 25328,
+      "sha256": "353a7fbfb4475f0c31470a7449226006cb64211c71055ca9db860a8acdaa9f68",
+      "family": "Satoshi",
+      "weight": "700",
+      "style": "normal",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/manrope-600-16.woff2",
+      "sourceUrl": "https://framerusercontent.com/third-party-assets/fontshare/wf/6U2SGH566NSNERG6RGEV3DSNEK7DL2RF/JRDYRKMSAW2H35IWEQIPL67HAJQ35MG5/JNU3GNMUBPWW6V6JTED3S27XL5HN7NM5.woff2",
+      "kind": "font",
+      "bytes": 32148,
+      "sha256": "417c9c3025d6f903bf1d5f77f2b0387bd1e040fe09e70cd8f3dad05aa59df516",
+      "family": "Manrope",
+      "weight": "600",
+      "style": "normal",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/mattone-400-17.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/36YJn4FMZntM08iTmJYlBzlA8.woff2",
+      "kind": "font",
+      "bytes": 24132,
+      "sha256": "8de570e06e88561a810f379dfa61420a7d302b7104d91081faf5e77529ec730f",
+      "family": "Mattone",
+      "weight": "400",
+      "style": "normal",
+      "range": ""
+    },
+    {
+      "file": "assets/images/source-01.png",
+      "sourceUrl": "https://framerusercontent.com/images/AIbO56A5ClT4fQZ3CjPVRkoFMdE.png",
+      "kind": "image",
+      "bytes": 78,
+      "sha256": "512bc4ae866e9c2fd8e716c45b9829f1567995ff55692143395477ada124be85",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/AIbO56A5ClT4fQZ3CjPVRkoFMdE.png",
+          "srcset": null,
+          "alt": "",
+          "width": null,
+          "height": null,
+          "path": [
+            "New Property List",
+            "Hero Section",
+            "Media Wrapper",
+            "Default"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-02.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/oL62NkjKm9b695Xf7YYR47Yvc18.jpg?width=2500&height=1668",
+      "kind": "image",
+      "bytes": 713906,
+      "sha256": "e155e6b6ab7b17e87509e94680323b0ad754e4e34d1d1d29f1fe86166ce62599",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/oL62NkjKm9b695Xf7YYR47Yvc18.jpg?width=2500&height=1668",
+          "srcset": null,
+          "alt": "La Mer Oceanfront Estate",
+          "width": "2500",
+          "height": "1668",
+          "path": [
+            "New Property List",
+            "Property1 - La Mer Oceanfront",
+            "Media Wrapper",
+            "Media 1",
+            "Default"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/oL62NkjKm9b695Xf7YYR47Yvc18.jpg?width=2500&height=1668",
+          "srcset": null,
+          "alt": "La Mer Oceanfront Estate",
+          "width": "2500",
+          "height": "1668",
+          "path": [
+            "Featured Properties",
+            "Property Collection",
+            "The Celeste Manor",
+            "Desktop"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/oL62NkjKm9b695Xf7YYR47Yvc18.jpg?width=2500&height=1668",
+          "srcset": null,
+          "alt": "La Mer Oceanfront Estate",
+          "width": "2500",
+          "height": "1668",
+          "path": [
+            "Featured Properties",
+            "Property Collection",
+            "The Celeste Manor",
+            "Tablet/Phone"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-03.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/mzAdfi2ygFv4FZAIPHLRHlQac.webp?width=2772&height=1500",
+      "kind": "image",
+      "bytes": 420597,
+      "sha256": "f8115d55700afc4f1a8f3f1a62bb00facca03abf70681f078be7e9db047f7301",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/mzAdfi2ygFv4FZAIPHLRHlQac.webp?width=2772&height=1500",
+          "srcset": "https://framerusercontent.com/images/mzAdfi2ygFv4FZAIPHLRHlQac.webp?scale-down-to=512&width=2772&height=1500 512w,https://framerusercontent.com/images/mzAdfi2ygFv4FZAIPHLRHlQac.webp?scale-down-to=1024&width=2772&height=1500 1024w,https://framerusercontent.com/images/mzAdfi2ygFv4FZAIPHLRHlQac.webp?scale-down-to=2048&width=2772&height=1500 2048w,https://framerusercontent.com/images/mzAdfi2ygFv4FZAIPHLRHlQac.webp?width=2772&height=1500 2772w",
+          "alt": "The Dynasty Manor",
+          "width": "2772",
+          "height": "1500",
+          "path": [
+            "New Property List",
+            "Property2 - The Dynasty Manor",
+            "Media Wrapper",
+            "Media 2",
+            "Default"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/mzAdfi2ygFv4FZAIPHLRHlQac.webp?width=2772&height=1500",
+          "srcset": null,
+          "alt": "The Dynasty Manor",
+          "width": "2772",
+          "height": "1500",
+          "path": [
+            "Featured Properties",
+            "Property Collection",
+            "The Celeste Manor",
+            "Desktop"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/mzAdfi2ygFv4FZAIPHLRHlQac.webp?width=2772&height=1500",
+          "srcset": null,
+          "alt": "The Dynasty Manor",
+          "width": "2772",
+          "height": "1500",
+          "path": [
+            "Featured Properties",
+            "Property Collection",
+            "The Celeste Manor",
+            "Tablet/Phone"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-04.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/m0xQRhcn2eryPB8xI1j2McsHQ4.jpg?width=2399&height=1600",
+      "kind": "image",
+      "bytes": 540167,
+      "sha256": "9761ba84cb8624b75ba20a9d36bd7664681078b4458496de44c2578804ade593",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/m0xQRhcn2eryPB8xI1j2McsHQ4.jpg?width=2399&height=1600",
+          "srcset": null,
+          "alt": "Orion Bayfront Mansion",
+          "width": "2399",
+          "height": "1600",
+          "path": [
+            "New Property List",
+            "Property3 - Orion Bayfront",
+            "Media Wrapper",
+            "Media 3",
+            "Default"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/m0xQRhcn2eryPB8xI1j2McsHQ4.jpg?width=2399&height=1600",
+          "srcset": null,
+          "alt": "Orion Bayfront Mansion",
+          "width": "2399",
+          "height": "1600",
+          "path": [
+            "Featured Properties",
+            "Property Collection",
+            "The Celeste Manor",
+            "Desktop"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/m0xQRhcn2eryPB8xI1j2McsHQ4.jpg?width=2399&height=1600",
+          "srcset": null,
+          "alt": "Orion Bayfront Mansion",
+          "width": "2399",
+          "height": "1600",
+          "path": [
+            "Featured Properties",
+            "Property Collection",
+            "The Celeste Manor",
+            "Tablet/Phone"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-05.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/cndb4a1Uv7li68lDoCKkvQoCvc.webp?width=3616&height=2154",
+      "kind": "image",
+      "bytes": 197358,
+      "sha256": "3e66ff923fa0da1f49e05cccffe9725c6f78ae4373710a12f7268b1dfc663e84",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/cndb4a1Uv7li68lDoCKkvQoCvc.webp?width=3616&height=2154",
+          "srcset": null,
+          "alt": "The Summit Residence",
+          "width": "3616",
+          "height": "2154",
+          "path": [
+            "New Property List",
+            "Property4 - The Summit Residence",
+            "Media Wrapper",
+            "Media 4",
+            "Default"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/cndb4a1Uv7li68lDoCKkvQoCvc.webp?width=3616&height=2154",
+          "srcset": null,
+          "alt": "The Summit Residence",
+          "width": "3616",
+          "height": "2154",
+          "path": [
+            "Featured Properties",
+            "Property Collection",
+            "The Celeste Manor",
+            "Desktop"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/cndb4a1Uv7li68lDoCKkvQoCvc.webp?width=3616&height=2154",
+          "srcset": null,
+          "alt": "The Summit Residence",
+          "width": "3616",
+          "height": "2154",
+          "path": [
+            "Featured Properties",
+            "Property Collection",
+            "The Celeste Manor",
+            "Tablet/Phone"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/cndb4a1Uv7li68lDoCKkvQoCvc.webp?width=3616&height=2154",
+          "srcset": "https://framerusercontent.com/images/cndb4a1Uv7li68lDoCKkvQoCvc.webp?scale-down-to=512&width=3616&height=2154 512w,https://framerusercontent.com/images/cndb4a1Uv7li68lDoCKkvQoCvc.webp?scale-down-to=1024&width=3616&height=2154 1024w,https://framerusercontent.com/images/cndb4a1Uv7li68lDoCKkvQoCvc.webp?scale-down-to=2048&width=3616&height=2154 2048w,https://framerusercontent.com/images/cndb4a1Uv7li68lDoCKkvQoCvc.webp?width=3616&height=2154 3616w",
+          "alt": "Global Reach",
+          "width": "3616",
+          "height": "2154",
+          "path": [
+            "Global Reach",
+            "Desktop"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/cndb4a1Uv7li68lDoCKkvQoCvc.webp?width=3616&height=2154",
+          "srcset": "https://framerusercontent.com/images/cndb4a1Uv7li68lDoCKkvQoCvc.webp?scale-down-to=512&width=3616&height=2154 512w,https://framerusercontent.com/images/cndb4a1Uv7li68lDoCKkvQoCvc.webp?scale-down-to=1024&width=3616&height=2154 1024w,https://framerusercontent.com/images/cndb4a1Uv7li68lDoCKkvQoCvc.webp?scale-down-to=2048&width=3616&height=2154 2048w,https://framerusercontent.com/images/cndb4a1Uv7li68lDoCKkvQoCvc.webp?width=3616&height=2154 3616w",
+          "alt": "Global Reach",
+          "width": "3616",
+          "height": "2154",
+          "path": [
+            "Global Reach",
+            "Tablet"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/cndb4a1Uv7li68lDoCKkvQoCvc.webp?width=3616&height=2154",
+          "srcset": "https://framerusercontent.com/images/cndb4a1Uv7li68lDoCKkvQoCvc.webp?scale-down-to=512&width=3616&height=2154 512w,https://framerusercontent.com/images/cndb4a1Uv7li68lDoCKkvQoCvc.webp?scale-down-to=1024&width=3616&height=2154 1024w,https://framerusercontent.com/images/cndb4a1Uv7li68lDoCKkvQoCvc.webp?scale-down-to=2048&width=3616&height=2154 2048w,https://framerusercontent.com/images/cndb4a1Uv7li68lDoCKkvQoCvc.webp?width=3616&height=2154 3616w",
+          "alt": "Global Reach",
+          "width": "3616",
+          "height": "2154",
+          "path": [
+            "Global Reach",
+            "Phone"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-06.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/oLn3nwDwLnUEv7JoE6SuGNNdnaw.jpg?width=2000&height=1500",
+      "kind": "image",
+      "bytes": 548231,
+      "sha256": "23945f01a9aa8b37642e9ac072493d307e878490457645e77b14961ac83bc2fe",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/oLn3nwDwLnUEv7JoE6SuGNNdnaw.jpg?width=2000&height=1500",
+          "srcset": "https://framerusercontent.com/images/oLn3nwDwLnUEv7JoE6SuGNNdnaw.jpg?scale-down-to=512&width=2000&height=1500 512w,https://framerusercontent.com/images/oLn3nwDwLnUEv7JoE6SuGNNdnaw.jpg?scale-down-to=1024&width=2000&height=1500 1024w,https://framerusercontent.com/images/oLn3nwDwLnUEv7JoE6SuGNNdnaw.jpg?width=2000&height=1500 2000w",
+          "alt": "About Luxe",
+          "width": "2000",
+          "height": "1500",
+          "path": [
+            "About Luxe"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-07.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/fZQ9GMVfQeBOi877xhDFDm0cq1w.png?width=996&height=1248",
+      "kind": "image",
+      "bytes": 179225,
+      "sha256": "c3d18b880a3120f629341e7068093c7ef30c8c9c94332e5b485ae7e48c2169dc",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/fZQ9GMVfQeBOi877xhDFDm0cq1w.png?width=996&height=1248",
+          "srcset": "https://framerusercontent.com/images/fZQ9GMVfQeBOi877xhDFDm0cq1w.png?scale-down-to=1024&width=996&height=1248 817w,https://framerusercontent.com/images/fZQ9GMVfQeBOi877xhDFDm0cq1w.png?width=996&height=1248 996w",
+          "alt": "Victoria Sterling",
+          "width": "996",
+          "height": "1248",
+          "path": [
+            "Agents",
+            "Agent Lists",
+            "Victoria Sterling",
+            "Agent card"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-08.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/nupnWywSsEa9LwRblzP4Azlpw.jpg?width=736&height=908",
+      "kind": "image",
+      "bytes": 74511,
+      "sha256": "1caeb8f66a364d6dcbce04626b6896677cfe94decbe1cf7630d89700d6576b1b",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/nupnWywSsEa9LwRblzP4Azlpw.jpg?width=736&height=908",
+          "srcset": "https://framerusercontent.com/images/nupnWywSsEa9LwRblzP4Azlpw.jpg?width=736&height=908 736w",
+          "alt": "Isabella Laurent",
+          "width": "736",
+          "height": "908",
+          "path": [
+            "Agents",
+            "Agent Lists",
+            "Isabella Laurent",
+            "Agent card"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-09.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/m2Mla5IZMrAzh22ZqyLHLMxgA.jpg?width=685&height=940",
+      "kind": "image",
+      "bytes": 75332,
+      "sha256": "e32c58d3aeace805da7299a99240a5e0470f8820afe8741f45dfbf1e14f0f605",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/m2Mla5IZMrAzh22ZqyLHLMxgA.jpg?width=685&height=940",
+          "srcset": "https://framerusercontent.com/images/m2Mla5IZMrAzh22ZqyLHLMxgA.jpg?width=685&height=940 685w",
+          "alt": "Ava Kingsley",
+          "width": "685",
+          "height": "940",
+          "path": [
+            "Agents",
+            "Agent Lists",
+            "Ava Kingsley",
+            "Agent card"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-10.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/CR8q5eoYYoBOF38isgN0xbkVrw.jpg?width=2500&height=1668",
+      "kind": "image",
+      "bytes": 700462,
+      "sha256": "62ac9613f21a7f3b6773b3b2836817a0c3a512fcdaca4785ebd2de362c81a2fc",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/CR8q5eoYYoBOF38isgN0xbkVrw.jpg?width=2500&height=1668",
+          "srcset": null,
+          "alt": "Luxe realty",
+          "width": "2500",
+          "height": "1668",
+          "path": [
+            "Luxe Realty",
+            "Image"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-11.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/DC0d955OSZ2f6JyPaBujEq3HQ4I.jpg?width=2500&height=1667",
+      "kind": "image",
+      "bytes": 375870,
+      "sha256": "23bbfd294502aa7d231bbbe195580d6b6d910f551db345a36fd61643bc555156",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/DC0d955OSZ2f6JyPaBujEq3HQ4I.jpg?width=2500&height=1667",
+          "srcset": "https://framerusercontent.com/images/DC0d955OSZ2f6JyPaBujEq3HQ4I.jpg?scale-down-to=512&width=2500&height=1667 512w,https://framerusercontent.com/images/DC0d955OSZ2f6JyPaBujEq3HQ4I.jpg?scale-down-to=1024&width=2500&height=1667 1024w,https://framerusercontent.com/images/DC0d955OSZ2f6JyPaBujEq3HQ4I.jpg?scale-down-to=2048&width=2500&height=1667 2048w,https://framerusercontent.com/images/DC0d955OSZ2f6JyPaBujEq3HQ4I.jpg?width=2500&height=1667 2500w",
+          "alt": "Curated Selection",
+          "width": "2500",
+          "height": "1667",
+          "path": [
+            "Our Expertise",
+            "Expertise List",
+            "Variant 1",
+            "Images"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/DC0d955OSZ2f6JyPaBujEq3HQ4I.jpg?width=2500&height=1667",
+          "srcset": "https://framerusercontent.com/images/DC0d955OSZ2f6JyPaBujEq3HQ4I.jpg?scale-down-to=512&width=2500&height=1667 512w,https://framerusercontent.com/images/DC0d955OSZ2f6JyPaBujEq3HQ4I.jpg?scale-down-to=1024&width=2500&height=1667 1024w,https://framerusercontent.com/images/DC0d955OSZ2f6JyPaBujEq3HQ4I.jpg?scale-down-to=2048&width=2500&height=1667 2048w,https://framerusercontent.com/images/DC0d955OSZ2f6JyPaBujEq3HQ4I.jpg?width=2500&height=1667 2500w",
+          "alt": "Curated Selection",
+          "width": "2500",
+          "height": "1667",
+          "path": [
+            "Our Expertise",
+            "Expertise List",
+            "Variant 4",
+            "Images"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-12.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/I8f8g3aGQnY6eg76gkOyhAhcs.jpg",
+      "kind": "image",
+      "bytes": 458634,
+      "sha256": "095d6bff09e6be2534a7314a38cdc29626241fb5578d85dc172794319145d598",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/I8f8g3aGQnY6eg76gkOyhAhcs.jpg",
+          "srcset": null,
+          "alt": "Real Estate Trends",
+          "width": null,
+          "height": null,
+          "path": [
+            "Blogs",
+            "Blogs Collection",
+            "Desktop"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-13.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/eWcfVjt9WgMHjBCOqBWxSlWEUU.jpg",
+      "kind": "image",
+      "bytes": 295061,
+      "sha256": "4a79cb7e0bf67f6735b7d13efc93d0abb350198d847e81d89ce9d4269f05816b",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/eWcfVjt9WgMHjBCOqBWxSlWEUU.jpg",
+          "srcset": "https://framerusercontent.com/images/eWcfVjt9WgMHjBCOqBWxSlWEUU.jpg?scale-down-to=1024 677w,https://framerusercontent.com/images/eWcfVjt9WgMHjBCOqBWxSlWEUU.jpg?scale-down-to=2048 1354w,https://framerusercontent.com/images/eWcfVjt9WgMHjBCOqBWxSlWEUU.jpg 1429w",
+          "alt": "Green Living",
+          "width": null,
+          "height": null,
+          "path": [
+            "Blogs",
+            "Blogs Collection",
+            "Desktop"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-14.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/Lzc86TfMjhSEGMdlGmxxTWBWyo.jpg",
+      "kind": "image",
+      "bytes": 531825,
+      "sha256": "35a1e8086dc0015d3656cd19be5dfef34db79114dfad5b2efc91e0e3b1a4f592",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/Lzc86TfMjhSEGMdlGmxxTWBWyo.jpg",
+          "srcset": "https://framerusercontent.com/images/Lzc86TfMjhSEGMdlGmxxTWBWyo.jpg?scale-down-to=1024 682w,https://framerusercontent.com/images/Lzc86TfMjhSEGMdlGmxxTWBWyo.jpg?scale-down-to=2048 1365w,https://framerusercontent.com/images/Lzc86TfMjhSEGMdlGmxxTWBWyo.jpg 1667w",
+          "alt": "transform any space",
+          "width": null,
+          "height": null,
+          "path": [
+            "Blogs",
+            "Blogs Collection",
+            "Desktop"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-15.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/khh6K7txruh4E0VWoAflycproI.jpg",
+      "kind": "image",
+      "bytes": 622514,
+      "sha256": "3f36590c87fcd83999bfc2486a5ad41d53cf23e99d54393cf3cde8e429124c2d",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/khh6K7txruh4E0VWoAflycproI.jpg",
+          "srcset": "https://framerusercontent.com/images/khh6K7txruh4E0VWoAflycproI.jpg?scale-down-to=512 512w,https://framerusercontent.com/images/khh6K7txruh4E0VWoAflycproI.jpg?scale-down-to=1024 1024w,https://framerusercontent.com/images/khh6K7txruh4E0VWoAflycproI.jpg?scale-down-to=2048 2048w,https://framerusercontent.com/images/khh6K7txruh4E0VWoAflycproI.jpg 2560w",
+          "alt": "Luxe realty",
+          "width": "2560",
+          "height": "1707",
+          "path": [
+            "Desktop"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/khh6K7txruh4E0VWoAflycproI.jpg",
+          "srcset": "https://framerusercontent.com/images/khh6K7txruh4E0VWoAflycproI.jpg?scale-down-to=512 512w,https://framerusercontent.com/images/khh6K7txruh4E0VWoAflycproI.jpg?scale-down-to=1024 1024w,https://framerusercontent.com/images/khh6K7txruh4E0VWoAflycproI.jpg?scale-down-to=2048 2048w,https://framerusercontent.com/images/khh6K7txruh4E0VWoAflycproI.jpg 2560w",
+          "alt": "Luxe realty",
+          "width": "2560",
+          "height": "1707",
+          "path": [
+            "Tablet"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/khh6K7txruh4E0VWoAflycproI.jpg",
+          "srcset": "https://framerusercontent.com/images/khh6K7txruh4E0VWoAflycproI.jpg?scale-down-to=512 512w,https://framerusercontent.com/images/khh6K7txruh4E0VWoAflycproI.jpg?scale-down-to=1024 1024w,https://framerusercontent.com/images/khh6K7txruh4E0VWoAflycproI.jpg?scale-down-to=2048 2048w,https://framerusercontent.com/images/khh6K7txruh4E0VWoAflycproI.jpg 2560w",
+          "alt": "Luxe realty",
+          "width": "2560",
+          "height": "1707",
+          "path": [
+            "Phone"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/js/gsap.min.js",
+      "kind": "caption-runtime",
+      "sourceUrl": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    {
+      "file": "screenshots/live-home.jpg",
+      "kind": "browser-capture",
+      "sourceUrl": "https://luxerealty.framer.website/",
+      "bytes": 149746,
+      "sha256": "08cc6ef62fc10af8ea0b2f90235bcdfdaa7c4a146a8dde425c64838a69c2fa53",
+      "label": "home",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "observationFile": "BROWSER-OBSERVATIONS.json"
+    },
+    {
+      "file": "screenshots/live-filters.jpg",
+      "kind": "browser-capture",
+      "sourceUrl": "https://luxerealty.framer.website/properties/listing",
+      "bytes": 175186,
+      "sha256": "b0d79afcefec2da11d5398a0252d310c88e3d615d55ccb99acd7385ec8bae5c2",
+      "label": "filters",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      },
+      "scroll": {
+        "x": 0,
+        "y": 692
+      },
+      "observationFile": "BROWSER-OBSERVATIONS.json"
+    },
+    {
+      "file": "screenshots/live-listing-section.jpg",
+      "kind": "browser-capture",
+      "sourceUrl": "https://luxerealty.framer.website/properties/listing",
+      "bytes": 27817,
+      "sha256": "aedfecfadd56c095cc1915392389f69e76931eb402547fff56018edc2230473f",
+      "label": "listing-section",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1363,
+        "height": 936
+      },
+      "scroll": {
+        "x": 0,
+        "y": 692
+      },
+      "observationFile": "BROWSER-OBSERVATIONS.json"
+    },
+    {
+      "file": "screenshots/live-secondary.jpg",
+      "kind": "browser-capture",
+      "sourceUrl": "https://luxerealty.framer.website/properties/listing",
+      "bytes": 167614,
+      "sha256": "fcbe15ed594993eaccf556c32c262ad7202ce249af881c0c10ce547477f6b37f",
+      "label": "secondary",
+      "viewport": {
+        "devicePixelRatio": 1,
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      },
+      "scroll": {
+        "x": 0,
+        "y": 0
+      },
+      "observationFile": "BROWSER-OBSERVATIONS.json"
+    }
+  ],
+  "downloadFailures": [],
+  "imageExports": "Maximum2000px; original URLs retained.",
+  "fontScope": "Latin subsets where declared; font weights preserved.",
+  "unbundledMedia": []
+}

@@ -1,0 +1,4047 @@
+{
+  "url": "https://luxerealty.framer.website/properties/listing",
+  "coverage": "Public HTML and embedded CSS only; no rendered layout or control execution",
+  "status": "fetched",
+  "title": "LuxeRealty - Framer luxury website template",
+  "namedComponentOrder": [
+    "Property cover",
+    "Heading, Description",
+    "divider",
+    "Property Collection",
+    "Heading, Projects",
+    "Tag, Heading, Description",
+    "Divider",
+    "Filters",
+    "Lifestyle_Checkbox",
+    "Location_Checkbox",
+    "Property Card",
+    "Desktop",
+    "Ocean Front",
+    "Default State",
+    "Property Title",
+    "Price",
+    "Bedroom Count",
+    "Bathroom Count",
+    "Tablet/Phone",
+    "Filter Button",
+    "Featured Property",
+    "The Celestial Ranch",
+    "Tag, Title",
+    "Button - Light",
+    "Container",
+    "The Summit Residence",
+    "Frame",
+    "Tag, Heading, Description, Form",
+    "Email",
+    "Button",
+    "Form Button",
+    "Phone",
+    "Tablet",
+    "Logo",
+    "Links",
+    "Properties",
+    "Primary button",
+    "Link Wrap",
+    "Label",
+    "Text",
+    "about",
+    "agents",
+    "blogs",
+    "Search & Cart",
+    "Liked Property",
+    "Burger",
+    "Tag, Heading, Details",
+    "Form",
+    "Contact us form",
+    "First Name",
+    "Last Name",
+    "Text Stack",
+    "Line",
+    "Content",
+    "Links & Copyright",
+    "Heading, Links",
+    "Home",
+    "Footer link",
+    "Label Wrap",
+    "Line Wrap",
+    "Line 1",
+    "Line 2",
+    "Copyright",
+    "Wrapper",
+    "Dot",
+    "Mobile",
+    "Variant 1",
+    "Light",
+    "Backdrop",
+    "Bottom",
+    "Border"
+  ],
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "properties",
+      "path": [
+        "Property cover",
+        "Heading, Description"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "center",
+        "--framer-text-color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "discover properties",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Tag, Heading, Description"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "center",
+        "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39))"
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "Filters",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Filters"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "La Mer Oceanfront Estate",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "La Mer Oceanfront Estate",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "The Dynasty Manor",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "The Dynasty Manor",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Orion Bayfront Mansion",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Orion Bayfront Mansion",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "The Summit Residence",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "The Summit Residence",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "The Celeste Manor",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "The Celeste Manor",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Valencia One",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Valencia One",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "The Grand Vivre",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "The Grand Vivre",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "The Elysian Chateau",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "The Elysian Chateau",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "The Celestial Ranch",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "The Celestial Ranch",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Valhalla Ridge Mountain Estate",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h3",
+      "text": "Valhalla Ridge Mountain Estate",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Property Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--extracted-a0htzi, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "The Celestial Ranch",
+      "path": [
+        "Featured Property",
+        "The Celestial Ranch",
+        "Tag, Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39))"
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "The Summit Residence",
+      "path": [
+        "Featured Property",
+        "The Summit Residence",
+        "Tag, Title"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39))"
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "Join the Elite",
+      "path": [
+        "Desktop",
+        "Tag, Heading, Description, Form"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "left",
+        "--framer-text-color": "var(--extracted-1of0zx5, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "Join the Elite",
+      "path": [
+        "Phone",
+        "Tag, Heading, Description, Form"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "center",
+        "--framer-text-color": "var(--extracted-1of0zx5, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "Join the Elite",
+      "path": [
+        "Tablet",
+        "Tag, Heading, Description, Form"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "left",
+        "--framer-text-color": "var(--extracted-1of0zx5, var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50, rgb(35, 35, 39)))"
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "get in touch",
+      "path": [
+        "Desktop",
+        "Tag, Heading, Details"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "center",
+        "--framer-text-color": "var(--extracted-1of0zx5, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))"
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "get in touch",
+      "path": [
+        "Phone",
+        "Tag, Heading, Details"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "center",
+        "--framer-text-color": "var(--extracted-1of0zx5, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))"
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "get in touch",
+      "path": [
+        "Tablet",
+        "Tag, Heading, Details"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "center",
+        "--framer-text-color": "var(--extracted-1of0zx5, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))"
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "LUXEREALTY",
+      "path": [
+        "Desktop",
+        "Container",
+        "Text Stack"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "center",
+        "--framer-text-color": "var(--extracted-1of0zx5, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))"
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "LUXEREALTY",
+      "path": [
+        "Mobile",
+        "Container",
+        "Text Stack"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "center",
+        "--framer-text-color": "var(--extracted-1of0zx5, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))"
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "LUXEREALTY",
+      "path": [
+        "Tablet",
+        "Container",
+        "Text Stack"
+      ],
+      "inlineDeclarations": {
+        "--framer-text-alignment": "center",
+        "--framer-text-color": "var(--extracted-1of0zx5, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))"
+      }
+    }
+  ],
+  "controls": [
+    {
+      "tag": "input",
+      "attributes": {
+        "class": "framer-form-boolean-input framer-1xcwehc",
+        "type": "checkbox",
+        "name": "Nwwg3hniH"
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "class": "framer-form-boolean-input framer-1xcwehc",
+        "type": "checkbox",
+        "name": "Nwwg3hniH"
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "class": "framer-form-boolean-input framer-1xcwehc",
+        "type": "checkbox",
+        "name": "Nwwg3hniH"
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "class": "framer-form-boolean-input framer-1xcwehc",
+        "type": "checkbox",
+        "name": "Nwwg3hniH"
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "class": "framer-form-boolean-input framer-1xcwehc",
+        "type": "checkbox",
+        "name": "Nwwg3hniH"
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "class": "framer-form-boolean-input framer-1xcwehc",
+        "type": "checkbox",
+        "name": "Nwwg3hniH"
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "class": "framer-form-boolean-input framer-1xcwehc",
+        "type": "checkbox",
+        "name": "Nwwg3hniH"
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "class": "framer-form-boolean-input framer-qbp26f",
+        "type": "checkbox",
+        "name": "rwMxoJXex"
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "class": "framer-form-boolean-input framer-qbp26f",
+        "type": "checkbox",
+        "name": "rwMxoJXex"
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "class": "framer-form-boolean-input framer-qbp26f",
+        "type": "checkbox",
+        "name": "rwMxoJXex"
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "class": "framer-form-boolean-input framer-qbp26f",
+        "type": "checkbox",
+        "name": "rwMxoJXex"
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "class": "framer-form-boolean-input framer-qbp26f",
+        "type": "checkbox",
+        "name": "rwMxoJXex"
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "class": "framer-form-boolean-input framer-qbp26f",
+        "type": "checkbox",
+        "name": "rwMxoJXex"
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "class": "framer-form-boolean-input framer-qbp26f",
+        "type": "checkbox",
+        "name": "rwMxoJXex"
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "class": "framer-form-boolean-input framer-qbp26f",
+        "type": "checkbox",
+        "name": "rwMxoJXex"
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "class": "framer-form-boolean-input framer-qbp26f",
+        "type": "checkbox",
+        "name": "rwMxoJXex"
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "class": "framer-form-boolean-input framer-qbp26f",
+        "type": "checkbox",
+        "name": "rwMxoJXex"
+      },
+      "text": ""
+    },
+    {
+      "tag": "button",
+      "attributes": {
+        "class": "framer-opv5y hidden-1krcm7h",
+        "data-framer-name": "Filter Button",
+        "data-reset": "button",
+        "id": "opv5y",
+        "tabindex": "0"
+      },
+      "text": "Filter properties"
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "email",
+        "name": "First name",
+        "placeholder": "Enter your mail ID",
+        "class": "framer-form-input framer-form-input-empty",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "button",
+      "attributes": {
+        "name": "Button",
+        "type": "submit",
+        "class": "framer-wpnqx framer-v51098 framer-v-v51098",
+        "data-framer-name": "Form Button",
+        "data-reset": "button",
+        "style": "background-color:var(--token-605e6fbd-e1ee-488f-b936-6981354aa564, rgb(57, 0, 173));height:100%;width:100%;border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-top-left-radius:8px;border-top-right-radius:8px;opacity:1"
+      },
+      "text": "send"
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "website",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "company",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "message",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "subject",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "title",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "description",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "feedback",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "notes",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "details",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "remarks",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "comments",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "email",
+        "name": "First name",
+        "placeholder": "Enter your mail ID",
+        "class": "framer-form-input framer-form-input-empty",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "button",
+      "attributes": {
+        "name": "Button",
+        "type": "submit",
+        "class": "framer-wpnqx framer-v51098 framer-v-v51098",
+        "data-framer-name": "Form Button",
+        "data-reset": "button",
+        "style": "background-color:var(--token-605e6fbd-e1ee-488f-b936-6981354aa564, rgb(57, 0, 173));height:100%;width:100%;border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-top-left-radius:8px;border-top-right-radius:8px;opacity:1"
+      },
+      "text": "send"
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "website",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "company",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "message",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "subject",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "title",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "description",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "feedback",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "notes",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "details",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "remarks",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "comments",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "email",
+        "name": "First name",
+        "placeholder": "Enter your mail ID",
+        "class": "framer-form-input framer-form-input-empty",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "button",
+      "attributes": {
+        "name": "Button",
+        "type": "submit",
+        "class": "framer-wpnqx framer-v51098 framer-v-v51098",
+        "data-framer-name": "Form Button",
+        "data-reset": "button",
+        "style": "background-color:var(--token-605e6fbd-e1ee-488f-b936-6981354aa564, rgb(57, 0, 173));height:100%;width:100%;border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-top-left-radius:8px;border-top-right-radius:8px;opacity:1"
+      },
+      "text": "send"
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "website",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "company",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "message",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "subject",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "title",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "description",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "feedback",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "notes",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "details",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "remarks",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "comments",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "button",
+      "attributes": {
+        "aria-label": "Search Icon",
+        "style": "width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:none;cursor:inherit;color:inherit;border:none;border-radius:10px;padding:0"
+      },
+      "text": ""
+    },
+    {
+      "tag": "button",
+      "attributes": {
+        "aria-label": "Search Icon",
+        "style": "width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:none;cursor:inherit;color:inherit;border:none;border-radius:10px;padding:0"
+      },
+      "text": ""
+    },
+    {
+      "tag": "button",
+      "attributes": {
+        "aria-label": "Search Icon",
+        "style": "width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:none;cursor:inherit;color:inherit;border:none;border-radius:10px;padding:0"
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "First name",
+        "placeholder": "Jane",
+        "class": "framer-form-input framer-form-input-empty",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "Last name",
+        "placeholder": "Smith",
+        "class": "framer-form-input framer-form-input-empty",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "email",
+        "name": "Email",
+        "placeholder": "jane@framer.com",
+        "class": "framer-form-input framer-form-input-empty",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "tel",
+        "name": "Phone number",
+        "placeholder": "(347)-000-0000",
+        "class": "framer-form-input framer-form-input-empty",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "button",
+      "attributes": {
+        "class": "framer-BWeN8 framer-ivd615 framer-v-ivd615",
+        "data-framer-name": "Form Button",
+        "data-reset": "button",
+        "style": "background-color:var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255));height:100%;width:100%;border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-top-left-radius:8px;border-top-right-radius:8px;opacity:1"
+      },
+      "text": "Submit"
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "website",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "company",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "message",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "subject",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "title",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "description",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "feedback",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "notes",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "details",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "remarks",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "comments",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "First name",
+        "placeholder": "Jane",
+        "class": "framer-form-input framer-form-input-empty",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "Last name",
+        "placeholder": "Smith",
+        "class": "framer-form-input framer-form-input-empty",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "email",
+        "name": "Email",
+        "placeholder": "jane@framer.com",
+        "class": "framer-form-input framer-form-input-empty",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "tel",
+        "name": "Phone number",
+        "placeholder": "(347)-000-0000",
+        "class": "framer-form-input framer-form-input-empty",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "button",
+      "attributes": {
+        "class": "framer-BWeN8 framer-ivd615 framer-v-ivd615",
+        "data-framer-name": "Form Button",
+        "data-reset": "button",
+        "style": "background-color:var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255));height:100%;width:100%;border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-top-left-radius:8px;border-top-right-radius:8px;opacity:1"
+      },
+      "text": "Submit"
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "website",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "company",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "message",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "subject",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "title",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "description",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "feedback",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "notes",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "details",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "remarks",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "comments",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "First name",
+        "placeholder": "Jane",
+        "class": "framer-form-input framer-form-input-empty",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "Last name",
+        "placeholder": "Smith",
+        "class": "framer-form-input framer-form-input-empty",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "email",
+        "name": "Email",
+        "placeholder": "jane@framer.com",
+        "class": "framer-form-input framer-form-input-empty",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "tel",
+        "name": "Phone number",
+        "placeholder": "(347)-000-0000",
+        "class": "framer-form-input framer-form-input-empty",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "button",
+      "attributes": {
+        "class": "framer-BWeN8 framer-ivd615 framer-v-ivd615",
+        "data-framer-name": "Form Button",
+        "data-reset": "button",
+        "style": "background-color:var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255));height:100%;width:100%;border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-top-left-radius:8px;border-top-right-radius:8px;opacity:1"
+      },
+      "text": "Submit"
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "website",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "company",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "message",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "subject",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "title",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "description",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "feedback",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "notes",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "details",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "remarks",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    },
+    {
+      "tag": "input",
+      "attributes": {
+        "type": "text",
+        "name": "comments",
+        "tabindex": "-1",
+        "autocomplete": "one-time-code",
+        "aria-hidden": "true",
+        "style": "position:absolute;transform:scale(0)",
+        "data-1p-ignore": "true",
+        "data-lpignore": "true",
+        "data-form-type": "other",
+        "data-bwignore": "true",
+        "value": ""
+      },
+      "text": ""
+    }
+  ],
+  "routes": [
+    "https://luxerealty.framer.website/properties/la-mer-oceanfront-estate",
+    "https://luxerealty.framer.website/properties/the-dynasty-manor",
+    "https://luxerealty.framer.website/properties/orion-bayfront-mansion",
+    "https://luxerealty.framer.website/properties/the-summit-residence",
+    "https://luxerealty.framer.website/properties/the-celeste-manor",
+    "https://luxerealty.framer.website/properties/valencia-one",
+    "https://luxerealty.framer.website/properties/the-grand-vivre",
+    "https://luxerealty.framer.website/properties/the-elysian-chateau",
+    "https://luxerealty.framer.website/properties/the-celestial-ranch",
+    "https://luxerealty.framer.website/properties/valhalla-ridge-mountain-estate",
+    "https://luxerealty.framer.website/",
+    "https://luxerealty.framer.website/properties/listing",
+    "https://luxerealty.framer.website/about",
+    "https://luxerealty.framer.website/agents",
+    "https://luxerealty.framer.website/blogs",
+    "https://luxerealty.framer.website/liked-properties",
+    "https://luxerealty.framer.website/agents/sarah-martinez",
+    "https://luxerealty.framer.website/agents/olivia-taylor",
+    "https://luxerealty.framer.website/agents/kevin-harris",
+    "https://luxerealty.framer.website/agents/emily-carter",
+    "https://luxerealty.framer.website/agents/ava-kingsley",
+    "https://www.instagram.com/framer/",
+    "https://x.com/framer",
+    "https://ftcstudio.co/",
+    "https://buy.polar.sh/polar_cl_jZjLA45dJqE0P7SIjy0gD3JOz75Dvxe1YIUpx4Ylei2",
+    "https://www.framer.com"
+  ],
+  "fontFamilies": [
+    "\"BT Suave Regular Placeholder\"",
+    "\"BT Suave Regular\"",
+    "\"Inter Placeholder\"",
+    "\"Inter\"",
+    "\"Manrope Placeholder\"",
+    "\"Manrope\"",
+    "\"Mattone\"",
+    "\"Outfit Placeholder\"",
+    "\"Riviera Nights Trial Bold Placeholder\"",
+    "\"Riviera Nights Trial Bold\"",
+    "\"Riviera Nights Trial Medium Placeholder\"",
+    "\"Riviera Nights Trial Medium\"",
+    "\"Riviera Nights Trial Medium\", \"Riviera Nights Trial Medium Placeholder\", sans-serif",
+    "\"Riviera Nights Trial Regular Placeholder\"",
+    "\"Riviera Nights Trial Regular\"",
+    "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+    "\"Satoshi Placeholder\"",
+    "\"Satoshi\"",
+    "'Outfit'",
+    "Inter, Inter Placeholder, sans-serif",
+    "sans-serif",
+    "var(--font-family)",
+    "var(--framer-blockquote-font-family-bold,var(--framer-font-family-bold))",
+    "var(--framer-blockquote-font-family-bold-italic,var(--framer-font-family-bold-italic))",
+    "var(--framer-blockquote-font-family-italic,var(--framer-font-family-italic))",
+    "var(--framer-code-font-family,var(--framer-font-family,Inter, Inter Placeholder, sans-serif))",
+    "var(--framer-font-family)",
+    "var(--framer-font-family,Inter, Inter Placeholder, sans-serif)",
+    "var(--framer-font-family-preview,var(--framer-blockquote-font-family,var(--framer-font-family,Inter, Inter Placeholder, sans-serif)))",
+    "var(--framer-font-family-preview,var(--framer-link-current-font-family,var(--framer-link-font-family,var(--framer-font-family,Inter, Inter Placeholder, sans-serif))))",
+    "var(--framer-font-family-preview,var(--framer-link-font-family,var(--framer-blockquote-font-family,var(--framer-font-family,Inter, Inter Placeholder, sans-serif))))",
+    "var(--framer-font-family-preview,var(--framer-link-hover-font-family,var(--framer-link-current-font-family,var(--framer-link-font-family,var(--framer-font-family,Inter, Inter Placeholder, sans-serif)))))",
+    "var(--framer-font-family-preview,var(--framer-link-hover-font-family,var(--framer-link-font-family,var(--framer-blockquote-font-family,var(--framer-font-family,Inter, Inter Placeholder, sans-serif)))))",
+    "var(--framer-input-font-family)",
+    "var(--framer-link-current-font-family,var(--framer-link-font-family,var(--framer-font-family)))",
+    "var(--framer-link-current-font-family,var(--framer-link-font-family,var(--framer-font-family,Inter, Inter Placeholder, sans-serif)))",
+    "var(--framer-link-font-family,var(--framer-font-family))",
+    "var(--framer-link-font-family,var(--framer-font-family,Inter, Inter Placeholder, sans-serif))",
+    "var(--framer-link-hover-font-family,var(--framer-link-current-font-family,var(--framer-link-font-family,var(--framer-font-family,Inter, Inter Placeholder, sans-serif))))",
+    "var(--framer-link-hover-font-family,var(--framer-link-font-family,var(--framer-font-family)))",
+    "var(--framer-link-hover-font-family,var(--framer-link-font-family,var(--framer-font-family,Inter, Inter Placeholder, sans-serif)))"
+  ],
+  "mediaQueries": [
+    "@media(min-width: 1440px)",
+    "@media(min-width: 810px) and (max-width: 1439.98px)",
+    "@media(max-width: 809.98px)",
+    "@media(min-width: 1200px) and (max-width: 1439.98px)",
+    "@media(min-width: 810px) and (max-width: 1199.98px)",
+    "@media (max-width:809.98px)",
+    "@media (min-width:810px) and (max-width:1199.98px)",
+    "@media (max-width:1199px) and (min-width:0)",
+    "@media (max-width:1199px) and (min-width:810px)",
+    "@media (max-width:809px) and (min-width:0)",
+    "@media (min-width:810px) and (max-width:1439.98px)"
+  ],
+  "nativeTypeDeclarations": [
+    {
+      "tag": "p",
+      "sample": "Oceanfront",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Malibu, CA",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Oceanfront",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Malibu, CA",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Waterfront",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "The Hamptons, NY",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Waterfront",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "The Hamptons, NY",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Mountain View",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Beverly Hills, CA",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Mountain View",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Beverly Hills, CA",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Waterfront",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Manhattan, NY",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Waterfront",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Manhattan, NY",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "New Construction",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Palm Beach, FL",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "New Construction",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Palm Beach, FL",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Beachfront",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Los Angeles, CA",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Beachfront",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Los Angeles, CA",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Contemporary",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Newport Beach, CA",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Contemporary",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Newport Beach, CA",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Oceanfront",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Beverly Hills, CA",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Oceanfront",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Beverly Hills, CA",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Mountain View",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Palm Beach, FL",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Mountain View",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Palm Beach, FL",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "City View",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Lake Tahoe, CA",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Desktop"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "City View",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Lake Tahoe, CA",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone",
+        "Ocean Front"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "12px",
+        "--framer-line-height": "1.5em",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "\u30fb",
+      "path": [
+        "Property Collection",
+        "Heading, Projects",
+        "Property Collection",
+        "Property Card",
+        "Tablet/Phone"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIFJlZ3VsYXI=",
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-size": "18px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-bf5f2845-3b1e-405c-a40a-722a004bcfad, rgb(94, 94, 94)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "send",
+      "path": [
+        "Desktop",
+        "Tag, Heading, Description, Form",
+        "Button",
+        "Form Button"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIE1lZGl1bQ==",
+        "--framer-font-family": "\"Riviera Nights Trial Medium\", \"Riviera Nights Trial Medium Placeholder\", sans-serif",
+        "--framer-font-size": "14px",
+        "--framer-letter-spacing": "-0.02em",
+        "--framer-line-height": "1.3em",
+        "--framer-text-alignment": "left",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "send",
+      "path": [
+        "Phone",
+        "Tag, Heading, Description, Form",
+        "Button",
+        "Form Button"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIE1lZGl1bQ==",
+        "--framer-font-family": "\"Riviera Nights Trial Medium\", \"Riviera Nights Trial Medium Placeholder\", sans-serif",
+        "--framer-font-size": "14px",
+        "--framer-letter-spacing": "-0.02em",
+        "--framer-line-height": "1.3em",
+        "--framer-text-alignment": "left",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "send",
+      "path": [
+        "Tablet",
+        "Tag, Heading, Description, Form",
+        "Button",
+        "Form Button"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIE1lZGl1bQ==",
+        "--framer-font-family": "\"Riviera Nights Trial Medium\", \"Riviera Nights Trial Medium Placeholder\", sans-serif",
+        "--framer-font-size": "14px",
+        "--framer-letter-spacing": "-0.02em",
+        "--framer-line-height": "1.3em",
+        "--framer-text-alignment": "left",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "LUXEREALTY",
+      "path": [
+        "Desktop",
+        "Container",
+        "Logo"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO0JUIFN1YXZlIFJlZ3VsYXI=",
+        "--framer-font-family": "\"BT Suave Regular\", \"BT Suave Regular Placeholder\", sans-serif",
+        "--framer-font-size": "24px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "LUXEREALTY",
+      "path": [
+        "Phone",
+        "Container",
+        "Logo"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO0JUIFN1YXZlIFJlZ3VsYXI=",
+        "--framer-font-family": "\"BT Suave Regular\", \"BT Suave Regular Placeholder\", sans-serif",
+        "--framer-font-size": "24px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "LUXEREALTY",
+      "path": [
+        "Tablet",
+        "Container",
+        "Logo"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO0JUIFN1YXZlIFJlZ3VsYXI=",
+        "--framer-font-family": "\"BT Suave Regular\", \"BT Suave Regular Placeholder\", sans-serif",
+        "--framer-font-size": "24px",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0760290c-0963-4afd-8b72-f7c94940d48f, rgb(255, 255, 255)))"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Submit",
+      "path": [
+        "Desktop",
+        "Form",
+        "Contact us form",
+        "Form Button"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIE1lZGl1bQ==",
+        "--framer-font-family": "\"Riviera Nights Trial Medium\", \"Riviera Nights Trial Medium Placeholder\", sans-serif",
+        "--framer-font-size": "14px",
+        "--framer-letter-spacing": "-0.02em",
+        "--framer-line-height": "1.3em",
+        "--framer-text-alignment": "left",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-605e6fbd-e1ee-488f-b936-6981354aa564, rgb(57, 0, 173)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Submit",
+      "path": [
+        "Phone",
+        "Form",
+        "Contact us form",
+        "Form Button"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIE1lZGl1bQ==",
+        "--framer-font-family": "\"Riviera Nights Trial Medium\", \"Riviera Nights Trial Medium Placeholder\", sans-serif",
+        "--framer-font-size": "14px",
+        "--framer-letter-spacing": "-0.02em",
+        "--framer-line-height": "1.3em",
+        "--framer-text-alignment": "left",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-605e6fbd-e1ee-488f-b936-6981354aa564, rgb(57, 0, 173)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Submit",
+      "path": [
+        "Tablet",
+        "Form",
+        "Contact us form",
+        "Form Button"
+      ],
+      "declarations": {
+        "--font-selector": "Q1VTVE9NO1JpdmllcmEgTmlnaHRzIFRyaWFsIE1lZGl1bQ==",
+        "--framer-font-family": "\"Riviera Nights Trial Medium\", \"Riviera Nights Trial Medium Placeholder\", sans-serif",
+        "--framer-font-size": "14px",
+        "--framer-letter-spacing": "-0.02em",
+        "--framer-line-height": "1.3em",
+        "--framer-text-alignment": "left",
+        "--framer-text-color": "var(--extracted-r6o4lv, var(--token-605e6fbd-e1ee-488f-b936-6981354aa564, rgb(57, 0, 173)))",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Get Template",
+      "path": [
+        "Variant 1",
+        "Label",
+        "Text"
+      ],
+      "declarations": {
+        "--font-selector": "RlM7TWFucm9wZS1zZW1pYm9sZA==",
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-size": "14px",
+        "--framer-font-weight": "600",
+        "--framer-letter-spacing": "-0.02em",
+        "--framer-line-height": "20px"
+      }
+    },
+    {
+      "tag": "p",
+      "sample": "Get Template",
+      "path": [
+        "Variant 1",
+        "Label",
+        "Text"
+      ],
+      "declarations": {
+        "--font-selector": "RlM7TWFucm9wZS1zZW1pYm9sZA==",
+        "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+        "--framer-font-size": "14px",
+        "--framer-font-weight": "600",
+        "--framer-letter-spacing": "-0.02em",
+        "--framer-line-height": "20px"
+      }
+    }
+  ],
+  "typographyBasis": "Inline native source declarations plus embedded CSS presets; no rendered measurements. See secondary-style-public.css for full presets.",
+  "categoryFit": "Lifestyle/location checkbox inventory browse route",
+  "verification": "Navigation, filter execution, saving, floor selection, enquiry, sales availability and backend delivery were not exercised.",
+  "typePresetRules": [
+    {
+      "selector": ".framer-FBs35 .framer-styles-preset-1xziuop:not(.rich-text-wrapper),.framer-FBs35 .framer-styles-preset-1xziuop.rich-text-wrapper h2",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "32px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1.1em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50,#232327)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-88oPV .framer-styles-preset-mu3w7g:not(.rich-text-wrapper),.framer-88oPV .framer-styles-preset-mu3w7g.rich-text-wrapper h5",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Riviera Nights Trial Medium\", \"Riviera Nights Trial Medium Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-letter-spacing": "-.1px",
+        "--framer-line-height": "1.3em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "center",
+        "--framer-text-color": "#000",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "capitalize"
+      }
+    },
+    {
+      "selector": ".framer-RAIiS .framer-styles-preset-80airc:not(.rich-text-wrapper),.framer-RAIiS .framer-styles-preset-80airc.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "140%",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "center",
+        "--framer-text-color": "#0000008a",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-RAIiS .framer-styles-preset-80airc:not(.rich-text-wrapper),.framer-RAIiS .framer-styles-preset-80airc.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "140%",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "center",
+        "--framer-text-color": "#0000008a",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".text-styles-preset-reset.framer-text",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      }
+    },
+    {
+      "selector": "[data-framer-component-type=DeprecatedRichText] .text-styles-preset-reset",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--font-variation-settings": "normal"
+      }
+    },
+    {
+      "selector": ".framer-FBs35 .framer-styles-preset-1xziuop:not(.rich-text-wrapper),.framer-FBs35 .framer-styles-preset-1xziuop.rich-text-wrapper h2",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "32px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1.1em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50,#232327)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-FBs35 .framer-styles-preset-1xziuop:not(.rich-text-wrapper),.framer-FBs35 .framer-styles-preset-1xziuop.rich-text-wrapper h2",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "32px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1.1em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50,#232327)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-FBs35 .framer-styles-preset-1xziuop:not(.rich-text-wrapper),.framer-FBs35 .framer-styles-preset-1xziuop.rich-text-wrapper h2",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "32px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1.1em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50,#232327)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-FBs35 .framer-styles-preset-1xziuop:not(.rich-text-wrapper),.framer-FBs35 .framer-styles-preset-1xziuop.rich-text-wrapper h2",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "32px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1.1em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50,#232327)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-JkzKQ .framer-styles-preset-w90vi0:not(.rich-text-wrapper),.framer-JkzKQ .framer-styles-preset-w90vi0.rich-text-wrapper h5",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.5px",
+        "--framer-line-height": "1.5em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "center",
+        "--framer-text-color": "#000",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-RAIiS .framer-styles-preset-80airc:not(.rich-text-wrapper),.framer-RAIiS .framer-styles-preset-80airc.rich-text-wrapper p",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "14px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "140%",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "center",
+        "--framer-text-color": "#0000008a",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-RAIiS .framer-styles-preset-80airc:not(.rich-text-wrapper),.framer-RAIiS .framer-styles-preset-80airc.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "140%",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "center",
+        "--framer-text-color": "#0000008a",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-RAIiS .framer-styles-preset-80airc:not(.rich-text-wrapper),.framer-RAIiS .framer-styles-preset-80airc.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "140%",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "center",
+        "--framer-text-color": "#0000008a",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-vu5Mr .framer-styles-preset-10jtb2l:not(.rich-text-wrapper),.framer-vu5Mr .framer-styles-preset-10jtb2l.rich-text-wrapper h3",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Riviera Nights Trial Medium\", \"Riviera Nights Trial Medium Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Riviera Nights Trial Bold\", \"Riviera Nights Trial Bold Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "18px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "140%",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50,#232327)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "capitalize"
+      }
+    },
+    {
+      "selector": ".framer-vu5Mr .framer-styles-preset-10jtb2l:not(.rich-text-wrapper),.framer-vu5Mr .framer-styles-preset-10jtb2l.rich-text-wrapper h3",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Riviera Nights Trial Medium\", \"Riviera Nights Trial Medium Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Riviera Nights Trial Bold\", \"Riviera Nights Trial Bold Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "140%",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50,#232327)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "capitalize"
+      }
+    },
+    {
+      "selector": ".framer-vu5Mr .framer-styles-preset-10jtb2l:not(.rich-text-wrapper),.framer-vu5Mr .framer-styles-preset-10jtb2l.rich-text-wrapper h3",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Riviera Nights Trial Medium\", \"Riviera Nights Trial Medium Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Riviera Nights Trial Bold\", \"Riviera Nights Trial Bold Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "500",
+        "--framer-font-weight-bold": "700",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "140%",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50,#232327)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "capitalize"
+      }
+    },
+    {
+      "selector": ".framer-CQgxz .framer-styles-preset-1lng5g0:not(.rich-text-wrapper),.framer-CQgxz .framer-styles-preset-1lng5g0.rich-text-wrapper p",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+        "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+        "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-style-bold-italic": "italic",
+        "--framer-font-style-italic": "italic",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-font-weight-bold": "700",
+        "--framer-font-weight-bold-italic": "700",
+        "--framer-font-weight-italic": "400",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "1.5em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "left",
+        "--framer-text-color": "#0000008a",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none",
+        "--framer-text-wrap": "balance"
+      }
+    },
+    {
+      "selector": ".framer-7mQV7 .framer-styles-preset-pz4xdv:not(.rich-text-wrapper),.framer-7mQV7 .framer-styles-preset-pz4xdv.rich-text-wrapper p",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "14px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "150%",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-2669bf0f-ec63-4c3d-854e-9e0e65e31b50,#232327)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-laF3m .framer-styles-preset-1plq5h4:not(.rich-text-wrapper),.framer-laF3m .framer-styles-preset-1plq5h4.rich-text-wrapper p",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Riviera Nights Trial Regular\", \"Riviera Nights Trial Regular Placeholder\", sans-serif",
+        "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+        "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+        "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "normal",
+        "--framer-font-size": "12px",
+        "--framer-font-style": "normal",
+        "--framer-font-style-bold": "normal",
+        "--framer-font-style-bold-italic": "italic",
+        "--framer-font-style-italic": "italic",
+        "--framer-font-variation-axes": "normal",
+        "--framer-font-weight": "400",
+        "--framer-font-weight-bold": "700",
+        "--framer-font-weight-bold-italic": "700",
+        "--framer-font-weight-italic": "400",
+        "--framer-letter-spacing": "0em",
+        "--framer-line-height": "150%",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "#000c",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    }
+  ],
+  "allParsedMediaBoundaryValuesPx": [
+    809.0,
+    809.98,
+    810.0,
+    1199.0,
+    1199.98,
+    1200.0,
+    1439.98,
+    1440.0
+  ]
+}

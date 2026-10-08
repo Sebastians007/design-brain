@@ -1,0 +1,809 @@
+{
+  "name": "Aurelia Hotel",
+  "source": "https://aurelia-template.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#f8f5f0",
+    "paper": "#eee7dd",
+    "ink": "#1e2a24",
+    "accent": "#b99a6b",
+    "muted": "#5a5a5a"
+  },
+  "type": {
+    "body": "Manrope",
+    "display": "Cormorant Garamond",
+    "roles": [
+      {
+        "role": "Location / navigation secondary",
+        "family": "Manrope",
+        "weight": 600,
+        "sizePx": 13.0,
+        "linePx": 19.5,
+        "tracking": "0.15em"
+      },
+      {
+        "role": "Navigation primary",
+        "family": "Manrope",
+        "weight": 600,
+        "sizePx": 12.0,
+        "linePx": 18.0,
+        "tracking": ".15em"
+      },
+      {
+        "role": "Hero eyebrow",
+        "family": "Inter",
+        "weight": 800,
+        "sizePx": 12.0,
+        "linePx": 19.2,
+        "tracking": ".19em"
+      },
+      {
+        "role": "Hero h1 / desktop preset",
+        "family": "Cormorant Garamond",
+        "weight": 500,
+        "sizePx": 80.0,
+        "linePx": 88.0,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Body copy",
+        "family": "Manrope",
+        "weight": 500,
+        "sizePx": 16.0,
+        "linePx": 25.6,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Ghost action",
+        "family": "Manrope",
+        "weight": 600,
+        "sizePx": 13.0,
+        "linePx": 20.8,
+        "tracking": "0.133em"
+      },
+      {
+        "role": "Booking field label",
+        "family": "Manrope",
+        "weight": 500,
+        "sizePx": 11.0,
+        "linePx": 17.6,
+        "tracking": ".2em"
+      },
+      {
+        "role": "CMS room option text",
+        "family": "Manrope",
+        "weight": 500,
+        "sizePx": 12.0,
+        "linePx": 14.4,
+        "tracking": "0"
+      },
+      {
+        "role": "Section h2 / desktop preset",
+        "family": "Cormorant Garamond",
+        "weight": 600,
+        "sizePx": 64.0,
+        "linePx": 64.0,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Guest role",
+        "family": "Inter",
+        "weight": 800,
+        "sizePx": 10.0,
+        "linePx": 16.0,
+        "tracking": ".19em"
+      },
+      {
+        "role": "CTA h4",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "sizePx": 36.0,
+        "linePx": 39.6,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Room card h5",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "sizePx": 28.0,
+        "linePx": 30.8,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Room metadata",
+        "family": "Manrope",
+        "weight": 500,
+        "sizePx": 14.0,
+        "linePx": 22.4,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "Review / desktop declaration",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "sizePx": 40.0,
+        "linePx": 56.0,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Review / mobile declaration",
+        "family": "Cormorant Garamond",
+        "weight": 700,
+        "sizePx": 24.0,
+        "linePx": 33.6,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "FAQ question",
+        "family": "Manrope",
+        "weight": 700,
+        "sizePx": 16.0,
+        "linePx": 25.6,
+        "tracking": "-0.02em"
+      }
+    ],
+    "rolesEvidence": "Public preview HTML/CSS presets and inline overrides in aurelia-hotel-evidence-root; representative role paths and exact custom-property values recorded below. linePx converts declared em/percentage values using declared size. Source font-face weight/style details and all presets remain in source-facts.json. Cormorant Garamond 80px h1 and 64px h2 base presets confirmed; role axes declare normal, not a custom axis tuple.",
+    "sourceRoleDetails": [
+      {
+        "role": "Location / navigation secondary",
+        "tag": "p",
+        "path": [
+          "Desktop Transparent",
+          "Container",
+          "Menu",
+          "Menu Secondary",
+          "Links",
+          "Variant 1"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "600",
+          "--framer-text-color": "var(--extracted-r6o4lv, rgb(255, 255, 255))",
+          "--framer-font-size": "13px",
+          "--framer-letter-spacing": "0.15em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.5em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Navigation primary",
+        "tag": "p",
+        "path": [
+          "Desktop Transparent",
+          "Container",
+          "Menu",
+          "Menu Primary",
+          "Links",
+          "Link",
+          "Default"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Manrope\",\"Manrope Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Manrope\",\"Manrope Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "12px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "600",
+          "--framer-font-weight-bold": "700",
+          "--framer-letter-spacing": ".15em",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-c31fef34-4704-4484-b5a7-5bf7c7cf41c6,#fff)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Hero eyebrow",
+        "tag": "p",
+        "path": [
+          "Hero",
+          "Content",
+          "Subtitle"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Inter\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\",sans-serif",
+          "--framer-font-family-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "12px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "800",
+          "--framer-font-weight-bold": "900",
+          "--framer-font-weight-bold-italic": "900",
+          "--framer-font-weight-italic": "800",
+          "--framer-letter-spacing": ".19em",
+          "--framer-line-height": "1.6em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "rgb(255, 255, 255)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Hero h1 / desktop preset",
+        "tag": "h1",
+        "path": [
+          "Hero",
+          "Content",
+          "Title"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Cormorant Garamond\",\"Cormorant Garamond Placeholder\",serif",
+          "--framer-font-family-bold": "\"Cormorant Garamond\",\"Cormorant Garamond Placeholder\",serif",
+          "--framer-font-family-bold-italic": "\"Cormorant Garamond\",\"Cormorant Garamond Placeholder\",serif",
+          "--framer-font-family-italic": "\"Cormorant Garamond\",\"Cormorant Garamond Placeholder\",serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "80px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "-.04em",
+          "--framer-line-height": "1.1em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "#fff",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Body copy",
+        "tag": "p",
+        "path": [
+          "Hero",
+          "Content",
+          "Text"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Manrope\",\"Manrope Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Manrope\",\"Manrope Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "500",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.6em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-c31fef34-4704-4484-b5a7-5bf7c7cf41c6, rgb(255, 255, 255))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Ghost action",
+        "tag": "p",
+        "path": [
+          "Hero",
+          "Content",
+          "Button",
+          "Button Ghost"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "600",
+          "--framer-text-color": "var(--extracted-r6o4lv, rgb(255, 255, 255))",
+          "--framer-font-size": "13px",
+          "--framer-letter-spacing": "0.133em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.6em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Booking field label",
+        "tag": "p",
+        "path": [
+          "Hero",
+          "Desktop"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Manrope\",\"Manrope Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Manrope\",\"Manrope Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "11px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-letter-spacing": ".2em",
+          "--framer-line-height": "1.6em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-bd58493a-683e-417b-bed8-05a0cb46a3a4,#b99a6b)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "CMS room option text",
+        "tag": "p",
+        "path": [
+          "Hero",
+          "Desktop",
+          "CMS Room Source",
+          "CMS Room Source Item",
+          "CMS Room Title"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, rgba(0, 0, 0, 0))",
+          "--framer-font-size": "12px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.2em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Section h2 / desktop preset",
+        "tag": "h2",
+        "path": [
+          "About",
+          "Container",
+          "Text"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Cormorant Garamond\",\"Cormorant Garamond Placeholder\",serif",
+          "--framer-font-family-bold": "\"Cormorant Garamond\",\"Cormorant Garamond Placeholder\",serif",
+          "--framer-font-family-bold-italic": "\"Cormorant Garamond\",\"Cormorant Garamond Placeholder\",serif",
+          "--framer-font-family-italic": "\"Cormorant Garamond\",\"Cormorant Garamond Placeholder\",serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "64px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "600",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "600",
+          "--framer-letter-spacing": "-.04em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "#222",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Guest role",
+        "tag": "p",
+        "path": [
+          "About",
+          "Container",
+          "Text"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Inter\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\",sans-serif",
+          "--framer-font-family-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "10px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "800",
+          "--framer-font-weight-bold": "900",
+          "--framer-font-weight-bold-italic": "900",
+          "--framer-font-weight-italic": "800",
+          "--framer-letter-spacing": ".19em",
+          "--framer-line-height": "1.6em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-c5acbe5b-2003-4428-9d86-1b0f6afbd53e,#6f7f73)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "inherit"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "CTA h4",
+        "tag": "h4",
+        "path": [
+          "CTA",
+          "Container"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Cormorant Garamond\",\"Cormorant Garamond Placeholder\",serif",
+          "--framer-font-family-italic": "\"Cormorant Garamond\",\"Cormorant Garamond Placeholder\",serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "36px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "700",
+          "--framer-font-weight-italic": "700",
+          "--framer-letter-spacing": "-.04em",
+          "--framer-line-height": "1.1em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-5cd6636d-713c-49f9-a7e9-15579582feb4, rgb(238, 231, 221))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(10px)",
+            "transform": "translateX(0px) translateY(10px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          }
+        ]
+      },
+      {
+        "role": "Room card h5",
+        "tag": "h5",
+        "path": [
+          "Rooms",
+          "Container",
+          "Vertical Full",
+          "Content",
+          "Title"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Cormorant Garamond\",\"Cormorant Garamond Placeholder\",serif",
+          "--framer-font-family-italic": "\"Cormorant Garamond\",\"Cormorant Garamond Placeholder\",serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "28px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "700",
+          "--framer-font-weight-italic": "700",
+          "--framer-letter-spacing": "-.04em",
+          "--framer-line-height": "1.1em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "#222",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Room metadata",
+        "tag": "p",
+        "path": [
+          "Rooms",
+          "Container",
+          "Vertical Full",
+          "Content",
+          "Meta",
+          "Size"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, rgb(90, 90, 90))",
+          "--framer-font-size": "14px",
+          "--framer-letter-spacing": "-0.02em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.6em",
+          "--framer-text-alignment": "left",
+          "--framer-font-open-type-features": "'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Review / desktop declaration",
+        "tag": "p",
+        "path": [
+          "Reviews",
+          "Review 1",
+          "Reviews",
+          "Review",
+          "Quote"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Cormorant Garamond\",\"Cormorant Garamond Placeholder\",serif",
+          "--framer-font-family-italic": "\"Cormorant Garamond\",\"Cormorant Garamond Placeholder\",serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "40px",
+          "--framer-font-style": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "700",
+          "--framer-font-weight-italic": "700",
+          "--framer-letter-spacing": "-.04em",
+          "--framer-line-height": "1.4em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "#fff",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Review / mobile declaration",
+        "tag": "p",
+        "path": [
+          "Reviews",
+          "Mobile 1",
+          "Reviews",
+          "Review",
+          "Quote"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Cormorant Garamond\",\"Cormorant Garamond Placeholder\",serif",
+          "--framer-font-family-italic": "\"Cormorant Garamond\",\"Cormorant Garamond Placeholder\",serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "24px",
+          "--framer-font-style": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "700",
+          "--framer-font-weight-italic": "700",
+          "--framer-letter-spacing": "-.04em",
+          "--framer-line-height": "1.4em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "#fff",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "FAQ question",
+        "tag": "p",
+        "path": [
+          "FAQ",
+          "Container",
+          "Question Closed",
+          "Question"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"Manrope\", \"Manrope Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "700",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--variable-reference-PVojMmHw3-ZNMkt7SgF))",
+          "--framer-font-size": "16px",
+          "--framer-letter-spacing": "-0.02em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.6em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": []
+      }
+    ],
+    "variationAxes": {
+      "basis": "CSS role declarations",
+      "declaredValues": [
+        "normal"
+      ],
+      "customNumericAxesObserved": false
+    },
+    "systemFontFamilies": []
+  },
+  "spacing": {
+    "desktopGutterPx": 24,
+    "componentGapPx": 24,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 12,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)",
+      "@media (max-width:1199px) and (min-width:80px)",
+      "@media (max-width:79px) and (min-width:0)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:809.98px)",
+      "@media (max-width:1199px) and (min-width:0)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      79.0,
+      80.0,
+      809.0,
+      809.98,
+      810.0,
+      1199.0,
+      1199.98,
+      1200.0
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Hospitality",
+    "branch": "Boutique hotel / resort",
+    "fitEvidence": "Official Marketplace identifies luxury hotels, boutique resorts and villas; public preview declares room detail routes and a booking request journey."
+  },
+  "sectionAnchors": [],
+  "sourceColorContext": "Source palette; the active theme is scoped to each native browser observation.",
+  "siteBlueprint": {
+    "file": "SITE-BLUEPRINT.md",
+    "backendVerified": false
+  }
+}

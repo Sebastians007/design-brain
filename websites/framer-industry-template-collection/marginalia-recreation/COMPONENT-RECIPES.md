@@ -1,0 +1,23 @@
+# Marginalia component recipes
+
+Evidence: Vexora Studio's official Marketplace listing, five downloaded official reference images, public home HTML/CSS and the public story source at `/stories/the-honest-screw`. Numbers are source declarations unless labelled optional. Artwork inspection establishes a print-like visual direction; no forms, payments, audio service or CMS editing backend was exercised.
+
+## 1. Ruled masthead and issue cover
+
+SOURCE DECLARED: the opening masthead has an issue strip, publication wordmark, mono navigation, search, Paper/Ink choices and subscription action. Fragment Mono navigation is 12px/1.3em with .08em tracking and uppercase transformation. The Literata Variable wordmark declares 34px/1em, CSS weight500 and an explicit axis fallback of `"opsz"72,"wght"300`; preserve the axis independently of CSS weight. Contents declares max-width1200px and padding48px40px96px, reducing to40px32px80px on tablet and28px20px64px on phone. The issue title Repair declares224px/.96em with -.045em tracking and axes72/300; the adjacent07 numeral declares200px/.85em and axes72/200. These are base CSS values, not fitted browser measurements. OPTIONAL: implement the title and number as independent text blocks so narrow layouts can reduce them without obscuring issue metadata.
+
+## 2. Issue contents and documentary cover
+
+SOURCE DECLARED: the issue introduction precedes linked contents entries and a cover photograph/caption. The introduction uses Literata Variable22px/1.38em with opsz24/wght350; story entries26px/1.2em with opsz24/wght500; image credit14px/1.45em with opsz10/wght400. The contents rows carry section labels, title, reading time and page-style reference. OPTIONAL: use one consistent row grid with a flexible title column and compact metadata columns. Keep full story titles available to screen readers when wrapping them. Retain a stable cover image aspect ratio and a separate caption; swap editorial photographs only with suitable rights and documented crop choices. Do not bake titles into imagery or reproduce the Marketplace's thick promotional presentation frame.
+
+## 3. Back-issue ring and archive index
+
+SOURCE DECLARED: Back Issues includes Ring Stage(motion), Ring Ticker and CMS issue covers. Every Cover and Archive Index later provide alternate issue access, with actual anchor `#t-archive` on the archive. The listing describes a3D ring and issue-colour hover response. Source inspection does not prove pointer/keyboard behavior. OPTIONAL: keep the ring an enhanced presentation of normal issue links. Duplicate visual covers should not create repeated tab stops; expose one labelled link per real issue. Provide a static grid when reduced motion is requested. Store issue number, title, seasonal label, accent colour and cover independently so an issue's identity remains consistent across hero, ring, archive and detail page.
+
+## 4. Story cards, ranked rows and long reading
+
+SOURCE DECLARED: the home has a full-image cover story at `#t-cover`, In This Issue cards at `#t-inissue` and a ranked most-read list at `#t-mostread`. Card deks declare17px/1.55em Literata Variable with opsz14/wght400; the prominent story title declares88px/1.06em with opsz72/wght300. The secondary story source includes its headline, editorial metadata, long body, margin/reading-related structures and follow-up publication navigation. OPTIONAL: model story title, dek, category, contributor, issue, reading time and cover separately. Align image/text rhythm while keeping chronological and most-read collections distinct. Reading-progress and contents indicators should report document position; they must not obscure body copy or require animation to expose paragraphs.
+
+## 5. Correspondence and publication services
+
+SOURCE DECLARED: Letter from the Editor, contributor portraits, interview, Reader Letters, Newsletter, Listen, Evenings and Membership Band appear after core story/issue sections. Interview text declares20px/1.62em with opsz14/wght400. Footer groups include Read, Join and Elsewhere. The first official image also shows membership comparison artwork, not a proven home pricing component. OPTIONAL: give newsletter forms idle, invalid, sending, success and retry states once an authorized provider is configured. Keep podcast episode and event cards as ordinary destinations until playback/RSVP services exist. Reader quotations, counts and membership claims are demonstration content until replaced with approved editorial data. Preserve paper/ink contrast and the square editorial character; avoid making every card a rounded product panel.
