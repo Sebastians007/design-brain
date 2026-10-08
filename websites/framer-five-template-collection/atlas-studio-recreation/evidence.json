@@ -1,0 +1,5375 @@
+{
+  "template": "Atlas Studio",
+  "preview": "https://atlas-studio.framer.website/",
+  "marketplace": "https://www.framer.com/marketplace/templates/atlas-studio/",
+  "creator": "Bryn Taylor",
+  "coverage": "Live desktop preview, rendered DOM/style measurements, source media URLs and viewport screenshots. Phone rendering unverified.",
+  "viewport": {
+    "dpr": 1,
+    "height": 936,
+    "scrollY": 0,
+    "width": 1363
+  },
+  "pageHeight": 12230,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/hero.jpg",
+      "cropBox": [
+        0,
+        0,
+        1348,
+        926
+      ],
+      "label": "01  hero / overview",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/view-01.jpg",
+      "cropBox": [
+        0,
+        0,
+        1348,
+        926
+      ],
+      "label": "02  view 01 / overview",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/view-02.jpg",
+      "cropBox": [
+        0,
+        0,
+        1348,
+        926
+      ],
+      "label": "03  view 02 / overview",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/view-03.jpg",
+      "cropBox": [
+        0,
+        0,
+        1348,
+        926
+      ],
+      "label": "04  view 03 / overview",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/view-04.jpg",
+      "cropBox": [
+        0,
+        0,
+        1348,
+        926
+      ],
+      "label": "05  view 04 / overview",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/view-05.jpg",
+      "cropBox": [
+        0,
+        0,
+        1348,
+        926
+      ],
+      "label": "06  view 05 / overview",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/view-06.jpg",
+      "cropBox": [
+        0,
+        0,
+        1348,
+        926
+      ],
+      "label": "07  view 06 / overview",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/case-study.jpg",
+      "cropBox": [
+        0,
+        0,
+        1348,
+        926
+      ],
+      "label": "08  case study / overview",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/hero.jpg",
+      "cropBox": [
+        107,
+        111,
+        1240,
+        740
+      ],
+      "label": "09  hero / detail crop",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/view-01.jpg",
+      "cropBox": [
+        0,
+        463,
+        1348,
+        926
+      ],
+      "label": "10  view 01 / detail crop",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/view-02.jpg",
+      "cropBox": [
+        107,
+        111,
+        1240,
+        740
+      ],
+      "label": "11  view 02 / detail crop",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/view-03.jpg",
+      "cropBox": [
+        0,
+        463,
+        1348,
+        926
+      ],
+      "label": "12  view 03 / detail crop",
+      "evidence": "browser-viewport-capture"
+    }
+  ],
+  "renderedTypeSamples": [
+    {
+      "tag": "H1",
+      "textSample": "Making brands feel human again",
+      "box": {
+        "height": 288,
+        "width": 800,
+        "x": 274,
+        "y": 244
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "160px",
+        "fontWeight": "500",
+        "lineHeight": "144px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "textSample": "Work",
+      "box": {
+        "height": 96,
+        "width": 1063.234375,
+        "x": 80,
+        "y": 1036.796875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "96px",
+        "fontWeight": "500",
+        "lineHeight": "96px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "Reflections website",
+      "box": {
+        "height": 48,
+        "width": 582,
+        "x": 80,
+        "y": 2041.59375
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "Grey Space creative",
+      "box": {
+        "height": 48,
+        "width": 582,
+        "x": 686,
+        "y": 1843.59375
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "Buy Hej",
+      "box": {
+        "height": 48,
+        "width": 582,
+        "x": 80,
+        "y": 2723.390625
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "Relation campaign",
+      "box": {
+        "height": 48,
+        "width": 582,
+        "x": 686,
+        "y": 2917.390625
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "Bubble Introduction",
+      "box": {
+        "height": 48,
+        "width": 582,
+        "x": 80,
+        "y": 3894.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "React",
+      "box": {
+        "height": 48,
+        "width": 582,
+        "x": 686,
+        "y": 3696.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "textSample": "What we believe",
+      "box": {
+        "height": 96,
+        "width": 1188,
+        "x": 80,
+        "y": 4338.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "96px",
+        "fontWeight": "500",
+        "lineHeight": "96px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "Every project is a chance to shape something ",
+      "box": {
+        "height": 192,
+        "width": 860,
+        "x": 244,
+        "y": 4458.1875
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "40px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.4px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "textSample": "Services",
+      "box": {
+        "height": 96,
+        "width": 720,
+        "x": 80,
+        "y": 5309.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "96px",
+        "fontWeight": "500",
+        "lineHeight": "96px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "Brand",
+      "box": {
+        "height": 144,
+        "width": 544,
+        "x": 80,
+        "y": 5730.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "160px",
+        "fontWeight": "500",
+        "lineHeight": "144px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H4",
+      "textSample": "Logo design",
+      "box": {
+        "height": 48,
+        "width": 544,
+        "x": 724,
+        "y": 5755.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H4",
+      "textSample": "Typography systems",
+      "box": {
+        "height": 48,
+        "width": 544,
+        "x": 724,
+        "y": 5852.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H4",
+      "textSample": "Visual guidelines",
+      "box": {
+        "height": 48,
+        "width": 544,
+        "x": 724,
+        "y": 5949.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H4",
+      "textSample": "Brand voice and tone",
+      "box": {
+        "height": 48,
+        "width": 544,
+        "x": 724,
+        "y": 6046.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H4",
+      "textSample": "Copywriting",
+      "box": {
+        "height": 48,
+        "width": 544,
+        "x": 724,
+        "y": 6143.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "Creative",
+      "box": {
+        "height": 144,
+        "width": 544,
+        "x": 80,
+        "y": 6352.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "160px",
+        "fontWeight": "500",
+        "lineHeight": "144px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H4",
+      "textSample": "Art direction",
+      "box": {
+        "height": 48,
+        "width": 544,
+        "x": 724,
+        "y": 6377.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H4",
+      "textSample": "Ad creative",
+      "box": {
+        "height": 48,
+        "width": 544,
+        "x": 724,
+        "y": 6474.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H4",
+      "textSample": "Motion graphics",
+      "box": {
+        "height": 48,
+        "width": 544,
+        "x": 724,
+        "y": 6571.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H4",
+      "textSample": "Photography styling",
+      "box": {
+        "height": 48,
+        "width": 544,
+        "x": 724,
+        "y": 6668.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H4",
+      "textSample": "Social media assets",
+      "box": {
+        "height": 48,
+        "width": 544,
+        "x": 724,
+        "y": 6765.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H4",
+      "textSample": "Performance marketing",
+      "box": {
+        "height": 48,
+        "width": 544,
+        "x": 724,
+        "y": 6862.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "Strategy",
+      "box": {
+        "height": 144,
+        "width": 544,
+        "x": 80,
+        "y": 7071.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "160px",
+        "fontWeight": "500",
+        "lineHeight": "144px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H4",
+      "textSample": "Workshops",
+      "box": {
+        "height": 48,
+        "width": 544,
+        "x": 724,
+        "y": 7096.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H4",
+      "textSample": "Audience profiles",
+      "box": {
+        "height": 48,
+        "width": 544,
+        "x": 724,
+        "y": 7193.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H4",
+      "textSample": "Value proposition",
+      "box": {
+        "height": 48,
+        "width": 544,
+        "x": 724,
+        "y": 7290.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H4",
+      "textSample": "Competitive analysis",
+      "box": {
+        "height": 48,
+        "width": 544,
+        "x": 724,
+        "y": 7387.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H4",
+      "textSample": "Launch asset kits",
+      "box": {
+        "height": 48,
+        "width": 544,
+        "x": 724,
+        "y": 7484.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "textSample": "Our studio",
+      "box": {
+        "height": 96,
+        "width": 544,
+        "x": 80,
+        "y": 7905.1875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "96px",
+        "fontWeight": "500",
+        "lineHeight": "96px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "textSample": "Blog",
+      "box": {
+        "height": 96,
+        "width": 720,
+        "x": 80,
+        "y": 9040.609375
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "96px",
+        "fontWeight": "500",
+        "lineHeight": "96px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "Design sprints done right",
+      "box": {
+        "height": 48,
+        "width": 380,
+        "x": 80,
+        "y": 9654.109375
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "Beyond pixels: measuring design impact",
+      "box": {
+        "height": 96,
+        "width": 380,
+        "x": 484,
+        "y": 9872.734375
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "Shipping faster with feature flags",
+      "box": {
+        "height": 48,
+        "width": 380,
+        "x": 888,
+        "y": 9790.40625
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "textSample": "Testimonials",
+      "box": {
+        "height": 96,
+        "width": 720,
+        "x": 80,
+        "y": 10389.734375
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "96px",
+        "fontWeight": "500",
+        "lineHeight": "96px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "textSample": "Your next chapter starts here",
+      "box": {
+        "height": 144,
+        "width": 1188,
+        "x": 80,
+        "y": 11003.734375
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "160px",
+        "fontWeight": "500",
+        "lineHeight": "144px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "textSample": "Atlas",
+      "box": {
+        "height": 466.5166015625,
+        "width": 543.9910888671875,
+        "x": 80.00445556640625,
+        "y": 11463.734375
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "199.144px",
+        "fontWeight": "500",
+        "lineHeight": "179.23px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "hello@atlas.com",
+      "box": {
+        "height": 136.3349609375,
+        "width": 543.943359375,
+        "x": 724.0283203125,
+        "y": 11463.734375
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "199.144px",
+        "fontWeight": "500",
+        "lineHeight": "183.213px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Atlas",
+      "box": {
+        "height": 18.203125,
+        "width": 34.359375,
+        "x": 80,
+        "y": 27
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "18.2px",
+        "letterSpacing": "-0.07px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Atlas",
+      "box": {
+        "height": 18.203125,
+        "width": 34.359375,
+        "x": 80,
+        "y": 45.203125
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "18.2px",
+        "letterSpacing": "-0.07px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Work",
+      "box": {
+        "height": 18.203125,
+        "width": 34.953125,
+        "x": 300.015625,
+        "y": 27
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "18.2px",
+        "letterSpacing": "-0.07px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Work",
+      "box": {
+        "height": 18.203125,
+        "width": 34.953125,
+        "x": 300.015625,
+        "y": 45.203125
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "18.2px",
+        "letterSpacing": "-0.07px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Services",
+      "box": {
+        "height": 18.203125,
+        "width": 57.703125,
+        "x": 520.625,
+        "y": 27
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "18.2px",
+        "letterSpacing": "-0.07px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Services",
+      "box": {
+        "height": 18.203125,
+        "width": 57.703125,
+        "x": 520.625,
+        "y": 45.203125
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "18.2px",
+        "letterSpacing": "-0.07px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Blog",
+      "box": {
+        "height": 18.203125,
+        "width": 29.1875,
+        "x": 763.984375,
+        "y": 27
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "18.2px",
+        "letterSpacing": "-0.07px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Blog",
+      "box": {
+        "height": 18.203125,
+        "width": 29.1875,
+        "x": 763.984375,
+        "y": 45.203125
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "18.2px",
+        "letterSpacing": "-0.07px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "About",
+      "box": {
+        "height": 18.203125,
+        "width": 41.0625,
+        "x": 978.828125,
+        "y": 27
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "18.2px",
+        "letterSpacing": "-0.07px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "About",
+      "box": {
+        "height": 18.203125,
+        "width": 41.0625,
+        "x": 978.828125,
+        "y": 45.203125
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "18.2px",
+        "letterSpacing": "-0.07px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Hire us",
+      "box": {
+        "height": 18.203125,
+        "width": 46.453125,
+        "x": 1205.546875,
+        "y": 27
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "18.2px",
+        "letterSpacing": "-0.07px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Hire us",
+      "box": {
+        "height": 18.203125,
+        "width": 46.453125,
+        "x": 1205.546875,
+        "y": 45.203125
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "18.2px",
+        "letterSpacing": "-0.07px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Unlimited Access to all of my Framer template",
+      "box": {
+        "height": 18,
+        "width": 1300,
+        "x": 24,
+        "y": 84
+      },
+      "font": {
+        "fontFamily": "\"Aspekta Variable Variable\", sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "1000",
+        "lineHeight": "18px",
+        "letterSpacing": "-0.25px"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "Atlas is a creative partner for growing compa",
+      "box": {
+        "height": 26,
+        "width": 1188,
+        "x": 80,
+        "y": 556
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "lineHeight": "26px",
+        "letterSpacing": "0.2px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "NYC ",
+      "box": {
+        "height": 16.796875,
+        "width": 33.609375,
+        "x": 80,
+        "y": 710
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Born creative",
+      "box": {
+        "height": 16.796875,
+        "width": 109.203125,
+        "x": 1158.796875,
+        "y": 710
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Hire us",
+      "box": {
+        "height": 60.61474609375,
+        "width": 74.262451171875,
+        "x": 636.8687744140625,
+        "y": 677.489501953125
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Hire us",
+      "box": {
+        "height": 60.61480712890625,
+        "width": 74.26239013671875,
+        "x": 626.8890380859375,
+        "y": 724.4405517578125
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "2022–2025",
+      "box": {
+        "height": 48,
+        "width": 100.765625,
+        "x": 1167.234375,
+        "y": 1084.796875
+      },
+      "font": {
+        "fontFamily": "\"New Title\", \"New Title Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.48px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Always Open",
+      "box": {
+        "height": 16.796875,
+        "width": 92.40625,
+        "x": 80,
+        "y": 2012.796875
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "2025",
+      "box": {
+        "height": 16.796875,
+        "width": 33.609375,
+        "x": 628.390625,
+        "y": 2012.796875
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Solari Capital",
+      "box": {
+        "height": 16.796875,
+        "width": 117.609375,
+        "x": 686,
+        "y": 1814.796875
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "2025",
+      "box": {
+        "height": 16.796875,
+        "width": 33.609375,
+        "x": 1234.390625,
+        "y": 1814.796875
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Novi",
+      "box": {
+        "height": 16.796875,
+        "width": 33.609375,
+        "x": 80,
+        "y": 2694.59375
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "2024",
+      "box": {
+        "height": 16.796875,
+        "width": 33.609375,
+        "x": 628.390625,
+        "y": 2694.59375
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Cucumber",
+      "box": {
+        "height": 16.796875,
+        "width": 67.203125,
+        "x": 686,
+        "y": 2888.59375
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "2024",
+      "box": {
+        "height": 16.796875,
+        "width": 33.609375,
+        "x": 1234.390625,
+        "y": 2888.59375
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Big Tuesday",
+      "box": {
+        "height": 16.796875,
+        "width": 92.40625,
+        "x": 80,
+        "y": 3865.390625
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "2023",
+      "box": {
+        "height": 16.796875,
+        "width": 33.609375,
+        "x": 628.390625,
+        "y": 3865.390625
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Andos",
+      "box": {
+        "height": 16.796875,
+        "width": 42,
+        "x": 686,
+        "y": 3667.390625
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "2022",
+      "box": {
+        "height": 16.796875,
+        "width": 33.609375,
+        "x": 1234.390625,
+        "y": 3667.390625
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "View all work",
+      "box": {
+        "height": 20.796875,
+        "width": 97.109375,
+        "x": 625.4375,
+        "y": 4039.6875
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.16px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "View all work",
+      "box": {
+        "height": 20.796875,
+        "width": 97.109375,
+        "x": 625.4375,
+        "y": 4060.484375
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.16px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "More about us",
+      "box": {
+        "height": 20.796875,
+        "width": 107.34375,
+        "x": 620.328125,
+        "y": 4699.6875
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.16px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "More about us",
+      "box": {
+        "height": 20.796875,
+        "width": 107.34375,
+        "x": 620.328125,
+        "y": 4720.484375
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.16px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "We help brands get clear and look sharp. Stra",
+      "box": {
+        "height": 52,
+        "width": 720,
+        "x": 80,
+        "y": 5429.1875
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "lineHeight": "26px",
+        "letterSpacing": "0.2px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "View all services",
+      "box": {
+        "height": 20.796875,
+        "width": 123.203125,
+        "x": 104,
+        "y": 5530.6875
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.16px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "View all services",
+      "box": {
+        "height": 20.796875,
+        "width": 123.203125,
+        "x": 104,
+        "y": 5551.484375
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.16px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "We create clear, distinctive identities peopl",
+      "box": {
+        "height": 52,
+        "width": 544,
+        "x": 80,
+        "y": 5906.1875
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "lineHeight": "26px",
+        "letterSpacing": "0.2px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "We bring brands to life with campaigns, visua",
+      "box": {
+        "height": 52,
+        "width": 544,
+        "x": 80,
+        "y": 6528.1875
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "lineHeight": "26px",
+        "letterSpacing": "0.2px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "We define where your brand fits and why it ma",
+      "box": {
+        "height": 52,
+        "width": 544,
+        "x": 80,
+        "y": 7247.1875
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "lineHeight": "26px",
+        "letterSpacing": "0.2px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Atlas is a brand and creative studio. We part",
+      "box": {
+        "height": 312,
+        "width": 544,
+        "x": 724,
+        "y": 8355.609375
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "lineHeight": "26px",
+        "letterSpacing": "0.2px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Visit us",
+      "box": {
+        "height": 20.796875,
+        "width": 55.3125,
+        "x": 748,
+        "y": 8717.109375
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.16px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Visit us",
+      "box": {
+        "height": 20.796875,
+        "width": 55.3125,
+        "x": 748,
+        "y": 8737.90625
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.16px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Ideas, notes, and lessons from our work. Shor",
+      "box": {
+        "height": 26,
+        "width": 720,
+        "x": 80,
+        "y": 9160.609375
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "lineHeight": "26px",
+        "letterSpacing": "0.2px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Process",
+      "box": {
+        "height": 16.796875,
+        "width": 58.8125,
+        "x": 80,
+        "y": 9625.3125
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "6/24/25",
+      "box": {
+        "height": 16.796875,
+        "width": 58.8125,
+        "x": 401.1875,
+        "y": 9625.3125
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Strategy",
+      "box": {
+        "height": 16.796875,
+        "width": 67.203125,
+        "x": 484,
+        "y": 9843.9375
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "5/15/25",
+      "box": {
+        "height": 16.796875,
+        "width": 58.8125,
+        "x": 805.1875,
+        "y": 9843.9375
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Technical",
+      "box": {
+        "height": 16.796875,
+        "width": 75.609375,
+        "x": 888,
+        "y": 9761.609375
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "4/30/25",
+      "box": {
+        "height": 16.796875,
+        "width": 58.8125,
+        "x": 1209.1875,
+        "y": 9761.609375
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "View all posts",
+      "box": {
+        "height": 20.796875,
+        "width": 102.453125,
+        "x": 622.765625,
+        "y": 10066.234375
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.16px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "View all posts",
+      "box": {
+        "height": 20.796875,
+        "width": 102.453125,
+        "x": 622.765625,
+        "y": 10087.03125
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.16px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Atlas clarified our story and tightened our b",
+      "box": {
+        "height": 78,
+        "width": 554,
+        "x": 80,
+        "y": 10613.734375
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "lineHeight": "26px",
+        "letterSpacing": "0.2px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Marcus Johnson",
+      "box": {
+        "height": 16.796875,
+        "width": 117.609375,
+        "x": 156,
+        "y": 10725.9375
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Nexa",
+      "box": {
+        "height": 16.796875,
+        "width": 33.609375,
+        "x": 156,
+        "y": 10744.734375
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Calm, senior, and quick. Atlas kept us aligne",
+      "box": {
+        "height": 78,
+        "width": 554,
+        "x": 714,
+        "y": 10613.734375
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "lineHeight": "26px",
+        "letterSpacing": "0.2px"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Emily Chang",
+      "box": {
+        "height": 16.796875,
+        "width": 92.40625,
+        "x": 790,
+        "y": 10725.9375
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Luminate",
+      "box": {
+        "height": 16.796875,
+        "width": 67.203125,
+        "x": 790,
+        "y": 10744.734375
+      },
+      "font": {
+        "fontFamily": "\"Chivo Mono\", monospace",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Hire us",
+      "box": {
+        "height": 20.796875,
+        "width": 52.515625,
+        "x": 566.5625,
+        "y": 11197.234375
+      },
+      "font": {
+        "fontFamily": "\"General Sans\", \"General Sans Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "lineHeight": "20.8px",
+        "letterSpacing": "-0.16px"
+      },
+      "color": "rgb(0, 0, 0)"
+    }
+  ],
+  "renderedFrameGeometry": [
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 72,
+        "width": 1348,
+        "x": 0,
+        "y": 0
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "24px",
+        "borderRadius": "0px 0px 24px 24px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Layout",
+      "box": {
+        "height": 36,
+        "width": 1348,
+        "x": 0,
+        "y": 18
+      },
+      "style": {
+        "padding": "0px 80px 0px 64px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Variant 1",
+      "box": {
+        "height": 40,
+        "width": 1348,
+        "x": 0,
+        "y": 72
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Container",
+      "box": {
+        "height": 40,
+        "width": 1348,
+        "x": 0,
+        "y": 72
+      },
+      "style": {
+        "padding": "10px 24px 8px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Main",
+      "box": {
+        "height": 11219.734375,
+        "width": 1348,
+        "x": 0,
+        "y": 112
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Section/Header",
+      "box": {
+        "height": 759.796875,
+        "width": 1348,
+        "x": 0,
+        "y": 112
+      },
+      "style": {
+        "padding": "4px 0px 0px",
+        "gap": "24px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Inset Background",
+      "box": {
+        "height": 755.796875,
+        "width": 1348,
+        "x": 0,
+        "y": 116
+      },
+      "style": {
+        "padding": "128px 80px",
+        "gap": "0px",
+        "borderRadius": "32px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(135deg, rgb(209, 248, 255) 0%, rgb(244, 255, 209) 100%)",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Max Width",
+      "box": {
+        "height": 499.796875,
+        "width": 1188,
+        "x": 80,
+        "y": 244
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "128px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Top Content",
+      "box": {
+        "height": 338,
+        "width": 1188,
+        "x": 80,
+        "y": 244
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "24px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Bottom Content",
+      "box": {
+        "height": 33.796875,
+        "width": 1188,
+        "x": 80,
+        "y": 710
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Horizontal Wrapper",
+      "box": {
+        "height": 16.796875,
+        "width": 1188,
+        "x": 80,
+        "y": 710
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black",
+      "box": {
+        "height": 1,
+        "width": 1188,
+        "x": 80,
+        "y": 742.796875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 1188,
+        "x": 80,
+        "y": 742.796875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Section/Work",
+      "box": {
+        "height": 3334.390625,
+        "width": 1348,
+        "x": 0,
+        "y": 871.796875
+      },
+      "style": {
+        "padding": "4px 0px 0px",
+        "gap": "24px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Inset Background",
+      "box": {
+        "height": 3330.390625,
+        "width": 1348,
+        "x": 0,
+        "y": 875.796875
+      },
+      "style": {
+        "padding": "128px 80px",
+        "gap": "0px",
+        "borderRadius": "32px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Max Width",
+      "box": {
+        "height": 3074.390625,
+        "width": 1188,
+        "x": 80,
+        "y": 1003.796875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "80px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Component/Section Title",
+      "box": {
+        "height": 129,
+        "width": 1188,
+        "x": 80,
+        "y": 1003.796875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "32px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black",
+      "box": {
+        "height": 1,
+        "width": 1188,
+        "x": 80,
+        "y": 1003.796875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 1188,
+        "x": 80,
+        "y": 1003.796875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Portrait Tall",
+      "box": {
+        "height": 876.796875,
+        "width": 582,
+        "x": 80,
+        "y": 1212.796875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Card",
+      "box": {
+        "height": 876.796875,
+        "width": 582,
+        "x": 80,
+        "y": 1212.796875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Image",
+      "box": {
+        "height": 776,
+        "width": 582,
+        "x": 80,
+        "y": 1212.796875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "16px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content Wrapper",
+      "box": {
+        "height": 100.796875,
+        "width": 582,
+        "x": 80,
+        "y": 1988.796875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content",
+      "box": {
+        "height": 100.796875,
+        "width": 582,
+        "x": 80,
+        "y": 1988.796875
+      },
+      "style": {
+        "padding": "24px 0px 0px",
+        "gap": "12px 0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Top Details",
+      "box": {
+        "height": 16.796875,
+        "width": 582,
+        "x": 80,
+        "y": 2012.796875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 423.984375,
+        "x": 188.40625,
+        "y": 2020.6875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 423.984375,
+        "x": 188.40625,
+        "y": 2020.6875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Square",
+      "box": {
+        "height": 678.796875,
+        "width": 582,
+        "x": 686,
+        "y": 1212.796875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Card",
+      "box": {
+        "height": 678.796875,
+        "width": 582,
+        "x": 686,
+        "y": 1212.796875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Image",
+      "box": {
+        "height": 582,
+        "width": 582,
+        "x": 686,
+        "y": 1212.796875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "16px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content Wrapper",
+      "box": {
+        "height": 96.796875,
+        "width": 582,
+        "x": 686,
+        "y": 1794.796875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content",
+      "box": {
+        "height": 96.796875,
+        "width": 582,
+        "x": 686,
+        "y": 1794.796875
+      },
+      "style": {
+        "padding": "20px 0px 0px",
+        "gap": "12px 0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Top Details",
+      "box": {
+        "height": 16.796875,
+        "width": 582,
+        "x": 686,
+        "y": 1814.796875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 398.78125,
+        "x": 819.609375,
+        "y": 1822.6875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 398.78125,
+        "x": 819.609375,
+        "y": 1822.6875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Landscape",
+      "box": {
+        "height": 581.796875,
+        "width": 582,
+        "x": 80,
+        "y": 2189.59375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Card",
+      "box": {
+        "height": 581.796875,
+        "width": 582,
+        "x": 80,
+        "y": 2189.59375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Image",
+      "box": {
+        "height": 485,
+        "width": 582,
+        "x": 80,
+        "y": 2189.59375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "16px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content Wrapper",
+      "box": {
+        "height": 96.796875,
+        "width": 582,
+        "x": 80,
+        "y": 2674.59375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content",
+      "box": {
+        "height": 96.796875,
+        "width": 582,
+        "x": 80,
+        "y": 2674.59375
+      },
+      "style": {
+        "padding": "20px 0px 0px",
+        "gap": "12px 0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Top Details",
+      "box": {
+        "height": 16.796875,
+        "width": 582,
+        "x": 80,
+        "y": 2694.59375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 482.78125,
+        "x": 129.609375,
+        "y": 2702.484375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 482.78125,
+        "x": 129.609375,
+        "y": 2702.484375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Portrait",
+      "box": {
+        "height": 775.796875,
+        "width": 582,
+        "x": 686,
+        "y": 2189.59375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Card",
+      "box": {
+        "height": 775.796875,
+        "width": 582,
+        "x": 686,
+        "y": 2189.59375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Image",
+      "box": {
+        "height": 679,
+        "width": 582,
+        "x": 686,
+        "y": 2189.59375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "16px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content Wrapper",
+      "box": {
+        "height": 96.796875,
+        "width": 582,
+        "x": 686,
+        "y": 2868.59375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content",
+      "box": {
+        "height": 96.796875,
+        "width": 582,
+        "x": 686,
+        "y": 2868.59375
+      },
+      "style": {
+        "padding": "20px 0px 0px",
+        "gap": "12px 0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Top Details",
+      "box": {
+        "height": 16.796875,
+        "width": 582,
+        "x": 686,
+        "y": 2888.59375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 449.1875,
+        "x": 769.203125,
+        "y": 2896.484375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 449.1875,
+        "x": 769.203125,
+        "y": 2896.484375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Portrait Tall",
+      "box": {
+        "height": 876.796875,
+        "width": 582,
+        "x": 80,
+        "y": 3065.390625
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Card",
+      "box": {
+        "height": 876.796875,
+        "width": 582,
+        "x": 80,
+        "y": 3065.390625
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Image",
+      "box": {
+        "height": 776,
+        "width": 582,
+        "x": 80,
+        "y": 3065.390625
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "16px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content Wrapper",
+      "box": {
+        "height": 100.796875,
+        "width": 582,
+        "x": 80,
+        "y": 3841.390625
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content",
+      "box": {
+        "height": 100.796875,
+        "width": 582,
+        "x": 80,
+        "y": 3841.390625
+      },
+      "style": {
+        "padding": "24px 0px 0px",
+        "gap": "12px 0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Top Details",
+      "box": {
+        "height": 16.796875,
+        "width": 582,
+        "x": 80,
+        "y": 3865.390625
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 423.984375,
+        "x": 188.40625,
+        "y": 3873.28125
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 423.984375,
+        "x": 188.40625,
+        "y": 3873.28125
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Square",
+      "box": {
+        "height": 678.796875,
+        "width": 582,
+        "x": 686,
+        "y": 3065.390625
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Card",
+      "box": {
+        "height": 678.796875,
+        "width": 582,
+        "x": 686,
+        "y": 3065.390625
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Image",
+      "box": {
+        "height": 582,
+        "width": 582,
+        "x": 686,
+        "y": 3065.390625
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "16px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content Wrapper",
+      "box": {
+        "height": 96.796875,
+        "width": 582,
+        "x": 686,
+        "y": 3647.390625
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content",
+      "box": {
+        "height": 96.796875,
+        "width": 582,
+        "x": 686,
+        "y": 3647.390625
+      },
+      "style": {
+        "padding": "20px 0px 0px",
+        "gap": "12px 0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Top Details",
+      "box": {
+        "height": 16.796875,
+        "width": 582,
+        "x": 686,
+        "y": 3667.390625
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 474.390625,
+        "x": 744,
+        "y": 3675.28125
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 474.390625,
+        "x": 744,
+        "y": 3675.28125
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 660,
+        "width": 1348,
+        "x": 0,
+        "y": 4206.1875
+      },
+      "style": {
+        "padding": "4px 0px 0px",
+        "gap": "24px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Inset Background",
+      "box": {
+        "height": 656,
+        "width": 1348,
+        "x": 0,
+        "y": 4210.1875
+      },
+      "style": {
+        "padding": "128px 80px",
+        "gap": "128px",
+        "borderRadius": "32px",
+        "backgroundColor": "rgb(240, 240, 240)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Max Width",
+      "box": {
+        "height": 400,
+        "width": 1188,
+        "x": 80,
+        "y": 4338.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "32px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 286,
+        "width": 1348,
+        "x": 0,
+        "y": 4866.1875
+      },
+      "style": {
+        "padding": "128px 0px",
+        "gap": "128px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 30,
+        "width": 1348,
+        "x": 0,
+        "y": 4994.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Ticker Logos",
+      "box": {
+        "height": 30,
+        "width": 1042,
+        "x": 0,
+        "y": 4994.1875
+      },
+      "style": {
+        "padding": "0px 80px 0px 0px",
+        "gap": "64px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Ticker Logos",
+      "box": {
+        "height": 30,
+        "width": 1042,
+        "x": 1042,
+        "y": 4994.1875
+      },
+      "style": {
+        "padding": "0px 80px 0px 0px",
+        "gap": "64px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Ticker Logos",
+      "box": {
+        "height": 30,
+        "width": 1042,
+        "x": 2084,
+        "y": 4994.1875
+      },
+      "style": {
+        "padding": "0px 80px 0px 0px",
+        "gap": "64px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Ticker Logos",
+      "box": {
+        "height": 30,
+        "width": 1042,
+        "x": 3126,
+        "y": 4994.1875
+      },
+      "style": {
+        "padding": "0px 80px 0px 0px",
+        "gap": "64px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Ticker Logos",
+      "box": {
+        "height": 30,
+        "width": 1042,
+        "x": 4168,
+        "y": 4994.1875
+      },
+      "style": {
+        "padding": "0px 80px 0px 0px",
+        "gap": "64px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Section/FAQ",
+      "box": {
+        "height": 2588,
+        "width": 1348,
+        "x": 0,
+        "y": 5152.1875
+      },
+      "style": {
+        "padding": "4px 0px 0px",
+        "gap": "24px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Inset Background",
+      "box": {
+        "height": 2584,
+        "width": 1348,
+        "x": 0,
+        "y": 5156.1875
+      },
+      "style": {
+        "padding": "128px 80px",
+        "gap": "0px",
+        "borderRadius": "32px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(135deg, rgb(244, 255, 209) 0%, rgb(255, 230, 209) 100%)",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Max Width",
+      "box": {
+        "height": 2328,
+        "width": 1188,
+        "x": 80,
+        "y": 5284.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "80px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Light Background",
+      "box": {
+        "height": 285,
+        "width": 1188,
+        "x": 80,
+        "y": 5284.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "32px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black",
+      "box": {
+        "height": 1,
+        "width": 1188,
+        "x": 80,
+        "y": 5284.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 1188,
+        "x": 80,
+        "y": 5284.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 1188,
+        "x": 80,
+        "y": 5649.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 1188,
+        "x": 80,
+        "y": 5649.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content",
+      "box": {
+        "height": 461,
+        "width": 1188,
+        "x": 80,
+        "y": 5730.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px 24px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 5730.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 5730.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 5827.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 5827.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 5924.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 5924.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 6021.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 6021.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 6118.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 6118.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 1188,
+        "x": 80,
+        "y": 6271.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 1188,
+        "x": 80,
+        "y": 6271.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content",
+      "box": {
+        "height": 558,
+        "width": 1188,
+        "x": 80,
+        "y": 6352.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px 24px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 6352.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 6352.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 6449.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 6449.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 6546.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 6546.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 6643.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 6643.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 6740.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 6740.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 6837.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 6837.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 1188,
+        "x": 80,
+        "y": 6990.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 1188,
+        "x": 80,
+        "y": 6990.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content",
+      "box": {
+        "height": 461,
+        "width": 1188,
+        "x": 80,
+        "y": 7071.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px 24px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 7071.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 7071.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 7168.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 7168.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 7265.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 7265.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 7362.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 7362.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black Transparent",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 7459.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 544,
+        "x": 724,
+        "y": 7459.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0.08)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 1143.421875,
+        "width": 1348,
+        "x": 0,
+        "y": 7740.1875
+      },
+      "style": {
+        "padding": "4px 0px 0px",
+        "gap": "32px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Inset Background",
+      "box": {
+        "height": 1139.421875,
+        "width": 1348,
+        "x": 0,
+        "y": 7744.1875
+      },
+      "style": {
+        "padding": "128px 80px",
+        "gap": "0px",
+        "borderRadius": "32px",
+        "backgroundColor": "rgb(240, 240, 240)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Max Width",
+      "box": {
+        "height": 883.421875,
+        "width": 1188,
+        "x": 80,
+        "y": 7872.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "32px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black",
+      "box": {
+        "height": 1,
+        "width": 1188,
+        "x": 80,
+        "y": 7872.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 1188,
+        "x": 80,
+        "y": 7872.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Two Columns",
+      "box": {
+        "height": 850.421875,
+        "width": 1188,
+        "x": 80,
+        "y": 7905.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "100px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Right Column",
+      "box": {
+        "height": 850.421875,
+        "width": 544,
+        "x": 724,
+        "y": 7905.1875
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "32px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Button Wrapper",
+      "box": {
+        "height": 56,
+        "width": 544,
+        "x": 724,
+        "y": 8699.609375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px 32px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Section/Insights",
+      "box": {
+        "height": 1349.125,
+        "width": 1348,
+        "x": 0,
+        "y": 8883.609375
+      },
+      "style": {
+        "padding": "4px 0px 0px",
+        "gap": "24px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Inset Background",
+      "box": {
+        "height": 1345.125,
+        "width": 1348,
+        "x": 0,
+        "y": 8887.609375
+      },
+      "style": {
+        "padding": "128px 80px",
+        "gap": "0px",
+        "borderRadius": "32px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Light Background",
+      "box": {
+        "height": 171,
+        "width": 1188,
+        "x": 80,
+        "y": 9015.609375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "32px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black",
+      "box": {
+        "height": 1,
+        "width": 1188,
+        "x": 80,
+        "y": 9015.609375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 1188,
+        "x": 80,
+        "y": 9015.609375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Auto Height",
+      "box": {
+        "height": 435.5,
+        "width": 380,
+        "x": 80,
+        "y": 9266.609375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Card",
+      "box": {
+        "height": 435.5,
+        "width": 380,
+        "x": 80,
+        "y": 9266.609375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Image",
+      "box": {
+        "height": 338.703125,
+        "width": 380,
+        "x": 80,
+        "y": 9266.609375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "16px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content Wrapper",
+      "box": {
+        "height": 96.796875,
+        "width": 380,
+        "x": 80,
+        "y": 9605.3125
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content",
+      "box": {
+        "height": 96.796875,
+        "width": 380,
+        "x": 80,
+        "y": 9605.3125
+      },
+      "style": {
+        "padding": "20px 0px 0px",
+        "gap": "12px 0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Top Details",
+      "box": {
+        "height": 16.796875,
+        "width": 380,
+        "x": 80,
+        "y": 9625.3125
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Auto Height",
+      "box": {
+        "height": 702.125,
+        "width": 380,
+        "x": 484,
+        "y": 9266.609375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Card",
+      "box": {
+        "height": 702.125,
+        "width": 380,
+        "x": 484,
+        "y": 9266.609375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Image",
+      "box": {
+        "height": 557.328125,
+        "width": 380,
+        "x": 484,
+        "y": 9266.609375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "16px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content Wrapper",
+      "box": {
+        "height": 144.796875,
+        "width": 380,
+        "x": 484,
+        "y": 9823.9375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content",
+      "box": {
+        "height": 144.796875,
+        "width": 380,
+        "x": 484,
+        "y": 9823.9375
+      },
+      "style": {
+        "padding": "20px 0px 0px",
+        "gap": "12px 0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Top Details",
+      "box": {
+        "height": 16.796875,
+        "width": 380,
+        "x": 484,
+        "y": 9843.9375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Auto Height",
+      "box": {
+        "height": 571.796875,
+        "width": 380,
+        "x": 888,
+        "y": 9266.609375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Card",
+      "box": {
+        "height": 571.796875,
+        "width": 380,
+        "x": 888,
+        "y": 9266.609375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Image",
+      "box": {
+        "height": 475,
+        "width": 380,
+        "x": 888,
+        "y": 9266.609375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "16px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content Wrapper",
+      "box": {
+        "height": 96.796875,
+        "width": 380,
+        "x": 888,
+        "y": 9741.609375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content",
+      "box": {
+        "height": 96.796875,
+        "width": 380,
+        "x": 888,
+        "y": 9741.609375
+      },
+      "style": {
+        "padding": "20px 0px 0px",
+        "gap": "12px 0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Top Details",
+      "box": {
+        "height": 16.796875,
+        "width": 380,
+        "x": 888,
+        "y": 9761.609375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Section/Testimonials",
+      "box": {
+        "height": 671,
+        "width": 1348,
+        "x": 0,
+        "y": 10232.734375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 671,
+        "width": 1348,
+        "x": 0,
+        "y": 10232.734375
+      },
+      "style": {
+        "padding": "4px 0px 0px",
+        "gap": "80px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Inset Background",
+      "box": {
+        "height": 667,
+        "width": 1348,
+        "x": 0,
+        "y": 10236.734375
+      },
+      "style": {
+        "padding": "128px 80px",
+        "gap": "0px",
+        "borderRadius": "32px",
+        "backgroundColor": "rgb(240, 240, 240)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Light Background",
+      "box": {
+        "height": 121,
+        "width": 1188,
+        "x": 80,
+        "y": 10364.734375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "32px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Black",
+      "box": {
+        "height": 1,
+        "width": 1188,
+        "x": 80,
+        "y": 10364.734375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Divider",
+      "box": {
+        "height": 1,
+        "width": 1188,
+        "x": 80,
+        "y": 10364.734375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Testimonials",
+      "box": {
+        "height": 226,
+        "width": 1188,
+        "x": 80,
+        "y": 10549.734375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "80px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "554px 554px"
+      }
+    },
+    {
+      "name": "Testimonial",
+      "box": {
+        "height": 226,
+        "width": 554,
+        "x": 80,
+        "y": 10549.734375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "20px",
+        "borderRadius": "20px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Details",
+      "box": {
+        "height": 64,
+        "width": 554,
+        "x": 80,
+        "y": 10711.734375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "12px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Testimonial",
+      "box": {
+        "height": 226,
+        "width": 554,
+        "x": 714,
+        "y": 10549.734375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "20px",
+        "borderRadius": "20px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Details",
+      "box": {
+        "height": 64,
+        "width": 554,
+        "x": 714,
+        "y": 10711.734375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "12px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Section/CTA",
+      "box": {
+        "height": 428,
+        "width": 1348,
+        "x": 0,
+        "y": 10903.734375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 428,
+        "width": 1348,
+        "x": 0,
+        "y": 10903.734375
+      },
+      "style": {
+        "padding": "4px 0px 0px",
+        "gap": "32px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Inset Background",
+      "box": {
+        "height": 424,
+        "width": 1348,
+        "x": 0,
+        "y": 10907.734375
+      },
+      "style": {
+        "padding": "96px 80px",
+        "gap": "32px",
+        "borderRadius": "32px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(135deg, rgb(255, 230, 209) 0%, rgb(248, 209, 255) 100%)",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 898.40625,
+        "width": 1348,
+        "x": 0,
+        "y": 11331.734375
+      },
+      "style": {
+        "padding": "4px 0px 0px",
+        "gap": "24px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Inset Background",
+      "box": {
+        "height": 894.40625,
+        "width": 1348,
+        "x": 0,
+        "y": 11335.734375
+      },
+      "style": {
+        "padding": "128px 80px",
+        "gap": "24px",
+        "borderRadius": "32px 32px 0px 0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Layout",
+      "box": {
+        "height": 638.40625,
+        "width": 1188,
+        "x": 80,
+        "y": 11463.734375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "64px 100px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "544px 544px"
+      }
+    },
+    {
+      "name": "Top",
+      "box": {
+        "height": 638.40625,
+        "width": 544,
+        "x": 724,
+        "y": 11463.734375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "40px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Links",
+      "box": {
+        "height": 638.40625,
+        "width": 544,
+        "x": 724,
+        "y": 11463.734375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "40px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "252px 252px"
+      }
+    }
+  ],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Chivo Mono",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/chivomono/v11/mFT0WbgRxKvF_Z5eQMO9gx8D1Q.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/chivo-mono-500-0.woff2"
+    },
+    {
+      "family": "Chivo Mono",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/chivomono/v11/mFT0WbgRxKvF_Z5eQMO9gx8D1Q.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/chivo-mono-700-1.woff2"
+    },
+    {
+      "family": "New Title",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/FVMGCNZJYYSAJCY27IPPBXK5ABA4BUSV/6YW7KTGYMOFEARNHXWDM3ZHW2ILP6T3Z/O3BFJ6Y3JT4ZZT3YC7PPTMQUIJRSLPPL.woff2",
+      "range": "",
+      "file": "assets/fonts/new-title-500-2.woff2"
+    },
+    {
+      "family": "New Title",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/RUPLN7ETJ6MND2KR3BO5MQQ5XG47FRAO/ZV6CZUVQRWZR5TH7RGIADBYXIAGPJEKL/NCFOWRF5DO2XK4WGL3JGFVC4VVD2GXLY.woff2",
+      "range": "",
+      "file": "assets/fonts/new-title-700-3.woff2"
+    },
+    {
+      "family": "General Sans",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/K46YRH762FH3QJ25IQM3VAXAKCHEXXW4/ISLWQPUZHZF33LRIOTBMFOJL57GBGQ4B/3ZLMEXZEQPLTEPMHTQDAUXP5ZZXCZAEN.woff2",
+      "range": "",
+      "file": "assets/fonts/general-sans-600-4.woff2"
+    },
+    {
+      "family": "General Sans",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/KWXO5X3YW4X7OLUMPO4X24HQJGJU7E2Q/VOWUQZS3YLP66ZHPTXAFSH6YACY4WJHT/NIQ54PVBBIWVK3PFSOIOUJSXIJ5WTNDP.woff2",
+      "range": "",
+      "file": "assets/fonts/general-sans-700-5.woff2"
+    },
+    {
+      "family": "General Sans",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/3RZHWSNONLLWJK3RLPEKUZOMM56GO4LJ/BPDRY7AHVI3MCDXXVXTQQ76H3UXA63S3/SB2OEB6IKZPRR6JT4GFJ2TFT6HBB6AZN.woff2",
+      "range": "",
+      "file": "assets/fonts/general-sans-500-6.woff2"
+    }
+  ],
+  "imagesObserved": [
+    {
+      "alt": "Project image",
+      "box": {
+        "height": 776,
+        "width": 582,
+        "x": 80,
+        "y": 1212.796875
+      },
+      "src": "https://framerusercontent.com/images/FbevWLqKybqWkBlxdIC7LpOY.jpeg?scale-down-to=1024&width=1500&height=2250",
+      "srcset": "https://framerusercontent.com/images/FbevWLqKybqWkBlxdIC7LpOY.jpeg?scale-down-to=1024&width=1500&height=2250 682w,https://framerusercontent.com/images/FbevWLqKybqWkBlxdIC7LpOY.jpeg?scale-down-to=2048&width=1500&height=2250 1365w,https://framerusercontent.com/images/FbevWLqKybqWkBlxdIC7LpOY.jpeg?width=1500&height=2250 1500w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 238)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "776px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "padding": "0px",
+        "position": "static",
+        "width": "582px"
+      }
+    },
+    {
+      "alt": "Project image",
+      "box": {
+        "height": 582,
+        "width": 582,
+        "x": 686,
+        "y": 1212.796875
+      },
+      "src": "https://framerusercontent.com/images/qc0hAABWrl1pNbSOFELMQBPniE.jpeg?scale-down-to=1024&width=1500&height=1862",
+      "srcset": "https://framerusercontent.com/images/qc0hAABWrl1pNbSOFELMQBPniE.jpeg?scale-down-to=1024&width=1500&height=1862 824w,https://framerusercontent.com/images/qc0hAABWrl1pNbSOFELMQBPniE.jpeg?width=1500&height=1862 1500w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 238)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "582px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "padding": "0px",
+        "position": "static",
+        "width": "582px"
+      }
+    },
+    {
+      "alt": "Project image",
+      "box": {
+        "height": 485,
+        "width": 582,
+        "x": 80,
+        "y": 2189.59375
+      },
+      "src": "https://framerusercontent.com/images/v0i6E4ro0NWtA3WzxZlN2o3tC1o.jpeg?scale-down-to=1024&width=1500&height=2223",
+      "srcset": "https://framerusercontent.com/images/v0i6E4ro0NWtA3WzxZlN2o3tC1o.jpeg?scale-down-to=1024&width=1500&height=2223 690w,https://framerusercontent.com/images/v0i6E4ro0NWtA3WzxZlN2o3tC1o.jpeg?scale-down-to=2048&width=1500&height=2223 1381w,https://framerusercontent.com/images/v0i6E4ro0NWtA3WzxZlN2o3tC1o.jpeg?width=1500&height=2223 1500w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 238)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "485px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "padding": "0px",
+        "position": "static",
+        "width": "582px"
+      }
+    },
+    {
+      "alt": "Project image",
+      "box": {
+        "height": 679,
+        "width": 582,
+        "x": 686,
+        "y": 2189.59375
+      },
+      "src": "https://framerusercontent.com/images/ZHZ07yGc1v2WndqGRUJXADkPEA.jpeg?scale-down-to=1024&width=1500&height=1875",
+      "srcset": "https://framerusercontent.com/images/ZHZ07yGc1v2WndqGRUJXADkPEA.jpeg?scale-down-to=1024&width=1500&height=1875 819w,https://framerusercontent.com/images/ZHZ07yGc1v2WndqGRUJXADkPEA.jpeg?width=1500&height=1875 1500w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 238)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "679px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "padding": "0px",
+        "position": "static",
+        "width": "582px"
+      }
+    },
+    {
+      "alt": "Project image",
+      "box": {
+        "height": 776,
+        "width": 582,
+        "x": 80,
+        "y": 3065.390625
+      },
+      "src": "https://framerusercontent.com/images/w0aJG28udbOHA20wSrNyd0sPnps.jpeg?scale-down-to=1024&width=1500&height=2000",
+      "srcset": "https://framerusercontent.com/images/w0aJG28udbOHA20wSrNyd0sPnps.jpeg?scale-down-to=1024&width=1500&height=2000 768w,https://framerusercontent.com/images/w0aJG28udbOHA20wSrNyd0sPnps.jpeg?width=1500&height=2000 1500w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 238)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "776px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "padding": "0px",
+        "position": "static",
+        "width": "582px"
+      }
+    },
+    {
+      "alt": "Project image",
+      "box": {
+        "height": 582,
+        "width": 582,
+        "x": 686,
+        "y": 3065.390625
+      },
+      "src": "https://framerusercontent.com/images/aPW3WNnJMIQSKiT6mDIwcQMY0Q.jpeg?scale-down-to=1024&width=1500&height=1875",
+      "srcset": "https://framerusercontent.com/images/aPW3WNnJMIQSKiT6mDIwcQMY0Q.jpeg?scale-down-to=1024&width=1500&height=1875 819w,https://framerusercontent.com/images/aPW3WNnJMIQSKiT6mDIwcQMY0Q.jpeg?width=1500&height=1875 1500w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 238)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "582px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "padding": "0px",
+        "position": "static",
+        "width": "582px"
+      }
+    },
+    {
+      "alt": "",
+      "box": {
+        "height": 418.421875,
+        "width": 544,
+        "x": 724,
+        "y": 7905.1875
+      },
+      "src": "https://framerusercontent.com/images/mUz48kjVRBCpvZRJS5Hsat05cQ.png?scale-down-to=1024&width=1200&height=923",
+      "srcset": "https://framerusercontent.com/images/mUz48kjVRBCpvZRJS5Hsat05cQ.png?scale-down-to=512&width=1200&height=923 512w,https://framerusercontent.com/images/mUz48kjVRBCpvZRJS5Hsat05cQ.png?scale-down-to=1024&width=1200&height=923 1024w,https://framerusercontent.com/images/mUz48kjVRBCpvZRJS5Hsat05cQ.png?width=1200&height=923 1200w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "16px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "418.422px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "padding": "0px",
+        "position": "static",
+        "width": "544px"
+      }
+    },
+    {
+      "alt": "Blog cover image",
+      "box": {
+        "height": 338.703125,
+        "width": 380,
+        "x": 80,
+        "y": 9266.609375
+      },
+      "src": "https://framerusercontent.com/images/yfkyzhmlZndJdLPjWIKLht3MJw.jpeg?scale-down-to=512&width=1500&height=1337",
+      "srcset": "https://framerusercontent.com/images/yfkyzhmlZndJdLPjWIKLht3MJw.jpeg?scale-down-to=512&width=1500&height=1337 512w,https://framerusercontent.com/images/yfkyzhmlZndJdLPjWIKLht3MJw.jpeg?scale-down-to=1024&width=1500&height=1337 1024w,https://framerusercontent.com/images/yfkyzhmlZndJdLPjWIKLht3MJw.jpeg?width=1500&height=1337 1500w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 238)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "338.703px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "padding": "0px",
+        "position": "static",
+        "width": "380px"
+      }
+    },
+    {
+      "alt": "Blog cover image",
+      "box": {
+        "height": 557.328125,
+        "width": 380,
+        "x": 484,
+        "y": 9266.609375
+      },
+      "src": "https://framerusercontent.com/images/B0K1EaoPkzmzTUTxDbDyxs2r9s.jpeg?scale-down-to=1024&width=1500&height=2200",
+      "srcset": "https://framerusercontent.com/images/B0K1EaoPkzmzTUTxDbDyxs2r9s.jpeg?scale-down-to=1024&width=1500&height=2200 698w,https://framerusercontent.com/images/B0K1EaoPkzmzTUTxDbDyxs2r9s.jpeg?scale-down-to=2048&width=1500&height=2200 1396w,https://framerusercontent.com/images/B0K1EaoPkzmzTUTxDbDyxs2r9s.jpeg?width=1500&height=2200 1500w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 238)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "557.328px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "padding": "0px",
+        "position": "static",
+        "width": "380px"
+      }
+    },
+    {
+      "alt": "Blog cover image",
+      "box": {
+        "height": 475,
+        "width": 380,
+        "x": 888,
+        "y": 9266.609375
+      },
+      "src": "https://framerusercontent.com/images/KMmtejLizhx0eN01ZpB1FoOxmCs.jpeg?scale-down-to=1024&width=1500&height=1875",
+      "srcset": "https://framerusercontent.com/images/KMmtejLizhx0eN01ZpB1FoOxmCs.jpeg?scale-down-to=1024&width=1500&height=1875 819w,https://framerusercontent.com/images/KMmtejLizhx0eN01ZpB1FoOxmCs.jpeg?width=1500&height=1875 1500w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 238)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "475px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "padding": "0px",
+        "position": "static",
+        "width": "380px"
+      }
+    },
+    {
+      "alt": "",
+      "box": {
+        "height": 64,
+        "width": 64,
+        "x": 80,
+        "y": 10711.734375
+      },
+      "src": "https://framerusercontent.com/images/5U7azVaVT6ogBk23qZv9AtdLy5c.png?scale-down-to=512&width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/5U7azVaVT6ogBk23qZv9AtdLy5c.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/5U7azVaVT6ogBk23qZv9AtdLy5c.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/5U7azVaVT6ogBk23qZv9AtdLy5c.png?width=1200&height=1200 1200w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "10px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "64px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "padding": "0px",
+        "position": "static",
+        "width": "64px"
+      }
+    },
+    {
+      "alt": "",
+      "box": {
+        "height": 64,
+        "width": 64,
+        "x": 714,
+        "y": 10711.734375
+      },
+      "src": "https://framerusercontent.com/images/ibp1X81xDuAS0d4fSUZglCyqn1E.png?scale-down-to=1024&width=951&height=1200",
+      "srcset": "https://framerusercontent.com/images/ibp1X81xDuAS0d4fSUZglCyqn1E.png?scale-down-to=1024&width=951&height=1200 811w,https://framerusercontent.com/images/ibp1X81xDuAS0d4fSUZglCyqn1E.png?width=951&height=1200 951w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "10px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "64px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "padding": "0px",
+        "position": "static",
+        "width": "64px"
+      }
+    }
+  ],
+  "videoReferences": [],
+  "routesObserved": [
+    "https://atlas-studio.framer.website/",
+    "https://atlas-studio.framer.website/about",
+    "https://atlas-studio.framer.website/blog",
+    "https://atlas-studio.framer.website/blog/beyond-pixels-measuring-design-impact",
+    "https://atlas-studio.framer.website/blog/design-sprints-done-right",
+    "https://atlas-studio.framer.website/blog/shipping-faster-with-feature-flags",
+    "https://atlas-studio.framer.website/contact",
+    "https://atlas-studio.framer.website/legal/privacy-policy",
+    "https://atlas-studio.framer.website/legal/terms",
+    "https://atlas-studio.framer.website/services",
+    "https://atlas-studio.framer.website/work",
+    "https://atlas-studio.framer.website/work/bubble-introduction",
+    "https://atlas-studio.framer.website/work/buy-hej",
+    "https://atlas-studio.framer.website/work/grey-space",
+    "https://atlas-studio.framer.website/work/react",
+    "https://atlas-studio.framer.website/work/reflection",
+    "https://atlas-studio.framer.website/work/relation",
+    "https://www.bryntaylor.co.uk/?ref=template-footer",
+    "https://www.bryntaylor.co.uk/resources/unlimited-access&ref=template-footer",
+    "https://www.bryntaylor.co.uk/resources/unlimited-access?ref=template-banner",
+    "https://www.facebook.com/",
+    "https://www.framer.com/",
+    "https://www.framer.com/?via=bryn",
+    "https://www.framer.com/@bryn-taylor/?tab=marketplace&via=bryn",
+    "https://www.framer.com/marketplace/templates/atlas-studio/?via=bryn",
+    "https://www.instagram.com/",
+    "https://www.linkedin.com/in/",
+    "https://x.com/",
+    "mailto:hello@atlas.com",
+    "mailto:hi@email.com"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering."
+  ]
+}

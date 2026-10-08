@@ -1,0 +1,4733 @@
+{
+  "template": "Agentic",
+  "preview": "https://agentic.framer.website/",
+  "marketplace": "https://www.framer.com/marketplace/templates/agentic/",
+  "creator": "Cristian Mielu",
+  "coverage": "Live desktop preview, rendered DOM/style measurements, source media URLs and viewport screenshots. Phone rendering unverified.",
+  "viewport": {
+    "dpr": 1,
+    "height": 936,
+    "scrollY": 0,
+    "width": 1363
+  },
+  "pageHeight": 21732,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/hero-settled.jpg",
+      "cropBox": [
+        0,
+        0,
+        1348,
+        926
+      ],
+      "label": "01  hero settled / overview",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/work-card.jpg",
+      "cropBox": [
+        0,
+        0,
+        1348,
+        926
+      ],
+      "label": "02  work card / overview",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/about-intro.jpg",
+      "cropBox": [
+        0,
+        0,
+        1348,
+        926
+      ],
+      "label": "03  about intro / overview",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/team-profile.jpg",
+      "cropBox": [
+        0,
+        0,
+        1348,
+        926
+      ],
+      "label": "04  team profile / overview",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/awards-list.jpg",
+      "cropBox": [
+        0,
+        0,
+        1348,
+        926
+      ],
+      "label": "05  awards list / overview",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/services-list.jpg",
+      "cropBox": [
+        0,
+        0,
+        1348,
+        926
+      ],
+      "label": "06  services list / overview",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/footer.jpg",
+      "cropBox": [
+        0,
+        0,
+        1348,
+        926
+      ],
+      "label": "07  footer / overview",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/case-study.jpg",
+      "cropBox": [
+        0,
+        0,
+        1348,
+        926
+      ],
+      "label": "08  case study / overview",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/hero-settled.jpg",
+      "cropBox": [
+        107,
+        111,
+        1240,
+        740
+      ],
+      "label": "09  hero settled / detail crop",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/work-card.jpg",
+      "cropBox": [
+        0,
+        463,
+        1348,
+        926
+      ],
+      "label": "10  work card / detail crop",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/about-intro.jpg",
+      "cropBox": [
+        107,
+        111,
+        1240,
+        740
+      ],
+      "label": "11  about intro / detail crop",
+      "evidence": "browser-viewport-capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/team-profile.jpg",
+      "cropBox": [
+        0,
+        463,
+        1348,
+        926
+      ],
+      "label": "12  team profile / detail crop",
+      "evidence": "browser-viewport-capture"
+    }
+  ],
+  "renderedTypeSamples": [
+    {
+      "tag": "H2",
+      "textSample": "Tektura",
+      "box": {
+        "height": 54,
+        "width": 344.1656494140625,
+        "x": -12.879684448242188,
+        "y": 1229
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "60px",
+        "fontWeight": "700",
+        "lineHeight": "60px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "H2",
+      "textSample": "Reelio",
+      "box": {
+        "height": 54,
+        "width": 344.1656494140625,
+        "x": -12.879684448242188,
+        "y": 2165
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "60px",
+        "fontWeight": "700",
+        "lineHeight": "60px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "H2",
+      "textSample": "Vitalo",
+      "box": {
+        "height": 54,
+        "width": 344.1656494140625,
+        "x": -12.879684448242188,
+        "y": 3101
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "60px",
+        "fontWeight": "700",
+        "lineHeight": "60px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "H2",
+      "textSample": "Kate Lee Cobe",
+      "box": {
+        "height": 120,
+        "width": 390,
+        "x": 798,
+        "y": 7520
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "60px",
+        "fontWeight": "700",
+        "lineHeight": "60px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "textSample": "Leo Martín",
+      "box": {
+        "height": 60,
+        "width": 390,
+        "x": 798,
+        "y": 8476
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "60px",
+        "fontWeight": "700",
+        "lineHeight": "60px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "textSample": "Sienna Cruz",
+      "box": {
+        "height": 60,
+        "width": 390,
+        "x": 798,
+        "y": 9432
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "60px",
+        "fontWeight": "700",
+        "lineHeight": "60px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "textSample": "Tobias Nguyen",
+      "box": {
+        "height": 120,
+        "width": 390,
+        "x": 798,
+        "y": 10388
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "60px",
+        "fontWeight": "700",
+        "lineHeight": "60px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "textSample": "Maya El-Sayegh",
+      "box": {
+        "height": 120,
+        "width": 390,
+        "x": 798,
+        "y": 11344
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "60px",
+        "fontWeight": "700",
+        "lineHeight": "60px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H2",
+      "textSample": "Jasper Voss",
+      "box": {
+        "height": 60,
+        "width": 390,
+        "x": 798,
+        "y": 12300
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "60px",
+        "fontWeight": "700",
+        "lineHeight": "60px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "Web Design and Development",
+      "box": {
+        "height": 90.7314453125,
+        "width": 394.199951171875,
+        "x": 811.9000244140625,
+        "y": 15217.2001953125
+      },
+      "font": {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "lineHeight": "50.4px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "UI/UX Design",
+      "box": {
+        "height": 45.365234375,
+        "width": 394.199951171875,
+        "x": 811.9000244140625,
+        "y": 16153.2001953125
+      },
+      "font": {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "lineHeight": "50.4px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "Product Design",
+      "box": {
+        "height": 45.3671875,
+        "width": 394.199951171875,
+        "x": 811.9000244140625,
+        "y": 17089.19921875
+      },
+      "font": {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "lineHeight": "50.4px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "Branding and Identity",
+      "box": {
+        "height": 45.3671875,
+        "width": 394.199951171875,
+        "x": 811.9000244140625,
+        "y": 18025.19921875
+      },
+      "font": {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "lineHeight": "50.4px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "Digital Marketing",
+      "box": {
+        "height": 45.3671875,
+        "width": 394.199951171875,
+        "x": 811.9000244140625,
+        "y": 18961.19921875
+      },
+      "font": {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "lineHeight": "50.4px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H3",
+      "textSample": "Consultation and Strategy",
+      "box": {
+        "height": 90.732421875,
+        "width": 394.199951171875,
+        "x": 811.9000244140625,
+        "y": 19897.19921875
+      },
+      "font": {
+        "fontFamily": "Inter, \"Inter Placeholder\", sans-serif",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "lineHeight": "50.4px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": "H1",
+      "textSample": "AGENTIC®",
+      "box": {
+        "height": 196.7579345703125,
+        "width": 1251.9658203125,
+        "x": 48.01712417602539,
+        "y": 739.03125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", sans-serif",
+        "fontSize": "273.453px",
+        "fontWeight": "900",
+        "lineHeight": "218.762px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 60, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "HOME",
+      "box": {
+        "height": 16,
+        "width": 45.515625,
+        "x": 81.2421875,
+        "y": 96
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "SIGN UP",
+      "box": {
+        "height": 24,
+        "width": 90.140625,
+        "x": 160,
+        "y": 487
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "SIGN IN",
+      "box": {
+        "height": 24,
+        "width": 81.515625,
+        "x": 266.140625,
+        "y": 487
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Elevating Digital Excellence.",
+      "box": {
+        "height": 24,
+        "width": 308.390625,
+        "x": 975.609375,
+        "y": 223
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "",
+      "box": {
+        "height": 24,
+        "width": 308.390625,
+        "x": 975.609375,
+        "y": 247
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "We specialize in web design, development, UI/",
+      "box": {
+        "height": 120,
+        "width": 308.390625,
+        "x": 975.609375,
+        "y": 271
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "(WORK)",
+      "box": {
+        "height": 14.4000244140625,
+        "width": 50.849998474121094,
+        "x": -12.879684448242188,
+        "y": 1193
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "Category:",
+      "box": {
+        "height": 14.39990234375,
+        "width": 124.38282775878906,
+        "x": 169.5203094482422,
+        "y": 1528.800048828125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "Website Design",
+      "box": {
+        "height": 14.39990234375,
+        "width": 124.38278198242188,
+        "x": 302.90313720703125,
+        "y": 1528.800048828125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "Client:",
+      "box": {
+        "height": 14.39990234375,
+        "width": 124.38282775878906,
+        "x": 169.5203094482422,
+        "y": 1564.800048828125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "Tektura",
+      "box": {
+        "height": 14.39990234375,
+        "width": 124.38278198242188,
+        "x": 302.90313720703125,
+        "y": 1564.800048828125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "Duration:",
+      "box": {
+        "height": 14.39990234375,
+        "width": 124.38282775878906,
+        "x": 169.5203094482422,
+        "y": 1600.800048828125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "4 weeks",
+      "box": {
+        "height": 14.39990234375,
+        "width": 124.38278198242188,
+        "x": 302.90313720703125,
+        "y": 1600.800048828125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "View Project",
+      "box": {
+        "height": 1.60009765625,
+        "width": 8.7734375,
+        "x": 590.15234375,
+        "y": 1403.199951171875
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "(WORK)",
+      "box": {
+        "height": 14.39990234375,
+        "width": 50.849998474121094,
+        "x": -12.879684448242188,
+        "y": 2129
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "Category:",
+      "box": {
+        "height": 14.39990234375,
+        "width": 124.38282775878906,
+        "x": 169.5203094482422,
+        "y": 2464.800048828125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "Website Design",
+      "box": {
+        "height": 14.39990234375,
+        "width": 124.38278198242188,
+        "x": 302.90313720703125,
+        "y": 2464.800048828125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "Client:",
+      "box": {
+        "height": 14.39990234375,
+        "width": 124.38282775878906,
+        "x": 169.5203094482422,
+        "y": 2500.800048828125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "Reelio",
+      "box": {
+        "height": 14.39990234375,
+        "width": 124.38278198242188,
+        "x": 302.90313720703125,
+        "y": 2500.800048828125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "Duration:",
+      "box": {
+        "height": 14.39990234375,
+        "width": 124.38282775878906,
+        "x": 169.5203094482422,
+        "y": 2536.800048828125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "3 weeks",
+      "box": {
+        "height": 14.39990234375,
+        "width": 124.38278198242188,
+        "x": 302.90313720703125,
+        "y": 2536.800048828125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "View Project",
+      "box": {
+        "height": 1.60009765625,
+        "width": 8.7734375,
+        "x": 590.15234375,
+        "y": 2339.199951171875
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "(WORK)",
+      "box": {
+        "height": 14.39990234375,
+        "width": 50.849998474121094,
+        "x": -12.879684448242188,
+        "y": 3065
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "Category:",
+      "box": {
+        "height": 14.39990234375,
+        "width": 124.38282775878906,
+        "x": 169.5203094482422,
+        "y": 3400.800048828125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "Website Design",
+      "box": {
+        "height": 14.39990234375,
+        "width": 124.38278198242188,
+        "x": 302.90313720703125,
+        "y": 3400.800048828125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "Client:",
+      "box": {
+        "height": 14.39990234375,
+        "width": 124.38282775878906,
+        "x": 169.5203094482422,
+        "y": 3436.800048828125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "Vitalo",
+      "box": {
+        "height": 14.39990234375,
+        "width": 124.38278198242188,
+        "x": 302.90313720703125,
+        "y": 3436.800048828125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "Duration:",
+      "box": {
+        "height": 14.39990234375,
+        "width": 124.38282775878906,
+        "x": 169.5203094482422,
+        "y": 3472.800048828125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "3 weeks",
+      "box": {
+        "height": 14.39990234375,
+        "width": 124.38278198242188,
+        "x": 302.90313720703125,
+        "y": 3472.800048828125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "View Project",
+      "box": {
+        "height": 1.60009765625,
+        "width": 8.7734375,
+        "x": 590.15234375,
+        "y": 3275.199951171875
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "VIEW ALL",
+      "box": {
+        "height": 80,
+        "width": 362.265625,
+        "x": 492.8671875,
+        "y": 4184
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "80px",
+        "fontWeight": "700",
+        "lineHeight": "80px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 60, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "MORE PROJECTS(…)",
+      "box": {
+        "height": 80,
+        "width": 765.59375,
+        "x": 291.203125,
+        "y": 4184
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "80px",
+        "fontWeight": "700",
+        "lineHeight": "80px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": null,
+      "textSample": "(ABOUT US)",
+      "box": {
+        "height": 16,
+        "width": 1140,
+        "x": 160,
+        "y": 4888
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "At Agentic, we are a team of dedicated creati",
+      "box": {
+        "height": 38.400390625,
+        "width": 71.9593505859375,
+        "x": 792.2234497070312,
+        "y": 5196.7998046875
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "What sets us apart is not just our technical ",
+      "box": {
+        "height": 48,
+        "width": 71.9593505859375,
+        "x": 792.2234497070312,
+        "y": 5816
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Every project we undertake is a unique opport",
+      "box": {
+        "height": 52.7998046875,
+        "width": 71.9593505859375,
+        "x": 792.2234497070312,
+        "y": 6509.60009765625
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "500",
+        "lineHeight": "48px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "(MEET US)",
+      "box": {
+        "height": 16,
+        "width": 1140,
+        "x": 160,
+        "y": 7080
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "At Agentic, our strength lies in our diverse ",
+      "box": {
+        "height": 9.599609375,
+        "width": 51.4000244140625,
+        "x": 295.29998779296875,
+        "y": 7259.2001953125
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "1",
+      "box": {
+        "height": 16,
+        "width": 5.921875,
+        "x": 1163.453125,
+        "y": 8136
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "/",
+      "box": {
+        "height": 16,
+        "width": 5.203125,
+        "x": 1171.375,
+        "y": 8136
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "6",
+      "box": {
+        "height": 16,
+        "width": 9.421875,
+        "x": 1178.578125,
+        "y": 8136
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Founder",
+      "box": {
+        "height": 16,
+        "width": 58.125,
+        "x": 798,
+        "y": 7664
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 60, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "\"Where Vision Meets Innovation\"",
+      "box": {
+        "height": 24,
+        "width": 390,
+        "x": 798,
+        "y": 7704
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "2",
+      "box": {
+        "height": 16,
+        "width": 9.140625,
+        "x": 1160.234375,
+        "y": 9092
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "/",
+      "box": {
+        "height": 16,
+        "width": 5.203125,
+        "x": 1171.375,
+        "y": 9092
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "6",
+      "box": {
+        "height": 16,
+        "width": 9.421875,
+        "x": 1178.578125,
+        "y": 9092
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Head of Digital Design",
+      "box": {
+        "height": 16,
+        "width": 155,
+        "x": 798,
+        "y": 8560
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 60, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "\"Turning Code into Art\"",
+      "box": {
+        "height": 24,
+        "width": 390,
+        "x": 798,
+        "y": 8600
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "3",
+      "box": {
+        "height": 16,
+        "width": 9.640625,
+        "x": 1159.734375,
+        "y": 10048
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "/",
+      "box": {
+        "height": 16,
+        "width": 5.203125,
+        "x": 1171.375,
+        "y": 10048
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "6",
+      "box": {
+        "height": 16,
+        "width": 9.421875,
+        "x": 1178.578125,
+        "y": 10048
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Senior Brand Designer",
+      "box": {
+        "height": 16,
+        "width": 156.84375,
+        "x": 798,
+        "y": 9516
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 60, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "\"Crafting Experiences, Not Just Designs\"",
+      "box": {
+        "height": 48,
+        "width": 390,
+        "x": 798,
+        "y": 9556
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "4",
+      "box": {
+        "height": 16,
+        "width": 9.78125,
+        "x": 1159.59375,
+        "y": 11004
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "/",
+      "box": {
+        "height": 16,
+        "width": 5.203125,
+        "x": 1171.375,
+        "y": 11004
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "6",
+      "box": {
+        "height": 16,
+        "width": 9.421875,
+        "x": 1178.578125,
+        "y": 11004
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "Lead Developer",
+      "box": {
+        "height": 16,
+        "width": 109.890625,
+        "x": 798,
+        "y": 10532
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(255, 60, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "\"Designing Tomorrow, Today\"",
+      "box": {
+        "height": 24,
+        "width": 390,
+        "x": 798,
+        "y": 10572
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "5",
+      "box": {
+        "height": 16,
+        "width": 9.203125,
+        "x": 1160.171875,
+        "y": 11960
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    },
+    {
+      "tag": null,
+      "textSample": "/",
+      "box": {
+        "height": 16,
+        "width": 5.203125,
+        "x": 1171.375,
+        "y": 11960
+      },
+      "font": {
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "color": "rgb(0, 0, 0)"
+    }
+  ],
+  "renderedFrameGeometry": [
+    {
+      "name": "Nav",
+      "box": {
+        "height": 112,
+        "width": 1252,
+        "x": 48,
+        "y": 48
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Hero Section",
+      "box": {
+        "height": 936,
+        "width": 1348,
+        "x": 0,
+        "y": 0
+      },
+      "style": {
+        "padding": "24px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Menu + Description",
+      "box": {
+        "height": 336,
+        "width": 1164,
+        "x": 160,
+        "y": 175
+      },
+      "style": {
+        "padding": "0px 136px 0px 0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Menu Content",
+      "box": {
+        "height": 336,
+        "width": 719.609375,
+        "x": 160,
+        "y": 175
+      },
+      "style": {
+        "padding": "0px 24px 0px 0px",
+        "gap": "24px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Menu",
+      "box": {
+        "height": 288,
+        "width": 695.609375,
+        "x": 160,
+        "y": 175
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Work",
+      "box": {
+        "height": 72,
+        "width": 695.609375,
+        "x": 154.36778259277344,
+        "y": 175
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 72,
+        "width": 695.609375,
+        "x": 154.36778259277344,
+        "y": 175
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "About",
+      "box": {
+        "height": 72,
+        "width": 695.609375,
+        "x": 147.90931701660156,
+        "y": 247
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 72,
+        "width": 695.609375,
+        "x": 147.90931701660156,
+        "y": 247
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Services",
+      "box": {
+        "height": 72,
+        "width": 695.609375,
+        "x": 134.04562377929688,
+        "y": 319
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 72,
+        "width": 695.609375,
+        "x": 134.04562377929688,
+        "y": 319
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Contact",
+      "box": {
+        "height": 72,
+        "width": 695.609375,
+        "x": 104.41671752929688,
+        "y": 391
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 72,
+        "width": 695.609375,
+        "x": 104.41671752929688,
+        "y": 391
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Account Links",
+      "box": {
+        "height": 24,
+        "width": 695.609375,
+        "x": 160,
+        "y": 487
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "16px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Hero-description",
+      "box": {
+        "height": 288,
+        "width": 308.390625,
+        "x": 879.609375,
+        "y": 223
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Work Section",
+      "box": {
+        "height": 3744,
+        "width": 1348,
+        "x": 0,
+        "y": 936
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Work1",
+      "box": {
+        "height": 936,
+        "width": 1348,
+        "x": 0,
+        "y": 936
+      },
+      "style": {
+        "padding": "24px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Work-Card-Selected",
+      "box": {
+        "height": 888,
+        "width": 1300,
+        "x": 24,
+        "y": 960
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 888,
+        "width": 1300,
+        "x": 24,
+        "y": 960
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "64px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Post",
+      "box": {
+        "height": 432,
+        "width": 382.40625,
+        "x": 160,
+        "y": 1188
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Title",
+      "box": {
+        "height": 54,
+        "width": 344.1656494140625,
+        "x": -12.879684448242188,
+        "y": 1229
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Category",
+      "box": {
+        "height": 14.39990234375,
+        "width": 257.765625,
+        "x": 169.5203094482422,
+        "y": 1528.800048828125
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Client",
+      "box": {
+        "height": 14.39990234375,
+        "width": 257.765625,
+        "x": 169.5203094482422,
+        "y": 1564.800048828125
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Duration",
+      "box": {
+        "height": 14.39990234375,
+        "width": 257.765625,
+        "x": 169.5203094482422,
+        "y": 1600.800048828125
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Photo",
+      "box": {
+        "height": 388.800048828125,
+        "width": 602.6343383789062,
+        "x": 835.8859252929688,
+        "y": 1233.5999755859375
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Work2",
+      "box": {
+        "height": 936,
+        "width": 1348,
+        "x": 0,
+        "y": 1872
+      },
+      "style": {
+        "padding": "24px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Work-Card-Selected",
+      "box": {
+        "height": 888,
+        "width": 1300,
+        "x": 24,
+        "y": 1896
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 888,
+        "width": 1300,
+        "x": 24,
+        "y": 1896
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "64px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Post",
+      "box": {
+        "height": 432,
+        "width": 382.40625,
+        "x": 160,
+        "y": 2124
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Title",
+      "box": {
+        "height": 54,
+        "width": 344.1656494140625,
+        "x": -12.879684448242188,
+        "y": 2165
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Category",
+      "box": {
+        "height": 14.39990234375,
+        "width": 257.765625,
+        "x": 169.5203094482422,
+        "y": 2464.800048828125
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Client",
+      "box": {
+        "height": 14.39990234375,
+        "width": 257.765625,
+        "x": 169.5203094482422,
+        "y": 2500.800048828125
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Duration",
+      "box": {
+        "height": 14.39990234375,
+        "width": 257.765625,
+        "x": 169.5203094482422,
+        "y": 2536.800048828125
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Photo",
+      "box": {
+        "height": 388.7998046875,
+        "width": 602.6343383789062,
+        "x": 835.8859252929688,
+        "y": 2169.60009765625
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Work3",
+      "box": {
+        "height": 936,
+        "width": 1348,
+        "x": 0,
+        "y": 2808
+      },
+      "style": {
+        "padding": "24px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Work-Card-Selected",
+      "box": {
+        "height": 888,
+        "width": 1300,
+        "x": 24,
+        "y": 2832
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 888,
+        "width": 1300,
+        "x": 24,
+        "y": 2832
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "64px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Post",
+      "box": {
+        "height": 432,
+        "width": 382.40625,
+        "x": 160,
+        "y": 3060
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Title",
+      "box": {
+        "height": 54,
+        "width": 344.1656494140625,
+        "x": -12.879684448242188,
+        "y": 3101
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Category",
+      "box": {
+        "height": 14.39990234375,
+        "width": 257.765625,
+        "x": 169.5203094482422,
+        "y": 3400.800048828125
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Client",
+      "box": {
+        "height": 14.39990234375,
+        "width": 257.765625,
+        "x": 169.5203094482422,
+        "y": 3436.800048828125
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Duration",
+      "box": {
+        "height": 14.39990234375,
+        "width": 257.765625,
+        "x": 169.5203094482422,
+        "y": 3472.800048828125
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Photo",
+      "box": {
+        "height": 388.7998046875,
+        "width": 602.6343383789062,
+        "x": 835.8859252929688,
+        "y": 3105.60009765625
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "View All Works",
+      "box": {
+        "height": 936,
+        "width": 1348,
+        "x": 0,
+        "y": 3744
+      },
+      "style": {
+        "padding": "24px 24px 0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Variant 1",
+      "box": {
+        "height": 144,
+        "width": 1028,
+        "x": 160,
+        "y": 4152
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "600px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Variant 1",
+      "box": {
+        "height": 60,
+        "width": 1028,
+        "x": 160,
+        "y": 4194
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "VIEW ALL",
+      "box": {
+        "height": 80,
+        "width": 362.265625,
+        "x": 492.8671875,
+        "y": 4184
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "frame-1",
+      "box": {
+        "height": 72,
+        "width": 257,
+        "x": 160,
+        "y": 4152
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "frame-2",
+      "box": {
+        "height": 72,
+        "width": 257,
+        "x": 417,
+        "y": 4152
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "frame-3",
+      "box": {
+        "height": 72,
+        "width": 257,
+        "x": 674,
+        "y": 4152
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "frame-4",
+      "box": {
+        "height": 72,
+        "width": 257,
+        "x": 931,
+        "y": 4152
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "frame-5",
+      "box": {
+        "height": 72,
+        "width": 257,
+        "x": 160,
+        "y": 4224
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "frame-6",
+      "box": {
+        "height": 72,
+        "width": 257,
+        "x": 417,
+        "y": 4224
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "frame-7",
+      "box": {
+        "height": 72,
+        "width": 257,
+        "x": 674,
+        "y": 4224
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "frame-8",
+      "box": {
+        "height": 72,
+        "width": 257,
+        "x": 931,
+        "y": 4224
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "About Section",
+      "box": {
+        "height": 16116,
+        "width": 1348,
+        "x": 0,
+        "y": 4680
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "About",
+      "box": {
+        "height": 10084,
+        "width": 1348,
+        "x": 0,
+        "y": 4680
+      },
+      "style": {
+        "padding": "24px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Intro",
+      "box": {
+        "height": 2192,
+        "width": 1300,
+        "x": 24,
+        "y": 4704
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Title - About",
+      "box": {
+        "height": 224,
+        "width": 1300,
+        "x": 24,
+        "y": 4704
+      },
+      "style": {
+        "padding": "184px 24px 24px 136px",
+        "gap": "48px",
+        "borderRadius": "60px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Text-01",
+      "box": {
+        "height": 576,
+        "width": 1300,
+        "x": 24,
+        "y": 4928
+      },
+      "style": {
+        "padding": "96px 136px",
+        "gap": "48px",
+        "borderRadius": "60px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Text-02",
+      "box": {
+        "height": 672,
+        "width": 1300,
+        "x": 24,
+        "y": 5504
+      },
+      "style": {
+        "padding": "96px 136px",
+        "gap": "48px",
+        "borderRadius": "60px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Text-03",
+      "box": {
+        "height": 720,
+        "width": 1300,
+        "x": 24,
+        "y": 6176
+      },
+      "style": {
+        "padding": "96px 136px",
+        "gap": "48px",
+        "borderRadius": "60px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Team",
+      "box": {
+        "height": 6132,
+        "width": 1300,
+        "x": 24,
+        "y": 6896
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Title - About",
+      "box": {
+        "height": 224,
+        "width": 1300,
+        "x": 24,
+        "y": 6896
+      },
+      "style": {
+        "padding": "184px 24px 24px 136px",
+        "gap": "48px",
+        "borderRadius": "60px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content",
+      "box": {
+        "height": 192,
+        "width": 1300,
+        "x": 24,
+        "y": 7120
+      },
+      "style": {
+        "padding": "96px 136px 0px",
+        "gap": "48px",
+        "borderRadius": "60px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 936,
+        "width": 1300,
+        "x": 24,
+        "y": 7312
+      },
+      "style": {
+        "padding": "208px 136px 96px 288px",
+        "gap": "48px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Photo",
+      "box": {
+        "height": 632,
+        "width": 438,
+        "x": 312,
+        "y": 7520
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "60px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Social Links",
+      "box": {
+        "height": 14,
+        "width": 390,
+        "x": 798,
+        "y": 8090
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "48px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 936,
+        "width": 1300,
+        "x": 24,
+        "y": 8268
+      },
+      "style": {
+        "padding": "208px 136px 96px 288px",
+        "gap": "48px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Photo",
+      "box": {
+        "height": 632,
+        "width": 438,
+        "x": 312,
+        "y": 8476
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "60px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Social Links",
+      "box": {
+        "height": 14,
+        "width": 390,
+        "x": 798,
+        "y": 9046
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "48px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 936,
+        "width": 1300,
+        "x": 24,
+        "y": 9224
+      },
+      "style": {
+        "padding": "208px 136px 96px 288px",
+        "gap": "48px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Photo",
+      "box": {
+        "height": 632,
+        "width": 438,
+        "x": 312,
+        "y": 9432
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "60px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Social Links",
+      "box": {
+        "height": 14,
+        "width": 390,
+        "x": 798,
+        "y": 10002
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "48px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 936,
+        "width": 1300,
+        "x": 24,
+        "y": 10180
+      },
+      "style": {
+        "padding": "208px 136px 96px 288px",
+        "gap": "48px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Photo",
+      "box": {
+        "height": 632,
+        "width": 438,
+        "x": 312,
+        "y": 10388
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "60px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Social Links",
+      "box": {
+        "height": 14,
+        "width": 390,
+        "x": 798,
+        "y": 10958
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "48px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 936,
+        "width": 1300,
+        "x": 24,
+        "y": 11136
+      },
+      "style": {
+        "padding": "208px 136px 96px 288px",
+        "gap": "48px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Photo",
+      "box": {
+        "height": 632,
+        "width": 438,
+        "x": 312,
+        "y": 11344
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "60px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Social Links",
+      "box": {
+        "height": 14,
+        "width": 390,
+        "x": 798,
+        "y": 11914
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "48px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 936,
+        "width": 1300,
+        "x": 24,
+        "y": 12092
+      },
+      "style": {
+        "padding": "208px 136px 96px 288px",
+        "gap": "48px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Photo",
+      "box": {
+        "height": 632,
+        "width": 438,
+        "x": 312,
+        "y": 12300
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "60px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Social Links",
+      "box": {
+        "height": 14,
+        "width": 390,
+        "x": 798,
+        "y": 12870
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "48px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Awards",
+      "box": {
+        "height": 1712,
+        "width": 1300,
+        "x": 24,
+        "y": 13028
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Title - About",
+      "box": {
+        "height": 224,
+        "width": 1300,
+        "x": 24,
+        "y": 13028
+      },
+      "style": {
+        "padding": "184px 136px 24px 24px",
+        "gap": "48px",
+        "borderRadius": "60px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "awards",
+      "box": {
+        "height": 1488,
+        "width": 1300,
+        "x": 24,
+        "y": 13252
+      },
+      "style": {
+        "padding": "96px 160px 96px 136px",
+        "gap": "48px",
+        "borderRadius": "60px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 128,
+        "width": 1004,
+        "x": 64,
+        "y": 13348
+      },
+      "style": {
+        "padding": "0px 162px 48px 0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 112,
+        "width": 1004,
+        "x": 64,
+        "y": 13524
+      },
+      "style": {
+        "padding": "0px 162px 48px 0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 112,
+        "width": 1004,
+        "x": 64,
+        "y": 13684
+      },
+      "style": {
+        "padding": "0px 162px 48px 0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 128,
+        "width": 1004,
+        "x": 64,
+        "y": 13844
+      },
+      "style": {
+        "padding": "0px 162px 48px 0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 96,
+        "width": 1004,
+        "x": 64,
+        "y": 14020
+      },
+      "style": {
+        "padding": "0px 162px 48px 0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 128,
+        "width": 1004,
+        "x": 64,
+        "y": 14164
+      },
+      "style": {
+        "padding": "0px 162px 48px 0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 128,
+        "width": 1004,
+        "x": 64,
+        "y": 14340
+      },
+      "style": {
+        "padding": "0px 162px 48px 0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 128,
+        "width": 1004,
+        "x": 64,
+        "y": 14516
+      },
+      "style": {
+        "padding": "0px 162px 48px 0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Services Section",
+      "box": {
+        "height": 6032,
+        "width": 1348,
+        "x": 0,
+        "y": 14764
+      },
+      "style": {
+        "padding": "96px 24px 0px",
+        "gap": "0px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Title - Services",
+      "box": {
+        "height": 224,
+        "width": 1300,
+        "x": 24,
+        "y": 14860
+      },
+      "style": {
+        "padding": "184px 136px 24px 24px",
+        "gap": "48px",
+        "borderRadius": "60px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Content",
+      "box": {
+        "height": 5712,
+        "width": 1300,
+        "x": 24,
+        "y": 15084
+      },
+      "style": {
+        "padding": "0px 288px 96px 136px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Right-Content",
+      "box": {
+        "height": 5616,
+        "width": 438,
+        "x": 598,
+        "y": 15084
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "0px",
+        "borderRadius": "60px",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "1",
+      "box": {
+        "height": 936,
+        "width": 438,
+        "x": 598,
+        "y": 15084
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 842.400390625,
+        "width": 394.199951171875,
+        "x": 811.9000244140625,
+        "y": 15130.7998046875
+      },
+      "style": {
+        "padding": "96px 0px",
+        "gap": "24px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "2",
+      "box": {
+        "height": 936,
+        "width": 438,
+        "x": 598,
+        "y": 16020
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 842.3994140625,
+        "width": 394.199951171875,
+        "x": 811.9000244140625,
+        "y": 16066.7998046875
+      },
+      "style": {
+        "padding": "96px 0px",
+        "gap": "24px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "3",
+      "box": {
+        "height": 936,
+        "width": 438,
+        "x": 598,
+        "y": 16956
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 842.3984375,
+        "width": 394.199951171875,
+        "x": 811.9000244140625,
+        "y": 17002.80078125
+      },
+      "style": {
+        "padding": "96px 0px",
+        "gap": "24px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "4",
+      "box": {
+        "height": 936,
+        "width": 438,
+        "x": 598,
+        "y": 17892
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 842.3984375,
+        "width": 394.199951171875,
+        "x": 811.9000244140625,
+        "y": 17938.80078125
+      },
+      "style": {
+        "padding": "96px 0px",
+        "gap": "24px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "5",
+      "box": {
+        "height": 936,
+        "width": 438,
+        "x": 598,
+        "y": 18828
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 842.3984375,
+        "width": 394.199951171875,
+        "x": 811.9000244140625,
+        "y": 18874.80078125
+      },
+      "style": {
+        "padding": "96px 0px",
+        "gap": "24px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "6",
+      "box": {
+        "height": 936,
+        "width": 438,
+        "x": 598,
+        "y": 19764
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 842.3984375,
+        "width": 394.199951171875,
+        "x": 811.9000244140625,
+        "y": 19810.80078125
+      },
+      "style": {
+        "padding": "96px 0px",
+        "gap": "24px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Footer- Background",
+      "box": {
+        "height": 936,
+        "width": 1348,
+        "x": 0,
+        "y": 20796
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Footer",
+      "box": {
+        "height": 936,
+        "width": 1300,
+        "x": 24,
+        "y": 0
+      },
+      "style": {
+        "padding": "24px 0px 0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop",
+      "box": {
+        "height": 912,
+        "width": 1300,
+        "x": 24,
+        "y": 24
+      },
+      "style": {
+        "padding": "160px 136px 0px",
+        "gap": "48px",
+        "borderRadius": "60px 60px 0px 0px",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Menu + Description",
+      "box": {
+        "height": 128,
+        "width": 502,
+        "x": 160,
+        "y": 248
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Menu",
+      "box": {
+        "height": 128,
+        "width": 502,
+        "x": 160,
+        "y": 248
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "48px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "email",
+      "box": {
+        "height": 40,
+        "width": 502,
+        "x": 160,
+        "y": 248
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop-White New Tab",
+      "box": {
+        "height": 40,
+        "width": 502,
+        "x": 160,
+        "y": 248
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "telephone",
+      "box": {
+        "height": 40,
+        "width": 502,
+        "x": 160,
+        "y": 336
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "normal",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Desktop-White New Tab",
+      "box": {
+        "height": 40,
+        "width": 502,
+        "x": 160,
+        "y": 336
+      },
+      "style": {
+        "padding": "0px",
+        "gap": "10px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    },
+    {
+      "name": "Agencia",
+      "box": {
+        "height": 260.96875,
+        "width": 1300,
+        "x": 24,
+        "y": 675.03125
+      },
+      "style": {
+        "padding": "24px 24px 0px",
+        "gap": "24px",
+        "borderRadius": "0px",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "backgroundImage": "none",
+        "gridTemplateColumns": "none"
+      }
+    }
+  ],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Inter Tight",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/intertight/v9/NGSwv5HMAFg6IuGlBNMjxLsH8ag.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-tight-500-0.woff2"
+    },
+    {
+      "family": "Inter Tight",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/intertight/v9/NGSwv5HMAFg6IuGlBNMjxLsH8ag.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-tight-700-1.woff2"
+    },
+    {
+      "family": "Inter Tight",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/intertight/v9/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjpgiaWy5S.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-tight-900-2.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-3.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/x8eJ5VkmPMHVhVbF0E8JYFJmwc.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-900-4.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/qITWJ2WdG0wrgQPDb8lvnYnTXDg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-700-5.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/iwWTDc49ENF2tCHbqlNARXw6Ug.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-500-6.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "100",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/8kSLqTnVCEtjx0nu8PxTD4Nh5UU.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-100-7.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "200",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/Z4sGWU2OKBoXPWulb5P25vULA.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-200-8.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "300",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/aqiiD4LUKkKzXdjGL5UzHq8bo5w.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-300-9.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/UjlFhCnUjxhNfep4oYBPqnEssyo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-500-10.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-600-11.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-12.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "800",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/Mput0MSwESKlJ6TMz9MPDXhgrk.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-800-13.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/rZ5DdENNqIdFTIyQQiP5isO7M.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-900-14.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/bHYNJqzTyl2lqvmMiRRS6Y16Es.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-400-15.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "100",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GoWsxcsKZ1Hiy2Y8l40zBgNwYvo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-100-16.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "200",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/t5RNiwIqoB2GvYhcdv6NPQF6kfk.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-200-17.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "300",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/CnMzVKZxLPB68RITfNGUfLe65m4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-300-18.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/PfdOpgzFf7N2Uye9JX7xRKYTgSc.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-600-19.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "800",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/9Nu9BRcGkRrLnJCGqVdSUXJt2Ig.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-800-20.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/vQyevYAyHtARFwPqUzQGpnDs.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-21.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/DXD0Q7LSl7HEvDzucnyLnGBHM.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-22.woff2"
+    }
+  ],
+  "imagesObserved": [
+    {
+      "alt": "",
+      "box": {
+        "height": 344.0390625,
+        "width": 602.6343383789062,
+        "x": 835.8859252929688,
+        "y": 1278.3609619140625
+      },
+      "src": "https://framerusercontent.com/images/utBykfunlytmLcTt4OjKCCvDNpE.png?scale-down-to=1024&width=3008&height=1718",
+      "srcset": "https://framerusercontent.com/images/utBykfunlytmLcTt4OjKCCvDNpE.png?scale-down-to=512&width=3008&height=1718 512w,https://framerusercontent.com/images/utBykfunlytmLcTt4OjKCCvDNpE.png?scale-down-to=1024&width=3008&height=1718 1024w,https://framerusercontent.com/images/utBykfunlytmLcTt4OjKCCvDNpE.png?scale-down-to=2048&width=3008&height=1718 2048w,https://framerusercontent.com/images/utBykfunlytmLcTt4OjKCCvDNpE.png?width=3008&height=1718 3008w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 238)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "382.266px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "669.594px"
+      }
+    },
+    {
+      "alt": "",
+      "box": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://framerusercontent.com/images/utBykfunlytmLcTt4OjKCCvDNpE.png?scale-down-to=1024&width=3008&height=1718",
+      "srcset": "https://framerusercontent.com/images/utBykfunlytmLcTt4OjKCCvDNpE.png?scale-down-to=512&width=3008&height=1718 512w,https://framerusercontent.com/images/utBykfunlytmLcTt4OjKCCvDNpE.png?scale-down-to=1024&width=3008&height=1718 1024w,https://framerusercontent.com/images/utBykfunlytmLcTt4OjKCCvDNpE.png?scale-down-to=2048&width=3008&height=1718 2048w,https://framerusercontent.com/images/utBykfunlytmLcTt4OjKCCvDNpE.png?width=3008&height=1718 3008w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 238)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "100%",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "100%"
+      }
+    },
+    {
+      "alt": "",
+      "box": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://framerusercontent.com/images/utBykfunlytmLcTt4OjKCCvDNpE.png?scale-down-to=1024&width=3008&height=1718",
+      "srcset": "https://framerusercontent.com/images/utBykfunlytmLcTt4OjKCCvDNpE.png?scale-down-to=512&width=3008&height=1718 512w,https://framerusercontent.com/images/utBykfunlytmLcTt4OjKCCvDNpE.png?scale-down-to=1024&width=3008&height=1718 1024w,https://framerusercontent.com/images/utBykfunlytmLcTt4OjKCCvDNpE.png?scale-down-to=2048&width=3008&height=1718 2048w,https://framerusercontent.com/images/utBykfunlytmLcTt4OjKCCvDNpE.png?width=3008&height=1718 3008w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 238)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "100%",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "100%"
+      }
+    },
+    {
+      "alt": "Reelio Framer template",
+      "box": {
+        "height": 344.0390625,
+        "width": 602.6343383789062,
+        "x": 835.8859252929688,
+        "y": 2214.36083984375
+      },
+      "src": "https://framerusercontent.com/images/qjd8DPpXYcvAvx9ZyoMydKgY.png?width=3008&height=1718",
+      "srcset": "https://framerusercontent.com/images/qjd8DPpXYcvAvx9ZyoMydKgY.png?scale-down-to=512&width=3008&height=1718 512w,https://framerusercontent.com/images/qjd8DPpXYcvAvx9ZyoMydKgY.png?scale-down-to=1024&width=3008&height=1718 1024w,https://framerusercontent.com/images/qjd8DPpXYcvAvx9ZyoMydKgY.png?scale-down-to=2048&width=3008&height=1718 2048w,https://framerusercontent.com/images/qjd8DPpXYcvAvx9ZyoMydKgY.png?width=3008&height=1718 3008w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 238)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "382.266px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "669.594px"
+      }
+    },
+    {
+      "alt": "Reelio Framer template",
+      "box": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://framerusercontent.com/images/qjd8DPpXYcvAvx9ZyoMydKgY.png?width=3008&height=1718",
+      "srcset": "https://framerusercontent.com/images/qjd8DPpXYcvAvx9ZyoMydKgY.png?scale-down-to=512&width=3008&height=1718 512w,https://framerusercontent.com/images/qjd8DPpXYcvAvx9ZyoMydKgY.png?scale-down-to=1024&width=3008&height=1718 1024w,https://framerusercontent.com/images/qjd8DPpXYcvAvx9ZyoMydKgY.png?scale-down-to=2048&width=3008&height=1718 2048w,https://framerusercontent.com/images/qjd8DPpXYcvAvx9ZyoMydKgY.png?width=3008&height=1718 3008w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 238)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "100%",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "100%"
+      }
+    },
+    {
+      "alt": "Reelio Framer template",
+      "box": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://framerusercontent.com/images/qjd8DPpXYcvAvx9ZyoMydKgY.png?width=3008&height=1718",
+      "srcset": "https://framerusercontent.com/images/qjd8DPpXYcvAvx9ZyoMydKgY.png?scale-down-to=512&width=3008&height=1718 512w,https://framerusercontent.com/images/qjd8DPpXYcvAvx9ZyoMydKgY.png?scale-down-to=1024&width=3008&height=1718 1024w,https://framerusercontent.com/images/qjd8DPpXYcvAvx9ZyoMydKgY.png?scale-down-to=2048&width=3008&height=1718 2048w,https://framerusercontent.com/images/qjd8DPpXYcvAvx9ZyoMydKgY.png?width=3008&height=1718 3008w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 238)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "100%",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "100%"
+      }
+    },
+    {
+      "alt": "Vitalo Framer template",
+      "box": {
+        "height": 344.0390625,
+        "width": 602.6343383789062,
+        "x": 835.8859252929688,
+        "y": 3150.36083984375
+      },
+      "src": "https://framerusercontent.com/images/zgspj1KLd3qSc8eylH9fWeKLxBs.png?width=3008&height=1718",
+      "srcset": "https://framerusercontent.com/images/zgspj1KLd3qSc8eylH9fWeKLxBs.png?scale-down-to=512&width=3008&height=1718 512w,https://framerusercontent.com/images/zgspj1KLd3qSc8eylH9fWeKLxBs.png?scale-down-to=1024&width=3008&height=1718 1024w,https://framerusercontent.com/images/zgspj1KLd3qSc8eylH9fWeKLxBs.png?scale-down-to=2048&width=3008&height=1718 2048w,https://framerusercontent.com/images/zgspj1KLd3qSc8eylH9fWeKLxBs.png?width=3008&height=1718 3008w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 238)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "382.266px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "669.594px"
+      }
+    },
+    {
+      "alt": "Vitalo Framer template",
+      "box": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://framerusercontent.com/images/zgspj1KLd3qSc8eylH9fWeKLxBs.png?width=3008&height=1718",
+      "srcset": "https://framerusercontent.com/images/zgspj1KLd3qSc8eylH9fWeKLxBs.png?scale-down-to=512&width=3008&height=1718 512w,https://framerusercontent.com/images/zgspj1KLd3qSc8eylH9fWeKLxBs.png?scale-down-to=1024&width=3008&height=1718 1024w,https://framerusercontent.com/images/zgspj1KLd3qSc8eylH9fWeKLxBs.png?scale-down-to=2048&width=3008&height=1718 2048w,https://framerusercontent.com/images/zgspj1KLd3qSc8eylH9fWeKLxBs.png?width=3008&height=1718 3008w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 238)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "100%",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "100%"
+      }
+    },
+    {
+      "alt": "Vitalo Framer template",
+      "box": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://framerusercontent.com/images/zgspj1KLd3qSc8eylH9fWeKLxBs.png?width=3008&height=1718",
+      "srcset": "https://framerusercontent.com/images/zgspj1KLd3qSc8eylH9fWeKLxBs.png?scale-down-to=512&width=3008&height=1718 512w,https://framerusercontent.com/images/zgspj1KLd3qSc8eylH9fWeKLxBs.png?scale-down-to=1024&width=3008&height=1718 1024w,https://framerusercontent.com/images/zgspj1KLd3qSc8eylH9fWeKLxBs.png?scale-down-to=2048&width=3008&height=1718 2048w,https://framerusercontent.com/images/zgspj1KLd3qSc8eylH9fWeKLxBs.png?width=3008&height=1718 3008w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 238)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "100%",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "100%"
+      }
+    },
+    {
+      "alt": "Kate Lee Cobe",
+      "box": {
+        "height": 632,
+        "width": 438,
+        "x": 312,
+        "y": 7520
+      },
+      "src": "https://framerusercontent.com/images/cjK3OafvNoKgbLnjfkwhCVaUH8.png?width=1792&height=1792",
+      "srcset": "https://framerusercontent.com/images/cjK3OafvNoKgbLnjfkwhCVaUH8.png?scale-down-to=512&width=1792&height=1792 512w,https://framerusercontent.com/images/cjK3OafvNoKgbLnjfkwhCVaUH8.png?scale-down-to=1024&width=1792&height=1792 1024w,https://framerusercontent.com/images/cjK3OafvNoKgbLnjfkwhCVaUH8.png?width=1792&height=1792 1792w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "632px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "438px"
+      }
+    },
+    {
+      "alt": "Kate Lee Cobe",
+      "box": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://framerusercontent.com/images/cjK3OafvNoKgbLnjfkwhCVaUH8.png?width=1792&height=1792",
+      "srcset": "https://framerusercontent.com/images/cjK3OafvNoKgbLnjfkwhCVaUH8.png?scale-down-to=512&width=1792&height=1792 512w,https://framerusercontent.com/images/cjK3OafvNoKgbLnjfkwhCVaUH8.png?scale-down-to=1024&width=1792&height=1792 1024w,https://framerusercontent.com/images/cjK3OafvNoKgbLnjfkwhCVaUH8.png?width=1792&height=1792 1792w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "100%",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "100%"
+      }
+    },
+    {
+      "alt": "Kate Lee Cobe",
+      "box": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://framerusercontent.com/images/cjK3OafvNoKgbLnjfkwhCVaUH8.png?width=1792&height=1792",
+      "srcset": "https://framerusercontent.com/images/cjK3OafvNoKgbLnjfkwhCVaUH8.png?scale-down-to=512&width=1792&height=1792 512w,https://framerusercontent.com/images/cjK3OafvNoKgbLnjfkwhCVaUH8.png?scale-down-to=1024&width=1792&height=1792 1024w,https://framerusercontent.com/images/cjK3OafvNoKgbLnjfkwhCVaUH8.png?width=1792&height=1792 1792w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "100%",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "100%"
+      }
+    },
+    {
+      "alt": "Leo Martín",
+      "box": {
+        "height": 632,
+        "width": 438,
+        "x": 312,
+        "y": 8476
+      },
+      "src": "https://framerusercontent.com/images/QGg5PDCRLdpPQZojdYLKkRMVXB0.png?width=1792&height=1792",
+      "srcset": "https://framerusercontent.com/images/QGg5PDCRLdpPQZojdYLKkRMVXB0.png?scale-down-to=512&width=1792&height=1792 512w,https://framerusercontent.com/images/QGg5PDCRLdpPQZojdYLKkRMVXB0.png?scale-down-to=1024&width=1792&height=1792 1024w,https://framerusercontent.com/images/QGg5PDCRLdpPQZojdYLKkRMVXB0.png?width=1792&height=1792 1792w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "632px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "438px"
+      }
+    },
+    {
+      "alt": "Leo Martín",
+      "box": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://framerusercontent.com/images/QGg5PDCRLdpPQZojdYLKkRMVXB0.png?width=1792&height=1792",
+      "srcset": "https://framerusercontent.com/images/QGg5PDCRLdpPQZojdYLKkRMVXB0.png?scale-down-to=512&width=1792&height=1792 512w,https://framerusercontent.com/images/QGg5PDCRLdpPQZojdYLKkRMVXB0.png?scale-down-to=1024&width=1792&height=1792 1024w,https://framerusercontent.com/images/QGg5PDCRLdpPQZojdYLKkRMVXB0.png?width=1792&height=1792 1792w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "100%",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "100%"
+      }
+    },
+    {
+      "alt": "Leo Martín",
+      "box": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://framerusercontent.com/images/QGg5PDCRLdpPQZojdYLKkRMVXB0.png?width=1792&height=1792",
+      "srcset": "https://framerusercontent.com/images/QGg5PDCRLdpPQZojdYLKkRMVXB0.png?scale-down-to=512&width=1792&height=1792 512w,https://framerusercontent.com/images/QGg5PDCRLdpPQZojdYLKkRMVXB0.png?scale-down-to=1024&width=1792&height=1792 1024w,https://framerusercontent.com/images/QGg5PDCRLdpPQZojdYLKkRMVXB0.png?width=1792&height=1792 1792w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "100%",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "100%"
+      }
+    },
+    {
+      "alt": "Sienna Cruz",
+      "box": {
+        "height": 632,
+        "width": 438,
+        "x": 312,
+        "y": 9432
+      },
+      "src": "https://framerusercontent.com/images/DwsgJ3j36VLhruJ3DB1qp4I.png?width=1792&height=1792",
+      "srcset": "https://framerusercontent.com/images/DwsgJ3j36VLhruJ3DB1qp4I.png?scale-down-to=512&width=1792&height=1792 512w,https://framerusercontent.com/images/DwsgJ3j36VLhruJ3DB1qp4I.png?scale-down-to=1024&width=1792&height=1792 1024w,https://framerusercontent.com/images/DwsgJ3j36VLhruJ3DB1qp4I.png?width=1792&height=1792 1792w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "632px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "438px"
+      }
+    },
+    {
+      "alt": "Sienna Cruz",
+      "box": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://framerusercontent.com/images/DwsgJ3j36VLhruJ3DB1qp4I.png?width=1792&height=1792",
+      "srcset": "https://framerusercontent.com/images/DwsgJ3j36VLhruJ3DB1qp4I.png?scale-down-to=512&width=1792&height=1792 512w,https://framerusercontent.com/images/DwsgJ3j36VLhruJ3DB1qp4I.png?scale-down-to=1024&width=1792&height=1792 1024w,https://framerusercontent.com/images/DwsgJ3j36VLhruJ3DB1qp4I.png?width=1792&height=1792 1792w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "100%",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "100%"
+      }
+    },
+    {
+      "alt": "Sienna Cruz",
+      "box": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://framerusercontent.com/images/DwsgJ3j36VLhruJ3DB1qp4I.png?width=1792&height=1792",
+      "srcset": "https://framerusercontent.com/images/DwsgJ3j36VLhruJ3DB1qp4I.png?scale-down-to=512&width=1792&height=1792 512w,https://framerusercontent.com/images/DwsgJ3j36VLhruJ3DB1qp4I.png?scale-down-to=1024&width=1792&height=1792 1024w,https://framerusercontent.com/images/DwsgJ3j36VLhruJ3DB1qp4I.png?width=1792&height=1792 1792w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "100%",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "100%"
+      }
+    },
+    {
+      "alt": "Tobias Nguyen",
+      "box": {
+        "height": 632,
+        "width": 438,
+        "x": 312,
+        "y": 10388
+      },
+      "src": "https://framerusercontent.com/images/kytjqF02JSkoP4GXchDGcfIWBgw.png?width=1792&height=1792",
+      "srcset": "https://framerusercontent.com/images/kytjqF02JSkoP4GXchDGcfIWBgw.png?scale-down-to=512&width=1792&height=1792 512w,https://framerusercontent.com/images/kytjqF02JSkoP4GXchDGcfIWBgw.png?scale-down-to=1024&width=1792&height=1792 1024w,https://framerusercontent.com/images/kytjqF02JSkoP4GXchDGcfIWBgw.png?width=1792&height=1792 1792w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "632px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "438px"
+      }
+    },
+    {
+      "alt": "Tobias Nguyen",
+      "box": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://framerusercontent.com/images/kytjqF02JSkoP4GXchDGcfIWBgw.png?width=1792&height=1792",
+      "srcset": "https://framerusercontent.com/images/kytjqF02JSkoP4GXchDGcfIWBgw.png?scale-down-to=512&width=1792&height=1792 512w,https://framerusercontent.com/images/kytjqF02JSkoP4GXchDGcfIWBgw.png?scale-down-to=1024&width=1792&height=1792 1024w,https://framerusercontent.com/images/kytjqF02JSkoP4GXchDGcfIWBgw.png?width=1792&height=1792 1792w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "100%",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "100%"
+      }
+    },
+    {
+      "alt": "Tobias Nguyen",
+      "box": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://framerusercontent.com/images/kytjqF02JSkoP4GXchDGcfIWBgw.png?width=1792&height=1792",
+      "srcset": "https://framerusercontent.com/images/kytjqF02JSkoP4GXchDGcfIWBgw.png?scale-down-to=512&width=1792&height=1792 512w,https://framerusercontent.com/images/kytjqF02JSkoP4GXchDGcfIWBgw.png?scale-down-to=1024&width=1792&height=1792 1024w,https://framerusercontent.com/images/kytjqF02JSkoP4GXchDGcfIWBgw.png?width=1792&height=1792 1792w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "100%",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "100%"
+      }
+    },
+    {
+      "alt": "Maya El-Sayegh",
+      "box": {
+        "height": 632,
+        "width": 438,
+        "x": 312,
+        "y": 11344
+      },
+      "src": "https://framerusercontent.com/images/dPIQSOsaP4Iy57AI6BiDgLtKw.png?width=1792&height=1792",
+      "srcset": "https://framerusercontent.com/images/dPIQSOsaP4Iy57AI6BiDgLtKw.png?scale-down-to=512&width=1792&height=1792 512w,https://framerusercontent.com/images/dPIQSOsaP4Iy57AI6BiDgLtKw.png?scale-down-to=1024&width=1792&height=1792 1024w,https://framerusercontent.com/images/dPIQSOsaP4Iy57AI6BiDgLtKw.png?width=1792&height=1792 1792w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "632px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "438px"
+      }
+    },
+    {
+      "alt": "Maya El-Sayegh",
+      "box": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://framerusercontent.com/images/dPIQSOsaP4Iy57AI6BiDgLtKw.png?width=1792&height=1792",
+      "srcset": "https://framerusercontent.com/images/dPIQSOsaP4Iy57AI6BiDgLtKw.png?scale-down-to=512&width=1792&height=1792 512w,https://framerusercontent.com/images/dPIQSOsaP4Iy57AI6BiDgLtKw.png?scale-down-to=1024&width=1792&height=1792 1024w,https://framerusercontent.com/images/dPIQSOsaP4Iy57AI6BiDgLtKw.png?width=1792&height=1792 1792w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "100%",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "100%"
+      }
+    },
+    {
+      "alt": "Maya El-Sayegh",
+      "box": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://framerusercontent.com/images/dPIQSOsaP4Iy57AI6BiDgLtKw.png?width=1792&height=1792",
+      "srcset": "https://framerusercontent.com/images/dPIQSOsaP4Iy57AI6BiDgLtKw.png?scale-down-to=512&width=1792&height=1792 512w,https://framerusercontent.com/images/dPIQSOsaP4Iy57AI6BiDgLtKw.png?scale-down-to=1024&width=1792&height=1792 1024w,https://framerusercontent.com/images/dPIQSOsaP4Iy57AI6BiDgLtKw.png?width=1792&height=1792 1792w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "100%",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "100%"
+      }
+    },
+    {
+      "alt": "Jasper Voss",
+      "box": {
+        "height": 632,
+        "width": 438,
+        "x": 312,
+        "y": 12300
+      },
+      "src": "https://framerusercontent.com/images/FTkPqmORdsLZYKatsXyHDRlhjA.png?width=1792&height=1792",
+      "srcset": "https://framerusercontent.com/images/FTkPqmORdsLZYKatsXyHDRlhjA.png?scale-down-to=512&width=1792&height=1792 512w,https://framerusercontent.com/images/FTkPqmORdsLZYKatsXyHDRlhjA.png?scale-down-to=1024&width=1792&height=1792 1024w,https://framerusercontent.com/images/FTkPqmORdsLZYKatsXyHDRlhjA.png?width=1792&height=1792 1792w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "632px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "438px"
+      }
+    },
+    {
+      "alt": "Jasper Voss",
+      "box": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://framerusercontent.com/images/FTkPqmORdsLZYKatsXyHDRlhjA.png?width=1792&height=1792",
+      "srcset": "https://framerusercontent.com/images/FTkPqmORdsLZYKatsXyHDRlhjA.png?scale-down-to=512&width=1792&height=1792 512w,https://framerusercontent.com/images/FTkPqmORdsLZYKatsXyHDRlhjA.png?scale-down-to=1024&width=1792&height=1792 1024w,https://framerusercontent.com/images/FTkPqmORdsLZYKatsXyHDRlhjA.png?width=1792&height=1792 1792w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "100%",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "100%"
+      }
+    },
+    {
+      "alt": "Jasper Voss",
+      "box": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "src": "https://framerusercontent.com/images/FTkPqmORdsLZYKatsXyHDRlhjA.png?width=1792&height=1792",
+      "srcset": "https://framerusercontent.com/images/FTkPqmORdsLZYKatsXyHDRlhjA.png?scale-down-to=512&width=1792&height=1792 512w,https://framerusercontent.com/images/FTkPqmORdsLZYKatsXyHDRlhjA.png?scale-down-to=1024&width=1792&height=1792 1024w,https://framerusercontent.com/images/FTkPqmORdsLZYKatsXyHDRlhjA.png?width=1792&height=1792 1792w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "100%",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "100%"
+      }
+    },
+    {
+      "alt": "",
+      "box": {
+        "height": 16,
+        "width": 16,
+        "x": 1303,
+        "y": 722.5
+      },
+      "src": "data:image/svg+xml,<svg display=\"block\" role=\"presentation\" viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 24.635 22.866 C 25.123 23.355 25.123 24.147 24.635 24.635 C 24.147 25.123 23.355 25.123 22.866 24.635 L 12.501 14.268 L 2.135 24.635 C 1.647 25.123 0.855 25.123 0.366 24.635 C -0.122 24.147 -0.122 23.355 0.366 22.866 L 10.734 12.501 L 0.366 2.135 C -0.122 1.647 -0.122 0.855 0.366 0.366 C 0.855 -0.122 1.647 -0.122 2.135 0.366 L 12.501 10.734 L 22.866 0.366 C 23.355 -0.122 24.147 -0.122 24.635 0.366 C 25.123 0.855 25.123 1.647 24.635 2.135 L 14.268 12.501 Z\" fill=\"rgb(0, 0, 0)\" height=\"25.00139023844741px\" id=\"jBymG44fK\" transform=\"translate(7.499 7.499)\" width=\"25.001390238447406px\"/></svg>",
+      "srcset": null,
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "16px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "relative",
+        "width": "16px"
+      }
+    },
+    {
+      "alt": "Quomi Screen on a desktop",
+      "box": {
+        "height": 97.5,
+        "width": 130,
+        "x": 1193,
+        "y": 754.5
+      },
+      "src": "https://framerusercontent.com/images/U51NHd0A6CmzF1Xmg9PX4N0hKk.png?scale-down-to=2048&width=4800&height=3600",
+      "srcset": "https://framerusercontent.com/images/U51NHd0A6CmzF1Xmg9PX4N0hKk.png?scale-down-to=512&width=4800&height=3600 512w,https://framerusercontent.com/images/U51NHd0A6CmzF1Xmg9PX4N0hKk.png?scale-down-to=1024&width=4800&height=3600 1024w,https://framerusercontent.com/images/U51NHd0A6CmzF1Xmg9PX4N0hKk.png?scale-down-to=2048&width=4800&height=3600 2048w,https://framerusercontent.com/images/U51NHd0A6CmzF1Xmg9PX4N0hKk.png?scale-down-to=4096&width=4800&height=3600 4096w,https://framerusercontent.com/images/U51NHd0A6CmzF1Xmg9PX4N0hKk.png?width=4800&height=3600 4800w",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "6px",
+        "color": "rgb(0, 0, 0)",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "gap": "normal",
+        "gridTemplateColumns": "none",
+        "height": "97.5px",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "maxWidth": "none",
+        "objectFit": "cover",
+        "objectPosition": "50% 50%",
+        "padding": "0px",
+        "position": "static",
+        "width": "130px"
+      }
+    }
+  ],
+  "videoReferences": [],
+  "routesObserved": [
+    "https://agentic.framer.website/#about-section",
+    "https://agentic.framer.website/#footer-background",
+    "https://agentic.framer.website/#hero-section",
+    "https://agentic.framer.website/#services",
+    "https://agentic.framer.website/#work-section",
+    "https://agentic.framer.website/legal/cookie-policy",
+    "https://agentic.framer.website/legal/privacy-policy",
+    "https://agentic.framer.website/licensing",
+    "https://agentic.framer.website/sign-in",
+    "https://agentic.framer.website/sign-up",
+    "https://agentic.framer.website/works",
+    "https://agentic.framer.website/works/reelio",
+    "https://agentic.framer.website/works/tektura",
+    "https://agentic.framer.website/works/vitalo",
+    "https://calendly.com/",
+    "https://framer.link/cristianmielu",
+    "https://framer.link/zbgYFJM",
+    "https://github.com/mielucristian/agentic-documentation",
+    "https://twitter.com/CristianMielu",
+    "https://www.framer.com/?via=cristianmielu",
+    "https://www.framer.com/@cristian/?via=cristianmielu",
+    "https://www.linkedin.com/in/cristian-mielu-a8b2b3b5/",
+    "https://www.uihub.design/",
+    "https://x.com/CristianMielu"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering."
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Platform",
+  "source": "https://plat-form.framer.ai/",
+  "coverage": "Live desktop preview, rendered DOM/style measurements, source media URLs and viewport screenshots. Phone rendering unverified.",
+  "colors": {
+    "canvas": "#161719",
+    "paper": "#212225",
+    "ink": "#E3DBD8",
+    "accent": "#FA6E43",
+    "muted": "#C0C0C0"
+  },
+  "type": {
+    "body": "Inter Display",
+    "display": "Inter Display",
+    "roles": [
+      {
+        "role": "Hero/section",
+        "family": "Inter Display",
+        "weight": 500,
+        "sizePx": 100,
+        "linePx": 90,
+        "tracking": "-5px"
+      },
+      {
+        "role": "Intro",
+        "family": "Inter Display",
+        "weight": 500,
+        "sizePx": 120,
+        "linePx": 132,
+        "tracking": "-6px"
+      },
+      {
+        "role": "Section lead",
+        "family": "Inter Display",
+        "weight": 500,
+        "sizePx": 48,
+        "linePx": 52.8,
+        "tracking": "-2.4px"
+      },
+      {
+        "role": "Card copy",
+        "family": "Inter Display",
+        "weight": 400,
+        "sizePx": 24,
+        "linePx": 36,
+        "tracking": "-0.72px"
+      },
+      {
+        "role": "Subheading",
+        "family": "Inter Display",
+        "weight": 500,
+        "sizePx": 28,
+        "linePx": 33.6,
+        "tracking": "-1.12px"
+      },
+      {
+        "role": "Small body",
+        "family": "Inter Display",
+        "weight": 400,
+        "sizePx": 17,
+        "linePx": 22.1,
+        "tracking": "-0.68px"
+      }
+    ]
+  },
+  "spacing": {
+    "desktopGutterPx": 24,
+    "componentGapPx": 4,
+    "evidence": "mixed measured/visual; see FRAME.md"
+  },
+  "shape": {
+    "principalRadiusPx": 8,
+    "evidence": "measured or section-specific; see FRAME.md"
+  },
+  "breakpoints": {
+    "desktopMin": 1200,
+    "tabletMin": 810,
+    "phoneMax": 809,
+    "evidence": "public CSS; phone layout not visually tested"
+  },
+  "motion": {
+    "evidence": "partly observed; exact timings unmeasured",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  }
+}

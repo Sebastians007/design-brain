@@ -1,0 +1,714 @@
+{
+  "template": "Rescale",
+  "preview": "https://rescale.framer.ai/",
+  "marketplace": "https://www.framer.com/marketplace/templates/rescale/",
+  "creator": "Tamas Bodo",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "viewport": null,
+  "pageHeight": null,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        0,
+        0,
+        1600,
+        1200
+      ],
+      "label": "01  official reference 01 / overview",
+      "evidence": "official-promotional-image"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        0,
+        0,
+        1600,
+        1200
+      ],
+      "label": "02  official reference 02 / overview",
+      "evidence": "official-promotional-image"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        0,
+        0,
+        1600,
+        1200
+      ],
+      "label": "03  official reference 03 / overview",
+      "evidence": "official-promotional-image"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        0,
+        0,
+        1600,
+        1200
+      ],
+      "label": "04  official reference 04 / overview",
+      "evidence": "official-promotional-image"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        272,
+        84,
+        1568,
+        1080
+      ],
+      "label": "05  official reference 01 / detail crop",
+      "evidence": "official-promotional-image"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        272,
+        84,
+        1568,
+        1080
+      ],
+      "label": "06  official reference 02 / detail crop",
+      "evidence": "official-promotional-image"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        272,
+        84,
+        1568,
+        1080
+      ],
+      "label": "07  official reference 03 / detail crop",
+      "evidence": "official-promotional-image"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        272,
+        84,
+        1568,
+        1080
+      ],
+      "label": "08  official reference 04 / detail crop",
+      "evidence": "official-promotional-image"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        640,
+        240,
+        1536,
+        912
+      ],
+      "label": "09  official reference 01 / detail crop",
+      "evidence": "official-promotional-image"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        640,
+        240,
+        1536,
+        912
+      ],
+      "label": "10  official reference 02 / detail crop",
+      "evidence": "official-promotional-image"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        640,
+        240,
+        1536,
+        912
+      ],
+      "label": "11  official reference 03 / detail crop",
+      "evidence": "official-promotional-image"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        640,
+        240,
+        1536,
+        912
+      ],
+      "label": "12  official reference 04 / detail crop",
+      "evidence": "official-promotional-image"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-0.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/vQyevYAyHtARFwPqUzQGpnDs.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-1.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/jn4BtSPLlS0NDp1KiFAtFKiiY0o.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-900-2.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/DXD0Q7LSl7HEvDzucnyLnGBHM.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-3.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/iwWTDc49ENF2tCHbqlNARXw6Ug.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-500-4.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/PfdOpgzFf7N2Uye9JX7xRKYTgSc.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-600-5.woff2"
+    },
+    {
+      "family": "Manrope",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/NGBUP45ES3F7RD5XGKPEDJ6QEPO4TMOK/EXDVWJ2EDDVVV65UENMX33EDDYBX6OF7/6P4FPMFQH7CCC7RZ4UU4NKSGJ2RLF7V5.woff2",
+      "range": "",
+      "file": "assets/fonts/manrope-700-6.woff2"
+    },
+    {
+      "family": "Manrope",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/BNWG6MUI4RTC6WEND2VPDH4MHMIVU3XZ/R5YXY5FMVG6PXU36GNEEA24MIPMEPGSM/CIM4KQCLZSMMLWPVH25IDDSTY4ENPHEY.woff2",
+      "range": "",
+      "file": "assets/fonts/manrope-500-7.woff2"
+    },
+    {
+      "family": "Manrope",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/2TYFCBHUANEXS6QGR5EQDUNAFH6LSWM3/AYNOU3VEA4LRTDNKJQUFNVNUTYSGOUOP/UXO4O7K2G3HI3D2VKD7UXVJVJD26P4BQ.woff2",
+      "range": "",
+      "file": "assets/fonts/manrope-400-8.woff2"
+    },
+    {
+      "family": "Manrope",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/6U2SGH566NSNERG6RGEV3DSNEK7DL2RF/JRDYRKMSAW2H35IWEQIPL67HAJQ35MG5/JNU3GNMUBPWW6V6JTED3S27XL5HN7NM5.woff2",
+      "range": "",
+      "file": "assets/fonts/manrope-600-9.woff2"
+    }
+  ],
+  "imagesObserved": [
+    {
+      "src": "https://framerusercontent.com/assets/bMpXE2S0wKTS52g7kr9xzyGlio.svg",
+      "alt": "Logo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/KWIQA1fu0j0rgpoUIZjR54Gr7U.svg?width=16&height=16",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/WjMeLOt3HEE9cWpQCCn4avE7yEg.png?lossless=1&width=2880&height=2200",
+      "alt": "Background Image",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/g4YVbOUVGEoGxumHhCRR1MueU.png?lossless=1&width=2880&height=2200",
+      "alt": "Background Image",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/bOO4XuFblOppGu6c1CuEVWunI9I.png?lossless=1&width=2880&height=2200",
+      "alt": "Background Image",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/XwI5wzRuTMGLVI1af3OdSHlZY.png?lossless=1&width=2880&height=2200",
+      "alt": "Background Image",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TDsKhGHJADAjYvl8EXS29MsghI.png?lossless=1&width=2880&height=1799",
+      "alt": "Background Image",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8l5o7RMsH7c7Xe3dBJBR4Fpc3A.svg",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7zkhvw6Vmrv74YJUJLtLkVm8Q.svg?width=22&height=16",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VjmsqHeWTpcOeQ1me9Gtc9adLE.svg",
+      "alt": "Logo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/bcIHofRAGz07Cl47alk4eZweX78.svg",
+      "alt": "Logo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/KM1Q6ZA4hUHuWvz4cOZsQI9v0.svg",
+      "alt": "Logo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RZk0FOpNrZ9xFwKUFoQlbL1alzE.svg",
+      "alt": "Logo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/LNsbmxTCNLUk4k4J45n8VhPQeWY.svg",
+      "alt": "Logo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/1ehZ5pYQJiXu4sArrnMFIo21CAU.svg",
+      "alt": "Logo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RI5vfM6AVmTEZrQ7nwnkkMQuFE.png?width=400&height=408",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VvLBKpLpoUFxU4KdomO8oNqVg.png?width=220&height=230",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/yioKaA8bRLLQL0qPi6fHfl3sw4.jpg?width=2040&height=1400",
+      "alt": "Spotlight Image",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RI5vfM6AVmTEZrQ7nwnkkMQuFE.png",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/u7OgAS7DXnq7lTkyX1f0VMffs.svg",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mfOHQjwlvqC6TgmbqdnTXpAPfc.svg?lossless=1&width=787&height=304",
+      "alt": "Product Screenshot",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/l0PcWoiiQGav82bvoukxu8hej0.jpg?width=500&height=250",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/y9k3MZBgupXG280B2UDBtGfxleI.svg",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6E7DFXgCbIiP052eKebDHYvqN0.svg",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/XmM1nRLX7qUiFLCKkrxjDIwQA.svg?width=21&height=9",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/kaBPojiKtWANO7LLDN9j3eqO2C4.svg?width=24&height=24",
+      "alt": "Partner Logo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/iXjFnSH2ScPbmKpgfdqXRk7XAos.svg?width=24&height=24",
+      "alt": "Partner Logo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VT5eIJpHiYwn6HoI2DWUBOIAGI.svg?width=24&height=24",
+      "alt": "Partner Logo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/npiv1SlvhccnZ04gHvkidKqPKGY.svg?width=24&height=24",
+      "alt": "Partner Logo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IziRDqmupvblsx76RUXjqWPxUY.svg?width=23&height=21",
+      "alt": "Partner Logo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hkQe6HGGonnuBrvAn6MAQP1Fg.svg?width=24&height=24",
+      "alt": "Partner Logo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/fa2BjoosTIAuwJyzlCHuEDhaqYw.svg?width=110&height=195",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/T4WPBy86OK9JDni3k91xLjIeM.svg?width=510&height=416",
+      "alt": "Illustration",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/nELWKm9Mmf4Dtirj6HehxfPoDBU.svg?width=428&height=492",
+      "alt": "Illustration",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7rrCaekOoILCIdaxzb5TqlARuE.svg?width=510&height=588",
+      "alt": "Illustration",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/vfCWe8jjf75uvUu7vyzDzC4JLU.svg?width=510&height=590",
+      "alt": "Illustration",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Uspv6KjeR3fzCLATSQwuCbbDc.svg",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/09sAZaBGJrT51BVCzdJCg1MpDo.svg",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/33hnhLgkD59a2qbSaeYhm2etovE.png?width=384&height=384",
+      "alt": "Illustration",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2MY6xwTj14BufySx4MUFkA7lWA8.svg?width=26&height=27",
+      "alt": "Icon",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dUlCAWX1xEcpIawuFsNqfzwkVDs.svg?width=28&height=22",
+      "alt": "Partner Logo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/fS3fHoU0SayZ66Uiin0p1Uxmow.svg?width=28&height=28",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/1u4DE0vUDM2pUNaxOmXKxW7CXUk.png?scale-down-to=1024&width=2880&height=1799",
+      "alt": "Background Image",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DiXxGZkzHIAgH7qrHyIAOf2yXJI.jpeg?width=2400&height=1345",
+      "alt": "Partner 1",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/L4oyRbGGv65UpD8tSz5jSpwsiXc.jpeg?width=2400&height=1904",
+      "alt": "Partner 2",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4WRdapoL1fjAVxgeRVe1ERfi65w.jpeg?width=1600&height=2400",
+      "alt": "Partner 3",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "alt": "Back Arrow",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "alt": "Next Arrow",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/9pmV8Rjhl56Is0AguVOneDJuycc.jpeg?width=553&height=830",
+      "alt": "Founder Photo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tPqHwKj0H2QZxoHvnhGA5OvON8.jpeg?width=553&height=684",
+      "alt": "Founder Photo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/zdlF4pVvQUrfmpTAxk21ZbXt4b4.jpeg?width=553&height=830",
+      "alt": "Founder Photo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IILMpV1veZ7jbbLAcVV9jWz7p5M.svg",
+      "alt": "Logo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/vqhPY3xuYY20Mjk7hXlhhGS5Cfg.jpeg?width=553&height=830",
+      "alt": "Photoshot of life at Rescale",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4kK10mBnQDuUnFpjpdoafwJzqk.jpeg?width=467&height=830",
+      "alt": "Photoshot of life at Rescale",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/MjRs0XwTMjgcxacS6QONLHJpX90.jpeg?width=830&height=830",
+      "alt": "Photoshot of life at Rescale",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/f93PkUcg9c1NQN6NJQUqVmxY.jpeg?width=830&height=830",
+      "alt": "Photoshot of life at Rescale",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RZk0FOpNrZ9xFwKUFoQlbL1alzE.svg?width=80&height=19",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gEGt81C3YZFSpxbB1qa5dt9dM.jpeg?width=800&height=1428",
+      "alt": "Testimonial Photo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VjmsqHeWTpcOeQ1me9Gtc9adLE.svg?width=80&height=19",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/0Bt0XO6Ekbz64QDkTSVpJvIU7k.jpeg?width=800&height=800",
+      "alt": "Testimonial Photo",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/1ehZ5pYQJiXu4sArrnMFIo21CAU.svg?width=80&height=19",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8UP48iujSG5PALqDp553LB3bic.jpeg?width=800&height=800",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/KM1Q6ZA4hUHuWvz4cOZsQI9v0.svg?width=80&height=19",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/pITvFA9YIPicS23hFWu7Rr5zn0.jpeg?width=800&height=800",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/LNsbmxTCNLUk4k4J45n8VhPQeWY.svg?width=80&height=19",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/GB1LmHiS7FqQ1HYS8254ayWk7A.jpeg?width=800&height=800",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/bcIHofRAGz07Cl47alk4eZweX78.svg?width=80&height=18",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Rjwq6SPWHl5dLNnlsMTBgNGsew.jpg?width=800&height=1143",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/uVagUAKN5uiqPUPdXQM2fjOyI.jpeg?width=800&height=800",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/55zlLOloE2rbGiQy8ndrw1EaAWs.jpeg?width=800&height=1062",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/iQqEBLzeh4bSGb09eN206319zG4.svg?width=24&height=24",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/l4oI86ekmKqGDmqseCT9ccC7O4.jpg?width=406&height=304",
+      "alt": "Monodrift Framer template Preview",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/1uOamwvLrjcLL2Y6xa7zEj3AGuM.png",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/FjGNlb4hZTrKiDDKxirJ3EU7ACU.png",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Qz27Zo9AMzgVXd63Mp6nnKPIa1M.png",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8xBYXmLgiq2zDF6zlxqdklNOJU.svg",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/PUcqKQnn3oquWz2RbUmF7KQlI.svg",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mKPwoUpawV7ZsW7GF5KhgOeO1E.svg",
+      "alt": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8CYomO3dZZ1U75cCJgRI2DgBoM.png?width=1000&height=1151",
+      "alt": "Illustration",
+      "box": null
+    }
+  ],
+  "videoReferences": [
+    {
+      "src": "https://framerusercontent.com/assets/UZzR0ciUwkjcmwrVtdLdTnpTEiA.mp4"
+    },
+    {
+      "src": "https://framerusercontent.com/assets/9f3YOJWd8t3cibP1iqPDR1mCMro.mp4"
+    },
+    {
+      "src": "https://framerusercontent.com/assets/mzEJrfIah6lDBrFElC0qZbQTJ2o.mp4"
+    }
+  ],
+  "routesObserved": [
+    "./#about-us",
+    "./#client-insights",
+    "./#faq",
+    "./#features",
+    "./#how-it-works",
+    "./#integration",
+    "./#performance",
+    "./#pricing",
+    "./#top",
+    "./404",
+    "./contact",
+    "./contact#top",
+    "./journal",
+    "./journal#top",
+    "https://calendly.com/framerpod",
+    "https://framer.com/edit/init.mjs",
+    "https://framer.link/seGovDx",
+    "https://framerusercontent.com/images/6DtbRJUy8Iav5zS4Ls95q1lxtM.png",
+    "https://framerusercontent.com/images/RB1vserSxuglsTZE2CKyruOiK88.png",
+    "https://framerusercontent.com/images/kEN8Z3RmSIaUolb0SFQR5nLtDc.png",
+    "https://framerusercontent.com/sites/4YFeA2iLWM2BBAIQIJqnvt/O8PrPA1PJ.C-5YfFMo.mjs",
+    "https://framerusercontent.com/sites/4YFeA2iLWM2BBAIQIJqnvt/Phosphor.Bc-gozki.mjs",
+    "https://framerusercontent.com/sites/4YFeA2iLWM2BBAIQIJqnvt/RcuN6C5jE.CKZLMpjf.mjs",
+    "https://framerusercontent.com/sites/4YFeA2iLWM2BBAIQIJqnvt/URmgwAUh2.DmpEx1b1.mjs",
+    "https://framerusercontent.com/sites/4YFeA2iLWM2BBAIQIJqnvt/Z7OfbWsab.D2b0ylRx.mjs",
+    "https://framerusercontent.com/sites/4YFeA2iLWM2BBAIQIJqnvt/c6bZB3SFjbTygabp5TqI-4NfFQovTo2gfg0A3ifIczg.C97b1VFo.mjs",
+    "https://framerusercontent.com/sites/4YFeA2iLWM2BBAIQIJqnvt/fq9mIxWJV.DHwvPpj4.mjs",
+    "https://framerusercontent.com/sites/4YFeA2iLWM2BBAIQIJqnvt/framer.CGZ-xeJR.mjs",
+    "https://framerusercontent.com/sites/4YFeA2iLWM2BBAIQIJqnvt/iZvz5mhZCnrvdbEaW2byf4knxgkhMBbHez2DIuMHYLY.BlStv5jv.mjs",
+    "https://framerusercontent.com/sites/4YFeA2iLWM2BBAIQIJqnvt/motion.D6PTgPLv.mjs",
+    "https://framerusercontent.com/sites/4YFeA2iLWM2BBAIQIJqnvt/oNNpvB3hk.V1XTz3US.mjs",
+    "https://framerusercontent.com/sites/4YFeA2iLWM2BBAIQIJqnvt/react.C9ZRtJmI.mjs",
+    "https://framerusercontent.com/sites/4YFeA2iLWM2BBAIQIJqnvt/rolldown-runtime.Dh6celcD.mjs",
+    "https://framerusercontent.com/sites/4YFeA2iLWM2BBAIQIJqnvt/shared-lib.BmkBe59k.mjs",
+    "https://framerusercontent.com/sites/4YFeA2iLWM2BBAIQIJqnvt/vIXix5pvL.LOTz-NzY.mjs",
+    "https://framerusercontent.com/sites/4YFeA2iLWM2BBAIQIJqnvt/yIPEgvrpA.DylOl4ie.mjs",
+    "https://monodrift.framer.website",
+    "https://rescale.framer.ai/",
+    "https://www.discord.com",
+    "https://www.framer.com",
+    "https://www.instagram.com",
+    "https://www.linkedin.com",
+    "https://www.x.com",
+    "https://www.x.com/tamasbodo",
+    "https://www.youtube.com"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ]
+}

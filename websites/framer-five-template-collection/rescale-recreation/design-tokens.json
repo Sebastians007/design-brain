@@ -1,0 +1,90 @@
+{
+  "name": "Rescale",
+  "source": "https://rescale.framer.ai/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#FFFFFF",
+    "paper": "#F6F8FF",
+    "ink": "#4D6B8D",
+    "accent": "#7584D6",
+    "cyan": "#7FE5F2"
+  },
+  "type": {
+    "body": "Manrope",
+    "display": "Manrope",
+    "roles": [
+      {
+        "role": "Hero desktop CSS",
+        "family": "Manrope",
+        "weight": 500,
+        "sizePx": 80,
+        "linePx": 80,
+        "tracking": "-0.05em"
+      },
+      {
+        "role": "Hero tablet CSS",
+        "family": "Manrope",
+        "weight": 500,
+        "sizePx": 52,
+        "linePx": 41.6,
+        "tracking": "-0.05em"
+      },
+      {
+        "role": "Hero phone CSS",
+        "family": "Manrope",
+        "weight": 500,
+        "sizePx": 38,
+        "linePx": 34.2,
+        "tracking": "-0.05em"
+      },
+      {
+        "role": "Section desktop CSS",
+        "family": "Manrope",
+        "weight": 600,
+        "sizePx": 56,
+        "linePx": 61.6,
+        "tracking": "-0.04em"
+      },
+      {
+        "role": "Section tablet CSS",
+        "family": "Manrope",
+        "weight": 600,
+        "sizePx": 48,
+        "linePx": 52.8,
+        "tracking": "-0.04em"
+      },
+      {
+        "role": "Section phone CSS",
+        "family": "Manrope",
+        "weight": 600,
+        "sizePx": 36,
+        "linePx": 43.2,
+        "tracking": "-0.04em"
+      }
+    ]
+  },
+  "spacing": {
+    "desktopGutterPx": 40,
+    "componentGapPx": 12,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 16,
+    "evidence": "image estimate; verify"
+  },
+  "breakpoints": {
+    "desktopMin": 1200,
+    "tabletMin": 810,
+    "phoneMax": 809,
+    "evidence": "public CSS; phone layout not visually tested"
+  },
+  "motion": {
+    "evidence": "partly observed; exact timings unmeasured",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  }
+}
