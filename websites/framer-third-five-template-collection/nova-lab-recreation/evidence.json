@@ -1,0 +1,750 @@
+{
+  "template": "NOVA Lab",
+  "preview": "https://only-unicorn-982022.framer.app/",
+  "marketplace": "https://www.framer.com/marketplace/templates/nova-lab/",
+  "creator": "Danil Hulakov",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "viewport": null,
+  "pageHeight": null,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        102,
+        184,
+        1945,
+        1351
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        102,
+        190,
+        1945,
+        1400
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        102,
+        160,
+        1945,
+        1175
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        102,
+        251,
+        1945,
+        1845
+      ],
+      "label": "Official image 4 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        204,
+        337,
+        1187,
+        1075
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        204,
+        350,
+        1187,
+        1113
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        204,
+        293,
+        1187,
+        935
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        204,
+        461,
+        1187,
+        1467
+      ],
+      "label": "Official image 4 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        1064,
+        307,
+        1884,
+        1198
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        1064,
+        318,
+        1884,
+        1240
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        1064,
+        267,
+        1884,
+        1042
+      ],
+      "label": "Official image 3 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        1064,
+        419,
+        1884,
+        1635
+      ],
+      "label": "Official image 4 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Montserrat",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/montserrat-400-0.woff2"
+    },
+    {
+      "family": "Montserrat",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/montserrat-500-1.woff2"
+    },
+    {
+      "family": "Montserrat",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/montserrat-600-2.woff2"
+    },
+    {
+      "family": "DM Mono",
+      "weight": "300",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvrGyEYOtbQ.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/dm-mono-300-3.woff2"
+    },
+    {
+      "family": "DM Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBA.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/dm-mono-400-4.woff2"
+    },
+    {
+      "family": "DM Mono",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzIYGnbKX9Rlk.woff2",
+      "range": "",
+      "file": "assets/fonts/dm-mono-500-5.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-6.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-600-7.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/rZ5DdENNqIdFTIyQQiP5isO7M.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-900-8.woff2"
+    },
+    {
+      "family": "Montserrat",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/M2RQDXLDLQ2S4ZZ66VQTDSO3OSHWKVY7/JAIF7WXHMOCSPDMQNJH4MHWPR2PHW2YE/C5NBF6PXS6YLHRF7TAQGFAEBX23GMCRA.woff2",
+      "range": "",
+      "file": "assets/fonts/montserrat-900-9.woff2"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/images/ckrGU5Y7Q9NyRoODPEtumhvSWuM.png?width=180&height=180",
+      "srcset": null,
+      "alt": null,
+      "width": "180",
+      "height": "180",
+      "path": [
+        "Footer & CTA",
+        "CTA Content",
+        "Background"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/XH3vDv9hWAd4EXeRme1QUYylck.png?width=866&height=1552",
+      "srcset": "https://framerusercontent.com/images/XH3vDv9hWAd4EXeRme1QUYylck.png?scale-down-to=1024&width=866&height=1552 571w,https://framerusercontent.com/images/XH3vDv9hWAd4EXeRme1QUYylck.png?width=866&height=1552 866w",
+      "alt": null,
+      "width": "866",
+      "height": "1552",
+      "path": [
+        "Pricing",
+        "Cart Secrion",
+        "02 Studio"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dfmhK0kthrQ5s9S185YrUUX1W4.jpg?width=4096&height=3264",
+      "srcset": "https://framerusercontent.com/images/dfmhK0kthrQ5s9S185YrUUX1W4.jpg?scale-down-to=512&width=4096&height=3264 512w,https://framerusercontent.com/images/dfmhK0kthrQ5s9S185YrUUX1W4.jpg?scale-down-to=1024&width=4096&height=3264 1024w,https://framerusercontent.com/images/dfmhK0kthrQ5s9S185YrUUX1W4.jpg?scale-down-to=2048&width=4096&height=3264 2048w,https://framerusercontent.com/images/dfmhK0kthrQ5s9S185YrUUX1W4.jpg?width=4096&height=3264 4096w",
+      "alt": null,
+      "width": "4096",
+      "height": "3264",
+      "path": [
+        "Showcase",
+        "Showcase Main",
+        "Showcase Visual",
+        "Mockup Side"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/nM6WZTcTJuKyW2ZDJsd9azCck7g.png?width=1800&height=2588",
+      "srcset": "https://framerusercontent.com/images/nM6WZTcTJuKyW2ZDJsd9azCck7g.png?scale-down-to=1024&width=1800&height=2588 712w,https://framerusercontent.com/images/nM6WZTcTJuKyW2ZDJsd9azCck7g.png?scale-down-to=2048&width=1800&height=2588 1424w,https://framerusercontent.com/images/nM6WZTcTJuKyW2ZDJsd9azCck7g.png?width=1800&height=2588 1800w",
+      "alt": null,
+      "width": "1800",
+      "height": "2588",
+      "path": [
+        "Sources",
+        "Cart Carusel",
+        "Cart 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/f4NcUUEXvx6BJGWYmLlCCPR8.png?width=1800&height=2588",
+      "srcset": "https://framerusercontent.com/images/f4NcUUEXvx6BJGWYmLlCCPR8.png?scale-down-to=1024&width=1800&height=2588 712w,https://framerusercontent.com/images/f4NcUUEXvx6BJGWYmLlCCPR8.png?scale-down-to=2048&width=1800&height=2588 1424w,https://framerusercontent.com/images/f4NcUUEXvx6BJGWYmLlCCPR8.png?width=1800&height=2588 1800w",
+      "alt": null,
+      "width": "1800",
+      "height": "2588",
+      "path": [
+        "Sources",
+        "Cart Carusel",
+        "Cart 2"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hdZDjsA7UKNOnAsatW35glDAtTk.png?width=1800&height=2588",
+      "srcset": "https://framerusercontent.com/images/hdZDjsA7UKNOnAsatW35glDAtTk.png?scale-down-to=1024&width=1800&height=2588 712w,https://framerusercontent.com/images/hdZDjsA7UKNOnAsatW35glDAtTk.png?scale-down-to=2048&width=1800&height=2588 1424w,https://framerusercontent.com/images/hdZDjsA7UKNOnAsatW35glDAtTk.png?width=1800&height=2588 1800w",
+      "alt": null,
+      "width": "1800",
+      "height": "2588",
+      "path": [
+        "Sources",
+        "Cart Carusel",
+        "Cart 3"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HaVC1SUe262um3qTVDgrUAjyQ4.png?width=1800&height=2588",
+      "srcset": "https://framerusercontent.com/images/HaVC1SUe262um3qTVDgrUAjyQ4.png?scale-down-to=1024&width=1800&height=2588 712w,https://framerusercontent.com/images/HaVC1SUe262um3qTVDgrUAjyQ4.png?scale-down-to=2048&width=1800&height=2588 1424w,https://framerusercontent.com/images/HaVC1SUe262um3qTVDgrUAjyQ4.png?width=1800&height=2588 1800w",
+      "alt": null,
+      "width": "1800",
+      "height": "2588",
+      "path": [
+        "Sources",
+        "Cart Carusel",
+        "Cart 4"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "srcset": null,
+      "alt": null,
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Sources",
+        "Cart Carusel"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "srcset": null,
+      "alt": null,
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Sources",
+        "Cart Carusel"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/MVlxrQoSuRUQA3l4MMNdfInttek.png?width=2780&height=1362",
+      "srcset": "https://framerusercontent.com/images/MVlxrQoSuRUQA3l4MMNdfInttek.png?scale-down-to=512&width=2780&height=1362 512w,https://framerusercontent.com/images/MVlxrQoSuRUQA3l4MMNdfInttek.png?scale-down-to=1024&width=2780&height=1362 1024w,https://framerusercontent.com/images/MVlxrQoSuRUQA3l4MMNdfInttek.png?scale-down-to=2048&width=2780&height=1362 2048w,https://framerusercontent.com/images/MVlxrQoSuRUQA3l4MMNdfInttek.png?width=2780&height=1362 2780w",
+      "alt": null,
+      "width": "2780",
+      "height": "1362",
+      "path": [
+        "Home"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IyVxFqbPsW2RSIErr7QMwl4S16E.png?width=2880&height=1886",
+      "srcset": "https://framerusercontent.com/images/IyVxFqbPsW2RSIErr7QMwl4S16E.png?scale-down-to=512&width=2880&height=1886 512w,https://framerusercontent.com/images/IyVxFqbPsW2RSIErr7QMwl4S16E.png?scale-down-to=1024&width=2880&height=1886 1024w,https://framerusercontent.com/images/IyVxFqbPsW2RSIErr7QMwl4S16E.png?scale-down-to=2048&width=2880&height=1886 2048w,https://framerusercontent.com/images/IyVxFqbPsW2RSIErr7QMwl4S16E.png?width=2880&height=1886 2880w",
+      "alt": null,
+      "width": "2880",
+      "height": "1886",
+      "path": [
+        "How It Works",
+        "Console Showcase",
+        "App Screenshot"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/KXDuI7GGxdX0Rjwj3mP5r2S7yM.png?width=2880&height=2134",
+      "srcset": "https://framerusercontent.com/images/KXDuI7GGxdX0Rjwj3mP5r2S7yM.png?scale-down-to=512&width=2880&height=2134 512w,https://framerusercontent.com/images/KXDuI7GGxdX0Rjwj3mP5r2S7yM.png?scale-down-to=1024&width=2880&height=2134 1024w,https://framerusercontent.com/images/KXDuI7GGxdX0Rjwj3mP5r2S7yM.png?scale-down-to=2048&width=2880&height=2134 2048w,https://framerusercontent.com/images/KXDuI7GGxdX0Rjwj3mP5r2S7yM.png?width=2880&height=2134 2880w",
+      "alt": null,
+      "width": "2880",
+      "height": "2134",
+      "path": [
+        "How It Works",
+        "Variant 2"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/cPWqE1ldgUxdLgq1PdAC8846qzU.png?width=2880&height=1886",
+      "srcset": "https://framerusercontent.com/images/cPWqE1ldgUxdLgq1PdAC8846qzU.png?scale-down-to=512&width=2880&height=1886 512w,https://framerusercontent.com/images/cPWqE1ldgUxdLgq1PdAC8846qzU.png?scale-down-to=1024&width=2880&height=1886 1024w,https://framerusercontent.com/images/cPWqE1ldgUxdLgq1PdAC8846qzU.png?scale-down-to=2048&width=2880&height=1886 2048w,https://framerusercontent.com/images/cPWqE1ldgUxdLgq1PdAC8846qzU.png?width=2880&height=1886 2880w",
+      "alt": null,
+      "width": "2880",
+      "height": "1886",
+      "path": [
+        "How It Works",
+        "Variant 3"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BjlYesxYU8rL1rKxim6kKj5USU.png?width=1560&height=3112",
+      "srcset": "https://framerusercontent.com/images/BjlYesxYU8rL1rKxim6kKj5USU.png?scale-down-to=1024&width=1560&height=3112 513w,https://framerusercontent.com/images/BjlYesxYU8rL1rKxim6kKj5USU.png?scale-down-to=2048&width=1560&height=3112 1026w,https://framerusercontent.com/images/BjlYesxYU8rL1rKxim6kKj5USU.png?width=1560&height=3112 1560w",
+      "alt": null,
+      "width": "1560",
+      "height": "3112",
+      "path": [
+        "Frame"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BjlYesxYU8rL1rKxim6kKj5USU.png?width=1560&height=3112",
+      "srcset": "https://framerusercontent.com/images/BjlYesxYU8rL1rKxim6kKj5USU.png?scale-down-to=1024&width=1560&height=3112 513w,https://framerusercontent.com/images/BjlYesxYU8rL1rKxim6kKj5USU.png?scale-down-to=2048&width=1560&height=3112 1026w,https://framerusercontent.com/images/BjlYesxYU8rL1rKxim6kKj5USU.png?width=1560&height=3112 1560w",
+      "alt": null,
+      "width": "1560",
+      "height": "3112",
+      "path": [
+        "Hero Section"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/YQRFAG1FGJtOMYLjqqXNwWwhoio.png?width=780&height=3184",
+      "srcset": "https://framerusercontent.com/images/YQRFAG1FGJtOMYLjqqXNwWwhoio.png?width=780&height=3184 780w",
+      "alt": null,
+      "width": "780",
+      "height": "3184",
+      "path": [
+        "Frame"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/PAeQTZXzHBB4KudmFD1ZTYvNs.png?width=1432&height=1040",
+      "srcset": "https://framerusercontent.com/images/PAeQTZXzHBB4KudmFD1ZTYvNs.png?scale-down-to=512&width=1432&height=1040 512w,https://framerusercontent.com/images/PAeQTZXzHBB4KudmFD1ZTYvNs.png?scale-down-to=1024&width=1432&height=1040 1024w,https://framerusercontent.com/images/PAeQTZXzHBB4KudmFD1ZTYvNs.png?width=1432&height=1040 1432w",
+      "alt": null,
+      "width": "1432",
+      "height": "1040",
+      "path": [
+        "Frame",
+        "Rectangle 40"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/KXDuI7GGxdX0Rjwj3mP5r2S7yM.png?width=2880&height=2134",
+      "srcset": "https://framerusercontent.com/images/KXDuI7GGxdX0Rjwj3mP5r2S7yM.png?scale-down-to=512&width=2880&height=2134 512w,https://framerusercontent.com/images/KXDuI7GGxdX0Rjwj3mP5r2S7yM.png?scale-down-to=1024&width=2880&height=2134 1024w,https://framerusercontent.com/images/KXDuI7GGxdX0Rjwj3mP5r2S7yM.png?scale-down-to=2048&width=2880&height=2134 2048w,https://framerusercontent.com/images/KXDuI7GGxdX0Rjwj3mP5r2S7yM.png?width=2880&height=2134 2880w",
+      "alt": null,
+      "width": "2880",
+      "height": "2134",
+      "path": [
+        "Frame",
+        "Rectangle 41"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/cPWqE1ldgUxdLgq1PdAC8846qzU.png?width=2880&height=1886",
+      "srcset": "https://framerusercontent.com/images/cPWqE1ldgUxdLgq1PdAC8846qzU.png?scale-down-to=512&width=2880&height=1886 512w,https://framerusercontent.com/images/cPWqE1ldgUxdLgq1PdAC8846qzU.png?scale-down-to=1024&width=2880&height=1886 1024w,https://framerusercontent.com/images/cPWqE1ldgUxdLgq1PdAC8846qzU.png?scale-down-to=2048&width=2880&height=1886 2048w,https://framerusercontent.com/images/cPWqE1ldgUxdLgq1PdAC8846qzU.png?width=2880&height=1886 2880w",
+      "alt": null,
+      "width": "2880",
+      "height": "1886",
+      "path": [
+        "Frame",
+        "Rectangle 42"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IyVxFqbPsW2RSIErr7QMwl4S16E.png?width=2880&height=1886",
+      "srcset": "https://framerusercontent.com/images/IyVxFqbPsW2RSIErr7QMwl4S16E.png?scale-down-to=512&width=2880&height=1886 512w,https://framerusercontent.com/images/IyVxFqbPsW2RSIErr7QMwl4S16E.png?scale-down-to=1024&width=2880&height=1886 1024w,https://framerusercontent.com/images/IyVxFqbPsW2RSIErr7QMwl4S16E.png?scale-down-to=2048&width=2880&height=1886 2048w,https://framerusercontent.com/images/IyVxFqbPsW2RSIErr7QMwl4S16E.png?width=2880&height=1886 2880w",
+      "alt": null,
+      "width": "2880",
+      "height": "1886",
+      "path": [
+        "Frame",
+        "Rectangle 43"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/YQRFAG1FGJtOMYLjqqXNwWwhoio.png?width=780&height=3184",
+      "srcset": "https://framerusercontent.com/images/YQRFAG1FGJtOMYLjqqXNwWwhoio.png?width=780&height=3184 780w",
+      "alt": null,
+      "width": "780",
+      "height": "3184",
+      "path": [
+        "Frame"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/PAeQTZXzHBB4KudmFD1ZTYvNs.png?width=1432&height=1040",
+      "srcset": "https://framerusercontent.com/images/PAeQTZXzHBB4KudmFD1ZTYvNs.png?scale-down-to=512&width=1432&height=1040 512w,https://framerusercontent.com/images/PAeQTZXzHBB4KudmFD1ZTYvNs.png?scale-down-to=1024&width=1432&height=1040 1024w,https://framerusercontent.com/images/PAeQTZXzHBB4KudmFD1ZTYvNs.png?width=1432&height=1040 1432w",
+      "alt": null,
+      "width": "1432",
+      "height": "1040",
+      "path": [
+        "Frame",
+        "Rectangle 40"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/KXDuI7GGxdX0Rjwj3mP5r2S7yM.png?width=2880&height=2134",
+      "srcset": "https://framerusercontent.com/images/KXDuI7GGxdX0Rjwj3mP5r2S7yM.png?scale-down-to=512&width=2880&height=2134 512w,https://framerusercontent.com/images/KXDuI7GGxdX0Rjwj3mP5r2S7yM.png?scale-down-to=1024&width=2880&height=2134 1024w,https://framerusercontent.com/images/KXDuI7GGxdX0Rjwj3mP5r2S7yM.png?scale-down-to=2048&width=2880&height=2134 2048w,https://framerusercontent.com/images/KXDuI7GGxdX0Rjwj3mP5r2S7yM.png?width=2880&height=2134 2880w",
+      "alt": null,
+      "width": "2880",
+      "height": "2134",
+      "path": [
+        "Frame",
+        "Rectangle 41"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/cPWqE1ldgUxdLgq1PdAC8846qzU.png?width=2880&height=1886",
+      "srcset": "https://framerusercontent.com/images/cPWqE1ldgUxdLgq1PdAC8846qzU.png?scale-down-to=512&width=2880&height=1886 512w,https://framerusercontent.com/images/cPWqE1ldgUxdLgq1PdAC8846qzU.png?scale-down-to=1024&width=2880&height=1886 1024w,https://framerusercontent.com/images/cPWqE1ldgUxdLgq1PdAC8846qzU.png?scale-down-to=2048&width=2880&height=1886 2048w,https://framerusercontent.com/images/cPWqE1ldgUxdLgq1PdAC8846qzU.png?width=2880&height=1886 2880w",
+      "alt": null,
+      "width": "2880",
+      "height": "1886",
+      "path": [
+        "Frame",
+        "Rectangle 42"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IyVxFqbPsW2RSIErr7QMwl4S16E.png?width=2880&height=1886",
+      "srcset": "https://framerusercontent.com/images/IyVxFqbPsW2RSIErr7QMwl4S16E.png?scale-down-to=512&width=2880&height=1886 512w,https://framerusercontent.com/images/IyVxFqbPsW2RSIErr7QMwl4S16E.png?scale-down-to=1024&width=2880&height=1886 1024w,https://framerusercontent.com/images/IyVxFqbPsW2RSIErr7QMwl4S16E.png?scale-down-to=2048&width=2880&height=1886 2048w,https://framerusercontent.com/images/IyVxFqbPsW2RSIErr7QMwl4S16E.png?width=2880&height=1886 2880w",
+      "alt": null,
+      "width": "2880",
+      "height": "1886",
+      "path": [
+        "Frame",
+        "Rectangle 43"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SY57Qs9wLuH6JpWOVmPJdxuPK9c.png?width=1560&height=2156",
+      "srcset": "https://framerusercontent.com/images/SY57Qs9wLuH6JpWOVmPJdxuPK9c.png?scale-down-to=1024&width=1560&height=2156 740w,https://framerusercontent.com/images/SY57Qs9wLuH6JpWOVmPJdxuPK9c.png?scale-down-to=2048&width=1560&height=2156 1481w,https://framerusercontent.com/images/SY57Qs9wLuH6JpWOVmPJdxuPK9c.png?width=1560&height=2156 1560w",
+      "alt": null,
+      "width": "1560",
+      "height": "2156",
+      "path": [
+        "Frame"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SY57Qs9wLuH6JpWOVmPJdxuPK9c.png?width=1560&height=2156",
+      "srcset": "https://framerusercontent.com/images/SY57Qs9wLuH6JpWOVmPJdxuPK9c.png?scale-down-to=1024&width=1560&height=2156 740w,https://framerusercontent.com/images/SY57Qs9wLuH6JpWOVmPJdxuPK9c.png?scale-down-to=2048&width=1560&height=2156 1481w,https://framerusercontent.com/images/SY57Qs9wLuH6JpWOVmPJdxuPK9c.png?width=1560&height=2156 1560w",
+      "alt": null,
+      "width": "1560",
+      "height": "2156",
+      "path": [
+        "Sources To Signal Section"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/UDSoy0pzTCYBQH0JfHD7YIX08.png?width=888&height=1076",
+      "srcset": "https://framerusercontent.com/images/UDSoy0pzTCYBQH0JfHD7YIX08.png?scale-down-to=1024&width=888&height=1076 845w,https://framerusercontent.com/images/UDSoy0pzTCYBQH0JfHD7YIX08.png?width=888&height=1076 888w",
+      "alt": null,
+      "width": "888",
+      "height": "1076",
+      "path": [
+        "Frame",
+        "Cart Phone 2",
+        "Rectangle 44"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/UDSoy0pzTCYBQH0JfHD7YIX08.png?width=888&height=1076",
+      "srcset": "https://framerusercontent.com/images/UDSoy0pzTCYBQH0JfHD7YIX08.png?scale-down-to=1024&width=888&height=1076 845w,https://framerusercontent.com/images/UDSoy0pzTCYBQH0JfHD7YIX08.png?width=888&height=1076 888w",
+      "alt": null,
+      "width": "888",
+      "height": "1076",
+      "path": [
+        "Frame",
+        "Cart Phone 3",
+        "Rectangle 44"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/UDSoy0pzTCYBQH0JfHD7YIX08.png?width=888&height=1076",
+      "srcset": "https://framerusercontent.com/images/UDSoy0pzTCYBQH0JfHD7YIX08.png?scale-down-to=1024&width=888&height=1076 845w,https://framerusercontent.com/images/UDSoy0pzTCYBQH0JfHD7YIX08.png?width=888&height=1076 888w",
+      "alt": null,
+      "width": "888",
+      "height": "1076",
+      "path": [
+        "Frame",
+        "Cart phone 4",
+        "Rectangle 44"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
+      "srcset": null,
+      "alt": null,
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Frame"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
+      "srcset": null,
+      "alt": null,
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Frame"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/XH3vDv9hWAd4EXeRme1QUYylck.png?width=866&height=1552",
+      "srcset": "https://framerusercontent.com/images/XH3vDv9hWAd4EXeRme1QUYylck.png?scale-down-to=1024&width=866&height=1552 571w,https://framerusercontent.com/images/XH3vDv9hWAd4EXeRme1QUYylck.png?width=866&height=1552 866w",
+      "alt": null,
+      "width": "866",
+      "height": "1552",
+      "path": [
+        "Frame",
+        "Frame 48"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ckrGU5Y7Q9NyRoODPEtumhvSWuM.png?width=180&height=180",
+      "srcset": null,
+      "alt": null,
+      "width": "180",
+      "height": "180",
+      "path": [
+        "Frame",
+        "Background"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ckrGU5Y7Q9NyRoODPEtumhvSWuM.png?width=180&height=180",
+      "srcset": null,
+      "alt": null,
+      "width": "180",
+      "height": "180",
+      "path": [
+        "Frame",
+        "Background"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:fill",
+      "box": null
+    }
+  ],
+  "videoReferences": [],
+  "linksDeclaredInSource": [
+    "https://dribbble.com/mr--freeze/shots",
+    "https://only-unicorn-982022.framer.app/",
+    "https://only-unicorn-982022.framer.app/burger-menu",
+    "https://only-unicorn-982022.framer.app/contact",
+    "https://only-unicorn-982022.framer.app/pricing",
+    "https://only-unicorn-982022.framer.app/product",
+    "https://www.behance.net/mrfreeze4",
+    "https://www.framer.com",
+    "https://x.com/DanilHulakov"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F147e5711-3a3b-43a4-be9c-bf517a91143d%2F01a06175-e0fc-738f-a1ef-0880af170189.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F147e5711-3a3b-43a4-be9c-bf517a91143d%2F01a06176-6e54-765e-b63f-cda2de2a67cd.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F147e5711-3a3b-43a4-be9c-bf517a91143d%2F01a06176-6e90-73f0-a04e-8a9f90d06a95.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-04.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F147e5711-3a3b-43a4-be9c-bf517a91143d%2F01a06176-6e77-7356-bd68-57206f600fea.png&w=2048&q=80"
+    }
+  ]
+}

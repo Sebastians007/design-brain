@@ -1,0 +1,5103 @@
+{
+  "template": "Create",
+  "preview": "https://createstudio.framer.media/",
+  "marketplace": "https://www.framer.com/marketplace/templates/create/",
+  "creator": "Tamas Bodo",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "viewport": null,
+  "pageHeight": null,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 4 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 4 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 3 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 4 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Figtree",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_fWR25ZyEA.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/figtree-900-0.woff2"
+    },
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/fragment-mono-400-1.woff2"
+    },
+    {
+      "family": "Figtree",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_ehR15bwkEU4HTy.woff2",
+      "range": "",
+      "file": "assets/fonts/figtree-600-2.woff2"
+    },
+    {
+      "family": "Figtree",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QF5bwkEU4HTy.woff2",
+      "range": "",
+      "file": "assets/fonts/figtree-400-3.woff2"
+    },
+    {
+      "family": "Figtree",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_dNQF5bwkEU4HTy.woff2",
+      "range": "",
+      "file": "assets/fonts/figtree-500-4.woff2"
+    },
+    {
+      "family": "Figtree",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_eYR15bwkEU4HTy.woff2",
+      "range": "",
+      "file": "assets/fonts/figtree-700-5.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-6.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-7.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/rZ5DdENNqIdFTIyQQiP5isO7M.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-900-8.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-600-9.woff2"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Desktop",
+        "Content",
+        "Menu",
+        "Logo CMS",
+        "Logo",
+        "Logo",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Tablet",
+        "Content",
+        "Menu",
+        "Logo CMS",
+        "Logo",
+        "Logo",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Phone",
+        "Content",
+        "Menu",
+        "Logo CMS",
+        "Logo",
+        "Logo",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/F36xMPu8pHnGVkDRZem7seck5w.jpg?width=2900&height=1934",
+      "srcset": "https://framerusercontent.com/images/F36xMPu8pHnGVkDRZem7seck5w.jpg?scale-down-to=512&width=2900&height=1934 512w,https://framerusercontent.com/images/F36xMPu8pHnGVkDRZem7seck5w.jpg?scale-down-to=1024&width=2900&height=1934 1024w,https://framerusercontent.com/images/F36xMPu8pHnGVkDRZem7seck5w.jpg?scale-down-to=2048&width=2900&height=1934 2048w,https://framerusercontent.com/images/F36xMPu8pHnGVkDRZem7seck5w.jpg?width=2900&height=1934 2900w",
+      "alt": null,
+      "width": "2900",
+      "height": "1934",
+      "path": [
+        "Main",
+        "Section | Hero",
+        "Hero Image",
+        "Loaded",
+        "BG"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/lhzRlnJWOBjCxB8pifa17JuoY0o.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Hero",
+        "Content",
+        "Top",
+        "Desktop",
+        "Ticker",
+        "Logo 1",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/q2ikcAqIxOFlfklZAIwQjDZN28o.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Hero",
+        "Content",
+        "Top",
+        "Desktop",
+        "Ticker",
+        "Logo 2",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/EPjAGAnclQbodmXDYinGiLkNHtA.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Hero",
+        "Content",
+        "Top",
+        "Desktop",
+        "Ticker",
+        "Logo 3",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/f81OcrxxB2C9QDfJE2noEOZFyM.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Hero",
+        "Content",
+        "Top",
+        "Desktop",
+        "Ticker",
+        "Logo 4",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/XZC5gfwH80QlLdKR82ZU6C1TeUs.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Hero",
+        "Content",
+        "Top",
+        "Desktop",
+        "Ticker",
+        "Logo 5",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/xABe5PZLeMdgZqFbVGLU20QbrTo.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Hero",
+        "Content",
+        "Top",
+        "Desktop",
+        "Ticker",
+        "Logo 6",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/kFaZn4jBt2BiEY2t6PPE1uTI.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Hero",
+        "Content",
+        "Top",
+        "Desktop",
+        "Ticker",
+        "Logo 7",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/zgT2kgGxBCyealuSSq2OP3Csuls.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Hero",
+        "Content",
+        "Top",
+        "Desktop",
+        "Ticker",
+        "Logo 8",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/lhzRlnJWOBjCxB8pifa17JuoY0o.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Hero",
+        "Content",
+        "Top",
+        "Phone",
+        "Ticker",
+        "Logo 1",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/q2ikcAqIxOFlfklZAIwQjDZN28o.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Hero",
+        "Content",
+        "Top",
+        "Phone",
+        "Ticker",
+        "Logo 2",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/EPjAGAnclQbodmXDYinGiLkNHtA.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Hero",
+        "Content",
+        "Top",
+        "Phone",
+        "Ticker",
+        "Logo 3",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/f81OcrxxB2C9QDfJE2noEOZFyM.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Hero",
+        "Content",
+        "Top",
+        "Phone",
+        "Ticker",
+        "Logo 4",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/XZC5gfwH80QlLdKR82ZU6C1TeUs.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Hero",
+        "Content",
+        "Top",
+        "Phone",
+        "Ticker",
+        "Logo 5",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/xABe5PZLeMdgZqFbVGLU20QbrTo.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Hero",
+        "Content",
+        "Top",
+        "Phone",
+        "Ticker",
+        "Logo 6",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/kFaZn4jBt2BiEY2t6PPE1uTI.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Hero",
+        "Content",
+        "Top",
+        "Phone",
+        "Ticker",
+        "Logo 7",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/zgT2kgGxBCyealuSSq2OP3Csuls.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Hero",
+        "Content",
+        "Top",
+        "Phone",
+        "Ticker",
+        "Logo 8",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/lhzRlnJWOBjCxB8pifa17JuoY0o.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Featured Projects",
+        "Featured Projects (CMS)",
+        "Desktop",
+        "Project Type",
+        "Logos",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/yAyCNDhQbTvqJAfsIABAsGb15g.jpeg?width=2300&height=1533",
+      "srcset": "https://framerusercontent.com/images/yAyCNDhQbTvqJAfsIABAsGb15g.jpeg?scale-down-to=512&width=2300&height=1533 512w,https://framerusercontent.com/images/yAyCNDhQbTvqJAfsIABAsGb15g.jpeg?scale-down-to=1024&width=2300&height=1533 1024w,https://framerusercontent.com/images/yAyCNDhQbTvqJAfsIABAsGb15g.jpeg?scale-down-to=2048&width=2300&height=1533 2048w,https://framerusercontent.com/images/yAyCNDhQbTvqJAfsIABAsGb15g.jpeg?width=2300&height=1533 2300w",
+      "alt": "Modern beachfront villa with infinity pool and palm trees.",
+      "width": "2300",
+      "height": "1533",
+      "path": [
+        "Main",
+        "Section | Featured Projects",
+        "Featured Projects (CMS)",
+        "Desktop",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/lhzRlnJWOBjCxB8pifa17JuoY0o.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Featured Projects",
+        "Featured Projects (CMS)",
+        "Phone",
+        "Project Type",
+        "Logos",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/yAyCNDhQbTvqJAfsIABAsGb15g.jpeg?width=2300&height=1533",
+      "srcset": "https://framerusercontent.com/images/yAyCNDhQbTvqJAfsIABAsGb15g.jpeg?scale-down-to=512&width=2300&height=1533 512w,https://framerusercontent.com/images/yAyCNDhQbTvqJAfsIABAsGb15g.jpeg?scale-down-to=1024&width=2300&height=1533 1024w,https://framerusercontent.com/images/yAyCNDhQbTvqJAfsIABAsGb15g.jpeg?scale-down-to=2048&width=2300&height=1533 2048w,https://framerusercontent.com/images/yAyCNDhQbTvqJAfsIABAsGb15g.jpeg?width=2300&height=1533 2300w",
+      "alt": "Modern beachfront villa with infinity pool and palm trees.",
+      "width": "2300",
+      "height": "1533",
+      "path": [
+        "Main",
+        "Section | Featured Projects",
+        "Featured Projects (CMS)",
+        "Phone",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/lhzRlnJWOBjCxB8pifa17JuoY0o.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Featured Projects",
+        "Featured Projects (CMS)",
+        "Tablet",
+        "Project Type",
+        "Logos",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/yAyCNDhQbTvqJAfsIABAsGb15g.jpeg?width=2300&height=1533",
+      "srcset": "https://framerusercontent.com/images/yAyCNDhQbTvqJAfsIABAsGb15g.jpeg?scale-down-to=512&width=2300&height=1533 512w,https://framerusercontent.com/images/yAyCNDhQbTvqJAfsIABAsGb15g.jpeg?scale-down-to=1024&width=2300&height=1533 1024w,https://framerusercontent.com/images/yAyCNDhQbTvqJAfsIABAsGb15g.jpeg?scale-down-to=2048&width=2300&height=1533 2048w,https://framerusercontent.com/images/yAyCNDhQbTvqJAfsIABAsGb15g.jpeg?width=2300&height=1533 2300w",
+      "alt": "Modern beachfront villa with infinity pool and palm trees.",
+      "width": "2300",
+      "height": "1533",
+      "path": [
+        "Main",
+        "Section | Featured Projects",
+        "Featured Projects (CMS)",
+        "Tablet",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/q2ikcAqIxOFlfklZAIwQjDZN28o.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Featured Projects",
+        "Featured Projects (CMS)",
+        "Desktop",
+        "Project Type",
+        "Logos",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?width=1533&height=2300",
+      "srcset": "https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?scale-down-to=1024&width=1533&height=2300 682w,https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?scale-down-to=2048&width=1533&height=2300 1365w,https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?width=1533&height=2300 1533w",
+      "alt": "Futuristic black and white concept car with sleek rounded design and city skyline in background.",
+      "width": "1533",
+      "height": "2300",
+      "path": [
+        "Main",
+        "Section | Featured Projects",
+        "Featured Projects (CMS)",
+        "Desktop",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/q2ikcAqIxOFlfklZAIwQjDZN28o.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Featured Projects",
+        "Featured Projects (CMS)",
+        "Phone",
+        "Project Type",
+        "Logos",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?width=1533&height=2300",
+      "srcset": "https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?scale-down-to=1024&width=1533&height=2300 682w,https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?scale-down-to=2048&width=1533&height=2300 1365w,https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?width=1533&height=2300 1533w",
+      "alt": "Futuristic black and white concept car with sleek rounded design and city skyline in background.",
+      "width": "1533",
+      "height": "2300",
+      "path": [
+        "Main",
+        "Section | Featured Projects",
+        "Featured Projects (CMS)",
+        "Phone",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/q2ikcAqIxOFlfklZAIwQjDZN28o.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Featured Projects",
+        "Featured Projects (CMS)",
+        "Tablet",
+        "Project Type",
+        "Logos",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?width=1533&height=2300",
+      "srcset": "https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?scale-down-to=1024&width=1533&height=2300 682w,https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?scale-down-to=2048&width=1533&height=2300 1365w,https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?width=1533&height=2300 1533w",
+      "alt": "Futuristic black and white concept car with sleek rounded design and city skyline in background.",
+      "width": "1533",
+      "height": "2300",
+      "path": [
+        "Main",
+        "Section | Featured Projects",
+        "Featured Projects (CMS)",
+        "Tablet",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/jGN9xSDdhT1A3MCYqA5y5r410Kw.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Featured Projects",
+        "Featured Projects (CMS)",
+        "Desktop",
+        "Project Type",
+        "Logos",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Tw5d4QXO8KrpmBh9B9bEy8oWm1g.jpg?width=2000&height=1333",
+      "srcset": "https://framerusercontent.com/images/Tw5d4QXO8KrpmBh9B9bEy8oWm1g.jpg?scale-down-to=512&width=2000&height=1333 512w,https://framerusercontent.com/images/Tw5d4QXO8KrpmBh9B9bEy8oWm1g.jpg?scale-down-to=1024&width=2000&height=1333 1024w,https://framerusercontent.com/images/Tw5d4QXO8KrpmBh9B9bEy8oWm1g.jpg?width=2000&height=1333 2000w",
+      "alt": "Close-up of black road bike with orange frame detail in low light.",
+      "width": "2000",
+      "height": "1333",
+      "path": [
+        "Main",
+        "Section | Featured Projects",
+        "Featured Projects (CMS)",
+        "Desktop",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/jGN9xSDdhT1A3MCYqA5y5r410Kw.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Featured Projects",
+        "Featured Projects (CMS)",
+        "Phone",
+        "Project Type",
+        "Logos",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Tw5d4QXO8KrpmBh9B9bEy8oWm1g.jpg?width=2000&height=1333",
+      "srcset": "https://framerusercontent.com/images/Tw5d4QXO8KrpmBh9B9bEy8oWm1g.jpg?scale-down-to=512&width=2000&height=1333 512w,https://framerusercontent.com/images/Tw5d4QXO8KrpmBh9B9bEy8oWm1g.jpg?scale-down-to=1024&width=2000&height=1333 1024w,https://framerusercontent.com/images/Tw5d4QXO8KrpmBh9B9bEy8oWm1g.jpg?width=2000&height=1333 2000w",
+      "alt": "Close-up of black road bike with orange frame detail in low light.",
+      "width": "2000",
+      "height": "1333",
+      "path": [
+        "Main",
+        "Section | Featured Projects",
+        "Featured Projects (CMS)",
+        "Phone",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/jGN9xSDdhT1A3MCYqA5y5r410Kw.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Featured Projects",
+        "Featured Projects (CMS)",
+        "Tablet",
+        "Project Type",
+        "Logos",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Tw5d4QXO8KrpmBh9B9bEy8oWm1g.jpg?width=2000&height=1333",
+      "srcset": "https://framerusercontent.com/images/Tw5d4QXO8KrpmBh9B9bEy8oWm1g.jpg?scale-down-to=512&width=2000&height=1333 512w,https://framerusercontent.com/images/Tw5d4QXO8KrpmBh9B9bEy8oWm1g.jpg?scale-down-to=1024&width=2000&height=1333 1024w,https://framerusercontent.com/images/Tw5d4QXO8KrpmBh9B9bEy8oWm1g.jpg?width=2000&height=1333 2000w",
+      "alt": "Close-up of black road bike with orange frame detail in low light.",
+      "width": "2000",
+      "height": "1333",
+      "path": [
+        "Main",
+        "Section | Featured Projects",
+        "Featured Projects (CMS)",
+        "Tablet",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/km3D3T6uyIlhHbiDIh7pmgphjc.jpeg?width=1800&height=1009",
+      "srcset": "https://framerusercontent.com/images/km3D3T6uyIlhHbiDIh7pmgphjc.jpeg?scale-down-to=512&width=1800&height=1009 512w,https://framerusercontent.com/images/km3D3T6uyIlhHbiDIh7pmgphjc.jpeg?scale-down-to=1024&width=1800&height=1009 1024w,https://framerusercontent.com/images/km3D3T6uyIlhHbiDIh7pmgphjc.jpeg?width=1800&height=1009 1800w",
+      "alt": "Swirly background image",
+      "width": "1800",
+      "height": "1009",
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "BG Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/km3D3T6uyIlhHbiDIh7pmgphjc.jpeg?width=1800&height=1009",
+      "srcset": "https://framerusercontent.com/images/km3D3T6uyIlhHbiDIh7pmgphjc.jpeg?scale-down-to=512&width=1800&height=1009 512w,https://framerusercontent.com/images/km3D3T6uyIlhHbiDIh7pmgphjc.jpeg?scale-down-to=1024&width=1800&height=1009 1024w,https://framerusercontent.com/images/km3D3T6uyIlhHbiDIh7pmgphjc.jpeg?width=1800&height=1009 1800w",
+      "alt": "Swirly background image",
+      "width": "1800",
+      "height": "1009",
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "BG Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Stats",
+        "Header",
+        "Desktop - Dark",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Stats",
+        "Header",
+        "Phone - Dark",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Stats",
+        "Header",
+        "Tablet - Dark",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/kFaZn4jBt2BiEY2t6PPE1uTI.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Desktop",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/XZC5gfwH80QlLdKR82ZU6C1TeUs.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Desktop",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Y3K8YY7uSjpgIae6KILQJYcPEHc.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Desktop",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/ci4EfEHD1o2xV283GHEWcYR6Cro.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Desktop",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/xABe5PZLeMdgZqFbVGLU20QbrTo.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Desktop",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/q2ikcAqIxOFlfklZAIwQjDZN28o.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Desktop",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/f81OcrxxB2C9QDfJE2noEOZFyM.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Desktop",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/zgT2kgGxBCyealuSSq2OP3Csuls.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Desktop",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/kFaZn4jBt2BiEY2t6PPE1uTI.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Tablet",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/XZC5gfwH80QlLdKR82ZU6C1TeUs.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Tablet",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Y3K8YY7uSjpgIae6KILQJYcPEHc.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Tablet",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/ci4EfEHD1o2xV283GHEWcYR6Cro.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Tablet",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/xABe5PZLeMdgZqFbVGLU20QbrTo.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Tablet",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/q2ikcAqIxOFlfklZAIwQjDZN28o.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Tablet",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/f81OcrxxB2C9QDfJE2noEOZFyM.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Tablet",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/zgT2kgGxBCyealuSSq2OP3Csuls.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Tablet",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/kFaZn4jBt2BiEY2t6PPE1uTI.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Phone",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/XZC5gfwH80QlLdKR82ZU6C1TeUs.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Phone",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Y3K8YY7uSjpgIae6KILQJYcPEHc.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Phone",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/ci4EfEHD1o2xV283GHEWcYR6Cro.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Phone",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/xABe5PZLeMdgZqFbVGLU20QbrTo.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Phone",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/q2ikcAqIxOFlfklZAIwQjDZN28o.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Phone",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/f81OcrxxB2C9QDfJE2noEOZFyM.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Phone",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/zgT2kgGxBCyealuSSq2OP3Csuls.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Statistics",
+        "Content",
+        "Ticker",
+        "Partners",
+        "Phone",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BazpDHjvKRsEV7ONWT70UHNv45Q.jpg?width=500&height=333",
+      "srcset": null,
+      "alt": "Close-up of a sleek modern electronic device with a magnetic connector and an orange logo on a metallic surface.",
+      "width": "500",
+      "height": "333",
+      "path": [
+        "Main",
+        "Section | Services",
+        "Desktop - Service 1",
+        "Content",
+        "Bottom",
+        "Bottom",
+        "Left",
+        "Image",
+        "Image",
+        "Animate From",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BazpDHjvKRsEV7ONWT70UHNv45Q.jpg?width=500&height=333",
+      "srcset": null,
+      "alt": "Close-up of a sleek modern electronic device with a magnetic connector and an orange logo on a metallic surface.",
+      "width": "500",
+      "height": "333",
+      "path": [
+        "Main",
+        "Section | Services",
+        "Phone - Service 1",
+        "Content",
+        "Bottom",
+        "Bottom",
+        "Left",
+        "Image",
+        "Image",
+        "Animate To",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BazpDHjvKRsEV7ONWT70UHNv45Q.jpg?width=500&height=333",
+      "srcset": null,
+      "alt": "Close-up of a sleek modern electronic device with a magnetic connector and an orange logo on a metallic surface.",
+      "width": "500",
+      "height": "333",
+      "path": [
+        "Main",
+        "Section | Services",
+        "Tablet - Service 1",
+        "Content",
+        "Bottom",
+        "Bottom",
+        "Left",
+        "Image",
+        "Image",
+        "Animate To",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7qlMw5IvdnDP6ZRxhWmzt6RjWs.jpg?width=500&height=516",
+      "srcset": "https://framerusercontent.com/images/7qlMw5IvdnDP6ZRxhWmzt6RjWs.jpg?width=500&height=516 500w",
+      "alt": "Two designers working at a modern desk arranging colour swatches, samples, and tech devices in a creative workspace.",
+      "width": "500",
+      "height": "516",
+      "path": [
+        "Main",
+        "Section | Services",
+        "Desktop - Service 2",
+        "Content",
+        "Bottom",
+        "Bottom",
+        "Left",
+        "Image",
+        "Image",
+        "Animate From",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7qlMw5IvdnDP6ZRxhWmzt6RjWs.jpg?width=500&height=516",
+      "srcset": "https://framerusercontent.com/images/7qlMw5IvdnDP6ZRxhWmzt6RjWs.jpg?width=500&height=516 500w",
+      "alt": "Two designers working at a modern desk arranging colour swatches, samples, and tech devices in a creative workspace.",
+      "width": "500",
+      "height": "516",
+      "path": [
+        "Main",
+        "Section | Services",
+        "Phone - Service 2",
+        "Content",
+        "Bottom",
+        "Bottom",
+        "Left",
+        "Image",
+        "Image",
+        "Animate To",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7qlMw5IvdnDP6ZRxhWmzt6RjWs.jpg?width=500&height=516",
+      "srcset": "https://framerusercontent.com/images/7qlMw5IvdnDP6ZRxhWmzt6RjWs.jpg?width=500&height=516 500w",
+      "alt": "Two designers working at a modern desk arranging colour swatches, samples, and tech devices in a creative workspace.",
+      "width": "500",
+      "height": "516",
+      "path": [
+        "Main",
+        "Section | Services",
+        "Tablet - Service 2",
+        "Content",
+        "Bottom",
+        "Bottom",
+        "Left",
+        "Image",
+        "Image",
+        "Animate To",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Bj84uHa4fa4QYqi4Q5xWUiIOME.jpg?width=500&height=377",
+      "srcset": null,
+      "alt": "Minimalist arrangement of geometric product mockups in white, black, grey, and orange on a clean white background.",
+      "width": "500",
+      "height": "377",
+      "path": [
+        "Main",
+        "Section | Services",
+        "Desktop - Service 3",
+        "Content",
+        "Bottom",
+        "Bottom",
+        "Left",
+        "Image",
+        "Image",
+        "Animate From",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Bj84uHa4fa4QYqi4Q5xWUiIOME.jpg?width=500&height=377",
+      "srcset": null,
+      "alt": "Minimalist arrangement of geometric product mockups in white, black, grey, and orange on a clean white background.",
+      "width": "500",
+      "height": "377",
+      "path": [
+        "Main",
+        "Section | Services",
+        "Phone - Service 3",
+        "Content",
+        "Bottom",
+        "Bottom",
+        "Left",
+        "Image",
+        "Image",
+        "Animate To",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Bj84uHa4fa4QYqi4Q5xWUiIOME.jpg?width=500&height=377",
+      "srcset": null,
+      "alt": "Minimalist arrangement of geometric product mockups in white, black, grey, and orange on a clean white background.",
+      "width": "500",
+      "height": "377",
+      "path": [
+        "Main",
+        "Section | Services",
+        "Tablet - Service 3",
+        "Content",
+        "Bottom",
+        "Bottom",
+        "Left",
+        "Image",
+        "Image",
+        "Animate To",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/zqRW4UymWBhPeBrJ2zdo40guUQ.jpg?width=500&height=515",
+      "srcset": "https://framerusercontent.com/images/zqRW4UymWBhPeBrJ2zdo40guUQ.jpg?width=500&height=515 500w",
+      "alt": "Woman wearing transparent futuristic visor with iridescent light reflections.",
+      "width": "500",
+      "height": "515",
+      "path": [
+        "Main",
+        "Section | Services",
+        "Desktop - Service 4",
+        "Content",
+        "Bottom",
+        "Bottom",
+        "Left",
+        "Image",
+        "Image",
+        "Animate From",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/zqRW4UymWBhPeBrJ2zdo40guUQ.jpg?width=500&height=515",
+      "srcset": "https://framerusercontent.com/images/zqRW4UymWBhPeBrJ2zdo40guUQ.jpg?width=500&height=515 500w",
+      "alt": "Woman wearing transparent futuristic visor with iridescent light reflections.",
+      "width": "500",
+      "height": "515",
+      "path": [
+        "Main",
+        "Section | Services",
+        "Phone - Service 4",
+        "Content",
+        "Bottom",
+        "Bottom",
+        "Left",
+        "Image",
+        "Image",
+        "Animate To",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/zqRW4UymWBhPeBrJ2zdo40guUQ.jpg?width=500&height=515",
+      "srcset": "https://framerusercontent.com/images/zqRW4UymWBhPeBrJ2zdo40guUQ.jpg?width=500&height=515 500w",
+      "alt": "Woman wearing transparent futuristic visor with iridescent light reflections.",
+      "width": "500",
+      "height": "515",
+      "path": [
+        "Main",
+        "Section | Services",
+        "Tablet - Service 3",
+        "Content",
+        "Bottom",
+        "Bottom",
+        "Left",
+        "Image",
+        "Image",
+        "Animate To",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/sBsx1V7H37lD7ZK5WRx7HvzMkwA.jpg?width=2000&height=1333",
+      "srcset": "https://framerusercontent.com/images/sBsx1V7H37lD7ZK5WRx7HvzMkwA.jpg?scale-down-to=512&width=2000&height=1333 512w,https://framerusercontent.com/images/sBsx1V7H37lD7ZK5WRx7HvzMkwA.jpg?scale-down-to=1024&width=2000&height=1333 1024w,https://framerusercontent.com/images/sBsx1V7H37lD7ZK5WRx7HvzMkwA.jpg?width=2000&height=1333 2000w",
+      "alt": null,
+      "width": "2000",
+      "height": "1333",
+      "path": [
+        "Main",
+        "Section | Services",
+        "Desktop - Service 5",
+        "Content",
+        "Bottom",
+        "Bottom",
+        "Left",
+        "Image",
+        "Image",
+        "Animate From",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/sBsx1V7H37lD7ZK5WRx7HvzMkwA.jpg?width=2000&height=1333",
+      "srcset": "https://framerusercontent.com/images/sBsx1V7H37lD7ZK5WRx7HvzMkwA.jpg?scale-down-to=512&width=2000&height=1333 512w,https://framerusercontent.com/images/sBsx1V7H37lD7ZK5WRx7HvzMkwA.jpg?scale-down-to=1024&width=2000&height=1333 1024w,https://framerusercontent.com/images/sBsx1V7H37lD7ZK5WRx7HvzMkwA.jpg?width=2000&height=1333 2000w",
+      "alt": null,
+      "width": "2000",
+      "height": "1333",
+      "path": [
+        "Main",
+        "Section | Services",
+        "Phone - Service 5",
+        "Content",
+        "Bottom",
+        "Bottom",
+        "Left",
+        "Image",
+        "Image",
+        "Animate To",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/sBsx1V7H37lD7ZK5WRx7HvzMkwA.jpg?width=2000&height=1333",
+      "srcset": "https://framerusercontent.com/images/sBsx1V7H37lD7ZK5WRx7HvzMkwA.jpg?scale-down-to=512&width=2000&height=1333 512w,https://framerusercontent.com/images/sBsx1V7H37lD7ZK5WRx7HvzMkwA.jpg?scale-down-to=1024&width=2000&height=1333 1024w,https://framerusercontent.com/images/sBsx1V7H37lD7ZK5WRx7HvzMkwA.jpg?width=2000&height=1333 2000w",
+      "alt": null,
+      "width": "2000",
+      "height": "1333",
+      "path": [
+        "Main",
+        "Section | Services",
+        "Tablet - Service 4",
+        "Content",
+        "Bottom",
+        "Bottom",
+        "Left",
+        "Image",
+        "Image",
+        "Animate To",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/fmneMB0X5vI39roeSddxPDWVk.png?width=1984&height=2400",
+      "srcset": "https://framerusercontent.com/images/fmneMB0X5vI39roeSddxPDWVk.png?scale-down-to=1024&width=1984&height=2400 846w,https://framerusercontent.com/images/fmneMB0X5vI39roeSddxPDWVk.png?scale-down-to=2048&width=1984&height=2400 1693w,https://framerusercontent.com/images/fmneMB0X5vI39roeSddxPDWVk.png?width=1984&height=2400 1984w",
+      "alt": "Close-up of a modern mechanical keyboard with a grey control knob and an orange accent key.",
+      "width": "1984",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Section | Services",
+        "Desktop - Service 6",
+        "Content",
+        "Bottom",
+        "Bottom",
+        "Left",
+        "Image",
+        "Image",
+        "Animate From",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/fmneMB0X5vI39roeSddxPDWVk.png?width=1984&height=2400",
+      "srcset": "https://framerusercontent.com/images/fmneMB0X5vI39roeSddxPDWVk.png?scale-down-to=1024&width=1984&height=2400 846w,https://framerusercontent.com/images/fmneMB0X5vI39roeSddxPDWVk.png?scale-down-to=2048&width=1984&height=2400 1693w,https://framerusercontent.com/images/fmneMB0X5vI39roeSddxPDWVk.png?width=1984&height=2400 1984w",
+      "alt": "Close-up of a modern mechanical keyboard with a grey control knob and an orange accent key.",
+      "width": "1984",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Section | Services",
+        "Phone - Service 6",
+        "Content",
+        "Bottom",
+        "Bottom",
+        "Left",
+        "Image",
+        "Image",
+        "Animate To",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/fmneMB0X5vI39roeSddxPDWVk.png?width=1984&height=2400",
+      "srcset": "https://framerusercontent.com/images/fmneMB0X5vI39roeSddxPDWVk.png?scale-down-to=1024&width=1984&height=2400 846w,https://framerusercontent.com/images/fmneMB0X5vI39roeSddxPDWVk.png?scale-down-to=2048&width=1984&height=2400 1693w,https://framerusercontent.com/images/fmneMB0X5vI39roeSddxPDWVk.png?width=1984&height=2400 1984w",
+      "alt": "Close-up of a modern mechanical keyboard with a grey control knob and an orange accent key.",
+      "width": "1984",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Section | Services",
+        "Tablet - Service 5",
+        "Content",
+        "Bottom",
+        "Bottom",
+        "Left",
+        "Image",
+        "Image",
+        "Animate To",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | How we work",
+        "Header",
+        "Desktop - Dark",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | How we work",
+        "Header",
+        "Phone - Dark",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | How we work",
+        "Header",
+        "Tablet - Dark",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/1V97JnUm9IBAZUheAQedGKsh3OU.jpg?width=1536&height=1024",
+      "srcset": "https://framerusercontent.com/images/1V97JnUm9IBAZUheAQedGKsh3OU.jpg?scale-down-to=512&width=1536&height=1024 512w,https://framerusercontent.com/images/1V97JnUm9IBAZUheAQedGKsh3OU.jpg?scale-down-to=1024&width=1536&height=1024 1024w,https://framerusercontent.com/images/1V97JnUm9IBAZUheAQedGKsh3OU.jpg?width=1536&height=1024 1536w",
+      "alt": "Abstract dark background with soft blue and red gradient light glowing at the center.",
+      "width": "1536",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Section | How we work",
+        "Content",
+        "Loaded",
+        "BG"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/q2ikcAqIxOFlfklZAIwQjDZN28o.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | How we work",
+        "Content",
+        "Bottom",
+        "Content",
+        "Featured Project (CMS)",
+        "Mini Card",
+        "Project Type",
+        "Logos",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?width=1533&height=2300",
+      "srcset": "https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?scale-down-to=1024&width=1533&height=2300 682w,https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?scale-down-to=2048&width=1533&height=2300 1365w,https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?width=1533&height=2300 1533w",
+      "alt": "Futuristic black and white concept car with sleek rounded design and city skyline in background.",
+      "width": "1533",
+      "height": "2300",
+      "path": [
+        "Main",
+        "Section | How we work",
+        "Content",
+        "Bottom",
+        "Content",
+        "Featured Project (CMS)",
+        "Mini Card",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/q2ikcAqIxOFlfklZAIwQjDZN28o.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | How we work",
+        "Content",
+        "Bottom",
+        "Content",
+        "Featured Project (CMS)",
+        "Mini Card",
+        "Project Type",
+        "Logos",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?width=1533&height=2300",
+      "srcset": "https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?scale-down-to=1024&width=1533&height=2300 682w,https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?scale-down-to=2048&width=1533&height=2300 1365w,https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?width=1533&height=2300 1533w",
+      "alt": "Futuristic black and white concept car with sleek rounded design and city skyline in background.",
+      "width": "1533",
+      "height": "2300",
+      "path": [
+        "Main",
+        "Section | How we work",
+        "Content",
+        "Bottom",
+        "Content",
+        "Featured Project (CMS)",
+        "Mini Card",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/q2ikcAqIxOFlfklZAIwQjDZN28o.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | How we work",
+        "Content",
+        "Bottom",
+        "Content",
+        "Featured Project (CMS)",
+        "Mini Card",
+        "Project Type",
+        "Logos",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?width=1533&height=2300",
+      "srcset": "https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?scale-down-to=1024&width=1533&height=2300 682w,https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?scale-down-to=2048&width=1533&height=2300 1365w,https://framerusercontent.com/images/Sl9EJQTfoycU8fTKPQzTCSt7wI.jpg?width=1533&height=2300 1533w",
+      "alt": "Futuristic black and white concept car with sleek rounded design and city skyline in background.",
+      "width": "1533",
+      "height": "2300",
+      "path": [
+        "Main",
+        "Section | How we work",
+        "Content",
+        "Bottom",
+        "Content",
+        "Featured Project (CMS)",
+        "Mini Card",
+        "Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Header",
+        "Desktop - Light",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Header",
+        "Phone - Light",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Header",
+        "Tablet - Light",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 03",
+        "Animations",
+        "Phase 3",
+        "Logo",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 03- Phone",
+        "Animations",
+        "Phase 3",
+        "Logo",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and red covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 04 - Desktop",
+        "Pricing Plan Carousel",
+        "Pricing Plan Card 1",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and red covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 04 - Desktop",
+        "Pricing Plan Carousel",
+        "Pricing Plan Card  2",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and blue covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 04 - Desktop",
+        "Pricing Plan Carousel",
+        "Pricing Plan Card  2",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and red covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 04 - Desktop",
+        "Pricing Plan Carousel",
+        "Pricing Plan Card  3",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and blue covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 04 - Desktop",
+        "Pricing Plan Carousel",
+        "Pricing Plan Card  3",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CJl8tlOKKSddqB3VWFVMoZ15Y.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/CJl8tlOKKSddqB3VWFVMoZ15Y.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/CJl8tlOKKSddqB3VWFVMoZ15Y.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and monochrome covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 04 - Desktop",
+        "Pricing Plan Carousel",
+        "Pricing Plan Card  3",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+      "srcset": null,
+      "alt": "Back Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 04 - Desktop",
+        "Pricing Plan Carousel"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+      "srcset": null,
+      "alt": "Next Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 04 - Desktop",
+        "Pricing Plan Carousel"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and red covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 04- Phone",
+        "Pricing Plan Carousel",
+        "Pricing Plan Card 1",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and red covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 04- Phone",
+        "Pricing Plan Carousel",
+        "Pricing Plan Card  2",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and blue covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 04- Phone",
+        "Pricing Plan Carousel",
+        "Pricing Plan Card  2",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and red covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 04- Phone",
+        "Pricing Plan Carousel",
+        "Pricing Plan Card  3",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and blue covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 04- Phone",
+        "Pricing Plan Carousel",
+        "Pricing Plan Card  3",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CJl8tlOKKSddqB3VWFVMoZ15Y.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/CJl8tlOKKSddqB3VWFVMoZ15Y.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/CJl8tlOKKSddqB3VWFVMoZ15Y.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and monochrome covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 04- Phone",
+        "Pricing Plan Carousel",
+        "Pricing Plan Card  3",
+        "Content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+      "srcset": null,
+      "alt": "Back Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 04- Phone",
+        "Pricing Plan Carousel"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+      "srcset": null,
+      "alt": "Next Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 04- Phone",
+        "Pricing Plan Carousel"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wHpHS8qJKWCrz3tBk19o8fK0E.svg?width=46&height=21",
+      "srcset": null,
+      "alt": null,
+      "width": "46",
+      "height": "21",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 05",
+        "Infinity",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wHpHS8qJKWCrz3tBk19o8fK0E.svg?width=46&height=21",
+      "srcset": null,
+      "alt": null,
+      "width": "46",
+      "height": "21",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 05",
+        "Infinity",
+        "Striped BG"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wHpHS8qJKWCrz3tBk19o8fK0E.svg?width=46&height=21",
+      "srcset": null,
+      "alt": null,
+      "width": "46",
+      "height": "21",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 05 - Phone",
+        "Infinity",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wHpHS8qJKWCrz3tBk19o8fK0E.svg?width=46&height=21",
+      "srcset": null,
+      "alt": null,
+      "width": "46",
+      "height": "21",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 05 - Phone",
+        "Infinity",
+        "Striped BG"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wHpHS8qJKWCrz3tBk19o8fK0E.svg?width=46&height=21",
+      "srcset": null,
+      "alt": null,
+      "width": "46",
+      "height": "21",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 05 - Phone",
+        "Infinity",
+        "Icon"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wHpHS8qJKWCrz3tBk19o8fK0E.svg?width=46&height=21",
+      "srcset": null,
+      "alt": null,
+      "width": "46",
+      "height": "21",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 05 - Phone",
+        "Infinity",
+        "Striped BG"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VMZHBVrVNnMt7n1SZBqw6WqSqs.png?width=395&height=600",
+      "srcset": "https://framerusercontent.com/images/VMZHBVrVNnMt7n1SZBqw6WqSqs.png?width=395&height=600 395w",
+      "alt": "3D character wearing an orange jumpsuit and helmet, waving with a friendly expression.",
+      "width": "395",
+      "height": "600",
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 06- Phone",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Card 07",
+        "Logo",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Card 07",
+        "Logo",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Pricing",
+        "Header",
+        "Desktop - Light",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Pricing",
+        "Header",
+        "Phone - Light",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Pricing",
+        "Header",
+        "Tablet - Light",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and red covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Pricing",
+        "Desktop",
+        "Plan Opened",
+        "Desktop - Open",
+        "Card Content",
+        "Left"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and blue covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Pricing",
+        "Desktop",
+        "Plans",
+        "Desktop - Closed",
+        "Card Content",
+        "Left"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CJl8tlOKKSddqB3VWFVMoZ15Y.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/CJl8tlOKKSddqB3VWFVMoZ15Y.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/CJl8tlOKKSddqB3VWFVMoZ15Y.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and monochrome covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Pricing",
+        "Desktop",
+        "Plans",
+        "Desktop - Closed",
+        "Card Content",
+        "Left"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and red covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Pricing",
+        "Phone",
+        "Plan Opened",
+        "Phone - Open",
+        "Card Content",
+        "Left"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and blue covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Pricing",
+        "Phone",
+        "Plans",
+        "Phone - Closed",
+        "Card Content",
+        "Left"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CJl8tlOKKSddqB3VWFVMoZ15Y.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/CJl8tlOKKSddqB3VWFVMoZ15Y.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/CJl8tlOKKSddqB3VWFVMoZ15Y.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and monochrome covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Pricing",
+        "Phone",
+        "Plans",
+        "Phone - Closed",
+        "Card Content",
+        "Left"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/rdZyayoCvYwSSSt6UhP5GPn8fA.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and red covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Pricing",
+        "Tablet",
+        "Plan Opened",
+        "Tablet - Open",
+        "Card Content",
+        "Left"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/8u5d3cZ4VIJFXUuXv6uDyiZodU.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and blue covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Pricing",
+        "Tablet",
+        "Plans",
+        "Tablet - Closed",
+        "Card Content",
+        "Left"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CJl8tlOKKSddqB3VWFVMoZ15Y.jpg?width=750&height=563",
+      "srcset": "https://framerusercontent.com/images/CJl8tlOKKSddqB3VWFVMoZ15Y.jpg?scale-down-to=512&width=750&height=563 512w,https://framerusercontent.com/images/CJl8tlOKKSddqB3VWFVMoZ15Y.jpg?width=750&height=563 750w",
+      "alt": "Minimalist stack of guideline with clean typography and monochrome covers.",
+      "width": "750",
+      "height": "563",
+      "path": [
+        "Main",
+        "Section | Pricing",
+        "Tablet",
+        "Plans",
+        "Tablet - Closed",
+        "Card Content",
+        "Left"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mRMg8r67oqAuC8RP64uYT9gLcw.jpeg?width=200&height=267",
+      "srcset": null,
+      "alt": "Female with glasses looking at the camera",
+      "width": "200",
+      "height": "267",
+      "path": [
+        "Main",
+        "Section | Pricing",
+        "Bottom",
+        "Details + CTA",
+        "Contact Info",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mRMg8r67oqAuC8RP64uYT9gLcw.jpeg?width=200&height=267",
+      "srcset": null,
+      "alt": "Female with glasses looking at the camera",
+      "width": "200",
+      "height": "267",
+      "path": [
+        "Main",
+        "Section | Pricing",
+        "Bottom",
+        "Details + CTA",
+        "Contact Info",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4IiB2r2f0SWwRvQYCf8nGS9tyU.jpg?width=1800&height=1200",
+      "srcset": "https://framerusercontent.com/images/4IiB2r2f0SWwRvQYCf8nGS9tyU.jpg?scale-down-to=512&width=1800&height=1200 512w,https://framerusercontent.com/images/4IiB2r2f0SWwRvQYCf8nGS9tyU.jpg?scale-down-to=1024&width=1800&height=1200 1024w,https://framerusercontent.com/images/4IiB2r2f0SWwRvQYCf8nGS9tyU.jpg?width=1800&height=1200 1800w",
+      "alt": null,
+      "width": "1800",
+      "height": "1200",
+      "path": [
+        "Main",
+        "Section | The Team",
+        "Loaded",
+        "BG"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | The Team",
+        "Header",
+        "Desktop - Dark",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | The Team",
+        "Header",
+        "Phone - Dark",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | The Team",
+        "Header",
+        "Tablet - Dark",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/WULx625eOmYzyZKrK9Bt3Dj4074.jpg?width=500&height=750",
+      "srcset": "https://framerusercontent.com/images/WULx625eOmYzyZKrK9Bt3Dj4074.jpg?width=500&height=750 500w",
+      "alt": "an in black hoodie and sunglasses holding finger to lips.",
+      "width": "500",
+      "height": "750",
+      "path": [
+        "Main",
+        "Section | The Team",
+        "The Team",
+        "Person 1",
+        "Default"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/WULx625eOmYzyZKrK9Bt3Dj4074.jpg?width=500&height=750",
+      "srcset": "https://framerusercontent.com/images/WULx625eOmYzyZKrK9Bt3Dj4074.jpg?width=500&height=750 500w",
+      "alt": "an in black hoodie and sunglasses holding finger to lips.",
+      "width": "500",
+      "height": "750",
+      "path": [
+        "Main",
+        "Section | The Team",
+        "The Team",
+        "Person 1",
+        "Tablet/Phone - Expanded"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/WULx625eOmYzyZKrK9Bt3Dj4074.jpg?width=500&height=750",
+      "srcset": "https://framerusercontent.com/images/WULx625eOmYzyZKrK9Bt3Dj4074.jpg?width=500&height=750 500w",
+      "alt": "an in black hoodie and sunglasses holding finger to lips.",
+      "width": "500",
+      "height": "750",
+      "path": [
+        "Main",
+        "Section | The Team",
+        "The Team",
+        "Person 1",
+        "Tablet/Phone - Expanded"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/kRj0YuKJIE6hToAeq15afb9pH4.jpeg?width=560&height=700",
+      "srcset": "https://framerusercontent.com/images/kRj0YuKJIE6hToAeq15afb9pH4.jpeg?width=560&height=700 560w",
+      "alt": "Person in sunglasses making playful face with tongue out.",
+      "width": "560",
+      "height": "700",
+      "path": [
+        "Main",
+        "Section | The Team",
+        "The Team",
+        "Person 2",
+        "Default"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/kRj0YuKJIE6hToAeq15afb9pH4.jpeg?width=560&height=700",
+      "srcset": "https://framerusercontent.com/images/kRj0YuKJIE6hToAeq15afb9pH4.jpeg?width=560&height=700 560w",
+      "alt": "Person in sunglasses making playful face with tongue out.",
+      "width": "560",
+      "height": "700",
+      "path": [
+        "Main",
+        "Section | The Team",
+        "The Team",
+        "Person 2",
+        "Tablet/Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/kRj0YuKJIE6hToAeq15afb9pH4.jpeg?width=560&height=700",
+      "srcset": "https://framerusercontent.com/images/kRj0YuKJIE6hToAeq15afb9pH4.jpeg?width=560&height=700 560w",
+      "alt": "Person in sunglasses making playful face with tongue out.",
+      "width": "560",
+      "height": "700",
+      "path": [
+        "Main",
+        "Section | The Team",
+        "The Team",
+        "Person 2",
+        "Tablet/Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/khgZBntViz424uxS4wjdwEmEk.jpeg?width=560&height=700",
+      "srcset": "https://framerusercontent.com/images/khgZBntViz424uxS4wjdwEmEk.jpeg?width=560&height=700 560w",
+      "alt": "Person wearing white full-face hood with only eyes visible.",
+      "width": "560",
+      "height": "700",
+      "path": [
+        "Main",
+        "Section | The Team",
+        "The Team",
+        "Person 3",
+        "Default"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/khgZBntViz424uxS4wjdwEmEk.jpeg?width=560&height=700",
+      "srcset": "https://framerusercontent.com/images/khgZBntViz424uxS4wjdwEmEk.jpeg?width=560&height=700 560w",
+      "alt": "Person wearing white full-face hood with only eyes visible.",
+      "width": "560",
+      "height": "700",
+      "path": [
+        "Main",
+        "Section | The Team",
+        "The Team",
+        "Person 3",
+        "Tablet/Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/khgZBntViz424uxS4wjdwEmEk.jpeg?width=560&height=700",
+      "srcset": "https://framerusercontent.com/images/khgZBntViz424uxS4wjdwEmEk.jpeg?width=560&height=700 560w",
+      "alt": "Person wearing white full-face hood with only eyes visible.",
+      "width": "560",
+      "height": "700",
+      "path": [
+        "Main",
+        "Section | The Team",
+        "The Team",
+        "Person 3",
+        "Tablet/Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4GI3J65Rp3grUuMh8lDptPl1pvw.jpg?width=560&height=700",
+      "srcset": "https://framerusercontent.com/images/4GI3J65Rp3grUuMh8lDptPl1pvw.jpg?width=560&height=700 560w",
+      "alt": "Man wearing white bunny hat with fake glasses and mustache design.",
+      "width": "560",
+      "height": "700",
+      "path": [
+        "Main",
+        "Section | The Team",
+        "The Team",
+        "Person 4",
+        "Default"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4GI3J65Rp3grUuMh8lDptPl1pvw.jpg?width=560&height=700",
+      "srcset": "https://framerusercontent.com/images/4GI3J65Rp3grUuMh8lDptPl1pvw.jpg?width=560&height=700 560w",
+      "alt": "Man wearing white bunny hat with fake glasses and mustache design.",
+      "width": "560",
+      "height": "700",
+      "path": [
+        "Main",
+        "Section | The Team",
+        "The Team",
+        "Person 4",
+        "Tablet/Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4GI3J65Rp3grUuMh8lDptPl1pvw.jpg?width=560&height=700",
+      "srcset": "https://framerusercontent.com/images/4GI3J65Rp3grUuMh8lDptPl1pvw.jpg?width=560&height=700 560w",
+      "alt": "Man wearing white bunny hat with fake glasses and mustache design.",
+      "width": "560",
+      "height": "700",
+      "path": [
+        "Main",
+        "Section | The Team",
+        "The Team",
+        "Person 4",
+        "Tablet/Phone"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "Left",
+        "Phone - Light",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "Left",
+        "Tablet - Light",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/pVTVGcc5Xq4e4MIeNcjqdulKvjQ.jpeg?width=200&height=177",
+      "srcset": null,
+      "alt": "Young woman looking at the camera",
+      "width": "200",
+      "height": "177",
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "Left",
+        "Details + CTA",
+        "Right",
+        "Contact Info",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:28px;height:28px;margin-left:32px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:28px;height:28px;margin-left:32px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:28px;height:28px;margin-left:32px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:28px;height:28px;margin-left:32px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:28px;height:28px;margin-left:32px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:28px;height:28px;margin-left:32px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:28px;height:28px;margin-left:32px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:28px;height:28px;margin-left:32px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:28px;height:28px;margin-left:32px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:30px;height:30px;margin-left:30px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:30px;height:30px;margin-left:30px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:30px;height:30px;margin-left:30px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:30px;height:30px;margin-left:30px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:30px;height:30px;margin-left:30px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:30px;height:30px;margin-left:30px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:30px;height:30px;margin-left:30px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:30px;height:30px;margin-left:30px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:30px;height:30px;margin-left:30px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:30px;height:30px;margin-left:30px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:30px;height:30px;margin-left:30px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:30px;height:30px;margin-left:30px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:30px;height:30px;margin-left:30px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:30px;height:30px;margin-left:30px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:30px;height:30px;margin-left:30px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:30px;height:30px;margin-left:30px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:30px;height:30px;margin-left:30px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Sa9Y3ZcKiy61fP3uOlYdkK83Kv0.svg",
+      "srcset": null,
+      "alt": "icon",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Content",
+        "FAQ Accordion"
+      ],
+      "inlineStyle": "width:30px;height:30px;margin-left:30px",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wYocAJ5HP8fz1cNiukwcHaMw3E.jpeg?width=2400&height=2400",
+      "srcset": "https://framerusercontent.com/images/wYocAJ5HP8fz1cNiukwcHaMw3E.jpeg?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/wYocAJ5HP8fz1cNiukwcHaMw3E.jpeg?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/wYocAJ5HP8fz1cNiukwcHaMw3E.jpeg?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/wYocAJ5HP8fz1cNiukwcHaMw3E.jpeg?width=2400&height=2400 2400w",
+      "alt": "Handsome woman looking at the camera",
+      "width": "2400",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Bottom Tablet/Phone",
+        "Details + CTA",
+        "Contact Info",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/pVTVGcc5Xq4e4MIeNcjqdulKvjQ.jpeg?width=200&height=177",
+      "srcset": null,
+      "alt": "Handsome woman looking at the camera",
+      "width": "200",
+      "height": "177",
+      "path": [
+        "Main",
+        "Section | FAQ",
+        "Bottom Tablet/Phone",
+        "Details + CTA",
+        "Contact Info",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DfIAtAPezhFLPAtLZ6n6L3kXCY.jpg?width=350&height=373",
+      "srcset": null,
+      "alt": "Smiling man wearing glasses and a grey shirt standing with folded arms against a neutral background.",
+      "width": "350",
+      "height": "373",
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Featured Testimonial",
+        "Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/kFaZn4jBt2BiEY2t6PPE1uTI.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Desktop",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/XZC5gfwH80QlLdKR82ZU6C1TeUs.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Desktop",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Y3K8YY7uSjpgIae6KILQJYcPEHc.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Desktop",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/ci4EfEHD1o2xV283GHEWcYR6Cro.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Desktop",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/xABe5PZLeMdgZqFbVGLU20QbrTo.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Desktop",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/q2ikcAqIxOFlfklZAIwQjDZN28o.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Desktop",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/f81OcrxxB2C9QDfJE2noEOZFyM.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Desktop",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/zgT2kgGxBCyealuSSq2OP3Csuls.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Desktop",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/kFaZn4jBt2BiEY2t6PPE1uTI.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Phone",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/XZC5gfwH80QlLdKR82ZU6C1TeUs.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Phone",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Y3K8YY7uSjpgIae6KILQJYcPEHc.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Phone",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/ci4EfEHD1o2xV283GHEWcYR6Cro.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Phone",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/xABe5PZLeMdgZqFbVGLU20QbrTo.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Phone",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/q2ikcAqIxOFlfklZAIwQjDZN28o.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Phone",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/f81OcrxxB2C9QDfJE2noEOZFyM.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Phone",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/zgT2kgGxBCyealuSSq2OP3Csuls.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Phone",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/kFaZn4jBt2BiEY2t6PPE1uTI.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Tablet",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/XZC5gfwH80QlLdKR82ZU6C1TeUs.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Tablet",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/Y3K8YY7uSjpgIae6KILQJYcPEHc.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Tablet",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/ci4EfEHD1o2xV283GHEWcYR6Cro.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Tablet",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/xABe5PZLeMdgZqFbVGLU20QbrTo.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Tablet",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/q2ikcAqIxOFlfklZAIwQjDZN28o.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Tablet",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/f81OcrxxB2C9QDfJE2noEOZFyM.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Tablet",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/zgT2kgGxBCyealuSSq2OP3Csuls.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Partners",
+        "Tablet",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block;filter:invert(1) hue-rotate(180deg)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DfIAtAPezhFLPAtLZ6n6L3kXCY.jpg?width=350&height=373",
+      "srcset": null,
+      "alt": "Smiling man wearing glasses and a grey shirt standing with folded arms against a neutral background.",
+      "width": "350",
+      "height": "373",
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Testimonials",
+        "Content",
+        "Desktop",
+        "Ticker",
+        "Card 1",
+        "Testimonial CMS",
+        "Card",
+        "Desktop",
+        "Bottom",
+        "Details",
+        "Avatar",
+        "image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IAWOBaQOTPVXsed9HvO13W8xZH0.jpeg?width=200&height=240",
+      "srcset": null,
+      "alt": "Smiling man wearing glasses and purple hoodie.",
+      "width": "200",
+      "height": "240",
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Testimonials",
+        "Content",
+        "Desktop",
+        "Ticker",
+        "Card 2",
+        "Testimonial CMS",
+        "Card",
+        "Desktop",
+        "Bottom",
+        "Details",
+        "Avatar",
+        "image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Jz5dZlyFuiZmVpfeEBffzrkO8.jpg?width=200&height=238",
+      "srcset": null,
+      "alt": "Smiling woman with long dark hair wearing grey shirt.",
+      "width": "200",
+      "height": "238",
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Testimonials",
+        "Content",
+        "Desktop",
+        "Ticker",
+        "Card 3",
+        "Testimonial CMS",
+        "Card",
+        "Desktop",
+        "Bottom",
+        "Details",
+        "Avatar",
+        "image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/j06TB87Yx9dCAi0Bh7zDzc3zl8.jpeg?width=200&height=267",
+      "srcset": null,
+      "alt": "Man with curly hair wearing brown hat and dark shirt.",
+      "width": "200",
+      "height": "267",
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Testimonials",
+        "Content",
+        "Desktop",
+        "Ticker",
+        "Card 4",
+        "Testimonial CMS",
+        "Card",
+        "Desktop",
+        "Bottom",
+        "Details",
+        "Avatar",
+        "image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/M1NR1TiRyCrIbcVecVl0amiwUo.jpeg?width=200&height=254",
+      "srcset": null,
+      "alt": "Woman with long hair wearing floral blouse and daisy accessory.",
+      "width": "200",
+      "height": "254",
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Testimonials",
+        "Content",
+        "Desktop",
+        "Ticker",
+        "Card 5",
+        "Testimonial CMS",
+        "Card",
+        "Desktop",
+        "Bottom",
+        "Details",
+        "Avatar",
+        "image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5Ls4sdCGahYnglu9bpG79GM63wE.jpeg?width=200&height=300",
+      "srcset": null,
+      "alt": "Confident middle-aged woman with short blonde hair smiling softly.",
+      "width": "200",
+      "height": "300",
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Testimonials",
+        "Content",
+        "Desktop",
+        "Ticker",
+        "Card 6",
+        "Testimonial CMS",
+        "Card",
+        "Desktop",
+        "Bottom",
+        "Details",
+        "Avatar",
+        "image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/YjXV900OAOWaHl6RCwUHNogRko.jpg?width=200&height=269",
+      "srcset": null,
+      "alt": "Man with styled hair and beard wearing black shirt.",
+      "width": "200",
+      "height": "269",
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Testimonials",
+        "Content",
+        "Desktop",
+        "Ticker",
+        "Card 7",
+        "Testimonial CMS",
+        "Card",
+        "Desktop",
+        "Bottom",
+        "Details",
+        "Avatar",
+        "image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7R23kkPromNjbp7HPZM7sJec.jpeg?width=200&height=240",
+      "srcset": null,
+      "alt": "Smiling woman with short blonde hair wearing a light knit sweater against a softly lit background.",
+      "width": "200",
+      "height": "240",
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Testimonials",
+        "Content",
+        "Desktop",
+        "Ticker",
+        "Card 8",
+        "Testimonial CMS",
+        "Card",
+        "Desktop",
+        "Bottom",
+        "Details",
+        "Avatar",
+        "image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DfIAtAPezhFLPAtLZ6n6L3kXCY.jpg?width=350&height=373",
+      "srcset": null,
+      "alt": "Smiling man wearing glasses and a grey shirt standing with folded arms against a neutral background.",
+      "width": "350",
+      "height": "373",
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Testimonials",
+        "Content",
+        "Phone",
+        "Ticker",
+        "Phone - Card 1",
+        "Testimonial CMS",
+        "Card",
+        "Phone",
+        "Bottom",
+        "Details",
+        "Avatar",
+        "image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IAWOBaQOTPVXsed9HvO13W8xZH0.jpeg?width=200&height=240",
+      "srcset": null,
+      "alt": "Smiling man wearing glasses and purple hoodie.",
+      "width": "200",
+      "height": "240",
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Testimonials",
+        "Content",
+        "Phone",
+        "Ticker",
+        "Phone - Card 2",
+        "Testimonial CMS",
+        "Card",
+        "Phone",
+        "Bottom",
+        "Details",
+        "Avatar",
+        "image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Jz5dZlyFuiZmVpfeEBffzrkO8.jpg?width=200&height=238",
+      "srcset": null,
+      "alt": "Smiling woman with long dark hair wearing grey shirt.",
+      "width": "200",
+      "height": "238",
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Testimonials",
+        "Content",
+        "Phone",
+        "Ticker",
+        "Phone - Card 3",
+        "Testimonial CMS",
+        "Card",
+        "Phone",
+        "Bottom",
+        "Details",
+        "Avatar",
+        "image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/j06TB87Yx9dCAi0Bh7zDzc3zl8.jpeg?width=200&height=267",
+      "srcset": null,
+      "alt": "Man with curly hair wearing brown hat and dark shirt.",
+      "width": "200",
+      "height": "267",
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Testimonials",
+        "Content",
+        "Phone",
+        "Ticker",
+        "Phone - Card 4",
+        "Testimonial CMS",
+        "Card",
+        "Phone",
+        "Bottom",
+        "Details",
+        "Avatar",
+        "image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/M1NR1TiRyCrIbcVecVl0amiwUo.jpeg?width=200&height=254",
+      "srcset": null,
+      "alt": "Woman with long hair wearing floral blouse and daisy accessory.",
+      "width": "200",
+      "height": "254",
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Testimonials",
+        "Content",
+        "Phone",
+        "Ticker",
+        "Phone - Card 5",
+        "Testimonial CMS",
+        "Card",
+        "Phone",
+        "Bottom",
+        "Details",
+        "Avatar",
+        "image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5Ls4sdCGahYnglu9bpG79GM63wE.jpeg?width=200&height=300",
+      "srcset": null,
+      "alt": "Confident middle-aged woman with short blonde hair smiling softly.",
+      "width": "200",
+      "height": "300",
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Testimonials",
+        "Content",
+        "Phone",
+        "Ticker",
+        "Phone - Card 6",
+        "Testimonial CMS",
+        "Card",
+        "Phone",
+        "Bottom",
+        "Details",
+        "Avatar",
+        "image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/YjXV900OAOWaHl6RCwUHNogRko.jpg?width=200&height=269",
+      "srcset": null,
+      "alt": "Man with styled hair and beard wearing black shirt.",
+      "width": "200",
+      "height": "269",
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Testimonials",
+        "Content",
+        "Phone",
+        "Ticker",
+        "Phone - Card 7",
+        "Testimonial CMS",
+        "Card",
+        "Phone",
+        "Bottom",
+        "Details",
+        "Avatar",
+        "image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7R23kkPromNjbp7HPZM7sJec.jpeg?width=200&height=240",
+      "srcset": null,
+      "alt": "Smiling woman with short blonde hair wearing a light knit sweater against a softly lit background.",
+      "width": "200",
+      "height": "240",
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Testimonials",
+        "Content",
+        "Phone",
+        "Ticker",
+        "Phone - Card 8",
+        "Testimonial CMS",
+        "Card",
+        "Phone",
+        "Bottom",
+        "Details",
+        "Avatar",
+        "image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+      "srcset": null,
+      "alt": "Back Arrow",
+      "width": "44",
+      "height": "44",
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Testimonials",
+        "Content",
+        "Phone",
+        "Ticker"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+      "srcset": null,
+      "alt": "Next Arrow",
+      "width": "44",
+      "height": "44",
+      "path": [
+        "Main",
+        "Section | Testimonial",
+        "Content",
+        "Testimonials",
+        "Content",
+        "Phone",
+        "Ticker"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Blog Teaser",
+        "Header",
+        "Desktop - Light",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Blog Teaser",
+        "Header",
+        "Phone - Light",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aJxLydBlZv1oYCCj63OZdiRqLuQ.svg",
+      "srcset": null,
+      "alt": "Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section | Blog Teaser",
+        "Header",
+        "Tablet - Light",
+        "Right",
+        "Logo",
+        "Logo Mark"
+      ],
+      "inlineStyle": "width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none;display:block",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wABMiTknZiOvtO3Xy5NSUjQ0Pk.jpeg?width=700&height=1050",
+      "srcset": "https://framerusercontent.com/images/wABMiTknZiOvtO3Xy5NSUjQ0Pk.jpeg?scale-down-to=1024&width=700&height=1050 682w,https://framerusercontent.com/images/wABMiTknZiOvtO3Xy5NSUjQ0Pk.jpeg?width=700&height=1050 700w",
+      "alt": null,
+      "width": "700",
+      "height": "1050",
+      "path": [
+        "Main",
+        "Section | Blog Teaser",
+        "Content",
+        "Bento Cards",
+        "Header",
+        "Loaded",
+        "BG"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/n49MaCMC5I6ZK4DTIEgG47M9RH4.png?width=1422&height=800",
+      "srcset": "https://framerusercontent.com/images/n49MaCMC5I6ZK4DTIEgG47M9RH4.png?scale-down-to=512&width=1422&height=800 512w,https://framerusercontent.com/images/n49MaCMC5I6ZK4DTIEgG47M9RH4.png?scale-down-to=1024&width=1422&height=800 1024w,https://framerusercontent.com/images/n49MaCMC5I6ZK4DTIEgG47M9RH4.png?width=1422&height=800 1422w",
+      "alt": "Abstract 3D composition of floating spheres and cubes in monochrome tones with soft lighting.",
+      "width": "1422",
+      "height": "800",
+      "path": [
+        "Main",
+        "Section | Blog Teaser",
+        "Content",
+        "Bento Cards",
+        "Blog Card 01",
+        "Wrapper",
+        "Desktop",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/n49MaCMC5I6ZK4DTIEgG47M9RH4.png?width=1422&height=800",
+      "srcset": "https://framerusercontent.com/images/n49MaCMC5I6ZK4DTIEgG47M9RH4.png?scale-down-to=512&width=1422&height=800 512w,https://framerusercontent.com/images/n49MaCMC5I6ZK4DTIEgG47M9RH4.png?scale-down-to=1024&width=1422&height=800 1024w,https://framerusercontent.com/images/n49MaCMC5I6ZK4DTIEgG47M9RH4.png?width=1422&height=800 1422w",
+      "alt": "Abstract 3D composition of floating spheres and cubes in monochrome tones with soft lighting.",
+      "width": "1422",
+      "height": "800",
+      "path": [
+        "Main",
+        "Section | Blog Teaser",
+        "Content",
+        "Bento Cards",
+        "Blog Card 01",
+        "Wrapper",
+        "Phone",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/PkU3Gw8pAzmi2niiMrnBcHuu8I.png?width=2400&height=1350",
+      "srcset": "https://framerusercontent.com/images/PkU3Gw8pAzmi2niiMrnBcHuu8I.png?scale-down-to=512&width=2400&height=1350 512w,https://framerusercontent.com/images/PkU3Gw8pAzmi2niiMrnBcHuu8I.png?scale-down-to=1024&width=2400&height=1350 1024w,https://framerusercontent.com/images/PkU3Gw8pAzmi2niiMrnBcHuu8I.png?scale-down-to=2048&width=2400&height=1350 2048w,https://framerusercontent.com/images/PkU3Gw8pAzmi2niiMrnBcHuu8I.png?width=2400&height=1350 2400w",
+      "alt": "A person in a white hoodie and joggers walks on a rooftop with a city skyline in the background under a clear blue sky",
+      "width": "2400",
+      "height": "1350",
+      "path": [
+        "Main",
+        "Section | Blog Teaser",
+        "Content",
+        "Bento Cards",
+        "Blog Card 02",
+        "Wrapper",
+        "Desktop",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/PkU3Gw8pAzmi2niiMrnBcHuu8I.png?width=2400&height=1350",
+      "srcset": "https://framerusercontent.com/images/PkU3Gw8pAzmi2niiMrnBcHuu8I.png?scale-down-to=512&width=2400&height=1350 512w,https://framerusercontent.com/images/PkU3Gw8pAzmi2niiMrnBcHuu8I.png?scale-down-to=1024&width=2400&height=1350 1024w,https://framerusercontent.com/images/PkU3Gw8pAzmi2niiMrnBcHuu8I.png?scale-down-to=2048&width=2400&height=1350 2048w,https://framerusercontent.com/images/PkU3Gw8pAzmi2niiMrnBcHuu8I.png?width=2400&height=1350 2400w",
+      "alt": "A person in a white hoodie and joggers walks on a rooftop with a city skyline in the background under a clear blue sky",
+      "width": "2400",
+      "height": "1350",
+      "path": [
+        "Main",
+        "Section | Blog Teaser",
+        "Content",
+        "Bento Cards",
+        "Blog Card 02",
+        "Wrapper",
+        "Phone",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CIJvuRPdOM0czYRzoTKDuCdTQ.jpg?width=2000&height=1333",
+      "srcset": "https://framerusercontent.com/images/CIJvuRPdOM0czYRzoTKDuCdTQ.jpg?scale-down-to=512&width=2000&height=1333 512w,https://framerusercontent.com/images/CIJvuRPdOM0czYRzoTKDuCdTQ.jpg?scale-down-to=1024&width=2000&height=1333 1024w,https://framerusercontent.com/images/CIJvuRPdOM0czYRzoTKDuCdTQ.jpg?width=2000&height=1333 2000w",
+      "alt": "Modern glass building photographed from below",
+      "width": "2000",
+      "height": "1333",
+      "path": [
+        "Main",
+        "Section | Blog Teaser",
+        "Content",
+        "Bento Cards",
+        "Blog Card 03",
+        "Wrapper",
+        "Desktop",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CIJvuRPdOM0czYRzoTKDuCdTQ.jpg?width=2000&height=1333",
+      "srcset": "https://framerusercontent.com/images/CIJvuRPdOM0czYRzoTKDuCdTQ.jpg?scale-down-to=512&width=2000&height=1333 512w,https://framerusercontent.com/images/CIJvuRPdOM0czYRzoTKDuCdTQ.jpg?scale-down-to=1024&width=2000&height=1333 1024w,https://framerusercontent.com/images/CIJvuRPdOM0czYRzoTKDuCdTQ.jpg?width=2000&height=1333 2000w",
+      "alt": "Modern glass building photographed from below",
+      "width": "2000",
+      "height": "1333",
+      "path": [
+        "Main",
+        "Section | Blog Teaser",
+        "Content",
+        "Bento Cards",
+        "Blog Card 03",
+        "Wrapper",
+        "Phone",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/AP8MxsVwC0m6aUew627Uzl3PlY.jpeg?width=667&height=1000",
+      "srcset": "https://framerusercontent.com/images/AP8MxsVwC0m6aUew627Uzl3PlY.jpeg?width=667&height=1000 667w",
+      "alt": "Electric Bike behind Pillar",
+      "width": "667",
+      "height": "1000",
+      "path": [
+        "Main",
+        "Section | Blog Teaser",
+        "Content",
+        "Bento Cards",
+        "Blog Card 04",
+        "Wrapper",
+        "Desktop",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/AP8MxsVwC0m6aUew627Uzl3PlY.jpeg?width=667&height=1000",
+      "srcset": "https://framerusercontent.com/images/AP8MxsVwC0m6aUew627Uzl3PlY.jpeg?width=667&height=1000 667w",
+      "alt": "Electric Bike behind Pillar",
+      "width": "667",
+      "height": "1000",
+      "path": [
+        "Main",
+        "Section | Blog Teaser",
+        "Content",
+        "Bento Cards",
+        "Blog Card 04",
+        "Wrapper",
+        "Phone",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/OKAPNp5NBx92XHoAfb2IJe5GaE.jpg?width=1548&height=1800",
+      "srcset": "https://framerusercontent.com/images/OKAPNp5NBx92XHoAfb2IJe5GaE.jpg?scale-down-to=1024&width=1548&height=1800 880w,https://framerusercontent.com/images/OKAPNp5NBx92XHoAfb2IJe5GaE.jpg?width=1548&height=1800 1548w",
+      "alt": "red sports car in front of a showroom with bright lights",
+      "width": "1548",
+      "height": "1800",
+      "path": [
+        "Main",
+        "Section | Blog Teaser",
+        "Content",
+        "Bento Cards",
+        "Blog Card 05",
+        "Wrapper",
+        "Desktop",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/OKAPNp5NBx92XHoAfb2IJe5GaE.jpg?width=1548&height=1800",
+      "srcset": "https://framerusercontent.com/images/OKAPNp5NBx92XHoAfb2IJe5GaE.jpg?scale-down-to=1024&width=1548&height=1800 880w,https://framerusercontent.com/images/OKAPNp5NBx92XHoAfb2IJe5GaE.jpg?width=1548&height=1800 1548w",
+      "alt": "red sports car in front of a showroom with bright lights",
+      "width": "1548",
+      "height": "1800",
+      "path": [
+        "Main",
+        "Section | Blog Teaser",
+        "Content",
+        "Bento Cards",
+        "Blog Card 05",
+        "Wrapper",
+        "Phone",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mSlTr6Ei8YvaXp3E8rQBrWEn0o.png?width=1536&height=1024",
+      "srcset": "https://framerusercontent.com/images/mSlTr6Ei8YvaXp3E8rQBrWEn0o.png?scale-down-to=512&width=1536&height=1024 512w,https://framerusercontent.com/images/mSlTr6Ei8YvaXp3E8rQBrWEn0o.png?scale-down-to=1024&width=1536&height=1024 1024w,https://framerusercontent.com/images/mSlTr6Ei8YvaXp3E8rQBrWEn0o.png?width=1536&height=1024 1536w",
+      "alt": null,
+      "width": "1536",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Section | Book a Call",
+        "BG Image/Video",
+        "Loaded",
+        "BG"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/PXpi5ysxMBfTUPGvxbTzZpMDQ.jpeg?width=600&height=767",
+      "srcset": "https://framerusercontent.com/images/PXpi5ysxMBfTUPGvxbTzZpMDQ.jpeg?width=600&height=767 600w",
+      "alt": "Man with short hair and beard wearing a dark blazer and black shirt against a plain background.",
+      "width": "600",
+      "height": "767",
+      "path": [
+        "Main",
+        "Section | Book a Call",
+        "Content",
+        "Right",
+        "Bottom",
+        "Message",
+        "Photo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/J0m7f18Ebz9KOU0eRCfzdB8kvvs.jpg?width=300&height=240",
+      "srcset": null,
+      "alt": null,
+      "width": "300",
+      "height": "240",
+      "path": [
+        "Height:100dvh",
+        "Get Template Phone",
+        "Default"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/J0m7f18Ebz9KOU0eRCfzdB8kvvs.jpg?width=300&height=240",
+      "srcset": null,
+      "alt": null,
+      "width": "300",
+      "height": "240",
+      "path": [
+        "Height:100dvh",
+        "Default"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/J0m7f18Ebz9KOU0eRCfzdB8kvvs.jpg?width=300&height=240",
+      "srcset": null,
+      "alt": null,
+      "width": "300",
+      "height": "240",
+      "path": [
+        "Height:100dvh",
+        "Tablet"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hkajYwsOmFedye323zjsX7nqA.svg?width=339&height=339",
+      "srcset": null,
+      "alt": null,
+      "width": null,
+      "height": null,
+      "path": [
+        "Footer",
+        "Section 2",
+        "Content Grid",
+        "Left",
+        "Description",
+        "Copyright",
+        "Company info",
+        "Template info"
+      ],
+      "inlineStyle": "width:100%;height:100%;display:block;object-fit:contain;transform:translate(2px, 0px);will-change:transform;filter:none",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/a2iHJGNgrkBoATBujtkNqpDPs.svg?width=111&height=12",
+      "srcset": null,
+      "alt": null,
+      "width": null,
+      "height": null,
+      "path": [
+        "Footer",
+        "Section 2",
+        "Content Grid",
+        "Left",
+        "Description",
+        "Copyright",
+        "Company info",
+        "Template info"
+      ],
+      "inlineStyle": "width:100%;height:100%;display:block;object-fit:contain;filter:none",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/a2iHJGNgrkBoATBujtkNqpDPs.svg?width=111&height=12",
+      "srcset": null,
+      "alt": null,
+      "width": null,
+      "height": null,
+      "path": [
+        "Footer",
+        "Section 2",
+        "Content Grid",
+        "Left",
+        "Description",
+        "Copyright",
+        "Company info",
+        "Template info"
+      ],
+      "inlineStyle": "width:100%;height:100%;display:block;object-fit:contain;filter:none",
+      "box": null
+    }
+  ],
+  "videoReferences": [
+    {
+      "src": "https://framerusercontent.com/assets/daVNwoAE4kM8VOPdY4YwAYE2PHw.mp4",
+      "poster": null,
+      "path": [
+        "Intro Video",
+        "Loaded"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/B8X56dC0c6BT23EFoklKRQcB3bw.mp4",
+      "poster": "https://framerusercontent.com/images/c7RlxHQCNBwdONTWi6Tvez26hM.jpg?width=680&height=400",
+      "path": [
+        "Main",
+        "Section | Hero",
+        "Content",
+        "Bottom",
+        "Showreel",
+        "Video Wrapper",
+        "Video Showreel CMS",
+        "Desktop"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/B8X56dC0c6BT23EFoklKRQcB3bw.mp4",
+      "poster": "https://framerusercontent.com/images/c7RlxHQCNBwdONTWi6Tvez26hM.jpg?width=680&height=400",
+      "path": [
+        "Main",
+        "Section | Hero",
+        "Content",
+        "Bottom",
+        "Showreel",
+        "Video Wrapper",
+        "Video Showreel CMS",
+        "Tablet"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/PvhO88VcS7IUEgl0qJJtEc14zX8.mp4",
+      "poster": null,
+      "path": [
+        "Main",
+        "Section | Why Choose Us",
+        "Benefit Cards",
+        "Benefit Card 06- Desktop",
+        "Video"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/HYlfUzs1Fn2stNf3aVAsAkwfJI.mp4",
+      "poster": null,
+      "path": [
+        "Main",
+        "Section | Book a Call",
+        "BG Image/Video",
+        "Loaded"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/IgfAWewRec3oN7COrhI7yeqdzU.mp4",
+      "poster": null,
+      "path": [
+        "Footer",
+        "Section 2",
+        "Content Grid",
+        "Left",
+        "Description",
+        "Description",
+        "Video Tag",
+        "Video",
+        "Loaded"
+      ]
+    }
+  ],
+  "linksDeclaredInSource": [
+    "https://createstudio.framer.media/",
+    "https://createstudio.framer.media/#pricing",
+    "https://createstudio.framer.media/404",
+    "https://createstudio.framer.media/contact",
+    "https://createstudio.framer.media/legal/disclaimer",
+    "https://createstudio.framer.media/legal/privacy-policy",
+    "https://createstudio.framer.media/legal/terms-of-service",
+    "https://createstudio.framer.media/studio",
+    "https://createstudio.framer.media/whispers",
+    "https://createstudio.framer.media/whispers/architecture-in-the-digital-age",
+    "https://createstudio.framer.media/whispers/digital-identities-across-cultures",
+    "https://createstudio.framer.media/whispers/how-automotive-brands-win-online",
+    "https://createstudio.framer.media/whispers/rethinking-product-design-with-intelligence",
+    "https://createstudio.framer.media/whispers/the-future-of-e-mobility-marketing-from-lindholm",
+    "https://createstudio.framer.media/work",
+    "https://createstudio.framer.media/work/aurelis-beach",
+    "https://createstudio.framer.media/work/blackwell-motors",
+    "https://createstudio.framer.media/work/lindholm-aspen877",
+    "https://dub.sh/create-allplans",
+    "https://facebook.com",
+    "https://framerpod.com",
+    "https://instagram.com",
+    "https://linkedin.com",
+    "https://threads.com",
+    "https://whatsapp.com",
+    "https://www.framer.com",
+    "https://www.framerpod.com",
+    "https://www.glassdoor.com/Reviews/index.htm",
+    "https://www.linkedin.com/company/framer",
+    "https://x.com/tamasbodo",
+    "mailto:amelia@create.co",
+    "mailto:hello@createme.com",
+    "mailto:lucas@create.co",
+    "mailto:sofia@create.co",
+    "mailto:tobias@create.com",
+    "tel:(310) 555-0165"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F53318%2Fcreate-snBP1lQGbExdj3bwfm0I3MOzlRS2is&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F53318%2Fcreate-BqU4IcrnxSI5mvCUJLxYIjfEmaYlvj&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F53318%2Fcreate-6pcPq3bYfQkSdBo2uF2sTWuTKelxv0&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-04.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F53318%2Fcreate-alHknxx3OaXapCYzREz1atBcaDsThE&w=2048&q=80"
+    }
+  ]
+}

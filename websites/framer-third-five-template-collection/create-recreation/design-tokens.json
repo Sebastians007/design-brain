@@ -1,0 +1,151 @@
+{
+  "name": "Create",
+  "source": "https://createstudio.framer.media/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#141414",
+    "paper": "#fafafa",
+    "ink": "#FAFAFA",
+    "accent": "#ff6041",
+    "muted": "#5c6063",
+    "inverseInk": "#141414"
+  },
+  "type": {
+    "body": "Figtree",
+    "display": "Figtree",
+    "roles": [
+      {
+        "role": "Hero wordmark; explicit source declaration, not rendered measurement",
+        "family": "Figtree",
+        "weight": 700,
+        "sizePx": 121.16380263496036,
+        "linePx": 145.39656316195243,
+        "tracking": "-0.07em"
+      },
+      {
+        "role": "Hero proposition; assumes 16px root for declared multiplier 2.7",
+        "family": "Figtree",
+        "weight": 500,
+        "sizePx": 43.2,
+        "linePx": 43.2,
+        "tracking": "-0.05em"
+      },
+      {
+        "role": "Section headline; assumes 16px root for multiplier 6",
+        "family": "Figtree",
+        "weight": 500,
+        "sizePx": 96,
+        "linePx": 96,
+        "tracking": "-0.06em"
+      },
+      {
+        "role": "Project title desktop; assumes 16px root for multiplier 4",
+        "family": "Figtree",
+        "weight": 500,
+        "sizePx": 64,
+        "linePx": 70.4,
+        "tracking": "-0.07em"
+      },
+      {
+        "role": "Service headline; assumes 16px root for multiplier 7",
+        "family": "Figtree",
+        "weight": 500,
+        "sizePx": 112,
+        "linePx": 112,
+        "tracking": "-0.07em"
+      },
+      {
+        "role": "Benefit card heading; assumes 16px root for multiplier 1.9",
+        "family": "Figtree",
+        "weight": 500,
+        "sizePx": 30.4,
+        "linePx": 33.44,
+        "tracking": "-0.06em"
+      },
+      {
+        "role": "Reading copy; assumes 16px root for multiplier 1",
+        "family": "Figtree",
+        "weight": 400,
+        "sizePx": 16,
+        "linePx": 20.8,
+        "tracking": "-0.04em"
+      },
+      {
+        "role": "Showreel caption; explicit 16px declaration",
+        "family": "Figtree",
+        "weight": 400,
+        "sizePx": 16,
+        "linePx": 22.4,
+        "tracking": "-0.05em"
+      },
+      {
+        "role": "Navigation and action label; assumes 16px root for multiplier 1",
+        "family": "Fragment Mono",
+        "weight": 400,
+        "sizePx": 16,
+        "linePx": 24,
+        "tracking": "-0.05em"
+      },
+      {
+        "role": "Hero clock; explicit 13px declaration",
+        "family": "Fragment Mono",
+        "weight": 400,
+        "sizePx": 13,
+        "linePx": 16.9,
+        "tracking": "-0.05em"
+      },
+      {
+        "role": "Hero index; assumes 16px root for multiplier 0.64",
+        "family": "Fragment Mono",
+        "weight": 400,
+        "sizePx": 10.24,
+        "linePx": 12.288,
+        "tracking": "-0.04em"
+      },
+      {
+        "role": "Pricing index desktop; assumes 16px root for multiplier 26",
+        "family": "Figtree",
+        "weight": 700,
+        "sizePx": 416,
+        "linePx": 416,
+        "tracking": "-0.09em"
+      }
+    ],
+    "rolesEvidence": "Declared CSS, not rendered measurements."
+  },
+  "spacing": {
+    "desktopGutterPx": 20,
+    "componentGapPx": 24,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 8,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:809.98px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation."
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes."
+}

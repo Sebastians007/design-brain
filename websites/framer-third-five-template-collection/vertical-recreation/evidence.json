@@ -1,0 +1,900 @@
+{
+  "template": "Vertical",
+  "preview": "https://vertical.framer.media/",
+  "marketplace": "https://www.framer.com/marketplace/templates/vertical/",
+  "creator": "Tamas Bodo",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "viewport": null,
+  "pageHeight": null,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 4 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-05.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 5 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 4 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-05.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 5 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Figtree",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_dNQG5ZyEA.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/figtree-500-0.woff2"
+    },
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/fragment-mono-400-1.woff2"
+    },
+    {
+      "family": "IBM Plex Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n1i8q1w.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/ibm-plex-mono-400-2.woff2"
+    },
+    {
+      "family": "IBM Plex Mono",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJwlBFgg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/ibm-plex-mono-500-3.woff2"
+    },
+    {
+      "family": "IBM Plex Mono",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3pQPwlBFgg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/ibm-plex-mono-700-4.woff2"
+    },
+    {
+      "family": "Figtree",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QF5bwkEU4HTy.woff2",
+      "range": "",
+      "file": "assets/fonts/figtree-400-5.woff2"
+    },
+    {
+      "family": "Figtree",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_ehR15bwkEU4HTy.woff2",
+      "range": "",
+      "file": "assets/fonts/figtree-600-6.woff2"
+    },
+    {
+      "family": "Figtree",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_eYR15bwkEU4HTy.woff2",
+      "range": "",
+      "file": "assets/fonts/figtree-700-7.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-8.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-9.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-600-10.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/rZ5DdENNqIdFTIyQQiP5isO7M.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-900-11.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/UjlFhCnUjxhNfep4oYBPqnEssyo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-500-12.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "800",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/Mput0MSwESKlJ6TMz9MPDXhgrk.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-800-13.woff2"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/images/fIi3WA5AsT6N50okT86HCDWZMY.svg?width=105&height=25",
+      "srcset": null,
+      "alt": "Vertical Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Navigation",
+        "Desktop",
+        "Logo Lockup",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/fIi3WA5AsT6N50okT86HCDWZMY.svg?width=105&height=25",
+      "srcset": null,
+      "alt": "Vertical Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Navigation",
+        "Phone - Closed",
+        "Logo Lockup",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/fIi3WA5AsT6N50okT86HCDWZMY.svg?width=105&height=25",
+      "srcset": null,
+      "alt": "Vertical Logo",
+      "width": null,
+      "height": null,
+      "path": [
+        "Navigation",
+        "Tablet",
+        "Logo Lockup",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mRBiQFDuE4B7QVSEklk21DWcM.jpeg?width=1200&height=1600",
+      "srcset": "https://framerusercontent.com/images/mRBiQFDuE4B7QVSEklk21DWcM.jpeg?scale-down-to=1024&width=1200&height=1600 768w,https://framerusercontent.com/images/mRBiQFDuE4B7QVSEklk21DWcM.jpeg?width=1200&height=1600 1200w",
+      "alt": null,
+      "width": "1200",
+      "height": "1600",
+      "path": [
+        "Main",
+        "Section 5 - Featured Study",
+        "Left",
+        "Thumbnails",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gLqCslm3A6i3AkKnPkWHelWtkNo.jpg?width=1600&height=2400",
+      "srcset": "https://framerusercontent.com/images/gLqCslm3A6i3AkKnPkWHelWtkNo.jpg?scale-down-to=1024&width=1600&height=2400 682w,https://framerusercontent.com/images/gLqCslm3A6i3AkKnPkWHelWtkNo.jpg?scale-down-to=2048&width=1600&height=2400 1365w,https://framerusercontent.com/images/gLqCslm3A6i3AkKnPkWHelWtkNo.jpg?width=1600&height=2400 1600w",
+      "alt": null,
+      "width": "1600",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Section 5 - Featured Study",
+        "Left",
+        "Thumbnails",
+        "Mini Thumbnail 2",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/3dhrjEKd33WmxaQ1Mtixa0iI3M4.jpeg?width=2400&height=2400",
+      "srcset": "https://framerusercontent.com/images/3dhrjEKd33WmxaQ1Mtixa0iI3M4.jpeg?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/3dhrjEKd33WmxaQ1Mtixa0iI3M4.jpeg?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/3dhrjEKd33WmxaQ1Mtixa0iI3M4.jpeg?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/3dhrjEKd33WmxaQ1Mtixa0iI3M4.jpeg?width=2400&height=2400 2400w",
+      "alt": null,
+      "width": "2400",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Section 5 - Featured Study",
+        "Left",
+        "Thumbnails",
+        "Mini Thumbnail 3",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8nraXlqQmF5fUzbvPQXoG2dv944.svg?width=143&height=269",
+      "srcset": null,
+      "alt": "Rabbit",
+      "width": "143",
+      "height": "269",
+      "path": [
+        "Main",
+        "Section 8 - Creative Philosophy",
+        "Top",
+        "Text Blocks",
+        "Rabbit",
+        "Graphic Static"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/fU3WmM3L1vdP5RLFKaBh2WUqVs.svg?width=109&height=28",
+      "srcset": null,
+      "alt": "Signature",
+      "width": "109",
+      "height": "28",
+      "path": [
+        "Main",
+        "Section 11 - About",
+        "Content",
+        "Block 1",
+        "Header",
+        "Signature",
+        "Signo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/fU3WmM3L1vdP5RLFKaBh2WUqVs.svg?width=109&height=28",
+      "srcset": null,
+      "alt": "Signature",
+      "width": "109",
+      "height": "28",
+      "path": [
+        "Main",
+        "Section 11 - About",
+        "Content",
+        "Block 1",
+        "Header",
+        "Signature",
+        "Signo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jjJ6XIKZWJ2rtvkJZuo8IqJCQHo.jpg?width=1400&height=1536",
+      "srcset": null,
+      "alt": null,
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section 11 - About",
+        "Content",
+        "Block 2",
+        "Image w Glitch effect"
+      ],
+      "inlineStyle": "width:110%;height:110%;object-fit:cover;display:block;position:absolute;top:-5%;left:-5%;will-change:transform;z-index:1;transition:transform 0.4s ease-out",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jjJ6XIKZWJ2rtvkJZuo8IqJCQHo.jpg?width=1400&height=1536",
+      "srcset": null,
+      "alt": null,
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section 11 - About",
+        "Content",
+        "Block 2",
+        "Image w Glitch effect"
+      ],
+      "inlineStyle": "width:110%;height:110%;object-fit:cover;display:block;position:absolute;top:-5%;left:-5%;will-change:transform;z-index:2;opacity:0.3;transform:translate(0px, 0px)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jjJ6XIKZWJ2rtvkJZuo8IqJCQHo.jpg?width=1400&height=1536",
+      "srcset": null,
+      "alt": null,
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section 11 - About",
+        "Content",
+        "Block 2",
+        "Image w Glitch effect"
+      ],
+      "inlineStyle": "width:110%;height:110%;object-fit:cover;display:block;position:absolute;top:-5%;left:-5%;will-change:transform;z-index:2;opacity:0.3;transform:translate(0px, 0px)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jjJ6XIKZWJ2rtvkJZuo8IqJCQHo.jpg?width=1400&height=1536",
+      "srcset": null,
+      "alt": null,
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section 11 - About",
+        "Content",
+        "Block 2",
+        "Image w Glitch effect"
+      ],
+      "inlineStyle": "width:110%;height:110%;object-fit:cover;display:block;position:absolute;top:-5%;left:-5%;will-change:transform;z-index:1;transition:transform 0.4s ease-out",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jjJ6XIKZWJ2rtvkJZuo8IqJCQHo.jpg?width=1400&height=1536",
+      "srcset": null,
+      "alt": null,
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section 11 - About",
+        "Content",
+        "Block 2",
+        "Image w Glitch effect"
+      ],
+      "inlineStyle": "width:110%;height:110%;object-fit:cover;display:block;position:absolute;top:-5%;left:-5%;will-change:transform;z-index:2;opacity:0.3;transform:translate(0px, 0px)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jjJ6XIKZWJ2rtvkJZuo8IqJCQHo.jpg?width=1400&height=1536",
+      "srcset": null,
+      "alt": null,
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section 11 - About",
+        "Content",
+        "Block 2",
+        "Image w Glitch effect"
+      ],
+      "inlineStyle": "width:110%;height:110%;object-fit:cover;display:block;position:absolute;top:-5%;left:-5%;will-change:transform;z-index:2;opacity:0.3;transform:translate(0px, 0px)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mRBiQFDuE4B7QVSEklk21DWcM.jpeg?width=1200&height=1600",
+      "srcset": "https://framerusercontent.com/images/mRBiQFDuE4B7QVSEklk21DWcM.jpeg?scale-down-to=1024&width=1200&height=1600 768w,https://framerusercontent.com/images/mRBiQFDuE4B7QVSEklk21DWcM.jpeg?width=1200&height=1600 1200w",
+      "alt": null,
+      "width": "1200",
+      "height": "1600",
+      "path": [
+        "Main",
+        "Section 5 - Featured Study",
+        "Left",
+        "Thumbnails",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gLqCslm3A6i3AkKnPkWHelWtkNo.jpg?width=1600&height=2400",
+      "srcset": "https://framerusercontent.com/images/gLqCslm3A6i3AkKnPkWHelWtkNo.jpg?scale-down-to=1024&width=1600&height=2400 682w,https://framerusercontent.com/images/gLqCslm3A6i3AkKnPkWHelWtkNo.jpg?scale-down-to=2048&width=1600&height=2400 1365w,https://framerusercontent.com/images/gLqCslm3A6i3AkKnPkWHelWtkNo.jpg?width=1600&height=2400 1600w",
+      "alt": null,
+      "width": "1600",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Section 5 - Featured Study",
+        "Left",
+        "Thumbnails",
+        "Mini Thumbnail 2",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/3dhrjEKd33WmxaQ1Mtixa0iI3M4.jpeg?width=2400&height=2400",
+      "srcset": "https://framerusercontent.com/images/3dhrjEKd33WmxaQ1Mtixa0iI3M4.jpeg?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/3dhrjEKd33WmxaQ1Mtixa0iI3M4.jpeg?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/3dhrjEKd33WmxaQ1Mtixa0iI3M4.jpeg?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/3dhrjEKd33WmxaQ1Mtixa0iI3M4.jpeg?width=2400&height=2400 2400w",
+      "alt": null,
+      "width": "2400",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Section 5 - Featured Study",
+        "Left",
+        "Thumbnails",
+        "Mini Thumbnail 3",
+        "Variant 1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/8nraXlqQmF5fUzbvPQXoG2dv944.svg?width=143&height=269",
+      "srcset": null,
+      "alt": "Rabbit",
+      "width": "143",
+      "height": "269",
+      "path": [
+        "Main",
+        "Section 8 - Creative Philosophy",
+        "Top",
+        "Text Blocks",
+        "Rabbit",
+        "Graphic Static"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/fU3WmM3L1vdP5RLFKaBh2WUqVs.svg?width=109&height=28",
+      "srcset": null,
+      "alt": "Signature",
+      "width": "109",
+      "height": "28",
+      "path": [
+        "Main",
+        "Section 11 - About",
+        "Content",
+        "Block 1",
+        "Header",
+        "Signature",
+        "Signo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jjJ6XIKZWJ2rtvkJZuo8IqJCQHo.jpg?width=1400&height=1536",
+      "srcset": null,
+      "alt": null,
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section 11 - About",
+        "Content",
+        "Block 2",
+        "Image w Glitch effect"
+      ],
+      "inlineStyle": "width:110%;height:110%;object-fit:cover;display:block;position:absolute;top:-5%;left:-5%;will-change:transform;z-index:1;transition:transform 0.4s ease-out",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jjJ6XIKZWJ2rtvkJZuo8IqJCQHo.jpg?width=1400&height=1536",
+      "srcset": null,
+      "alt": null,
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section 11 - About",
+        "Content",
+        "Block 2",
+        "Image w Glitch effect"
+      ],
+      "inlineStyle": "width:110%;height:110%;object-fit:cover;display:block;position:absolute;top:-5%;left:-5%;will-change:transform;z-index:2;opacity:0.3;transform:translate(0px, 0px)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jjJ6XIKZWJ2rtvkJZuo8IqJCQHo.jpg?width=1400&height=1536",
+      "srcset": null,
+      "alt": null,
+      "width": null,
+      "height": null,
+      "path": [
+        "Main",
+        "Section 11 - About",
+        "Content",
+        "Block 2",
+        "Image w Glitch effect"
+      ],
+      "inlineStyle": "width:110%;height:110%;object-fit:cover;display:block;position:absolute;top:-5%;left:-5%;will-change:transform;z-index:2;opacity:0.3;transform:translate(0px, 0px)",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HGUyRo3Ko6fOp6Ks3LrpzaNBBVk.jpg?width=300&height=240",
+      "srcset": null,
+      "alt": null,
+      "width": "300",
+      "height": "240",
+      "path": [
+        "Height:100dvh",
+        "Get Template Phone",
+        "Default"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HGUyRo3Ko6fOp6Ks3LrpzaNBBVk.jpg?width=300&height=240",
+      "srcset": null,
+      "alt": null,
+      "width": "300",
+      "height": "240",
+      "path": [
+        "Height:100dvh",
+        "Get Template",
+        "Default"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HGUyRo3Ko6fOp6Ks3LrpzaNBBVk.jpg?width=300&height=240",
+      "srcset": null,
+      "alt": null,
+      "width": "300",
+      "height": "240",
+      "path": [
+        "Height:100dvh",
+        "Get Template",
+        "Tablet"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hkajYwsOmFedye323zjsX7nqA.svg?width=339&height=339",
+      "srcset": null,
+      "alt": null,
+      "width": null,
+      "height": null,
+      "path": [
+        "Footer",
+        "Bottom",
+        "Copyright",
+        "Content",
+        "Creator"
+      ],
+      "inlineStyle": "width:100%;height:100%;display:block;object-fit:contain;transform:translate(2px, 0px);will-change:transform;filter:none",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/a2iHJGNgrkBoATBujtkNqpDPs.svg?width=111&height=12",
+      "srcset": null,
+      "alt": null,
+      "width": null,
+      "height": null,
+      "path": [
+        "Footer",
+        "Bottom",
+        "Copyright",
+        "Content",
+        "Creator"
+      ],
+      "inlineStyle": "width:100%;height:100%;display:block;object-fit:contain;filter:none",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/a2iHJGNgrkBoATBujtkNqpDPs.svg?width=111&height=12",
+      "srcset": null,
+      "alt": null,
+      "width": null,
+      "height": null,
+      "path": [
+        "Footer",
+        "Bottom",
+        "Copyright",
+        "Content",
+        "Creator"
+      ],
+      "inlineStyle": "width:100%;height:100%;display:block;object-fit:contain;filter:none",
+      "box": null
+    }
+  ],
+  "videoReferences": [
+    {
+      "src": "https://framerusercontent.com/assets/UY4nZD0fXfOJHyYfoRxf4thIaQ.mp4",
+      "poster": "https://framerusercontent.com/images/c1VocAo4m6CyMi0Q18oUoG4UAIM.jpg?width=836&height=470",
+      "path": [
+        "Main",
+        "Section 3 - Concept",
+        "Content",
+        "Right",
+        "Content",
+        "Video"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/UY4nZD0fXfOJHyYfoRxf4thIaQ.mp4",
+      "poster": "https://framerusercontent.com/images/c1VocAo4m6CyMi0Q18oUoG4UAIM.jpg?width=836&height=470",
+      "path": [
+        "Main",
+        "Section 3 - Concept",
+        "Content",
+        "Right",
+        "Content",
+        "Video"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/a26Kzz7FS3fTjry2yg6UEMdYo.mp4",
+      "poster": null,
+      "path": [
+        "Main",
+        "Section 4 - Process",
+        "Video Overlay"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/xyWTkVIYLpmxuCOWTnXmSQtYV8.mp4",
+      "poster": "https://framerusercontent.com/images/0akgDfSw8ol9dq6XcrvLJFKJMs.jpg?width=401&height=600",
+      "path": [
+        "Main",
+        "Section 10 - Exhibition",
+        "Bottom",
+        "Content",
+        "Video",
+        "Video"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/xyWTkVIYLpmxuCOWTnXmSQtYV8.mp4",
+      "poster": "https://framerusercontent.com/images/0akgDfSw8ol9dq6XcrvLJFKJMs.jpg?width=401&height=600",
+      "path": [
+        "Main",
+        "Section 10 - Exhibition",
+        "Bottom",
+        "Content",
+        "Video",
+        "Video"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/UY4nZD0fXfOJHyYfoRxf4thIaQ.mp4",
+      "poster": "https://framerusercontent.com/images/c1VocAo4m6CyMi0Q18oUoG4UAIM.jpg?width=836&height=470",
+      "path": [
+        "Main",
+        "Section 3 - Concept",
+        "Content",
+        "Right",
+        "Content",
+        "Video"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/a26Kzz7FS3fTjry2yg6UEMdYo.mp4",
+      "poster": null,
+      "path": [
+        "Main",
+        "Section 4 - Process",
+        "Video Overlay"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/xyWTkVIYLpmxuCOWTnXmSQtYV8.mp4",
+      "poster": "https://framerusercontent.com/images/0akgDfSw8ol9dq6XcrvLJFKJMs.jpg?width=401&height=600",
+      "path": [
+        "Main",
+        "Section 10 - Exhibition",
+        "Bottom",
+        "Content",
+        "Video",
+        "Video"
+      ]
+    }
+  ],
+  "linksDeclaredInSource": [
+    "https://dub.sh/vertical-all",
+    "https://vertical.framer.media/",
+    "https://vertical.framer.media/#about-me",
+    "https://vertical.framer.media/404",
+    "https://vertical.framer.media/contact",
+    "https://vertical.framer.media/privacy-policy",
+    "https://vertical.framer.media/terms-of-use",
+    "https://vertical.framer.media/thoughts",
+    "https://vertical.framer.media/work",
+    "https://www.framer.com",
+    "https://www.framerpod.com",
+    "https://www.instagram.com",
+    "https://www.linkedin.com",
+    "https://www.vimeo.com",
+    "https://www.x.com",
+    "https://www.youtube.com",
+    "https://youtu.be/B3-qJYb_d08"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F57417%2Fvertical-jHUKj7Ubu1ETCuhg7EbPLvEKAKWpOf&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F3b062a58-ca05-4acc-91a2-b82e96bd3a5d%2F01a0663b-451c-7381-bd3c-4059f60e0958.jpg&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F57417%2Fvertical-7ST8P5dmzQEr4XdMJDgAoGsT2SxjZa&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-04.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F57417%2Fvertical-hs8Tp5kJ4dyzYuOLhfkrdtxBDHyCfK&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-05.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F57417%2Fvertical-2pycDorviOx50Bxq49ZrojqmKkTHA0&w=2048&q=80"
+    }
+  ]
+}

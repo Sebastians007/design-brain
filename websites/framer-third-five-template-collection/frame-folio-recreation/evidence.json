@@ -1,0 +1,2271 @@
+{
+  "template": "Frame Folio",
+  "preview": "https://framefoliotemplate.framer.website/",
+  "marketplace": "https://www.framer.com/marketplace/templates/frame-folio/",
+  "creator": "Riyad Sbeitan",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "viewport": null,
+  "pageHeight": null,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 3 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        256,
+        660,
+        1376,
+        1032
+      ],
+      "label": "Official image 1 / crop 4",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        256,
+        660,
+        1376,
+        1032
+      ],
+      "label": "Official image 2 / crop 4",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        256,
+        660,
+        1376,
+        1032
+      ],
+      "label": "Official image 3 / crop 4",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-0.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-1.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-600-2.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/UjlFhCnUjxhNfep4oYBPqnEssyo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-500-3.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/rZ5DdENNqIdFTIyQQiP5isO7M.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-900-4.woff2"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001",
+      "srcset": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1001",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?width=8000&height=5333",
+      "srcset": "https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=512&width=8000&height=5333 512w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=1024&width=8000&height=5333 1024w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=2048&width=8000&height=5333 2048w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=4096&width=8000&height=5333 4096w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?width=8000&height=5333 8000w",
+      "alt": null,
+      "width": "8000",
+      "height": "5333",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200",
+      "srcset": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?scale-down-to=1024&width=960&height=1200 819w,https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200 960w",
+      "alt": null,
+      "width": "960",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #4",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584",
+      "srcset": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=512&width=5376&height=3584 512w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=1024&width=5376&height=3584 1024w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=2048&width=5376&height=3584 2048w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=4096&width=5376&height=3584 4096w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584 5376w",
+      "alt": null,
+      "width": "5376",
+      "height": "3584",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #5",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001",
+      "srcset": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1001",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?width=8000&height=5333",
+      "srcset": "https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=512&width=8000&height=5333 512w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=1024&width=8000&height=5333 1024w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=2048&width=8000&height=5333 2048w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=4096&width=8000&height=5333 4096w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?width=8000&height=5333 8000w",
+      "alt": null,
+      "width": "8000",
+      "height": "5333",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200",
+      "srcset": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?scale-down-to=1024&width=960&height=1200 819w,https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200 960w",
+      "alt": null,
+      "width": "960",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #4",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584",
+      "srcset": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=512&width=5376&height=3584 512w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=1024&width=5376&height=3584 1024w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=2048&width=5376&height=3584 2048w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=4096&width=5376&height=3584 4096w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584 5376w",
+      "alt": null,
+      "width": "5376",
+      "height": "3584",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #5",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001",
+      "srcset": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1001",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?width=8000&height=5333",
+      "srcset": "https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=512&width=8000&height=5333 512w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=1024&width=8000&height=5333 1024w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=2048&width=8000&height=5333 2048w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=4096&width=8000&height=5333 4096w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?width=8000&height=5333 8000w",
+      "alt": null,
+      "width": "8000",
+      "height": "5333",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200",
+      "srcset": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?scale-down-to=1024&width=960&height=1200 819w,https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200 960w",
+      "alt": null,
+      "width": "960",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #4",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584",
+      "srcset": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=512&width=5376&height=3584 512w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=1024&width=5376&height=3584 1024w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=2048&width=5376&height=3584 2048w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=4096&width=5376&height=3584 4096w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584 5376w",
+      "alt": null,
+      "width": "5376",
+      "height": "3584",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #5",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001",
+      "srcset": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1001",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?width=8000&height=5333",
+      "srcset": "https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=512&width=8000&height=5333 512w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=1024&width=8000&height=5333 1024w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=2048&width=8000&height=5333 2048w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=4096&width=8000&height=5333 4096w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?width=8000&height=5333 8000w",
+      "alt": null,
+      "width": "8000",
+      "height": "5333",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200",
+      "srcset": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?scale-down-to=1024&width=960&height=1200 819w,https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200 960w",
+      "alt": null,
+      "width": "960",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #4",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584",
+      "srcset": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=512&width=5376&height=3584 512w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=1024&width=5376&height=3584 1024w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=2048&width=5376&height=3584 2048w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=4096&width=5376&height=3584 4096w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584 5376w",
+      "alt": null,
+      "width": "5376",
+      "height": "3584",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #5",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+      "srcset": null,
+      "alt": "Back Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Hero Section",
+        "Container"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+      "srcset": null,
+      "alt": "Next Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Hero Section",
+        "Container"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001",
+      "srcset": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1001",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?width=8000&height=5333",
+      "srcset": "https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=512&width=8000&height=5333 512w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=1024&width=8000&height=5333 1024w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=2048&width=8000&height=5333 2048w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=4096&width=8000&height=5333 4096w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?width=8000&height=5333 8000w",
+      "alt": null,
+      "width": "8000",
+      "height": "5333",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200",
+      "srcset": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?scale-down-to=1024&width=960&height=1200 819w,https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200 960w",
+      "alt": null,
+      "width": "960",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #4",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584",
+      "srcset": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=512&width=5376&height=3584 512w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=1024&width=5376&height=3584 1024w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=2048&width=5376&height=3584 2048w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=4096&width=5376&height=3584 4096w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584 5376w",
+      "alt": null,
+      "width": "5376",
+      "height": "3584",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #5",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001",
+      "srcset": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1001",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?width=8000&height=5333",
+      "srcset": "https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=512&width=8000&height=5333 512w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=1024&width=8000&height=5333 1024w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=2048&width=8000&height=5333 2048w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=4096&width=8000&height=5333 4096w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?width=8000&height=5333 8000w",
+      "alt": null,
+      "width": "8000",
+      "height": "5333",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200",
+      "srcset": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?scale-down-to=1024&width=960&height=1200 819w,https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200 960w",
+      "alt": null,
+      "width": "960",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #4",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584",
+      "srcset": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=512&width=5376&height=3584 512w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=1024&width=5376&height=3584 1024w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=2048&width=5376&height=3584 2048w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=4096&width=5376&height=3584 4096w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584 5376w",
+      "alt": null,
+      "width": "5376",
+      "height": "3584",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #5",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001",
+      "srcset": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1001",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?width=8000&height=5333",
+      "srcset": "https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=512&width=8000&height=5333 512w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=1024&width=8000&height=5333 1024w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=2048&width=8000&height=5333 2048w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=4096&width=8000&height=5333 4096w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?width=8000&height=5333 8000w",
+      "alt": null,
+      "width": "8000",
+      "height": "5333",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200",
+      "srcset": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?scale-down-to=1024&width=960&height=1200 819w,https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200 960w",
+      "alt": null,
+      "width": "960",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #4",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584",
+      "srcset": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=512&width=5376&height=3584 512w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=1024&width=5376&height=3584 1024w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=2048&width=5376&height=3584 2048w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=4096&width=5376&height=3584 4096w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584 5376w",
+      "alt": null,
+      "width": "5376",
+      "height": "3584",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #5",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001",
+      "srcset": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1001",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?width=8000&height=5333",
+      "srcset": "https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=512&width=8000&height=5333 512w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=1024&width=8000&height=5333 1024w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=2048&width=8000&height=5333 2048w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?scale-down-to=4096&width=8000&height=5333 4096w,https://framerusercontent.com/images/HldWVE8E8NUP2g6ixe2GO4ohYo.jpg?width=8000&height=5333 8000w",
+      "alt": null,
+      "width": "8000",
+      "height": "5333",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200",
+      "srcset": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?scale-down-to=1024&width=960&height=1200 819w,https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200 960w",
+      "alt": null,
+      "width": "960",
+      "height": "1200",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #4",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584",
+      "srcset": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=512&width=5376&height=3584 512w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=1024&width=5376&height=3584 1024w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=2048&width=5376&height=3584 2048w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=4096&width=5376&height=3584 4096w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584 5376w",
+      "alt": null,
+      "width": "5376",
+      "height": "3584",
+      "path": [
+        "Hero Section",
+        "Container",
+        "Hero Image #5",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+      "srcset": null,
+      "alt": "Back Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Hero Section",
+        "Container"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+      "srcset": null,
+      "alt": "Next Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Hero Section",
+        "Container"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BmnZeUsMFqOrVwoTu3ooI1m1UY.svg?width=135&height=24",
+      "srcset": null,
+      "alt": null,
+      "width": "135",
+      "height": "24",
+      "path": [
+        "Trusted By Section",
+        "Container",
+        "Ticker/ Logos",
+        "Client Logo #1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aTzpA2BvzmwgIjCPzmJcWEf93YE.svg?width=135&height=23",
+      "srcset": null,
+      "alt": null,
+      "width": "135",
+      "height": "23",
+      "path": [
+        "Trusted By Section",
+        "Container",
+        "Ticker/ Logos",
+        "Client Logo #2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/v0YSm7mTyJtDqbHGr3Chwl248.svg?width=135&height=25",
+      "srcset": null,
+      "alt": null,
+      "width": "135",
+      "height": "25",
+      "path": [
+        "Trusted By Section",
+        "Container",
+        "Ticker/ Logos",
+        "Client Logo #3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/LTiF5sRtVijCzJeonR6Gaq1pumY.svg?width=135&height=24",
+      "srcset": null,
+      "alt": null,
+      "width": "135",
+      "height": "24",
+      "path": [
+        "Trusted By Section",
+        "Container",
+        "Ticker/ Logos",
+        "Client Logo #4",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HJ4Dr4wZb0Nl4jpEcZzM6F0AfEQ.svg?width=135&height=23",
+      "srcset": null,
+      "alt": null,
+      "width": "135",
+      "height": "23",
+      "path": [
+        "Trusted By Section",
+        "Container",
+        "Ticker/ Logos",
+        "Client Logo #5",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BmnZeUsMFqOrVwoTu3ooI1m1UY.svg?width=135&height=24",
+      "srcset": null,
+      "alt": null,
+      "width": "135",
+      "height": "24",
+      "path": [
+        "Trusted By Section",
+        "Container",
+        "Ticker/ Logos",
+        "Client Logo #1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aTzpA2BvzmwgIjCPzmJcWEf93YE.svg?width=135&height=23",
+      "srcset": null,
+      "alt": null,
+      "width": "135",
+      "height": "23",
+      "path": [
+        "Trusted By Section",
+        "Container",
+        "Ticker/ Logos",
+        "Client Logo #2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/v0YSm7mTyJtDqbHGr3Chwl248.svg?width=135&height=25",
+      "srcset": null,
+      "alt": null,
+      "width": "135",
+      "height": "25",
+      "path": [
+        "Trusted By Section",
+        "Container",
+        "Ticker/ Logos",
+        "Client Logo #3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/LTiF5sRtVijCzJeonR6Gaq1pumY.svg?width=135&height=24",
+      "srcset": null,
+      "alt": null,
+      "width": "135",
+      "height": "24",
+      "path": [
+        "Trusted By Section",
+        "Container",
+        "Ticker/ Logos",
+        "Client Logo #4",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HJ4Dr4wZb0Nl4jpEcZzM6F0AfEQ.svg?width=135&height=23",
+      "srcset": null,
+      "alt": null,
+      "width": "135",
+      "height": "23",
+      "path": [
+        "Trusted By Section",
+        "Container",
+        "Ticker/ Logos",
+        "Client Logo #5",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?width=900&height=1200",
+      "srcset": "https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?scale-down-to=1024&width=900&height=1200 768w,https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?width=900&height=1200 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200",
+      "srcset": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?scale-down-to=1024&width=960&height=1200 819w,https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200 960w",
+      "alt": null,
+      "width": "960",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?width=900&height=1200",
+      "srcset": "https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?scale-down-to=1024&width=900&height=1200 768w,https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?width=900&height=1200 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200",
+      "srcset": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?scale-down-to=1024&width=960&height=1200 819w,https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200 960w",
+      "alt": null,
+      "width": "960",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?width=900&height=1200",
+      "srcset": "https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?scale-down-to=1024&width=900&height=1200 768w,https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?width=900&height=1200 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200",
+      "srcset": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?scale-down-to=1024&width=960&height=1200 819w,https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200 960w",
+      "alt": null,
+      "width": "960",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?width=900&height=1200",
+      "srcset": "https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?scale-down-to=1024&width=900&height=1200 768w,https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?width=900&height=1200 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200",
+      "srcset": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?scale-down-to=1024&width=960&height=1200 819w,https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200 960w",
+      "alt": null,
+      "width": "960",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+      "srcset": null,
+      "alt": "Back Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+      "srcset": null,
+      "alt": "Next Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?width=900&height=1200",
+      "srcset": "https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?scale-down-to=1024&width=900&height=1200 768w,https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?width=900&height=1200 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200",
+      "srcset": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?scale-down-to=1024&width=960&height=1200 819w,https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200 960w",
+      "alt": null,
+      "width": "960",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?width=900&height=1200",
+      "srcset": "https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?scale-down-to=1024&width=900&height=1200 768w,https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?width=900&height=1200 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200",
+      "srcset": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?scale-down-to=1024&width=960&height=1200 819w,https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200 960w",
+      "alt": null,
+      "width": "960",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?width=900&height=1200",
+      "srcset": "https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?scale-down-to=1024&width=900&height=1200 768w,https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?width=900&height=1200 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200",
+      "srcset": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?scale-down-to=1024&width=960&height=1200 819w,https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200 960w",
+      "alt": null,
+      "width": "960",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?width=900&height=1200",
+      "srcset": "https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?scale-down-to=1024&width=900&height=1200 768w,https://framerusercontent.com/images/Xh36IpOpMi77Vqis3UatfsUQ.jpg?width=900&height=1200 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200",
+      "srcset": "https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?scale-down-to=1024&width=992&height=1200 846w,https://framerusercontent.com/images/crpaMhO0HPB9zqyFCNxvVb98o.jpg?width=992&height=1200 992w",
+      "alt": null,
+      "width": "992",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200",
+      "srcset": "https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?scale-down-to=1024&width=960&height=1200 819w,https://framerusercontent.com/images/DK7mY3k9fkzS7sndHn0gaWOz86c.jpg?width=960&height=1200 960w",
+      "alt": null,
+      "width": "960",
+      "height": "1200",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project",
+        "01 Project Image#3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+      "srcset": null,
+      "alt": "Back Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+      "srcset": null,
+      "alt": "Next Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "01 Slideshow Project"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001",
+      "srcset": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1001",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "02 Slideshow Project",
+        "02 Project Image#1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/oF70Ce9KMBmaIvoXWY8q9WIHjtw.jpg?width=900&height=1068",
+      "srcset": "https://framerusercontent.com/images/oF70Ce9KMBmaIvoXWY8q9WIHjtw.jpg?scale-down-to=1024&width=900&height=1068 862w,https://framerusercontent.com/images/oF70Ce9KMBmaIvoXWY8q9WIHjtw.jpg?width=900&height=1068 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1068",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "02 Slideshow Project",
+        "02 Project Image#2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ChaWx0Hzal7sJd0aF3kYq0l1uGk.jpg?width=1200&height=895",
+      "srcset": "https://framerusercontent.com/images/ChaWx0Hzal7sJd0aF3kYq0l1uGk.jpg?scale-down-to=512&width=1200&height=895 512w,https://framerusercontent.com/images/ChaWx0Hzal7sJd0aF3kYq0l1uGk.jpg?scale-down-to=1024&width=1200&height=895 1024w,https://framerusercontent.com/images/ChaWx0Hzal7sJd0aF3kYq0l1uGk.jpg?width=1200&height=895 1200w",
+      "alt": null,
+      "width": "1200",
+      "height": "895",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "02 Slideshow Project",
+        "02 Project Image#3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001",
+      "srcset": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1001",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "02 Slideshow Project",
+        "02 Project Image#1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/oF70Ce9KMBmaIvoXWY8q9WIHjtw.jpg?width=900&height=1068",
+      "srcset": "https://framerusercontent.com/images/oF70Ce9KMBmaIvoXWY8q9WIHjtw.jpg?scale-down-to=1024&width=900&height=1068 862w,https://framerusercontent.com/images/oF70Ce9KMBmaIvoXWY8q9WIHjtw.jpg?width=900&height=1068 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1068",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "02 Slideshow Project",
+        "02 Project Image#2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ChaWx0Hzal7sJd0aF3kYq0l1uGk.jpg?width=1200&height=895",
+      "srcset": "https://framerusercontent.com/images/ChaWx0Hzal7sJd0aF3kYq0l1uGk.jpg?scale-down-to=512&width=1200&height=895 512w,https://framerusercontent.com/images/ChaWx0Hzal7sJd0aF3kYq0l1uGk.jpg?scale-down-to=1024&width=1200&height=895 1024w,https://framerusercontent.com/images/ChaWx0Hzal7sJd0aF3kYq0l1uGk.jpg?width=1200&height=895 1200w",
+      "alt": null,
+      "width": "1200",
+      "height": "895",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "02 Slideshow Project",
+        "02 Project Image#3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001",
+      "srcset": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1001",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "02 Slideshow Project",
+        "02 Project Image#1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/oF70Ce9KMBmaIvoXWY8q9WIHjtw.jpg?width=900&height=1068",
+      "srcset": "https://framerusercontent.com/images/oF70Ce9KMBmaIvoXWY8q9WIHjtw.jpg?scale-down-to=1024&width=900&height=1068 862w,https://framerusercontent.com/images/oF70Ce9KMBmaIvoXWY8q9WIHjtw.jpg?width=900&height=1068 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1068",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "02 Slideshow Project",
+        "02 Project Image#2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ChaWx0Hzal7sJd0aF3kYq0l1uGk.jpg?width=1200&height=895",
+      "srcset": "https://framerusercontent.com/images/ChaWx0Hzal7sJd0aF3kYq0l1uGk.jpg?scale-down-to=512&width=1200&height=895 512w,https://framerusercontent.com/images/ChaWx0Hzal7sJd0aF3kYq0l1uGk.jpg?scale-down-to=1024&width=1200&height=895 1024w,https://framerusercontent.com/images/ChaWx0Hzal7sJd0aF3kYq0l1uGk.jpg?width=1200&height=895 1200w",
+      "alt": null,
+      "width": "1200",
+      "height": "895",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "02 Slideshow Project",
+        "02 Project Image#3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001",
+      "srcset": "https://framerusercontent.com/images/6p1XKqrCl9xepQdfbuv0XOdBdks.jpg?width=900&height=1001 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1001",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "02 Slideshow Project",
+        "02 Project Image#1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/oF70Ce9KMBmaIvoXWY8q9WIHjtw.jpg?width=900&height=1068",
+      "srcset": "https://framerusercontent.com/images/oF70Ce9KMBmaIvoXWY8q9WIHjtw.jpg?scale-down-to=1024&width=900&height=1068 862w,https://framerusercontent.com/images/oF70Ce9KMBmaIvoXWY8q9WIHjtw.jpg?width=900&height=1068 900w",
+      "alt": null,
+      "width": "900",
+      "height": "1068",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "02 Slideshow Project",
+        "02 Project Image#2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ChaWx0Hzal7sJd0aF3kYq0l1uGk.jpg?width=1200&height=895",
+      "srcset": "https://framerusercontent.com/images/ChaWx0Hzal7sJd0aF3kYq0l1uGk.jpg?scale-down-to=512&width=1200&height=895 512w,https://framerusercontent.com/images/ChaWx0Hzal7sJd0aF3kYq0l1uGk.jpg?scale-down-to=1024&width=1200&height=895 1024w,https://framerusercontent.com/images/ChaWx0Hzal7sJd0aF3kYq0l1uGk.jpg?width=1200&height=895 1200w",
+      "alt": null,
+      "width": "1200",
+      "height": "895",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "02 Slideshow Project",
+        "02 Project Image#3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+      "srcset": null,
+      "alt": "Back Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "02 Slideshow Project"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+      "srcset": null,
+      "alt": "Next Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "02 Slideshow Project"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584",
+      "srcset": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=512&width=5376&height=3584 512w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=1024&width=5376&height=3584 1024w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=2048&width=5376&height=3584 2048w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=4096&width=5376&height=3584 4096w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584 5376w",
+      "alt": null,
+      "width": "5376",
+      "height": "3584",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "03 Slideshow Project",
+        "03 Project Image#1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?width=3574&height=1799",
+      "srcset": "https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?scale-down-to=512&width=3574&height=1799 512w,https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?scale-down-to=1024&width=3574&height=1799 1024w,https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?scale-down-to=2048&width=3574&height=1799 2048w,https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?width=3574&height=1799 3574w",
+      "alt": null,
+      "width": "3574",
+      "height": "1799",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "03 Slideshow Project",
+        "03 Project Image#2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?width=4584&height=2677",
+      "srcset": "https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?scale-down-to=512&width=4584&height=2677 512w,https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?scale-down-to=1024&width=4584&height=2677 1024w,https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?scale-down-to=2048&width=4584&height=2677 2048w,https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?scale-down-to=4096&width=4584&height=2677 4096w,https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?width=4584&height=2677 4584w",
+      "alt": null,
+      "width": "4584",
+      "height": "2677",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "03 Slideshow Project",
+        "03 Project Image#3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584",
+      "srcset": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=512&width=5376&height=3584 512w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=1024&width=5376&height=3584 1024w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=2048&width=5376&height=3584 2048w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=4096&width=5376&height=3584 4096w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584 5376w",
+      "alt": null,
+      "width": "5376",
+      "height": "3584",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "03 Slideshow Project",
+        "03 Project Image#1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?width=3574&height=1799",
+      "srcset": "https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?scale-down-to=512&width=3574&height=1799 512w,https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?scale-down-to=1024&width=3574&height=1799 1024w,https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?scale-down-to=2048&width=3574&height=1799 2048w,https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?width=3574&height=1799 3574w",
+      "alt": null,
+      "width": "3574",
+      "height": "1799",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "03 Slideshow Project",
+        "03 Project Image#2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?width=4584&height=2677",
+      "srcset": "https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?scale-down-to=512&width=4584&height=2677 512w,https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?scale-down-to=1024&width=4584&height=2677 1024w,https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?scale-down-to=2048&width=4584&height=2677 2048w,https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?scale-down-to=4096&width=4584&height=2677 4096w,https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?width=4584&height=2677 4584w",
+      "alt": null,
+      "width": "4584",
+      "height": "2677",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "03 Slideshow Project",
+        "03 Project Image#3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584",
+      "srcset": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=512&width=5376&height=3584 512w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=1024&width=5376&height=3584 1024w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=2048&width=5376&height=3584 2048w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=4096&width=5376&height=3584 4096w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584 5376w",
+      "alt": null,
+      "width": "5376",
+      "height": "3584",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "03 Slideshow Project",
+        "03 Project Image#1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?width=3574&height=1799",
+      "srcset": "https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?scale-down-to=512&width=3574&height=1799 512w,https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?scale-down-to=1024&width=3574&height=1799 1024w,https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?scale-down-to=2048&width=3574&height=1799 2048w,https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?width=3574&height=1799 3574w",
+      "alt": null,
+      "width": "3574",
+      "height": "1799",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "03 Slideshow Project",
+        "03 Project Image#2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?width=4584&height=2677",
+      "srcset": "https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?scale-down-to=512&width=4584&height=2677 512w,https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?scale-down-to=1024&width=4584&height=2677 1024w,https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?scale-down-to=2048&width=4584&height=2677 2048w,https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?scale-down-to=4096&width=4584&height=2677 4096w,https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?width=4584&height=2677 4584w",
+      "alt": null,
+      "width": "4584",
+      "height": "2677",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "03 Slideshow Project",
+        "03 Project Image#3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584",
+      "srcset": "https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=512&width=5376&height=3584 512w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=1024&width=5376&height=3584 1024w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=2048&width=5376&height=3584 2048w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?scale-down-to=4096&width=5376&height=3584 4096w,https://framerusercontent.com/images/Ew7ZcqARtwifIYKu2u5INqc7o.jpg?width=5376&height=3584 5376w",
+      "alt": null,
+      "width": "5376",
+      "height": "3584",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "03 Slideshow Project",
+        "03 Project Image#1",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?width=3574&height=1799",
+      "srcset": "https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?scale-down-to=512&width=3574&height=1799 512w,https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?scale-down-to=1024&width=3574&height=1799 1024w,https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?scale-down-to=2048&width=3574&height=1799 2048w,https://framerusercontent.com/images/jk4Et0HxK0daLAoo2cyrMYMX0BQ.jpg?width=3574&height=1799 3574w",
+      "alt": null,
+      "width": "3574",
+      "height": "1799",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "03 Slideshow Project",
+        "03 Project Image#2",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?width=4584&height=2677",
+      "srcset": "https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?scale-down-to=512&width=4584&height=2677 512w,https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?scale-down-to=1024&width=4584&height=2677 1024w,https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?scale-down-to=2048&width=4584&height=2677 2048w,https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?scale-down-to=4096&width=4584&height=2677 4096w,https://framerusercontent.com/images/HlwNXXqUqt0Da2o6iTN0Z5UQU.jpg?width=4584&height=2677 4584w",
+      "alt": null,
+      "width": "4584",
+      "height": "2677",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "03 Slideshow Project",
+        "03 Project Image#3",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+      "srcset": null,
+      "alt": "Back Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "03 Slideshow Project"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+      "srcset": null,
+      "alt": "Next Arrow",
+      "width": "40",
+      "height": "40",
+      "path": [
+        "Selected Projects Section",
+        "Container",
+        "Project Cards and Images",
+        "03 Slideshow Project"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/LdgC2K4rseJKdp7G1liqU42tVYY.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/LdgC2K4rseJKdp7G1liqU42tVYY.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/LdgC2K4rseJKdp7G1liqU42tVYY.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/LdgC2K4rseJKdp7G1liqU42tVYY.png?width=1200&height=1200 1200w",
+      "alt": null,
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Testimonials Section",
+        "Container",
+        "Section Title and Testimonial Cards",
+        "Testimonials Ticker",
+        "Testimonial Card 01",
+        "Testimonials",
+        "Image, Name, and Position",
+        "Caramel Hat and Olive Jacket - Casual Confident Woman with a Friendly Smile"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/stFeMJb4twz9hHZxSEFKDZKsE.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/stFeMJb4twz9hHZxSEFKDZKsE.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/stFeMJb4twz9hHZxSEFKDZKsE.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/stFeMJb4twz9hHZxSEFKDZKsE.png?width=1200&height=1200 1200w",
+      "alt": null,
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Testimonials Section",
+        "Container",
+        "Section Title and Testimonial Cards",
+        "Testimonials Ticker",
+        "Testimonial Card 02",
+        "Testimonials",
+        "Image, Name, and Position",
+        "Caramel Hat and Olive Jacket - Casual Confident Woman with a Friendly Smile"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7Lf2Tq7CUNGSvgK6HzK6fv8Gc.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/7Lf2Tq7CUNGSvgK6HzK6fv8Gc.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/7Lf2Tq7CUNGSvgK6HzK6fv8Gc.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/7Lf2Tq7CUNGSvgK6HzK6fv8Gc.png?width=1200&height=1200 1200w",
+      "alt": null,
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Testimonials Section",
+        "Container",
+        "Section Title and Testimonial Cards",
+        "Testimonials Ticker",
+        "Testimonial Card 03",
+        "Testimonials",
+        "Image, Name, and Position",
+        "Caramel Hat and Olive Jacket - Casual Confident Woman with a Friendly Smile"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/lMbuLdmryHQgvdvMThp3wsHhOI.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/lMbuLdmryHQgvdvMThp3wsHhOI.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/lMbuLdmryHQgvdvMThp3wsHhOI.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/lMbuLdmryHQgvdvMThp3wsHhOI.png?width=1200&height=1200 1200w",
+      "alt": null,
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Testimonials Section",
+        "Container",
+        "Section Title and Testimonial Cards",
+        "Testimonials Ticker",
+        "Testimonial Card 04",
+        "Testimonials",
+        "Image, Name, and Position",
+        "Caramel Hat and Olive Jacket - Casual Confident Woman with a Friendly Smile"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/LdgC2K4rseJKdp7G1liqU42tVYY.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/LdgC2K4rseJKdp7G1liqU42tVYY.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/LdgC2K4rseJKdp7G1liqU42tVYY.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/LdgC2K4rseJKdp7G1liqU42tVYY.png?width=1200&height=1200 1200w",
+      "alt": null,
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Testimonials Section",
+        "Container",
+        "Section Title and Testimonial Cards",
+        "Testimonials Ticker",
+        "Testimonial Card 01",
+        "Testimonials",
+        "Image, Name, and Position",
+        "Caramel Hat and Olive Jacket - Casual Confident Woman with a Friendly Smile"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/stFeMJb4twz9hHZxSEFKDZKsE.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/stFeMJb4twz9hHZxSEFKDZKsE.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/stFeMJb4twz9hHZxSEFKDZKsE.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/stFeMJb4twz9hHZxSEFKDZKsE.png?width=1200&height=1200 1200w",
+      "alt": null,
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Testimonials Section",
+        "Container",
+        "Section Title and Testimonial Cards",
+        "Testimonials Ticker",
+        "Testimonial Card 02",
+        "Testimonials",
+        "Image, Name, and Position",
+        "Caramel Hat and Olive Jacket - Casual Confident Woman with a Friendly Smile"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/7Lf2Tq7CUNGSvgK6HzK6fv8Gc.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/7Lf2Tq7CUNGSvgK6HzK6fv8Gc.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/7Lf2Tq7CUNGSvgK6HzK6fv8Gc.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/7Lf2Tq7CUNGSvgK6HzK6fv8Gc.png?width=1200&height=1200 1200w",
+      "alt": null,
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Testimonials Section",
+        "Container",
+        "Section Title and Testimonial Cards",
+        "Testimonials Ticker",
+        "Testimonial Card 03",
+        "Testimonials",
+        "Image, Name, and Position",
+        "Caramel Hat and Olive Jacket - Casual Confident Woman with a Friendly Smile"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/lMbuLdmryHQgvdvMThp3wsHhOI.png?width=1200&height=1200",
+      "srcset": "https://framerusercontent.com/images/lMbuLdmryHQgvdvMThp3wsHhOI.png?scale-down-to=512&width=1200&height=1200 512w,https://framerusercontent.com/images/lMbuLdmryHQgvdvMThp3wsHhOI.png?scale-down-to=1024&width=1200&height=1200 1024w,https://framerusercontent.com/images/lMbuLdmryHQgvdvMThp3wsHhOI.png?width=1200&height=1200 1200w",
+      "alt": null,
+      "width": "1200",
+      "height": "1200",
+      "path": [
+        "Testimonials Section",
+        "Container",
+        "Section Title and Testimonial Cards",
+        "Testimonials Ticker",
+        "Testimonial Card 04",
+        "Testimonials",
+        "Image, Name, and Position",
+        "Caramel Hat and Olive Jacket - Casual Confident Woman with a Friendly Smile"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    }
+  ],
+  "videoReferences": [],
+  "linksDeclaredInSource": [
+    "https://framefoliotemplate.framer.website/",
+    "https://framefoliotemplate.framer.website/404",
+    "https://framefoliotemplate.framer.website/about",
+    "https://framefoliotemplate.framer.website/contact",
+    "https://framefoliotemplate.framer.website/terms-conditions-page/terms-conditions",
+    "https://framefoliotemplate.framer.website/work",
+    "https://framefoliotemplate.framer.website/work/aura-beauty",
+    "https://framefoliotemplate.framer.website/work/nordica-living",
+    "https://framefoliotemplate.framer.website/work/vetra-studio-rebrand",
+    "https://framer.link/riyad-sbeitan",
+    "https://www.framer.com",
+    "https://x.com/RiiyadSbeitan"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F39b09926-43e8-4aa5-96ef-9baceac2e4db%2Fhr8yxcnf&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F39b09926-43e8-4aa5-96ef-9baceac2e4db%2Fppf5uup6&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F39b09926-43e8-4aa5-96ef-9baceac2e4db%2F1yakvdsr&w=2048&q=80"
+    }
+  ]
+}

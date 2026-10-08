@@ -1,0 +1,163 @@
+{
+  "name": "NOVA Lab",
+  "source": "https://only-unicorn-982022.framer.app/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#0a0a0a",
+    "paper": "#f6f6f6",
+    "ink": "#e6e6e6",
+    "accent": "#2802ef",
+    "muted": "#858585"
+  },
+  "type": {
+    "body": "DM Mono",
+    "display": "Montserrat",
+    "roles": [
+      {
+        "role": "Desktop hero heading \u2014 Home / Hero Content / Title",
+        "family": "Montserrat",
+        "weight": 600,
+        "sizePx": 50,
+        "linePx": 60,
+        "tracking": 0
+      },
+      {
+        "role": "Desktop hero support \u2014 nested span",
+        "family": "DM Mono",
+        "weight": 500,
+        "sizePx": 16,
+        "linePx": 19.2,
+        "tracking": 0
+      },
+      {
+        "role": "Desktop section heading \u2014 Sources To Signals",
+        "family": "Montserrat",
+        "weight": 600,
+        "sizePx": 50,
+        "linePx": 60,
+        "tracking": 0
+      },
+      {
+        "role": "Section explanation \u2014 Sources To Signals",
+        "family": "DM Mono",
+        "weight": 500,
+        "sizePx": 16,
+        "linePx": 22.4,
+        "tracking": 0
+      },
+      {
+        "role": "Module title \u2014 Glance",
+        "family": "DM Mono",
+        "weight": 500,
+        "sizePx": 40,
+        "linePx": 56,
+        "tracking": 0
+      },
+      {
+        "role": "Module explanation \u2014 Glance",
+        "family": "Montserrat",
+        "weight": 600,
+        "sizePx": 16,
+        "linePx": 20.8,
+        "tracking": 0
+      },
+      {
+        "role": "Fixed navigation label",
+        "family": "DM Mono",
+        "weight": 500,
+        "sizePx": 13,
+        "linePx": 15.6,
+        "tracking": 0
+      },
+      {
+        "role": "Source table column label \u2014 nested span",
+        "family": "DM Mono",
+        "weight": 500,
+        "sizePx": 24,
+        "linePx": 28.8,
+        "tracking": 0
+      },
+      {
+        "role": "Step title \u2014 nested span",
+        "family": "DM Mono",
+        "weight": 500,
+        "sizePx": 32,
+        "linePx": 38.4,
+        "tracking": 0
+      },
+      {
+        "role": "Step 2 number \u2014 explicitly overridden span",
+        "family": "Montserrat",
+        "weight": 400,
+        "sizePx": 100,
+        "linePx": 120,
+        "tracking": 0
+      },
+      {
+        "role": "Plan price \u2014 nested span",
+        "family": "Montserrat",
+        "weight": 600,
+        "sizePx": 48,
+        "linePx": 57.6,
+        "tracking": 0
+      },
+      {
+        "role": "Footer wordmark \u2014 parent declaration",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 220,
+        "linePx": 264,
+        "tracking": 0
+      },
+      {
+        "role": "Alternate hero heading \u2014 Hero Section / Hero Title",
+        "family": "Montserrat",
+        "weight": 600,
+        "sizePx": 25,
+        "linePx": 30,
+        "tracking": 0
+      },
+      {
+        "role": "Alternate hero support \u2014 nested span",
+        "family": "DM Mono",
+        "weight": 500,
+        "sizePx": 10,
+        "linePx": 15,
+        "tracking": 0.2
+      }
+    ],
+    "rolesEvidence": "Declared CSS, not rendered measurements."
+  },
+  "spacing": {
+    "desktopGutterPx": 40,
+    "componentGapPx": 22,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 15,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1390
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1390px)",
+      "@media(max-width: 1389.98px)",
+      "@media (max-width:1389.98px)",
+      "@media (max-width: 1389.98px) ",
+      "@media (pointer: fine) "
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation."
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes."
+}

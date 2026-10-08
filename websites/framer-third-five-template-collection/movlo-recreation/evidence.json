@@ -1,0 +1,2487 @@
+{
+  "template": "Movlo",
+  "preview": "https://movlo.framer.website/",
+  "marketplace": "https://www.framer.com/marketplace/templates/movlo/",
+  "creator": "Ruslan Siiz",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "viewport": null,
+  "pageHeight": null,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 4 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-05.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 5 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 4 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-05.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 5 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/fragment-mono-400-0.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-1.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/DXD0Q7LSl7HEvDzucnyLnGBHM.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-2.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/VgYFWiwsAC5OYxAycRXXvhze58.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-3.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "100",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/8kSLqTnVCEtjx0nu8PxTD4Nh5UU.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-100-4.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "200",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/Z4sGWU2OKBoXPWulb5P25vULA.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-200-5.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "300",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/aqiiD4LUKkKzXdjGL5UzHq8bo5w.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-300-6.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/UjlFhCnUjxhNfep4oYBPqnEssyo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-500-7.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-600-8.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "800",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/Mput0MSwESKlJ6TMz9MPDXhgrk.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-800-9.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/rZ5DdENNqIdFTIyQQiP5isO7M.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-900-10.woff2"
+    },
+    {
+      "family": "Inter Variable",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/7lw0VWkeXrGYJT05oB3DsFy8BaY.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-variable-400-11.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/bHYNJqzTyl2lqvmMiRRS6Y16Es.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-400-12.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "100",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GoWsxcsKZ1Hiy2Y8l40zBgNwYvo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-100-13.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "200",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/t5RNiwIqoB2GvYhcdv6NPQF6kfk.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-200-14.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "300",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/CnMzVKZxLPB68RITfNGUfLe65m4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-300-15.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/iwWTDc49ENF2tCHbqlNARXw6Ug.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-500-16.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/PfdOpgzFf7N2Uye9JX7xRKYTgSc.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-600-17.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/qITWJ2WdG0wrgQPDb8lvnYnTXDg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-700-18.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "800",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/9Nu9BRcGkRrLnJCGqVdSUXJt2Ig.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-800-19.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/x8eJ5VkmPMHVhVbF0E8JYFJmwc.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-900-20.woff2"
+    },
+    {
+      "family": "General Sans",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/3RZHWSNONLLWJK3RLPEKUZOMM56GO4LJ/BPDRY7AHVI3MCDXXVXTQQ76H3UXA63S3/SB2OEB6IKZPRR6JT4GFJ2TFT6HBB6AZN.woff2",
+      "range": "",
+      "file": "assets/fonts/general-sans-500-21.woff2"
+    },
+    {
+      "family": "General Sans",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/KWXO5X3YW4X7OLUMPO4X24HQJGJU7E2Q/VOWUQZS3YLP66ZHPTXAFSH6YACY4WJHT/NIQ54PVBBIWVK3PFSOIOUJSXIJ5WTNDP.woff2",
+      "range": "",
+      "file": "assets/fonts/general-sans-700-22.woff2"
+    },
+    {
+      "family": "General Sans",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/MFQT7HFGCR2L5ULQTW6YXYZXXHMPKLJ3/YWQ244D6TACUX5JBKATPOW5I5MGJ3G73/7YY3ZAAE3TRV2LANYOLXNHTPHLXVWTKH.woff2",
+      "range": "",
+      "file": "assets/fonts/general-sans-400-23.woff2"
+    },
+    {
+      "family": "General Sans",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/K46YRH762FH3QJ25IQM3VAXAKCHEXXW4/ISLWQPUZHZF33LRIOTBMFOJL57GBGQ4B/3ZLMEXZEQPLTEPMHTQDAUXP5ZZXCZAEN.woff2",
+      "range": "",
+      "file": "assets/fonts/general-sans-600-24.woff2"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/images/lCCvqFWuSTNvEaPtm5b7TsRiB4.webp?width=2048&height=2048",
+      "srcset": "https://framerusercontent.com/images/lCCvqFWuSTNvEaPtm5b7TsRiB4.webp?scale-down-to=512&width=2048&height=2048 512w,https://framerusercontent.com/images/lCCvqFWuSTNvEaPtm5b7TsRiB4.webp?scale-down-to=1024&width=2048&height=2048 1024w,https://framerusercontent.com/images/lCCvqFWuSTNvEaPtm5b7TsRiB4.webp?width=2048&height=2048 2048w",
+      "alt": null,
+      "width": "2048",
+      "height": "2048",
+      "path": [
+        "Hero",
+        "Hero - Dekstop",
+        "Container",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?width=2192&height=1234",
+      "srcset": "https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?scale-down-to=512&width=2192&height=1234 512w,https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?scale-down-to=1024&width=2192&height=1234 1024w,https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?scale-down-to=2048&width=2192&height=1234 2048w,https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?width=2192&height=1234 2192w",
+      "alt": null,
+      "width": "2192",
+      "height": "1234",
+      "path": [
+        "Hero",
+        "Hero - Dekstop",
+        "Container",
+        "Container",
+        "Left Side",
+        "Dekstop-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/lCCvqFWuSTNvEaPtm5b7TsRiB4.webp?width=2048&height=2048",
+      "srcset": "https://framerusercontent.com/images/lCCvqFWuSTNvEaPtm5b7TsRiB4.webp?scale-down-to=512&width=2048&height=2048 512w,https://framerusercontent.com/images/lCCvqFWuSTNvEaPtm5b7TsRiB4.webp?scale-down-to=1024&width=2048&height=2048 1024w,https://framerusercontent.com/images/lCCvqFWuSTNvEaPtm5b7TsRiB4.webp?width=2048&height=2048 2048w",
+      "alt": null,
+      "width": "2048",
+      "height": "2048",
+      "path": [
+        "Hero",
+        "Hero - Tablet",
+        "Container",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?width=2192&height=1234",
+      "srcset": "https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?scale-down-to=512&width=2192&height=1234 512w,https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?scale-down-to=1024&width=2192&height=1234 1024w,https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?scale-down-to=2048&width=2192&height=1234 2048w,https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?width=2192&height=1234 2192w",
+      "alt": null,
+      "width": "2192",
+      "height": "1234",
+      "path": [
+        "Hero",
+        "Hero - Tablet",
+        "Container",
+        "Container",
+        "Left Side",
+        "Tablet-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/lCCvqFWuSTNvEaPtm5b7TsRiB4.webp?width=2048&height=2048",
+      "srcset": "https://framerusercontent.com/images/lCCvqFWuSTNvEaPtm5b7TsRiB4.webp?scale-down-to=512&width=2048&height=2048 512w,https://framerusercontent.com/images/lCCvqFWuSTNvEaPtm5b7TsRiB4.webp?scale-down-to=1024&width=2048&height=2048 1024w,https://framerusercontent.com/images/lCCvqFWuSTNvEaPtm5b7TsRiB4.webp?width=2048&height=2048 2048w",
+      "alt": null,
+      "width": "2048",
+      "height": "2048",
+      "path": [
+        "Hero",
+        "Hero - Mobile",
+        "Container",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?width=2192&height=1234",
+      "srcset": "https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?scale-down-to=512&width=2192&height=1234 512w,https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?scale-down-to=1024&width=2192&height=1234 1024w,https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?scale-down-to=2048&width=2192&height=1234 2048w,https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?width=2192&height=1234 2192w",
+      "alt": null,
+      "width": "2192",
+      "height": "1234",
+      "path": [
+        "Hero",
+        "Hero - Mobile",
+        "Container",
+        "Container",
+        "Left Side",
+        "Mobile-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/lCCvqFWuSTNvEaPtm5b7TsRiB4.webp?width=2048&height=2048",
+      "srcset": "https://framerusercontent.com/images/lCCvqFWuSTNvEaPtm5b7TsRiB4.webp?scale-down-to=512&width=2048&height=2048 512w,https://framerusercontent.com/images/lCCvqFWuSTNvEaPtm5b7TsRiB4.webp?scale-down-to=1024&width=2048&height=2048 1024w,https://framerusercontent.com/images/lCCvqFWuSTNvEaPtm5b7TsRiB4.webp?width=2048&height=2048 2048w",
+      "alt": null,
+      "width": "2048",
+      "height": "2048",
+      "path": [
+        "Hero",
+        "Hero - Dekstop",
+        "Container",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?width=2192&height=1234",
+      "srcset": "https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?scale-down-to=512&width=2192&height=1234 512w,https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?scale-down-to=1024&width=2192&height=1234 1024w,https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?scale-down-to=2048&width=2192&height=1234 2048w,https://framerusercontent.com/images/Wz4mXNENDREJao0Tob34ltSduk.webp?width=2192&height=1234 2192w",
+      "alt": null,
+      "width": "2192",
+      "height": "1234",
+      "path": [
+        "Hero",
+        "Hero - Dekstop",
+        "Container",
+        "Container",
+        "Left Side",
+        "Dekstop-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tMyLhxuSj7QLvD3olfD9p4GiMw.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Partners",
+        "Variant 1",
+        "Logo 1",
+        "Variant 1",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rHt2h4zMmTSFtxCxwN8THlwgo.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Partners",
+        "Variant 1",
+        "Logo 2",
+        "Variant 2",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gFOIP1jDaTyI0SEhcoeX8mU2kM.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Partners",
+        "Variant 1",
+        "Logo 3",
+        "Variant 3",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4UXItMgJ9MeQZtl8WZxh3pfQ.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Partners",
+        "Variant 1",
+        "Logo 4",
+        "Variant 4",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dMSDvLW7GjNJO6XJqbgrPtXRbRc.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Partners",
+        "Variant 1",
+        "Logo 5",
+        "Variant 5",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IH2xSoQfJ8JrFtdf8Ek1SWWNTbg.webp?width=1068&height=876",
+      "srcset": "https://framerusercontent.com/images/IH2xSoQfJ8JrFtdf8Ek1SWWNTbg.webp?scale-down-to=512&width=1068&height=876 512w,https://framerusercontent.com/images/IH2xSoQfJ8JrFtdf8Ek1SWWNTbg.webp?scale-down-to=1024&width=1068&height=876 1024w,https://framerusercontent.com/images/IH2xSoQfJ8JrFtdf8Ek1SWWNTbg.webp?width=1068&height=876 1068w",
+      "alt": null,
+      "width": "1068",
+      "height": "876",
+      "path": [
+        "Heading+Cards",
+        "Featured",
+        "Desktop-ImageRight",
+        "Image",
+        "Background"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/WtbEOeoeYpfHVxj0xSk7iwF9kIc.png?width=996&height=816",
+      "srcset": "https://framerusercontent.com/images/WtbEOeoeYpfHVxj0xSk7iwF9kIc.png?scale-down-to=512&width=996&height=816 512w,https://framerusercontent.com/images/WtbEOeoeYpfHVxj0xSk7iwF9kIc.png?width=996&height=816 996w",
+      "alt": null,
+      "width": "996",
+      "height": "816",
+      "path": [
+        "Heading+Cards",
+        "Featured",
+        "Desktop-ImageRight",
+        "Image",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IH2xSoQfJ8JrFtdf8Ek1SWWNTbg.webp?width=1068&height=876",
+      "srcset": "https://framerusercontent.com/images/IH2xSoQfJ8JrFtdf8Ek1SWWNTbg.webp?scale-down-to=512&width=1068&height=876 512w,https://framerusercontent.com/images/IH2xSoQfJ8JrFtdf8Ek1SWWNTbg.webp?scale-down-to=1024&width=1068&height=876 1024w,https://framerusercontent.com/images/IH2xSoQfJ8JrFtdf8Ek1SWWNTbg.webp?width=1068&height=876 1068w",
+      "alt": null,
+      "width": "1068",
+      "height": "876",
+      "path": [
+        "Heading+Cards",
+        "Featured",
+        "Tablet-ImageLeft",
+        "Image",
+        "Background"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/WtbEOeoeYpfHVxj0xSk7iwF9kIc.png?width=996&height=816",
+      "srcset": "https://framerusercontent.com/images/WtbEOeoeYpfHVxj0xSk7iwF9kIc.png?scale-down-to=512&width=996&height=816 512w,https://framerusercontent.com/images/WtbEOeoeYpfHVxj0xSk7iwF9kIc.png?width=996&height=816 996w",
+      "alt": null,
+      "width": "996",
+      "height": "816",
+      "path": [
+        "Heading+Cards",
+        "Featured",
+        "Tablet-ImageLeft",
+        "Image",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IH2xSoQfJ8JrFtdf8Ek1SWWNTbg.webp?width=1068&height=876",
+      "srcset": "https://framerusercontent.com/images/IH2xSoQfJ8JrFtdf8Ek1SWWNTbg.webp?scale-down-to=512&width=1068&height=876 512w,https://framerusercontent.com/images/IH2xSoQfJ8JrFtdf8Ek1SWWNTbg.webp?scale-down-to=1024&width=1068&height=876 1024w,https://framerusercontent.com/images/IH2xSoQfJ8JrFtdf8Ek1SWWNTbg.webp?width=1068&height=876 1068w",
+      "alt": null,
+      "width": "1068",
+      "height": "876",
+      "path": [
+        "Heading+Cards",
+        "Featured",
+        "Mobile - 01",
+        "Image",
+        "Background"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/WtbEOeoeYpfHVxj0xSk7iwF9kIc.png?width=996&height=816",
+      "srcset": "https://framerusercontent.com/images/WtbEOeoeYpfHVxj0xSk7iwF9kIc.png?scale-down-to=512&width=996&height=816 512w,https://framerusercontent.com/images/WtbEOeoeYpfHVxj0xSk7iwF9kIc.png?width=996&height=816 996w",
+      "alt": null,
+      "width": "996",
+      "height": "816",
+      "path": [
+        "Heading+Cards",
+        "Featured",
+        "Mobile - 01",
+        "Image",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/YrgwXgLjF5lNYumjNjmnBZ5Pes.webp?width=1068&height=876",
+      "srcset": "https://framerusercontent.com/images/YrgwXgLjF5lNYumjNjmnBZ5Pes.webp?scale-down-to=512&width=1068&height=876 512w,https://framerusercontent.com/images/YrgwXgLjF5lNYumjNjmnBZ5Pes.webp?scale-down-to=1024&width=1068&height=876 1024w,https://framerusercontent.com/images/YrgwXgLjF5lNYumjNjmnBZ5Pes.webp?width=1068&height=876 1068w",
+      "alt": null,
+      "width": "1068",
+      "height": "876",
+      "path": [
+        "Heading+Cards",
+        "Featured",
+        "Desktop-ImageLeft",
+        "Image",
+        "Background"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BAYlqTvYSK6tTQyNLZ9pPjxtrCM.png?width=1080&height=1081",
+      "srcset": "https://framerusercontent.com/images/BAYlqTvYSK6tTQyNLZ9pPjxtrCM.png?scale-down-to=1024&width=1080&height=1081 1023w,https://framerusercontent.com/images/BAYlqTvYSK6tTQyNLZ9pPjxtrCM.png?width=1080&height=1081 1080w",
+      "alt": null,
+      "width": "1080",
+      "height": "1081",
+      "path": [
+        "Heading+Cards",
+        "Featured",
+        "Desktop-ImageLeft",
+        "Image",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/YrgwXgLjF5lNYumjNjmnBZ5Pes.webp?width=1068&height=876",
+      "srcset": "https://framerusercontent.com/images/YrgwXgLjF5lNYumjNjmnBZ5Pes.webp?scale-down-to=512&width=1068&height=876 512w,https://framerusercontent.com/images/YrgwXgLjF5lNYumjNjmnBZ5Pes.webp?scale-down-to=1024&width=1068&height=876 1024w,https://framerusercontent.com/images/YrgwXgLjF5lNYumjNjmnBZ5Pes.webp?width=1068&height=876 1068w",
+      "alt": null,
+      "width": "1068",
+      "height": "876",
+      "path": [
+        "Heading+Cards",
+        "Featured",
+        "Tablet-ImageRight",
+        "Image",
+        "Background"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BAYlqTvYSK6tTQyNLZ9pPjxtrCM.png?width=1080&height=1081",
+      "srcset": "https://framerusercontent.com/images/BAYlqTvYSK6tTQyNLZ9pPjxtrCM.png?scale-down-to=1024&width=1080&height=1081 1023w,https://framerusercontent.com/images/BAYlqTvYSK6tTQyNLZ9pPjxtrCM.png?width=1080&height=1081 1080w",
+      "alt": null,
+      "width": "1080",
+      "height": "1081",
+      "path": [
+        "Heading+Cards",
+        "Featured",
+        "Tablet-ImageRight",
+        "Image",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/YrgwXgLjF5lNYumjNjmnBZ5Pes.webp?width=1068&height=876",
+      "srcset": "https://framerusercontent.com/images/YrgwXgLjF5lNYumjNjmnBZ5Pes.webp?scale-down-to=512&width=1068&height=876 512w,https://framerusercontent.com/images/YrgwXgLjF5lNYumjNjmnBZ5Pes.webp?scale-down-to=1024&width=1068&height=876 1024w,https://framerusercontent.com/images/YrgwXgLjF5lNYumjNjmnBZ5Pes.webp?width=1068&height=876 1068w",
+      "alt": null,
+      "width": "1068",
+      "height": "876",
+      "path": [
+        "Heading+Cards",
+        "Featured",
+        "Mobile - 01",
+        "Image",
+        "Background"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BAYlqTvYSK6tTQyNLZ9pPjxtrCM.png?width=1080&height=1081",
+      "srcset": "https://framerusercontent.com/images/BAYlqTvYSK6tTQyNLZ9pPjxtrCM.png?scale-down-to=1024&width=1080&height=1081 1023w,https://framerusercontent.com/images/BAYlqTvYSK6tTQyNLZ9pPjxtrCM.png?width=1080&height=1081 1080w",
+      "alt": null,
+      "width": "1080",
+      "height": "1081",
+      "path": [
+        "Heading+Cards",
+        "Featured",
+        "Mobile - 01",
+        "Image",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IVIkDKSzR4ib4P9UnZm3HJJYh8.webp?width=1068&height=876",
+      "srcset": "https://framerusercontent.com/images/IVIkDKSzR4ib4P9UnZm3HJJYh8.webp?scale-down-to=512&width=1068&height=876 512w,https://framerusercontent.com/images/IVIkDKSzR4ib4P9UnZm3HJJYh8.webp?scale-down-to=1024&width=1068&height=876 1024w,https://framerusercontent.com/images/IVIkDKSzR4ib4P9UnZm3HJJYh8.webp?width=1068&height=876 1068w",
+      "alt": null,
+      "width": "1068",
+      "height": "876",
+      "path": [
+        "Heading+Cards",
+        "Featured",
+        "Desktop-ImageRight",
+        "Image",
+        "Background"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/oyx0vW5zsjho15K1mlDZza0I1eg.png?width=996&height=817",
+      "srcset": "https://framerusercontent.com/images/oyx0vW5zsjho15K1mlDZza0I1eg.png?scale-down-to=512&width=996&height=817 512w,https://framerusercontent.com/images/oyx0vW5zsjho15K1mlDZza0I1eg.png?width=996&height=817 996w",
+      "alt": null,
+      "width": "996",
+      "height": "817",
+      "path": [
+        "Heading+Cards",
+        "Featured",
+        "Desktop-ImageRight",
+        "Image",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IVIkDKSzR4ib4P9UnZm3HJJYh8.webp?width=1068&height=876",
+      "srcset": "https://framerusercontent.com/images/IVIkDKSzR4ib4P9UnZm3HJJYh8.webp?scale-down-to=512&width=1068&height=876 512w,https://framerusercontent.com/images/IVIkDKSzR4ib4P9UnZm3HJJYh8.webp?scale-down-to=1024&width=1068&height=876 1024w,https://framerusercontent.com/images/IVIkDKSzR4ib4P9UnZm3HJJYh8.webp?width=1068&height=876 1068w",
+      "alt": null,
+      "width": "1068",
+      "height": "876",
+      "path": [
+        "Heading+Cards",
+        "Featured",
+        "Tablet-ImageLeft",
+        "Image",
+        "Background"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/oyx0vW5zsjho15K1mlDZza0I1eg.png?width=996&height=817",
+      "srcset": "https://framerusercontent.com/images/oyx0vW5zsjho15K1mlDZza0I1eg.png?scale-down-to=512&width=996&height=817 512w,https://framerusercontent.com/images/oyx0vW5zsjho15K1mlDZza0I1eg.png?width=996&height=817 996w",
+      "alt": null,
+      "width": "996",
+      "height": "817",
+      "path": [
+        "Heading+Cards",
+        "Featured",
+        "Tablet-ImageLeft",
+        "Image",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IVIkDKSzR4ib4P9UnZm3HJJYh8.webp?width=1068&height=876",
+      "srcset": "https://framerusercontent.com/images/IVIkDKSzR4ib4P9UnZm3HJJYh8.webp?scale-down-to=512&width=1068&height=876 512w,https://framerusercontent.com/images/IVIkDKSzR4ib4P9UnZm3HJJYh8.webp?scale-down-to=1024&width=1068&height=876 1024w,https://framerusercontent.com/images/IVIkDKSzR4ib4P9UnZm3HJJYh8.webp?width=1068&height=876 1068w",
+      "alt": null,
+      "width": "1068",
+      "height": "876",
+      "path": [
+        "Heading+Cards",
+        "Featured",
+        "Mobile - 01",
+        "Image",
+        "Background"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/oyx0vW5zsjho15K1mlDZza0I1eg.png?width=996&height=817",
+      "srcset": "https://framerusercontent.com/images/oyx0vW5zsjho15K1mlDZza0I1eg.png?scale-down-to=512&width=996&height=817 512w,https://framerusercontent.com/images/oyx0vW5zsjho15K1mlDZza0I1eg.png?width=996&height=817 996w",
+      "alt": null,
+      "width": "996",
+      "height": "817",
+      "path": [
+        "Heading+Cards",
+        "Featured",
+        "Mobile - 01",
+        "Image",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DgyscpxJKJ6GwW0KHbEODZfVvPs.png?width=179&height=100",
+      "srcset": null,
+      "alt": null,
+      "width": "179",
+      "height": "100",
+      "path": [
+        "Heading+Cards",
+        "Desktop",
+        "AI",
+        "Clock-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/51ewWqQ68AqAibaLDV7c8TNQuU.png?width=90&height=59",
+      "srcset": null,
+      "alt": "man standing while hands in pocket",
+      "width": "90",
+      "height": "59",
+      "path": [
+        "Heading+Cards",
+        "Desktop",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mdelXTOK7hoYk3uhKQkSytCtSg.png?width=90&height=59",
+      "srcset": null,
+      "alt": "a woman with an afro is looking at the camera",
+      "width": "90",
+      "height": "59",
+      "path": [
+        "Heading+Cards",
+        "Desktop",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DgyscpxJKJ6GwW0KHbEODZfVvPs.png?width=179&height=100",
+      "srcset": null,
+      "alt": null,
+      "width": "179",
+      "height": "100",
+      "path": [
+        "Heading+Cards",
+        "Desktop",
+        "AI",
+        "Clock-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/51ewWqQ68AqAibaLDV7c8TNQuU.png?width=90&height=59",
+      "srcset": null,
+      "alt": "man standing while hands in pocket",
+      "width": "90",
+      "height": "59",
+      "path": [
+        "Heading+Cards",
+        "Desktop",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mdelXTOK7hoYk3uhKQkSytCtSg.png?width=90&height=59",
+      "srcset": null,
+      "alt": "a woman with an afro is looking at the camera",
+      "width": "90",
+      "height": "59",
+      "path": [
+        "Heading+Cards",
+        "Desktop",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DgyscpxJKJ6GwW0KHbEODZfVvPs.png?width=179&height=100",
+      "srcset": null,
+      "alt": null,
+      "width": "179",
+      "height": "100",
+      "path": [
+        "Heading+Cards",
+        "Mobile",
+        "AI",
+        "Clock-01"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/51ewWqQ68AqAibaLDV7c8TNQuU.png?width=90&height=59",
+      "srcset": null,
+      "alt": "man standing while hands in pocket",
+      "width": "90",
+      "height": "59",
+      "path": [
+        "Heading+Cards",
+        "Mobile",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mdelXTOK7hoYk3uhKQkSytCtSg.png?width=90&height=59",
+      "srcset": null,
+      "alt": "a woman with an afro is looking at the camera",
+      "width": "90",
+      "height": "59",
+      "path": [
+        "Heading+Cards",
+        "Mobile",
+        "Variant 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RCljMjOYYDBuF1vZuAxv3Rbn7A.webp?width=1792&height=2688",
+      "srcset": "https://framerusercontent.com/images/RCljMjOYYDBuF1vZuAxv3Rbn7A.webp?scale-down-to=1024&width=1792&height=2688 682w,https://framerusercontent.com/images/RCljMjOYYDBuF1vZuAxv3Rbn7A.webp?scale-down-to=2048&width=1792&height=2688 1365w,https://framerusercontent.com/images/RCljMjOYYDBuF1vZuAxv3Rbn7A.webp?width=1792&height=2688 1792w",
+      "alt": null,
+      "width": "1792",
+      "height": "2688",
+      "path": [
+        "Headign+Cards"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/QhrYQl22MGguG41V8SRq6LScQBQ.png?width=1140&height=480",
+      "srcset": "https://framerusercontent.com/images/QhrYQl22MGguG41V8SRq6LScQBQ.png?scale-down-to=512&width=1140&height=480 512w,https://framerusercontent.com/images/QhrYQl22MGguG41V8SRq6LScQBQ.png?scale-down-to=1024&width=1140&height=480 1024w,https://framerusercontent.com/images/QhrYQl22MGguG41V8SRq6LScQBQ.png?width=1140&height=480 1140w",
+      "alt": null,
+      "width": "1140",
+      "height": "480",
+      "path": [
+        "Headign+Cards",
+        "Card-Featured",
+        "Desktop",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/t3jlShfdQOrK95ZLwsVdURhdjDc.png?width=1140&height=480",
+      "srcset": "https://framerusercontent.com/images/t3jlShfdQOrK95ZLwsVdURhdjDc.png?scale-down-to=512&width=1140&height=480 512w,https://framerusercontent.com/images/t3jlShfdQOrK95ZLwsVdURhdjDc.png?scale-down-to=1024&width=1140&height=480 1024w,https://framerusercontent.com/images/t3jlShfdQOrK95ZLwsVdURhdjDc.png?width=1140&height=480 1140w",
+      "alt": null,
+      "width": "1140",
+      "height": "480",
+      "path": [
+        "Headign+Cards",
+        "Card-Featured",
+        "Desktop",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/nLvB7SeDY2dgCcwxLzV0HiYflY.png?width=1140&height=480",
+      "srcset": "https://framerusercontent.com/images/nLvB7SeDY2dgCcwxLzV0HiYflY.png?scale-down-to=512&width=1140&height=480 512w,https://framerusercontent.com/images/nLvB7SeDY2dgCcwxLzV0HiYflY.png?scale-down-to=1024&width=1140&height=480 1024w,https://framerusercontent.com/images/nLvB7SeDY2dgCcwxLzV0HiYflY.png?width=1140&height=480 1140w",
+      "alt": null,
+      "width": "1140",
+      "height": "480",
+      "path": [
+        "Headign+Cards",
+        "Card-Featured",
+        "Desktop",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ESOHMZ5QaWuSnsK6oDYTKHH7k.png?width=1140&height=480",
+      "srcset": "https://framerusercontent.com/images/ESOHMZ5QaWuSnsK6oDYTKHH7k.png?scale-down-to=512&width=1140&height=480 512w,https://framerusercontent.com/images/ESOHMZ5QaWuSnsK6oDYTKHH7k.png?scale-down-to=1024&width=1140&height=480 1024w,https://framerusercontent.com/images/ESOHMZ5QaWuSnsK6oDYTKHH7k.png?width=1140&height=480 1140w",
+      "alt": null,
+      "width": "1140",
+      "height": "480",
+      "path": [
+        "Headign+Cards",
+        "Card-Featured",
+        "Desktop",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RCljMjOYYDBuF1vZuAxv3Rbn7A.webp?width=1792&height=2688",
+      "srcset": "https://framerusercontent.com/images/RCljMjOYYDBuF1vZuAxv3Rbn7A.webp?scale-down-to=1024&width=1792&height=2688 682w,https://framerusercontent.com/images/RCljMjOYYDBuF1vZuAxv3Rbn7A.webp?scale-down-to=2048&width=1792&height=2688 1365w,https://framerusercontent.com/images/RCljMjOYYDBuF1vZuAxv3Rbn7A.webp?width=1792&height=2688 1792w",
+      "alt": null,
+      "width": "1792",
+      "height": "2688",
+      "path": [
+        "Headign+Cards"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/QhrYQl22MGguG41V8SRq6LScQBQ.png?width=1140&height=480",
+      "srcset": "https://framerusercontent.com/images/QhrYQl22MGguG41V8SRq6LScQBQ.png?scale-down-to=512&width=1140&height=480 512w,https://framerusercontent.com/images/QhrYQl22MGguG41V8SRq6LScQBQ.png?scale-down-to=1024&width=1140&height=480 1024w,https://framerusercontent.com/images/QhrYQl22MGguG41V8SRq6LScQBQ.png?width=1140&height=480 1140w",
+      "alt": null,
+      "width": "1140",
+      "height": "480",
+      "path": [
+        "Headign+Cards",
+        "Card-Featured",
+        "Tablet",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/t3jlShfdQOrK95ZLwsVdURhdjDc.png?width=1140&height=480",
+      "srcset": "https://framerusercontent.com/images/t3jlShfdQOrK95ZLwsVdURhdjDc.png?scale-down-to=512&width=1140&height=480 512w,https://framerusercontent.com/images/t3jlShfdQOrK95ZLwsVdURhdjDc.png?scale-down-to=1024&width=1140&height=480 1024w,https://framerusercontent.com/images/t3jlShfdQOrK95ZLwsVdURhdjDc.png?width=1140&height=480 1140w",
+      "alt": null,
+      "width": "1140",
+      "height": "480",
+      "path": [
+        "Headign+Cards",
+        "Card-Featured",
+        "Tablet",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/nLvB7SeDY2dgCcwxLzV0HiYflY.png?width=1140&height=480",
+      "srcset": "https://framerusercontent.com/images/nLvB7SeDY2dgCcwxLzV0HiYflY.png?scale-down-to=512&width=1140&height=480 512w,https://framerusercontent.com/images/nLvB7SeDY2dgCcwxLzV0HiYflY.png?scale-down-to=1024&width=1140&height=480 1024w,https://framerusercontent.com/images/nLvB7SeDY2dgCcwxLzV0HiYflY.png?width=1140&height=480 1140w",
+      "alt": null,
+      "width": "1140",
+      "height": "480",
+      "path": [
+        "Headign+Cards",
+        "Card-Featured",
+        "Tablet",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ESOHMZ5QaWuSnsK6oDYTKHH7k.png?width=1140&height=480",
+      "srcset": "https://framerusercontent.com/images/ESOHMZ5QaWuSnsK6oDYTKHH7k.png?scale-down-to=512&width=1140&height=480 512w,https://framerusercontent.com/images/ESOHMZ5QaWuSnsK6oDYTKHH7k.png?scale-down-to=1024&width=1140&height=480 1024w,https://framerusercontent.com/images/ESOHMZ5QaWuSnsK6oDYTKHH7k.png?width=1140&height=480 1140w",
+      "alt": null,
+      "width": "1140",
+      "height": "480",
+      "path": [
+        "Headign+Cards",
+        "Card-Featured",
+        "Tablet",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RCljMjOYYDBuF1vZuAxv3Rbn7A.webp?width=1792&height=2688",
+      "srcset": "https://framerusercontent.com/images/RCljMjOYYDBuF1vZuAxv3Rbn7A.webp?scale-down-to=1024&width=1792&height=2688 682w,https://framerusercontent.com/images/RCljMjOYYDBuF1vZuAxv3Rbn7A.webp?scale-down-to=2048&width=1792&height=2688 1365w,https://framerusercontent.com/images/RCljMjOYYDBuF1vZuAxv3Rbn7A.webp?width=1792&height=2688 1792w",
+      "alt": null,
+      "width": "1792",
+      "height": "2688",
+      "path": [
+        "Headign+Cards"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/QhrYQl22MGguG41V8SRq6LScQBQ.png?width=1140&height=480",
+      "srcset": "https://framerusercontent.com/images/QhrYQl22MGguG41V8SRq6LScQBQ.png?scale-down-to=512&width=1140&height=480 512w,https://framerusercontent.com/images/QhrYQl22MGguG41V8SRq6LScQBQ.png?scale-down-to=1024&width=1140&height=480 1024w,https://framerusercontent.com/images/QhrYQl22MGguG41V8SRq6LScQBQ.png?width=1140&height=480 1140w",
+      "alt": null,
+      "width": "1140",
+      "height": "480",
+      "path": [
+        "Headign+Cards",
+        "Card-Featured",
+        "Mobile",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/t3jlShfdQOrK95ZLwsVdURhdjDc.png?width=1140&height=480",
+      "srcset": "https://framerusercontent.com/images/t3jlShfdQOrK95ZLwsVdURhdjDc.png?scale-down-to=512&width=1140&height=480 512w,https://framerusercontent.com/images/t3jlShfdQOrK95ZLwsVdURhdjDc.png?scale-down-to=1024&width=1140&height=480 1024w,https://framerusercontent.com/images/t3jlShfdQOrK95ZLwsVdURhdjDc.png?width=1140&height=480 1140w",
+      "alt": null,
+      "width": "1140",
+      "height": "480",
+      "path": [
+        "Headign+Cards",
+        "Card-Featured",
+        "Mobile",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/nLvB7SeDY2dgCcwxLzV0HiYflY.png?width=1140&height=480",
+      "srcset": "https://framerusercontent.com/images/nLvB7SeDY2dgCcwxLzV0HiYflY.png?scale-down-to=512&width=1140&height=480 512w,https://framerusercontent.com/images/nLvB7SeDY2dgCcwxLzV0HiYflY.png?scale-down-to=1024&width=1140&height=480 1024w,https://framerusercontent.com/images/nLvB7SeDY2dgCcwxLzV0HiYflY.png?width=1140&height=480 1140w",
+      "alt": null,
+      "width": "1140",
+      "height": "480",
+      "path": [
+        "Headign+Cards",
+        "Card-Featured",
+        "Mobile",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ESOHMZ5QaWuSnsK6oDYTKHH7k.png?width=1140&height=480",
+      "srcset": "https://framerusercontent.com/images/ESOHMZ5QaWuSnsK6oDYTKHH7k.png?scale-down-to=512&width=1140&height=480 512w,https://framerusercontent.com/images/ESOHMZ5QaWuSnsK6oDYTKHH7k.png?scale-down-to=1024&width=1140&height=480 1024w,https://framerusercontent.com/images/ESOHMZ5QaWuSnsK6oDYTKHH7k.png?width=1140&height=480 1140w",
+      "alt": null,
+      "width": "1140",
+      "height": "480",
+      "path": [
+        "Headign+Cards",
+        "Card-Featured",
+        "Mobile",
+        "Background",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gFOIP1jDaTyI0SEhcoeX8mU2kM.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Quote",
+        "Desktop",
+        "3up",
+        "2up",
+        "Desktop-Stat",
+        "Title+CTA",
+        "Quote",
+        "Logo 1",
+        "Variant 8",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/p7KV0zK9GNc8zIp9SrZNCNAGYBQ.webp?width=1287&height=1931",
+      "srcset": "https://framerusercontent.com/images/p7KV0zK9GNc8zIp9SrZNCNAGYBQ.webp?scale-down-to=1024&width=1287&height=1931 682w,https://framerusercontent.com/images/p7KV0zK9GNc8zIp9SrZNCNAGYBQ.webp?width=1287&height=1931 1287w",
+      "alt": null,
+      "width": "1287",
+      "height": "1931",
+      "path": [
+        "Quote",
+        "Desktop",
+        "3up",
+        "2up",
+        "Desktop-Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4UXItMgJ9MeQZtl8WZxh3pfQ.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Quote",
+        "Desktop",
+        "3up",
+        "2up",
+        "Desktop-Image",
+        "Title+CTA",
+        "Quote",
+        "Logo 1",
+        "Variant 9",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dMSDvLW7GjNJO6XJqbgrPtXRbRc.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Quote",
+        "Desktop",
+        "3up",
+        "Desktop-Quote",
+        "Title+CTA",
+        "Quote",
+        "Logo 1",
+        "Variant 10",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?width=4160&height=6240",
+      "srcset": "https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?scale-down-to=1024&width=4160&height=6240 682w,https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?scale-down-to=2048&width=4160&height=6240 1365w,https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?scale-down-to=4096&width=4160&height=6240 2730w,https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?width=4160&height=6240 4160w",
+      "alt": "a person with a black jacket and glasses",
+      "width": "4160",
+      "height": "6240",
+      "path": [
+        "Quote",
+        "Desktop",
+        "3up",
+        "Desktop-Quote",
+        "Title+CTA",
+        "Avatar and Author",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dMSDvLW7GjNJO6XJqbgrPtXRbRc.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Quote",
+        "Desktop",
+        "3up",
+        "Desktop-Quote",
+        "Title+CTA",
+        "Quote",
+        "Logo 1",
+        "Variant 10",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?width=4160&height=6240",
+      "srcset": "https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?scale-down-to=1024&width=4160&height=6240 682w,https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?scale-down-to=2048&width=4160&height=6240 1365w,https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?scale-down-to=4096&width=4160&height=6240 2730w,https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?width=4160&height=6240 4160w",
+      "alt": "a person with a black jacket and glasses",
+      "width": "4160",
+      "height": "6240",
+      "path": [
+        "Quote",
+        "Desktop",
+        "3up",
+        "Desktop-Quote",
+        "Title+CTA",
+        "Avatar and Author",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:50.3% 13.5%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VqN9vomCaUm3msjQC52YbkCgQ.webp?width=1335&height=1780",
+      "srcset": "https://framerusercontent.com/images/VqN9vomCaUm3msjQC52YbkCgQ.webp?scale-down-to=1024&width=1335&height=1780 768w,https://framerusercontent.com/images/VqN9vomCaUm3msjQC52YbkCgQ.webp?width=1335&height=1780 1335w",
+      "alt": null,
+      "width": "1335",
+      "height": "1780",
+      "path": [
+        "Quote",
+        "Desktop",
+        "3up",
+        "2up",
+        "Desktop-Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tMyLhxuSj7QLvD3olfD9p4GiMw.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Quote",
+        "Desktop",
+        "3up",
+        "2up",
+        "Desktop-Image",
+        "Title+CTA",
+        "Quote",
+        "Logo 1",
+        "Variant 6",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gFOIP1jDaTyI0SEhcoeX8mU2kM.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Quote",
+        "Desktop",
+        "3up",
+        "2up",
+        "Desktop-Stat",
+        "Title+CTA",
+        "Quote",
+        "Logo 1",
+        "Variant 8",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gFOIP1jDaTyI0SEhcoeX8mU2kM.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Quote",
+        "Tablet",
+        "3up",
+        "2up",
+        "Desktop-Stat",
+        "Title+CTA",
+        "Quote",
+        "Logo 1",
+        "Variant 8",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/p7KV0zK9GNc8zIp9SrZNCNAGYBQ.webp?width=1287&height=1931",
+      "srcset": "https://framerusercontent.com/images/p7KV0zK9GNc8zIp9SrZNCNAGYBQ.webp?scale-down-to=1024&width=1287&height=1931 682w,https://framerusercontent.com/images/p7KV0zK9GNc8zIp9SrZNCNAGYBQ.webp?width=1287&height=1931 1287w",
+      "alt": null,
+      "width": "1287",
+      "height": "1931",
+      "path": [
+        "Quote",
+        "Tablet",
+        "3up",
+        "2up",
+        "Desktop-Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4UXItMgJ9MeQZtl8WZxh3pfQ.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Quote",
+        "Tablet",
+        "3up",
+        "2up",
+        "Desktop-Image",
+        "Title+CTA",
+        "Quote",
+        "Logo 1",
+        "Variant 9",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dMSDvLW7GjNJO6XJqbgrPtXRbRc.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Quote",
+        "Tablet",
+        "3up",
+        "Tablet-Quote",
+        "Title+CTA",
+        "Quote",
+        "Logo 1",
+        "Variant 10",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?width=4160&height=6240",
+      "srcset": "https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?scale-down-to=1024&width=4160&height=6240 682w,https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?scale-down-to=2048&width=4160&height=6240 1365w,https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?scale-down-to=4096&width=4160&height=6240 2730w,https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?width=4160&height=6240 4160w",
+      "alt": "a person with a black jacket and glasses",
+      "width": "4160",
+      "height": "6240",
+      "path": [
+        "Quote",
+        "Tablet",
+        "3up",
+        "Tablet-Quote",
+        "Title+CTA",
+        "Avatar and Author",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dMSDvLW7GjNJO6XJqbgrPtXRbRc.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Quote",
+        "Tablet",
+        "3up",
+        "Tablet-Quote",
+        "Title+CTA",
+        "Quote",
+        "Logo 1",
+        "Variant 10",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?width=4160&height=6240",
+      "srcset": "https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?scale-down-to=1024&width=4160&height=6240 682w,https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?scale-down-to=2048&width=4160&height=6240 1365w,https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?scale-down-to=4096&width=4160&height=6240 2730w,https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?width=4160&height=6240 4160w",
+      "alt": "a person with a black jacket and glasses",
+      "width": "4160",
+      "height": "6240",
+      "path": [
+        "Quote",
+        "Tablet",
+        "3up",
+        "Tablet-Quote",
+        "Title+CTA",
+        "Avatar and Author",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:50.3% 13.5%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VqN9vomCaUm3msjQC52YbkCgQ.webp?width=1335&height=1780",
+      "srcset": "https://framerusercontent.com/images/VqN9vomCaUm3msjQC52YbkCgQ.webp?scale-down-to=1024&width=1335&height=1780 768w,https://framerusercontent.com/images/VqN9vomCaUm3msjQC52YbkCgQ.webp?width=1335&height=1780 1335w",
+      "alt": null,
+      "width": "1335",
+      "height": "1780",
+      "path": [
+        "Quote",
+        "Tablet",
+        "3up",
+        "2up",
+        "Tablet-Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tMyLhxuSj7QLvD3olfD9p4GiMw.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Quote",
+        "Tablet",
+        "3up",
+        "2up",
+        "Tablet-Image",
+        "Title+CTA",
+        "Quote",
+        "Logo 1",
+        "Variant 6",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gFOIP1jDaTyI0SEhcoeX8mU2kM.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Quote",
+        "Tablet",
+        "3up",
+        "2up",
+        "Tablet-Stat",
+        "Title+CTA",
+        "Quote",
+        "Logo 1",
+        "Variant 8",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gFOIP1jDaTyI0SEhcoeX8mU2kM.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Quote",
+        "Mobile",
+        "3up",
+        "2up",
+        "Mobile-Stat",
+        "Title+CTA",
+        "Quote",
+        "Logo 1",
+        "Variant 8",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/p7KV0zK9GNc8zIp9SrZNCNAGYBQ.webp?width=1287&height=1931",
+      "srcset": "https://framerusercontent.com/images/p7KV0zK9GNc8zIp9SrZNCNAGYBQ.webp?scale-down-to=1024&width=1287&height=1931 682w,https://framerusercontent.com/images/p7KV0zK9GNc8zIp9SrZNCNAGYBQ.webp?width=1287&height=1931 1287w",
+      "alt": null,
+      "width": "1287",
+      "height": "1931",
+      "path": [
+        "Quote",
+        "Mobile",
+        "3up",
+        "2up",
+        "Mobile-Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4UXItMgJ9MeQZtl8WZxh3pfQ.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Quote",
+        "Mobile",
+        "3up",
+        "2up",
+        "Mobile-Image",
+        "Title+CTA",
+        "Quote",
+        "Logo 1",
+        "Variant 9",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dMSDvLW7GjNJO6XJqbgrPtXRbRc.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Quote",
+        "Mobile",
+        "3up",
+        "Mobile-Quote",
+        "Title+CTA",
+        "Quote",
+        "Logo 1",
+        "Variant 10",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?width=4160&height=6240",
+      "srcset": "https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?scale-down-to=1024&width=4160&height=6240 682w,https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?scale-down-to=2048&width=4160&height=6240 1365w,https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?scale-down-to=4096&width=4160&height=6240 2730w,https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?width=4160&height=6240 4160w",
+      "alt": "a person with a black jacket and glasses",
+      "width": "4160",
+      "height": "6240",
+      "path": [
+        "Quote",
+        "Mobile",
+        "3up",
+        "Mobile-Quote",
+        "Title+CTA",
+        "Avatar and Author",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/dMSDvLW7GjNJO6XJqbgrPtXRbRc.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Quote",
+        "Mobile",
+        "3up",
+        "Mobile-Quote",
+        "Title+CTA",
+        "Quote",
+        "Logo 1",
+        "Variant 10",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?width=4160&height=6240",
+      "srcset": "https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?scale-down-to=1024&width=4160&height=6240 682w,https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?scale-down-to=2048&width=4160&height=6240 1365w,https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?scale-down-to=4096&width=4160&height=6240 2730w,https://framerusercontent.com/images/Kkm8MGj7Pdp6Ih4LIGzG9KMlDg.jpg?width=4160&height=6240 4160w",
+      "alt": "a person with a black jacket and glasses",
+      "width": "4160",
+      "height": "6240",
+      "path": [
+        "Quote",
+        "Mobile",
+        "3up",
+        "Mobile-Quote",
+        "Title+CTA",
+        "Avatar and Author",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:50.3% 13.5%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VqN9vomCaUm3msjQC52YbkCgQ.webp?width=1335&height=1780",
+      "srcset": "https://framerusercontent.com/images/VqN9vomCaUm3msjQC52YbkCgQ.webp?scale-down-to=1024&width=1335&height=1780 768w,https://framerusercontent.com/images/VqN9vomCaUm3msjQC52YbkCgQ.webp?width=1335&height=1780 1335w",
+      "alt": null,
+      "width": "1335",
+      "height": "1780",
+      "path": [
+        "Quote",
+        "Mobile",
+        "3up",
+        "2up",
+        "Mobile-Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tMyLhxuSj7QLvD3olfD9p4GiMw.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Quote",
+        "Mobile",
+        "3up",
+        "2up",
+        "Mobile-Image",
+        "Title+CTA",
+        "Quote",
+        "Logo 1",
+        "Variant 6",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gFOIP1jDaTyI0SEhcoeX8mU2kM.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Quote",
+        "Mobile",
+        "3up",
+        "2up",
+        "Mobile-Stat",
+        "Title+CTA",
+        "Quote",
+        "Logo 1",
+        "Variant 8",
+        "Logo-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wEjnZCvghn4et60RRnnBi7Pec.png?width=360&height=360",
+      "srcset": null,
+      "alt": null,
+      "width": "360",
+      "height": "360",
+      "path": [
+        "Quote",
+        "Dekstop",
+        "Frame 2147205657"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wEjnZCvghn4et60RRnnBi7Pec.png?width=360&height=360",
+      "srcset": null,
+      "alt": null,
+      "width": "360",
+      "height": "360",
+      "path": [
+        "Quote",
+        "Tablet",
+        "Frame 2147205657"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wEjnZCvghn4et60RRnnBi7Pec.png?width=360&height=360",
+      "srcset": null,
+      "alt": null,
+      "width": "360",
+      "height": "360",
+      "path": [
+        "Quote",
+        "Dekstop",
+        "Frame 2147205657"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/wEjnZCvghn4et60RRnnBi7Pec.png?width=360&height=360",
+      "srcset": null,
+      "alt": null,
+      "width": "360",
+      "height": "360",
+      "path": [
+        "Quote",
+        "Mobile",
+        "Frame 2147205657"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aVzcQVhIjoBiBBbUHJtJGKD3og.webp?width=1630&height=1064",
+      "srcset": "https://framerusercontent.com/images/aVzcQVhIjoBiBBbUHJtJGKD3og.webp?scale-down-to=512&width=1630&height=1064 512w,https://framerusercontent.com/images/aVzcQVhIjoBiBBbUHJtJGKD3og.webp?scale-down-to=1024&width=1630&height=1064 1024w,https://framerusercontent.com/images/aVzcQVhIjoBiBBbUHJtJGKD3og.webp?width=1630&height=1064 1630w",
+      "alt": null,
+      "width": "1630",
+      "height": "1064",
+      "path": [
+        "Desktop-1",
+        "Small Desktop - 01",
+        "Container",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aVzcQVhIjoBiBBbUHJtJGKD3og.webp?width=1630&height=1064",
+      "srcset": "https://framerusercontent.com/images/aVzcQVhIjoBiBBbUHJtJGKD3og.webp?scale-down-to=512&width=1630&height=1064 512w,https://framerusercontent.com/images/aVzcQVhIjoBiBBbUHJtJGKD3og.webp?scale-down-to=1024&width=1630&height=1064 1024w,https://framerusercontent.com/images/aVzcQVhIjoBiBBbUHJtJGKD3og.webp?width=1630&height=1064 1630w",
+      "alt": null,
+      "width": "1630",
+      "height": "1064",
+      "path": [
+        "Tablet-1",
+        "Small Desktop - 01",
+        "Container",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aVzcQVhIjoBiBBbUHJtJGKD3og.webp?width=1630&height=1064",
+      "srcset": "https://framerusercontent.com/images/aVzcQVhIjoBiBBbUHJtJGKD3og.webp?scale-down-to=512&width=1630&height=1064 512w,https://framerusercontent.com/images/aVzcQVhIjoBiBBbUHJtJGKD3og.webp?scale-down-to=1024&width=1630&height=1064 1024w,https://framerusercontent.com/images/aVzcQVhIjoBiBBbUHJtJGKD3og.webp?width=1630&height=1064 1630w",
+      "alt": null,
+      "width": "1630",
+      "height": "1064",
+      "path": [
+        "Mobile-1",
+        "Small Desktop - 01",
+        "Container",
+        "UI"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?width=3072&height=1536",
+      "srcset": "https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?scale-down-to=512&width=3072&height=1536 512w,https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?scale-down-to=1024&width=3072&height=1536 1024w,https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?scale-down-to=2048&width=3072&height=1536 2048w,https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?width=3072&height=1536 3072w",
+      "alt": null,
+      "width": "3072",
+      "height": "1536",
+      "path": [
+        "Heading+News",
+        "Quote",
+        "Desktop-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tMyLhxuSj7QLvD3olfD9p4GiMw.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Heading+News",
+        "Quote",
+        "Desktop-1",
+        "Content",
+        "Content",
+        "Logo and Quote",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?width=3072&height=1536",
+      "srcset": "https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?scale-down-to=512&width=3072&height=1536 512w,https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?scale-down-to=1024&width=3072&height=1536 1024w,https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?scale-down-to=2048&width=3072&height=1536 2048w,https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?width=3072&height=1536 3072w",
+      "alt": null,
+      "width": "3072",
+      "height": "1536",
+      "path": [
+        "Heading+News",
+        "Quote",
+        "Tablet-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tMyLhxuSj7QLvD3olfD9p4GiMw.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Heading+News",
+        "Quote",
+        "Tablet-1",
+        "Content",
+        "Content",
+        "Logo and Quote",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?width=3072&height=1536",
+      "srcset": "https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?scale-down-to=512&width=3072&height=1536 512w,https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?scale-down-to=1024&width=3072&height=1536 1024w,https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?scale-down-to=2048&width=3072&height=1536 2048w,https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?width=3072&height=1536 3072w",
+      "alt": null,
+      "width": "3072",
+      "height": "1536",
+      "path": [
+        "Heading+News",
+        "Quote",
+        "Desktop-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tMyLhxuSj7QLvD3olfD9p4GiMw.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Heading+News",
+        "Quote",
+        "Desktop-1",
+        "Content",
+        "Content",
+        "Logo and Quote",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?width=3072&height=1536",
+      "srcset": "https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?scale-down-to=512&width=3072&height=1536 512w,https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?scale-down-to=1024&width=3072&height=1536 1024w,https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?scale-down-to=2048&width=3072&height=1536 2048w,https://framerusercontent.com/images/JAPXVMdymWjtKRZh1mdwe8WAo.webp?width=3072&height=1536 3072w",
+      "alt": null,
+      "width": "3072",
+      "height": "1536",
+      "path": [
+        "Heading+News",
+        "Quote",
+        "Mobile-1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/tMyLhxuSj7QLvD3olfD9p4GiMw.svg?width=242&height=76",
+      "srcset": null,
+      "alt": null,
+      "width": "242",
+      "height": "76",
+      "path": [
+        "Heading+News",
+        "Quote",
+        "Mobile-1",
+        "Content",
+        "Content",
+        "Logo and Quote",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?width=1024&height=768 1024w",
+      "alt": "Lilac Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "3up-Desktop",
+        "Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?width=1024&height=768 1024w",
+      "alt": "Lilac Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "3up-Desktop",
+        "Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?width=1024&height=768 1024w",
+      "alt": "Lilac Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "3up-Desktop",
+        "Content",
+        "Post",
+        "Preload"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?width=1024&height=768 1024w",
+      "alt": "Lilac Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "Mobile",
+        "Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?width=1024&height=768 1024w",
+      "alt": "Lilac Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "Mobile",
+        "Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?width=1024&height=768 1024w",
+      "alt": "Lilac Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "Mobile",
+        "Content",
+        "Post",
+        "Preload"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?width=1024&height=768 1024w",
+      "alt": "Purple Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "3up-Desktop",
+        "Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?width=1024&height=768 1024w",
+      "alt": "Purple Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "3up-Desktop",
+        "Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?width=1024&height=768 1024w",
+      "alt": "Purple Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "3up-Desktop",
+        "Content",
+        "Post",
+        "Preload"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?width=1024&height=768 1024w",
+      "alt": "Purple Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "Mobile",
+        "Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?width=1024&height=768 1024w",
+      "alt": "Purple Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "Mobile",
+        "Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?width=1024&height=768 1024w",
+      "alt": "Purple Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "Mobile",
+        "Content",
+        "Post",
+        "Preload"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Mt5VZsacYpGJzdjaNT2JWXmaWSM.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/Mt5VZsacYpGJzdjaNT2JWXmaWSM.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/Mt5VZsacYpGJzdjaNT2JWXmaWSM.png?width=1024&height=768 1024w",
+      "alt": "Orange Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "3up-Desktop",
+        "Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Mt5VZsacYpGJzdjaNT2JWXmaWSM.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/Mt5VZsacYpGJzdjaNT2JWXmaWSM.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/Mt5VZsacYpGJzdjaNT2JWXmaWSM.png?width=1024&height=768 1024w",
+      "alt": "Orange Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "3up-Desktop",
+        "Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Mt5VZsacYpGJzdjaNT2JWXmaWSM.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/Mt5VZsacYpGJzdjaNT2JWXmaWSM.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/Mt5VZsacYpGJzdjaNT2JWXmaWSM.png?width=1024&height=768 1024w",
+      "alt": "Orange Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "3up-Desktop",
+        "Content",
+        "Post",
+        "Preload"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Mt5VZsacYpGJzdjaNT2JWXmaWSM.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/Mt5VZsacYpGJzdjaNT2JWXmaWSM.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/Mt5VZsacYpGJzdjaNT2JWXmaWSM.png?width=1024&height=768 1024w",
+      "alt": "Orange Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "Mobile",
+        "Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Mt5VZsacYpGJzdjaNT2JWXmaWSM.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/Mt5VZsacYpGJzdjaNT2JWXmaWSM.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/Mt5VZsacYpGJzdjaNT2JWXmaWSM.png?width=1024&height=768 1024w",
+      "alt": "Orange Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "Mobile",
+        "Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Mt5VZsacYpGJzdjaNT2JWXmaWSM.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/Mt5VZsacYpGJzdjaNT2JWXmaWSM.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/Mt5VZsacYpGJzdjaNT2JWXmaWSM.png?width=1024&height=768 1024w",
+      "alt": "Orange Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "Mobile",
+        "Content",
+        "Post",
+        "Preload"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?width=1024&height=768 1024w",
+      "alt": "Lilac Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "Mobile",
+        "Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?width=1024&height=768 1024w",
+      "alt": "Lilac Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "Mobile",
+        "Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/hHPkieDPQZkhMPiGiX80Kxu6A.png?width=1024&height=768 1024w",
+      "alt": "Lilac Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "Mobile",
+        "Content",
+        "Post",
+        "Preload"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?width=1024&height=768 1024w",
+      "alt": "Purple Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "Mobile",
+        "Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?width=1024&height=768 1024w",
+      "alt": "Purple Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "Mobile",
+        "Content"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?width=1024&height=768",
+      "srcset": "https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?scale-down-to=512&width=1024&height=768 512w,https://framerusercontent.com/images/gyzjBCrCb7nUHfaCQ9wd779TyGI.png?width=1024&height=768 1024w",
+      "alt": "Purple Flower",
+      "width": "1024",
+      "height": "768",
+      "path": [
+        "Heading+News",
+        "Mobile",
+        "Content",
+        "Post",
+        "Preload"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?width=2257&height=1509",
+      "srcset": "https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?scale-down-to=512&width=2257&height=1509 512w,https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?scale-down-to=1024&width=2257&height=1509 1024w,https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?scale-down-to=2048&width=2257&height=1509 2048w,https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?width=2257&height=1509 2257w",
+      "alt": null,
+      "width": "2257",
+      "height": "1509",
+      "path": [
+        "Small-Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?width=2257&height=1509",
+      "srcset": "https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?scale-down-to=512&width=2257&height=1509 512w,https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?scale-down-to=1024&width=2257&height=1509 1024w,https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?scale-down-to=2048&width=2257&height=1509 2048w,https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?width=2257&height=1509 2257w",
+      "alt": null,
+      "width": "2257",
+      "height": "1509",
+      "path": [
+        "Mobile"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?width=2257&height=1509",
+      "srcset": "https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?scale-down-to=512&width=2257&height=1509 512w,https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?scale-down-to=1024&width=2257&height=1509 1024w,https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?scale-down-to=2048&width=2257&height=1509 2048w,https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?width=2257&height=1509 2257w",
+      "alt": null,
+      "width": "2257",
+      "height": "1509",
+      "path": [
+        "Tablet"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?width=2257&height=1509",
+      "srcset": "https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?scale-down-to=512&width=2257&height=1509 512w,https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?scale-down-to=1024&width=2257&height=1509 1024w,https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?scale-down-to=2048&width=2257&height=1509 2048w,https://framerusercontent.com/images/demeDpC3KtG7d6HMPYmz1pCUYgg.webp?width=2257&height=1509 2257w",
+      "alt": null,
+      "width": "2257",
+      "height": "1509",
+      "path": [
+        "Large-Desktop"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    }
+  ],
+  "videoReferences": [],
+  "linksDeclaredInSource": [
+    "https://framer.link/ruslan-siiz",
+    "https://movlo.framer.website/",
+    "https://movlo.framer.website/#faq",
+    "https://movlo.framer.website/#features",
+    "https://movlo.framer.website/#insights",
+    "https://movlo.framer.website/#price",
+    "https://movlo.framer.website/#product",
+    "https://movlo.framer.website/404",
+    "https://movlo.framer.website/blog",
+    "https://movlo.framer.website/blog/best-practices",
+    "https://movlo.framer.website/blog/importing-content",
+    "https://movlo.framer.website/blog/styling-elements",
+    "https://movlo.framer.website/privacy"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2Ff21019aa-5ce7-4eb7-a795-ddb2985bf783%2F01a04e90-1f8b-7276-97d3-9507ef0251f8.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2Ff21019aa-5ce7-4eb7-a795-ddb2985bf783%2F01a039cf-4215-74ae-8b0a-1defc3a8c936.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2Ff21019aa-5ce7-4eb7-a795-ddb2985bf783%2F01a039cf-5dd2-7628-9128-2c95653df2e8.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-04.jpg",
+      "sourceUrl": "https://image.mux.com/hJiK67ZSvxRb7JhWlbvIoa025T02usIZBUB101TXSpFUfo/thumbnail.webp?time=5.283"
+    },
+    {
+      "file": "screenshots/official-reference-05.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2Ff21019aa-5ce7-4eb7-a795-ddb2985bf783%2F01a0433c-9b18-74c4-90f6-c265489e6dcf.png&w=2048&q=80"
+    }
+  ]
+}

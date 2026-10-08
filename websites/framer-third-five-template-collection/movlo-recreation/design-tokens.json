@@ -1,0 +1,138 @@
+{
+  "name": "Movlo",
+  "source": "https://movlo.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#030404",
+    "paper": "#161819",
+    "ink": "#FFFFFF",
+    "accent": "#E3FF48",
+    "muted": "rgba(255,255,255,0.60)"
+  },
+  "type": {
+    "body": "General Sans",
+    "display": "General Sans",
+    "roles": [
+      {
+        "role": "Hero headline, desktop variant declaration",
+        "family": "General Sans",
+        "weight": 600,
+        "sizePx": 60,
+        "linePx": 60,
+        "tracking": "0em"
+      },
+      {
+        "role": "Section heading, 1200\u20131919px preset",
+        "family": "General Sans",
+        "weight": 600,
+        "sizePx": 48,
+        "linePx": 57.6,
+        "tracking": "0em"
+      },
+      {
+        "role": "Feature heading, 1200\u20131919px preset",
+        "family": "General Sans",
+        "weight": 600,
+        "sizePx": 30,
+        "linePx": 39,
+        "tracking": "0em"
+      },
+      {
+        "role": "Navigation",
+        "family": "General Sans",
+        "weight": 500,
+        "sizePx": 14,
+        "linePx": 19.6,
+        "tracking": "0.02em"
+      },
+      {
+        "role": "Primary CTA",
+        "family": "General Sans",
+        "weight": 500,
+        "sizePx": 16,
+        "linePx": 16,
+        "tracking": "0em"
+      },
+      {
+        "role": "Hero eyebrow",
+        "family": "General Sans",
+        "weight": 500,
+        "sizePx": 12,
+        "linePx": 18,
+        "tracking": "0.03em"
+      },
+      {
+        "role": "Partner caption / body preset",
+        "family": "General Sans",
+        "weight": 400,
+        "sizePx": 16,
+        "linePx": 25.6,
+        "tracking": "0.02em"
+      },
+      {
+        "role": "Feature description, desktop",
+        "family": "General Sans",
+        "weight": 400,
+        "sizePx": 14,
+        "linePx": 22.4,
+        "tracking": "0.02em"
+      },
+      {
+        "role": "Tablet testimonial quote declaration",
+        "family": "Inter",
+        "weight": 700,
+        "sizePx": 16,
+        "linePx": 22.4,
+        "tracking": "-0.04em"
+      },
+      {
+        "role": "Hero capability microcopy",
+        "family": "General Sans",
+        "weight": 500,
+        "sizePx": 11,
+        "linePx": 13.2,
+        "tracking": "0.05em"
+      }
+    ],
+    "rolesEvidence": "Declared CSS, not rendered measurements."
+  },
+  "spacing": {
+    "desktopGutterPx": 40,
+    "componentGapPx": 24,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 32,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1920,
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1920px)",
+      "@media(min-width: 1200px) and (max-width: 1919.98px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (max-width:809.98px)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (min-width:1920px)",
+      "@media (max-width:1919px) and (min-width:1200px)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation."
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes."
+}
