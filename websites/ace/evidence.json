@@ -1,0 +1,127 @@
+{
+  "source": "https://ace.framer.media/",
+  "observed": "2026-10-08",
+  "methods": [
+    "public web text retrieval",
+    "rendered DOM computed styles and geometry",
+    "desktop source screenshots",
+    "source public responsive CSS",
+    "clicked first FAQ and observed expansion"
+  ],
+  "viewport": {
+    "width": 1363,
+    "height": 936,
+    "initialDocumentWidth": 1348
+  },
+  "fullScreenshot": {
+    "path": "screenshots/00-full-page-desktop.jpg",
+    "width": 1348,
+    "height": 8953,
+    "note": "Captured while scrolled to features; fixed header appears at capture scroll position."
+  },
+  "sections": [
+    {
+      "bg": "rgba(0, 0, 0, 0)",
+      "height": 936,
+      "id": "hero",
+      "padding": "0px",
+      "top": 0,
+      "width": 1363
+    },
+    {
+      "bg": "rgb(5, 5, 5)",
+      "height": 910.015625,
+      "id": "benefits",
+      "padding": "150px 32px 100px",
+      "top": 936,
+      "width": 1363
+    },
+    {
+      "bg": "rgb(5, 5, 5)",
+      "height": 1726.015625,
+      "id": "how-it-works",
+      "padding": "150px 32px 100px",
+      "top": 1846.015625,
+      "width": 1363
+    },
+    {
+      "bg": "rgb(5, 5, 5)",
+      "height": 1318.015625,
+      "id": "features",
+      "padding": "150px 32px 100px",
+      "top": 3572.03125,
+      "width": 1363
+    },
+    {
+      "bg": "rgb(5, 5, 5)",
+      "height": 1118.015625,
+      "id": "reviews",
+      "padding": "150px 32px 100px",
+      "top": 4890.046875,
+      "width": 1363
+    },
+    {
+      "bg": "rgb(5, 5, 5)",
+      "height": 979.21875,
+      "id": "pricing",
+      "padding": "150px 32px 100px",
+      "top": 6008.0625,
+      "width": 1363
+    },
+    {
+      "bg": "rgb(5, 5, 5)",
+      "height": 1006.015625,
+      "id": "faq",
+      "padding": "150px 32px 100px",
+      "top": 6987.28125,
+      "width": 1363
+    },
+    {
+      "bg": "rgb(5, 5, 5)",
+      "height": 800,
+      "id": "cta",
+      "padding": "100px 32px",
+      "top": 7993.296875,
+      "width": 1363
+    }
+  ],
+  "stableMeasurements": {
+    "contentWidth": 1136,
+    "bodyFont": "Inter 500",
+    "headingFont": "Bespoke Serif 500",
+    "priceFont": "Besley 500",
+    "cardWidthAt1348": 373.328125,
+    "cardHeight": 400,
+    "cardRadius": 20,
+    "faqListWidth": 669
+  },
+  "sourceCTA": "https://framer.link/BiM9d9V",
+  "responsiveEvidence": "Public CSS: 810\u20131199.98px tablet, <=809.98px phone; no source small-screen render captured.",
+  "motionEvidence": "Smooth source anchor navigation; source FAQ expansion; visibly changing cyan tiles. Exact algorithm and timing not recovered.",
+  "implementationVerification": {
+    "domTests": 8,
+    "javascriptSyntax": "passed",
+    "browserQA": "not performed; managed workflow requires unavailable control-browser skill",
+    "cssParsing": "passed with css-tree",
+    "independentReview": "Keyboard menu focus issue reproduced and fixed; 8/8 DOM tests pass. No critical findings."
+  },
+  "githubWrite": {
+    "attempted": "create branch codex/ace-design-system from main",
+    "result": "403 Resource not accessible by integration",
+    "uploadedToGitHub": false
+  },
+  "substitutions": [
+    "original substitute marketing prose",
+    "explicit illustrative reviews and initial avatars",
+    "independently authored icons and CSS tile pulse",
+    "local CTA demo rather than source external destination",
+    "independent footer credit"
+  ],
+  "deployment": {
+    "status": "succeeded",
+    "url": "https://ace-design-brain.smartbuzz.chatgpt.site",
+    "audience": "private",
+    "projectId": "appgprj_6ac6ebe353048191bcc4b4d38ba5b79f",
+    "commitSha": "63252db9fd82529cd6f1aac98049da18652919b7"
+  }
+}

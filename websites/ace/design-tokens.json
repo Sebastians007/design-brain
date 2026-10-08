@@ -1,0 +1,132 @@
+{
+  "version": "1.0",
+  "source": "https://ace.framer.media/",
+  "observed": "2026-10-08",
+  "colors": {
+    "hero": "#000000",
+    "canvas": "#050505",
+    "panel": "#0F0F0F",
+    "raised": "#1F1F1F",
+    "text": "#FFFFFF",
+    "muted": "rgba(255,255,255,0.8)",
+    "accent": "#2BFFEA",
+    "tint": "rgba(43,255,234,0.05)"
+  },
+  "fonts": {
+    "display": {
+      "family": "Bespoke Serif",
+      "weight": 500,
+      "path": "recreation/assets/bespoke-serif-medium.woff2"
+    },
+    "body": {
+      "family": "Inter",
+      "weight": 500,
+      "path": "recreation/assets/inter-medium-latin.woff2"
+    },
+    "price": {
+      "family": "Besley",
+      "weight": 500,
+      "path": "recreation/assets/besley-medium-latin.woff2"
+    }
+  },
+  "type": {
+    "hero": {
+      "size": 48,
+      "lineHeight": 1.2
+    },
+    "section": {
+      "size": 36,
+      "lineHeight": 1.2
+    },
+    "cardTitle": {
+      "size": 22,
+      "lineHeight": 1.2
+    },
+    "faqQuestion": {
+      "size": 20,
+      "lineHeight": 1.2
+    },
+    "planTitle": {
+      "size": 18,
+      "lineHeight": 1.2
+    },
+    "body": {
+      "size": 16,
+      "lineHeight": 1.2
+    },
+    "cardBody": {
+      "size": 14,
+      "lineHeight": 1.2
+    },
+    "nav": {
+      "size": 14,
+      "lineHeight": 1.2
+    },
+    "badge": {
+      "size": 12,
+      "lineHeight": 1.2
+    },
+    "price": {
+      "size": 36,
+      "lineHeight": 1.2
+    }
+  },
+  "layout": {
+    "maxWidth": 1136,
+    "shellGutters": {
+      "desktop": 32,
+      "phone": 16
+    },
+    "sectionPadding": {
+      "top": 150,
+      "bottom": 100
+    },
+    "gridGap": 8,
+    "headerToContent": 64,
+    "titleWidth": 400,
+    "descriptionWidth": 450,
+    "heroTitleWidth": 600,
+    "faqWidth": 669,
+    "breakpoints": {
+      "desktopMin": 1200,
+      "tabletMin": 810,
+      "phoneMax": 809.98
+    }
+  },
+  "components": {
+    "cardRadius": 20,
+    "faqRadius": 12,
+    "pillRadius": 32,
+    "cardPadding": 24,
+    "benefitAndFeatureHeight": 400,
+    "reviewHeight": 300,
+    "workflowHeight": {
+      "desktop": 400,
+      "tablet": 320,
+      "phone": 500
+    },
+    "closedFaqHeight": 64,
+    "priceActionHeight": 72,
+    "ctaHeight": 800,
+    "iconBox": 56,
+    "icon": 30,
+    "avatar": 40
+  },
+  "texture": {
+    "asset": "recreation/assets/noise.png",
+    "tileSize": 153.5,
+    "opacity": 0.15
+  },
+  "recreationChoices": {
+    "phoneHeroFont": "clamp(30px,8.2vw,40px)",
+    "phoneSectionHeading": 32,
+    "hoverDurationMs": 200,
+    "tilePulseSeconds": 6,
+    "headerHeight": 71
+  },
+  "evidence": {
+    "typeAndPalette": "measured desktop",
+    "breakpoints": "source public CSS",
+    "phoneTypographyAndAnimationTiming": "independently chosen"
+  }
+}
