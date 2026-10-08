@@ -1,0 +1,2169 @@
+{
+  "template": "RAWLINE",
+  "preview": "https://rawline.framer.website/",
+  "marketplace": "https://www.framer.com/marketplace/templates/rawline/",
+  "creator": "Syed Tahoor Ali",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "viewport": null,
+  "pageHeight": null,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 4 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 4 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 3 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 4 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Source Serif 4",
+      "weight": "500",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/sourceserif4/v14/vEFH2_tTDB4M7-auWDN0ahZJW1ge6NmXpVAHV83Bfb_US0r6aX0.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/source-serif-4-500-0.woff2"
+    },
+    {
+      "family": "Source Serif 4",
+      "weight": "600",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/sourceserif4/v14/vEFH2_tTDB4M7-auWDN0ahZJW1ge6NmXpVAHV83Bfb_US0r6aX0.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/source-serif-4-600-1.woff2"
+    },
+    {
+      "family": "Source Serif 4",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/sourceserif4/v14/vEFH2_tTDB4M7-auWDN0ahZJW1ge6NmXpVAHV83Bfb_US0r6aX0.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/source-serif-4-700-2.woff2"
+    },
+    {
+      "family": "Source Serif 4",
+      "weight": "900",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/sourceserif4/v14/vEF02_tTDB4M7-auWDN0ahZJW1ge6NmXpVAHV83Bfb_US2D2QYxoUKIkn98p71htDMQC.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/source-serif-4-900-3.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-4.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/ia3uin3hQWqDrVloC1zEtYHWw.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-5.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/pKRFNWFoZl77qYCAIp84lN1h944.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-6.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/fuyXZpVvOjq8NesCOfgirHCWyg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-600-7.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-8.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/UjlFhCnUjxhNfep4oYBPqnEssyo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-500-9.woff2"
+    },
+    {
+      "family": "Azeret Mono",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/H2CH5X247WOB4WHOIRWQAUKL2TT7SHCU/S3EAO5FK5CWWN2B4UGQLSNLG4LKJ4PPJ/7GATDCIWKUNWWA7R3JOEWHUIADJRXY63.woff2",
+      "range": "",
+      "file": "assets/fonts/azeret-mono-500-10.woff2"
+    },
+    {
+      "family": "Azeret Mono",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/JFPZCQ2B4DQM5GL7FB7YRIP5WWA4C3CF/GBXLKDQWDWQPZ7L2ZLDDIPMUUQCWUEQP/WUFCQKTQOEPANKONNC254WJYN6XHXWAP.woff2",
+      "range": "",
+      "file": "assets/fonts/azeret-mono-700-11.woff2"
+    },
+    {
+      "family": "Azeret Mono",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/5AM7LFYTX3LDVBRVFX6QZ3TXZKGTYS5K/UJAE7UGJY3OTWV5RFK3LV6RXEY335NKE/JRA27FDEDPLFADPWJ6HKOHLCZN5ISYQT.woff2",
+      "range": "",
+      "file": "assets/fonts/azeret-mono-900-12.woff2"
+    },
+    {
+      "family": "Azeret Mono",
+      "weight": "900",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/4RRPJLAY6SJJ3EXZOXJ774RDQIUNAWLC/GOXA24HZII44DTEQDFIRDLFT7DWFCUN5/I3DVTNVW4ZTAVRAQDYFQG2NOWJRHR72B.woff2",
+      "range": "",
+      "file": "assets/fonts/azeret-mono-900-13.woff2"
+    },
+    {
+      "family": "Azeret Mono",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/RXAO7IES5PAFDEHFACPIYMVLF6XDNHL4/C33SPOOS3E22VWNTOHX3ZTNBWBB6NUVM/4UHO3DE5IWRRM5AC746VBGP46XXQJD4V.woff2",
+      "range": "",
+      "file": "assets/fonts/azeret-mono-700-14.woff2"
+    },
+    {
+      "family": "Azeret Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/ANLMHTNB6D2O5I43CFASACQGGIK5JLDZ/IGISU5CKQGLCD252CUY5AVZQ4UQRDFWC/BUAFC2XP3YCVWDC5LF3GWTKRIOZXURVB.woff2",
+      "range": "",
+      "file": "assets/fonts/azeret-mono-400-15.woff2"
+    },
+    {
+      "family": "Azeret Mono",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/UXBIWBBEKNDWXNSZ7I7YYLGJW6GQ4RCN/LJRYMQIEVM3N6ZLOIBAGSBXGHJJTH3HH/YT3TQS3PHNJRAJGWG4QM4QLRUSOMDE5G.woff2",
+      "range": "",
+      "file": "assets/fonts/azeret-mono-400-16.woff2"
+    },
+    {
+      "family": "Azeret Mono",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/ZMJRJMHGACTU442QLRNP2Q4ZFGXH56EH/BLQKF3E7IIRZMB4ZLSGS5KPTYCHBDWI6/YYXZTGXTXQKU5DX5FASXC7A7HN57JYNJ.woff2",
+      "range": "",
+      "file": "assets/fonts/azeret-mono-600-17.woff2"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/images/KxF8H6qGSaJvRZEhALbixoOrQg.jpg?width=1920&height=2400",
+      "srcset": "https://framerusercontent.com/images/KxF8H6qGSaJvRZEhALbixoOrQg.jpg?scale-down-to=1024&width=1920&height=2400 819w,https://framerusercontent.com/images/KxF8H6qGSaJvRZEhALbixoOrQg.jpg?scale-down-to=2048&width=1920&height=2400 1638w,https://framerusercontent.com/images/KxF8H6qGSaJvRZEhALbixoOrQg.jpg?width=1920&height=2400 1920w",
+      "alt": "Three stylishly dressed Black men posing together",
+      "width": "1920",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Hero",
+        "First Container",
+        "Hero Image",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2LEsj8dTfuADr3ESmjj0dA2TgA.webp?width=3000&height=2000",
+      "srcset": "https://framerusercontent.com/images/2LEsj8dTfuADr3ESmjj0dA2TgA.webp?scale-down-to=512&width=3000&height=2000 512w,https://framerusercontent.com/images/2LEsj8dTfuADr3ESmjj0dA2TgA.webp?scale-down-to=1024&width=3000&height=2000 1024w,https://framerusercontent.com/images/2LEsj8dTfuADr3ESmjj0dA2TgA.webp?scale-down-to=2048&width=3000&height=2000 2048w,https://framerusercontent.com/images/2LEsj8dTfuADr3ESmjj0dA2TgA.webp?width=3000&height=2000 3000w",
+      "alt": "Four friends in winter streetwear laughing in an underpass",
+      "width": "3000",
+      "height": "2000",
+      "path": [
+        "Main",
+        "About Us",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BJfrkmv0iyiZnReeFBXU944wCT0.webp?width=1920&height=2880",
+      "srcset": "https://framerusercontent.com/images/BJfrkmv0iyiZnReeFBXU944wCT0.webp?scale-down-to=1024&width=1920&height=2880 682w,https://framerusercontent.com/images/BJfrkmv0iyiZnReeFBXU944wCT0.webp?scale-down-to=2048&width=1920&height=2880 1365w,https://framerusercontent.com/images/BJfrkmv0iyiZnReeFBXU944wCT0.webp?width=1920&height=2880 1920w",
+      "alt": "A person sits on a red carpet, holding a record cover over their face in a room filled with vintage speakers.",
+      "width": "1920",
+      "height": "2880",
+      "path": [
+        "Main",
+        "Ongoing Drops",
+        "Container",
+        "Drops Container",
+        "Drop Rectangle",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BJfrkmv0iyiZnReeFBXU944wCT0.webp?width=1920&height=2880",
+      "srcset": "https://framerusercontent.com/images/BJfrkmv0iyiZnReeFBXU944wCT0.webp?scale-down-to=1024&width=1920&height=2880 682w,https://framerusercontent.com/images/BJfrkmv0iyiZnReeFBXU944wCT0.webp?scale-down-to=2048&width=1920&height=2880 1365w,https://framerusercontent.com/images/BJfrkmv0iyiZnReeFBXU944wCT0.webp?width=1920&height=2880 1920w",
+      "alt": "A person sits on a red carpet, holding a record cover over their face in a room filled with vintage speakers.",
+      "width": "1920",
+      "height": "2880",
+      "path": [
+        "Main",
+        "Ongoing Drops",
+        "Container",
+        "Drops Container",
+        "Drop Rectangle",
+        "Blurred",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BJfrkmv0iyiZnReeFBXU944wCT0.webp?width=1920&height=2880",
+      "srcset": "https://framerusercontent.com/images/BJfrkmv0iyiZnReeFBXU944wCT0.webp?scale-down-to=1024&width=1920&height=2880 682w,https://framerusercontent.com/images/BJfrkmv0iyiZnReeFBXU944wCT0.webp?scale-down-to=2048&width=1920&height=2880 1365w,https://framerusercontent.com/images/BJfrkmv0iyiZnReeFBXU944wCT0.webp?width=1920&height=2880 1920w",
+      "alt": "A person sits on a red carpet, holding a record cover over their face in a room filled with vintage speakers.",
+      "width": "1920",
+      "height": "2880",
+      "path": [
+        "Main",
+        "Ongoing Drops",
+        "Container",
+        "Drops Container",
+        "Mobile",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/klOLqeBgESjqUBiaPQqHCqBgSw.webp?width=1500&height=1000",
+      "srcset": "https://framerusercontent.com/images/klOLqeBgESjqUBiaPQqHCqBgSw.webp?scale-down-to=512&width=1500&height=1000 512w,https://framerusercontent.com/images/klOLqeBgESjqUBiaPQqHCqBgSw.webp?scale-down-to=1024&width=1500&height=1000 1024w,https://framerusercontent.com/images/klOLqeBgESjqUBiaPQqHCqBgSw.webp?width=1500&height=1000 1500w",
+      "alt": "A woman in a trench coat on a grassy hill at twilight",
+      "width": "1500",
+      "height": "1000",
+      "path": [
+        "Main",
+        "Ongoing Drops",
+        "Container",
+        "Drops Container",
+        "Drop Rectangle",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/klOLqeBgESjqUBiaPQqHCqBgSw.webp?width=1500&height=1000",
+      "srcset": "https://framerusercontent.com/images/klOLqeBgESjqUBiaPQqHCqBgSw.webp?scale-down-to=512&width=1500&height=1000 512w,https://framerusercontent.com/images/klOLqeBgESjqUBiaPQqHCqBgSw.webp?scale-down-to=1024&width=1500&height=1000 1024w,https://framerusercontent.com/images/klOLqeBgESjqUBiaPQqHCqBgSw.webp?width=1500&height=1000 1500w",
+      "alt": "A woman in a trench coat on a grassy hill at twilight",
+      "width": "1500",
+      "height": "1000",
+      "path": [
+        "Main",
+        "Ongoing Drops",
+        "Container",
+        "Drops Container",
+        "Drop Rectangle",
+        "Blurred",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/klOLqeBgESjqUBiaPQqHCqBgSw.webp?width=1500&height=1000",
+      "srcset": "https://framerusercontent.com/images/klOLqeBgESjqUBiaPQqHCqBgSw.webp?scale-down-to=512&width=1500&height=1000 512w,https://framerusercontent.com/images/klOLqeBgESjqUBiaPQqHCqBgSw.webp?scale-down-to=1024&width=1500&height=1000 1024w,https://framerusercontent.com/images/klOLqeBgESjqUBiaPQqHCqBgSw.webp?width=1500&height=1000 1500w",
+      "alt": "A woman in a trench coat on a grassy hill at twilight",
+      "width": "1500",
+      "height": "1000",
+      "path": [
+        "Main",
+        "Ongoing Drops",
+        "Container",
+        "Drops Container",
+        "Mobile",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/AjgCZ4E1sAjZEW1TZ6ZVu33NPkM.webp?width=1600&height=2000",
+      "srcset": "https://framerusercontent.com/images/AjgCZ4E1sAjZEW1TZ6ZVu33NPkM.webp?scale-down-to=1024&width=1600&height=2000 819w,https://framerusercontent.com/images/AjgCZ4E1sAjZEW1TZ6ZVu33NPkM.webp?width=1600&height=2000 1600w",
+      "alt": "A young man leaning on a stack of books in a library",
+      "width": "1600",
+      "height": "2000",
+      "path": [
+        "Main",
+        "Ongoing Drops",
+        "Container",
+        "Drops Container",
+        "Drop Rectangle",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/AjgCZ4E1sAjZEW1TZ6ZVu33NPkM.webp?width=1600&height=2000",
+      "srcset": "https://framerusercontent.com/images/AjgCZ4E1sAjZEW1TZ6ZVu33NPkM.webp?scale-down-to=1024&width=1600&height=2000 819w,https://framerusercontent.com/images/AjgCZ4E1sAjZEW1TZ6ZVu33NPkM.webp?width=1600&height=2000 1600w",
+      "alt": "A young man leaning on a stack of books in a library",
+      "width": "1600",
+      "height": "2000",
+      "path": [
+        "Main",
+        "Ongoing Drops",
+        "Container",
+        "Drops Container",
+        "Drop Rectangle",
+        "Blurred",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/AjgCZ4E1sAjZEW1TZ6ZVu33NPkM.webp?width=1600&height=2000",
+      "srcset": "https://framerusercontent.com/images/AjgCZ4E1sAjZEW1TZ6ZVu33NPkM.webp?scale-down-to=1024&width=1600&height=2000 819w,https://framerusercontent.com/images/AjgCZ4E1sAjZEW1TZ6ZVu33NPkM.webp?width=1600&height=2000 1600w",
+      "alt": "A young man leaning on a stack of books in a library",
+      "width": "1600",
+      "height": "2000",
+      "path": [
+        "Main",
+        "Ongoing Drops",
+        "Container",
+        "Drops Container",
+        "Mobile",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4vUs4HLPNlCncNlBLQAX4n9W9A.png?width=471&height=129",
+      "srcset": null,
+      "alt": null,
+      "width": "471",
+      "height": "129",
+      "path": [
+        "Main",
+        "Ongoing Drops",
+        "Container",
+        "Limited Stock"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4vUs4HLPNlCncNlBLQAX4n9W9A.png?width=471&height=129",
+      "srcset": null,
+      "alt": null,
+      "width": "471",
+      "height": "129",
+      "path": [
+        "Main",
+        "Ongoing Drops",
+        "Container",
+        "Limited Stock"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/3ZytNmcPnRvgkQrdPfnjNSmUHQ.png?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/3ZytNmcPnRvgkQrdPfnjNSmUHQ.png?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/3ZytNmcPnRvgkQrdPfnjNSmUHQ.png?width=1024&height=1024 1024w",
+      "alt": null,
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "On Sale",
+        "Container",
+        "Products Container",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/3ZytNmcPnRvgkQrdPfnjNSmUHQ.png?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/3ZytNmcPnRvgkQrdPfnjNSmUHQ.png?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/3ZytNmcPnRvgkQrdPfnjNSmUHQ.png?width=1024&height=1024 1024w",
+      "alt": null,
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "On Sale",
+        "Container",
+        "Products Container",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6MIsvegyvwYMBVhFkyNRH7g8Jc.png?width=842&height=842",
+      "srcset": "https://framerusercontent.com/images/6MIsvegyvwYMBVhFkyNRH7g8Jc.png?scale-down-to=512&width=842&height=842 512w,https://framerusercontent.com/images/6MIsvegyvwYMBVhFkyNRH7g8Jc.png?width=842&height=842 842w",
+      "alt": null,
+      "width": "842",
+      "height": "842",
+      "path": [
+        "Main",
+        "On Sale",
+        "Container",
+        "Products Container",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6MIsvegyvwYMBVhFkyNRH7g8Jc.png?width=842&height=842",
+      "srcset": "https://framerusercontent.com/images/6MIsvegyvwYMBVhFkyNRH7g8Jc.png?scale-down-to=512&width=842&height=842 512w,https://framerusercontent.com/images/6MIsvegyvwYMBVhFkyNRH7g8Jc.png?width=842&height=842 842w",
+      "alt": null,
+      "width": "842",
+      "height": "842",
+      "path": [
+        "Main",
+        "On Sale",
+        "Container",
+        "Products Container",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/0C5uT36qhCzbjJXYZ3G9oSfakE.png?width=796&height=796",
+      "srcset": "https://framerusercontent.com/images/0C5uT36qhCzbjJXYZ3G9oSfakE.png?scale-down-to=512&width=796&height=796 512w,https://framerusercontent.com/images/0C5uT36qhCzbjJXYZ3G9oSfakE.png?width=796&height=796 796w",
+      "alt": null,
+      "width": "796",
+      "height": "796",
+      "path": [
+        "Main",
+        "On Sale",
+        "Container",
+        "Products Container",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/0C5uT36qhCzbjJXYZ3G9oSfakE.png?width=796&height=796",
+      "srcset": "https://framerusercontent.com/images/0C5uT36qhCzbjJXYZ3G9oSfakE.png?scale-down-to=512&width=796&height=796 512w,https://framerusercontent.com/images/0C5uT36qhCzbjJXYZ3G9oSfakE.png?width=796&height=796 796w",
+      "alt": null,
+      "width": "796",
+      "height": "796",
+      "path": [
+        "Main",
+        "On Sale",
+        "Container",
+        "Products Container",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DOI2BlFnOLTaxn4GyYPQRPKIB0.png?width=910&height=910",
+      "srcset": "https://framerusercontent.com/images/DOI2BlFnOLTaxn4GyYPQRPKIB0.png?scale-down-to=512&width=910&height=910 512w,https://framerusercontent.com/images/DOI2BlFnOLTaxn4GyYPQRPKIB0.png?width=910&height=910 910w",
+      "alt": null,
+      "width": "910",
+      "height": "910",
+      "path": [
+        "Main",
+        "On Sale",
+        "Container",
+        "Products Container",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DOI2BlFnOLTaxn4GyYPQRPKIB0.png?width=910&height=910",
+      "srcset": "https://framerusercontent.com/images/DOI2BlFnOLTaxn4GyYPQRPKIB0.png?scale-down-to=512&width=910&height=910 512w,https://framerusercontent.com/images/DOI2BlFnOLTaxn4GyYPQRPKIB0.png?width=910&height=910 910w",
+      "alt": null,
+      "width": "910",
+      "height": "910",
+      "path": [
+        "Main",
+        "On Sale",
+        "Container",
+        "Products Container",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?width=766&height=766",
+      "srcset": "https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?scale-down-to=512&width=766&height=766 512w,https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?width=766&height=766 766w",
+      "alt": null,
+      "width": "766",
+      "height": "766",
+      "path": [
+        "Main",
+        "On Sale",
+        "Container",
+        "Products Container",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?width=766&height=766",
+      "srcset": "https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?scale-down-to=512&width=766&height=766 512w,https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?width=766&height=766 766w",
+      "alt": null,
+      "width": "766",
+      "height": "766",
+      "path": [
+        "Main",
+        "On Sale",
+        "Container",
+        "Products Container",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?width=982&height=982",
+      "srcset": "https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?scale-down-to=512&width=982&height=982 512w,https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?width=982&height=982 982w",
+      "alt": null,
+      "width": "982",
+      "height": "982",
+      "path": [
+        "Main",
+        "On Sale",
+        "Container",
+        "Products Container",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?width=982&height=982",
+      "srcset": "https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?scale-down-to=512&width=982&height=982 512w,https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?width=982&height=982 982w",
+      "alt": null,
+      "width": "982",
+      "height": "982",
+      "path": [
+        "Main",
+        "On Sale",
+        "Container",
+        "Products Container",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/yVj6gnd1cIKPOcghrNcFH00jBsI.png?width=818&height=818",
+      "srcset": "https://framerusercontent.com/images/yVj6gnd1cIKPOcghrNcFH00jBsI.png?scale-down-to=512&width=818&height=818 512w,https://framerusercontent.com/images/yVj6gnd1cIKPOcghrNcFH00jBsI.png?width=818&height=818 818w",
+      "alt": null,
+      "width": "818",
+      "height": "818",
+      "path": [
+        "Main",
+        "On Sale",
+        "Container",
+        "Products Container",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/yVj6gnd1cIKPOcghrNcFH00jBsI.png?width=818&height=818",
+      "srcset": "https://framerusercontent.com/images/yVj6gnd1cIKPOcghrNcFH00jBsI.png?scale-down-to=512&width=818&height=818 512w,https://framerusercontent.com/images/yVj6gnd1cIKPOcghrNcFH00jBsI.png?width=818&height=818 818w",
+      "alt": null,
+      "width": "818",
+      "height": "818",
+      "path": [
+        "Main",
+        "On Sale",
+        "Container",
+        "Products Container",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CgLTCwizOUrmynOaa9H1WKiL8c.png?width=910&height=910",
+      "srcset": "https://framerusercontent.com/images/CgLTCwizOUrmynOaa9H1WKiL8c.png?scale-down-to=512&width=910&height=910 512w,https://framerusercontent.com/images/CgLTCwizOUrmynOaa9H1WKiL8c.png?width=910&height=910 910w",
+      "alt": "crew-neck-1",
+      "width": "910",
+      "height": "910",
+      "path": [
+        "Main",
+        "On Sale",
+        "Container",
+        "Products Container",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CgLTCwizOUrmynOaa9H1WKiL8c.png?width=910&height=910",
+      "srcset": "https://framerusercontent.com/images/CgLTCwizOUrmynOaa9H1WKiL8c.png?scale-down-to=512&width=910&height=910 512w,https://framerusercontent.com/images/CgLTCwizOUrmynOaa9H1WKiL8c.png?width=910&height=910 910w",
+      "alt": "crew-neck-1",
+      "width": "910",
+      "height": "910",
+      "path": [
+        "Main",
+        "On Sale",
+        "Container",
+        "Products Container",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/v0XCMMD3lRM3TU0xC5O5upOnFM.jpeg?width=3000&height=4000",
+      "srcset": "https://framerusercontent.com/images/v0XCMMD3lRM3TU0xC5O5upOnFM.jpeg?scale-down-to=1024&width=3000&height=4000 768w,https://framerusercontent.com/images/v0XCMMD3lRM3TU0xC5O5upOnFM.jpeg?scale-down-to=2048&width=3000&height=4000 1536w,https://framerusercontent.com/images/v0XCMMD3lRM3TU0xC5O5upOnFM.jpeg?width=3000&height=4000 3000w",
+      "alt": "A pair of red sneakers hanging by their laces against a blue sky",
+      "width": "3000",
+      "height": "4000",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Drop Rectangle",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/v0XCMMD3lRM3TU0xC5O5upOnFM.jpeg?width=3000&height=4000",
+      "srcset": "https://framerusercontent.com/images/v0XCMMD3lRM3TU0xC5O5upOnFM.jpeg?scale-down-to=1024&width=3000&height=4000 768w,https://framerusercontent.com/images/v0XCMMD3lRM3TU0xC5O5upOnFM.jpeg?scale-down-to=2048&width=3000&height=4000 1536w,https://framerusercontent.com/images/v0XCMMD3lRM3TU0xC5O5upOnFM.jpeg?width=3000&height=4000 3000w",
+      "alt": "A pair of red sneakers hanging by their laces against a blue sky",
+      "width": "3000",
+      "height": "4000",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Drop Rectangle",
+        "Blurred",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/v0XCMMD3lRM3TU0xC5O5upOnFM.jpeg?width=3000&height=4000",
+      "srcset": "https://framerusercontent.com/images/v0XCMMD3lRM3TU0xC5O5upOnFM.jpeg?scale-down-to=1024&width=3000&height=4000 768w,https://framerusercontent.com/images/v0XCMMD3lRM3TU0xC5O5upOnFM.jpeg?scale-down-to=2048&width=3000&height=4000 1536w,https://framerusercontent.com/images/v0XCMMD3lRM3TU0xC5O5upOnFM.jpeg?width=3000&height=4000 3000w",
+      "alt": "A pair of red sneakers hanging by their laces against a blue sky",
+      "width": "3000",
+      "height": "4000",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Mobile",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SPZzAXp3MGGvfY6xYZzIzXbt9HI.jpeg?width=2000&height=3000",
+      "srcset": "https://framerusercontent.com/images/SPZzAXp3MGGvfY6xYZzIzXbt9HI.jpeg?scale-down-to=1024&width=2000&height=3000 682w,https://framerusercontent.com/images/SPZzAXp3MGGvfY6xYZzIzXbt9HI.jpeg?scale-down-to=2048&width=2000&height=3000 1365w,https://framerusercontent.com/images/SPZzAXp3MGGvfY6xYZzIzXbt9HI.jpeg?width=2000&height=3000 2000w",
+      "alt": "A woman in sunglasses and a graphic t-shirt poses for a flash photo",
+      "width": "2000",
+      "height": "3000",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Drop Rectangle",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:52.5% 86.2%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SPZzAXp3MGGvfY6xYZzIzXbt9HI.jpeg?width=2000&height=3000",
+      "srcset": "https://framerusercontent.com/images/SPZzAXp3MGGvfY6xYZzIzXbt9HI.jpeg?scale-down-to=1024&width=2000&height=3000 682w,https://framerusercontent.com/images/SPZzAXp3MGGvfY6xYZzIzXbt9HI.jpeg?scale-down-to=2048&width=2000&height=3000 1365w,https://framerusercontent.com/images/SPZzAXp3MGGvfY6xYZzIzXbt9HI.jpeg?width=2000&height=3000 2000w",
+      "alt": "A woman in sunglasses and a graphic t-shirt poses for a flash photo",
+      "width": "2000",
+      "height": "3000",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Drop Rectangle",
+        "Blurred",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:52.5% 86.2%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SPZzAXp3MGGvfY6xYZzIzXbt9HI.jpeg?width=2000&height=3000",
+      "srcset": "https://framerusercontent.com/images/SPZzAXp3MGGvfY6xYZzIzXbt9HI.jpeg?scale-down-to=1024&width=2000&height=3000 682w,https://framerusercontent.com/images/SPZzAXp3MGGvfY6xYZzIzXbt9HI.jpeg?scale-down-to=2048&width=2000&height=3000 1365w,https://framerusercontent.com/images/SPZzAXp3MGGvfY6xYZzIzXbt9HI.jpeg?width=2000&height=3000 2000w",
+      "alt": "A woman in sunglasses and a graphic t-shirt poses for a flash photo",
+      "width": "2000",
+      "height": "3000",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Mobile",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:52.5% 86.2%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/US3m591Ba1oBNTKd7x1ZpQRKnco.png?width=655&height=1200",
+      "srcset": "https://framerusercontent.com/images/US3m591Ba1oBNTKd7x1ZpQRKnco.png?scale-down-to=1024&width=655&height=1200 558w,https://framerusercontent.com/images/US3m591Ba1oBNTKd7x1ZpQRKnco.png?width=655&height=1200 655w",
+      "alt": "The back of a man wearing a dark green hoodie",
+      "width": "655",
+      "height": "1200",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Drop Rectangle",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/US3m591Ba1oBNTKd7x1ZpQRKnco.png?width=655&height=1200",
+      "srcset": "https://framerusercontent.com/images/US3m591Ba1oBNTKd7x1ZpQRKnco.png?scale-down-to=1024&width=655&height=1200 558w,https://framerusercontent.com/images/US3m591Ba1oBNTKd7x1ZpQRKnco.png?width=655&height=1200 655w",
+      "alt": "The back of a man wearing a dark green hoodie",
+      "width": "655",
+      "height": "1200",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Drop Rectangle",
+        "Blurred",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/US3m591Ba1oBNTKd7x1ZpQRKnco.png?width=655&height=1200",
+      "srcset": "https://framerusercontent.com/images/US3m591Ba1oBNTKd7x1ZpQRKnco.png?scale-down-to=1024&width=655&height=1200 558w,https://framerusercontent.com/images/US3m591Ba1oBNTKd7x1ZpQRKnco.png?width=655&height=1200 655w",
+      "alt": "The back of a man wearing a dark green hoodie",
+      "width": "655",
+      "height": "1200",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Mobile",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/sryKbTpcRyaW7v3XxPsUwHUFyVw.jpeg?width=4928&height=3280",
+      "srcset": "https://framerusercontent.com/images/sryKbTpcRyaW7v3XxPsUwHUFyVw.jpeg?scale-down-to=512&width=4928&height=3280 512w,https://framerusercontent.com/images/sryKbTpcRyaW7v3XxPsUwHUFyVw.jpeg?scale-down-to=1024&width=4928&height=3280 1024w,https://framerusercontent.com/images/sryKbTpcRyaW7v3XxPsUwHUFyVw.jpeg?scale-down-to=2048&width=4928&height=3280 2048w,https://framerusercontent.com/images/sryKbTpcRyaW7v3XxPsUwHUFyVw.jpeg?scale-down-to=4096&width=4928&height=3280 4096w,https://framerusercontent.com/images/sryKbTpcRyaW7v3XxPsUwHUFyVw.jpeg?width=4928&height=3280 4928w",
+      "alt": "A young woman in a bomber jacket poses outdoors",
+      "width": "4928",
+      "height": "3280",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Drop Rectangle",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:40.6% 88.9%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/sryKbTpcRyaW7v3XxPsUwHUFyVw.jpeg?width=4928&height=3280",
+      "srcset": "https://framerusercontent.com/images/sryKbTpcRyaW7v3XxPsUwHUFyVw.jpeg?scale-down-to=512&width=4928&height=3280 512w,https://framerusercontent.com/images/sryKbTpcRyaW7v3XxPsUwHUFyVw.jpeg?scale-down-to=1024&width=4928&height=3280 1024w,https://framerusercontent.com/images/sryKbTpcRyaW7v3XxPsUwHUFyVw.jpeg?scale-down-to=2048&width=4928&height=3280 2048w,https://framerusercontent.com/images/sryKbTpcRyaW7v3XxPsUwHUFyVw.jpeg?scale-down-to=4096&width=4928&height=3280 4096w,https://framerusercontent.com/images/sryKbTpcRyaW7v3XxPsUwHUFyVw.jpeg?width=4928&height=3280 4928w",
+      "alt": "A young woman in a bomber jacket poses outdoors",
+      "width": "4928",
+      "height": "3280",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Drop Rectangle",
+        "Blurred",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:40.6% 88.9%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/sryKbTpcRyaW7v3XxPsUwHUFyVw.jpeg?width=4928&height=3280",
+      "srcset": "https://framerusercontent.com/images/sryKbTpcRyaW7v3XxPsUwHUFyVw.jpeg?scale-down-to=512&width=4928&height=3280 512w,https://framerusercontent.com/images/sryKbTpcRyaW7v3XxPsUwHUFyVw.jpeg?scale-down-to=1024&width=4928&height=3280 1024w,https://framerusercontent.com/images/sryKbTpcRyaW7v3XxPsUwHUFyVw.jpeg?scale-down-to=2048&width=4928&height=3280 2048w,https://framerusercontent.com/images/sryKbTpcRyaW7v3XxPsUwHUFyVw.jpeg?scale-down-to=4096&width=4928&height=3280 4096w,https://framerusercontent.com/images/sryKbTpcRyaW7v3XxPsUwHUFyVw.jpeg?width=4928&height=3280 4928w",
+      "alt": "A young woman in a bomber jacket poses outdoors",
+      "width": "4928",
+      "height": "3280",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Mobile",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:40.6% 88.9%;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/LIiUpXMeQEBfuNgYYaeO1PyL5BA.jpg?width=800&height=1200",
+      "srcset": "https://framerusercontent.com/images/LIiUpXMeQEBfuNgYYaeO1PyL5BA.jpg?scale-down-to=1024&width=800&height=1200 682w,https://framerusercontent.com/images/LIiUpXMeQEBfuNgYYaeO1PyL5BA.jpg?width=800&height=1200 800w",
+      "alt": "A blue shirt hanging on a wall next to a folded wooden chair",
+      "width": "800",
+      "height": "1200",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Drop Rectangle",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/LIiUpXMeQEBfuNgYYaeO1PyL5BA.jpg?width=800&height=1200",
+      "srcset": "https://framerusercontent.com/images/LIiUpXMeQEBfuNgYYaeO1PyL5BA.jpg?scale-down-to=1024&width=800&height=1200 682w,https://framerusercontent.com/images/LIiUpXMeQEBfuNgYYaeO1PyL5BA.jpg?width=800&height=1200 800w",
+      "alt": "A blue shirt hanging on a wall next to a folded wooden chair",
+      "width": "800",
+      "height": "1200",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Drop Rectangle",
+        "Blurred",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/LIiUpXMeQEBfuNgYYaeO1PyL5BA.jpg?width=800&height=1200",
+      "srcset": "https://framerusercontent.com/images/LIiUpXMeQEBfuNgYYaeO1PyL5BA.jpg?scale-down-to=1024&width=800&height=1200 682w,https://framerusercontent.com/images/LIiUpXMeQEBfuNgYYaeO1PyL5BA.jpg?width=800&height=1200 800w",
+      "alt": "A blue shirt hanging on a wall next to a folded wooden chair",
+      "width": "800",
+      "height": "1200",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Mobile",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mqgBZP4952uBDqPQX6hHfyoX6fM.png?width=859&height=1200",
+      "srcset": "https://framerusercontent.com/images/mqgBZP4952uBDqPQX6hHfyoX6fM.png?scale-down-to=1024&width=859&height=1200 733w,https://framerusercontent.com/images/mqgBZP4952uBDqPQX6hHfyoX6fM.png?width=859&height=1200 859w",
+      "alt": "A person wearing red socks with black loafers and cropped jeans",
+      "width": "859",
+      "height": "1200",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Drop Rectangle",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mqgBZP4952uBDqPQX6hHfyoX6fM.png?width=859&height=1200",
+      "srcset": "https://framerusercontent.com/images/mqgBZP4952uBDqPQX6hHfyoX6fM.png?scale-down-to=1024&width=859&height=1200 733w,https://framerusercontent.com/images/mqgBZP4952uBDqPQX6hHfyoX6fM.png?width=859&height=1200 859w",
+      "alt": "A person wearing red socks with black loafers and cropped jeans",
+      "width": "859",
+      "height": "1200",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Drop Rectangle",
+        "Blurred",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mqgBZP4952uBDqPQX6hHfyoX6fM.png?width=859&height=1200",
+      "srcset": "https://framerusercontent.com/images/mqgBZP4952uBDqPQX6hHfyoX6fM.png?scale-down-to=1024&width=859&height=1200 733w,https://framerusercontent.com/images/mqgBZP4952uBDqPQX6hHfyoX6fM.png?width=859&height=1200 859w",
+      "alt": "A person wearing red socks with black loafers and cropped jeans",
+      "width": "859",
+      "height": "1200",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Mobile",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CiHimviYwfud7xwSwJVc0ykQGQ.png?width=960&height=1200",
+      "srcset": "https://framerusercontent.com/images/CiHimviYwfud7xwSwJVc0ykQGQ.png?scale-down-to=1024&width=960&height=1200 819w,https://framerusercontent.com/images/CiHimviYwfud7xwSwJVc0ykQGQ.png?width=960&height=1200 960w",
+      "alt": "Nine colorful handbags displayed on illuminated shelves",
+      "width": "960",
+      "height": "1200",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Drop Rectangle",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CiHimviYwfud7xwSwJVc0ykQGQ.png?width=960&height=1200",
+      "srcset": "https://framerusercontent.com/images/CiHimviYwfud7xwSwJVc0ykQGQ.png?scale-down-to=1024&width=960&height=1200 819w,https://framerusercontent.com/images/CiHimviYwfud7xwSwJVc0ykQGQ.png?width=960&height=1200 960w",
+      "alt": "Nine colorful handbags displayed on illuminated shelves",
+      "width": "960",
+      "height": "1200",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Drop Rectangle",
+        "Blurred",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CiHimviYwfud7xwSwJVc0ykQGQ.png?width=960&height=1200",
+      "srcset": "https://framerusercontent.com/images/CiHimviYwfud7xwSwJVc0ykQGQ.png?scale-down-to=1024&width=960&height=1200 819w,https://framerusercontent.com/images/CiHimviYwfud7xwSwJVc0ykQGQ.png?width=960&height=1200 960w",
+      "alt": "Nine colorful handbags displayed on illuminated shelves",
+      "width": "960",
+      "height": "1200",
+      "path": [
+        "Main",
+        "Categories",
+        "Container",
+        "Categories Container",
+        "Mobile",
+        "Normal image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/3ZytNmcPnRvgkQrdPfnjNSmUHQ.png?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/3ZytNmcPnRvgkQrdPfnjNSmUHQ.png?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/3ZytNmcPnRvgkQrdPfnjNSmUHQ.png?width=1024&height=1024 1024w",
+      "alt": null,
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Holy Grails",
+        "Container",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/3ZytNmcPnRvgkQrdPfnjNSmUHQ.png?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/3ZytNmcPnRvgkQrdPfnjNSmUHQ.png?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/3ZytNmcPnRvgkQrdPfnjNSmUHQ.png?width=1024&height=1024 1024w",
+      "alt": null,
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Holy Grails",
+        "Container",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Y4WdVAdjEYoqP3hfDIDIZcs5nQ.png?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/Y4WdVAdjEYoqP3hfDIDIZcs5nQ.png?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/Y4WdVAdjEYoqP3hfDIDIZcs5nQ.png?width=1024&height=1024 1024w",
+      "alt": null,
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Holy Grails",
+        "Container",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Y4WdVAdjEYoqP3hfDIDIZcs5nQ.png?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/Y4WdVAdjEYoqP3hfDIDIZcs5nQ.png?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/Y4WdVAdjEYoqP3hfDIDIZcs5nQ.png?width=1024&height=1024 1024w",
+      "alt": null,
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "Holy Grails",
+        "Container",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DOI2BlFnOLTaxn4GyYPQRPKIB0.png?width=910&height=910",
+      "srcset": "https://framerusercontent.com/images/DOI2BlFnOLTaxn4GyYPQRPKIB0.png?scale-down-to=512&width=910&height=910 512w,https://framerusercontent.com/images/DOI2BlFnOLTaxn4GyYPQRPKIB0.png?width=910&height=910 910w",
+      "alt": null,
+      "width": "910",
+      "height": "910",
+      "path": [
+        "Main",
+        "Holy Grails",
+        "Container",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DOI2BlFnOLTaxn4GyYPQRPKIB0.png?width=910&height=910",
+      "srcset": "https://framerusercontent.com/images/DOI2BlFnOLTaxn4GyYPQRPKIB0.png?scale-down-to=512&width=910&height=910 512w,https://framerusercontent.com/images/DOI2BlFnOLTaxn4GyYPQRPKIB0.png?width=910&height=910 910w",
+      "alt": null,
+      "width": "910",
+      "height": "910",
+      "path": [
+        "Main",
+        "Holy Grails",
+        "Container",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JSSRUPNQJ8ReBMPpOfswqFx54.png?width=938&height=938",
+      "srcset": "https://framerusercontent.com/images/JSSRUPNQJ8ReBMPpOfswqFx54.png?scale-down-to=512&width=938&height=938 512w,https://framerusercontent.com/images/JSSRUPNQJ8ReBMPpOfswqFx54.png?width=938&height=938 938w",
+      "alt": null,
+      "width": "938",
+      "height": "938",
+      "path": [
+        "Main",
+        "Holy Grails",
+        "Container",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/JSSRUPNQJ8ReBMPpOfswqFx54.png?width=938&height=938",
+      "srcset": "https://framerusercontent.com/images/JSSRUPNQJ8ReBMPpOfswqFx54.png?scale-down-to=512&width=938&height=938 512w,https://framerusercontent.com/images/JSSRUPNQJ8ReBMPpOfswqFx54.png?width=938&height=938 938w",
+      "alt": null,
+      "width": "938",
+      "height": "938",
+      "path": [
+        "Main",
+        "Holy Grails",
+        "Container",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?width=766&height=766",
+      "srcset": "https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?scale-down-to=512&width=766&height=766 512w,https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?width=766&height=766 766w",
+      "alt": null,
+      "width": "766",
+      "height": "766",
+      "path": [
+        "Main",
+        "Holy Grails",
+        "Container",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?width=766&height=766",
+      "srcset": "https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?scale-down-to=512&width=766&height=766 512w,https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?width=766&height=766 766w",
+      "alt": null,
+      "width": "766",
+      "height": "766",
+      "path": [
+        "Main",
+        "Holy Grails",
+        "Container",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?width=982&height=982",
+      "srcset": "https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?scale-down-to=512&width=982&height=982 512w,https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?width=982&height=982 982w",
+      "alt": null,
+      "width": "982",
+      "height": "982",
+      "path": [
+        "Main",
+        "Holy Grails",
+        "Container",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?width=982&height=982",
+      "srcset": "https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?scale-down-to=512&width=982&height=982 512w,https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?width=982&height=982 982w",
+      "alt": null,
+      "width": "982",
+      "height": "982",
+      "path": [
+        "Main",
+        "Holy Grails",
+        "Container",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/M1vOWPrCcf5XAWjRTtfzuAOTUI.png?width=864&height=1184",
+      "srcset": "https://framerusercontent.com/images/M1vOWPrCcf5XAWjRTtfzuAOTUI.png?scale-down-to=1024&width=864&height=1184 747w,https://framerusercontent.com/images/M1vOWPrCcf5XAWjRTtfzuAOTUI.png?width=864&height=1184 864w",
+      "alt": null,
+      "width": "864",
+      "height": "1184",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/pKv4Us5BSBO8V6XiEQBTiVJpkM.png?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/pKv4Us5BSBO8V6XiEQBTiVJpkM.png?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/pKv4Us5BSBO8V6XiEQBTiVJpkM.png?width=1024&height=1024 1024w",
+      "alt": null,
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/0C5uT36qhCzbjJXYZ3G9oSfakE.png?width=796&height=796",
+      "srcset": "https://framerusercontent.com/images/0C5uT36qhCzbjJXYZ3G9oSfakE.png?scale-down-to=512&width=796&height=796 512w,https://framerusercontent.com/images/0C5uT36qhCzbjJXYZ3G9oSfakE.png?width=796&height=796 796w",
+      "alt": null,
+      "width": "796",
+      "height": "796",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/xfFD4pERuE1cg3KquRgBe2aOwd8.png?width=830&height=830",
+      "srcset": "https://framerusercontent.com/images/xfFD4pERuE1cg3KquRgBe2aOwd8.png?scale-down-to=512&width=830&height=830 512w,https://framerusercontent.com/images/xfFD4pERuE1cg3KquRgBe2aOwd8.png?width=830&height=830 830w",
+      "alt": null,
+      "width": "830",
+      "height": "830",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?width=766&height=766",
+      "srcset": "https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?scale-down-to=512&width=766&height=766 512w,https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?width=766&height=766 766w",
+      "alt": null,
+      "width": "766",
+      "height": "766",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?width=982&height=982",
+      "srcset": "https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?scale-down-to=512&width=982&height=982 512w,https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?width=982&height=982 982w",
+      "alt": null,
+      "width": "982",
+      "height": "982",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/yVj6gnd1cIKPOcghrNcFH00jBsI.png?width=818&height=818",
+      "srcset": "https://framerusercontent.com/images/yVj6gnd1cIKPOcghrNcFH00jBsI.png?scale-down-to=512&width=818&height=818 512w,https://framerusercontent.com/images/yVj6gnd1cIKPOcghrNcFH00jBsI.png?width=818&height=818 818w",
+      "alt": null,
+      "width": "818",
+      "height": "818",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NX9Oa3DRz7bWxUYQD9liZexf3MQ.png?width=884&height=884",
+      "srcset": "https://framerusercontent.com/images/NX9Oa3DRz7bWxUYQD9liZexf3MQ.png?scale-down-to=512&width=884&height=884 512w,https://framerusercontent.com/images/NX9Oa3DRz7bWxUYQD9liZexf3MQ.png?width=884&height=884 884w",
+      "alt": null,
+      "width": "884",
+      "height": "884",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/M1vOWPrCcf5XAWjRTtfzuAOTUI.png?width=864&height=1184",
+      "srcset": "https://framerusercontent.com/images/M1vOWPrCcf5XAWjRTtfzuAOTUI.png?scale-down-to=1024&width=864&height=1184 747w,https://framerusercontent.com/images/M1vOWPrCcf5XAWjRTtfzuAOTUI.png?width=864&height=1184 864w",
+      "alt": null,
+      "width": "864",
+      "height": "1184",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/pKv4Us5BSBO8V6XiEQBTiVJpkM.png?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/pKv4Us5BSBO8V6XiEQBTiVJpkM.png?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/pKv4Us5BSBO8V6XiEQBTiVJpkM.png?width=1024&height=1024 1024w",
+      "alt": null,
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/0C5uT36qhCzbjJXYZ3G9oSfakE.png?width=796&height=796",
+      "srcset": "https://framerusercontent.com/images/0C5uT36qhCzbjJXYZ3G9oSfakE.png?scale-down-to=512&width=796&height=796 512w,https://framerusercontent.com/images/0C5uT36qhCzbjJXYZ3G9oSfakE.png?width=796&height=796 796w",
+      "alt": null,
+      "width": "796",
+      "height": "796",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/xfFD4pERuE1cg3KquRgBe2aOwd8.png?width=830&height=830",
+      "srcset": "https://framerusercontent.com/images/xfFD4pERuE1cg3KquRgBe2aOwd8.png?scale-down-to=512&width=830&height=830 512w,https://framerusercontent.com/images/xfFD4pERuE1cg3KquRgBe2aOwd8.png?width=830&height=830 830w",
+      "alt": null,
+      "width": "830",
+      "height": "830",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?width=766&height=766",
+      "srcset": "https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?scale-down-to=512&width=766&height=766 512w,https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?width=766&height=766 766w",
+      "alt": null,
+      "width": "766",
+      "height": "766",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?width=982&height=982",
+      "srcset": "https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?scale-down-to=512&width=982&height=982 512w,https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?width=982&height=982 982w",
+      "alt": null,
+      "width": "982",
+      "height": "982",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/yVj6gnd1cIKPOcghrNcFH00jBsI.png?width=818&height=818",
+      "srcset": "https://framerusercontent.com/images/yVj6gnd1cIKPOcghrNcFH00jBsI.png?scale-down-to=512&width=818&height=818 512w,https://framerusercontent.com/images/yVj6gnd1cIKPOcghrNcFH00jBsI.png?width=818&height=818 818w",
+      "alt": null,
+      "width": "818",
+      "height": "818",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NX9Oa3DRz7bWxUYQD9liZexf3MQ.png?width=884&height=884",
+      "srcset": "https://framerusercontent.com/images/NX9Oa3DRz7bWxUYQD9liZexf3MQ.png?scale-down-to=512&width=884&height=884 512w,https://framerusercontent.com/images/NX9Oa3DRz7bWxUYQD9liZexf3MQ.png?width=884&height=884 884w",
+      "alt": null,
+      "width": "884",
+      "height": "884",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog",
+        "Main",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/M1vOWPrCcf5XAWjRTtfzuAOTUI.png?width=864&height=1184",
+      "srcset": "https://framerusercontent.com/images/M1vOWPrCcf5XAWjRTtfzuAOTUI.png?scale-down-to=1024&width=864&height=1184 747w,https://framerusercontent.com/images/M1vOWPrCcf5XAWjRTtfzuAOTUI.png?width=864&height=1184 864w",
+      "alt": null,
+      "width": "864",
+      "height": "1184",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog Mobile",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/pKv4Us5BSBO8V6XiEQBTiVJpkM.png?width=1024&height=1024",
+      "srcset": "https://framerusercontent.com/images/pKv4Us5BSBO8V6XiEQBTiVJpkM.png?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/pKv4Us5BSBO8V6XiEQBTiVJpkM.png?width=1024&height=1024 1024w",
+      "alt": null,
+      "width": "1024",
+      "height": "1024",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog Mobile",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/0C5uT36qhCzbjJXYZ3G9oSfakE.png?width=796&height=796",
+      "srcset": "https://framerusercontent.com/images/0C5uT36qhCzbjJXYZ3G9oSfakE.png?scale-down-to=512&width=796&height=796 512w,https://framerusercontent.com/images/0C5uT36qhCzbjJXYZ3G9oSfakE.png?width=796&height=796 796w",
+      "alt": null,
+      "width": "796",
+      "height": "796",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog Mobile",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/xfFD4pERuE1cg3KquRgBe2aOwd8.png?width=830&height=830",
+      "srcset": "https://framerusercontent.com/images/xfFD4pERuE1cg3KquRgBe2aOwd8.png?scale-down-to=512&width=830&height=830 512w,https://framerusercontent.com/images/xfFD4pERuE1cg3KquRgBe2aOwd8.png?width=830&height=830 830w",
+      "alt": null,
+      "width": "830",
+      "height": "830",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog Mobile",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?width=766&height=766",
+      "srcset": "https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?scale-down-to=512&width=766&height=766 512w,https://framerusercontent.com/images/g9LlmajmSw2xLkg6u3zM5LQ7hD0.png?width=766&height=766 766w",
+      "alt": null,
+      "width": "766",
+      "height": "766",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog Mobile",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?width=982&height=982",
+      "srcset": "https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?scale-down-to=512&width=982&height=982 512w,https://framerusercontent.com/images/mpHmfjvHxDqVECG0phNtm1stCg.png?width=982&height=982 982w",
+      "alt": null,
+      "width": "982",
+      "height": "982",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog Mobile",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/yVj6gnd1cIKPOcghrNcFH00jBsI.png?width=818&height=818",
+      "srcset": "https://framerusercontent.com/images/yVj6gnd1cIKPOcghrNcFH00jBsI.png?scale-down-to=512&width=818&height=818 512w,https://framerusercontent.com/images/yVj6gnd1cIKPOcghrNcFH00jBsI.png?width=818&height=818 818w",
+      "alt": null,
+      "width": "818",
+      "height": "818",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog Mobile",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NX9Oa3DRz7bWxUYQD9liZexf3MQ.png?width=884&height=884",
+      "srcset": "https://framerusercontent.com/images/NX9Oa3DRz7bWxUYQD9liZexf3MQ.png?scale-down-to=512&width=884&height=884 512w,https://framerusercontent.com/images/NX9Oa3DRz7bWxUYQD9liZexf3MQ.png?width=884&height=884 884w",
+      "alt": null,
+      "width": "884",
+      "height": "884",
+      "path": [
+        "Main",
+        "New arrivals",
+        "Container",
+        "Products Container",
+        "Catalog display",
+        "New Arrivals catalog Mobile",
+        "Mobile",
+        "Main",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4JyNJK5h7DVDfgID8lBKhy3M.jpg?width=640&height=960",
+      "srcset": "https://framerusercontent.com/images/4JyNJK5h7DVDfgID8lBKhy3M.jpg?width=640&height=960 640w",
+      "alt": "A black-and-white photo of a woman in a headscarf and patterned pants",
+      "width": "640",
+      "height": "960",
+      "path": [
+        "Main",
+        "Social Wall",
+        "Container",
+        "Posts Container",
+        "2",
+        "Instagram",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4JyNJK5h7DVDfgID8lBKhy3M.jpg?width=640&height=960",
+      "srcset": "https://framerusercontent.com/images/4JyNJK5h7DVDfgID8lBKhy3M.jpg?width=640&height=960 640w",
+      "alt": "A black-and-white photo of a woman in a headscarf and patterned pants",
+      "width": "640",
+      "height": "960",
+      "path": [
+        "Main",
+        "Social Wall",
+        "Container",
+        "Posts Container",
+        "2",
+        "Instagram - Tablet & Mobile",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/vfprU5p4ewa5iy7pKy0FpdX3A.jpg?width=640&height=960",
+      "srcset": "https://framerusercontent.com/images/vfprU5p4ewa5iy7pKy0FpdX3A.jpg?width=640&height=960 640w",
+      "alt": "A stylish man wearing a headscarf and sunglasses poses on a light blue bicycle",
+      "width": "640",
+      "height": "960",
+      "path": [
+        "Main",
+        "Social Wall",
+        "Container",
+        "Posts Container",
+        "4",
+        "Facebook",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/vfprU5p4ewa5iy7pKy0FpdX3A.jpg?width=640&height=960",
+      "srcset": "https://framerusercontent.com/images/vfprU5p4ewa5iy7pKy0FpdX3A.jpg?width=640&height=960 640w",
+      "alt": "A stylish man wearing a headscarf and sunglasses poses on a light blue bicycle",
+      "width": "640",
+      "height": "960",
+      "path": [
+        "Main",
+        "Social Wall",
+        "Container",
+        "Posts Container",
+        "4",
+        "Facebook - Tablet & Mobile",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/grQPT0mJNGR4u9N7bpUUkvk720w.webp?width=800&height=1000",
+      "srcset": "https://framerusercontent.com/images/grQPT0mJNGR4u9N7bpUUkvk720w.webp?width=800&height=1000 800w",
+      "alt": "A young man in a graphic sweater looks up while leaning against a tree",
+      "width": "800",
+      "height": "1000",
+      "path": [
+        "Main",
+        "Social Wall",
+        "Container",
+        "Posts Container",
+        "5",
+        "X",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/grQPT0mJNGR4u9N7bpUUkvk720w.webp?width=800&height=1000",
+      "srcset": "https://framerusercontent.com/images/grQPT0mJNGR4u9N7bpUUkvk720w.webp?width=800&height=1000 800w",
+      "alt": "A young man in a graphic sweater looks up while leaning against a tree",
+      "width": "800",
+      "height": "1000",
+      "path": [
+        "Main",
+        "Social Wall",
+        "Container",
+        "Posts Container",
+        "5",
+        "x - Tablet & Mobile",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aoQHDlgf24ATYxdu0msFV5QjCU.webp?width=671&height=800",
+      "srcset": "https://framerusercontent.com/images/aoQHDlgf24ATYxdu0msFV5QjCU.webp?width=671&height=800 671w",
+      "alt": "A woman in a white sweatsuit runs on a rooftop with a city skyline behind her",
+      "width": "671",
+      "height": "800",
+      "path": [
+        "Main",
+        "Social Wall",
+        "Container",
+        "Posts Container",
+        "7",
+        "Instagram",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aoQHDlgf24ATYxdu0msFV5QjCU.webp?width=671&height=800",
+      "srcset": "https://framerusercontent.com/images/aoQHDlgf24ATYxdu0msFV5QjCU.webp?width=671&height=800 671w",
+      "alt": "A woman in a white sweatsuit runs on a rooftop with a city skyline behind her",
+      "width": "671",
+      "height": "800",
+      "path": [
+        "Main",
+        "Social Wall",
+        "Container",
+        "Posts Container",
+        "7",
+        "Instagram - Tablet & Mobile",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/fcUv7dMRjP5YP77zc5TUoOIeStQ.webp?width=2997&height=2000",
+      "srcset": "https://framerusercontent.com/images/fcUv7dMRjP5YP77zc5TUoOIeStQ.webp?scale-down-to=512&width=2997&height=2000 512w,https://framerusercontent.com/images/fcUv7dMRjP5YP77zc5TUoOIeStQ.webp?scale-down-to=1024&width=2997&height=2000 1024w,https://framerusercontent.com/images/fcUv7dMRjP5YP77zc5TUoOIeStQ.webp?scale-down-to=2048&width=2997&height=2000 2048w,https://framerusercontent.com/images/fcUv7dMRjP5YP77zc5TUoOIeStQ.webp?width=2997&height=2000 2997w",
+      "alt": "A man with voluminous curly hair and a leather jacket at a party",
+      "width": "2997",
+      "height": "2000",
+      "path": [
+        "Main",
+        "Gift Card",
+        "Container",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gqJnwudaBfsyzpMDRUVHcuY.webp?width=870&height=800",
+      "srcset": "https://framerusercontent.com/images/gqJnwudaBfsyzpMDRUVHcuY.webp?scale-down-to=512&width=870&height=800 512w,https://framerusercontent.com/images/gqJnwudaBfsyzpMDRUVHcuY.webp?width=870&height=800 870w",
+      "alt": "The storefront of a clothing boutique with large stone pillars and a concrete facade",
+      "width": "870",
+      "height": "800",
+      "path": [
+        "Main",
+        "Stores",
+        "Container",
+        "Stores Container",
+        "Store",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/RtzexXET68jVkKH97jdJpyotYOk.webp?width=799&height=800",
+      "srcset": "https://framerusercontent.com/images/RtzexXET68jVkKH97jdJpyotYOk.webp?width=799&height=800 799w",
+      "alt": "The minimalist, concrete entrance to a modern clothing store",
+      "width": "799",
+      "height": "800",
+      "path": [
+        "Main",
+        "Stores",
+        "Container",
+        "Stores Container",
+        "Store",
+        "Image Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    }
+  ],
+  "videoReferences": [
+    {
+      "src": "https://www.pexels.com/download/video/10380614/",
+      "poster": "https://framerusercontent.com/images/VuYyTMeqVjLcLafwEzMBiH706A.webp?width=1896&height=1000",
+      "path": [
+        "Main",
+        "Video",
+        "Container"
+      ]
+    }
+  ],
+  "linksDeclaredInSource": [
+    "https://buy.polar.sh/polar_cl_jdT57o20fDVr3eW1qUrZVHy441kNcw6JHCHfE1ifmoX",
+    "https://maps.app.goo.gl/6NigPEdgwdFQmibC9",
+    "https://maps.app.goo.gl/oB3Yv8TEzt45LfH7A",
+    "https://rawline.framer.website/",
+    "https://rawline.framer.website/404",
+    "https://rawline.framer.website/about",
+    "https://rawline.framer.website/categories/accessories",
+    "https://rawline.framer.website/categories/all",
+    "https://rawline.framer.website/categories/grails",
+    "https://rawline.framer.website/categories/hoodie",
+    "https://rawline.framer.website/categories/jacket",
+    "https://rawline.framer.website/categories/jeans",
+    "https://rawline.framer.website/categories/new",
+    "https://rawline.framer.website/categories/sale",
+    "https://rawline.framer.website/categories/shirt",
+    "https://rawline.framer.website/categories/shoes",
+    "https://rawline.framer.website/categories/t-shirt",
+    "https://rawline.framer.website/latest-drops",
+    "https://rawline.framer.website/latest-drops/raw-luna",
+    "https://rawline.framer.website/latest-drops/raw-nova",
+    "https://rawline.framer.website/latest-drops/raw-vero",
+    "https://rawline.framer.website/legal/privacy-policy",
+    "https://rawline.framer.website/legal/terms-and-conditions",
+    "https://rawline.framer.website/shop/bomber-hoodie",
+    "https://rawline.framer.website/shop/cavalry-shirt",
+    "https://rawline.framer.website/shop/classic-crew-neck",
+    "https://rawline.framer.website/shop/crimson-carryall-bag",
+    "https://rawline.framer.website/shop/dark-blue-earthy-fade-jeans",
+    "https://rawline.framer.website/shop/eclipse-knit-cardigan",
+    "https://rawline.framer.website/shop/ivy-green-hoodie",
+    "https://rawline.framer.website/shop/long-sleeve-shirt",
+    "https://rawline.framer.website/shop/raw-gift-card",
+    "https://rawline.framer.website/shop/red-checekered-shirt",
+    "https://rawline.framer.website/shop/socks-sky",
+    "https://rawline.framer.website/shop/stratos-95",
+    "https://rawline.framer.website/shop/trainer-white",
+    "https://rawline.framer.website/shop/trucker-denim-jacket",
+    "https://rawline.framer.website/shop/wide-jeans",
+    "https://rawline.framer.website/wishlist",
+    "https://www.facebook.com",
+    "https://www.facebook.com/",
+    "https://www.framer.com",
+    "https://www.instagram.com",
+    "https://www.instagram.com/",
+    "https://www.x.com",
+    "https://x.com",
+    "https://x.com/Tahoor_Ali",
+    "mailto:hello@raw.example",
+    "tel:+1 (555) 010-2025"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F57501%2Frawline-PpkmnjVwNYAeQ1HYp6YQoNWrSk8LeQ&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F57501%2Frawline-TYUnrNgxZjT3DFSKR4Tf3OzzfLplvY&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F57501%2Frawline-SlvpeM5Mrzj6ld7q25wkicPbzW285Z&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-04.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F57501%2Frawline-7kaSY3HBCxMu3QBQYNzg72E40zIxiK&w=2048&q=80"
+    }
+  ],
+  "category": {
+    "parent": "Ecommerce",
+    "branch": "Fashion",
+    "marketplace": "https://www.framer.com/marketplace/templates/rawline/"
+  },
+  "secondarySourceCoverage": [
+    {
+      "role": "catalog",
+      "requestedUrl": "https://rawline.framer.website/categories/all",
+      "status": "public source inspected; no rendered/interaction validation"
+    },
+    {
+      "role": "product",
+      "requestedUrl": "https://rawline.framer.website/shop/long-sleeve-shirt",
+      "status": "public source inspected; no rendered/interaction validation"
+    }
+  ],
+  "commerceRuntimeVerified": false
+}

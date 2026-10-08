@@ -1,0 +1,342 @@
+{
+  "name": "RAWLINE",
+  "source": "https://rawline.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#111111",
+    "paper": "#ffffe3",
+    "ink": "#ffffe3",
+    "accent": "#ea301f",
+    "muted": "#c9c9c9"
+  },
+  "type": {
+    "body": "Azeret Mono",
+    "display": "Azeret Mono",
+    "roles": [
+      {
+        "role": "hero h1",
+        "family": "Azeret Mono",
+        "weight": 700,
+        "sizePx": 96,
+        "linePx": 76.8,
+        "tracking": "-0.05em"
+      },
+      {
+        "role": "section h2",
+        "family": "Azeret Mono",
+        "weight": 700,
+        "sizePx": 70.4,
+        "linePx": 56.32,
+        "tracking": "-0.05em"
+      },
+      {
+        "role": "CTA h4",
+        "family": "Azeret Mono",
+        "weight": 700,
+        "sizePx": 36.8,
+        "linePx": 29.44,
+        "tracking": "-0.05em"
+      },
+      {
+        "role": "serif section companion h4",
+        "family": "Source Serif 4",
+        "weight": 700,
+        "sizePx": 48,
+        "linePx": 38.4,
+        "tracking": "-0.05em"
+      },
+      {
+        "role": "navigation p",
+        "family": "Azeret Mono",
+        "weight": 700,
+        "sizePx": 16,
+        "linePx": 22.4,
+        "tracking": "0em"
+      },
+      {
+        "role": "body/subheading p",
+        "family": "Azeret Mono",
+        "weight": 400,
+        "sizePx": 16,
+        "linePx": 22.4,
+        "tracking": "0em"
+      },
+      {
+        "role": "view-all h5 inline",
+        "family": "Azeret Mono",
+        "weight": 700,
+        "sizePx": 24,
+        "linePx": 19.2,
+        "tracking": "-0.05em"
+      },
+      {
+        "role": "product/name h5 preset",
+        "family": "Azeret Mono",
+        "weight": 700,
+        "sizePx": 32,
+        "linePx": 25.6,
+        "tracking": "-0.05em"
+      },
+      {
+        "role": "store area h5 inline",
+        "family": "Source Serif 4",
+        "weight": 600,
+        "sizePx": 24,
+        "linePx": 19.2,
+        "tracking": "-0.05em"
+      },
+      {
+        "role": "store schedule p",
+        "family": "Source Serif 4",
+        "weight": 500,
+        "sizePx": 19.2,
+        "linePx": 26.88,
+        "tracking": "0em"
+      }
+    ],
+    "rolesEvidence": "Declared source CSS roles; no rendered measurements.",
+    "sourceRoleDetails": [
+      {
+        "role": "hero h1",
+        "family": "Azeret Mono",
+        "weight": 700,
+        "sizePx": 96,
+        "linePx": 76.8,
+        "tracking": "-0.05em",
+        "nestedOverrides": {
+          "bold": {
+            "weight": 900
+          },
+          "italic": {
+            "weight": 700
+          }
+        },
+        "responsiveOverrides": {
+          "tablet": {
+            "sizePx": 80,
+            "linePx": 64
+          },
+          "mobile": {
+            "sizePx": 48,
+            "linePx": 38.4
+          }
+        }
+      },
+      {
+        "role": "section h2",
+        "family": "Azeret Mono",
+        "weight": 700,
+        "sizePx": 70.4,
+        "linePx": 56.32,
+        "tracking": "-0.05em",
+        "nestedOverrides": {
+          "bold": {
+            "weight": 900
+          }
+        },
+        "responsiveOverrides": {
+          "tablet": {
+            "sizePx": 44.8,
+            "linePx": 35.84
+          },
+          "mobile": {
+            "sizePx": 40,
+            "linePx": 32
+          }
+        }
+      },
+      {
+        "role": "CTA h4",
+        "family": "Azeret Mono",
+        "weight": 700,
+        "sizePx": 36.8,
+        "linePx": 29.44,
+        "tracking": "-0.05em"
+      },
+      {
+        "role": "serif section companion h4",
+        "family": "Source Serif 4",
+        "weight": 700,
+        "sizePx": 48,
+        "linePx": 38.4,
+        "tracking": "-0.05em",
+        "style": "italic",
+        "nestedOverrides": {
+          "boldItalic": {
+            "weight": 900
+          }
+        },
+        "responsiveOverrides": {
+          "tablet": {
+            "sizePx": 36.8,
+            "linePx": 29.44
+          },
+          "mobile": {
+            "sizePx": 32,
+            "linePx": 25.6
+          }
+        }
+      },
+      {
+        "role": "navigation p",
+        "family": "Azeret Mono",
+        "weight": 700,
+        "sizePx": 16,
+        "linePx": 22.4,
+        "tracking": "0em",
+        "nestedOverrides": {
+          "italic": {
+            "family": "Inter",
+            "weight": 400
+          }
+        },
+        "responsiveOverrides": {
+          "mobile": {
+            "sizePx": 14.4,
+            "linePx": 17.28
+          }
+        }
+      },
+      {
+        "role": "body/subheading p",
+        "family": "Azeret Mono",
+        "weight": 400,
+        "sizePx": 16,
+        "linePx": 22.4,
+        "tracking": "0em",
+        "nestedOverrides": {
+          "bold": {
+            "weight": 700
+          }
+        }
+      },
+      {
+        "role": "view-all h5 inline",
+        "family": "Azeret Mono",
+        "weight": 700,
+        "sizePx": 24,
+        "linePx": 19.2,
+        "tracking": "-0.05em",
+        "note": "Inline CTA size overrides the base h5 preset of 32px."
+      },
+      {
+        "role": "product/name h5 preset",
+        "family": "Azeret Mono",
+        "weight": 700,
+        "sizePx": 32,
+        "linePx": 25.6,
+        "tracking": "-0.05em",
+        "nestedOverrides": {
+          "italic": {
+            "family": "Inter",
+            "weight": 700
+          }
+        },
+        "responsiveOverrides": {
+          "tablet": {
+            "sizePx": 24,
+            "linePx": 19.2
+          },
+          "mobile": {
+            "sizePx": 24,
+            "linePx": 19.2
+          }
+        }
+      },
+      {
+        "role": "store area h5 inline",
+        "family": "Source Serif 4",
+        "weight": 600,
+        "sizePx": 24,
+        "linePx": 19.2,
+        "tracking": "-0.05em",
+        "style": "italic",
+        "nestedOverrides": {
+          "bold": {
+            "weight": 700
+          },
+          "boldItalic": {
+            "weight": 900
+          }
+        }
+      },
+      {
+        "role": "store schedule p",
+        "family": "Source Serif 4",
+        "weight": 500,
+        "sizePx": 19.2,
+        "linePx": 26.88,
+        "tracking": "0em",
+        "style": "italic"
+      }
+    ],
+    "variationAxes": {
+      "declared": "normal",
+      "note": "No non-default variable-font axis settings evidenced."
+    }
+  },
+  "spacing": {
+    "desktopGutterPx": 20,
+    "componentGapPx": 10,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 0,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:809.98px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      0,
+      809,
+      809.98,
+      810,
+      1199,
+      1199.98,
+      1200
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Ecommerce",
+    "branch": "Fashion"
+  },
+  "sourceColorContext": "Selected source palette; apply contrasting ink per surface.",
+  "commerce": {
+    "blueprint": "COMMERCE-BLUEPRINT.md",
+    "pageDeclarations": "catalog-and-product-declarations.json",
+    "integrationStatus": "Unverified; no transactions executed"
+  },
+  "surfacePairs": {
+    "light": {
+      "background": "#ffffe3",
+      "text": "#111111"
+    },
+    "dark": {
+      "background": "#111111",
+      "text": "#FFFFE3"
+    }
+  }
+}

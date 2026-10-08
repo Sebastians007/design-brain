@@ -1,0 +1,63 @@
+{
+  "purpose": "Optional implementation schema; source specimen values remain in commerce blueprint",
+  "records": {
+    "product": [
+      "id",
+      "slug",
+      "title",
+      "description",
+      "media[{file,alt,focalPoint}]",
+      "priceMinor",
+      "currency",
+      "compareAtMinor",
+      "variants[]",
+      "category",
+      "purchaseDestination"
+    ],
+    "variant": [
+      "id",
+      "options",
+      "priceMinor",
+      "availabilityStatus"
+    ],
+    "cartLine": [
+      "variantId",
+      "quantity",
+      "unitPriceMinor",
+      "currency",
+      "displayTitle",
+      "image"
+    ],
+    "digitalFulfillment": [
+      "licenseLabel",
+      "fileFormat",
+      "fileCount",
+      "deliveryMethod",
+      "authorizedPurchaseUrl"
+    ]
+  },
+  "invariants": [
+    "Use integer minor units; do not mix currencies in one total.",
+    "Resolve price and availability from selected variant, not stale card copy.",
+    "Quantity must be a positive integer; preserve selection while changing gallery image.",
+    "Do not infer live availability from a serialized availableForSale snapshot.",
+    "Keep inventory, tax, shipping, payment and delivery server responsibilities when a real authorized backend is supplied."
+  ],
+  "states": [
+    "idle",
+    "option_required",
+    "selected",
+    "adding",
+    "added",
+    "error",
+    "cart_empty",
+    "cart_ready",
+    "checkout_handoff"
+  ],
+  "recommendations": [
+    "Expose visible labels, disabled states and keyboard focus.",
+    "Announce cart count and errors accessibly; avoid repeated announcements.",
+    "Do not add visible controls or sections absent from the reference merely to implement this schema."
+  ],
+  "verification": "Source and artwork inspected; shopping controls, persisted carts, checkout, inventory, payment, download delivery and licenses untested."
+}

@@ -1,0 +1,3261 @@
+{
+  "source": "https://helpful-instance-487483.framer.app/",
+  "coverage": "public preview HTML/CSS; no rendered geometry",
+  "namedComponentOrder": [
+    "① HEADER — links, products drawer, cart, phone menu, site-wide fonts",
+    "DsHeader",
+    "L DsLoader — stocking the shelf, once per session",
+    "DsLoader",
+    "L DsPageTrans — the tag",
+    "DsPageTrans",
+    "Smooth scroll (keep)",
+    "DsSmooth",
+    "CMS Bridge · faq (keep)",
+    "faq-item",
+    "faq-row",
+    "CMS Bridge · posts (keep)",
+    "posts-item",
+    "posts-row",
+    "CMS Bridge · reviews (keep)",
+    "reviews-item",
+    "reviews-row",
+    "CMS Bridge · lessons (keep)",
+    "lessons-item",
+    "lessons-row",
+    "CMS Bridge · courses (keep)",
+    "courses-item",
+    "courses-row",
+    "CMS Bridge · bundles (keep)",
+    "bundles-item",
+    "bundles-row",
+    "CMS Bridge · types (keep)",
+    "types-item",
+    "types-row",
+    "CMS Bridge · products (keep)",
+    "products-item",
+    "products-row",
+    "CMS Bridge · site (keep)",
+    "site-item",
+    "site-row",
+    "CMS Bridge · marker (keep)",
+    "01 Hero — the shelf",
+    "DsHero",
+    "02 Tape — recent orders",
+    "DsTicker",
+    "03 Aisles — product types",
+    "DsTypes",
+    "04 Window — featured product",
+    "DsFeatured",
+    "05 Unboxing — what's inside",
+    "DsInside",
+    "06 Stack — bundles",
+    "DsBundles",
+    "07 Syllabus — course",
+    "DsCourse",
+    "08 Counter — numbers",
+    "DsProof",
+    "09 Receipts — reviews",
+    "DsReviews",
+    "10 Behind the counter — studio",
+    "DsCreator",
+    "11 Free shelf — lead magnet",
+    "DsFree",
+    "12 Price tags — FAQ",
+    "DsFaq",
+    "13 Notes",
+    "DsNotes",
+    "14 Closing time — CTA",
+    "DsCta",
+    "② FOOTER — link columns, newsletter, local time, socials",
+    "DsFooter",
+    "Light",
+    "Backdrop",
+    "Content",
+    "Logo",
+    "Text",
+    "Bottom",
+    "Border"
+  ],
+  "typeDeclarations": [],
+  "typePresetRules": [
+    {
+      "selector": ".text-styles-preset-reset.framer-text",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      }
+    },
+    {
+      "selector": "[data-framer-component-type=DeprecatedRichText] .text-styles-preset-reset",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--font-variation-settings": "normal"
+      }
+    }
+  ],
+  "frameDeclarations": [
+    {
+      "name": "① HEADER — links, products drawer, cart, phone menu, site-wide fonts",
+      "path": [
+        "① HEADER — links, products drawer, cart, phone menu, site-wide fonts"
+      ],
+      "classes": "framer-1ygoc8d",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-1ygoc8d",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DsHeader",
+      "path": [
+        "① HEADER — links, products drawer, cart, phone menu, site-wide fonts",
+        "DsHeader"
+      ],
+      "classes": "framer-pdkeib-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-pdkeib-container,.framer-1TBC6 .framer-473q64-container,.framer-1TBC6 .framer-1ccyi5a-container,.framer-1TBC6 .framer-xz3jui-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "0",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "L DsLoader — stocking the shelf, once per session",
+      "path": [
+        "L DsLoader — stocking the shelf, once per session"
+      ],
+      "classes": "framer-ntrnsa",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-ntrnsa",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DsLoader",
+      "path": [
+        "L DsLoader — stocking the shelf, once per session",
+        "DsLoader"
+      ],
+      "classes": "framer-473q64-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-pdkeib-container,.framer-1TBC6 .framer-473q64-container,.framer-1TBC6 .framer-1ccyi5a-container,.framer-1TBC6 .framer-xz3jui-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "0",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "L DsPageTrans — the tag",
+      "path": [
+        "L DsPageTrans — the tag"
+      ],
+      "classes": "framer-dkx36g",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-dkx36g",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DsPageTrans",
+      "path": [
+        "L DsPageTrans — the tag",
+        "DsPageTrans"
+      ],
+      "classes": "framer-1ccyi5a-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-pdkeib-container,.framer-1TBC6 .framer-473q64-container,.framer-1TBC6 .framer-1ccyi5a-container,.framer-1TBC6 .framer-xz3jui-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "0",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Smooth scroll (keep)",
+      "path": [
+        "Smooth scroll (keep)"
+      ],
+      "classes": "framer-1qaor8c",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-1qaor8c",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "0",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DsSmooth",
+      "path": [
+        "Smooth scroll (keep)",
+        "DsSmooth"
+      ],
+      "classes": "framer-xz3jui-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-pdkeib-container,.framer-1TBC6 .framer-473q64-container,.framer-1TBC6 .framer-1ccyi5a-container,.framer-1TBC6 .framer-xz3jui-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "0",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · faq (keep)",
+      "path": [
+        "CMS Bridge · faq (keep)"
+      ],
+      "classes": "framer-jkk61q",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-jkk61q",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        },
+        {
+          "selector": ".framer-1TBC6 .framer-jkk61q,.framer-1TBC6 .framer-1rou6kr,.framer-1TBC6 .framer-ocqpkz,.framer-1TBC6 .framer-nmdbeo,.framer-1TBC6 .framer-1od2bvy,.framer-1TBC6 .framer-95h2r6,.framer-1TBC6 .framer-1o9goe2,.framer-1TBC6 .framer-1n9zi94,.framer-1TBC6 .framer-1xsku83",
+          "mediaContext": [
+            "@media (max-width:809.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        },
+        {
+          "selector": ".framer-1TBC6 .framer-jkk61q,.framer-1TBC6 .framer-1rou6kr,.framer-1TBC6 .framer-ocqpkz,.framer-1TBC6 .framer-nmdbeo,.framer-1TBC6 .framer-1od2bvy,.framer-1TBC6 .framer-95h2r6,.framer-1TBC6 .framer-1o9goe2,.framer-1TBC6 .framer-1n9zi94,.framer-1TBC6 .framer-1xsku83",
+          "mediaContext": [
+            "@media (min-width:810px) and (max-width:1199.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-e8ov6m",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-r1llpi-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-e8ov6m",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-r1llpi-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-e8ov6m",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-r1llpi-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-e8ov6m",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-r1llpi-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-e8ov6m",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-r1llpi-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-e8ov6m",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-r1llpi-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-e8ov6m",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-r1llpi-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-item",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item"
+      ],
+      "classes": "framer-e8ov6m",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "faq-row",
+      "path": [
+        "CMS Bridge · faq (keep)",
+        "faq-item",
+        "faq-row"
+      ],
+      "classes": "framer-r1llpi-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · posts (keep)",
+      "path": [
+        "CMS Bridge · posts (keep)"
+      ],
+      "classes": "framer-1rou6kr",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-1rou6kr",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        },
+        {
+          "selector": ".framer-1TBC6 .framer-jkk61q,.framer-1TBC6 .framer-1rou6kr,.framer-1TBC6 .framer-ocqpkz,.framer-1TBC6 .framer-nmdbeo,.framer-1TBC6 .framer-1od2bvy,.framer-1TBC6 .framer-95h2r6,.framer-1TBC6 .framer-1o9goe2,.framer-1TBC6 .framer-1n9zi94,.framer-1TBC6 .framer-1xsku83",
+          "mediaContext": [
+            "@media (max-width:809.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        },
+        {
+          "selector": ".framer-1TBC6 .framer-jkk61q,.framer-1TBC6 .framer-1rou6kr,.framer-1TBC6 .framer-ocqpkz,.framer-1TBC6 .framer-nmdbeo,.framer-1TBC6 .framer-1od2bvy,.framer-1TBC6 .framer-95h2r6,.framer-1TBC6 .framer-1o9goe2,.framer-1TBC6 .framer-1n9zi94,.framer-1TBC6 .framer-1xsku83",
+          "mediaContext": [
+            "@media (min-width:810px) and (max-width:1199.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-item",
+      "path": [
+        "CMS Bridge · posts (keep)",
+        "posts-item"
+      ],
+      "classes": "framer-1eonzly",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-row",
+      "path": [
+        "CMS Bridge · posts (keep)",
+        "posts-item",
+        "posts-row"
+      ],
+      "classes": "framer-1scnwvv-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-item",
+      "path": [
+        "CMS Bridge · posts (keep)",
+        "posts-item"
+      ],
+      "classes": "framer-1eonzly",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-row",
+      "path": [
+        "CMS Bridge · posts (keep)",
+        "posts-item",
+        "posts-row"
+      ],
+      "classes": "framer-1scnwvv-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-item",
+      "path": [
+        "CMS Bridge · posts (keep)",
+        "posts-item"
+      ],
+      "classes": "framer-1eonzly",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "posts-row",
+      "path": [
+        "CMS Bridge · posts (keep)",
+        "posts-item",
+        "posts-row"
+      ],
+      "classes": "framer-1scnwvv-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · reviews (keep)",
+      "path": [
+        "CMS Bridge · reviews (keep)"
+      ],
+      "classes": "framer-ocqpkz",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-ocqpkz",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        },
+        {
+          "selector": ".framer-1TBC6 .framer-jkk61q,.framer-1TBC6 .framer-1rou6kr,.framer-1TBC6 .framer-ocqpkz,.framer-1TBC6 .framer-nmdbeo,.framer-1TBC6 .framer-1od2bvy,.framer-1TBC6 .framer-95h2r6,.framer-1TBC6 .framer-1o9goe2,.framer-1TBC6 .framer-1n9zi94,.framer-1TBC6 .framer-1xsku83",
+          "mediaContext": [
+            "@media (max-width:809.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        },
+        {
+          "selector": ".framer-1TBC6 .framer-jkk61q,.framer-1TBC6 .framer-1rou6kr,.framer-1TBC6 .framer-ocqpkz,.framer-1TBC6 .framer-nmdbeo,.framer-1TBC6 .framer-1od2bvy,.framer-1TBC6 .framer-95h2r6,.framer-1TBC6 .framer-1o9goe2,.framer-1TBC6 .framer-1n9zi94,.framer-1TBC6 .framer-1xsku83",
+          "mediaContext": [
+            "@media (min-width:810px) and (max-width:1199.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-item",
+      "path": [
+        "CMS Bridge · reviews (keep)",
+        "reviews-item"
+      ],
+      "classes": "framer-zlclv0",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-row",
+      "path": [
+        "CMS Bridge · reviews (keep)",
+        "reviews-item",
+        "reviews-row"
+      ],
+      "classes": "framer-k2sc85-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-item",
+      "path": [
+        "CMS Bridge · reviews (keep)",
+        "reviews-item"
+      ],
+      "classes": "framer-zlclv0",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-row",
+      "path": [
+        "CMS Bridge · reviews (keep)",
+        "reviews-item",
+        "reviews-row"
+      ],
+      "classes": "framer-k2sc85-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-item",
+      "path": [
+        "CMS Bridge · reviews (keep)",
+        "reviews-item"
+      ],
+      "classes": "framer-zlclv0",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-row",
+      "path": [
+        "CMS Bridge · reviews (keep)",
+        "reviews-item",
+        "reviews-row"
+      ],
+      "classes": "framer-k2sc85-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-item",
+      "path": [
+        "CMS Bridge · reviews (keep)",
+        "reviews-item"
+      ],
+      "classes": "framer-zlclv0",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-row",
+      "path": [
+        "CMS Bridge · reviews (keep)",
+        "reviews-item",
+        "reviews-row"
+      ],
+      "classes": "framer-k2sc85-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-item",
+      "path": [
+        "CMS Bridge · reviews (keep)",
+        "reviews-item"
+      ],
+      "classes": "framer-zlclv0",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-row",
+      "path": [
+        "CMS Bridge · reviews (keep)",
+        "reviews-item",
+        "reviews-row"
+      ],
+      "classes": "framer-k2sc85-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-item",
+      "path": [
+        "CMS Bridge · reviews (keep)",
+        "reviews-item"
+      ],
+      "classes": "framer-zlclv0",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "reviews-row",
+      "path": [
+        "CMS Bridge · reviews (keep)",
+        "reviews-item",
+        "reviews-row"
+      ],
+      "classes": "framer-k2sc85-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · lessons (keep)",
+      "path": [
+        "CMS Bridge · lessons (keep)"
+      ],
+      "classes": "framer-nmdbeo",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-nmdbeo",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        },
+        {
+          "selector": ".framer-1TBC6 .framer-jkk61q,.framer-1TBC6 .framer-1rou6kr,.framer-1TBC6 .framer-ocqpkz,.framer-1TBC6 .framer-nmdbeo,.framer-1TBC6 .framer-1od2bvy,.framer-1TBC6 .framer-95h2r6,.framer-1TBC6 .framer-1o9goe2,.framer-1TBC6 .framer-1n9zi94,.framer-1TBC6 .framer-1xsku83",
+          "mediaContext": [
+            "@media (max-width:809.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        },
+        {
+          "selector": ".framer-1TBC6 .framer-jkk61q,.framer-1TBC6 .framer-1rou6kr,.framer-1TBC6 .framer-ocqpkz,.framer-1TBC6 .framer-nmdbeo,.framer-1TBC6 .framer-1od2bvy,.framer-1TBC6 .framer-95h2r6,.framer-1TBC6 .framer-1o9goe2,.framer-1TBC6 .framer-1n9zi94,.framer-1TBC6 .framer-1xsku83",
+          "mediaContext": [
+            "@media (min-width:810px) and (max-width:1199.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-item",
+      "path": [
+        "CMS Bridge · lessons (keep)",
+        "lessons-item"
+      ],
+      "classes": "framer-1fv4dnf",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-row",
+      "path": [
+        "CMS Bridge · lessons (keep)",
+        "lessons-item",
+        "lessons-row"
+      ],
+      "classes": "framer-1699f6m-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-item",
+      "path": [
+        "CMS Bridge · lessons (keep)",
+        "lessons-item"
+      ],
+      "classes": "framer-1fv4dnf",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-row",
+      "path": [
+        "CMS Bridge · lessons (keep)",
+        "lessons-item",
+        "lessons-row"
+      ],
+      "classes": "framer-1699f6m-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-item",
+      "path": [
+        "CMS Bridge · lessons (keep)",
+        "lessons-item"
+      ],
+      "classes": "framer-1fv4dnf",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-row",
+      "path": [
+        "CMS Bridge · lessons (keep)",
+        "lessons-item",
+        "lessons-row"
+      ],
+      "classes": "framer-1699f6m-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-item",
+      "path": [
+        "CMS Bridge · lessons (keep)",
+        "lessons-item"
+      ],
+      "classes": "framer-1fv4dnf",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-row",
+      "path": [
+        "CMS Bridge · lessons (keep)",
+        "lessons-item",
+        "lessons-row"
+      ],
+      "classes": "framer-1699f6m-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-item",
+      "path": [
+        "CMS Bridge · lessons (keep)",
+        "lessons-item"
+      ],
+      "classes": "framer-1fv4dnf",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-row",
+      "path": [
+        "CMS Bridge · lessons (keep)",
+        "lessons-item",
+        "lessons-row"
+      ],
+      "classes": "framer-1699f6m-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-item",
+      "path": [
+        "CMS Bridge · lessons (keep)",
+        "lessons-item"
+      ],
+      "classes": "framer-1fv4dnf",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-row",
+      "path": [
+        "CMS Bridge · lessons (keep)",
+        "lessons-item",
+        "lessons-row"
+      ],
+      "classes": "framer-1699f6m-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-item",
+      "path": [
+        "CMS Bridge · lessons (keep)",
+        "lessons-item"
+      ],
+      "classes": "framer-1fv4dnf",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-row",
+      "path": [
+        "CMS Bridge · lessons (keep)",
+        "lessons-item",
+        "lessons-row"
+      ],
+      "classes": "framer-1699f6m-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-item",
+      "path": [
+        "CMS Bridge · lessons (keep)",
+        "lessons-item"
+      ],
+      "classes": "framer-1fv4dnf",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lessons-row",
+      "path": [
+        "CMS Bridge · lessons (keep)",
+        "lessons-item",
+        "lessons-row"
+      ],
+      "classes": "framer-1699f6m-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · courses (keep)",
+      "path": [
+        "CMS Bridge · courses (keep)"
+      ],
+      "classes": "framer-1od2bvy",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-1od2bvy",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        },
+        {
+          "selector": ".framer-1TBC6 .framer-jkk61q,.framer-1TBC6 .framer-1rou6kr,.framer-1TBC6 .framer-ocqpkz,.framer-1TBC6 .framer-nmdbeo,.framer-1TBC6 .framer-1od2bvy,.framer-1TBC6 .framer-95h2r6,.framer-1TBC6 .framer-1o9goe2,.framer-1TBC6 .framer-1n9zi94,.framer-1TBC6 .framer-1xsku83",
+          "mediaContext": [
+            "@media (max-width:809.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        },
+        {
+          "selector": ".framer-1TBC6 .framer-jkk61q,.framer-1TBC6 .framer-1rou6kr,.framer-1TBC6 .framer-ocqpkz,.framer-1TBC6 .framer-nmdbeo,.framer-1TBC6 .framer-1od2bvy,.framer-1TBC6 .framer-95h2r6,.framer-1TBC6 .framer-1o9goe2,.framer-1TBC6 .framer-1n9zi94,.framer-1TBC6 .framer-1xsku83",
+          "mediaContext": [
+            "@media (min-width:810px) and (max-width:1199.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        }
+      ]
+    },
+    {
+      "name": "courses-item",
+      "path": [
+        "CMS Bridge · courses (keep)",
+        "courses-item"
+      ],
+      "classes": "framer-1fz20rr",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "courses-row",
+      "path": [
+        "CMS Bridge · courses (keep)",
+        "courses-item",
+        "courses-row"
+      ],
+      "classes": "framer-8ulzr3-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · bundles (keep)",
+      "path": [
+        "CMS Bridge · bundles (keep)"
+      ],
+      "classes": "framer-95h2r6",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-95h2r6",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        },
+        {
+          "selector": ".framer-1TBC6 .framer-jkk61q,.framer-1TBC6 .framer-1rou6kr,.framer-1TBC6 .framer-ocqpkz,.framer-1TBC6 .framer-nmdbeo,.framer-1TBC6 .framer-1od2bvy,.framer-1TBC6 .framer-95h2r6,.framer-1TBC6 .framer-1o9goe2,.framer-1TBC6 .framer-1n9zi94,.framer-1TBC6 .framer-1xsku83",
+          "mediaContext": [
+            "@media (max-width:809.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        },
+        {
+          "selector": ".framer-1TBC6 .framer-jkk61q,.framer-1TBC6 .framer-1rou6kr,.framer-1TBC6 .framer-ocqpkz,.framer-1TBC6 .framer-nmdbeo,.framer-1TBC6 .framer-1od2bvy,.framer-1TBC6 .framer-95h2r6,.framer-1TBC6 .framer-1o9goe2,.framer-1TBC6 .framer-1n9zi94,.framer-1TBC6 .framer-1xsku83",
+          "mediaContext": [
+            "@media (min-width:810px) and (max-width:1199.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bundles-item",
+      "path": [
+        "CMS Bridge · bundles (keep)",
+        "bundles-item"
+      ],
+      "classes": "framer-rb2w7o",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bundles-row",
+      "path": [
+        "CMS Bridge · bundles (keep)",
+        "bundles-item",
+        "bundles-row"
+      ],
+      "classes": "framer-112fcky-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bundles-item",
+      "path": [
+        "CMS Bridge · bundles (keep)",
+        "bundles-item"
+      ],
+      "classes": "framer-rb2w7o",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bundles-row",
+      "path": [
+        "CMS Bridge · bundles (keep)",
+        "bundles-item",
+        "bundles-row"
+      ],
+      "classes": "framer-112fcky-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bundles-item",
+      "path": [
+        "CMS Bridge · bundles (keep)",
+        "bundles-item"
+      ],
+      "classes": "framer-rb2w7o",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bundles-row",
+      "path": [
+        "CMS Bridge · bundles (keep)",
+        "bundles-item",
+        "bundles-row"
+      ],
+      "classes": "framer-112fcky-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · types (keep)",
+      "path": [
+        "CMS Bridge · types (keep)"
+      ],
+      "classes": "framer-1o9goe2",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-1o9goe2",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        },
+        {
+          "selector": ".framer-1TBC6 .framer-jkk61q,.framer-1TBC6 .framer-1rou6kr,.framer-1TBC6 .framer-ocqpkz,.framer-1TBC6 .framer-nmdbeo,.framer-1TBC6 .framer-1od2bvy,.framer-1TBC6 .framer-95h2r6,.framer-1TBC6 .framer-1o9goe2,.framer-1TBC6 .framer-1n9zi94,.framer-1TBC6 .framer-1xsku83",
+          "mediaContext": [
+            "@media (max-width:809.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        },
+        {
+          "selector": ".framer-1TBC6 .framer-jkk61q,.framer-1TBC6 .framer-1rou6kr,.framer-1TBC6 .framer-ocqpkz,.framer-1TBC6 .framer-nmdbeo,.framer-1TBC6 .framer-1od2bvy,.framer-1TBC6 .framer-95h2r6,.framer-1TBC6 .framer-1o9goe2,.framer-1TBC6 .framer-1n9zi94,.framer-1TBC6 .framer-1xsku83",
+          "mediaContext": [
+            "@media (min-width:810px) and (max-width:1199.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        }
+      ]
+    },
+    {
+      "name": "types-item",
+      "path": [
+        "CMS Bridge · types (keep)",
+        "types-item"
+      ],
+      "classes": "framer-h1tn9a",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "types-row",
+      "path": [
+        "CMS Bridge · types (keep)",
+        "types-item",
+        "types-row"
+      ],
+      "classes": "framer-8pjpm0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "types-item",
+      "path": [
+        "CMS Bridge · types (keep)",
+        "types-item"
+      ],
+      "classes": "framer-h1tn9a",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "types-row",
+      "path": [
+        "CMS Bridge · types (keep)",
+        "types-item",
+        "types-row"
+      ],
+      "classes": "framer-8pjpm0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "types-item",
+      "path": [
+        "CMS Bridge · types (keep)",
+        "types-item"
+      ],
+      "classes": "framer-h1tn9a",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "types-row",
+      "path": [
+        "CMS Bridge · types (keep)",
+        "types-item",
+        "types-row"
+      ],
+      "classes": "framer-8pjpm0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "types-item",
+      "path": [
+        "CMS Bridge · types (keep)",
+        "types-item"
+      ],
+      "classes": "framer-h1tn9a",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "types-row",
+      "path": [
+        "CMS Bridge · types (keep)",
+        "types-item",
+        "types-row"
+      ],
+      "classes": "framer-8pjpm0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "types-item",
+      "path": [
+        "CMS Bridge · types (keep)",
+        "types-item"
+      ],
+      "classes": "framer-h1tn9a",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "types-row",
+      "path": [
+        "CMS Bridge · types (keep)",
+        "types-item",
+        "types-row"
+      ],
+      "classes": "framer-8pjpm0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "types-item",
+      "path": [
+        "CMS Bridge · types (keep)",
+        "types-item"
+      ],
+      "classes": "framer-h1tn9a",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "types-row",
+      "path": [
+        "CMS Bridge · types (keep)",
+        "types-item",
+        "types-row"
+      ],
+      "classes": "framer-8pjpm0-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · products (keep)",
+      "path": [
+        "CMS Bridge · products (keep)"
+      ],
+      "classes": "framer-1n9zi94",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-1n9zi94",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        },
+        {
+          "selector": ".framer-1TBC6 .framer-jkk61q,.framer-1TBC6 .framer-1rou6kr,.framer-1TBC6 .framer-ocqpkz,.framer-1TBC6 .framer-nmdbeo,.framer-1TBC6 .framer-1od2bvy,.framer-1TBC6 .framer-95h2r6,.framer-1TBC6 .framer-1o9goe2,.framer-1TBC6 .framer-1n9zi94,.framer-1TBC6 .framer-1xsku83",
+          "mediaContext": [
+            "@media (max-width:809.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        },
+        {
+          "selector": ".framer-1TBC6 .framer-jkk61q,.framer-1TBC6 .framer-1rou6kr,.framer-1TBC6 .framer-ocqpkz,.framer-1TBC6 .framer-nmdbeo,.framer-1TBC6 .framer-1od2bvy,.framer-1TBC6 .framer-95h2r6,.framer-1TBC6 .framer-1o9goe2,.framer-1TBC6 .framer-1n9zi94,.framer-1TBC6 .framer-1xsku83",
+          "mediaContext": [
+            "@media (min-width:810px) and (max-width:1199.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        }
+      ]
+    },
+    {
+      "name": "products-item",
+      "path": [
+        "CMS Bridge · products (keep)",
+        "products-item"
+      ],
+      "classes": "framer-8v8feg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "products-row",
+      "path": [
+        "CMS Bridge · products (keep)",
+        "products-item",
+        "products-row"
+      ],
+      "classes": "framer-15aud3i-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "products-item",
+      "path": [
+        "CMS Bridge · products (keep)",
+        "products-item"
+      ],
+      "classes": "framer-8v8feg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "products-row",
+      "path": [
+        "CMS Bridge · products (keep)",
+        "products-item",
+        "products-row"
+      ],
+      "classes": "framer-15aud3i-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "products-item",
+      "path": [
+        "CMS Bridge · products (keep)",
+        "products-item"
+      ],
+      "classes": "framer-8v8feg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "products-row",
+      "path": [
+        "CMS Bridge · products (keep)",
+        "products-item",
+        "products-row"
+      ],
+      "classes": "framer-15aud3i-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "products-item",
+      "path": [
+        "CMS Bridge · products (keep)",
+        "products-item"
+      ],
+      "classes": "framer-8v8feg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "products-row",
+      "path": [
+        "CMS Bridge · products (keep)",
+        "products-item",
+        "products-row"
+      ],
+      "classes": "framer-15aud3i-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "products-item",
+      "path": [
+        "CMS Bridge · products (keep)",
+        "products-item"
+      ],
+      "classes": "framer-8v8feg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "products-row",
+      "path": [
+        "CMS Bridge · products (keep)",
+        "products-item",
+        "products-row"
+      ],
+      "classes": "framer-15aud3i-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "products-item",
+      "path": [
+        "CMS Bridge · products (keep)",
+        "products-item"
+      ],
+      "classes": "framer-8v8feg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "products-row",
+      "path": [
+        "CMS Bridge · products (keep)",
+        "products-item",
+        "products-row"
+      ],
+      "classes": "framer-15aud3i-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "products-item",
+      "path": [
+        "CMS Bridge · products (keep)",
+        "products-item"
+      ],
+      "classes": "framer-8v8feg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "products-row",
+      "path": [
+        "CMS Bridge · products (keep)",
+        "products-item",
+        "products-row"
+      ],
+      "classes": "framer-15aud3i-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "products-item",
+      "path": [
+        "CMS Bridge · products (keep)",
+        "products-item"
+      ],
+      "classes": "framer-8v8feg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "products-row",
+      "path": [
+        "CMS Bridge · products (keep)",
+        "products-item",
+        "products-row"
+      ],
+      "classes": "framer-15aud3i-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "products-item",
+      "path": [
+        "CMS Bridge · products (keep)",
+        "products-item"
+      ],
+      "classes": "framer-8v8feg",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "products-row",
+      "path": [
+        "CMS Bridge · products (keep)",
+        "products-item",
+        "products-row"
+      ],
+      "classes": "framer-15aud3i-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · site (keep)",
+      "path": [
+        "CMS Bridge · site (keep)"
+      ],
+      "classes": "framer-1xsku83",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-1xsku83",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "1px",
+            "padding": "0",
+            "display": "flex",
+            "position": "absolute"
+          }
+        },
+        {
+          "selector": ".framer-1TBC6 .framer-jkk61q,.framer-1TBC6 .framer-1rou6kr,.framer-1TBC6 .framer-ocqpkz,.framer-1TBC6 .framer-nmdbeo,.framer-1TBC6 .framer-1od2bvy,.framer-1TBC6 .framer-95h2r6,.framer-1TBC6 .framer-1o9goe2,.framer-1TBC6 .framer-1n9zi94,.framer-1TBC6 .framer-1xsku83",
+          "mediaContext": [
+            "@media (max-width:809.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        },
+        {
+          "selector": ".framer-1TBC6 .framer-jkk61q,.framer-1TBC6 .framer-1rou6kr,.framer-1TBC6 .framer-ocqpkz,.framer-1TBC6 .framer-nmdbeo,.framer-1TBC6 .framer-1od2bvy,.framer-1TBC6 .framer-95h2r6,.framer-1TBC6 .framer-1o9goe2,.framer-1TBC6 .framer-1n9zi94,.framer-1TBC6 .framer-1xsku83",
+          "mediaContext": [
+            "@media (min-width:810px) and (max-width:1199.98px)"
+          ],
+          "values": {
+            "width": "unset"
+          }
+        }
+      ]
+    },
+    {
+      "name": "site-item",
+      "path": [
+        "CMS Bridge · site (keep)",
+        "site-item"
+      ],
+      "classes": "framer-1jfu2d7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-e8ov6m,.framer-1TBC6 .framer-1eonzly,.framer-1TBC6 .framer-zlclv0,.framer-1TBC6 .framer-1fv4dnf,.framer-1TBC6 .framer-1fz20rr,.framer-1TBC6 .framer-rb2w7o,.framer-1TBC6 .framer-h1tn9a,.framer-1TBC6 .framer-8v8feg,.framer-1TBC6 .framer-1jfu2d7",
+          "mediaContext": [],
+          "values": {
+            "height": "1px",
+            "width": "1px",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "site-row",
+      "path": [
+        "CMS Bridge · site (keep)",
+        "site-item",
+        "site-row"
+      ],
+      "classes": "framer-deg5zk-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-r1llpi-container,.framer-1TBC6 .framer-1scnwvv-container,.framer-1TBC6 .framer-k2sc85-container,.framer-1TBC6 .framer-1699f6m-container,.framer-1TBC6 .framer-8ulzr3-container,.framer-1TBC6 .framer-112fcky-container,.framer-1TBC6 .framer-8pjpm0-container,.framer-1TBC6 .framer-15aud3i-container,.framer-1TBC6 .framer-deg5zk-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "CMS Bridge · marker (keep)",
+      "path": [
+        "CMS Bridge · marker (keep)"
+      ],
+      "classes": "framer-9iv65w-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-9iv65w-container",
+          "mediaContext": [],
+          "values": {
+            "width": "1px",
+            "height": "1px",
+            "position": "absolute"
+          }
+        }
+      ]
+    },
+    {
+      "name": "01 Hero — the shelf",
+      "path": [
+        "01 Hero — the shelf"
+      ],
+      "classes": "framer-18l6svx",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-UJ0ZV .framer-18l6svx,.framer-UJ0ZV .framer-1bvahbd,.framer-UJ0ZV .framer-15qozf2,.framer-UJ0ZV .framer-1smcwec,.framer-UJ0ZV .framer-1a4q978,.framer-UJ0ZV .framer-f6ilmn,.framer-UJ0ZV .framer-9fmknk,.framer-UJ0ZV .framer-yn83fw,.framer-UJ0ZV .framer-1qhbtwv,.framer-UJ0ZV .framer-1whmd0g,.framer-UJ0ZV .framer-10bcwj7,.framer-UJ0ZV .framer-1rd7qw8,.framer-UJ0ZV .framer-twumt3,.framer-UJ0ZV .framer-d8k8x3",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DsHero",
+      "path": [
+        "01 Hero — the shelf",
+        "DsHero"
+      ],
+      "classes": "framer-1pv01h5-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": " .framer-16rkv8n-container,.framer-UJ0ZV .framer-640wh3-container,.framer-UJ0ZV .framer-15818cg-container,.framer-UJ0ZV .framer-1na1b6h-container,.framer-UJ0ZV .framer-124jjdw-container,.framer-UJ0ZV .framer-edb8cz-container,.framer-UJ0ZV .framer-gg8k5q-container,.framer-UJ0ZV .framer-wkg4rr-container,.framer-UJ0ZV .framer-1r9p6v3-container,.framer-UJ0ZV .framer-1mok9is-container,.framer-UJ0ZV .framer-1u0e1i3-container,.framer-UJ0ZV .framer-ksozek-container,.framer-UJ0ZV .framer-ac93e5-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "02 Tape — recent orders",
+      "path": [
+        "02 Tape — recent orders"
+      ],
+      "classes": "framer-1bvahbd",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-UJ0ZV .framer-18l6svx,.framer-UJ0ZV .framer-1bvahbd,.framer-UJ0ZV .framer-15qozf2,.framer-UJ0ZV .framer-1smcwec,.framer-UJ0ZV .framer-1a4q978,.framer-UJ0ZV .framer-f6ilmn,.framer-UJ0ZV .framer-9fmknk,.framer-UJ0ZV .framer-yn83fw,.framer-UJ0ZV .framer-1qhbtwv,.framer-UJ0ZV .framer-1whmd0g,.framer-UJ0ZV .framer-10bcwj7,.framer-UJ0ZV .framer-1rd7qw8,.framer-UJ0ZV .framer-twumt3,.framer-UJ0ZV .framer-d8k8x3",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DsTicker",
+      "path": [
+        "02 Tape — recent orders",
+        "DsTicker"
+      ],
+      "classes": "framer-16rkv8n-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": " .framer-16rkv8n-container,.framer-UJ0ZV .framer-640wh3-container,.framer-UJ0ZV .framer-15818cg-container,.framer-UJ0ZV .framer-1na1b6h-container,.framer-UJ0ZV .framer-124jjdw-container,.framer-UJ0ZV .framer-edb8cz-container,.framer-UJ0ZV .framer-gg8k5q-container,.framer-UJ0ZV .framer-wkg4rr-container,.framer-UJ0ZV .framer-1r9p6v3-container,.framer-UJ0ZV .framer-1mok9is-container,.framer-UJ0ZV .framer-1u0e1i3-container,.framer-UJ0ZV .framer-ksozek-container,.framer-UJ0ZV .framer-ac93e5-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "03 Aisles — product types",
+      "path": [
+        "03 Aisles — product types"
+      ],
+      "classes": "framer-15qozf2",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-UJ0ZV .framer-18l6svx,.framer-UJ0ZV .framer-1bvahbd,.framer-UJ0ZV .framer-15qozf2,.framer-UJ0ZV .framer-1smcwec,.framer-UJ0ZV .framer-1a4q978,.framer-UJ0ZV .framer-f6ilmn,.framer-UJ0ZV .framer-9fmknk,.framer-UJ0ZV .framer-yn83fw,.framer-UJ0ZV .framer-1qhbtwv,.framer-UJ0ZV .framer-1whmd0g,.framer-UJ0ZV .framer-10bcwj7,.framer-UJ0ZV .framer-1rd7qw8,.framer-UJ0ZV .framer-twumt3,.framer-UJ0ZV .framer-d8k8x3",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DsTypes",
+      "path": [
+        "03 Aisles — product types",
+        "DsTypes"
+      ],
+      "classes": "framer-640wh3-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": " .framer-16rkv8n-container,.framer-UJ0ZV .framer-640wh3-container,.framer-UJ0ZV .framer-15818cg-container,.framer-UJ0ZV .framer-1na1b6h-container,.framer-UJ0ZV .framer-124jjdw-container,.framer-UJ0ZV .framer-edb8cz-container,.framer-UJ0ZV .framer-gg8k5q-container,.framer-UJ0ZV .framer-wkg4rr-container,.framer-UJ0ZV .framer-1r9p6v3-container,.framer-UJ0ZV .framer-1mok9is-container,.framer-UJ0ZV .framer-1u0e1i3-container,.framer-UJ0ZV .framer-ksozek-container,.framer-UJ0ZV .framer-ac93e5-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "04 Window — featured product",
+      "path": [
+        "04 Window — featured product"
+      ],
+      "classes": "framer-1smcwec",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-UJ0ZV .framer-18l6svx,.framer-UJ0ZV .framer-1bvahbd,.framer-UJ0ZV .framer-15qozf2,.framer-UJ0ZV .framer-1smcwec,.framer-UJ0ZV .framer-1a4q978,.framer-UJ0ZV .framer-f6ilmn,.framer-UJ0ZV .framer-9fmknk,.framer-UJ0ZV .framer-yn83fw,.framer-UJ0ZV .framer-1qhbtwv,.framer-UJ0ZV .framer-1whmd0g,.framer-UJ0ZV .framer-10bcwj7,.framer-UJ0ZV .framer-1rd7qw8,.framer-UJ0ZV .framer-twumt3,.framer-UJ0ZV .framer-d8k8x3",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DsFeatured",
+      "path": [
+        "04 Window — featured product",
+        "DsFeatured"
+      ],
+      "classes": "framer-15818cg-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": " .framer-16rkv8n-container,.framer-UJ0ZV .framer-640wh3-container,.framer-UJ0ZV .framer-15818cg-container,.framer-UJ0ZV .framer-1na1b6h-container,.framer-UJ0ZV .framer-124jjdw-container,.framer-UJ0ZV .framer-edb8cz-container,.framer-UJ0ZV .framer-gg8k5q-container,.framer-UJ0ZV .framer-wkg4rr-container,.framer-UJ0ZV .framer-1r9p6v3-container,.framer-UJ0ZV .framer-1mok9is-container,.framer-UJ0ZV .framer-1u0e1i3-container,.framer-UJ0ZV .framer-ksozek-container,.framer-UJ0ZV .framer-ac93e5-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "05 Unboxing — what's inside",
+      "path": [
+        "05 Unboxing — what's inside"
+      ],
+      "classes": "framer-1a4q978",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-UJ0ZV .framer-18l6svx,.framer-UJ0ZV .framer-1bvahbd,.framer-UJ0ZV .framer-15qozf2,.framer-UJ0ZV .framer-1smcwec,.framer-UJ0ZV .framer-1a4q978,.framer-UJ0ZV .framer-f6ilmn,.framer-UJ0ZV .framer-9fmknk,.framer-UJ0ZV .framer-yn83fw,.framer-UJ0ZV .framer-1qhbtwv,.framer-UJ0ZV .framer-1whmd0g,.framer-UJ0ZV .framer-10bcwj7,.framer-UJ0ZV .framer-1rd7qw8,.framer-UJ0ZV .framer-twumt3,.framer-UJ0ZV .framer-d8k8x3",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DsInside",
+      "path": [
+        "05 Unboxing — what's inside",
+        "DsInside"
+      ],
+      "classes": "framer-1na1b6h-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": " .framer-16rkv8n-container,.framer-UJ0ZV .framer-640wh3-container,.framer-UJ0ZV .framer-15818cg-container,.framer-UJ0ZV .framer-1na1b6h-container,.framer-UJ0ZV .framer-124jjdw-container,.framer-UJ0ZV .framer-edb8cz-container,.framer-UJ0ZV .framer-gg8k5q-container,.framer-UJ0ZV .framer-wkg4rr-container,.framer-UJ0ZV .framer-1r9p6v3-container,.framer-UJ0ZV .framer-1mok9is-container,.framer-UJ0ZV .framer-1u0e1i3-container,.framer-UJ0ZV .framer-ksozek-container,.framer-UJ0ZV .framer-ac93e5-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "06 Stack — bundles",
+      "path": [
+        "06 Stack — bundles"
+      ],
+      "classes": "framer-f6ilmn",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-UJ0ZV .framer-18l6svx,.framer-UJ0ZV .framer-1bvahbd,.framer-UJ0ZV .framer-15qozf2,.framer-UJ0ZV .framer-1smcwec,.framer-UJ0ZV .framer-1a4q978,.framer-UJ0ZV .framer-f6ilmn,.framer-UJ0ZV .framer-9fmknk,.framer-UJ0ZV .framer-yn83fw,.framer-UJ0ZV .framer-1qhbtwv,.framer-UJ0ZV .framer-1whmd0g,.framer-UJ0ZV .framer-10bcwj7,.framer-UJ0ZV .framer-1rd7qw8,.framer-UJ0ZV .framer-twumt3,.framer-UJ0ZV .framer-d8k8x3",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DsBundles",
+      "path": [
+        "06 Stack — bundles",
+        "DsBundles"
+      ],
+      "classes": "framer-124jjdw-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": " .framer-16rkv8n-container,.framer-UJ0ZV .framer-640wh3-container,.framer-UJ0ZV .framer-15818cg-container,.framer-UJ0ZV .framer-1na1b6h-container,.framer-UJ0ZV .framer-124jjdw-container,.framer-UJ0ZV .framer-edb8cz-container,.framer-UJ0ZV .framer-gg8k5q-container,.framer-UJ0ZV .framer-wkg4rr-container,.framer-UJ0ZV .framer-1r9p6v3-container,.framer-UJ0ZV .framer-1mok9is-container,.framer-UJ0ZV .framer-1u0e1i3-container,.framer-UJ0ZV .framer-ksozek-container,.framer-UJ0ZV .framer-ac93e5-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "07 Syllabus — course",
+      "path": [
+        "07 Syllabus — course"
+      ],
+      "classes": "framer-9fmknk",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-UJ0ZV .framer-18l6svx,.framer-UJ0ZV .framer-1bvahbd,.framer-UJ0ZV .framer-15qozf2,.framer-UJ0ZV .framer-1smcwec,.framer-UJ0ZV .framer-1a4q978,.framer-UJ0ZV .framer-f6ilmn,.framer-UJ0ZV .framer-9fmknk,.framer-UJ0ZV .framer-yn83fw,.framer-UJ0ZV .framer-1qhbtwv,.framer-UJ0ZV .framer-1whmd0g,.framer-UJ0ZV .framer-10bcwj7,.framer-UJ0ZV .framer-1rd7qw8,.framer-UJ0ZV .framer-twumt3,.framer-UJ0ZV .framer-d8k8x3",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DsCourse",
+      "path": [
+        "07 Syllabus — course",
+        "DsCourse"
+      ],
+      "classes": "framer-edb8cz-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": " .framer-16rkv8n-container,.framer-UJ0ZV .framer-640wh3-container,.framer-UJ0ZV .framer-15818cg-container,.framer-UJ0ZV .framer-1na1b6h-container,.framer-UJ0ZV .framer-124jjdw-container,.framer-UJ0ZV .framer-edb8cz-container,.framer-UJ0ZV .framer-gg8k5q-container,.framer-UJ0ZV .framer-wkg4rr-container,.framer-UJ0ZV .framer-1r9p6v3-container,.framer-UJ0ZV .framer-1mok9is-container,.framer-UJ0ZV .framer-1u0e1i3-container,.framer-UJ0ZV .framer-ksozek-container,.framer-UJ0ZV .framer-ac93e5-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "08 Counter — numbers",
+      "path": [
+        "08 Counter — numbers"
+      ],
+      "classes": "framer-yn83fw",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-UJ0ZV .framer-18l6svx,.framer-UJ0ZV .framer-1bvahbd,.framer-UJ0ZV .framer-15qozf2,.framer-UJ0ZV .framer-1smcwec,.framer-UJ0ZV .framer-1a4q978,.framer-UJ0ZV .framer-f6ilmn,.framer-UJ0ZV .framer-9fmknk,.framer-UJ0ZV .framer-yn83fw,.framer-UJ0ZV .framer-1qhbtwv,.framer-UJ0ZV .framer-1whmd0g,.framer-UJ0ZV .framer-10bcwj7,.framer-UJ0ZV .framer-1rd7qw8,.framer-UJ0ZV .framer-twumt3,.framer-UJ0ZV .framer-d8k8x3",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DsProof",
+      "path": [
+        "08 Counter — numbers",
+        "DsProof"
+      ],
+      "classes": "framer-gg8k5q-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": " .framer-16rkv8n-container,.framer-UJ0ZV .framer-640wh3-container,.framer-UJ0ZV .framer-15818cg-container,.framer-UJ0ZV .framer-1na1b6h-container,.framer-UJ0ZV .framer-124jjdw-container,.framer-UJ0ZV .framer-edb8cz-container,.framer-UJ0ZV .framer-gg8k5q-container,.framer-UJ0ZV .framer-wkg4rr-container,.framer-UJ0ZV .framer-1r9p6v3-container,.framer-UJ0ZV .framer-1mok9is-container,.framer-UJ0ZV .framer-1u0e1i3-container,.framer-UJ0ZV .framer-ksozek-container,.framer-UJ0ZV .framer-ac93e5-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "09 Receipts — reviews",
+      "path": [
+        "09 Receipts — reviews"
+      ],
+      "classes": "framer-1qhbtwv",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-UJ0ZV .framer-18l6svx,.framer-UJ0ZV .framer-1bvahbd,.framer-UJ0ZV .framer-15qozf2,.framer-UJ0ZV .framer-1smcwec,.framer-UJ0ZV .framer-1a4q978,.framer-UJ0ZV .framer-f6ilmn,.framer-UJ0ZV .framer-9fmknk,.framer-UJ0ZV .framer-yn83fw,.framer-UJ0ZV .framer-1qhbtwv,.framer-UJ0ZV .framer-1whmd0g,.framer-UJ0ZV .framer-10bcwj7,.framer-UJ0ZV .framer-1rd7qw8,.framer-UJ0ZV .framer-twumt3,.framer-UJ0ZV .framer-d8k8x3",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DsReviews",
+      "path": [
+        "09 Receipts — reviews",
+        "DsReviews"
+      ],
+      "classes": "framer-wkg4rr-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": " .framer-16rkv8n-container,.framer-UJ0ZV .framer-640wh3-container,.framer-UJ0ZV .framer-15818cg-container,.framer-UJ0ZV .framer-1na1b6h-container,.framer-UJ0ZV .framer-124jjdw-container,.framer-UJ0ZV .framer-edb8cz-container,.framer-UJ0ZV .framer-gg8k5q-container,.framer-UJ0ZV .framer-wkg4rr-container,.framer-UJ0ZV .framer-1r9p6v3-container,.framer-UJ0ZV .framer-1mok9is-container,.framer-UJ0ZV .framer-1u0e1i3-container,.framer-UJ0ZV .framer-ksozek-container,.framer-UJ0ZV .framer-ac93e5-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "10 Behind the counter — studio",
+      "path": [
+        "10 Behind the counter — studio"
+      ],
+      "classes": "framer-1whmd0g",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-UJ0ZV .framer-18l6svx,.framer-UJ0ZV .framer-1bvahbd,.framer-UJ0ZV .framer-15qozf2,.framer-UJ0ZV .framer-1smcwec,.framer-UJ0ZV .framer-1a4q978,.framer-UJ0ZV .framer-f6ilmn,.framer-UJ0ZV .framer-9fmknk,.framer-UJ0ZV .framer-yn83fw,.framer-UJ0ZV .framer-1qhbtwv,.framer-UJ0ZV .framer-1whmd0g,.framer-UJ0ZV .framer-10bcwj7,.framer-UJ0ZV .framer-1rd7qw8,.framer-UJ0ZV .framer-twumt3,.framer-UJ0ZV .framer-d8k8x3",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DsCreator",
+      "path": [
+        "10 Behind the counter — studio",
+        "DsCreator"
+      ],
+      "classes": "framer-1r9p6v3-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": " .framer-16rkv8n-container,.framer-UJ0ZV .framer-640wh3-container,.framer-UJ0ZV .framer-15818cg-container,.framer-UJ0ZV .framer-1na1b6h-container,.framer-UJ0ZV .framer-124jjdw-container,.framer-UJ0ZV .framer-edb8cz-container,.framer-UJ0ZV .framer-gg8k5q-container,.framer-UJ0ZV .framer-wkg4rr-container,.framer-UJ0ZV .framer-1r9p6v3-container,.framer-UJ0ZV .framer-1mok9is-container,.framer-UJ0ZV .framer-1u0e1i3-container,.framer-UJ0ZV .framer-ksozek-container,.framer-UJ0ZV .framer-ac93e5-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "11 Free shelf — lead magnet",
+      "path": [
+        "11 Free shelf — lead magnet"
+      ],
+      "classes": "framer-10bcwj7",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-UJ0ZV .framer-18l6svx,.framer-UJ0ZV .framer-1bvahbd,.framer-UJ0ZV .framer-15qozf2,.framer-UJ0ZV .framer-1smcwec,.framer-UJ0ZV .framer-1a4q978,.framer-UJ0ZV .framer-f6ilmn,.framer-UJ0ZV .framer-9fmknk,.framer-UJ0ZV .framer-yn83fw,.framer-UJ0ZV .framer-1qhbtwv,.framer-UJ0ZV .framer-1whmd0g,.framer-UJ0ZV .framer-10bcwj7,.framer-UJ0ZV .framer-1rd7qw8,.framer-UJ0ZV .framer-twumt3,.framer-UJ0ZV .framer-d8k8x3",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DsFree",
+      "path": [
+        "11 Free shelf — lead magnet",
+        "DsFree"
+      ],
+      "classes": "framer-1mok9is-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": " .framer-16rkv8n-container,.framer-UJ0ZV .framer-640wh3-container,.framer-UJ0ZV .framer-15818cg-container,.framer-UJ0ZV .framer-1na1b6h-container,.framer-UJ0ZV .framer-124jjdw-container,.framer-UJ0ZV .framer-edb8cz-container,.framer-UJ0ZV .framer-gg8k5q-container,.framer-UJ0ZV .framer-wkg4rr-container,.framer-UJ0ZV .framer-1r9p6v3-container,.framer-UJ0ZV .framer-1mok9is-container,.framer-UJ0ZV .framer-1u0e1i3-container,.framer-UJ0ZV .framer-ksozek-container,.framer-UJ0ZV .framer-ac93e5-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "12 Price tags — FAQ",
+      "path": [
+        "12 Price tags — FAQ"
+      ],
+      "classes": "framer-1rd7qw8",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-UJ0ZV .framer-18l6svx,.framer-UJ0ZV .framer-1bvahbd,.framer-UJ0ZV .framer-15qozf2,.framer-UJ0ZV .framer-1smcwec,.framer-UJ0ZV .framer-1a4q978,.framer-UJ0ZV .framer-f6ilmn,.framer-UJ0ZV .framer-9fmknk,.framer-UJ0ZV .framer-yn83fw,.framer-UJ0ZV .framer-1qhbtwv,.framer-UJ0ZV .framer-1whmd0g,.framer-UJ0ZV .framer-10bcwj7,.framer-UJ0ZV .framer-1rd7qw8,.framer-UJ0ZV .framer-twumt3,.framer-UJ0ZV .framer-d8k8x3",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DsFaq",
+      "path": [
+        "12 Price tags — FAQ",
+        "DsFaq"
+      ],
+      "classes": "framer-1u0e1i3-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": " .framer-16rkv8n-container,.framer-UJ0ZV .framer-640wh3-container,.framer-UJ0ZV .framer-15818cg-container,.framer-UJ0ZV .framer-1na1b6h-container,.framer-UJ0ZV .framer-124jjdw-container,.framer-UJ0ZV .framer-edb8cz-container,.framer-UJ0ZV .framer-gg8k5q-container,.framer-UJ0ZV .framer-wkg4rr-container,.framer-UJ0ZV .framer-1r9p6v3-container,.framer-UJ0ZV .framer-1mok9is-container,.framer-UJ0ZV .framer-1u0e1i3-container,.framer-UJ0ZV .framer-ksozek-container,.framer-UJ0ZV .framer-ac93e5-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "13 Notes",
+      "path": [
+        "13 Notes"
+      ],
+      "classes": "framer-twumt3",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-UJ0ZV .framer-18l6svx,.framer-UJ0ZV .framer-1bvahbd,.framer-UJ0ZV .framer-15qozf2,.framer-UJ0ZV .framer-1smcwec,.framer-UJ0ZV .framer-1a4q978,.framer-UJ0ZV .framer-f6ilmn,.framer-UJ0ZV .framer-9fmknk,.framer-UJ0ZV .framer-yn83fw,.framer-UJ0ZV .framer-1qhbtwv,.framer-UJ0ZV .framer-1whmd0g,.framer-UJ0ZV .framer-10bcwj7,.framer-UJ0ZV .framer-1rd7qw8,.framer-UJ0ZV .framer-twumt3,.framer-UJ0ZV .framer-d8k8x3",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DsNotes",
+      "path": [
+        "13 Notes",
+        "DsNotes"
+      ],
+      "classes": "framer-ksozek-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": " .framer-16rkv8n-container,.framer-UJ0ZV .framer-640wh3-container,.framer-UJ0ZV .framer-15818cg-container,.framer-UJ0ZV .framer-1na1b6h-container,.framer-UJ0ZV .framer-124jjdw-container,.framer-UJ0ZV .framer-edb8cz-container,.framer-UJ0ZV .framer-gg8k5q-container,.framer-UJ0ZV .framer-wkg4rr-container,.framer-UJ0ZV .framer-1r9p6v3-container,.framer-UJ0ZV .framer-1mok9is-container,.framer-UJ0ZV .framer-1u0e1i3-container,.framer-UJ0ZV .framer-ksozek-container,.framer-UJ0ZV .framer-ac93e5-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "14 Closing time — CTA",
+      "path": [
+        "14 Closing time — CTA"
+      ],
+      "classes": "framer-d8k8x3",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-UJ0ZV .framer-18l6svx,.framer-UJ0ZV .framer-1bvahbd,.framer-UJ0ZV .framer-15qozf2,.framer-UJ0ZV .framer-1smcwec,.framer-UJ0ZV .framer-1a4q978,.framer-UJ0ZV .framer-f6ilmn,.framer-UJ0ZV .framer-9fmknk,.framer-UJ0ZV .framer-yn83fw,.framer-UJ0ZV .framer-1qhbtwv,.framer-UJ0ZV .framer-1whmd0g,.framer-UJ0ZV .framer-10bcwj7,.framer-UJ0ZV .framer-1rd7qw8,.framer-UJ0ZV .framer-twumt3,.framer-UJ0ZV .framer-d8k8x3",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DsCta",
+      "path": [
+        "14 Closing time — CTA",
+        "DsCta"
+      ],
+      "classes": "framer-ac93e5-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": " .framer-16rkv8n-container,.framer-UJ0ZV .framer-640wh3-container,.framer-UJ0ZV .framer-15818cg-container,.framer-UJ0ZV .framer-1na1b6h-container,.framer-UJ0ZV .framer-124jjdw-container,.framer-UJ0ZV .framer-edb8cz-container,.framer-UJ0ZV .framer-gg8k5q-container,.framer-UJ0ZV .framer-wkg4rr-container,.framer-UJ0ZV .framer-1r9p6v3-container,.framer-UJ0ZV .framer-1mok9is-container,.framer-UJ0ZV .framer-1u0e1i3-container,.framer-UJ0ZV .framer-ksozek-container,.framer-UJ0ZV .framer-ac93e5-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "② FOOTER — link columns, newsletter, local time, socials",
+      "path": [
+        "② FOOTER — link columns, newsletter, local time, socials"
+      ],
+      "classes": "framer-gupg4g",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-gupg4g",
+          "mediaContext": [],
+          "values": {
+            "align-items": "flex-start",
+            "gap": "0",
+            "width": "100%",
+            "height": "min-content",
+            "padding": "0",
+            "display": "flex",
+            "position": "relative"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DsFooter",
+      "path": [
+        "② FOOTER — link columns, newsletter, local time, socials",
+        "DsFooter"
+      ],
+      "classes": "framer-w0twtf-container",
+      "inlineStyle": "",
+      "declarations": [
+        {
+          "selector": ".framer-1TBC6 .framer-w0twtf-container",
+          "mediaContext": [],
+          "values": {
+            "width": "100%",
+            "height": "auto",
+            "position": "relative"
+          }
+        }
+      ]
+    }
+  ],
+  "mediaQueries": [
+    "@media(min-width: 1200px)",
+    "@media(min-width: 810px) and (max-width: 1199.98px)",
+    "@media(max-width: 809.98px)",
+    "@media (max-width:809.98px)",
+    "@media (min-width:810px) and (max-width:1199.98px)",
+    "@media (max-width:600px),(hover:none)",
+    "@media (prefers-reduced-motion:reduce)",
+    "@media (max-width:1100px)",
+    "@media (max-width:809px)",
+    "@media (max-width:1099px)",
+    "@media (max-width:699px)"
+  ],
+  "colorFrequency": [
+    [
+      "#1D1830",
+      46
+    ],
+    [
+      "#EDE3D1",
+      46
+    ],
+    [
+      "#FFFFFF",
+      46
+    ],
+    [
+      "#0F1113",
+      46
+    ],
+    [
+      "#17100C",
+      46
+    ],
+    [
+      "#F3EBDD",
+      46
+    ],
+    [
+      "#8A8A90",
+      6
+    ],
+    [
+      "#F1E9DA",
+      6
+    ],
+    [
+      "#D9D0C0",
+      6
+    ],
+    [
+      "#E8E8EC",
+      3
+    ],
+    [
+      "#f3ebdd",
+      1
+    ],
+    [
+      "#17100c",
+      1
+    ],
+    [
+      "#ff6a2b",
+      1
+    ],
+    [
+      "#2b1c17",
+      1
+    ],
+    [
+      "#dacfbf",
+      1
+    ],
+    [
+      "#8c7f73",
+      1
+    ],
+    [
+      "#1f1512",
+      1
+    ]
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "name": "Essentia",
+  "source": "https://essentia.framer.media/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#f8f5f0",
+    "paper": "#ffffff",
+    "ink": "#3a3d38",
+    "accent": "#d4dccf",
+    "muted": "#545454"
+  },
+  "type": {
+    "body": "Geist",
+    "display": "Geist",
+    "roles": [
+      {
+        "role": "Desktop logo",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 22,
+        "linePx": 24.2,
+        "tracking": "-0.03em"
+      },
+      {
+        "role": "Navigation",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 18,
+        "linePx": 25.2,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Hero heading",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 82,
+        "linePx": 86.1,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Hero subline",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 32,
+        "linePx": 38.4,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Section heading",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 60,
+        "linePx": 66.0,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Product heading",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 44,
+        "linePx": 52.8,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Commerce button",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 16,
+        "linePx": 24.0,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Ingredient label",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 12,
+        "linePx": 14.4,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Body paragraph",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 16,
+        "linePx": 24.0,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Giant brand word",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 294.79126663162765,
+        "linePx": 235.833,
+        "tracking": "-0.03em"
+      }
+    ],
+    "rolesEvidence": "Declared source CSS roles; no rendered measurements.",
+    "variationAxes": {
+      "declared": [
+        "Geist Variable nested logo: font-weight 400 with wght 600",
+        "Geist Variable preset italic alternatives: wght 500, 550, 600, 700 depending role"
+      ],
+      "recreation": "Keep explicit font-variation-settings when using variable-family spans; primary Geist specimens use weight 500."
+    },
+    "sourceRoleDetails": [
+      [
+        "Desktop logo",
+        "Geist",
+        500,
+        22,
+        24.2,
+        "-0.03em"
+      ],
+      [
+        "Navigation",
+        "Geist",
+        500,
+        18,
+        25.2,
+        "-.03em"
+      ],
+      [
+        "Hero heading",
+        "Geist",
+        500,
+        82,
+        86.1,
+        "-.03em"
+      ],
+      [
+        "Hero subline",
+        "Geist",
+        500,
+        32,
+        38.4,
+        "-.03em"
+      ],
+      [
+        "Section heading",
+        "Geist",
+        500,
+        60,
+        66.0,
+        "-.04em"
+      ],
+      [
+        "Product heading",
+        "Geist",
+        500,
+        44,
+        52.8,
+        "-.03em"
+      ],
+      [
+        "Commerce button",
+        "Geist",
+        500,
+        16,
+        24.0,
+        "-.02em"
+      ],
+      [
+        "Ingredient label",
+        "Geist",
+        500,
+        12,
+        14.4,
+        "-.02em"
+      ],
+      [
+        "Body paragraph",
+        "Geist",
+        500,
+        16,
+        24.0,
+        "-.02em"
+      ],
+      [
+        "Giant brand word",
+        "Geist",
+        500,
+        294.79126663162765,
+        235.833,
+        "-0.03em"
+      ]
+    ]
+  },
+  "spacing": {
+    "desktopGutterPx": 48,
+    "componentGapPx": 48,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 8,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      992,
+      768
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 992px) and (max-width: 1199.98px)",
+      "@media(min-width: 768px) and (max-width: 991.98px)",
+      "@media(max-width: 767.98px)",
+      "@media (max-width:1199px) and (min-width:992px)",
+      "@media (max-width:991px) and (min-width:768px)",
+      "@media (max-width:767px) and (min-width:0)",
+      "@media (max-width:767.98px)",
+      "@media (min-width:768px) and (max-width:991.98px)",
+      "@media (min-width:992px) and (max-width:1199.98px)",
+      "@media (max-width:991px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      0,
+      767,
+      767.98,
+      768,
+      809,
+      810,
+      991,
+      991.98,
+      992,
+      1199,
+      1199.98,
+      1200
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Ecommerce",
+    "branch": "Beauty"
+  },
+  "sourceColorContext": "Selected source palette; apply contrasting ink per surface.",
+  "commerce": {
+    "blueprint": "COMMERCE-BLUEPRINT.md",
+    "pageDeclarations": "catalog-and-product-declarations.json",
+    "integrationStatus": "Unverified; no transactions executed"
+  },
+  "surfacePairs": {
+    "light": {
+      "background": "#ffffff",
+      "text": "#3a3d38"
+    },
+    "dark": {
+      "background": "#111111",
+      "text": "#FFFFFF"
+    }
+  }
+}

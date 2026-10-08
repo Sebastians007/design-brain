@@ -1,0 +1,292 @@
+{
+  "name": "Menorca",
+  "source": "https://menorca.framer.media/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#ffffff",
+    "paper": "#f5f5f5",
+    "ink": "#000000",
+    "accent": "#39cc8f",
+    "muted": "#424242"
+  },
+  "type": {
+    "body": "Inter",
+    "display": "Inter Variable",
+    "roles": [
+      {
+        "role": "promo-strip",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 12,
+        "linePx": 14.4,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "desktop-logo",
+        "family": "Gloria Hallelujah",
+        "weight": 400,
+        "sizePx": 20,
+        "linePx": 32,
+        "tracking": "-0.1em"
+      },
+      {
+        "role": "hero-desktop",
+        "family": "Inter Variable",
+        "weight": 500,
+        "sizePx": 56,
+        "linePx": 67.2,
+        "tracking": "-0.05em"
+      },
+      {
+        "role": "hero-tablet",
+        "family": "Inter Variable",
+        "weight": 500,
+        "sizePx": 40,
+        "linePx": 48,
+        "tracking": "-0.05em"
+      },
+      {
+        "role": "hero-phone",
+        "family": "Inter Variable",
+        "weight": 500,
+        "sizePx": 28,
+        "linePx": 33.6,
+        "tracking": "-0.05em"
+      },
+      {
+        "role": "hero-support",
+        "family": "Inter",
+        "weight": 100,
+        "sizePx": 16,
+        "linePx": 19.2,
+        "tracking": "-0.04em"
+      },
+      {
+        "role": "hero-link",
+        "family": "Inter",
+        "weight": 400,
+        "sizePx": 14,
+        "linePx": 16.8,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "product-title",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 14,
+        "linePx": 16.8,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "product-badge",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 10,
+        "linePx": 12,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "paired-collection-title",
+        "family": "Inter",
+        "weight": 400,
+        "sizePx": 24,
+        "linePx": 28.8,
+        "tracking": "-0.07em"
+      },
+      {
+        "role": "season-collection-title",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 24,
+        "linePx": 28.8,
+        "tracking": "-0.07em"
+      },
+      {
+        "role": "footer-heading",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 14,
+        "linePx": 16.8,
+        "tracking": "-0.06em"
+      },
+      {
+        "role": "footer-wordmark-desktop",
+        "family": "Inter",
+        "weight": 700,
+        "sizePx": 193.69916229971585,
+        "linePx": 213.06907852968746,
+        "tracking": "-0.08em"
+      }
+    ],
+    "rolesEvidence": "Declared source CSS roles; no rendered measurements.",
+    "variationAxes": {
+      "source": "Inter Variable is declared; CSS uses normal font-variation axes on relevant text. No explicit axis range is established from the provided evidence.",
+      "recommendation": "Use CSS font-weight for specimen control without inventing additional axis ranges."
+    },
+    "sourceRoleDetails": [
+      [
+        "promo-strip",
+        "Inter",
+        500,
+        12,
+        14.4,
+        "-0.02em"
+      ],
+      [
+        "desktop-logo",
+        "Gloria Hallelujah",
+        400,
+        20,
+        32,
+        "-0.1em"
+      ],
+      [
+        "hero-desktop",
+        "Inter Variable",
+        500,
+        56,
+        67.2,
+        "-0.05em"
+      ],
+      [
+        "hero-tablet",
+        "Inter Variable",
+        500,
+        40,
+        48,
+        "-0.05em"
+      ],
+      [
+        "hero-phone",
+        "Inter Variable",
+        500,
+        28,
+        33.6,
+        "-0.05em"
+      ],
+      [
+        "hero-support",
+        "Inter",
+        100,
+        16,
+        19.2,
+        "-0.04em"
+      ],
+      [
+        "hero-link",
+        "Inter",
+        400,
+        14,
+        16.8,
+        "-0.02em"
+      ],
+      [
+        "product-title",
+        "Inter",
+        500,
+        14,
+        16.8,
+        "-0.02em"
+      ],
+      [
+        "product-badge",
+        "Inter",
+        500,
+        10,
+        12,
+        "-0.02em"
+      ],
+      [
+        "paired-collection-title",
+        "Inter",
+        400,
+        24,
+        28.8,
+        "-0.07em"
+      ],
+      [
+        "season-collection-title",
+        "Inter",
+        500,
+        24,
+        28.8,
+        "-0.07em"
+      ],
+      [
+        "footer-heading",
+        "Inter",
+        500,
+        14,
+        16.8,
+        "-0.06em"
+      ],
+      [
+        "footer-wordmark-desktop",
+        "Inter",
+        700,
+        193.69916229971585,
+        213.06907852968746,
+        "-0.08em"
+      ]
+    ]
+  },
+  "spacing": {
+    "desktopGutterPx": 20,
+    "componentGapPx": 10,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 0,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (max-width:809.98px)",
+      "@media (min-width:810px) and (max-width:1199.98px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      809.98,
+      810,
+      1199.98,
+      1200
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Ecommerce",
+    "branch": "Fashion"
+  },
+  "sourceColorContext": "Selected source palette; apply contrasting ink per surface.",
+  "commerce": {
+    "blueprint": "COMMERCE-BLUEPRINT.md",
+    "pageDeclarations": "catalog-and-product-declarations.json",
+    "integrationStatus": "Unverified; no transactions executed"
+  },
+  "surfacePairs": {
+    "light": {
+      "background": "#f5f5f5",
+      "text": "#000000"
+    },
+    "dark": {
+      "background": "#111111",
+      "text": "#FFFFFF"
+    }
+  }
+}

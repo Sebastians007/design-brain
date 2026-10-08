@@ -1,0 +1,236 @@
+{
+  "name": "Creator Store",
+  "source": "https://helpful-instance-487483.framer.app/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#1F1512",
+    "paper": "#F3EBDD",
+    "ink": "#F3EBDD",
+    "accent": "#FF6A2B",
+    "muted": "#CBBCAD"
+  },
+  "type": {
+    "body": "Manrope",
+    "display": "Gabarito",
+    "roles": [
+      {
+        "role": "Hero .dsh-h1",
+        "family": "Gabarito",
+        "weight": 700,
+        "sizePx": 80.64,
+        "linePx": 75.8016,
+        "tracking": "-0.03em"
+      },
+      {
+        "role": "Hero prose .dsh-sub",
+        "family": "Manrope",
+        "weight": 400,
+        "sizePx": 17,
+        "linePx": 26.35,
+        "tracking": "normal"
+      },
+      {
+        "role": "Hero eyebrow .dsh-eb",
+        "family": "Azeret Mono",
+        "weight": 400,
+        "sizePx": 11.5,
+        "linePx": 14,
+        "tracking": "0.14em"
+      },
+      {
+        "role": "Receipt .dsh-rcpt",
+        "family": "Azeret Mono",
+        "weight": 400,
+        "sizePx": 11.5,
+        "linePx": 14,
+        "tracking": "0.02em"
+      },
+      {
+        "role": "Tag action .ds-btn",
+        "family": "Manrope",
+        "weight": 700,
+        "sizePx": 14,
+        "linePx": 16.8,
+        "tracking": "0.01em"
+      },
+      {
+        "role": "Section .ds-hd (aisles)",
+        "family": "Gabarito",
+        "weight": 400,
+        "sizePx": 72,
+        "linePx": 67.68,
+        "tracking": "0.005em"
+      },
+      {
+        "role": "Aisle name .dsty-name",
+        "family": "Gabarito",
+        "weight": 700,
+        "sizePx": 46,
+        "linePx": 46,
+        "tracking": "-0.03em"
+      },
+      {
+        "role": "Package title .dsh-print b",
+        "family": "Gabarito",
+        "weight": 700,
+        "sizePx": 13,
+        "linePx": 13.65,
+        "tracking": "-0.01em"
+      },
+      {
+        "role": "Footer logo .dsft-logo",
+        "family": "Gabarito",
+        "weight": 700,
+        "sizePx": 24,
+        "linePx": 28.8,
+        "tracking": "-0.02em"
+      }
+    ],
+    "rolesEvidence": "sizePx values evaluate declared clamps at 1440px. Hero inline fallback weight 700 overrides stylesheet 800. Shared .ds-hd sets 400!important and uppercase. Receipt/eyebrow/footer line-height is not explicit: 14/14/28.8px are recommended recreation values; other line heights follow explicit CSS. Footer inline display fallback overrides class weight 800. This records declarations, not computed browser metrics. Aisle and package title inline display fallbacks likewise override class weight 800 with 700.",
+    "variationAxes": [],
+    "sourceRoleDetails": [
+      [
+        "Hero .dsh-h1",
+        "Gabarito",
+        700,
+        80.64,
+        75.8016,
+        "-0.03em"
+      ],
+      [
+        "Hero prose .dsh-sub",
+        "Manrope",
+        400,
+        17,
+        26.35,
+        "normal"
+      ],
+      [
+        "Hero eyebrow .dsh-eb",
+        "Azeret Mono",
+        400,
+        11.5,
+        14,
+        "0.14em"
+      ],
+      [
+        "Receipt .dsh-rcpt",
+        "Azeret Mono",
+        400,
+        11.5,
+        14,
+        "0.02em"
+      ],
+      [
+        "Tag action .ds-btn",
+        "Manrope",
+        700,
+        14,
+        16.8,
+        "0.01em"
+      ],
+      [
+        "Section .ds-hd (aisles)",
+        "Gabarito",
+        400,
+        72,
+        67.68,
+        "0.005em"
+      ],
+      [
+        "Aisle name .dsty-name",
+        "Gabarito",
+        700,
+        46,
+        46,
+        "-0.03em"
+      ],
+      [
+        "Package title .dsh-print b",
+        "Gabarito",
+        700,
+        13,
+        13.65,
+        "-0.01em"
+      ],
+      [
+        "Footer logo .dsft-logo",
+        "Gabarito",
+        700,
+        24,
+        28.8,
+        "-0.02em"
+      ]
+    ]
+  },
+  "spacing": {
+    "desktopGutterPx": 56,
+    "componentGapPx": 26,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 24,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (max-width:809.98px)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:600px),(hover:none)",
+      "@media (prefers-reduced-motion:reduce)",
+      "@media (max-width:1100px)",
+      "@media (max-width:809px)",
+      "@media (max-width:1099px)",
+      "@media (max-width:699px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      600,
+      699,
+      809,
+      809.98,
+      810,
+      1099,
+      1100,
+      1199.98,
+      1200
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Ecommerce",
+    "branch": "Digital products"
+  },
+  "sourceColorContext": "Source token values: night #1F1512, pine #2B1C17, bone #F3EBDD, ink #17100C, brass #FF6A2B, stone #8C7F73. Muted recommendation resolves the light-surface 60% stone / 40% ink mix. Small accent text uses #B04B20 (66% brass / 34% ink); dark-surface text can use bone and #C0B9B2, with large orange accents.",
+  "commerce": {
+    "blueprint": "COMMERCE-BLUEPRINT.md",
+    "pageDeclarations": "catalog-and-product-declarations.json",
+    "integrationStatus": "Unverified; no transactions executed"
+  },
+  "surfacePairs": {
+    "light": {
+      "background": "#F3EBDD",
+      "text": "#17100C"
+    },
+    "dark": {
+      "background": "#1F1512",
+      "text": "#F3EBDD"
+    }
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "name": "FF Shop",
+  "source": "https://ff-shop.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#eae9e5",
+    "paper": "#deddd6",
+    "ink": "#000000",
+    "accent": "#000000",
+    "muted": "#5c5b56"
+  },
+  "type": {
+    "body": "Uncut Sans Semibold",
+    "display": "Uncut Sans Semibold",
+    "roles": [
+      {
+        "role": "navigation / Menu and Bag",
+        "family": "Uncut Sans Semibold",
+        "weight": 400,
+        "sizePx": 18,
+        "linePx": 20.88,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "hero tagline / category links",
+        "family": "Uncut Sans Semibold",
+        "weight": 400,
+        "sizePx": 18,
+        "linePx": 20.88,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "product card h2",
+        "family": "Uncut Sans Semibold",
+        "weight": 400,
+        "sizePx": 18,
+        "linePx": 20.88,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "brand lead inline declaration",
+        "family": "Uncut Sans Semibold",
+        "weight": 400,
+        "sizePx": 48,
+        "linePx": 49.44,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "large paragraph preset desktop",
+        "family": "Uncut Sans Semibold",
+        "weight": 400,
+        "sizePx": 60,
+        "linePx": 61.8,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "h1 preset desktop",
+        "family": "Uncut Sans Semibold",
+        "weight": 400,
+        "sizePx": 60,
+        "linePx": 61.8,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "news title / date",
+        "family": "Uncut Sans Semibold",
+        "weight": 400,
+        "sizePx": 18,
+        "linePx": 20.88,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "email form label",
+        "family": "Inter",
+        "weight": 500,
+        "sizePx": 12,
+        "linePx": 14.4,
+        "tracking": "0"
+      },
+      {
+        "role": "language select inline input",
+        "family": "Uncut Sans Semibold",
+        "weight": 600,
+        "sizePx": 18,
+        "linePx": 20.88,
+        "tracking": "-0.02em"
+      }
+    ],
+    "rolesEvidence": "Declared source CSS roles; no rendered measurements.",
+    "variationAxes": {
+      "storefront": "normal",
+      "unusedDeclaredVariableFamily": "Bricolage Grotesque Variable declares weight range 200\u2013800; no storefront variable-axis treatment established"
+    },
+    "sourceRoleDetails": [
+      [
+        "navigation / Menu and Bag",
+        "Uncut Sans Semibold",
+        400,
+        18,
+        20.88,
+        "-0.02em"
+      ],
+      [
+        "hero tagline / category links",
+        "Uncut Sans Semibold",
+        400,
+        18,
+        20.88,
+        "-0.02em"
+      ],
+      [
+        "product card h2",
+        "Uncut Sans Semibold",
+        400,
+        18,
+        20.88,
+        "-0.02em"
+      ],
+      [
+        "brand lead inline declaration",
+        "Uncut Sans Semibold",
+        400,
+        48,
+        49.44,
+        "-0.02em"
+      ],
+      [
+        "large paragraph preset desktop",
+        "Uncut Sans Semibold",
+        400,
+        60,
+        61.8,
+        "-0.02em"
+      ],
+      [
+        "h1 preset desktop",
+        "Uncut Sans Semibold",
+        400,
+        60,
+        61.8,
+        "-0.02em"
+      ],
+      [
+        "news title / date",
+        "Uncut Sans Semibold",
+        400,
+        18,
+        20.88,
+        "-0.02em"
+      ],
+      [
+        "email form label",
+        "Inter",
+        500,
+        12,
+        14.4,
+        "0"
+      ],
+      [
+        "language select inline input",
+        "Uncut Sans Semibold",
+        600,
+        18,
+        20.88,
+        "-0.02em"
+      ]
+    ]
+  },
+  "spacing": {
+    "desktopGutterPx": 30,
+    "componentGapPx": 0,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 0,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:809.98px)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      0,
+      809,
+      809.98,
+      810,
+      1199,
+      1199.98,
+      1200
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "Ecommerce",
+    "branch": "Furniture"
+  },
+  "sourceColorContext": "Selected source palette; apply contrasting ink per surface.",
+  "commerce": {
+    "blueprint": "COMMERCE-BLUEPRINT.md",
+    "pageDeclarations": "catalog-and-product-declarations.json",
+    "integrationStatus": "Unverified; no transactions executed"
+  },
+  "surfacePairs": {
+    "light": {
+      "background": "#deddd6",
+      "text": "#000000"
+    },
+    "dark": {
+      "background": "#111111",
+      "text": "#FFFFFF"
+    }
+  }
+}
