@@ -9,7 +9,7 @@ evidence: rendered desktop DOM, full-page screenshot, source public responsive d
 
 # Ace — Quiet Automation Landing Page
 
-An independently authored design-system guide to the live Ace Framer preview. This is a visual reconstruction study, with original substitute prose and an independently implemented local demo. The editable Framer project was not accessed. The accompanying source screenshots preserve the reference appearance.
+An independently authored design-system guide to the live Ace preview. This is a visual reconstruction study, with original substitute prose and an independently implemented local demo. The editable project was not accessed. The accompanying source screenshots preserve the reference appearance.
 
 ## Evidence and interpretation
 
@@ -100,8 +100,8 @@ Source anchor navigation moves smoothly. Pills reveal an arrow on hover and adju
 - Use real DOM text; screenshots are evidence, never page backgrounds.
 - Replace marketing claims and proof with verified content for a real business.
 - Do not add a glowing hero illustration, pricing toggle, or unrelated dashboard: they were not observed in this reference.
-- The Framer badge and the source's unrelated footer copyright are preview context. The recreation credits the reference and identifies itself as a design study.
+- The badge and the source's unrelated footer copyright are preview context. The recreation credits the reference and identifies itself as a design study.
 
 ## Known limits
 
-No editable Framer source, original mobile render, proprietary animation logic, real signup, agent service, or checkout was accessed or implemented. The original actions lead to `https://framer.link/BiM9d9V`; recreated actions intentionally open a local demonstration. Public asset URLs are recorded in `assets-manifest.json` for provenance. A successful deployment confirms hosting, not visual equality.
+No editable source, original mobile render, proprietary animation logic, real signup, agent service, or checkout was accessed or implemented. The original actions lead to `https://framer.link/BiM9d9V`; recreated actions intentionally open a local demonstration. Public asset URLs are recorded in `assets-manifest.json` for provenance. A successful deployment confirms hosting, not visual equality.

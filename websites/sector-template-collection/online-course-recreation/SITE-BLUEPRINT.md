@@ -1,0 +1,19 @@
+# Online Course / Primer site blueprint
+
+## Source anatomy and category fit
+
+SOURCE DECLARED: SoloFoundry’s official Marketplace positions Online Course as an education academy and online school. The preview brand is Primer, a project-led creative learning academy with seven school categories and multiple courses. This provides the multi-course catalog branch of Courses / education and contrasts both a personal flagship-course seller and the existing BrightPath institutional school reference. Five official images and home/detail source are saved; official collage layouts show components but do not establish the page’s actual geometry.
+
+SOURCE DECLARED: visible home order is header → sketch/photo hero → school discovery → course rail → learning method → numbers → teachers → free lesson/syllabus → student project reviews → pricing → FAQ → free-lesson CTA → footer. Shared PmLoader, PmPageTrans, PmSmooth and hidden CMS Bridge components support the page. They are infrastructure rather than additional visible content sections. Actual section anchors are #pricing and #faq. Separate declared routes include /courses, /teachers, /pricing, /about, /journal, /enroll, course details, teacher profiles, /contact and legal pages. The school links carry query strings. Do not invent anchors from layer names.
+
+## Course detail source and content model
+
+SOURCE DECLARED: `/courses/abstract-painting` was inspected as public HTML/CSS. It contains the Abstract painting hero, course metadata/media/actions, What you will make, Who it is for, How it works, Syllabus, What you will need, Your teacher, related courses, student project reviews, free-lesson email CTA and the shared footer. Its h1 declares `clamp(58px,6.2vw,104px)`, line-height.96 and tracking-.025em. Supplemental custom declarations preserve these route-specific CSS rules. Other course routes are declarations until independently inspected.
+
+OPTIONAL RECOMMENDATION: model school, course, teacher, lesson, project, review and plan separately. Courses need title, slug, school, level, project outcome, learner suitability, materials, hero/media, teacher reference, syllabus order, duration and approved price. Lessons need title, order, duration and preview/access status. Maintain one course record across rail, filtered catalog, detail and enrollment destination. Treat feedback deadlines, completion percentages, certification and all-access scope as owner-approved business rules. The source’s CMS Bridge names document content architecture but do not prove that an imported recreation has live CMS editing or course hosting.
+
+## Typography, responsive structure and optional states
+
+SOURCE DECLARED: Young Serif is the display family, Albert Sans is body/interface, and Azeret Mono is metadata. The page requests these through a linked Google Fonts stylesheet; auxiliary font faces include Inter and Fragment Mono. Numeric fluid rows explicitly identify evaluation at1440px or clamp bounds. They are CSS arithmetic, not captured text dimensions. Root breakpoints are1200/810px. Custom wrapping changes pad56px →32px under1099px →20px under699px; other custom queries address600px/380px, hover/pointer conditions and max-height540px. Preserve the original fluid formulae when implementing the reference.
+
+OPTIONAL RECOMMENDATION: one active responsive tree should replace the duplicated desktop/tablet/phone HTML copies to avoid duplicate form IDs and headings. Provide usable static hero imagery, readable course links, normal syllabus order and accessible pricing/FAQ controls under reduced motion. Keep email pending/error/success states honest and connect enrollment, protected lessons, uploads, payments and progress only when a real service is supplied. No enrollment, purchase, video playback, student account, issued certificate or delivery behavior was verified in this source research.

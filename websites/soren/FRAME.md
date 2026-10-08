@@ -30,7 +30,7 @@ layout:
 
 # Soren — Editorial Portfolio Frame System
 
-This is an independently authored reconstruction guide to the **live Soren preview**, not the editable Framer project. It preserves the supplied four-file format and adds implementation evidence. The source is a one-page portfolio by Bryn Taylor. It was inspected on October 6, 2026. Screenshots are the visual authority; measurements explain them; recommended additions are marked.
+This is an independently authored reconstruction guide to the **live Soren preview**, not the editable project. It preserves the supplied four-file format and adds implementation evidence. The source is a one-page portfolio by Bryn Taylor. It was inspected on October 6, 2026. Screenshots are the visual authority; measurements explain them; recommended additions are marked.
 
 ## Read this before building
 
@@ -65,7 +65,7 @@ Body copy in the specimen guide is original substitute copy. The reference scree
 | Contact [06] | Huge serif address inside a flat gray panel | Copy-address interaction; prose left, social rows right below. |
 | Footer | White, sparse columns | Wordmark, anchor links, credits; top rule and generous spacing. |
 
-The intro strip, floating purchase button, Framer badge, and marketplace footer credits belong to the preview's template marketing. Record them as source context. Omit them from a personal production site by default; include them only for an exact screenshot exercise. This is a recommended content choice, not an observation that they are absent.
+The intro strip, floating purchase button, badge, and marketplace footer credits belong to the preview's template marketing. Record them as source context. Omit them from a personal production site by default; include them only for an exact screenshot exercise. This is a recommended content choice, not an observation that they are absent.
 
 ## Measured typography
 
@@ -141,4 +141,4 @@ Use a hero-title frame, a 4:3 project-media frame, a black biography/list frame,
 
 ## Known gaps
 
-The Framer project/CMS implementation and proprietary component source were not accessed. Exact particle and ASCII algorithms, detailed rollover timing, carousel wrap behavior, and copy-success visuals were not recovered. Phone/tablet declarations were read from public CSS; their rendered layouts were not captured in this session. The custom specimen guide demonstrates recommendations for those gaps and must not be treated as evidence that they are native source behaviors. Font and image provenance is retained in the asset manifest; the public preview does not itself establish production redistribution permissions.
+The project/CMS implementation and proprietary component source were not accessed. Exact particle and ASCII algorithms, detailed rollover timing, carousel wrap behavior, and copy-success visuals were not recovered. Phone/tablet declarations were read from public CSS; their rendered layouts were not captured in this session. The custom specimen guide demonstrates recommendations for those gaps and must not be treated as evidence that they are native source behaviors. Font and image provenance is retained in the asset manifest; the public preview does not itself establish production redistribution permissions.

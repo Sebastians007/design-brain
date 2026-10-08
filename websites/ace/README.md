@@ -4,7 +4,7 @@ A quiet AI-agent landing page: black ground, cyan signals, Bespoke Serif heading
 
 **Working recreation:** https://ace-design-brain.smartbuzz.chatgpt.site (private deployment).
 
-**Source:** [Ace Framer preview](https://ace.framer.media/) · inspected October 8, 2026.
+**Source:** [Ace preview](https://ace.framer.media/) · inspected October 8, 2026.
 
 | File | Purpose |
 |---|---|

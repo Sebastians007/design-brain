@@ -17,7 +17,7 @@ Evidence labels: **measured** = inspected rendered desktop; **CSS-derived** = pu
 | Project title | 40px | 34px | 28px | measured / CSS-derived |
 | Mono labels | 16px | 15px | 14px | measured / CSS-derived |
 
-Do not implement the Framer artboard widths of 1200/810/390 as fixed document widths. Those are breakpoint design widths. The implementation must remain fluid between thresholds and never overflow a 320px viewport.
+Do not implement the artboard widths of 1200/810/390 as fixed document widths. Those are breakpoint design widths. The implementation must remain fluid between thresholds and never overflow a 320px viewport.
 
 **CSS-derived structural changes:** tablet About biography spans both grid columns; service/client groups become a horizontal pair. Phone About content becomes a vertical stack, with 40px internal gutters; the three-image gallery remains a compact three-image treatment, with declared fallback heights of 92/184/124px at the 390px artboard. These values sit inside `aspect-ratio` compatibility fallbacks; preserve ratios rather than hardcode them at every phone width. Do not assume they were verified in a phone screenshot.
 

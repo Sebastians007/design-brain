@@ -1,6 +1,6 @@
 # Rebuild this look
 
-Read `FRAME.md`, `design-tokens.json`, `RESPONSIVE-AND-MOTION.md`, and `FIDELITY-CHECKLIST.md`. Inspect `reference-frames.jpg` and the readable crops in `screenshots/`. This is an Ace Framer design reference, not a generic AI SaaS style.
+Read `FRAME.md`, `design-tokens.json`, `RESPONSIVE-AND-MOTION.md`, and `FIDELITY-CHECKLIST.md`. Inspect `reference-frames.jpg` and the readable crops in `screenshots/`. This is an Ace design reference, not a generic AI SaaS style.
 
 Build a quiet black landing page with Bespoke Serif headings, Inter medium body text, Besley prices and a restrained `#2BFFEA` cyan accent. Use the bundled fonts and noise texture. Desktop content max-width is 1136px, section padding 150px top / 100px bottom, card radius 20px, grid gap 8px. Preserve the roomy cards, low-anchored copy and small icons.
 
