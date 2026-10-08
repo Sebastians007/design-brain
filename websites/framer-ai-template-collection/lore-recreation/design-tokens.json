@@ -1,0 +1,718 @@
+{
+  "name": "Lore",
+  "source": "https://lore-app.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#0a0a0a",
+    "paper": "#1a1a1a",
+    "ink": "#ffffff",
+    "accent": "#04b8e0",
+    "muted": "#c2c2c2"
+  },
+  "type": {
+    "body": "DM Sans",
+    "display": "DM Sans",
+    "roles": [
+      {
+        "role": "Header wordmark; source declaration",
+        "family": "Lily Script One",
+        "weight": 400,
+        "sizePx": 26.0,
+        "linePx": 31.2,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Navigation; source declaration",
+        "family": "DM Sans",
+        "weight": 400,
+        "sizePx": 16.0,
+        "linePx": 22.4,
+        "tracking": ".01em"
+      },
+      {
+        "role": "Action; source declaration",
+        "family": "DM Sans",
+        "weight": 500,
+        "sizePx": 16.0,
+        "linePx": 20.8,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Announcement badge; source declaration",
+        "family": "DM Sans",
+        "weight": 400,
+        "sizePx": 16.0,
+        "linePx": 22.4,
+        "tracking": ".01em"
+      },
+      {
+        "role": "Hero title; source declaration",
+        "family": "DM Sans",
+        "weight": 500,
+        "sizePx": 54.0,
+        "linePx": 64.8,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Section heading; source declaration",
+        "family": "DM Sans",
+        "weight": 500,
+        "sizePx": 36.0,
+        "linePx": 43.2,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Step index; source declaration",
+        "family": "DM Sans",
+        "weight": 400,
+        "sizePx": 32.0,
+        "linePx": 38.4,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Control metadata; source declaration",
+        "family": "DM Sans",
+        "weight": 500,
+        "sizePx": 12.0,
+        "linePx": 14.4,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Supporting copy; source declaration",
+        "family": "DM Sans",
+        "weight": 400,
+        "sizePx": 20.0,
+        "linePx": 28.0,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Prompt-card heading; source declaration",
+        "family": "DM Sans",
+        "weight": 500,
+        "sizePx": 24.0,
+        "linePx": 28.8,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Feature metric; source declaration",
+        "family": "DM Sans",
+        "weight": 500,
+        "sizePx": 60.0,
+        "linePx": 72.0,
+        "tracking": "0em"
+      },
+      {
+        "role": "Feature supporting copy; source declaration",
+        "family": "DM Sans",
+        "weight": 400,
+        "sizePx": 18.0,
+        "linePx": 25.2,
+        "tracking": "0em"
+      }
+    ],
+    "rolesEvidence": "Public preview HTML/CSS declarations, not browser-computed measurements. Pixel sizes are literal source values; percentage/em line heights are numerically converted using the declared role size. SourceRoleDetails retains nested overrides, variant paths, stylistic sets and italic rules. Gutter, radius and gap are authored recreation recommendations, not global source measurements.",
+    "sourceRoleDetails": [
+      {
+        "role": "Header wordmark",
+        "path": [
+          "Desktop",
+          "Header",
+          "Logo",
+          "Primary"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Lily Script One\",sans-serif",
+          "--framer-font-open-type-features": "normal",
+          "--framer-font-size": "26px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-5d013f63-fc05-4b00-93de-4bcc5db738d2, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Navigation",
+        "path": [
+          "Desktop",
+          "Header",
+          "Nav",
+          "Link",
+          "Default",
+          "Label"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"ss02\" on,\"ss04\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": ".01em",
+          "--framer-line-height": "1.4em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-5d013f63-fc05-4b00-93de-4bcc5db738d2, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Action",
+        "path": [
+          "Desktop",
+          "Header",
+          "Buttons",
+          "Nav Secondary",
+          "Text"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"ss02\" on,\"ss04\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.3em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-5d013f63-fc05-4b00-93de-4bcc5db738d2, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Announcement badge",
+        "path": [
+          "Desktop",
+          "Header",
+          "Nav",
+          "Link",
+          "Default",
+          "Label"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"ss02\" on,\"ss04\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": ".01em",
+          "--framer-line-height": "1.4em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-5d013f63-fc05-4b00-93de-4bcc5db738d2, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Hero title",
+        "path": [
+          "Main",
+          "Hero",
+          "Content",
+          "Heading",
+          "H1"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"ss02\" on,\"ss04\" on",
+          "--framer-font-size": "54px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-5d013f63-fc05-4b00-93de-4bcc5db738d2, rgb(255, 255, 255))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "--framer-text-color": "var(--token-db0c5912-c415-4ee5-99ae-24f7b2c8eede, rgb(194, 194, 194))"
+          }
+        ]
+      },
+      {
+        "role": "Section heading",
+        "path": [
+          "Main",
+          "How it works",
+          "Content",
+          "Heading",
+          "H2"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"ss02\" on,\"liga\" off,\"ss04\" on",
+          "--framer-font-size": "36px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-5d013f63-fc05-4b00-93de-4bcc5db738d2, rgb(255, 255, 255))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "--framer-text-color": "var(--token-db0c5912-c415-4ee5-99ae-24f7b2c8eede, rgb(194, 194, 194))"
+          }
+        ]
+      },
+      {
+        "role": "Step index",
+        "path": [
+          "Main",
+          "How it works",
+          "Content",
+          "Cards",
+          "01",
+          "Header"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"ss04\" on,\"ss02\" on",
+          "--framer-font-size": "32px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-db0c5912-c415-4ee5-99ae-24f7b2c8eede, rgb(194, 194, 194))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Control metadata",
+        "path": [
+          "Main",
+          "How it works",
+          "Content",
+          "Cards",
+          "01",
+          "Visual",
+          "Card",
+          "Bottom",
+          "Tags",
+          "Model"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"ss02\" on,\"ss04\" on",
+          "--framer-font-size": "12px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-5d013f63-fc05-4b00-93de-4bcc5db738d2, rgb(255, 255, 255))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Supporting copy",
+        "path": [
+          "Main",
+          "How it works",
+          "Content",
+          "Cards",
+          "01"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"ss02\" on,\"ss04\" on",
+          "--framer-font-size": "20px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.4em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "left",
+          "--framer-text-color": "var(--token-db0c5912-c415-4ee5-99ae-24f7b2c8eede, rgb(194, 194, 194))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Prompt-card heading",
+        "path": [
+          "Main",
+          "Showcase",
+          "Content",
+          "Prompt Card 1",
+          "Default",
+          "Heading",
+          "Text Block"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"ss04\" on,\"ss02\" on",
+          "--framer-font-size": "24px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-1eung3n, var(--token-5d013f63-fc05-4b00-93de-4bcc5db738d2, rgb(255, 255, 255)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Feature metric",
+        "path": [
+          "Main",
+          "Features",
+          "Content",
+          "Cards",
+          "Column 1",
+          "1",
+          "Left Card",
+          "Text Block"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"ss04\" on,\"ss02\" on",
+          "--framer-font-size": "60px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-5d013f63-fc05-4b00-93de-4bcc5db738d2, rgb(255, 255, 255))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Feature supporting copy",
+        "path": [
+          "Main",
+          "Features",
+          "Content",
+          "Heading",
+          "Text Block",
+          "Subtitle"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"DM Sans\",\"DM Sans Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"ss02\" on,\"ss04\" on",
+          "--framer-font-size": "18px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "1.4em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-db0c5912-c415-4ee5-99ae-24f7b2c8eede, rgb(194, 194, 194))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      }
+    ],
+    "variationAxes": {
+      "sourceFontFaces": [
+        {
+          "family": "DM Sans",
+          "weightRange": "400",
+          "style": "italic"
+        },
+        {
+          "family": "DM Sans",
+          "weightRange": "400",
+          "style": "normal"
+        },
+        {
+          "family": "DM Sans",
+          "weightRange": "500",
+          "style": "italic"
+        },
+        {
+          "family": "DM Sans",
+          "weightRange": "500",
+          "style": "normal"
+        },
+        {
+          "family": "DM Sans",
+          "weightRange": "700",
+          "style": "italic"
+        },
+        {
+          "family": "DM Sans",
+          "weightRange": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Fragment Mono",
+          "weightRange": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Google Sans",
+          "weightRange": "500",
+          "style": "italic"
+        },
+        {
+          "family": "Google Sans",
+          "weightRange": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Google Sans",
+          "weightRange": "600",
+          "style": "italic"
+        },
+        {
+          "family": "Google Sans",
+          "weightRange": "600",
+          "style": "normal"
+        },
+        {
+          "family": "Google Sans",
+          "weightRange": "700",
+          "style": "italic"
+        },
+        {
+          "family": "Google Sans",
+          "weightRange": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Google Sans Variable",
+          "weightRange": "400 700",
+          "style": "normal"
+        },
+        {
+          "family": "Inter",
+          "weightRange": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Inter Display",
+          "weightRange": "600",
+          "style": "normal"
+        },
+        {
+          "family": "Lily Script One",
+          "weightRange": "400",
+          "style": "normal"
+        }
+      ],
+      "roleAxes": [
+        "normal",
+        "not declared"
+      ]
+    }
+  },
+  "spacing": {
+    "desktopGutterPx": 40,
+    "componentGapPx": 24,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 24,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:809.98px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      809.0,
+      809.98,
+      810.0,
+      1199.0,
+      1199.98,
+      1200.0
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "AI",
+    "branch": "Generative media",
+    "fitEvidence": "The official listing explicitly targets video, image, and audio generation platforms, including a content gallery and product dashboard UI."
+  },
+  "productDemonstrations": {
+    "integrationStatus": "Not tested; website demos and source marketing statements do not prove AI capability.",
+    "blueprint": "AI-PRODUCT-BLUEPRINT.md"
+  }
+}

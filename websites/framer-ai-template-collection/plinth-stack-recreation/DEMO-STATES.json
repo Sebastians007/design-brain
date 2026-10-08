@@ -1,0 +1,29 @@
+{
+  "purpose": "Optional implementation guidance, not a statement that preview controls or services implement these states",
+  "shared": [
+    "idle",
+    "hover",
+    "focus",
+    "selected",
+    "expanded",
+    "loading",
+    "error",
+    "success",
+    "empty"
+  ],
+  "branch": "Enterprise / trust",
+  "archetypeSpecific": [
+    "deployment_selected",
+    "evidence_document_available",
+    "contact_form_valid",
+    "contact_submission_pending"
+  ],
+  "recommendations": [
+    "Preserve source visible controls; do not invent extra product UI.",
+    "A marketing demonstration can use deterministic local fixtures; label simulation and avoid suggesting a real model executed it.",
+    "Keep animation state seek-safe; show readable static content under reduced motion.",
+    "Supply real destinations and configured form handling only when provided and authorized.",
+    "Do not present demo metrics, testimonials, certification badges, model logos or deployment claims as verified business facts."
+  ],
+  "verification": "Live observations are scoped separately in BROWSER-OBSERVATIONS.json and LIVE-PREVIEW-REVIEW.md; model execution, authentication, payment, telemetry and compliance not tested."
+}

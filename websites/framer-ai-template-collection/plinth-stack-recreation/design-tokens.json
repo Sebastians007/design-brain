@@ -1,0 +1,598 @@
+{
+  "name": "Plinth Stack",
+  "source": "https://plinthdev.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#faf9f5",
+    "paper": "#ffffff",
+    "ink": "#121210",
+    "accent": "#1e44e5",
+    "muted": "#6e6c64"
+  },
+  "type": {
+    "body": "Schibsted Grotesk Variable",
+    "display": "Schibsted Grotesk Variable",
+    "roles": [
+      {
+        "role": "Navigation",
+        "family": "Schibsted Grotesk Variable",
+        "weight": 400,
+        "sizePx": 15.0,
+        "linePx": 21.0,
+        "tracking": "-.01em"
+      },
+      {
+        "role": "Hero eyebrow",
+        "family": "JetBrains Mono",
+        "weight": 500,
+        "sizePx": 12.0,
+        "linePx": 16.8,
+        "tracking": "0.14em"
+      },
+      {
+        "role": "Hero H1",
+        "family": "Schibsted Grotesk Variable",
+        "weight": 400,
+        "sizePx": 78.0,
+        "linePx": 78.0,
+        "tracking": "-.035em"
+      },
+      {
+        "role": "Hero description",
+        "family": "Schibsted Grotesk Variable",
+        "weight": 400,
+        "sizePx": 17.0,
+        "linePx": 25.5,
+        "tracking": "-.008em"
+      },
+      {
+        "role": "Hero statistic",
+        "family": "JetBrains Mono",
+        "weight": 500,
+        "sizePx": 19.0,
+        "linePx": 30.4,
+        "tracking": "-0.02em"
+      },
+      {
+        "role": "Metric caption",
+        "family": "JetBrains Mono",
+        "weight": 500,
+        "sizePx": 10.5,
+        "linePx": 16.8,
+        "tracking": "0.12em"
+      },
+      {
+        "role": "Request code",
+        "family": "JetBrains Mono",
+        "weight": 500,
+        "sizePx": 12.0,
+        "linePx": 19.8,
+        "tracking": "0"
+      },
+      {
+        "role": "Section H2",
+        "family": "Schibsted Grotesk Variable",
+        "weight": 400,
+        "sizePx": 41.0,
+        "linePx": 44.28,
+        "tracking": "-.028em"
+      },
+      {
+        "role": "Audience H3",
+        "family": "Schibsted Grotesk Variable",
+        "weight": 400,
+        "sizePx": 22.0,
+        "linePx": 28.16,
+        "tracking": "-.016em"
+      },
+      {
+        "role": "Compact H2",
+        "family": "Schibsted Grotesk Variable",
+        "weight": 400,
+        "sizePx": 31.0,
+        "linePx": 34.72,
+        "tracking": "-.028em"
+      }
+    ],
+    "rolesEvidence": "Type rows preserve numeric font-weight declarations, including 400 when a variable wght axis is 600. Declared em lines converted using declared size. Static and Variable family names remain distinct. SourceRoleDetails retains nested cobalt emphasis, initial reveal styles, italic and variation declarations; no rendered geometry implied.",
+    "sourceRoleDetails": [
+      {
+        "role": "Navigation",
+        "tag": "p",
+        "path": [
+          "Nav / Desktop",
+          "Bar",
+          "Links",
+          "Link / Platform"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "15px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "\"wght\" 500, \"opsz\" 15",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.01em",
+          "--framer-line-height": "1.4em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Hero eyebrow",
+        "tag": "p",
+        "path": [
+          "Hero Ground",
+          "Wrap",
+          "Hero",
+          "Eyebrow"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"JetBrains Mono\", \"JetBrains Mono Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+          "--framer-font-size": "12px",
+          "--framer-letter-spacing": "0.14em",
+          "--framer-text-transform": "uppercase",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.4em",
+          "--framer-text-alignment": "center",
+          "--framer-font-open-type-features": "'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [
+          {
+            "--framer-text-color": "var(--token-d54d722f-2db2-4d8f-b670-3316d0e01143)"
+          },
+          {
+            "--framer-text-color": "var(--token-d54d722f-2db2-4d8f-b670-3316d0e01143)"
+          }
+        ]
+      },
+      {
+        "role": "Hero H1",
+        "tag": "h1",
+        "path": [
+          "Hero Ground",
+          "Wrap",
+          "Hero",
+          "Headline"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "78px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 72",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.035em",
+          "--framer-line-height": "1em",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(4px)",
+            "transform": "translateX(0px) translateY(14px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(4px)",
+            "transform": "translateX(0px) translateY(14px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "--framer-text-color": "var(--token-5d27486a-ec42-4189-a1ef-653867708bc6)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(4px)",
+            "transform": "translateX(0px) translateY(14px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(4px)",
+            "transform": "translateX(0px) translateY(14px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(4px)",
+            "transform": "translateX(0px) translateY(14px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(4px)",
+            "transform": "translateX(0px) translateY(14px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(4px)",
+            "transform": "translateX(0px) translateY(14px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          }
+        ]
+      },
+      {
+        "role": "Hero description",
+        "tag": "p",
+        "path": [
+          "Hero Ground",
+          "Wrap",
+          "Hero",
+          "Lead"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "17px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 20",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.008em",
+          "--framer-line-height": "1.5em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Hero statistic",
+        "tag": "p",
+        "path": [
+          "Hero Ground",
+          "Wrap",
+          "Hero",
+          "Spec Row",
+          "Spec",
+          "MODELS"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"JetBrains Mono\", \"JetBrains Mono Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+          "--framer-font-size": "19px",
+          "--framer-letter-spacing": "-0.02em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "30.4px",
+          "--framer-text-alignment": "center",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Metric caption",
+        "tag": "p",
+        "path": [
+          "Hero Ground",
+          "Wrap",
+          "Hero",
+          "Spec Row",
+          "Spec",
+          "MODELS"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"JetBrains Mono\", \"JetBrains Mono Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--token-d54d722f-2db2-4d8f-b670-3316d0e01143)",
+          "--framer-font-size": "10.5px",
+          "--framer-letter-spacing": "0.12em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "16.8px",
+          "--framer-text-alignment": "center",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Request code",
+        "tag": "p",
+        "path": [
+          "Hero Ground",
+          "Wrap",
+          "Router Row",
+          "Router Card",
+          "Grid",
+          "Request",
+          "Code"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"JetBrains Mono\", \"JetBrains Mono Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--token-cb6a08ba-9bfd-4f06-a6e3-fe571f60006c)",
+          "--framer-font-size": "12px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "19.8px",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Section H2",
+        "tag": "h2",
+        "path": [
+          "The Problem",
+          "Wrap",
+          "Default",
+          "Heading"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "41px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 40",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.028em",
+          "--framer-line-height": "1.08em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(3px)",
+            "transform": "translateX(0px) translateY(12px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(3px)",
+            "transform": "translateX(0px) translateY(12px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(3px)",
+            "transform": "translateX(0px) translateY(12px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(3px)",
+            "transform": "translateX(0px) translateY(12px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(3px)",
+            "transform": "translateX(0px) translateY(12px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(3px)",
+            "transform": "translateX(0px) translateY(12px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          }
+        ]
+      },
+      {
+        "role": "Audience H3",
+        "tag": "h3",
+        "path": [
+          "Built For",
+          "Wrap",
+          "Product",
+          "Tabs Row",
+          "Panel product",
+          "Copy"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "22px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 24",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.016em",
+          "--framer-line-height": "1.28em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Compact H2",
+        "tag": "h2",
+        "path": [
+          "Changelog",
+          "Wrap",
+          "Split",
+          "Side"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+          "--framer-font-size": "31px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "\"wght\" 600",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.028em",
+          "--framer-line-height": "1.12em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(3px)",
+            "transform": "translateX(0px) translateY(12px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(3px)",
+            "transform": "translateX(0px) translateY(12px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(3px)",
+            "transform": "translateX(0px) translateY(12px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          },
+          {
+            "display": "inline-block",
+            "opacity": "0.001",
+            "filter": "blur(3px)",
+            "transform": "translateX(0px) translateY(12px) scale(1) rotate(0deg) skewX(0deg) skewY(0deg)"
+          }
+        ]
+      }
+    ],
+    "variationAxes": {
+      "Hero H1": "\"wght\" 600, \"opsz\" 72",
+      "Section H2": "\"wght\" 600, \"opsz\" 40",
+      "Audience H3": "\"wght\" 600, \"opsz\" 24",
+      "Hero description": "\"wght\" 400, \"opsz\" 20",
+      "Navigation": "\"wght\" 500, \"opsz\" 15",
+      "Compact H2": "\"wght\" 600",
+      "Logo": "var(--extracted-2gg91v, \"wght\" 500)"
+    }
+  },
+  "spacing": {
+    "desktopGutterPx": 32,
+    "componentGapPx": 24,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 4,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1440,
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1440px)",
+      "@media(min-width: 1200px) and (max-width: 1439.98px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:640px)",
+      "@media (max-width:639px) and (min-width:0)",
+      "@media (max-width:1439px) and (min-width:1200px)",
+      "@media (max-width:809px) and (min-width:0)",
+      "@media (min-width:1200px) and (max-width:1439.98px)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:809.98px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      0,
+      639,
+      640,
+      809,
+      809.98,
+      810,
+      1199,
+      1199.98,
+      1200,
+      1439,
+      1439.98,
+      1440
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "AI",
+    "branch": "Enterprise / trust",
+    "fitEvidence": "Official listing targets AI infrastructure and developer platforms, with a Trust Center, retention/residency policy content, and explicit placeholder compliance badges for procurement review."
+  },
+  "productDemonstrations": {
+    "integrationStatus": "Not tested; website demos and source marketing statements do not prove AI capability.",
+    "blueprint": "AI-PRODUCT-BLUEPRINT.md"
+  }
+}

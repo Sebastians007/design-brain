@@ -1,0 +1,168 @@
+{
+  "name": "Code-Craft",
+  "source": "https://code-craft.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#07080a",
+    "paper": "#0e0f11",
+    "ink": "#f4f4f5",
+    "accent": "#c6ff3d",
+    "muted": "#a1a1aa"
+  },
+  "type": {
+    "body": "Google Sans Flex",
+    "display": "Google Sans Flex",
+    "roles": [
+      {
+        "role": "Hero h1",
+        "family": "Google Sans Flex",
+        "weight": 400,
+        "sizePx": 64,
+        "linePx": 69.12,
+        "tracking": "-.035em"
+      },
+      {
+        "role": "Section h2",
+        "family": "Google Sans Flex",
+        "weight": 500,
+        "sizePx": 38,
+        "linePx": 42.56,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Desktop navigation p",
+        "family": "Google Sans Flex",
+        "weight": 400,
+        "sizePx": 14,
+        "linePx": 21,
+        "tracking": "0em"
+      },
+      {
+        "role": "Body p",
+        "family": "Google Sans Flex",
+        "weight": 400,
+        "sizePx": 16,
+        "linePx": 24.8,
+        "tracking": "0em"
+      },
+      {
+        "role": "Announcement badge p",
+        "family": "Google Sans Flex",
+        "weight": 400,
+        "sizePx": 12,
+        "linePx": 17.4,
+        "tracking": ".005em"
+      },
+      {
+        "role": "Eyebrow p",
+        "family": "Google Sans Flex",
+        "weight": 600,
+        "sizePx": 11,
+        "linePx": 14.3,
+        "tracking": "1px"
+      },
+      {
+        "role": "Workflow step label p",
+        "family": "Geist Mono",
+        "weight": 500,
+        "sizePx": 12,
+        "linePx": 19.2,
+        "tracking": "0.08em"
+      },
+      {
+        "role": "Status caption p",
+        "family": "Geist Mono",
+        "weight": 500,
+        "sizePx": 10.5,
+        "linePx": 12.6,
+        "tracking": "0.04em"
+      },
+      {
+        "role": "Plan name h4",
+        "family": "Google Sans Flex",
+        "weight": 500,
+        "sizePx": 30,
+        "linePx": 36,
+        "tracking": "-.025em"
+      },
+      {
+        "role": "Enterprise price h3",
+        "family": "Google Sans Flex",
+        "weight": 500,
+        "sizePx": 40,
+        "linePx": 46,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Blog title p",
+        "family": "Google Sans Flex",
+        "weight": 500,
+        "sizePx": 20,
+        "linePx": 30,
+        "tracking": "-.005em"
+      }
+    ],
+    "rolesEvidence": "Public home role declarations in code-craft-evidence-root/source-facts.json; line heights convert declared em values arithmetically. Google Sans Flex name must remain intact. Public role declarations use variation-axes normal; no custom axis setting is inferred.",
+    "sourceRoleDetails": {
+      "hero": "Inner Container > Hero > Hero Container > Hero Content",
+      "section": "Inner Container > Features > Container > Center",
+      "workflow": "Inner Container > How It Works > Container > Steps",
+      "pricing": "Inner Container > Pricing > Container > Monthly > Pricing Cards"
+    },
+    "variationAxes": {}
+  },
+  "spacing": {
+    "desktopGutterPx": 88,
+    "componentGapPx": 24,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 22,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (prefers-color-scheme:dark)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)",
+      "@media (max-width:809.98px)",
+      "@media (min-width:810px) and (max-width:1199.98px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      0,
+      809,
+      809.98,
+      810,
+      1199,
+      1199.98,
+      1200
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "AI",
+    "branch": "Developer / API",
+    "fitEvidence": "The official listing explicitly identifies AI coding assistants, developer tools, API platforms and SDK products as intended uses. The editor is a marketing mockup; no running code generation backend is established."
+  },
+  "productDemonstrations": {
+    "integrationStatus": "Not tested; website demos and source marketing statements do not prove AI capability.",
+    "blueprint": "AI-PRODUCT-BLUEPRINT.md"
+  }
+}

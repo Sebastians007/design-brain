@@ -1,0 +1,2352 @@
+{
+  "template": "Chatassist Chatbot",
+  "preview": "https://aichatbott.framer.website/",
+  "marketplace": "https://www.framer.com/marketplace/templates/chatassist-chatbot/",
+  "creator": "Gr8r Studio",
+  "coverage": "Public preview HTML/CSS, official marketplace artwork and recorded live browser snapshots at1363x936. Phone/tablet layouts and backend behavior unverified.",
+  "viewport": {
+    "height": 936,
+    "width": 1363
+  },
+  "pageHeight": 9068,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        102,
+        184,
+        1945,
+        1351
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        102,
+        184,
+        1945,
+        1351
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        102,
+        184,
+        1945,
+        1351
+      ],
+      "label": "Official image 4 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-05.jpg",
+      "cropBox": [
+        102,
+        184,
+        1945,
+        1351
+      ],
+      "label": "Official image 5 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        204,
+        337,
+        1187,
+        1075
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        204,
+        337,
+        1187,
+        1075
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        204,
+        337,
+        1187,
+        1075
+      ],
+      "label": "Official image 4 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-05.jpg",
+      "cropBox": [
+        204,
+        337,
+        1187,
+        1075
+      ],
+      "label": "Official image 5 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        1064,
+        307,
+        1884,
+        1198
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [
+    {
+      "box": {
+        "height": 64,
+        "width": 1348,
+        "x": 0,
+        "y": 20
+      },
+      "name": "Phone"
+    },
+    {
+      "box": {
+        "height": 64,
+        "width": 1338,
+        "x": 10,
+        "y": 20
+      },
+      "name": "Container"
+    },
+    {
+      "box": {
+        "height": 64,
+        "width": 1338,
+        "x": 10,
+        "y": 20
+      },
+      "name": "Top"
+    },
+    {
+      "box": {
+        "height": 24.046875,
+        "width": 111,
+        "x": 20,
+        "y": 39.96875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 44,
+        "width": 44,
+        "x": 1294,
+        "y": 30
+      },
+      "name": "Icon"
+    },
+    {
+      "box": {
+        "height": 2,
+        "width": 20,
+        "x": 1306,
+        "y": 56.5
+      },
+      "name": "Bottom"
+    },
+    {
+      "box": {
+        "height": 2,
+        "width": 20,
+        "x": 1306,
+        "y": 45.5
+      },
+      "name": "Top"
+    },
+    {
+      "box": {
+        "height": 1360.59375,
+        "width": 1348,
+        "x": 0,
+        "y": 0
+      },
+      "name": "Hero Section"
+    },
+    {
+      "box": {
+        "height": 1345.59375,
+        "width": 1308,
+        "x": 20,
+        "y": 15
+      },
+      "name": "Conteinar"
+    },
+    {
+      "box": {
+        "height": 319.59375,
+        "width": 794,
+        "x": 277,
+        "y": 175
+      },
+      "name": "Section Tittle"
+    },
+    {
+      "box": {
+        "height": 34.796875,
+        "width": 256,
+        "x": 546,
+        "y": 175
+      },
+      "name": "Sub text"
+    },
+    {
+      "box": {
+        "height": 24,
+        "width": 56,
+        "x": 549,
+        "y": 180.390625
+      },
+      "name": "Image"
+    },
+    {
+      "box": {
+        "height": 149.203125,
+        "width": 794,
+        "x": 277,
+        "y": 227.796875
+      },
+      "name": "Text Content"
+    },
+    {
+      "box": {
+        "height": 80,
+        "width": 794,
+        "x": 277,
+        "y": 227.796875
+      },
+      "name": "Fit Text"
+    },
+    {
+      "box": {
+        "height": 80,
+        "width": 80,
+        "x": 634,
+        "y": 227.796875
+      },
+      "name": "Graphic"
+    },
+    {
+      "box": {
+        "height": 52.796875,
+        "width": 223.5625,
+        "x": 562.21875,
+        "y": 441.796875
+      },
+      "name": "Button"
+    },
+    {
+      "box": {
+        "height": 28.796875,
+        "width": 191.5625,
+        "x": 578.21875,
+        "y": 453.796875
+      },
+      "name": "Content"
+    },
+    {
+      "box": {
+        "height": 24,
+        "width": 24,
+        "x": 745.78125,
+        "y": 456.1875
+      },
+      "name": "Icon Wrap"
+    },
+    {
+      "box": {
+        "height": 810,
+        "width": 1140,
+        "x": 104,
+        "y": 550.59375
+      },
+      "name": "Image Wrapper"
+    },
+    {
+      "box": {
+        "height": 810,
+        "width": 1140,
+        "x": 104,
+        "y": 550.59375
+      },
+      "name": "Image"
+    },
+    {
+      "box": {
+        "height": 317.796875,
+        "width": 1348,
+        "x": 0,
+        "y": 1360.59375
+      },
+      "name": "Brand logos"
+    },
+    {
+      "box": {
+        "height": 117.796875,
+        "width": 1260,
+        "x": 44,
+        "y": 1460.59375
+      },
+      "name": "Container"
+    },
+    {
+      "box": {
+        "height": 28.796875,
+        "width": 1260,
+        "x": 44,
+        "y": 1460.59375
+      },
+      "name": "Trusted by 10,000+ founders & business owners."
+    },
+    {
+      "box": {
+        "height": 45,
+        "width": 1260,
+        "x": 44,
+        "y": 1533.390625
+      },
+      "name": "Logos"
+    },
+    {
+      "box": {
+        "height": 30,
+        "width": 1388,
+        "x": 54,
+        "y": 1540.890625
+      },
+      "name": "Logo Wrap BIg"
+    },
+    {
+      "box": {
+        "height": 30,
+        "width": 1355,
+        "x": 70.5,
+        "y": 1540.890625
+      },
+      "name": "Graphic"
+    },
+    {
+      "box": {
+        "height": 30,
+        "width": 1388,
+        "x": 1474,
+        "y": 1540.890625
+      },
+      "name": "Logo Wrap BIg"
+    },
+    {
+      "box": {
+        "height": 30,
+        "width": 1355,
+        "x": 1490.5,
+        "y": 1540.890625
+      },
+      "name": "Graphic"
+    },
+    {
+      "box": {
+        "height": 30,
+        "width": 1388,
+        "x": 2894,
+        "y": 1540.890625
+      },
+      "name": "Logo Wrap BIg"
+    },
+    {
+      "box": {
+        "height": 30,
+        "width": 1355,
+        "x": 2910.5,
+        "y": 1540.890625
+      },
+      "name": "Graphic"
+    },
+    {
+      "box": {
+        "height": 30,
+        "width": 1388,
+        "x": 4314,
+        "y": 1540.890625
+      },
+      "name": "Logo Wrap BIg"
+    },
+    {
+      "box": {
+        "height": 30,
+        "width": 1355,
+        "x": 4330.5,
+        "y": 1540.890625
+      },
+      "name": "Graphic"
+    },
+    {
+      "box": {
+        "height": 672.828125,
+        "width": 1348,
+        "x": 0,
+        "y": 1678.390625
+      },
+      "name": "Feature Section"
+    },
+    {
+      "box": {
+        "height": 572.828125,
+        "width": 1260,
+        "x": 44,
+        "y": 1678.390625
+      },
+      "name": "Container"
+    },
+    {
+      "box": {
+        "height": 91.1875,
+        "width": 549,
+        "x": 399.5,
+        "y": 1678.390625
+      },
+      "name": "Smart chatbot solution for interactions."
+    },
+    {
+      "box": {
+        "height": 425.640625,
+        "width": 1260,
+        "x": 44,
+        "y": 1825.578125
+      },
+      "name": "Card Image"
+    },
+    {
+      "box": {
+        "height": 425.640625,
+        "width": 398.65625,
+        "x": 44,
+        "y": 1825.578125
+      },
+      "name": "Image Wrap"
+    },
+    {
+      "box": {
+        "height": 425.640625,
+        "width": 398.671875,
+        "x": 474.65625,
+        "y": 1825.578125
+      },
+      "name": "Image Wrap"
+    },
+    {
+      "box": {
+        "height": 425.640625,
+        "width": 398.65625,
+        "x": 905.328125,
+        "y": 1825.578125
+      },
+      "name": "Image Wrap"
+    },
+    {
+      "box": {
+        "height": 1526.28125,
+        "width": 1348,
+        "x": 0,
+        "y": 2351.21875
+      },
+      "name": "Feature Section 2"
+    },
+    {
+      "box": {
+        "height": 1426.28125,
+        "width": 1260,
+        "x": 44,
+        "y": 2351.21875
+      },
+      "name": "Conteinar"
+    },
+    {
+      "box": {
+        "height": 91.1875,
+        "width": 408,
+        "x": 470,
+        "y": 2351.21875
+      },
+      "name": "About Our Company"
+    },
+    {
+      "box": {
+        "height": 1279.09375,
+        "width": 1260,
+        "x": 44,
+        "y": 2498.40625
+      },
+      "name": "Cards"
+    },
+    {
+      "box": {
+        "height": 611.640625,
+        "width": 1260,
+        "x": 44,
+        "y": 2498.40625
+      },
+      "name": "Content"
+    },
+    {
+      "box": {
+        "height": 611.640625,
+        "width": 614,
+        "x": 44,
+        "y": 2498.40625
+      },
+      "name": "Card"
+    },
+    {
+      "box": {
+        "height": 77.203125,
+        "width": 498,
+        "x": 102,
+        "y": 2548.40625
+      },
+      "name": "Text"
+    },
+    {
+      "box": {
+        "height": 36.40625,
+        "width": 498,
+        "x": 102,
+        "y": 2548.40625
+      },
+      "name": "Customer journeys with funnel analysis."
+    },
+    {
+      "box": {
+        "height": 28.796875,
+        "width": 498,
+        "x": 102,
+        "y": 2596.8125
+      },
+      "name": "Customer journeys, when coupled with funnel analysis, provide a comprehensive view."
+    },
+    {
+      "box": {
+        "height": 386.4375,
+        "width": 498,
+        "x": 102,
+        "y": 2665.609375
+      },
+      "name": "Image Wrap"
+    },
+    {
+      "box": {
+        "height": 386.4375,
+        "width": 498,
+        "x": 102,
+        "y": 2665.609375
+      },
+      "name": "Image "
+    },
+    {
+      "box": {
+        "height": 611.640625,
+        "width": 614,
+        "x": 690,
+        "y": 2498.40625
+      },
+      "name": "Card"
+    },
+    {
+      "box": {
+        "height": 386.4375,
+        "width": 498,
+        "x": 748,
+        "y": 2548.40625
+      },
+      "name": "Image Wrap"
+    },
+    {
+      "box": {
+        "height": 386.4375,
+        "width": 498,
+        "x": 748,
+        "y": 2548.40625
+      },
+      "name": "Image "
+    },
+    {
+      "box": {
+        "height": 77.203125,
+        "width": 498,
+        "x": 748,
+        "y": 2974.84375
+      },
+      "name": "Text"
+    },
+    {
+      "box": {
+        "height": 36.40625,
+        "width": 498,
+        "x": 748,
+        "y": 2974.84375
+      },
+      "name": "Customer journeys with funnel analysis."
+    },
+    {
+      "box": {
+        "height": 28.796875,
+        "width": 498,
+        "x": 748,
+        "y": 3023.25
+      },
+      "name": "Customer journeys, when coupled with funnel analysis, provide a comprehensive view."
+    },
+    {
+      "box": {
+        "height": 635.453125,
+        "width": 1260,
+        "x": 44,
+        "y": 3142.046875
+      },
+      "name": "Container"
+    },
+    {
+      "box": {
+        "height": 260,
+        "width": 400,
+        "x": 143,
+        "y": 3190.046875
+      },
+      "name": "Content"
+    },
+    {
+      "box": {
+        "height": 175.203125,
+        "width": 400,
+        "x": 143,
+        "y": 3190.046875
+      },
+      "name": "Text"
+    },
+    {
+      "box": {
+        "height": 72.8125,
+        "width": 400,
+        "x": 143,
+        "y": 3190.046875
+      },
+      "name": "Trusted by 10,000+ founders & business owners."
+    },
+    {
+      "box": {
+        "height": 86.390625,
+        "width": 400,
+        "x": 143,
+        "y": 3278.859375
+      },
+      "name": "Trusted by 10,000+ founders & business owners."
+    },
+    {
+      "box": {
+        "height": 52.796875,
+        "width": 187.890625,
+        "x": 143,
+        "y": 3397.25
+      },
+      "name": "Button"
+    },
+    {
+      "box": {
+        "height": 28.796875,
+        "width": 155.890625,
+        "x": 159,
+        "y": 3409.25
+      },
+      "name": "Content"
+    },
+    {
+      "box": {
+        "height": 24,
+        "width": 24,
+        "x": 290.890625,
+        "y": 3411.640625
+      },
+      "name": "Icon Wrap"
+    },
+    {
+      "box": {
+        "height": 539.453125,
+        "width": 682,
+        "x": 563,
+        "y": 3190.046875
+      },
+      "name": "Image content"
+    },
+    {
+      "box": {
+        "height": 539.453125,
+        "width": 682,
+        "x": 563,
+        "y": 3190.046875
+      },
+      "name": "Image"
+    },
+    {
+      "box": {
+        "height": 619.984375,
+        "width": 1348,
+        "x": 0,
+        "y": 3877.5
+      },
+      "name": "Integration Section "
+    },
+    {
+      "box": {
+        "height": 519.984375,
+        "width": 1260,
+        "x": 44,
+        "y": 3877.5
+      },
+      "name": "Conteinar"
+    },
+    {
+      "box": {
+        "height": 91.1875,
+        "width": 408,
+        "x": 470,
+        "y": 3877.5
+      },
+      "name": "About Our Company"
+    },
+    {
+      "box": {
+        "height": 264,
+        "width": 1260,
+        "x": 44,
+        "y": 4024.6875
+      },
+      "name": "Logos"
+    },
+    {
+      "box": {
+        "height": 120,
+        "width": 1260,
+        "x": 44,
+        "y": 4024.6875
+      },
+      "name": "Container"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 54,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 198,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 342,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 486,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 630,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 774,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 918,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 1062,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 1206,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 1350,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 1494,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 1638,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 1782,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 1926,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 2070,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 2214,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 2358,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 2502,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 2646,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 2790,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 2934,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 3078,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 3222,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 3366,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 3510,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 3654,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 3798,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 3942,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 115,
+        "width": 120,
+        "x": 4086,
+        "y": 4027.1875
+      },
+      "name": "Logo"
+    }
+  ],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Geist",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/geist/v3/gyByhwUxId8gMEwcGFU.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/geist-500-0.woff2"
+    },
+    {
+      "family": "Geist",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/geist/v3/gyByhwUxId8gMEwcGFU.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/geist-700-1.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2070,U+2074-207E,U+2080-208E,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-400-2.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/vQyevYAyHtARFwPqUzQGpnDs.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-400-3.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/1ZFS7N918ojhhd0nQWdj3jz4w.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-600-4.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/DXD0Q7LSl7HEvDzucnyLnGBHM.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-700-5.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/jn4BtSPLlS0NDp1KiFAtFKiiY0o.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-900-6.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "900",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/g0c8vEViiXNlKAgI4Ymmk3Ig.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-900-7.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/QxmhnWTzLtyjIiZcfaLIJ8EFBXU.woff2",
+      "range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+      "file": "assets/fonts/inter-700-8.woff2"
+    },
+    {
+      "family": "Satoshi",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/P2LQKHE6KA6ZP4AAGN72KDWMHH6ZH3TA/ZC32TK2P7FPS5GFTL46EU6KQJA24ZYDB/7AHDUZ4A7LFLVFUIFSARGIWCRQJHISQP.woff2",
+      "range": "",
+      "file": "assets/fonts/satoshi-500-9.woff2"
+    },
+    {
+      "family": "Satoshi",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/LAFFD4SDUCDVQEXFPDC7C53EQ4ZELWQI/PXCT3G6LO6ICM5I3NTYENYPWJAECAWDD/GHM6WVH6MILNYOOCXHXB5GTSGNTMGXZR.woff2",
+      "range": "",
+      "file": "assets/fonts/satoshi-700-10.woff2"
+    },
+    {
+      "family": "Satoshi",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/CDEBEFT2R7XKNGXSBBLZGMY4MMHZG75P/HEVKDGQCYDZ7Z6CDVR2ZQGBCTUD6ZARH/BKWEE3VKGTFABE37K2DTH625VUSN2N35.woff2",
+      "range": "",
+      "file": "assets/fonts/satoshi-700-11.woff2"
+    },
+    {
+      "family": "Satoshi",
+      "weight": "500",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/NID3I7RITWZSKXRCJGOCMP5NOADJK6IG/2HLHGD7OBTWCOHW64YXOE5KFXHU4KJHM/ZHME2QIRFR7UPJ47NLY27RCAFY44CKZJ.woff2",
+      "range": "",
+      "file": "assets/fonts/satoshi-500-12.woff2"
+    },
+    {
+      "family": "Satoshi",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/TTX2Z3BF3P6Y5BQT3IV2VNOK6FL22KUT/7QYRJOI3JIMYHGY6CH7SOIFRQLZOLNJ6/KFIAZD4RUMEZIYV6FQ3T3GP5PDBDB6JY.woff2",
+      "range": "",
+      "file": "assets/fonts/satoshi-400-13.woff2"
+    },
+    {
+      "family": "Satoshi",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/MPIFA4B3XXRNY2MJDGP6GOOOAF6EOCLO/W5E4ZFYPJ3V6JKMBGHB6YMITK6EWS2XA/QOMBWPST76ICDYF6WOBS7SQ7RBT67QW2.woff2",
+      "range": "",
+      "file": "assets/fonts/satoshi-400-14.woff2"
+    },
+    {
+      "family": "Satoshi",
+      "weight": "900",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/NHPGVFYUXYXE33DZ75OIT4JFGHITX5PE/PSUTMASCDJTVPERDYJZPN23BVUFUCQIF/J64QX5IPOHK56I2KYUNBQ5M2XWZEYKYX.woff2",
+      "range": "",
+      "file": "assets/fonts/satoshi-900-15.woff2"
+    },
+    {
+      "family": "Satoshi",
+      "weight": "900",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/5ICO57VJIN252OT5L2KLEIPW754DTLAO/ZU64SLR2IEO66N27IVY5Z6JJJRTJECJK/TCTRLNEXANFIGSFCZTGQL7PZ5362GYK6.woff2",
+      "range": "",
+      "file": "assets/fonts/satoshi-900-16.woff2"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/images/Yjars8lxUWe6PXard2WLOsfU.png",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "360",
+      "height": "79",
+      "path": [
+        "Desktop",
+        "Container",
+        "Top",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Yjars8lxUWe6PXard2WLOsfU.png",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "360",
+      "height": "79",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/Yjars8lxUWe6PXard2WLOsfU.png",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "360",
+      "height": "79",
+      "path": [
+        "Phone",
+        "Container",
+        "Top",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/haXeWYduv8M4aooNr2ea2M5qkfY.png?width=1380&height=1307",
+      "srcset": "https://framerusercontent.com/images/haXeWYduv8M4aooNr2ea2M5qkfY.png?scale-down-to=512&width=1380&height=1307 512w,https://framerusercontent.com/images/haXeWYduv8M4aooNr2ea2M5qkfY.png?scale-down-to=1024&width=1380&height=1307 1024w,https://framerusercontent.com/images/haXeWYduv8M4aooNr2ea2M5qkfY.png?width=1380&height=1307 1380w",
+      "alt": "Hero Image",
+      "width": "1380",
+      "height": "1307",
+      "path": [
+        "Hero Section",
+        "Conteinar"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/C4XeqbWt5TroazGvQ8Dc7Kf0WQ.png?width=225&height=97",
+      "srcset": null,
+      "alt": "",
+      "width": "225",
+      "height": "97",
+      "path": [
+        "Hero Section",
+        "Conteinar",
+        "Section Tittle",
+        "Sub text",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/l7LE79rRXQbtTUNyN3tuLcC6kq4.png?width=3423&height=2427",
+      "srcset": "https://framerusercontent.com/images/l7LE79rRXQbtTUNyN3tuLcC6kq4.png?scale-down-to=512&width=3423&height=2427 512w,https://framerusercontent.com/images/l7LE79rRXQbtTUNyN3tuLcC6kq4.png?scale-down-to=1024&width=3423&height=2427 1024w,https://framerusercontent.com/images/l7LE79rRXQbtTUNyN3tuLcC6kq4.png?scale-down-to=2048&width=3423&height=2427 2048w,https://framerusercontent.com/images/l7LE79rRXQbtTUNyN3tuLcC6kq4.png?width=3423&height=2427 3423w",
+      "alt": "",
+      "width": "3423",
+      "height": "2427",
+      "path": [
+        "Hero Section",
+        "Conteinar",
+        "Image Wrapper",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/haXeWYduv8M4aooNr2ea2M5qkfY.png?width=1380&height=1307",
+      "srcset": "https://framerusercontent.com/images/haXeWYduv8M4aooNr2ea2M5qkfY.png?scale-down-to=512&width=1380&height=1307 512w,https://framerusercontent.com/images/haXeWYduv8M4aooNr2ea2M5qkfY.png?scale-down-to=1024&width=1380&height=1307 1024w,https://framerusercontent.com/images/haXeWYduv8M4aooNr2ea2M5qkfY.png?width=1380&height=1307 1380w",
+      "alt": "Hero Image",
+      "width": "1380",
+      "height": "1307",
+      "path": [
+        "Hero Section",
+        "Conteinar"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/C4XeqbWt5TroazGvQ8Dc7Kf0WQ.png?width=225&height=97",
+      "srcset": null,
+      "alt": "",
+      "width": "225",
+      "height": "97",
+      "path": [
+        "Hero Section",
+        "Conteinar",
+        "Section Tittle",
+        "Sub text",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/l7LE79rRXQbtTUNyN3tuLcC6kq4.png?width=3423&height=2427",
+      "srcset": "https://framerusercontent.com/images/l7LE79rRXQbtTUNyN3tuLcC6kq4.png?scale-down-to=512&width=3423&height=2427 512w,https://framerusercontent.com/images/l7LE79rRXQbtTUNyN3tuLcC6kq4.png?scale-down-to=1024&width=3423&height=2427 1024w,https://framerusercontent.com/images/l7LE79rRXQbtTUNyN3tuLcC6kq4.png?scale-down-to=2048&width=3423&height=2427 2048w,https://framerusercontent.com/images/l7LE79rRXQbtTUNyN3tuLcC6kq4.png?width=3423&height=2427 3423w",
+      "alt": "",
+      "width": "3423",
+      "height": "2427",
+      "path": [
+        "Hero Section",
+        "Conteinar",
+        "Image Wrapper",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/haXeWYduv8M4aooNr2ea2M5qkfY.png?width=1380&height=1307",
+      "srcset": "https://framerusercontent.com/images/haXeWYduv8M4aooNr2ea2M5qkfY.png?scale-down-to=512&width=1380&height=1307 512w,https://framerusercontent.com/images/haXeWYduv8M4aooNr2ea2M5qkfY.png?scale-down-to=1024&width=1380&height=1307 1024w,https://framerusercontent.com/images/haXeWYduv8M4aooNr2ea2M5qkfY.png?width=1380&height=1307 1380w",
+      "alt": "Hero Image",
+      "width": "1380",
+      "height": "1307",
+      "path": [
+        "Hero Section",
+        "Conteinar"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/C4XeqbWt5TroazGvQ8Dc7Kf0WQ.png?width=225&height=97",
+      "srcset": null,
+      "alt": "",
+      "width": "225",
+      "height": "97",
+      "path": [
+        "Hero Section",
+        "Conteinar",
+        "Section Tittle",
+        "Sub text",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/l7LE79rRXQbtTUNyN3tuLcC6kq4.png?width=3423&height=2427",
+      "srcset": "https://framerusercontent.com/images/l7LE79rRXQbtTUNyN3tuLcC6kq4.png?scale-down-to=512&width=3423&height=2427 512w,https://framerusercontent.com/images/l7LE79rRXQbtTUNyN3tuLcC6kq4.png?scale-down-to=1024&width=3423&height=2427 1024w,https://framerusercontent.com/images/l7LE79rRXQbtTUNyN3tuLcC6kq4.png?scale-down-to=2048&width=3423&height=2427 2048w,https://framerusercontent.com/images/l7LE79rRXQbtTUNyN3tuLcC6kq4.png?width=3423&height=2427 3423w",
+      "alt": "",
+      "width": "3423",
+      "height": "2427",
+      "path": [
+        "Hero Section",
+        "Conteinar",
+        "Image Wrapper",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HrC6yAMImFpB8UzbRrpkl64Ses.svg?width=1626&height=36",
+      "srcset": "https://framerusercontent.com/images/HrC6yAMImFpB8UzbRrpkl64Ses.svg?scale-down-to=512&width=1626&height=36 512w,https://framerusercontent.com/images/HrC6yAMImFpB8UzbRrpkl64Ses.svg?scale-down-to=1024&width=1626&height=36 1024w,https://framerusercontent.com/images/HrC6yAMImFpB8UzbRrpkl64Ses.svg?width=1626&height=36 1626w",
+      "alt": "",
+      "width": "1626",
+      "height": "36",
+      "path": [
+        "Brand logos",
+        "Container",
+        "Logos",
+        "Logo Wrap BIg",
+        "Graphic"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HrC6yAMImFpB8UzbRrpkl64Ses.svg?width=1626&height=36",
+      "srcset": "https://framerusercontent.com/images/HrC6yAMImFpB8UzbRrpkl64Ses.svg?scale-down-to=512&width=1626&height=36 512w,https://framerusercontent.com/images/HrC6yAMImFpB8UzbRrpkl64Ses.svg?scale-down-to=1024&width=1626&height=36 1024w,https://framerusercontent.com/images/HrC6yAMImFpB8UzbRrpkl64Ses.svg?width=1626&height=36 1626w",
+      "alt": "",
+      "width": "1626",
+      "height": "36",
+      "path": [
+        "Brand logos",
+        "Container",
+        "Logos",
+        "Logo Wrap BIg",
+        "Graphic"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HrC6yAMImFpB8UzbRrpkl64Ses.svg?width=1626&height=36",
+      "srcset": "https://framerusercontent.com/images/HrC6yAMImFpB8UzbRrpkl64Ses.svg?scale-down-to=512&width=1626&height=36 512w,https://framerusercontent.com/images/HrC6yAMImFpB8UzbRrpkl64Ses.svg?scale-down-to=1024&width=1626&height=36 1024w,https://framerusercontent.com/images/HrC6yAMImFpB8UzbRrpkl64Ses.svg?width=1626&height=36 1626w",
+      "alt": "",
+      "width": "1626",
+      "height": "36",
+      "path": [
+        "Brand logos",
+        "Container",
+        "Logos",
+        "Logo Wrap BIg",
+        "Graphic"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/9qHcBmQFCNUTo2TVkoY68NIf4s.png?width=1346&height=984",
+      "srcset": "https://framerusercontent.com/images/9qHcBmQFCNUTo2TVkoY68NIf4s.png?scale-down-to=512&width=1346&height=984 512w,https://framerusercontent.com/images/9qHcBmQFCNUTo2TVkoY68NIf4s.png?scale-down-to=1024&width=1346&height=984 1024w,https://framerusercontent.com/images/9qHcBmQFCNUTo2TVkoY68NIf4s.png?width=1346&height=984 1346w",
+      "alt": "Transforming customer engagement with AI.",
+      "width": "1346",
+      "height": "984",
+      "path": [
+        "Feature Section 2",
+        "Conteinar",
+        "Cards",
+        "Container",
+        "Image content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/9qHcBmQFCNUTo2TVkoY68NIf4s.png?width=1346&height=984",
+      "srcset": "https://framerusercontent.com/images/9qHcBmQFCNUTo2TVkoY68NIf4s.png?scale-down-to=512&width=1346&height=984 512w,https://framerusercontent.com/images/9qHcBmQFCNUTo2TVkoY68NIf4s.png?scale-down-to=1024&width=1346&height=984 1024w,https://framerusercontent.com/images/9qHcBmQFCNUTo2TVkoY68NIf4s.png?width=1346&height=984 1346w",
+      "alt": "Transforming customer engagement with AI.",
+      "width": "1346",
+      "height": "984",
+      "path": [
+        "Feature Section 2",
+        "Conteinar",
+        "Cards",
+        "Container",
+        "Image content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/9qHcBmQFCNUTo2TVkoY68NIf4s.png?width=1346&height=984",
+      "srcset": "https://framerusercontent.com/images/9qHcBmQFCNUTo2TVkoY68NIf4s.png?scale-down-to=512&width=1346&height=984 512w,https://framerusercontent.com/images/9qHcBmQFCNUTo2TVkoY68NIf4s.png?scale-down-to=1024&width=1346&height=984 1024w,https://framerusercontent.com/images/9qHcBmQFCNUTo2TVkoY68NIf4s.png?width=1346&height=984 1346w",
+      "alt": "Transforming customer engagement with AI.",
+      "width": "1346",
+      "height": "984",
+      "path": [
+        "Feature Section 2",
+        "Conteinar",
+        "Cards",
+        "Container",
+        "Image content",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/bf5CgZtS4HLsRnXvcG4h6SMMMcE.png?width=484&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "484",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/EUeXjOSGRfzcKwbRbtGZ7OLcJHE.png?width=484&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "484",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZsCulRH5s9pF07RwbOmiixJkEbU.png?width=484&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "484",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/qxue9jy4rqnYANwuu7191sLVL4.png?width=484&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "484",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/22FS4QgJyiZYdzaCiGEYlBGnid8.png?width=484&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "484",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4AG9AgCDQv2n7DnwwKX1ZUUx8.png?width=484&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "484",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZsCulRH5s9pF07RwbOmiixJkEbU.png?width=484&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "484",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HdYmV9OaVKcxiRKTzDnI9gVDmYg.png?width=484&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "484",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/bf5CgZtS4HLsRnXvcG4h6SMMMcE.png?width=484&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "484",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/EUeXjOSGRfzcKwbRbtGZ7OLcJHE.png?width=484&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "484",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZsCulRH5s9pF07RwbOmiixJkEbU.png?width=484&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "484",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/qxue9jy4rqnYANwuu7191sLVL4.png?width=484&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "484",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/22FS4QgJyiZYdzaCiGEYlBGnid8.png?width=484&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "484",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4AG9AgCDQv2n7DnwwKX1ZUUx8.png?width=484&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "484",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZsCulRH5s9pF07RwbOmiixJkEbU.png?width=484&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "484",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HdYmV9OaVKcxiRKTzDnI9gVDmYg.png?width=484&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "484",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aSFz43FmMp2jDlGw31jfAaV7GI.png?width=485&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "485",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5SVFAiNDsn9wX1CSZtniEzehgLw.png?width=485&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "485",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VgJSyyGtaCBlkYkS0OdUQyI5V34.png?width=485&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "485",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IjVMISRmBy5KDUxWDSUY9LDX1E.png?width=485&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "485",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/1XPfHAoXQ9j6QO3DkbgnbMqBW8.png?width=485&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "485",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TkIdcvZVN9tMr04E1D1qj0IQY.png?width=485&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "485",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aSFz43FmMp2jDlGw31jfAaV7GI.png?width=485&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "485",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/5SVFAiNDsn9wX1CSZtniEzehgLw.png?width=485&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "485",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VgJSyyGtaCBlkYkS0OdUQyI5V34.png?width=485&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "485",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/IjVMISRmBy5KDUxWDSUY9LDX1E.png?width=485&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "485",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/1XPfHAoXQ9j6QO3DkbgnbMqBW8.png?width=485&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "485",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/TkIdcvZVN9tMr04E1D1qj0IQY.png?width=485&height=460",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "485",
+      "height": "460",
+      "path": [
+        "Integration Section ",
+        "Conteinar",
+        "Logos",
+        "Container",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/QwDcnxfNtj6RBqtOZxFsShd0A.png",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "365",
+      "height": "87",
+      "path": [
+        "Testimonial Section ",
+        "Conteinar",
+        "Desktop",
+        "Desktop",
+        "Text",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/y69xD1CoLEYrgDv24UayWdq0.png",
+      "srcset": null,
+      "alt": "",
+      "width": "192",
+      "height": "193",
+      "path": [
+        "Testimonial Section ",
+        "Conteinar",
+        "Desktop",
+        "Desktop",
+        "Info",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HbRyHMZDlFuxBrMV7gUTssgJ2Z8.png",
+      "srcset": "https://framerusercontent.com/images/HbRyHMZDlFuxBrMV7gUTssgJ2Z8.png?scale-down-to=512 512w,https://framerusercontent.com/images/HbRyHMZDlFuxBrMV7gUTssgJ2Z8.png 817w",
+      "alt": "",
+      "width": "817",
+      "height": "250",
+      "path": [
+        "Testimonial Section ",
+        "Conteinar",
+        "Desktop",
+        "Tab",
+        "Tab 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gSCjQbKw5daYyd9FeEYATrK2s.png",
+      "srcset": "https://framerusercontent.com/images/gSCjQbKw5daYyd9FeEYATrK2s.png?scale-down-to=512 512w,https://framerusercontent.com/images/gSCjQbKw5daYyd9FeEYATrK2s.png 818w",
+      "alt": "",
+      "width": "818",
+      "height": "250",
+      "path": [
+        "Testimonial Section ",
+        "Conteinar",
+        "Desktop",
+        "Tab",
+        "Tab 2"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/KxcDKvSgvbwRlBxLYPmXKcMz0s.png",
+      "srcset": "https://framerusercontent.com/images/KxcDKvSgvbwRlBxLYPmXKcMz0s.png?scale-down-to=512 512w,https://framerusercontent.com/images/KxcDKvSgvbwRlBxLYPmXKcMz0s.png 818w",
+      "alt": "",
+      "width": "818",
+      "height": "250",
+      "path": [
+        "Testimonial Section ",
+        "Conteinar",
+        "Desktop",
+        "Tab",
+        "Tab 3"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/QwDcnxfNtj6RBqtOZxFsShd0A.png",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "365",
+      "height": "87",
+      "path": [
+        "Testimonial Section ",
+        "Conteinar",
+        "Tablet",
+        "Leptop",
+        "Text",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/y69xD1CoLEYrgDv24UayWdq0.png",
+      "srcset": null,
+      "alt": "",
+      "width": "192",
+      "height": "193",
+      "path": [
+        "Testimonial Section ",
+        "Conteinar",
+        "Tablet",
+        "Leptop",
+        "Info",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HbRyHMZDlFuxBrMV7gUTssgJ2Z8.png",
+      "srcset": "https://framerusercontent.com/images/HbRyHMZDlFuxBrMV7gUTssgJ2Z8.png?scale-down-to=512 512w,https://framerusercontent.com/images/HbRyHMZDlFuxBrMV7gUTssgJ2Z8.png 817w",
+      "alt": "",
+      "width": "817",
+      "height": "250",
+      "path": [
+        "Testimonial Section ",
+        "Conteinar",
+        "Tablet",
+        "Tab",
+        "Tab 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gSCjQbKw5daYyd9FeEYATrK2s.png",
+      "srcset": "https://framerusercontent.com/images/gSCjQbKw5daYyd9FeEYATrK2s.png?scale-down-to=512 512w,https://framerusercontent.com/images/gSCjQbKw5daYyd9FeEYATrK2s.png 818w",
+      "alt": "",
+      "width": "818",
+      "height": "250",
+      "path": [
+        "Testimonial Section ",
+        "Conteinar",
+        "Tablet",
+        "Tab",
+        "Tab 2"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/KxcDKvSgvbwRlBxLYPmXKcMz0s.png",
+      "srcset": "https://framerusercontent.com/images/KxcDKvSgvbwRlBxLYPmXKcMz0s.png?scale-down-to=512 512w,https://framerusercontent.com/images/KxcDKvSgvbwRlBxLYPmXKcMz0s.png 818w",
+      "alt": "",
+      "width": "818",
+      "height": "250",
+      "path": [
+        "Testimonial Section ",
+        "Conteinar",
+        "Tablet",
+        "Tab",
+        "Tab 3"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/QwDcnxfNtj6RBqtOZxFsShd0A.png",
+      "srcset": null,
+      "alt": "Logo",
+      "width": "365",
+      "height": "87",
+      "path": [
+        "Testimonial Section ",
+        "Conteinar",
+        "Phone",
+        "Mobile",
+        "Text",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/y69xD1CoLEYrgDv24UayWdq0.png",
+      "srcset": null,
+      "alt": "",
+      "width": "192",
+      "height": "193",
+      "path": [
+        "Testimonial Section ",
+        "Conteinar",
+        "Phone",
+        "Mobile",
+        "Info",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:fill",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HbRyHMZDlFuxBrMV7gUTssgJ2Z8.png",
+      "srcset": "https://framerusercontent.com/images/HbRyHMZDlFuxBrMV7gUTssgJ2Z8.png?scale-down-to=512 512w,https://framerusercontent.com/images/HbRyHMZDlFuxBrMV7gUTssgJ2Z8.png 817w",
+      "alt": "",
+      "width": "817",
+      "height": "250",
+      "path": [
+        "Testimonial Section ",
+        "Conteinar",
+        "Phone",
+        "Tab",
+        "Tab 1"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/gSCjQbKw5daYyd9FeEYATrK2s.png",
+      "srcset": "https://framerusercontent.com/images/gSCjQbKw5daYyd9FeEYATrK2s.png?scale-down-to=512 512w,https://framerusercontent.com/images/gSCjQbKw5daYyd9FeEYATrK2s.png 818w",
+      "alt": "",
+      "width": "818",
+      "height": "250",
+      "path": [
+        "Testimonial Section ",
+        "Conteinar",
+        "Phone",
+        "Tab",
+        "Tab 2"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/KxcDKvSgvbwRlBxLYPmXKcMz0s.png",
+      "srcset": "https://framerusercontent.com/images/KxcDKvSgvbwRlBxLYPmXKcMz0s.png?scale-down-to=512 512w,https://framerusercontent.com/images/KxcDKvSgvbwRlBxLYPmXKcMz0s.png 818w",
+      "alt": "",
+      "width": "818",
+      "height": "250",
+      "path": [
+        "Testimonial Section ",
+        "Conteinar",
+        "Phone",
+        "Tab",
+        "Tab 3"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SRJyY3QIvS0oabuqhhDn4cEQy0.png",
+      "srcset": "https://framerusercontent.com/images/SRJyY3QIvS0oabuqhhDn4cEQy0.png?scale-down-to=1024 968w,https://framerusercontent.com/images/SRJyY3QIvS0oabuqhhDn4cEQy0.png 1903w",
+      "alt": "",
+      "width": "1903",
+      "height": "2012",
+      "path": [
+        "CTA Section",
+        "CTA",
+        "Desktop",
+        "image",
+        "image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SRJyY3QIvS0oabuqhhDn4cEQy0.png",
+      "srcset": "https://framerusercontent.com/images/SRJyY3QIvS0oabuqhhDn4cEQy0.png?scale-down-to=1024 968w,https://framerusercontent.com/images/SRJyY3QIvS0oabuqhhDn4cEQy0.png 1903w",
+      "alt": "",
+      "width": "1903",
+      "height": "2012",
+      "path": [
+        "CTA Section",
+        "CTA",
+        "Tablet",
+        "image",
+        "image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/SRJyY3QIvS0oabuqhhDn4cEQy0.png",
+      "srcset": "https://framerusercontent.com/images/SRJyY3QIvS0oabuqhhDn4cEQy0.png?scale-down-to=1024 968w,https://framerusercontent.com/images/SRJyY3QIvS0oabuqhhDn4cEQy0.png 1903w",
+      "alt": "",
+      "width": "1903",
+      "height": "2012",
+      "path": [
+        "CTA Section",
+        "CTA",
+        "Phone",
+        "image",
+        "image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/lZg9akHmiBvCMDqa9B19dbzVlDo.png",
+      "srcset": "https://framerusercontent.com/images/lZg9akHmiBvCMDqa9B19dbzVlDo.png?scale-down-to=512 512w,https://framerusercontent.com/images/lZg9akHmiBvCMDqa9B19dbzVlDo.png 750w",
+      "alt": "Logo",
+      "width": "750",
+      "height": "162",
+      "path": [
+        "Desktop",
+        "Container",
+        "Content",
+        "Text",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/lZg9akHmiBvCMDqa9B19dbzVlDo.png",
+      "srcset": "https://framerusercontent.com/images/lZg9akHmiBvCMDqa9B19dbzVlDo.png?scale-down-to=512 512w,https://framerusercontent.com/images/lZg9akHmiBvCMDqa9B19dbzVlDo.png 750w",
+      "alt": "Logo",
+      "width": "750",
+      "height": "162",
+      "path": [
+        "Phone",
+        "Container",
+        "Content",
+        "Text",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:contain",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/lZg9akHmiBvCMDqa9B19dbzVlDo.png",
+      "srcset": "https://framerusercontent.com/images/lZg9akHmiBvCMDqa9B19dbzVlDo.png?scale-down-to=512 512w,https://framerusercontent.com/images/lZg9akHmiBvCMDqa9B19dbzVlDo.png 750w",
+      "alt": "Logo",
+      "width": "750",
+      "height": "162",
+      "path": [
+        "Tablet",
+        "Container",
+        "Content",
+        "Text",
+        "Logo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:contain",
+      "box": null
+    }
+  ],
+  "videoReferences": [],
+  "linksDeclaredInSource": [
+    "https://aichatbott.framer.website/",
+    "https://aichatbott.framer.website/about",
+    "https://aichatbott.framer.website/blog",
+    "https://aichatbott.framer.website/blog/how-ai-chatbots-are-transforming-business-and-customer-support",
+    "https://aichatbott.framer.website/career",
+    "https://aichatbott.framer.website/career/urgent-need-junior-ui-ux-designer",
+    "https://aichatbott.framer.website/contact",
+    "https://aichatbott.framer.website/feature",
+    "https://aichatbott.framer.website/home-2",
+    "https://aichatbott.framer.website/home-3",
+    "https://aichatbott.framer.website/integrations",
+    "https://aichatbott.framer.website/pricing",
+    "https://aichatbott.framer.website/privacy-policy",
+    "https://aichatbott.framer.website/terms-conditions",
+    "https://gr8rstudio.com/",
+    "https://web.telegram.org/k/",
+    "https://www.facebook.com/",
+    "https://www.framer.com",
+    "https://www.instagram.com/",
+    "https://www.linkedin.com/"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2Fb2e693cc-f59c-4f8e-bde0-94300933232f%2F01a0d8cb-3b9b-776e-886a-ace524514204.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F49627%2Fchatassist-yRT3FeEcqV54gZKvSwNGgTzWI7EinM&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2Fb2e693cc-f59c-4f8e-bde0-94300933232f%2F01a0d8cb-3a73-7290-a18b-9f4fc07eb5fc.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-04.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2Fb2e693cc-f59c-4f8e-bde0-94300933232f%2F01a0d8cb-3ba8-74f7-b2d2-9bd1d8c6f0b3.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-05.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2Fb2e693cc-f59c-4f8e-bde0-94300933232f%2F01a0d8cb-3b35-76cf-8e1d-49da4e85f7fd.png&w=2048&q=80"
+    }
+  ],
+  "category": {
+    "parent": "AI",
+    "branch": "Chatbot / support",
+    "marketplace": "https://www.framer.com/marketplace/templates/chatassist-chatbot/",
+    "fitEvidence": "The official listing positions ChatAssist for customer-service automation, conversational AI and SaaS support products, with integrations, support features and four pricing tiers."
+  },
+  "productBackendVerified": false,
+  "secondaryDeclarationsFile": "secondary-declarations.json",
+  "browserObservationsFile": "BROWSER-OBSERVATIONS.json",
+  "nativeBrowserCaptures": [
+    {
+      "file": "screenshots/live-home.jpg",
+      "description": "Home opening at recorded viewport"
+    }
+  ],
+  "captureRasterPx": {
+    "width": 1348,
+    "height": 926
+  }
+}

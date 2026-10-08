@@ -1,0 +1,458 @@
+{
+  "name": "SecureAI",
+  "source": "https://secureai.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#000000",
+    "paper": "#030407",
+    "ink": "#ffffff",
+    "accent": "#49bbca",
+    "muted": "#a8b8bc"
+  },
+  "type": {
+    "body": "Plus Jakarta Sans",
+    "display": "Chakra Petch",
+    "roles": [
+      {
+        "role": "Navigation",
+        "family": "Plus Jakarta Sans",
+        "weight": 700,
+        "sizePx": 14.0,
+        "linePx": 12.6,
+        "tracking": "-0.01em"
+      },
+      {
+        "role": "Hero eyebrow",
+        "family": "Chakra Petch",
+        "weight": 700,
+        "sizePx": 16.0,
+        "linePx": 22.4,
+        "tracking": ".2em"
+      },
+      {
+        "role": "Hero H1",
+        "family": "Chakra Petch",
+        "weight": 700,
+        "sizePx": 68.0,
+        "linePx": 61.2,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Hero description",
+        "family": "Plus Jakarta Sans",
+        "weight": 500,
+        "sizePx": 18.0,
+        "linePx": 21.6,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Section H2",
+        "family": "Plus Jakarta Sans",
+        "weight": 500,
+        "sizePx": 64.0,
+        "linePx": 64.0,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Console label",
+        "family": "Chakra Petch",
+        "weight": 600,
+        "sizePx": 16.0,
+        "linePx": 14.4,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Workflow annotation",
+        "family": "Plus Jakarta Sans",
+        "weight": 700,
+        "sizePx": 14.0,
+        "linePx": 19.6,
+        "tracking": "-.01em"
+      },
+      {
+        "role": "Footer legal",
+        "family": "Plus Jakarta Sans",
+        "weight": 500,
+        "sizePx": 12.0,
+        "linePx": 16.8,
+        "tracking": "-0.03em"
+      }
+    ],
+    "rolesEvidence": "Numeric roles are base public HTML/CSS declarations; percentage lines converted from declared size. They are not rendered measurements. Muted color is an authored accessible recommendation. SourceRoleDetails preserves full italic, feature, and nested-span declarations.",
+    "sourceRoleDetails": [
+      {
+        "role": "Navigation",
+        "tag": "p",
+        "path": [
+          "Navigation",
+          "Desktop",
+          "Navigation Content Row",
+          "Wrapper",
+          "menu",
+          "item",
+          "Services"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Plus Jakarta Sans\", \"Plus Jakarta Sans Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "700",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0afa6e60-8fa7-423f-b7f6-dc10144c8fd8, rgb(255, 255, 255)))",
+          "--framer-font-size": "14px",
+          "--framer-letter-spacing": "-0.01em",
+          "--framer-text-transform": "uppercase",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "90%",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Hero eyebrow",
+        "tag": "p",
+        "path": [
+          "Content wrapper",
+          "Header",
+          "Text container",
+          "Hero Content Row",
+          "Hero Text Column",
+          "Heading container",
+          "Agentic security"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Chakra Petch\",\"Chakra Petch Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Chakra Petch\",\"Chakra Petch Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "700",
+          "--framer-font-weight-italic": "700",
+          "--framer-letter-spacing": ".2em",
+          "--framer-line-height": "140%",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-bc551ce1-025c-41a9-9165-9307eec30702)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Hero H1",
+        "tag": "h1",
+        "path": [
+          "Content wrapper",
+          "Header",
+          "Text container",
+          "Hero Content Row",
+          "Hero Text Column",
+          "Heading container",
+          "Trust Every Decision"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Chakra Petch\",\"Chakra Petch Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Chakra Petch\",\"Chakra Petch Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "68px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "700",
+          "--framer-font-weight-italic": "700",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "90%",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-0afa6e60-8fa7-423f-b7f6-dc10144c8fd8)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Hero description",
+        "tag": "p",
+        "path": [
+          "Content wrapper",
+          "Header",
+          "Text container",
+          "Hero Content Row",
+          "Hero Text Column",
+          "Heading container",
+          "Purpose-built for planning and building products."
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Plus Jakarta Sans\",\"Plus Jakarta Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Plus Jakarta Sans\",\"Plus Jakarta Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Plus Jakarta Sans\",\"Plus Jakarta Sans Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Plus Jakarta Sans\",\"Plus Jakarta Sans Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "18px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "-.04em",
+          "--framer-line-height": "120%",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-0afa6e60-8fa7-423f-b7f6-dc10144c8fd8)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Section H2",
+        "tag": "h2",
+        "path": [
+          "Content wrapper",
+          "Platform",
+          "Main container",
+          "Title + icon",
+          "Title",
+          "Text"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Plus Jakarta Sans\",\"Plus Jakarta Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Plus Jakarta Sans\",\"Plus Jakarta Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Plus Jakarta Sans\",\"Plus Jakarta Sans Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Plus Jakarta Sans\",\"Plus Jakarta Sans Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "64px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "500",
+          "--framer-letter-spacing": "-.04em",
+          "--framer-line-height": "100%",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-0afa6e60-8fa7-423f-b7f6-dc10144c8fd8)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "white-space": "unset"
+          },
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          },
+          {
+            "white-space": "nowrap"
+          }
+        ]
+      },
+      {
+        "role": "Console label",
+        "tag": "p",
+        "path": [
+          "Content wrapper",
+          "Platform",
+          "Main container",
+          "Subtitle Container",
+          "Code card",
+          "Log Container",
+          "Log Header",
+          "Log Title"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Chakra Petch\",\"Chakra Petch Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Chakra Petch\",\"Chakra Petch Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Chakra Petch\",\"Chakra Petch Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Chakra Petch\",\"Chakra Petch Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "600",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "600",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "90%",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-bc551ce1-025c-41a9-9165-9307eec30702)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "uppercase"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Workflow annotation",
+        "tag": "p",
+        "path": [
+          "Content wrapper",
+          "Platform",
+          "Main container",
+          "Subtitle Container",
+          "Code card",
+          "Code Log Entry Row",
+          "Entry Title"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Plus Jakarta Sans\",\"Plus Jakarta Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Plus Jakarta Sans\",\"Plus Jakarta Sans Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Plus Jakarta Sans\",\"Plus Jakarta Sans Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Plus Jakarta Sans\",\"Plus Jakarta Sans Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "700",
+          "--framer-font-weight-bold": "800",
+          "--framer-font-weight-bold-italic": "800",
+          "--framer-font-weight-italic": "700",
+          "--framer-letter-spacing": "-.01em",
+          "--framer-line-height": "140%",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-0afa6e60-8fa7-423f-b7f6-dc10144c8fd8)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Footer legal",
+        "tag": "p",
+        "path": [
+          "Footer",
+          "Variant 1",
+          "Footer Content Column",
+          "Section",
+          "Footer Bottom Row",
+          "Legal Links Row",
+          "Privacy Policy"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Plus Jakarta Sans\", \"Plus Jakarta Sans Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0afa6e60-8fa7-423f-b7f6-dc10144c8fd8))",
+          "--framer-font-size": "12px",
+          "--framer-letter-spacing": "-0.03em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "140%",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": []
+      }
+    ],
+    "variationAxes": "Core presets declare normal variation axes. Chakra Petch and Plus Jakarta Sans retain normal/italic counterparts, with explicit bold and bold-italic families/weights in Jakarta body presets."
+  },
+  "spacing": {
+    "desktopGutterPx": 32,
+    "componentGapPx": 24,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 0,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:809.98px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      0,
+      809,
+      809.98,
+      810,
+      1199,
+      1199.98,
+      1200
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "AI",
+    "branch": "Enterprise / trust",
+    "fitEvidence": "Official listing expressly targets AI security, observability, governance, and safe enterprise AI deployment."
+  },
+  "productDemonstrations": {
+    "integrationStatus": "Not tested; website demos and source marketing statements do not prove AI capability.",
+    "blueprint": "AI-PRODUCT-BLUEPRINT.md"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "name": "Message",
+  "source": "https://heymessage.framer.ai/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#0a0a0a",
+    "paper": "#121212",
+    "ink": "#ffffff",
+    "accent": "#dedede",
+    "muted": "#858585"
+  },
+  "type": {
+    "body": "DM Sans",
+    "display": "Host Grotesk",
+    "roles": [
+      {
+        "role": "Hero heading; base preset 18dw6p4",
+        "family": "Host Grotesk",
+        "weight": 400,
+        "sizePx": 56,
+        "linePx": 56,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Section heading; base preset 1eyg8rr",
+        "family": "Host Grotesk",
+        "weight": 400,
+        "sizePx": 36,
+        "linePx": 39.6,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Brand/title role; base preset o5z0st",
+        "family": "Host Grotesk",
+        "weight": 400,
+        "sizePx": 20,
+        "linePx": 24,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Reading copy/navigation; base preset xsql1q",
+        "family": "DM Sans",
+        "weight": 400,
+        "sizePx": 16,
+        "linePx": 19.2,
+        "tracking": "0em"
+      },
+      {
+        "role": "Action label; base preset 9fs3sz",
+        "family": "DM Sans",
+        "weight": 500,
+        "sizePx": 16,
+        "linePx": 19.2,
+        "tracking": "0em"
+      },
+      {
+        "role": "Utility caption; base preset 2io64c",
+        "family": "DM Sans",
+        "weight": 400,
+        "sizePx": 14,
+        "linePx": 18.2,
+        "tracking": "0em"
+      },
+      {
+        "role": "Savings badge; base preset z5yjcz",
+        "family": "DM Sans",
+        "weight": 500,
+        "sizePx": 14,
+        "linePx": 18.2,
+        "tracking": "0em"
+      }
+    ],
+    "rolesEvidence": "Values come from base public CSS presets. The extractor role summary sometimes associates a responsive section heading override of 32px; config uses the base 36px rule. Host Grotesk normal/italic 400 and 700 and DM Sans normal/italic 400/500/700 faces are declared. Preserve italic slots rather than synthesizing an unrelated family. Inter normal/italic faces also appear in the public font declarations. Line-height em values are multiplied by the declared pixel size.",
+    "sourceRoleDetails": [
+      {
+        "role": "Hero heading",
+        "selector": "framer-styles-preset-18dw6p4",
+        "fontStyle": "normal",
+        "variationAxes": "normal",
+        "responsive": "56px / 1.2em tablet; phone heading rule remains in source CSS evidence."
+      },
+      {
+        "role": "Section heading",
+        "selector": "framer-styles-preset-1eyg8rr",
+        "fontStyle": "normal",
+        "variationAxes": "normal",
+        "responsive": "32px / 1.1em tablet; 32px / 1.2em phone."
+      }
+    ],
+    "variationAxes": {
+      "Host Grotesk": "normal in presets",
+      "DM Sans": "normal in presets"
+    }
+  },
+  "spacing": {
+    "desktopGutterPx": 24,
+    "componentGapPx": 40,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 40,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:809.98px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      0,
+      809,
+      809.98,
+      810,
+      1199,
+      1199.98,
+      1200
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "AI",
+    "branch": "Chatbot / support",
+    "fitEvidence": "The official listing explicitly includes AI companions and chatbots; the product presentation suits a conversational assistant launch."
+  },
+  "productDemonstrations": {
+    "integrationStatus": "Not tested; website demos and source marketing statements do not prove AI capability.",
+    "blueprint": "AI-PRODUCT-BLUEPRINT.md"
+  }
+}

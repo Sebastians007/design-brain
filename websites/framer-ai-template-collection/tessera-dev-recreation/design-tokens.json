@@ -1,0 +1,163 @@
+{
+  "name": "Tessera Dev",
+  "source": "https://tessera-template.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#ffffff",
+    "paper": "#fafafb",
+    "ink": "#17191c",
+    "accent": "#e2946c",
+    "muted": "#6a6e79"
+  },
+  "type": {
+    "body": "Inter Variable",
+    "display": "Newsreader",
+    "roles": [
+      {
+        "role": "Hero / h2 with italic em phrase",
+        "family": "Newsreader",
+        "weight": 400,
+        "sizePx": 64,
+        "linePx": 70.4,
+        "tracking": "-.96px"
+      },
+      {
+        "role": "Section heading / h2",
+        "family": "Newsreader",
+        "weight": 400,
+        "sizePx": 64,
+        "linePx": 70.4,
+        "tracking": "-.96px"
+      },
+      {
+        "role": "Community heading / h2",
+        "family": "Newsreader",
+        "weight": 400,
+        "sizePx": 36,
+        "linePx": 43.2,
+        "tracking": "-.5px"
+      },
+      {
+        "role": "Hero lede / p; wght 430",
+        "family": "Inter Variable",
+        "weight": 400,
+        "sizePx": 19,
+        "linePx": 30.4,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Section lede / p; wght 430",
+        "family": "Inter Variable",
+        "weight": 400,
+        "sizePx": 20,
+        "linePx": 27,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Navigation / p; wght 450",
+        "family": "Inter Variable",
+        "weight": 400,
+        "sizePx": 16,
+        "linePx": 16,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Install command / p",
+        "family": "JetBrains Mono",
+        "weight": 400,
+        "sizePx": 14,
+        "linePx": 22.4,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Trust caption / p",
+        "family": "Inter",
+        "weight": 400,
+        "sizePx": 14,
+        "linePx": 19.6,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Wordmark / h4; wght 500",
+        "family": "Newsreader Variable",
+        "weight": 500,
+        "sizePx": 24,
+        "linePx": 28.32,
+        "tracking": "-.4px"
+      }
+    ],
+    "rolesEvidence": "Public home HTML/CSS role declarations in tessera-dev-evidence-root/source-facts.json. Line heights above are arithmetic conversions from declared em values. Emphasis is actual em markup; preserve Newsreader italic face. Newsreader Variable is the wordmark family, not a replacement name for the hero.",
+    "sourceRoleDetails": {
+      "hero": "Hero > Hero Stage > Hero Copy > Headline; semantic tag h2, contains em.",
+      "body": "Hero > Hero Stage > Hero Copy > Subheadline",
+      "command": "Hero > Hero Stage > Hero Copy > Install Chip > Command",
+      "fontWeightSemantics": "Inter Variable CSS weight 400 retains explicit variation axis 430/450 rather than relabeling CSS weight."
+    },
+    "variationAxes": {
+      "body": {
+        "wght": 430
+      },
+      "navigation": {
+        "wght": 450
+      },
+      "wordmark": {
+        "wght": 500
+      }
+    }
+  },
+  "spacing": {
+    "desktopGutterPx": 32,
+    "componentGapPx": 28,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 20,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (prefers-color-scheme:dark)",
+      "@media (min-width:810px) and (max-width:1199.98px)",
+      "@media (max-width:809.98px)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)",
+      "@media (max-width:1199px) and (min-width:0)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      0,
+      809,
+      809.98,
+      810,
+      1199,
+      1199.98,
+      1200
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "AI",
+    "branch": "Developer / API",
+    "fitEvidence": "The official listing explicitly positions Tessera for backend platforms, APIs, databases, SDKs and infrastructure products. This is a developer-infrastructure visual reference; no AI inference backend is established."
+  },
+  "productDemonstrations": {
+    "integrationStatus": "Not tested; website demos and source marketing statements do not prove AI capability.",
+    "blueprint": "AI-PRODUCT-BLUEPRINT.md"
+  }
+}

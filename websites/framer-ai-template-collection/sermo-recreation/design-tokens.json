@@ -1,0 +1,943 @@
+{
+  "name": "Sermo",
+  "source": "https://sermo-ai.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#060607",
+    "paper": "#131316",
+    "ink": "#f6f5f3",
+    "accent": "#e1683c",
+    "muted": "#9e9c99"
+  },
+  "type": {
+    "body": "BDO Grotesk Variable",
+    "display": "BDO Grotesk Variable",
+    "roles": [
+      {
+        "role": "Navigation / CSS p; wght 400",
+        "family": "BDO Grotesk Variable",
+        "weight": 400,
+        "sizePx": 14,
+        "linePx": 16.8,
+        "tracking": "-.035em"
+      },
+      {
+        "role": "Hero / CSS h1; wght 400",
+        "family": "BDO Grotesk Variable",
+        "weight": 400,
+        "sizePx": 76,
+        "linePx": 77.52,
+        "tracking": "-.035em"
+      },
+      {
+        "role": "Hero body / CSS p; wght 400",
+        "family": "BDO Grotesk Variable",
+        "weight": 400,
+        "sizePx": 18,
+        "linePx": 27.9,
+        "tracking": "-.025em"
+      },
+      {
+        "role": "Release badge / CSS p; wght 500",
+        "family": "BDO Grotesk Variable",
+        "weight": 400,
+        "sizePx": 12,
+        "linePx": 12,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Console heading / CSS h4; wght 470",
+        "family": "BDO Grotesk Variable",
+        "weight": 400,
+        "sizePx": 22,
+        "linePx": 26.4,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Console label / CSS p; wght 400",
+        "family": "BDO Grotesk Variable",
+        "weight": 400,
+        "sizePx": 13,
+        "linePx": 18.2,
+        "tracking": "-.02em"
+      },
+      {
+        "role": "Metric eyebrow / CSS p",
+        "family": "Inter",
+        "weight": 600,
+        "sizePx": 12,
+        "linePx": 14.4,
+        "tracking": ".08em"
+      },
+      {
+        "role": "Metric figure / CSS p; wght 400",
+        "family": "BDO Grotesk Variable",
+        "weight": 400,
+        "sizePx": 44,
+        "linePx": 44,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Section title / CSS h2; wght 400",
+        "family": "BDO Grotesk Variable",
+        "weight": 400,
+        "sizePx": 40,
+        "linePx": 42.4,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Customer quote / CSS h3; wght 400",
+        "family": "BDO Grotesk Variable",
+        "weight": 400,
+        "sizePx": 38,
+        "linePx": 41.8,
+        "tracking": "-.025em"
+      },
+      {
+        "role": "Footer wordmark / CSS p; wght 700",
+        "family": "BDO Grotesk Variable",
+        "weight": 500,
+        "sizePx": 350,
+        "linePx": 273,
+        "tracking": "-0.045em"
+      }
+    ],
+    "rolesEvidence": "Public source HTML/CSS declarations saved in sermo-evidence-root. CSS weight and font-variation-settings are independent. Source em line heights were multiplied by declared size; these are not computed dimensions.",
+    "sourceRoleDetails": [
+      {
+        "tag": "p",
+        "path": [
+          "Desktop",
+          "Container",
+          "Brand"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\", \"BDO Grotesk Variable Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-2ca250a3-8b13-4a19-a67e-e54139ce7146))",
+          "--framer-font-size": "16px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.2em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial",
+          "--framer-font-variation-axes": "var(--extracted-2gg91v, \"wght\" 320)"
+        }
+      },
+      {
+        "tag": "p",
+        "path": [
+          "Desktop",
+          "Container",
+          "Links",
+          "Platform",
+          "Pill",
+          "Label"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on,\"ss01\" on",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "normal",
+          "--framer-font-style-italic": "normal",
+          "--framer-font-variation-axes": "\"wght\" 400",
+          "--framer-font-variation-axes-bold": "\"wght\" 400",
+          "--framer-font-variation-axes-bold-italic": "\"wght\" 400",
+          "--framer-font-variation-axes-italic": "\"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "400",
+          "--framer-font-weight-bold-italic": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.035em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-2ca250a3-8b13-4a19-a67e-e54139ce7146)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "p",
+        "path": [
+          "Desktop",
+          "Container",
+          "Links",
+          "Integrations",
+          "Pill",
+          "Label"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on,\"ss01\" on",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "normal",
+          "--framer-font-style-italic": "normal",
+          "--framer-font-variation-axes": "\"wght\" 400",
+          "--framer-font-variation-axes-bold": "\"wght\" 400",
+          "--framer-font-variation-axes-bold-italic": "\"wght\" 400",
+          "--framer-font-variation-axes-italic": "\"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "400",
+          "--framer-font-weight-bold-italic": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.035em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-2ca250a3-8b13-4a19-a67e-e54139ce7146)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "p",
+        "path": [
+          "Desktop",
+          "Container",
+          "Links",
+          "Customers",
+          "Pill",
+          "Label"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on,\"ss01\" on",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "normal",
+          "--framer-font-style-italic": "normal",
+          "--framer-font-variation-axes": "\"wght\" 400",
+          "--framer-font-variation-axes-bold": "\"wght\" 400",
+          "--framer-font-variation-axes-bold-italic": "\"wght\" 400",
+          "--framer-font-variation-axes-italic": "\"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "400",
+          "--framer-font-weight-bold-italic": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.035em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-2ca250a3-8b13-4a19-a67e-e54139ce7146)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "p",
+        "path": [
+          "Desktop",
+          "Container",
+          "Links",
+          "Docs",
+          "Pill",
+          "Label"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on,\"ss01\" on",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "normal",
+          "--framer-font-style-italic": "normal",
+          "--framer-font-variation-axes": "\"wght\" 400",
+          "--framer-font-variation-axes-bold": "\"wght\" 400",
+          "--framer-font-variation-axes-bold-italic": "\"wght\" 400",
+          "--framer-font-variation-axes-italic": "\"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "400",
+          "--framer-font-weight-bold-italic": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.035em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-2ca250a3-8b13-4a19-a67e-e54139ce7146)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "p",
+        "path": [
+          "Desktop",
+          "Container",
+          "Links",
+          "Company",
+          "Pill",
+          "Label"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on,\"ss01\" on",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "normal",
+          "--framer-font-style-italic": "normal",
+          "--framer-font-variation-axes": "\"wght\" 400",
+          "--framer-font-variation-axes-bold": "\"wght\" 400",
+          "--framer-font-variation-axes-bold-italic": "\"wght\" 400",
+          "--framer-font-variation-axes-italic": "\"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "400",
+          "--framer-font-weight-bold-italic": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.035em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-2ca250a3-8b13-4a19-a67e-e54139ce7146)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "p",
+        "path": [
+          "Desktop",
+          "Container",
+          "Buttons",
+          "Utility"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on,\"ss01\" on",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "normal",
+          "--framer-font-style-italic": "normal",
+          "--framer-font-variation-axes": "\"wght\" 400",
+          "--framer-font-variation-axes-bold": "\"wght\" 400",
+          "--framer-font-variation-axes-bold-italic": "\"wght\" 400",
+          "--framer-font-variation-axes-italic": "\"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "400",
+          "--framer-font-weight-bold-italic": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.035em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, rgba(246,245,243,0.68))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "p",
+        "path": [
+          "Desktop",
+          "Container",
+          "Buttons",
+          "CTA",
+          "Primary",
+          "Label"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on,\"ss01\" on",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "normal",
+          "--framer-font-style-italic": "normal",
+          "--framer-font-variation-axes": "\"wght\" 400",
+          "--framer-font-variation-axes-bold": "\"wght\" 400",
+          "--framer-font-variation-axes-bold-italic": "\"wght\" 400",
+          "--framer-font-variation-axes-italic": "\"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "400",
+          "--framer-font-weight-bold-italic": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.035em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0258c1d0-9fef-410e-b84a-0c48a98ee6d6))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "p",
+        "path": [
+          "Phone",
+          "Container",
+          "Brand"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\", \"BDO Grotesk Variable Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-2ca250a3-8b13-4a19-a67e-e54139ce7146))",
+          "--framer-font-size": "16px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.2em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial",
+          "--framer-font-variation-axes": "var(--extracted-2gg91v, \"wght\" 320)"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": [
+          "Phone",
+          "Drawer",
+          "Platform (mobile)"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on,\"ss01\" on",
+          "--framer-font-size": "17px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "normal",
+          "--framer-font-style-italic": "normal",
+          "--framer-font-variation-axes": "\"wght\" 460",
+          "--framer-font-variation-axes-bold": "\"wght\" 460",
+          "--framer-font-variation-axes-bold-italic": "\"wght\" 460",
+          "--framer-font-variation-axes-italic": "\"wght\" 460",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "400",
+          "--framer-font-weight-bold-italic": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-1lwpl3i, rgba(246,245,243,0.82))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": [
+          "Phone",
+          "Drawer",
+          "Integrations (mobile)",
+          "Label"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on,\"ss01\" on",
+          "--framer-font-size": "17px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "normal",
+          "--framer-font-style-italic": "normal",
+          "--framer-font-variation-axes": "\"wght\" 460",
+          "--framer-font-variation-axes-bold": "\"wght\" 460",
+          "--framer-font-variation-axes-bold-italic": "\"wght\" 460",
+          "--framer-font-variation-axes-italic": "\"wght\" 460",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "400",
+          "--framer-font-weight-bold-italic": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-1lwpl3i, rgba(246, 245, 243, 0.82))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": [
+          "Phone",
+          "Drawer",
+          "Customers (mobile)"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on,\"ss01\" on",
+          "--framer-font-size": "17px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "normal",
+          "--framer-font-style-italic": "normal",
+          "--framer-font-variation-axes": "\"wght\" 460",
+          "--framer-font-variation-axes-bold": "\"wght\" 460",
+          "--framer-font-variation-axes-bold-italic": "\"wght\" 460",
+          "--framer-font-variation-axes-italic": "\"wght\" 460",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "400",
+          "--framer-font-weight-bold-italic": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-1lwpl3i, rgba(246,245,243,0.82))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": [
+          "Phone",
+          "Drawer",
+          "Docs (mobile)",
+          "Label"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on,\"ss01\" on",
+          "--framer-font-size": "17px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "normal",
+          "--framer-font-style-italic": "normal",
+          "--framer-font-variation-axes": "\"wght\" 460",
+          "--framer-font-variation-axes-bold": "\"wght\" 460",
+          "--framer-font-variation-axes-bold-italic": "\"wght\" 460",
+          "--framer-font-variation-axes-italic": "\"wght\" 460",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "400",
+          "--framer-font-weight-bold-italic": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-1lwpl3i, rgba(246, 245, 243, 0.82))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": [
+          "Phone",
+          "Drawer",
+          "Company (mobile)"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on,\"ss01\" on",
+          "--framer-font-size": "17px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "normal",
+          "--framer-font-style-italic": "normal",
+          "--framer-font-variation-axes": "\"wght\" 460",
+          "--framer-font-variation-axes-bold": "\"wght\" 460",
+          "--framer-font-variation-axes-bold-italic": "\"wght\" 460",
+          "--framer-font-variation-axes-italic": "\"wght\" 460",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "400",
+          "--framer-font-weight-bold-italic": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.02em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-1lwpl3i, rgba(246,245,243,0.82))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "p",
+        "path": [
+          "Phone",
+          "Drawer",
+          "Primary",
+          "Label"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on,\"ss01\" on",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "normal",
+          "--framer-font-style-italic": "normal",
+          "--framer-font-variation-axes": "\"wght\" 400",
+          "--framer-font-variation-axes-bold": "\"wght\" 400",
+          "--framer-font-variation-axes-bold-italic": "\"wght\" 400",
+          "--framer-font-variation-axes-italic": "\"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "400",
+          "--framer-font-weight-bold-italic": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.035em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-0258c1d0-9fef-410e-b84a-0c48a98ee6d6))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "p",
+        "path": [
+          "Tablet",
+          "Container",
+          "Brand"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\", \"BDO Grotesk Variable Placeholder\", sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-2ca250a3-8b13-4a19-a67e-e54139ce7146))",
+          "--framer-font-size": "16px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "1.2em",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial",
+          "--framer-font-variation-axes": "var(--extracted-2gg91v, \"wght\" 320)"
+        }
+      },
+      {
+        "tag": "p",
+        "path": [
+          "Tablet",
+          "Container",
+          "Links",
+          "Platform",
+          "Pill",
+          "Label"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on,\"ss01\" on",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "normal",
+          "--framer-font-style-italic": "normal",
+          "--framer-font-variation-axes": "\"wght\" 400",
+          "--framer-font-variation-axes-bold": "\"wght\" 400",
+          "--framer-font-variation-axes-bold-italic": "\"wght\" 400",
+          "--framer-font-variation-axes-italic": "\"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "400",
+          "--framer-font-weight-bold-italic": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.035em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-2ca250a3-8b13-4a19-a67e-e54139ce7146)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "p",
+        "path": [
+          "Tablet",
+          "Container",
+          "Links",
+          "Integrations",
+          "Pill",
+          "Label"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on,\"ss01\" on",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "normal",
+          "--framer-font-style-italic": "normal",
+          "--framer-font-variation-axes": "\"wght\" 400",
+          "--framer-font-variation-axes-bold": "\"wght\" 400",
+          "--framer-font-variation-axes-bold-italic": "\"wght\" 400",
+          "--framer-font-variation-axes-italic": "\"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "400",
+          "--framer-font-weight-bold-italic": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.035em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-2ca250a3-8b13-4a19-a67e-e54139ce7146)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "p",
+        "path": [
+          "Tablet",
+          "Container",
+          "Links",
+          "Customers",
+          "Pill",
+          "Label"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on,\"ss01\" on",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "normal",
+          "--framer-font-style-italic": "normal",
+          "--framer-font-variation-axes": "\"wght\" 400",
+          "--framer-font-variation-axes-bold": "\"wght\" 400",
+          "--framer-font-variation-axes-bold-italic": "\"wght\" 400",
+          "--framer-font-variation-axes-italic": "\"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "400",
+          "--framer-font-weight-bold-italic": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.035em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-2ca250a3-8b13-4a19-a67e-e54139ce7146)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      },
+      {
+        "tag": "p",
+        "path": [
+          "Tablet",
+          "Container",
+          "Links",
+          "Docs",
+          "Pill",
+          "Label"
+        ],
+        "declarations": {
+          "--framer-font-family": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"BDO Grotesk Variable\",\"BDO Grotesk Variable Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on,\"ss01\" on",
+          "--framer-font-size": "14px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "normal",
+          "--framer-font-style-italic": "normal",
+          "--framer-font-variation-axes": "\"wght\" 400",
+          "--framer-font-variation-axes-bold": "\"wght\" 400",
+          "--framer-font-variation-axes-bold-italic": "\"wght\" 400",
+          "--framer-font-variation-axes-italic": "\"wght\" 400",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "400",
+          "--framer-font-weight-bold-italic": "400",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.035em",
+          "--framer-line-height": "1.2em",
+          "--framer-paragraph-spacing": "20px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-2ca250a3-8b13-4a19-a67e-e54139ce7146)",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        }
+      }
+    ],
+    "variationAxes": {
+      "hero": {
+        "wght": 400
+      },
+      "navigation": {
+        "wght": 400
+      },
+      "mobileNavigation": {
+        "wght": 460
+      },
+      "releaseBadge": {
+        "wght": 500
+      },
+      "consoleHeading": {
+        "wght": 470
+      },
+      "metricDescription": {
+        "wght": 420
+      },
+      "brand": {
+        "wght": 320
+      },
+      "footerWordmark": {
+        "wght": 700
+      }
+    }
+  },
+  "spacing": {
+    "desktopGutterPx": 64,
+    "componentGapPx": 32,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 24,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)",
+      "@media (max-width:809.98px)",
+      "@media (min-width:810px) and (max-width:1199.98px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      809.0,
+      809.98,
+      810.0,
+      1199.0,
+      1199.98,
+      1200.0
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "AI",
+    "branch": "Voice / meetings",
+    "fitEvidence": "Explicit conversational voice-agent positioning, transcript console, live call indicators, voice playback card and support analytics in a dark operator layout."
+  },
+  "productDemonstrations": {
+    "integrationStatus": "Not tested; website demos and source marketing statements do not prove AI capability.",
+    "blueprint": "AI-PRODUCT-BLUEPRINT.md"
+  }
+}

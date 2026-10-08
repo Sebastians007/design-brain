@@ -1,0 +1,2212 @@
+{
+  "template": "Lore",
+  "preview": "https://lore-app.framer.website/",
+  "marketplace": "https://www.framer.com/marketplace/templates/lore/",
+  "creator": "Liana Tudakova",
+  "coverage": "Public preview HTML/CSS, official marketplace artwork and recorded live browser snapshots at1363x936. Phone/tablet layouts and backend behavior unverified.",
+  "viewport": {
+    "height": 936,
+    "width": 1363
+  },
+  "pageHeight": 7389,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        102,
+        184,
+        1945,
+        1351
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        102,
+        184,
+        1945,
+        1351
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        102,
+        184,
+        1945,
+        1351
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        102,
+        184,
+        1945,
+        1351
+      ],
+      "label": "Official image 4 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        204,
+        337,
+        1187,
+        1075
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        204,
+        337,
+        1187,
+        1075
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        204,
+        337,
+        1187,
+        1075
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        204,
+        337,
+        1187,
+        1075
+      ],
+      "label": "Official image 4 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        1064,
+        307,
+        1884,
+        1198
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        1064,
+        307,
+        1884,
+        1198
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        1064,
+        307,
+        1884,
+        1198
+      ],
+      "label": "Official image 3 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        1064,
+        307,
+        1884,
+        1198
+      ],
+      "label": "Official image 4 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [
+    {
+      "box": {
+        "height": 80.796875,
+        "width": 1348,
+        "x": 0,
+        "y": 0
+      },
+      "name": "Desktop"
+    },
+    {
+      "box": {
+        "height": 40.796875,
+        "width": 1268,
+        "x": 40,
+        "y": 20
+      },
+      "name": "Header"
+    },
+    {
+      "box": {
+        "height": 31,
+        "width": 429.5625,
+        "x": 40,
+        "y": 24.890625
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 31,
+        "width": 47,
+        "x": 40,
+        "y": 24.890625
+      },
+      "name": "Primary"
+    },
+    {
+      "box": {
+        "height": 27.40625,
+        "width": 324.875,
+        "x": 511.5625,
+        "y": 26.6875
+      },
+      "name": "Nav"
+    },
+    {
+      "box": {
+        "height": 27.40625,
+        "width": 59.734375,
+        "x": 511.5625,
+        "y": 26.6875
+      },
+      "name": "Link"
+    },
+    {
+      "box": {
+        "height": 27.40625,
+        "width": 59.734375,
+        "x": 511.5625,
+        "y": 26.6875
+      },
+      "name": "Default"
+    },
+    {
+      "box": {
+        "height": 22.40625,
+        "width": 59.734375,
+        "x": 511.5625,
+        "y": 28.6875
+      },
+      "name": "Label"
+    },
+    {
+      "box": {
+        "height": 1,
+        "width": 59.734375,
+        "x": 511.5625,
+        "y": 53.09375
+      },
+      "name": "Underline Wrap"
+    },
+    {
+      "box": {
+        "height": 1,
+        "width": 0.59375,
+        "x": 501.5625,
+        "y": 53.09375
+      },
+      "name": "Line"
+    },
+    {
+      "box": {
+        "height": 27.40625,
+        "width": 77.15625,
+        "x": 603.296875,
+        "y": 26.6875
+      },
+      "name": "Link"
+    },
+    {
+      "box": {
+        "height": 27.40625,
+        "width": 77.15625,
+        "x": 603.296875,
+        "y": 26.6875
+      },
+      "name": "Default"
+    },
+    {
+      "box": {
+        "height": 22.40625,
+        "width": 77.15625,
+        "x": 603.296875,
+        "y": 28.6875
+      },
+      "name": "Label"
+    },
+    {
+      "box": {
+        "height": 1,
+        "width": 77.15625,
+        "x": 603.296875,
+        "y": 53.09375
+      },
+      "name": "Underline Wrap"
+    },
+    {
+      "box": {
+        "height": 1,
+        "width": 0.765625,
+        "x": 593.296875,
+        "y": 53.09375
+      },
+      "name": "Line"
+    },
+    {
+      "box": {
+        "height": 27.40625,
+        "width": 51.265625,
+        "x": 712.453125,
+        "y": 26.6875
+      },
+      "name": "Link"
+    },
+    {
+      "box": {
+        "height": 27.40625,
+        "width": 51.265625,
+        "x": 712.453125,
+        "y": 26.6875
+      },
+      "name": "Default"
+    },
+    {
+      "box": {
+        "height": 22.40625,
+        "width": 51.265625,
+        "x": 712.453125,
+        "y": 28.6875
+      },
+      "name": "Label"
+    },
+    {
+      "box": {
+        "height": 1,
+        "width": 51.265625,
+        "x": 712.453125,
+        "y": 53.09375
+      },
+      "name": "Underline Wrap"
+    },
+    {
+      "box": {
+        "height": 1,
+        "width": 0.5,
+        "x": 702.453125,
+        "y": 53.09375
+      },
+      "name": "Line"
+    },
+    {
+      "box": {
+        "height": 27.40625,
+        "width": 40.71875,
+        "x": 795.71875,
+        "y": 26.6875
+      },
+      "name": "Link"
+    },
+    {
+      "box": {
+        "height": 27.40625,
+        "width": 40.71875,
+        "x": 795.71875,
+        "y": 26.6875
+      },
+      "name": "Default"
+    },
+    {
+      "box": {
+        "height": 22.40625,
+        "width": 40.71875,
+        "x": 795.71875,
+        "y": 28.6875
+      },
+      "name": "Label"
+    },
+    {
+      "box": {
+        "height": 1,
+        "width": 40.71875,
+        "x": 795.71875,
+        "y": 53.09375
+      },
+      "name": "Underline Wrap"
+    },
+    {
+      "box": {
+        "height": 1,
+        "width": 0.40625,
+        "x": 785.71875,
+        "y": 53.09375
+      },
+      "name": "Line"
+    },
+    {
+      "box": {
+        "height": 40.796875,
+        "width": 429.5625,
+        "x": 878.4375,
+        "y": 20
+      },
+      "name": "Buttons"
+    },
+    {
+      "box": {
+        "height": 40.796875,
+        "width": 82.140625,
+        "x": 1074.203125,
+        "y": 20
+      },
+      "name": "Nav Secondary"
+    },
+    {
+      "box": {
+        "height": 20.796875,
+        "width": 42.140625,
+        "x": 1094.203125,
+        "y": 30
+      },
+      "name": "Text"
+    },
+    {
+      "box": {
+        "height": 40.796875,
+        "width": 141.65625,
+        "x": 1166.34375,
+        "y": 20
+      },
+      "name": "Nav Primary"
+    },
+    {
+      "box": {
+        "height": 20.796875,
+        "width": 101.65625,
+        "x": 1186.34375,
+        "y": 30
+      },
+      "name": "Text"
+    },
+    {
+      "box": {
+        "height": 6259.59375,
+        "width": 1348,
+        "x": 0,
+        "y": 0
+      },
+      "name": "Main"
+    },
+    {
+      "box": {
+        "height": 936,
+        "width": 1348,
+        "x": 0,
+        "y": 0
+      },
+      "name": "Hero"
+    },
+    {
+      "box": {
+        "height": 936,
+        "width": 1348,
+        "x": 0,
+        "y": 0
+      },
+      "name": "Content"
+    },
+    {
+      "box": {
+        "height": 245.390625,
+        "width": 1268,
+        "x": 40,
+        "y": 308.90625
+      },
+      "name": "Heading"
+    },
+    {
+      "box": {
+        "height": 35,
+        "width": 253.78125,
+        "x": 40,
+        "y": 308.90625
+      },
+      "name": "Default"
+    },
+    {
+      "box": {
+        "height": 23,
+        "width": 1,
+        "x": 91.765625,
+        "y": 314.90625
+      },
+      "name": "Divider"
+    },
+    {
+      "box": {
+        "height": 194.390625,
+        "width": 500,
+        "x": 40,
+        "y": 359.90625
+      },
+      "name": "H1"
+    },
+    {
+      "box": {
+        "height": 48.796875,
+        "width": 300.140625,
+        "x": 40,
+        "y": 578.296875
+      },
+      "name": "Buttons"
+    },
+    {
+      "box": {
+        "height": 44.796875,
+        "width": 141.09375,
+        "x": 40,
+        "y": 580.296875
+      },
+      "name": "Primary"
+    },
+    {
+      "box": {
+        "height": 20.796875,
+        "width": 93.09375,
+        "x": 64,
+        "y": 592.296875
+      },
+      "name": "Text"
+    },
+    {
+      "box": {
+        "height": 48.796875,
+        "width": 149.046875,
+        "x": 191.09375,
+        "y": 578.296875
+      },
+      "name": "Secondary"
+    },
+    {
+      "box": {
+        "height": 20.796875,
+        "width": 101.046875,
+        "x": 215.09375,
+        "y": 592.296875
+      },
+      "name": "Text"
+    },
+    {
+      "box": {
+        "height": 936,
+        "width": 1348,
+        "x": 0,
+        "y": 0
+      },
+      "name": "Visual"
+    },
+    {
+      "box": {
+        "height": 814,
+        "width": 1348,
+        "x": 0,
+        "y": 936
+      },
+      "name": "How it works"
+    },
+    {
+      "box": {
+        "height": 814,
+        "width": 1348,
+        "x": 0,
+        "y": 936
+      },
+      "name": "Content"
+    },
+    {
+      "box": {
+        "height": 105.59375,
+        "width": 1268,
+        "x": 40,
+        "y": 1056
+      },
+      "name": "Heading"
+    },
+    {
+      "box": {
+        "height": 105.59375,
+        "width": 500,
+        "x": 40,
+        "y": 1056
+      },
+      "name": "H2"
+    },
+    {
+      "box": {
+        "height": 48.796875,
+        "width": 131.296875,
+        "x": 1176.703125,
+        "y": 1112.796875
+      },
+      "name": "Secondary"
+    },
+    {
+      "box": {
+        "height": 20.796875,
+        "width": 83.296875,
+        "x": 1200.703125,
+        "y": 1126.796875
+      },
+      "name": "Text"
+    },
+    {
+      "box": {
+        "height": 426.40625,
+        "width": 1268,
+        "x": 40,
+        "y": 1203.59375
+      },
+      "name": "Cards"
+    },
+    {
+      "box": {
+        "height": 426.40625,
+        "width": 414.65625,
+        "x": 40,
+        "y": 1203.59375
+      },
+      "name": "01"
+    },
+    {
+      "box": {
+        "height": 38.40625,
+        "width": 350.65625,
+        "x": 72,
+        "y": 1235.59375
+      },
+      "name": "Header"
+    },
+    {
+      "box": {
+        "height": 220,
+        "width": 350.65625,
+        "x": 72,
+        "y": 1298
+      },
+      "name": "Visual"
+    },
+    {
+      "box": {
+        "height": 193.59375,
+        "width": 350,
+        "x": 72.328125,
+        "y": 1311.203125
+      },
+      "name": "Card"
+    },
+    {
+      "box": {
+        "height": 101.59375,
+        "width": 314,
+        "x": 90.328125,
+        "y": 1329.203125
+      },
+      "name": "Prompt"
+    },
+    {
+      "box": {
+        "height": 64,
+        "width": 314,
+        "x": 90.328125,
+        "y": 1329.203125
+      },
+      "name": "Images"
+    },
+    {
+      "box": {
+        "height": 32,
+        "width": 314,
+        "x": 90.328125,
+        "y": 1454.796875
+      },
+      "name": "Bottom"
+    },
+    {
+      "box": {
+        "height": 30.40625,
+        "width": 183.9375,
+        "x": 90.328125,
+        "y": 1455.59375
+      },
+      "name": "Tags"
+    },
+    {
+      "box": {
+        "height": 30.40625,
+        "width": 118.71875,
+        "x": 90.328125,
+        "y": 1455.59375
+      },
+      "name": "Model"
+    },
+    {
+      "box": {
+        "height": 30.40625,
+        "width": 59.21875,
+        "x": 215.046875,
+        "y": 1455.59375
+      },
+      "name": "Time"
+    },
+    {
+      "box": {
+        "height": 32,
+        "width": 32,
+        "x": 372.328125,
+        "y": 1454.796875
+      },
+      "name": "Icon"
+    },
+    {
+      "box": {
+        "height": 426.40625,
+        "width": 414.671875,
+        "x": 466.65625,
+        "y": 1203.59375
+      },
+      "name": "02"
+    },
+    {
+      "box": {
+        "height": 38.40625,
+        "width": 350.671875,
+        "x": 498.65625,
+        "y": 1235.59375
+      },
+      "name": "Header"
+    },
+    {
+      "box": {
+        "height": 220,
+        "width": 350.671875,
+        "x": 498.65625,
+        "y": 1298
+      },
+      "name": "Visual"
+    },
+    {
+      "box": {
+        "height": 218,
+        "width": 350,
+        "x": 498.984375,
+        "y": 1299
+      },
+      "name": "Card"
+    },
+    {
+      "box": {
+        "height": 150,
+        "width": 314,
+        "x": 516.984375,
+        "y": 1317
+      },
+      "name": "Image Wrapper"
+    },
+    {
+      "box": {
+        "height": 20,
+        "width": 20,
+        "x": 663.984375,
+        "y": 1382
+      },
+      "name": "Spinner"
+    },
+    {
+      "box": {
+        "height": 20,
+        "width": 20,
+        "x": 663.984375,
+        "y": 1382
+      },
+      "name": "Conic"
+    },
+    {
+      "box": {
+        "height": 2,
+        "width": 2,
+        "x": 672.984375,
+        "y": 1382
+      },
+      "name": "Rounding"
+    },
+    {
+      "box": {
+        "height": 18,
+        "width": 314,
+        "x": 516.984375,
+        "y": 1481
+      },
+      "name": "Text Block"
+    },
+    {
+      "box": {
+        "height": 426.40625,
+        "width": 414.65625,
+        "x": 893.328125,
+        "y": 1203.59375
+      },
+      "name": "03"
+    },
+    {
+      "box": {
+        "height": 38.40625,
+        "width": 350.65625,
+        "x": 925.328125,
+        "y": 1235.59375
+      },
+      "name": "Header"
+    },
+    {
+      "box": {
+        "height": 220,
+        "width": 350.65625,
+        "x": 925.328125,
+        "y": 1298
+      },
+      "name": "Visual"
+    },
+    {
+      "box": {
+        "height": 207,
+        "width": 350,
+        "x": 925.65625,
+        "y": 1304.5
+      },
+      "name": "Card"
+    },
+    {
+      "box": {
+        "height": 49,
+        "width": 314,
+        "x": 943.65625,
+        "y": 1304.5
+      },
+      "name": "Image Wrapper"
+    },
+    {
+      "box": {
+        "height": 12,
+        "width": 290,
+        "x": 955.65625,
+        "y": 1333.5
+      },
+      "name": "Text Block"
+    },
+    {
+      "box": {
+        "height": 53.203125,
+        "width": 314,
+        "x": 943.65625,
+        "y": 1369.5
+      },
+      "name": "Export"
+    },
+    {
+      "box": {
+        "height": 54.796875,
+        "width": 314,
+        "x": 943.65625,
+        "y": 1438.703125
+      },
+      "name": "Share"
+    },
+    {
+      "box": {
+        "height": 27,
+        "width": 22,
+        "x": 1132.65625,
+        "y": 1391
+      },
+      "name": "Cursor"
+    },
+    {
+      "box": {
+        "height": 22,
+        "width": 22,
+        "x": 1131.65625,
+        "y": 1392
+      },
+      "name": "Cursor"
+    },
+    {
+      "box": {
+        "height": 419.59375,
+        "width": 1348,
+        "x": 0,
+        "y": 1750
+      },
+      "name": "Companies"
+    },
+    {
+      "box": {
+        "height": 419.59375,
+        "width": 1348,
+        "x": 0,
+        "y": 1750
+      },
+      "name": "Content"
+    },
+    {
+      "box": {
+        "height": 105.59375,
+        "width": 700,
+        "x": 40,
+        "y": 1870
+      },
+      "name": "H2"
+    },
+    {
+      "box": {
+        "height": 32,
+        "width": 1268,
+        "x": 40,
+        "y": 2017.59375
+      },
+      "name": "Logos"
+    },
+    {
+      "box": {
+        "height": 32,
+        "width": 48,
+        "x": 40,
+        "y": 2017.59375
+      },
+      "name": "Left Background"
+    },
+    {
+      "box": {
+        "height": 32,
+        "width": 1268,
+        "x": 40,
+        "y": 2017.59375
+      },
+      "name": "Ticker"
+    },
+    {
+      "box": {
+        "height": 32,
+        "width": 48,
+        "x": 1260,
+        "y": 2017.59375
+      },
+      "name": "Right Background"
+    },
+    {
+      "box": {
+        "height": 864.796875,
+        "width": 1348,
+        "x": 0,
+        "y": 2169.59375
+      },
+      "name": "Showcase"
+    },
+    {
+      "box": {
+        "height": 864.796875,
+        "width": 1348,
+        "x": 0,
+        "y": 2169.59375
+      },
+      "name": "Content"
+    },
+    {
+      "box": {
+        "height": 52.796875,
+        "width": 1268,
+        "x": 40,
+        "y": 2289.59375
+      },
+      "name": "Heading"
+    },
+    {
+      "box": {
+        "height": 52.796875,
+        "width": 500,
+        "x": 40,
+        "y": 2289.59375
+      },
+      "name": "H2"
+    },
+    {
+      "box": {
+        "height": 530,
+        "width": 414.65625,
+        "x": -2480,
+        "y": 2384.390625
+      },
+      "name": "Prompt Card 1"
+    },
+    {
+      "box": {
+        "height": 530,
+        "width": 414.65625,
+        "x": -2480,
+        "y": 2384.390625
+      },
+      "name": "Default"
+    },
+    {
+      "box": {
+        "height": 530,
+        "width": 415.65625,
+        "x": -2480,
+        "y": 2384.390625
+      },
+      "name": "Visual"
+    },
+    {
+      "box": {
+        "height": 530,
+        "width": 415.65625,
+        "x": -2480,
+        "y": 2384.390625
+      },
+      "name": "Dark Overlay"
+    },
+    {
+      "box": {
+        "height": 111.1875,
+        "width": 350.65625,
+        "x": -2448,
+        "y": 2771.203125
+      },
+      "name": "Heading"
+    },
+    {
+      "box": {
+        "height": 111.1875,
+        "width": 350.65625,
+        "x": -2448,
+        "y": 2771.203125
+      },
+      "name": "Text Block"
+    },
+    {
+      "box": {
+        "height": 530,
+        "width": 414.65625,
+        "x": -2053.34375,
+        "y": 2384.390625
+      },
+      "name": "Prompt Card 2"
+    },
+    {
+      "box": {
+        "height": 530,
+        "width": 414.65625,
+        "x": -2053.34375,
+        "y": 2384.390625
+      },
+      "name": "Default"
+    },
+    {
+      "box": {
+        "height": 530,
+        "width": 415.65625,
+        "x": -2053.34375,
+        "y": 2384.390625
+      },
+      "name": "Visual"
+    }
+  ],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Google Sans",
+      "weight": "500",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/googlesans/v70/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQkv74v.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/google-sans-500-0.woff2"
+    },
+    {
+      "family": "Google Sans",
+      "weight": "600",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/googlesans/v70/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQkv74v.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/google-sans-600-1.woff2"
+    },
+    {
+      "family": "Google Sans",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/googlesans/v70/4UairENHsxJlGDuGo1OIlL3L2JB874GPhFI9_IqmuRqGpjeaLi42kO8QvnQkv74v.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/google-sans-700-2.woff2"
+    },
+    {
+      "family": "Google Sans",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/googlesans/v70/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvQ.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/google-sans-500-3.woff2"
+    },
+    {
+      "family": "Google Sans",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/googlesans/v70/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvQ.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/google-sans-600-4.woff2"
+    },
+    {
+      "family": "Google Sans",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/googlesans/v70/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvQ.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/google-sans-700-5.woff2"
+    },
+    {
+      "family": "Google Sans Variable",
+      "weight": "400 700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/googlesans/v70/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/google-sans-variable-400-700-6.woff2"
+    },
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/fragment-mono-400-7.woff2"
+    },
+    {
+      "family": "Lily Script One",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/lilyscriptone/v16/LhW9MV7ZMfIPdMxeBjBvFN8SXLSIhc6i.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/lily-script-one-400-8.woff2"
+    },
+    {
+      "family": "DM Sans",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxhS2f3ZGMZpg.woff2",
+      "range": "",
+      "file": "assets/fonts/dm-sans-500-9.woff2"
+    },
+    {
+      "family": "DM Sans",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZthS2f3ZGMZpg.woff2",
+      "range": "",
+      "file": "assets/fonts/dm-sans-700-10.woff2"
+    },
+    {
+      "family": "DM Sans",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat9uCm32RmYJpso5.woff2",
+      "range": "",
+      "file": "assets/fonts/dm-sans-700-11.woff2"
+    },
+    {
+      "family": "DM Sans",
+      "weight": "500",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-7DW32RmYJpso5.woff2",
+      "range": "",
+      "file": "assets/fonts/dm-sans-500-12.woff2"
+    },
+    {
+      "family": "DM Sans",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhS2f3ZGMZpg.woff2",
+      "range": "",
+      "file": "assets/fonts/dm-sans-400-13.woff2"
+    },
+    {
+      "family": "DM Sans",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-JDW32RmYJpso5.woff2",
+      "range": "",
+      "file": "assets/fonts/dm-sans-400-14.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-15.woff2"
+    },
+    {
+      "family": "Inter Display",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/PfdOpgzFf7N2Uye9JX7xRKYTgSc.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-display-600-16.woff2"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/images/2Mb42TbTBMUYj4jOtXP777i6rs.png?width=2400&height=2400",
+      "srcset": "https://framerusercontent.com/images/2Mb42TbTBMUYj4jOtXP777i6rs.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/2Mb42TbTBMUYj4jOtXP777i6rs.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/2Mb42TbTBMUYj4jOtXP777i6rs.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/2Mb42TbTBMUYj4jOtXP777i6rs.png?width=2400&height=2400 2400w",
+      "alt": "AI-generated popcorn video frames \u2014 prompt preview in Lore",
+      "width": "2400",
+      "height": "2400",
+      "path": [
+        "Main",
+        "How it works",
+        "Content",
+        "Cards",
+        "01",
+        "Visual",
+        "Card",
+        "Prompt",
+        "Images"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/p5LPBMjRBWNheR0DHCjXw5KHbkE.png?width=2400&height=2400",
+      "srcset": "https://framerusercontent.com/images/p5LPBMjRBWNheR0DHCjXw5KHbkE.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/p5LPBMjRBWNheR0DHCjXw5KHbkE.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/p5LPBMjRBWNheR0DHCjXw5KHbkE.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/p5LPBMjRBWNheR0DHCjXw5KHbkE.png?width=2400&height=2400 2400w",
+      "alt": "AI-generated popcorn video frames \u2014 prompt preview in Lore",
+      "width": "2400",
+      "height": "2400",
+      "path": [
+        "Main",
+        "How it works",
+        "Content",
+        "Cards",
+        "01",
+        "Visual",
+        "Card",
+        "Prompt",
+        "Images"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4NqHOZ8zDkaw4Ur0cjJ2lSz6wME.png?width=2400&height=2400",
+      "srcset": "https://framerusercontent.com/images/4NqHOZ8zDkaw4Ur0cjJ2lSz6wME.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/4NqHOZ8zDkaw4Ur0cjJ2lSz6wME.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/4NqHOZ8zDkaw4Ur0cjJ2lSz6wME.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/4NqHOZ8zDkaw4Ur0cjJ2lSz6wME.png?width=2400&height=2400 2400w",
+      "alt": "AI-generated popcorn video frames \u2014 prompt preview in Lore",
+      "width": "2400",
+      "height": "2400",
+      "path": [
+        "Main",
+        "How it works",
+        "Content",
+        "Cards",
+        "01",
+        "Visual",
+        "Card",
+        "Prompt",
+        "Images"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/MLjIw98wUVqRnzqU7t7yF0YgU.png?width=2400&height=1600",
+      "srcset": "https://framerusercontent.com/images/MLjIw98wUVqRnzqU7t7yF0YgU.png?scale-down-to=512&width=2400&height=1600 512w,https://framerusercontent.com/images/MLjIw98wUVqRnzqU7t7yF0YgU.png?scale-down-to=1024&width=2400&height=1600 1024w,https://framerusercontent.com/images/MLjIw98wUVqRnzqU7t7yF0YgU.png?scale-down-to=2048&width=2400&height=1600 2048w,https://framerusercontent.com/images/MLjIw98wUVqRnzqU7t7yF0YgU.png?width=2400&height=1600 2400w",
+      "alt": "Lore generating a cinematic popcorn video \u2014 84% progress",
+      "width": "2400",
+      "height": "1600",
+      "path": [
+        "Main",
+        "How it works",
+        "Content",
+        "Cards",
+        "02",
+        "Visual",
+        "Card",
+        "Image Wrapper"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/MLjIw98wUVqRnzqU7t7yF0YgU.png?width=2400&height=1600",
+      "srcset": "https://framerusercontent.com/images/MLjIw98wUVqRnzqU7t7yF0YgU.png?scale-down-to=512&width=2400&height=1600 512w,https://framerusercontent.com/images/MLjIw98wUVqRnzqU7t7yF0YgU.png?scale-down-to=1024&width=2400&height=1600 1024w,https://framerusercontent.com/images/MLjIw98wUVqRnzqU7t7yF0YgU.png?scale-down-to=2048&width=2400&height=1600 2048w,https://framerusercontent.com/images/MLjIw98wUVqRnzqU7t7yF0YgU.png?width=2400&height=1600 2400w",
+      "alt": "Generated cinematic popcorn video ready to export in Lore",
+      "width": "2400",
+      "height": "1600",
+      "path": [
+        "Main",
+        "How it works",
+        "Content",
+        "Cards",
+        "03",
+        "Visual",
+        "Card",
+        "Image Wrapper"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/CTjUyUzElrVopsayOQxlefryCE.svg?width=145&height=48",
+      "srcset": null,
+      "alt": "logo",
+      "width": "145",
+      "height": "48",
+      "path": [
+        "Main",
+        "Companies",
+        "Content",
+        "Logos",
+        "Ticker"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/PyV2adXLyAMVfBz27RPzQAT6oc.svg?width=127&height=48",
+      "srcset": null,
+      "alt": "logo",
+      "width": "127",
+      "height": "48",
+      "path": [
+        "Main",
+        "Companies",
+        "Content",
+        "Logos",
+        "Ticker"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/c8dswP6N8g6xB4XjS7jpwhOYM.svg?width=163&height=48",
+      "srcset": null,
+      "alt": "logo",
+      "width": "163",
+      "height": "48",
+      "path": [
+        "Main",
+        "Companies",
+        "Content",
+        "Logos",
+        "Ticker"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ILR84cbZBB5txjm9IHGsqrHGIJU.svg?width=177&height=48",
+      "srcset": null,
+      "alt": "logo",
+      "width": "177",
+      "height": "48",
+      "path": [
+        "Main",
+        "Companies",
+        "Content",
+        "Logos",
+        "Ticker"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/32fzfKaeR7cQfs5hyYwG15ZcXw.svg?width=201&height=48",
+      "srcset": null,
+      "alt": "logo",
+      "width": "201",
+      "height": "48",
+      "path": [
+        "Main",
+        "Companies",
+        "Content",
+        "Logos",
+        "Ticker"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/cSuAlVL5LSY2wvWbBjADP95Mm4.svg?width=151&height=48",
+      "srcset": null,
+      "alt": "logo",
+      "width": "151",
+      "height": "48",
+      "path": [
+        "Main",
+        "Companies",
+        "Content",
+        "Logos",
+        "Ticker"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/hxwP1T5PNxAi5zkREQjVUVZnJjA.svg?width=177&height=48",
+      "srcset": null,
+      "alt": "logo",
+      "width": "177",
+      "height": "48",
+      "path": [
+        "Main",
+        "Companies",
+        "Content",
+        "Logos",
+        "Ticker"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/v2GSKkZezOi1U6qXKFiWJbrM7C8.svg?width=210&height=48",
+      "srcset": null,
+      "alt": "logo",
+      "width": "210",
+      "height": "48",
+      "path": [
+        "Main",
+        "Companies",
+        "Content",
+        "Logos",
+        "Ticker"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NkjTbm4ernWEMmLCTiiH02IHOZQ.png?width=153&height=153",
+      "srcset": null,
+      "alt": "Back Arrow",
+      "width": "42",
+      "height": "42",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/oVWQm7LzV0JdlpfKAwTsJB2vNA.png?width=153&height=153",
+      "srcset": null,
+      "alt": "Next Arrow",
+      "width": "42",
+      "height": "42",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NkjTbm4ernWEMmLCTiiH02IHOZQ.png?width=153&height=153",
+      "srcset": null,
+      "alt": "Back Arrow",
+      "width": "42",
+      "height": "42",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/oVWQm7LzV0JdlpfKAwTsJB2vNA.png?width=153&height=153",
+      "srcset": null,
+      "alt": "Next Arrow",
+      "width": "42",
+      "height": "42",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/NkjTbm4ernWEMmLCTiiH02IHOZQ.png?width=153&height=153",
+      "srcset": null,
+      "alt": "Back Arrow",
+      "width": "42",
+      "height": "42",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/oVWQm7LzV0JdlpfKAwTsJB2vNA.png?width=153&height=153",
+      "srcset": null,
+      "alt": "Next Arrow",
+      "width": "42",
+      "height": "42",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content"
+      ],
+      "inlineStyle": "",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/aLBbCZGUosHkVCqrZ4ERlxyMY.png?width=2400&height=2000",
+      "srcset": "https://framerusercontent.com/images/aLBbCZGUosHkVCqrZ4ERlxyMY.png?scale-down-to=512&width=2400&height=2000 512w,https://framerusercontent.com/images/aLBbCZGUosHkVCqrZ4ERlxyMY.png?scale-down-to=1024&width=2400&height=2000 1024w,https://framerusercontent.com/images/aLBbCZGUosHkVCqrZ4ERlxyMY.png?scale-down-to=2048&width=2400&height=2000 2048w,https://framerusercontent.com/images/aLBbCZGUosHkVCqrZ4ERlxyMY.png?width=2400&height=2000 2400w",
+      "alt": "Close-up of a fox face, cinematic dark portrait \u2014 AI generated with Lore",
+      "width": "2400",
+      "height": "2000",
+      "path": [
+        "Main",
+        "Features",
+        "Content",
+        "Cards",
+        "Column 1",
+        "1",
+        "Left Card",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:left top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ucqljWQOOWM3Wst4i7OehGUa6os.png?width=2400&height=2000",
+      "srcset": "https://framerusercontent.com/images/ucqljWQOOWM3Wst4i7OehGUa6os.png?scale-down-to=512&width=2400&height=2000 512w,https://framerusercontent.com/images/ucqljWQOOWM3Wst4i7OehGUa6os.png?scale-down-to=1024&width=2400&height=2000 1024w,https://framerusercontent.com/images/ucqljWQOOWM3Wst4i7OehGUa6os.png?scale-down-to=2048&width=2400&height=2000 2048w,https://framerusercontent.com/images/ucqljWQOOWM3Wst4i7OehGUa6os.png?width=2400&height=2000 2400w",
+      "alt": "Cinematic close-up of a young woman's face, warm tones \u2014 AI generated with Lore",
+      "width": "2400",
+      "height": "2000",
+      "path": [
+        "Main",
+        "Features",
+        "Content",
+        "Cards",
+        "Column 1",
+        "1",
+        "Right Card",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:left top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/p2mrBr4XyrJy1Na3F5gkQkQL4ls.png?width=2400&height=1200",
+      "srcset": "https://framerusercontent.com/images/p2mrBr4XyrJy1Na3F5gkQkQL4ls.png?scale-down-to=512&width=2400&height=1200 512w,https://framerusercontent.com/images/p2mrBr4XyrJy1Na3F5gkQkQL4ls.png?scale-down-to=1024&width=2400&height=1200 1024w,https://framerusercontent.com/images/p2mrBr4XyrJy1Na3F5gkQkQL4ls.png?scale-down-to=2048&width=2400&height=1200 2048w,https://framerusercontent.com/images/p2mrBr4XyrJy1Na3F5gkQkQL4ls.png?width=2400&height=1200 2400w",
+      "alt": "Colorful wildflowers in soft focus, warm cinematic tones \u2014 AI generated with Lore",
+      "width": "2400",
+      "height": "1200",
+      "path": [
+        "Main",
+        "Features",
+        "Content",
+        "Cards",
+        "Column 1",
+        "3",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/DbNxfNybqdcZGrFlY45hBc6IGI.png?width=2400&height=1600",
+      "srcset": "https://framerusercontent.com/images/DbNxfNybqdcZGrFlY45hBc6IGI.png?scale-down-to=512&width=2400&height=1600 512w,https://framerusercontent.com/images/DbNxfNybqdcZGrFlY45hBc6IGI.png?scale-down-to=1024&width=2400&height=1600 1024w,https://framerusercontent.com/images/DbNxfNybqdcZGrFlY45hBc6IGI.png?scale-down-to=2048&width=2400&height=1600 2048w,https://framerusercontent.com/images/DbNxfNybqdcZGrFlY45hBc6IGI.png?width=2400&height=1600 2400w",
+      "alt": "Tennis racket and ball on a green court, aerial view \u2014 AI generated with Lore",
+      "width": "2400",
+      "height": "1600",
+      "path": [
+        "Main",
+        "Features",
+        "Content",
+        "Cards",
+        "Column 2",
+        "1",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:left top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/6mJbRk2VDkwWVAaepq2K8TKAQ.png?width=2400&height=1600",
+      "srcset": "https://framerusercontent.com/images/6mJbRk2VDkwWVAaepq2K8TKAQ.png?scale-down-to=512&width=2400&height=1600 512w,https://framerusercontent.com/images/6mJbRk2VDkwWVAaepq2K8TKAQ.png?scale-down-to=1024&width=2400&height=1600 1024w,https://framerusercontent.com/images/6mJbRk2VDkwWVAaepq2K8TKAQ.png?scale-down-to=2048&width=2400&height=1600 2048w,https://framerusercontent.com/images/6mJbRk2VDkwWVAaepq2K8TKAQ.png?width=2400&height=1600 2400w",
+      "alt": "Pink off-road truck in a desert canyon, cinematic wide shot \u2014 AI generated with Lore",
+      "width": "2400",
+      "height": "1600",
+      "path": [
+        "Main",
+        "Features",
+        "Content",
+        "Cards",
+        "Column 2",
+        "2",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:left top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/HRLA21NSMj1cBcPwlyn2aVxWs.png?width=2400&height=2400",
+      "srcset": "https://framerusercontent.com/images/HRLA21NSMj1cBcPwlyn2aVxWs.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/HRLA21NSMj1cBcPwlyn2aVxWs.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/HRLA21NSMj1cBcPwlyn2aVxWs.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/HRLA21NSMj1cBcPwlyn2aVxWs.png?width=2400&height=2400 2400w",
+      "alt": "Pink truck in a vast mountain landscape, cinematic aerial \u2014 AI generated with Lore",
+      "width": "2400",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Features",
+        "Content",
+        "Cards",
+        "Column 2",
+        "3",
+        "Left Card",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:left top;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/egaFdaEYGqxLf6KwaU5hTmZeqcc.png?width=2400&height=1600",
+      "srcset": "https://framerusercontent.com/images/egaFdaEYGqxLf6KwaU5hTmZeqcc.png?scale-down-to=512&width=2400&height=1600 512w,https://framerusercontent.com/images/egaFdaEYGqxLf6KwaU5hTmZeqcc.png?scale-down-to=1024&width=2400&height=1600 1024w,https://framerusercontent.com/images/egaFdaEYGqxLf6KwaU5hTmZeqcc.png?scale-down-to=2048&width=2400&height=1600 2048w,https://framerusercontent.com/images/egaFdaEYGqxLf6KwaU5hTmZeqcc.png?width=2400&height=1600 2400w",
+      "alt": "Dark ocean depth",
+      "width": "2400",
+      "height": "1600",
+      "path": [
+        "Main",
+        "Dashboard",
+        "Content",
+        "Visual",
+        "Background"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/LYYgUlxRIeER8RD5dz3lt2da5w.png?width=2400&height=2400",
+      "srcset": "https://framerusercontent.com/images/LYYgUlxRIeER8RD5dz3lt2da5w.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/LYYgUlxRIeER8RD5dz3lt2da5w.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/LYYgUlxRIeER8RD5dz3lt2da5w.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/LYYgUlxRIeER8RD5dz3lt2da5w.png?width=2400&height=2400 2400w",
+      "alt": "Underwater flowers swaying in slow motion, cinematic teal tones \u2014 generated with Lore",
+      "width": "2400",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Dashboard",
+        "Content",
+        "Visual",
+        "Dasboard",
+        "Main Content",
+        "Content",
+        "Container",
+        "Projects",
+        "Images"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/lefjH4Q9mo83gPGlbYpDw89KyQo.png?width=2400&height=2400",
+      "srcset": "https://framerusercontent.com/images/lefjH4Q9mo83gPGlbYpDw89KyQo.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/lefjH4Q9mo83gPGlbYpDw89KyQo.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/lefjH4Q9mo83gPGlbYpDw89KyQo.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/lefjH4Q9mo83gPGlbYpDw89KyQo.png?width=2400&height=2400 2400w",
+      "alt": "Colorful coral reef with exotic fish, dramatic underwater scene \u2014 generated with Lore",
+      "width": "2400",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Dashboard",
+        "Content",
+        "Visual",
+        "Dasboard",
+        "Main Content",
+        "Content",
+        "Container",
+        "Projects",
+        "Images"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/BE1SQiFxUZ302espU25Bdk5NDI.png?width=2400&height=2400",
+      "srcset": "https://framerusercontent.com/images/BE1SQiFxUZ302espU25Bdk5NDI.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/BE1SQiFxUZ302espU25Bdk5NDI.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/BE1SQiFxUZ302espU25Bdk5NDI.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/BE1SQiFxUZ302espU25Bdk5NDI.png?width=2400&height=2400 2400w",
+      "alt": "Golden sea anemones glowing in dark ocean depth \u2014 generated with Lore",
+      "width": "2400",
+      "height": "2400",
+      "path": [
+        "Main",
+        "Dashboard",
+        "Content",
+        "Visual",
+        "Dasboard",
+        "Main Content",
+        "Content",
+        "Container",
+        "Projects",
+        "Images"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2wob6K6pX5m0jFiNm3yHsbggxU0.webp?width=3360&height=1995",
+      "srcset": "https://framerusercontent.com/images/2wob6K6pX5m0jFiNm3yHsbggxU0.webp?scale-down-to=512&width=3360&height=1995 512w,https://framerusercontent.com/images/2wob6K6pX5m0jFiNm3yHsbggxU0.webp?scale-down-to=1024&width=3360&height=1995 1024w,https://framerusercontent.com/images/2wob6K6pX5m0jFiNm3yHsbggxU0.webp?scale-down-to=2048&width=3360&height=1995 2048w,https://framerusercontent.com/images/2wob6K6pX5m0jFiNm3yHsbggxU0.webp?width=3360&height=1995 3360w",
+      "alt": "Lore dashboard showing Kling 3.0 model with cozy autumn animal projects",
+      "width": "3360",
+      "height": "1995",
+      "path": [
+        "Main",
+        "News",
+        "Content",
+        "Default",
+        "Container",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/2wob6K6pX5m0jFiNm3yHsbggxU0.webp?width=3360&height=1995",
+      "srcset": "https://framerusercontent.com/images/2wob6K6pX5m0jFiNm3yHsbggxU0.webp?scale-down-to=512&width=3360&height=1995 512w,https://framerusercontent.com/images/2wob6K6pX5m0jFiNm3yHsbggxU0.webp?scale-down-to=1024&width=3360&height=1995 1024w,https://framerusercontent.com/images/2wob6K6pX5m0jFiNm3yHsbggxU0.webp?scale-down-to=2048&width=3360&height=1995 2048w,https://framerusercontent.com/images/2wob6K6pX5m0jFiNm3yHsbggxU0.webp?width=3360&height=1995 3360w",
+      "alt": "Lore dashboard showing Kling 3.0 model with cozy autumn animal projects",
+      "width": "3360",
+      "height": "1995",
+      "path": [
+        "Main",
+        "News",
+        "Content",
+        "Phone",
+        "Container",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/AghHix0JvvVzpmr1Kv9LleziHYA.png?width=3360&height=1995",
+      "srcset": "https://framerusercontent.com/images/AghHix0JvvVzpmr1Kv9LleziHYA.png?scale-down-to=512&width=3360&height=1995 512w,https://framerusercontent.com/images/AghHix0JvvVzpmr1Kv9LleziHYA.png?scale-down-to=1024&width=3360&height=1995 1024w,https://framerusercontent.com/images/AghHix0JvvVzpmr1Kv9LleziHYA.png?scale-down-to=2048&width=3360&height=1995 2048w,https://framerusercontent.com/images/AghHix0JvvVzpmr1Kv9LleziHYA.png?width=3360&height=1995 3360w",
+      "alt": "Lore logo on dark silk fabric background \u2014 company announcement",
+      "width": "3360",
+      "height": "1995",
+      "path": [
+        "Main",
+        "News",
+        "Content",
+        "Default",
+        "Container",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/AghHix0JvvVzpmr1Kv9LleziHYA.png?width=3360&height=1995",
+      "srcset": "https://framerusercontent.com/images/AghHix0JvvVzpmr1Kv9LleziHYA.png?scale-down-to=512&width=3360&height=1995 512w,https://framerusercontent.com/images/AghHix0JvvVzpmr1Kv9LleziHYA.png?scale-down-to=1024&width=3360&height=1995 1024w,https://framerusercontent.com/images/AghHix0JvvVzpmr1Kv9LleziHYA.png?scale-down-to=2048&width=3360&height=1995 2048w,https://framerusercontent.com/images/AghHix0JvvVzpmr1Kv9LleziHYA.png?width=3360&height=1995 3360w",
+      "alt": "Lore logo on dark silk fabric background \u2014 company announcement",
+      "width": "3360",
+      "height": "1995",
+      "path": [
+        "Main",
+        "News",
+        "Content",
+        "Phone",
+        "Container",
+        "Image"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/qvLucijkdPlacb60ayr3Fhy5mA.png?width=1999&height=2400",
+      "srcset": "https://framerusercontent.com/images/qvLucijkdPlacb60ayr3Fhy5mA.png?scale-down-to=1024&width=1999&height=2400 852w,https://framerusercontent.com/images/qvLucijkdPlacb60ayr3Fhy5mA.png?scale-down-to=2048&width=1999&height=2400 1705w,https://framerusercontent.com/images/qvLucijkdPlacb60ayr3Fhy5mA.png?width=1999&height=2400 1999w",
+      "alt": "AI-generated cinematic scene",
+      "width": "1999",
+      "height": "2400",
+      "path": [
+        "CTA",
+        "Content",
+        "Images"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/sau2nINodZSnyaZCHWXPRatt9Ss.png?width=1999&height=2400",
+      "srcset": "https://framerusercontent.com/images/sau2nINodZSnyaZCHWXPRatt9Ss.png?scale-down-to=1024&width=1999&height=2400 852w,https://framerusercontent.com/images/sau2nINodZSnyaZCHWXPRatt9Ss.png?scale-down-to=2048&width=1999&height=2400 1705w,https://framerusercontent.com/images/sau2nINodZSnyaZCHWXPRatt9Ss.png?width=1999&height=2400 1999w",
+      "alt": "AI-generated cinematic scene",
+      "width": "1999",
+      "height": "2400",
+      "path": [
+        "CTA",
+        "Content",
+        "Images"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZWN3lA9O68DUZC7Lz3k1pZ43SE.png?width=1999&height=2400",
+      "srcset": "https://framerusercontent.com/images/ZWN3lA9O68DUZC7Lz3k1pZ43SE.png?scale-down-to=1024&width=1999&height=2400 852w,https://framerusercontent.com/images/ZWN3lA9O68DUZC7Lz3k1pZ43SE.png?scale-down-to=2048&width=1999&height=2400 1705w,https://framerusercontent.com/images/ZWN3lA9O68DUZC7Lz3k1pZ43SE.png?width=1999&height=2400 1999w",
+      "alt": "AI-generated cinematic scene",
+      "width": "1999",
+      "height": "2400",
+      "path": [
+        "CTA",
+        "Content",
+        "Images"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/OgMXJgIeiP7Hx1KxCMh5yNtqE.png?width=2400&height=2400",
+      "srcset": "https://framerusercontent.com/images/OgMXJgIeiP7Hx1KxCMh5yNtqE.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/OgMXJgIeiP7Hx1KxCMh5yNtqE.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/OgMXJgIeiP7Hx1KxCMh5yNtqE.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/OgMXJgIeiP7Hx1KxCMh5yNtqE.png?width=2400&height=2400 2400w",
+      "alt": "AI-generated cinematic scene",
+      "width": "2400",
+      "height": "2400",
+      "path": [
+        "CTA",
+        "Content",
+        "Images"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/9LYdSgCm34r0CWkYBr2WPvCosM.png?width=2400&height=2400",
+      "srcset": "https://framerusercontent.com/images/9LYdSgCm34r0CWkYBr2WPvCosM.png?scale-down-to=512&width=2400&height=2400 512w,https://framerusercontent.com/images/9LYdSgCm34r0CWkYBr2WPvCosM.png?scale-down-to=1024&width=2400&height=2400 1024w,https://framerusercontent.com/images/9LYdSgCm34r0CWkYBr2WPvCosM.png?scale-down-to=2048&width=2400&height=2400 2048w,https://framerusercontent.com/images/9LYdSgCm34r0CWkYBr2WPvCosM.png?width=2400&height=2400 2400w",
+      "alt": "AI-generated cinematic scene",
+      "width": "2400",
+      "height": "2400",
+      "path": [
+        "CTA",
+        "Content",
+        "Images"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rAq6IP41oRXG0T7Zat4IOCmHzhM.png?width=2400&height=1350",
+      "srcset": "https://framerusercontent.com/images/rAq6IP41oRXG0T7Zat4IOCmHzhM.png?scale-down-to=512&width=2400&height=1350 512w,https://framerusercontent.com/images/rAq6IP41oRXG0T7Zat4IOCmHzhM.png?scale-down-to=1024&width=2400&height=1350 1024w,https://framerusercontent.com/images/rAq6IP41oRXG0T7Zat4IOCmHzhM.png?scale-down-to=2048&width=2400&height=1350 2048w,https://framerusercontent.com/images/rAq6IP41oRXG0T7Zat4IOCmHzhM.png?width=2400&height=1350 2400w",
+      "alt": "Dark ocean depth",
+      "width": "2400",
+      "height": "1350",
+      "path": [
+        "Footer",
+        "Content",
+        "Background"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/e14vN096Ri5hiCcbpyuOy5a9L4.webp?width=839&height=441",
+      "srcset": "https://framerusercontent.com/images/e14vN096Ri5hiCcbpyuOy5a9L4.webp?scale-down-to=512&width=839&height=441 512w,https://framerusercontent.com/images/e14vN096Ri5hiCcbpyuOy5a9L4.webp?width=839&height=441 839w",
+      "alt": "Lore Template",
+      "width": "839",
+      "height": "441",
+      "path": [
+        "Delete me!",
+        "Desktop",
+        "Container"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    }
+  ],
+  "videoReferences": [
+    {
+      "src": "https://framerusercontent.com/assets/fujemD7BFvGsNEqrT7ANHus2Irs.mp4",
+      "poster": "https://framerusercontent.com/images/C6cnABiUXdvwS5kgLp6gQ0BEkIg.webp?width=2400&height=1350",
+      "path": [
+        "Main",
+        "Hero",
+        "Visual"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/VjXvbsXJ8ug0lODWxwqzvxC1FI.mp4",
+      "poster": "https://framerusercontent.com/images/e4B2T5u2vzdAcmFv0BblaLE6JA.webp?width=1800&height=2400",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content",
+        "Prompt Card 1",
+        "Default",
+        "Visual"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/bNPmmIF0tV9StTq2b6Ly7XzNm1k.mp4",
+      "poster": "https://framerusercontent.com/images/Ljt4zpactwDAnzAsPITXrEQa0Hc.webp?width=1800&height=2400",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content",
+        "Prompt Card 2",
+        "Default",
+        "Visual"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/avVndYxL81Fu71lTXSapFUKEdA.mp4",
+      "poster": "https://framerusercontent.com/images/t9wINxrEZfJm5OQarMzM0bVMWw.webp?width=1601&height=2400",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content",
+        "Prompt Card 3",
+        "Default",
+        "Visual"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/qSAh5rc1QVLl1x4Z2GeHgTU0.mp4",
+      "poster": "https://framerusercontent.com/images/v4y9ZGdcEkmvDFnNHhmcfCqi2o.webp?width=1800&height=2400",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content",
+        "Prompt Card 4",
+        "Default",
+        "Visual"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aGdHqZZMPsxWye6fH4vqhj9Nk.mp4",
+      "poster": "https://framerusercontent.com/images/9jqRaTwOhVWZ1D26wLjE2VJnkqk.webp?width=1601&height=2400",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content",
+        "Prompt Card 5",
+        "Default",
+        "Visual"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/o0pp9Jde4OGLJRwNbDaoTdWWc.mp4",
+      "poster": "https://framerusercontent.com/images/vcLalNiK0dtIxoAg6Tncyk6k68U.webp?width=1800&height=2400",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content",
+        "Prompt Card 6",
+        "Default",
+        "Visual"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/VjXvbsXJ8ug0lODWxwqzvxC1FI.mp4",
+      "poster": "https://framerusercontent.com/images/e4B2T5u2vzdAcmFv0BblaLE6JA.webp?width=1800&height=2400",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content",
+        "Prompt Card 1",
+        "Default",
+        "Visual"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/bNPmmIF0tV9StTq2b6Ly7XzNm1k.mp4",
+      "poster": "https://framerusercontent.com/images/Ljt4zpactwDAnzAsPITXrEQa0Hc.webp?width=1800&height=2400",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content",
+        "Prompt Card 2",
+        "Default",
+        "Visual"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/avVndYxL81Fu71lTXSapFUKEdA.mp4",
+      "poster": "https://framerusercontent.com/images/t9wINxrEZfJm5OQarMzM0bVMWw.webp?width=1601&height=2400",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content",
+        "Prompt Card 3",
+        "Default",
+        "Visual"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/qSAh5rc1QVLl1x4Z2GeHgTU0.mp4",
+      "poster": "https://framerusercontent.com/images/v4y9ZGdcEkmvDFnNHhmcfCqi2o.webp?width=1800&height=2400",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content",
+        "Prompt Card 4",
+        "Default",
+        "Visual"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aGdHqZZMPsxWye6fH4vqhj9Nk.mp4",
+      "poster": "https://framerusercontent.com/images/9jqRaTwOhVWZ1D26wLjE2VJnkqk.webp?width=1601&height=2400",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content",
+        "Prompt Card 5",
+        "Default",
+        "Visual"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/o0pp9Jde4OGLJRwNbDaoTdWWc.mp4",
+      "poster": "https://framerusercontent.com/images/vcLalNiK0dtIxoAg6Tncyk6k68U.webp?width=1800&height=2400",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content",
+        "Prompt Card 6",
+        "Default",
+        "Visual"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/VjXvbsXJ8ug0lODWxwqzvxC1FI.mp4",
+      "poster": "https://framerusercontent.com/images/e4B2T5u2vzdAcmFv0BblaLE6JA.webp?width=1800&height=2400",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content",
+        "Prompt Card 1",
+        "Default",
+        "Visual"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/bNPmmIF0tV9StTq2b6Ly7XzNm1k.mp4",
+      "poster": "https://framerusercontent.com/images/Ljt4zpactwDAnzAsPITXrEQa0Hc.webp?width=1800&height=2400",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content",
+        "Prompt Card 2",
+        "Default",
+        "Visual"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/avVndYxL81Fu71lTXSapFUKEdA.mp4",
+      "poster": "https://framerusercontent.com/images/t9wINxrEZfJm5OQarMzM0bVMWw.webp?width=1601&height=2400",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content",
+        "Prompt Card 3",
+        "Default",
+        "Visual"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/qSAh5rc1QVLl1x4Z2GeHgTU0.mp4",
+      "poster": "https://framerusercontent.com/images/v4y9ZGdcEkmvDFnNHhmcfCqi2o.webp?width=1800&height=2400",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content",
+        "Prompt Card 4",
+        "Default",
+        "Visual"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/aGdHqZZMPsxWye6fH4vqhj9Nk.mp4",
+      "poster": "https://framerusercontent.com/images/9jqRaTwOhVWZ1D26wLjE2VJnkqk.webp?width=1601&height=2400",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content",
+        "Prompt Card 5",
+        "Default",
+        "Visual"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/o0pp9Jde4OGLJRwNbDaoTdWWc.mp4",
+      "poster": "https://framerusercontent.com/images/vcLalNiK0dtIxoAg6Tncyk6k68U.webp?width=1800&height=2400",
+      "path": [
+        "Main",
+        "Showcase",
+        "Content",
+        "Prompt Card 6",
+        "Default",
+        "Visual"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/cfswkeB0BMGJhJ7eQEPa0QMZhg.mp4",
+      "poster": "https://framerusercontent.com/images/Yu2fSZMGSl6Wt7u9K8wvV05vRE.webp?width=2400&height=1350",
+      "path": [
+        "Main",
+        "Features",
+        "Content",
+        "Cards",
+        "Column 1",
+        "2"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/oGKvlPQ4GgOjI8oidwsMcnvZW04.mp4",
+      "poster": "https://framerusercontent.com/images/RXypkCTcBN62xZJBiwC3W0WALg.webp?width=1999&height=2400",
+      "path": [
+        "Main",
+        "Features",
+        "Content",
+        "Cards",
+        "Column 2",
+        "3",
+        "Right Card"
+      ]
+    },
+    {
+      "src": "https://framerusercontent.com/assets/fujemD7BFvGsNEqrT7ANHus2Irs.mp4",
+      "poster": "https://framerusercontent.com/images/C6cnABiUXdvwS5kgLp6gQ0BEkIg.webp?width=2400&height=1350",
+      "path": [
+        "Main",
+        "Dashboard",
+        "Content",
+        "Visual",
+        "Dasboard",
+        "Main Content",
+        "Content",
+        "Container",
+        "Header"
+      ]
+    }
+  ],
+  "linksDeclaredInSource": [
+    "https://contra.com/products/EoBx7UHm-lore-dark-framer-template-for-ai-products",
+    "https://framer.link/liana-tudakova",
+    "https://lore-app.framer.website/",
+    "https://lore-app.framer.website/legal/privacy-policy",
+    "https://lore-app.framer.website/legal/terms-of-service",
+    "https://lore-app.framer.website/news",
+    "https://lore-app.framer.website/news/kling-3.0-is-now-available-on-lore",
+    "https://lore-app.framer.website/news/lore-raises-4.2m-seed-round",
+    "https://lore-app.framer.website/pricing",
+    "https://lore-app.framer.website/product",
+    "https://lore-app.framer.website/showcase",
+    "https://lunaui.co",
+    "https://www.framer.com",
+    "https://www.instagram.com/liana.tudakova/",
+    "https://www.linkedin.com/in/liana-tme/",
+    "https://www.threads.com/@liana.tudakova",
+    "https://x.com/liana_tme",
+    "mailto:hello@lore.com"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2Ffd602ffe-74b5-4520-9cff-2960ef697e4b%2Fkqy3ru5t&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2Ffd602ffe-74b5-4520-9cff-2960ef697e4b%2Fecj3nd4z&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2Ffd602ffe-74b5-4520-9cff-2960ef697e4b%2Fk70v15ic&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-04.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2Ffd602ffe-74b5-4520-9cff-2960ef697e4b%2Fenjejdiu&w=2048&q=80"
+    }
+  ],
+  "category": {
+    "parent": "AI",
+    "branch": "Generative media",
+    "marketplace": "https://www.framer.com/marketplace/templates/lore/",
+    "fitEvidence": "The official listing explicitly targets video, image, and audio generation platforms, including a content gallery and product dashboard UI."
+  },
+  "productBackendVerified": false,
+  "secondaryDeclarationsFile": "secondary-declarations.json",
+  "browserObservationsFile": "BROWSER-OBSERVATIONS.json",
+  "nativeBrowserCaptures": [
+    {
+      "file": "screenshots/live-home.jpg",
+      "description": "Home opening at recorded viewport"
+    }
+  ],
+  "captureRasterPx": {
+    "width": 1348,
+    "height": 926
+  }
+}

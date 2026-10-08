@@ -1,0 +1,739 @@
+{
+  "name": "Imagio",
+  "source": "https://imagio.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#f6f0e9",
+    "paper": "#fff7ed",
+    "ink": "#2a150a",
+    "accent": "#b89c7d",
+    "muted": "#624c41"
+  },
+  "type": {
+    "body": "TASA Orbiter Display Regular",
+    "display": "Halant",
+    "roles": [
+      {
+        "role": "Navigation label; source declaration",
+        "family": "TASA Orbiter Display Medium",
+        "weight": 500,
+        "sizePx": 16.0,
+        "linePx": 24.0,
+        "tracking": "0em"
+      },
+      {
+        "role": "Primary action; source declaration",
+        "family": "TASA Orbiter Display Medium",
+        "weight": 500,
+        "sizePx": 18.0,
+        "linePx": 18.0,
+        "tracking": "0em"
+      },
+      {
+        "role": "Hero title; source declaration",
+        "family": "Halant",
+        "weight": 400,
+        "sizePx": 88.0,
+        "linePx": 96.8,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Hero supporting copy; source declaration",
+        "family": "TASA Orbiter Display Regular",
+        "weight": 400,
+        "sizePx": 20.0,
+        "linePx": 32.0,
+        "tracking": "0em"
+      },
+      {
+        "role": "Section heading; source declaration",
+        "family": "Halant",
+        "weight": 400,
+        "sizePx": 54.0,
+        "linePx": 59.4,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Workflow/card heading; source declaration",
+        "family": "Halant",
+        "weight": 400,
+        "sizePx": 26.0,
+        "linePx": 33.8,
+        "tracking": "-.03em"
+      },
+      {
+        "role": "Step index; source declaration",
+        "family": "Fira Code",
+        "weight": 500,
+        "sizePx": 16.0,
+        "linePx": 17.6,
+        "tracking": "-0.06em"
+      },
+      {
+        "role": "Reading copy; source declaration",
+        "family": "TASA Orbiter Display Regular",
+        "weight": 400,
+        "sizePx": 16.0,
+        "linePx": 24.0,
+        "tracking": "0em"
+      },
+      {
+        "role": "Handwritten annotation; source declaration",
+        "family": "Kalam",
+        "weight": 400,
+        "sizePx": 16.0,
+        "linePx": 16.0,
+        "tracking": "0em"
+      },
+      {
+        "role": "Solution metric; source declaration",
+        "family": "Fira Code",
+        "weight": 400,
+        "sizePx": 80.0,
+        "linePx": 88.0,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "Plan amount; source declaration",
+        "family": "Halant",
+        "weight": 400,
+        "sizePx": 24.0,
+        "linePx": 28.8,
+        "tracking": "-.04em"
+      },
+      {
+        "role": "FAQ question; source declaration",
+        "family": "TASA Orbiter Display Medium",
+        "weight": 500,
+        "sizePx": 20.0,
+        "linePx": 32.0,
+        "tracking": "0em"
+      },
+      {
+        "role": "Generation action nested span; parent line-height 100%",
+        "family": "TASA Orbiter Display",
+        "weight": 500,
+        "sizePx": 18,
+        "linePx": 18,
+        "tracking": "0"
+      }
+    ],
+    "rolesEvidence": "Public preview HTML/CSS declarations, not browser-computed measurements. Pixel sizes are literal source values; percentage/em line heights are numerically converted using the declared role size. SourceRoleDetails retains nested overrides, variant paths, stylistic sets and italic rules. Gutter, radius and gap are authored recreation recommendations, not global source measurements.",
+    "sourceRoleDetails": [
+      {
+        "role": "Navigation label",
+        "path": [
+          "Nav Bar Desktop",
+          "Main Nab",
+          "Logo Wrap",
+          "Close",
+          "Menu",
+          "Menu Text"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"TASA Orbiter Display Medium\",\"TASA Orbiter Display Medium Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"TASA Orbiter Display Bold\",\"TASA Orbiter Display Bold Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "150%",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-b0922c00-6844-46ad-8605-6e521fe7d6fd, rgb(42, 21, 10)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Primary action",
+        "path": [
+          "Nav Bar Desktop",
+          "Main Nab",
+          "Logo Wrap",
+          "Button Primary",
+          "Button",
+          "1",
+          "Button"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"TASA Orbiter Display Medium\",\"TASA Orbiter Display Medium Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"TASA Orbiter Display Bold\",\"TASA Orbiter Display Bold Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "18px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "100%",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-cd6cce3b-5481-492a-aa45-9d65a58fb23f, rgb(255, 241, 224)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Hero title",
+        "path": [
+          "Main",
+          "Section - Hero",
+          "Hero Body",
+          "Hero Text Container",
+          "Hero Main Text"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Halant\",\"Halant Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "88px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.04em",
+          "--framer-line-height": "110%",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "#000",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": [
+          {
+            "--framer-text-color": "var(--token-b0922c00-6844-46ad-8605-6e521fe7d6fd, rgb(42, 21, 10))"
+          },
+          {
+            "--framer-text-color": "var(--token-b0922c00-6844-46ad-8605-6e521fe7d6fd, rgb(42, 21, 10))"
+          }
+        ]
+      },
+      {
+        "role": "Hero supporting copy",
+        "path": [
+          "Main",
+          "Section - Hero",
+          "Hero Body",
+          "Hero Text Container",
+          "Hero Subtext"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"TASA Orbiter Display Regular\",\"TASA Orbiter Display Regular Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"TASA Orbiter Display Bold\",\"TASA Orbiter Display Bold Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "20px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "160%",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-91e48a95-1e7d-4785-8352-d9e0a0357371, rgb(98, 76, 65))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Section heading",
+        "path": [
+          "Main",
+          "Section - Feature",
+          "Container",
+          "Feature Header",
+          "Feature Title",
+          "Section Title"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Halant\",\"Halant Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "54px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.04em",
+          "--framer-line-height": "110%",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--token-b0922c00-6844-46ad-8605-6e521fe7d6fd, rgb(42, 21, 10))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Workflow/card heading",
+        "path": [
+          "Main",
+          "Section - Feature",
+          "Container",
+          "Feature Body",
+          "Step Container",
+          "Step Description Container",
+          "Step Title"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Halant\",\"Halant Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "26px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.03em",
+          "--framer-line-height": "130%",
+          "--framer-paragraph-spacing": "40px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-b0922c00-6844-46ad-8605-6e521fe7d6fd, rgb(42, 21, 10))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Step index",
+        "path": [
+          "Main",
+          "Section - Feature",
+          "Container",
+          "Feature Body",
+          "Step Container",
+          "Step",
+          "Step Number"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Fira Code\", \"Fira Code Placeholder\", monospace",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "rgb(98, 76, 65)",
+          "--framer-font-size": "16px",
+          "--framer-letter-spacing": "-0.06em",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "110%",
+          "--framer-text-alignment": "start",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Reading copy",
+        "path": [
+          "Main",
+          "Section - Feature",
+          "Container",
+          "Feature Body",
+          "Step Container",
+          "Step Description Container",
+          "Step Description"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"TASA Orbiter Display Regular\",\"TASA Orbiter Display Regular Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"TASA Orbiter Display Bold\",\"TASA Orbiter Display Bold Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "150%",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--token-91e48a95-1e7d-4785-8352-d9e0a0357371, rgb(98, 76, 65))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Handwritten annotation",
+        "path": [
+          "Main",
+          "Section - Image Galery",
+          "Scroll Anim Section",
+          "Galery Text Wrap",
+          "Tooltip",
+          "Tab Text"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Kalam\",\"Kalam Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"Kalam\",\"Kalam Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "16px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "100%",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-cd6cce3b-5481-492a-aa45-9d65a58fb23f, rgb(255, 241, 224)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Solution metric",
+        "path": [
+          "Main",
+          "Section - Solution",
+          "Solution Container",
+          "Our Solution Acrodians",
+          "Acrodian First",
+          "Image",
+          "Image Group",
+          "Our Solutions Card 1",
+          "Our Solutions Card",
+          "Images",
+          "Frame 2147227692",
+          "Solution Number Text"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Fira Code\",\"Fira Code Placeholder\",monospace",
+          "--framer-font-family-bold": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-bold-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-family-italic": "\"Inter\",\"Inter Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "80px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-style-bold-italic": "italic",
+          "--framer-font-style-italic": "italic",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-font-weight-bold": "700",
+          "--framer-font-weight-bold-italic": "700",
+          "--framer-font-weight-italic": "400",
+          "--framer-letter-spacing": "-.04em",
+          "--framer-line-height": "110%",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "center",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-cd6cce3b-5481-492a-aa45-9d65a58fb23f, rgb(255, 241, 224)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Plan amount",
+        "path": [
+          "Main",
+          "Section - Pricing",
+          "Pricing Container",
+          "Free plan",
+          "Plan Card",
+          "Plan Details Container",
+          "Plan Header",
+          "Plan Title Container",
+          "Plan Title"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"Halant\",\"Halant Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "24px",
+          "--framer-font-style": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "400",
+          "--framer-letter-spacing": "-.04em",
+          "--framer-line-height": "120%",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-1eung3n, var(--token-b0922c00-6844-46ad-8605-6e521fe7d6fd, rgb(42, 21, 10)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "FAQ question",
+        "path": [
+          "Main",
+          "Section - FAQ",
+          "FAQ Body",
+          "FAQ",
+          "FAQ Primary",
+          " Open",
+          "FAQ Qrap",
+          "Question Wrap",
+          "FAQ Question"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "\"TASA Orbiter Display Medium\",\"TASA Orbiter Display Medium Placeholder\",sans-serif",
+          "--framer-font-family-bold": "\"TASA Orbiter Display Bold\",\"TASA Orbiter Display Bold Placeholder\",sans-serif",
+          "--framer-font-open-type-features": "\"blwf\" on,\"cv03\" on,\"cv04\" on,\"cv09\" on,\"cv11\" on",
+          "--framer-font-size": "20px",
+          "--framer-font-style": "normal",
+          "--framer-font-style-bold": "normal",
+          "--framer-font-variation-axes": "normal",
+          "--framer-font-weight": "500",
+          "--framer-font-weight-bold": "700",
+          "--framer-letter-spacing": "0em",
+          "--framer-line-height": "160%",
+          "--framer-paragraph-spacing": "0px",
+          "--framer-text-alignment": "start",
+          "--framer-text-color": "var(--extracted-r6o4lv, var(--token-b0922c00-6844-46ad-8605-6e521fe7d6fd, rgb(42, 21, 10)))",
+          "--framer-text-decoration": "none",
+          "--framer-text-stroke-color": "initial",
+          "--framer-text-stroke-width": "initial",
+          "--framer-text-transform": "none"
+        },
+        "nestedSpanStyles": []
+      },
+      {
+        "role": "Generation action parent and nested override",
+        "path": [
+          "Main",
+          "Section - Hero",
+          "Hero Body",
+          "Hero Search Section",
+          "Input Container",
+          "Text Input Wrapper",
+          "Button Group",
+          "Variant 1",
+          "Button",
+          "Button"
+        ],
+        "declaredStyle": {
+          "--framer-font-family": "Inter,Inter Placeholder,sans-serif",
+          "--framer-font-style": "normal",
+          "--framer-font-weight": "500",
+          "--framer-text-color": "#000",
+          "--framer-font-size": "18px",
+          "--framer-letter-spacing": "0",
+          "--framer-text-transform": "none",
+          "--framer-text-decoration": "none",
+          "--framer-text-decoration-style": "none",
+          "--framer-text-decoration-color": "none",
+          "--framer-text-decoration-thickness": "none",
+          "--framer-text-decoration-skip-ink": "none",
+          "--framer-text-decoration-offset": "none",
+          "--framer-line-height": "100%",
+          "--framer-text-alignment": "center",
+          "--framer-font-open-type-features": "normal",
+          "--framer-text-background-color": "initial",
+          "--framer-text-background-radius": "initial",
+          "--framer-text-background-corner-shape": "initial",
+          "--framer-text-background-padding": "initial"
+        },
+        "nestedSpanStyles": [
+          {
+            "--font-selector": "R0Y7VEFTQSBPcmJpdGVyIERpc3BsYXktNTAw",
+            "--framer-font-family": "\"TASA Orbiter Display\"",
+            "--framer-font-size": "18px",
+            "--framer-font-weight": "500",
+            "--framer-text-color": "var(--extracted-1w3ko1f, rgba(255, 241, 224, 1))"
+          }
+        ]
+      }
+    ],
+    "variationAxes": {
+      "sourceFontFaces": [
+        {
+          "family": "Fira Code",
+          "weightRange": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Fira Code",
+          "weightRange": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Fira Code Variable",
+          "weightRange": "300 700",
+          "style": "normal"
+        },
+        {
+          "family": "Halant",
+          "weightRange": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Halant",
+          "weightRange": "500",
+          "style": "normal"
+        },
+        {
+          "family": "Halant",
+          "weightRange": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Instrument Sans",
+          "weightRange": "600",
+          "style": "normal"
+        },
+        {
+          "family": "Inter",
+          "weightRange": "400",
+          "style": "italic"
+        },
+        {
+          "family": "Inter",
+          "weightRange": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Inter",
+          "weightRange": "600",
+          "style": "normal"
+        },
+        {
+          "family": "Inter",
+          "weightRange": "700",
+          "style": "italic"
+        },
+        {
+          "family": "Inter",
+          "weightRange": "700",
+          "style": "normal"
+        },
+        {
+          "family": "Inter",
+          "weightRange": "900",
+          "style": "italic"
+        },
+        {
+          "family": "Inter",
+          "weightRange": "900",
+          "style": "normal"
+        },
+        {
+          "family": "Kalam",
+          "weightRange": "400",
+          "style": "normal"
+        },
+        {
+          "family": "Kalam",
+          "weightRange": "700",
+          "style": "normal"
+        },
+        {
+          "family": "TASA Orbiter Display Black",
+          "weightRange": "900",
+          "style": "normal"
+        },
+        {
+          "family": "TASA Orbiter Display Bold",
+          "weightRange": "700",
+          "style": "normal"
+        },
+        {
+          "family": "TASA Orbiter Display Medium",
+          "weightRange": "500",
+          "style": "normal"
+        },
+        {
+          "family": "TASA Orbiter Display Regular",
+          "weightRange": "400",
+          "style": "normal"
+        },
+        {
+          "family": "TASA Orbiter Display SemiBold",
+          "weightRange": "600",
+          "style": "normal"
+        }
+      ],
+      "roleAxes": [
+        "normal",
+        "not declared"
+      ]
+    }
+  },
+  "spacing": {
+    "desktopGutterPx": 32,
+    "componentGapPx": 24,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 24,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1200,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1200px)",
+      "@media(min-width: 810px) and (max-width: 1199.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (max-width:809.98px)",
+      "@media (max-width:1199px) and (min-width:810px)",
+      "@media (max-width:809px) and (min-width:0)",
+      "@media (max-width:1299px) and (min-width:810px)",
+      "@media (min-width:810px) and (max-width:1199.98px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      809.0,
+      809.98,
+      810.0,
+      1199.0,
+      1199.98,
+      1200.0,
+      1299.0
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "AI",
+    "branch": "Generative media",
+    "fitEvidence": "The official listing names AI products and image or content generation tools; the preview organizes image output, style selection, and prompt-based creation."
+  },
+  "productDemonstrations": {
+    "integrationStatus": "Not tested; website demos and source marketing statements do not prove AI capability.",
+    "blueprint": "AI-PRODUCT-BLUEPRINT.md"
+  }
+}

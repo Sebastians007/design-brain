@@ -1,0 +1,872 @@
+{
+  "assets": [
+    {
+      "file": "assets/fonts/dm-sans-500-0.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-7DV30TGc.woff2",
+      "kind": "font",
+      "bytes": 15272,
+      "sha256": "a44f40e9bafa2b7c9abd0bccd85305778c48326f5c5bf731d43db6e4993c63a3",
+      "family": "DM Sans",
+      "weight": "500",
+      "style": "italic",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/dm-sans-500-1.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxRSW32.woff2",
+      "kind": "font",
+      "bytes": 14304,
+      "sha256": "19bf1984956517c35c2bd35b6cdedac12a21d6fcd3596c614ecdfb88b648909d",
+      "family": "DM Sans",
+      "weight": "500",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/host-grotesk-400-2.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3fmWBnlCJ3U42vbbfdwMjZoWjkyUk.woff2",
+      "kind": "font",
+      "bytes": 22036,
+      "sha256": "e78fa5bb85230ab0f82760e7b593d1da49da36782677968587640ef501a8a1d1",
+      "family": "Host Grotesk",
+      "weight": "400",
+      "style": "italic",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/host-grotesk-700-3.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3fmWBnlCJ3U42vbbfdwMjZoWjkyUk.woff2",
+      "kind": "font",
+      "bytes": 22036,
+      "sha256": "e78fa5bb85230ab0f82760e7b593d1da49da36782677968587640ef501a8a1d1",
+      "family": "Host Grotesk",
+      "weight": "700",
+      "style": "italic",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/host-grotesk-400-4.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3BmWBnlCJ3U42vbbfdwMjZpFjm.woff2",
+      "kind": "font",
+      "bytes": 20296,
+      "sha256": "ce9c9db8a488852eb7e4a52f51fd8ce0c93ef61a8d3bfa054b509ec92958dcfe",
+      "family": "Host Grotesk",
+      "weight": "400",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/host-grotesk-700-5.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/hostgrotesk/v5/co3BmWBnlCJ3U42vbbfdwMjZpFjm.woff2",
+      "kind": "font",
+      "bytes": 20296,
+      "sha256": "ce9c9db8a488852eb7e4a52f51fd8ce0c93ef61a8d3bfa054b509ec92958dcfe",
+      "family": "Host Grotesk",
+      "weight": "700",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/fonts/dm-sans-400-6.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/dmsans/v16/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhS2f3ZGMZpg.woff2",
+      "kind": "font",
+      "bytes": 21872,
+      "sha256": "a2acb72477778b1c47c884f4e5dade06be2c672b6e3c66a318fb3328985278b0",
+      "family": "DM Sans",
+      "weight": "400",
+      "style": "normal",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/dm-sans-700-7.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/dmsans/v16/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZthS2f3ZGMZpg.woff2",
+      "kind": "font",
+      "bytes": 22216,
+      "sha256": "5f4c5e4635ac5a45739d862ce65a4c4a6fa140ac61540300b247d0664f12e17d",
+      "family": "DM Sans",
+      "weight": "700",
+      "style": "normal",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/dm-sans-700-8.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/dmsans/v16/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat9uCm32RmYJpso5.woff2",
+      "kind": "font",
+      "bytes": 24980,
+      "sha256": "4054b4034aee50a8fba3d108b8c88c198a3adcb09e9624209e2ff830c14c3685",
+      "family": "DM Sans",
+      "weight": "700",
+      "style": "italic",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/dm-sans-400-9.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/dmsans/v16/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-JDW32RmYJpso5.woff2",
+      "kind": "font",
+      "bytes": 24596,
+      "sha256": "187fa1cf932daebdff61f9e23f71380f995a891395a9ea7c985eabefca53ac21",
+      "family": "DM Sans",
+      "weight": "400",
+      "style": "italic",
+      "range": ""
+    },
+    {
+      "file": "assets/fonts/inter-400-10.woff2",
+      "sourceUrl": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "kind": "font",
+      "bytes": 27380,
+      "sha256": "362b168da82d69bc67d2a358fa20c59151cb4ceac8a5506be6baef5e6827fa42",
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    },
+    {
+      "file": "assets/images/source-01.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/LzblaeZXHMibAuWgYhFsP59pXk.png?width=2912&height=1632",
+      "kind": "image",
+      "bytes": 318962,
+      "sha256": "5a9208e448176fcfc6afee1cacbe3d99757836baa8d7754b97c5f65620897309",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/LzblaeZXHMibAuWgYhFsP59pXk.png?width=2912&height=1632",
+          "srcset": "https://framerusercontent.com/images/LzblaeZXHMibAuWgYhFsP59pXk.png?scale-down-to=512&width=2912&height=1632 512w,https://framerusercontent.com/images/LzblaeZXHMibAuWgYhFsP59pXk.png?scale-down-to=1024&width=2912&height=1632 1024w,https://framerusercontent.com/images/LzblaeZXHMibAuWgYhFsP59pXk.png?scale-down-to=2048&width=2912&height=1632 2048w,https://framerusercontent.com/images/LzblaeZXHMibAuWgYhFsP59pXk.png?width=2912&height=1632 2912w",
+          "alt": "",
+          "width": "2912",
+          "height": "1632",
+          "path": [
+            "Hero",
+            "BG"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-02.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/bgZEvWFyqIzjQSJmv4ytUskyjNc.jpg?width=1080&height=960",
+      "kind": "image",
+      "bytes": 96534,
+      "sha256": "253a955d003a387ecec045612bd2df8f53d197eb2cc3c6d74dcec30743b9d158",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/bgZEvWFyqIzjQSJmv4ytUskyjNc.jpg?width=1080&height=960",
+          "srcset": "https://framerusercontent.com/images/bgZEvWFyqIzjQSJmv4ytUskyjNc.jpg?scale-down-to=512&width=1080&height=960 512w,https://framerusercontent.com/images/bgZEvWFyqIzjQSJmv4ytUskyjNc.jpg?scale-down-to=1024&width=1080&height=960 1024w,https://framerusercontent.com/images/bgZEvWFyqIzjQSJmv4ytUskyjNc.jpg?width=1080&height=960 1080w",
+          "alt": "",
+          "width": "1080",
+          "height": "960",
+          "path": [
+            "Features",
+            "Variant 1",
+            "Image"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-03.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/90SenaC5dxwhBj330jLiE7wnyjU.jpg?width=1080&height=960",
+      "kind": "image",
+      "bytes": 89270,
+      "sha256": "a0bc7460396509756eef7f50ef788087f870134b7a125318f21441442a0b55af",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/90SenaC5dxwhBj330jLiE7wnyjU.jpg?width=1080&height=960",
+          "srcset": "https://framerusercontent.com/images/90SenaC5dxwhBj330jLiE7wnyjU.jpg?scale-down-to=512&width=1080&height=960 512w,https://framerusercontent.com/images/90SenaC5dxwhBj330jLiE7wnyjU.jpg?scale-down-to=1024&width=1080&height=960 1024w,https://framerusercontent.com/images/90SenaC5dxwhBj330jLiE7wnyjU.jpg?width=1080&height=960 1080w",
+          "alt": "",
+          "width": "1080",
+          "height": "960",
+          "path": [
+            "Features",
+            "Variant 1",
+            "Image"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-04.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/UXYVZgG95Xo7GvB3Mj9Avi4ouU.jpg?width=1080&height=960",
+      "kind": "image",
+      "bytes": 100920,
+      "sha256": "7fbc9e89c28de1ba728712e521e99c257da69700215e5cc226e387bb399571c3",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/UXYVZgG95Xo7GvB3Mj9Avi4ouU.jpg?width=1080&height=960",
+          "srcset": "https://framerusercontent.com/images/UXYVZgG95Xo7GvB3Mj9Avi4ouU.jpg?scale-down-to=512&width=1080&height=960 512w,https://framerusercontent.com/images/UXYVZgG95Xo7GvB3Mj9Avi4ouU.jpg?scale-down-to=1024&width=1080&height=960 1024w,https://framerusercontent.com/images/UXYVZgG95Xo7GvB3Mj9Avi4ouU.jpg?width=1080&height=960 1080w",
+          "alt": "",
+          "width": "1080",
+          "height": "960",
+          "path": [
+            "Features",
+            "Variant 1",
+            "Image"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-05.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/k9rpWO1sLtG8iiQ3DPLipCWO4.jpg?width=1032&height=800",
+      "kind": "image",
+      "bytes": 84178,
+      "sha256": "b194a8b6bd51bc4755aa9d289c4f5d9c0952d8fb6cad32a36adf110bf075ae5e",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/k9rpWO1sLtG8iiQ3DPLipCWO4.jpg?width=1032&height=800",
+          "srcset": "https://framerusercontent.com/images/k9rpWO1sLtG8iiQ3DPLipCWO4.jpg?scale-down-to=512&width=1032&height=800 512w,https://framerusercontent.com/images/k9rpWO1sLtG8iiQ3DPLipCWO4.jpg?scale-down-to=1024&width=1032&height=800 1024w,https://framerusercontent.com/images/k9rpWO1sLtG8iiQ3DPLipCWO4.jpg?width=1032&height=800 1032w",
+          "alt": "",
+          "width": "1032",
+          "height": "800",
+          "path": [
+            "Features",
+            "Slideshow (Mobile)",
+            "Variant 1",
+            "Images",
+            "Image1"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/k9rpWO1sLtG8iiQ3DPLipCWO4.jpg?width=1032&height=800",
+          "srcset": "https://framerusercontent.com/images/k9rpWO1sLtG8iiQ3DPLipCWO4.jpg?scale-down-to=512&width=1032&height=800 512w,https://framerusercontent.com/images/k9rpWO1sLtG8iiQ3DPLipCWO4.jpg?scale-down-to=1024&width=1032&height=800 1024w,https://framerusercontent.com/images/k9rpWO1sLtG8iiQ3DPLipCWO4.jpg?width=1032&height=800 1032w",
+          "alt": "",
+          "width": "1032",
+          "height": "800",
+          "path": [
+            "Features",
+            "1",
+            "Images",
+            "Image1"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/k9rpWO1sLtG8iiQ3DPLipCWO4.jpg?width=1032&height=800",
+          "srcset": "https://framerusercontent.com/images/k9rpWO1sLtG8iiQ3DPLipCWO4.jpg?scale-down-to=512&width=1032&height=800 512w,https://framerusercontent.com/images/k9rpWO1sLtG8iiQ3DPLipCWO4.jpg?scale-down-to=1024&width=1032&height=800 1024w,https://framerusercontent.com/images/k9rpWO1sLtG8iiQ3DPLipCWO4.jpg?width=1032&height=800 1032w",
+          "alt": "",
+          "width": "1032",
+          "height": "800",
+          "path": [
+            "Features",
+            "1",
+            "Images",
+            "Image1"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-06.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/FWPrYiWLdnId4bfjvKP4ZIAFc.png?width=1456&height=816",
+      "kind": "image",
+      "bytes": 123715,
+      "sha256": "29737b8fb1b0cf9b4c87938fc4ef6b76e7ce7b9d4ad1fd20f1068a0b915b2a89",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/FWPrYiWLdnId4bfjvKP4ZIAFc.png?width=1456&height=816",
+          "srcset": "https://framerusercontent.com/images/FWPrYiWLdnId4bfjvKP4ZIAFc.png?scale-down-to=512&width=1456&height=816 512w,https://framerusercontent.com/images/FWPrYiWLdnId4bfjvKP4ZIAFc.png?scale-down-to=1024&width=1456&height=816 1024w,https://framerusercontent.com/images/FWPrYiWLdnId4bfjvKP4ZIAFc.png?width=1456&height=816 1456w",
+          "alt": "",
+          "width": "1456",
+          "height": "816",
+          "path": [
+            "Features",
+            "Slideshow (Mobile)",
+            "Variant 1",
+            "Images",
+            "Image1"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-07.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/tIICB6xb1ypwFbhAyCfXZX0yQw.png?width=1456&height=816",
+      "kind": "image",
+      "bytes": 157380,
+      "sha256": "31d80e2b64c88d03f431819d9d68f4702f0cd09d18bcc3269fab505ac6044042",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/tIICB6xb1ypwFbhAyCfXZX0yQw.png?width=1456&height=816",
+          "srcset": "https://framerusercontent.com/images/tIICB6xb1ypwFbhAyCfXZX0yQw.png?scale-down-to=512&width=1456&height=816 512w,https://framerusercontent.com/images/tIICB6xb1ypwFbhAyCfXZX0yQw.png?scale-down-to=1024&width=1456&height=816 1024w,https://framerusercontent.com/images/tIICB6xb1ypwFbhAyCfXZX0yQw.png?width=1456&height=816 1456w",
+          "alt": "",
+          "width": "1456",
+          "height": "816",
+          "path": [
+            "Features",
+            "Slideshow (Mobile)",
+            "Variant 1",
+            "Images",
+            "Image1"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-08.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/MuXnAQnWIpCXmtPsc2dcwARaPM.png?width=1456&height=816",
+      "kind": "image",
+      "bytes": 197788,
+      "sha256": "28c29463f16fe240d44e0a0b315faa54d0ece2a1167218f6cdeed0ba553222a1",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/MuXnAQnWIpCXmtPsc2dcwARaPM.png?width=1456&height=816",
+          "srcset": "https://framerusercontent.com/images/MuXnAQnWIpCXmtPsc2dcwARaPM.png?scale-down-to=512&width=1456&height=816 512w,https://framerusercontent.com/images/MuXnAQnWIpCXmtPsc2dcwARaPM.png?scale-down-to=1024&width=1456&height=816 1024w,https://framerusercontent.com/images/MuXnAQnWIpCXmtPsc2dcwARaPM.png?width=1456&height=816 1456w",
+          "alt": "",
+          "width": "1456",
+          "height": "816",
+          "path": [
+            "Features",
+            "Slideshow (Mobile)",
+            "Variant 1",
+            "Images",
+            "Image1"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-09.svg",
+      "sourceUrl": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+      "kind": "image",
+      "bytes": 214,
+      "sha256": "ca764b5867087d3c5ffc2bb0497a50b2ecf18ae7252169951ec97e18a592973d",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left",
+          "srcset": null,
+          "alt": "Back Arrow",
+          "width": "40",
+          "height": "40",
+          "path": [
+            "Features",
+            "Slideshow (Mobile)"
+          ],
+          "inlineStyle": "",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-10.svg",
+      "sourceUrl": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+      "kind": "image",
+      "bytes": 215,
+      "sha256": "6fce5a0604a6267ad769dd5e7afbfcf8bd0390897f682aec71f6307999a5b67e",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right",
+          "srcset": null,
+          "alt": "Next Arrow",
+          "width": "40",
+          "height": "40",
+          "path": [
+            "Features",
+            "Slideshow (Mobile)"
+          ],
+          "inlineStyle": "",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-11.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/bEYHTLEMGSrPDYKasmCLGyydk.jpg?width=1080&height=960",
+      "kind": "image",
+      "bytes": 112353,
+      "sha256": "af22d2b1fe97abc3096b96389679a133df83024f9865e06759aa9ecb1d117a15",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/bEYHTLEMGSrPDYKasmCLGyydk.jpg?width=1080&height=960",
+          "srcset": "https://framerusercontent.com/images/bEYHTLEMGSrPDYKasmCLGyydk.jpg?scale-down-to=512&width=1080&height=960 512w,https://framerusercontent.com/images/bEYHTLEMGSrPDYKasmCLGyydk.jpg?scale-down-to=1024&width=1080&height=960 1024w,https://framerusercontent.com/images/bEYHTLEMGSrPDYKasmCLGyydk.jpg?width=1080&height=960 1080w",
+          "alt": "",
+          "width": "1080",
+          "height": "960",
+          "path": [
+            "Features",
+            "1",
+            "Images",
+            "Image4"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/bEYHTLEMGSrPDYKasmCLGyydk.jpg?width=1080&height=960",
+          "srcset": "https://framerusercontent.com/images/bEYHTLEMGSrPDYKasmCLGyydk.jpg?scale-down-to=512&width=1080&height=960 512w,https://framerusercontent.com/images/bEYHTLEMGSrPDYKasmCLGyydk.jpg?scale-down-to=1024&width=1080&height=960 1024w,https://framerusercontent.com/images/bEYHTLEMGSrPDYKasmCLGyydk.jpg?width=1080&height=960 1080w",
+          "alt": "",
+          "width": "1080",
+          "height": "960",
+          "path": [
+            "Features",
+            "1",
+            "Images",
+            "Image4"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-12.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/Oa5XWzCxeOrnYG2m62cgAZq4LE.jpg?width=1080&height=960",
+      "kind": "image",
+      "bytes": 110489,
+      "sha256": "87246f300507f5643a953671a298e0203fac39b4810b86b2608b554063a09f5d",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/Oa5XWzCxeOrnYG2m62cgAZq4LE.jpg?width=1080&height=960",
+          "srcset": "https://framerusercontent.com/images/Oa5XWzCxeOrnYG2m62cgAZq4LE.jpg?scale-down-to=512&width=1080&height=960 512w,https://framerusercontent.com/images/Oa5XWzCxeOrnYG2m62cgAZq4LE.jpg?scale-down-to=1024&width=1080&height=960 1024w,https://framerusercontent.com/images/Oa5XWzCxeOrnYG2m62cgAZq4LE.jpg?width=1080&height=960 1080w",
+          "alt": "",
+          "width": "1080",
+          "height": "960",
+          "path": [
+            "Features",
+            "1",
+            "Images",
+            "Image3"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/Oa5XWzCxeOrnYG2m62cgAZq4LE.jpg?width=1080&height=960",
+          "srcset": "https://framerusercontent.com/images/Oa5XWzCxeOrnYG2m62cgAZq4LE.jpg?scale-down-to=512&width=1080&height=960 512w,https://framerusercontent.com/images/Oa5XWzCxeOrnYG2m62cgAZq4LE.jpg?scale-down-to=1024&width=1080&height=960 1024w,https://framerusercontent.com/images/Oa5XWzCxeOrnYG2m62cgAZq4LE.jpg?width=1080&height=960 1080w",
+          "alt": "",
+          "width": "1080",
+          "height": "960",
+          "path": [
+            "Features",
+            "1",
+            "Images",
+            "Image3"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-13.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/gl1AmAer8Gqr1XoceJt3QJT1X8.jpg?width=1080&height=960",
+      "kind": "image",
+      "bytes": 82159,
+      "sha256": "7b873d1447a4a2fb74a07c8e3a72a50d21933d841579a53e93a9e8d8d31721cf",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/gl1AmAer8Gqr1XoceJt3QJT1X8.jpg?width=1080&height=960",
+          "srcset": "https://framerusercontent.com/images/gl1AmAer8Gqr1XoceJt3QJT1X8.jpg?scale-down-to=512&width=1080&height=960 512w,https://framerusercontent.com/images/gl1AmAer8Gqr1XoceJt3QJT1X8.jpg?scale-down-to=1024&width=1080&height=960 1024w,https://framerusercontent.com/images/gl1AmAer8Gqr1XoceJt3QJT1X8.jpg?width=1080&height=960 1080w",
+          "alt": "",
+          "width": "1080",
+          "height": "960",
+          "path": [
+            "Features",
+            "1",
+            "Images",
+            "Image2"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/gl1AmAer8Gqr1XoceJt3QJT1X8.jpg?width=1080&height=960",
+          "srcset": "https://framerusercontent.com/images/gl1AmAer8Gqr1XoceJt3QJT1X8.jpg?scale-down-to=512&width=1080&height=960 512w,https://framerusercontent.com/images/gl1AmAer8Gqr1XoceJt3QJT1X8.jpg?scale-down-to=1024&width=1080&height=960 1024w,https://framerusercontent.com/images/gl1AmAer8Gqr1XoceJt3QJT1X8.jpg?width=1080&height=960 1080w",
+          "alt": "",
+          "width": "1080",
+          "height": "960",
+          "path": [
+            "Features",
+            "1",
+            "Images",
+            "Image2"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-14.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/MtAPMlFG7WjGMRMvNEtWXiIXeI.jpg?width=1080&height=960",
+      "kind": "image",
+      "bytes": 87533,
+      "sha256": "f6821450d55efe337f1fc1b357dfbbd55e14f3f64351a0a0b534897795b6eeb9",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/MtAPMlFG7WjGMRMvNEtWXiIXeI.jpg?width=1080&height=960",
+          "srcset": "https://framerusercontent.com/images/MtAPMlFG7WjGMRMvNEtWXiIXeI.jpg?scale-down-to=512&width=1080&height=960 512w,https://framerusercontent.com/images/MtAPMlFG7WjGMRMvNEtWXiIXeI.jpg?scale-down-to=1024&width=1080&height=960 1024w,https://framerusercontent.com/images/MtAPMlFG7WjGMRMvNEtWXiIXeI.jpg?width=1080&height=960 1080w",
+          "alt": "",
+          "width": "1080",
+          "height": "960",
+          "path": [
+            "Features",
+            "1",
+            "FeatureCard",
+            "Images",
+            "Image 3"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/MtAPMlFG7WjGMRMvNEtWXiIXeI.jpg?width=1080&height=960",
+          "srcset": "https://framerusercontent.com/images/MtAPMlFG7WjGMRMvNEtWXiIXeI.jpg?scale-down-to=512&width=1080&height=960 512w,https://framerusercontent.com/images/MtAPMlFG7WjGMRMvNEtWXiIXeI.jpg?scale-down-to=1024&width=1080&height=960 1024w,https://framerusercontent.com/images/MtAPMlFG7WjGMRMvNEtWXiIXeI.jpg?width=1080&height=960 1080w",
+          "alt": "",
+          "width": "1080",
+          "height": "960",
+          "path": [
+            "Features",
+            "1 (Mobile)",
+            "FeatureCard",
+            "Images",
+            "Image 3"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/MtAPMlFG7WjGMRMvNEtWXiIXeI.jpg?width=1080&height=960",
+          "srcset": "https://framerusercontent.com/images/MtAPMlFG7WjGMRMvNEtWXiIXeI.jpg?scale-down-to=512&width=1080&height=960 512w,https://framerusercontent.com/images/MtAPMlFG7WjGMRMvNEtWXiIXeI.jpg?scale-down-to=1024&width=1080&height=960 1024w,https://framerusercontent.com/images/MtAPMlFG7WjGMRMvNEtWXiIXeI.jpg?width=1080&height=960 1080w",
+          "alt": "",
+          "width": "1080",
+          "height": "960",
+          "path": [
+            "Features",
+            "1",
+            "FeatureCard",
+            "Images",
+            "Image 3"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-15.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/hqYHNdaY2RHeMGJRbY1VkWvic.jpg?width=1080&height=960",
+      "kind": "image",
+      "bytes": 110784,
+      "sha256": "e65f9fe3ae2fb9a304e7f783af2d5d06fed8cdd172f158fa0721a68782d4abd9",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/hqYHNdaY2RHeMGJRbY1VkWvic.jpg?width=1080&height=960",
+          "srcset": "https://framerusercontent.com/images/hqYHNdaY2RHeMGJRbY1VkWvic.jpg?scale-down-to=512&width=1080&height=960 512w,https://framerusercontent.com/images/hqYHNdaY2RHeMGJRbY1VkWvic.jpg?scale-down-to=1024&width=1080&height=960 1024w,https://framerusercontent.com/images/hqYHNdaY2RHeMGJRbY1VkWvic.jpg?width=1080&height=960 1080w",
+          "alt": "",
+          "width": "1080",
+          "height": "960",
+          "path": [
+            "Features",
+            "1",
+            "FeatureCard",
+            "Images",
+            "Image 2"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/hqYHNdaY2RHeMGJRbY1VkWvic.jpg?width=1080&height=960",
+          "srcset": "https://framerusercontent.com/images/hqYHNdaY2RHeMGJRbY1VkWvic.jpg?scale-down-to=512&width=1080&height=960 512w,https://framerusercontent.com/images/hqYHNdaY2RHeMGJRbY1VkWvic.jpg?scale-down-to=1024&width=1080&height=960 1024w,https://framerusercontent.com/images/hqYHNdaY2RHeMGJRbY1VkWvic.jpg?width=1080&height=960 1080w",
+          "alt": "",
+          "width": "1080",
+          "height": "960",
+          "path": [
+            "Features",
+            "1 (Mobile)",
+            "FeatureCard",
+            "Images",
+            "Image 2"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/hqYHNdaY2RHeMGJRbY1VkWvic.jpg?width=1080&height=960",
+          "srcset": "https://framerusercontent.com/images/hqYHNdaY2RHeMGJRbY1VkWvic.jpg?scale-down-to=512&width=1080&height=960 512w,https://framerusercontent.com/images/hqYHNdaY2RHeMGJRbY1VkWvic.jpg?scale-down-to=1024&width=1080&height=960 1024w,https://framerusercontent.com/images/hqYHNdaY2RHeMGJRbY1VkWvic.jpg?width=1080&height=960 1080w",
+          "alt": "",
+          "width": "1080",
+          "height": "960",
+          "path": [
+            "Features",
+            "1",
+            "FeatureCard",
+            "Images",
+            "Image 2"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-16.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/cQgSHLEJcg9JwD4sAChNyOWRgU.jpg?width=1032&height=800",
+      "kind": "image",
+      "bytes": 74022,
+      "sha256": "c3d9483b12f2998c591b589f40d23bf760e3ecf5f0ef0ec1a650c74152f19ed5",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/cQgSHLEJcg9JwD4sAChNyOWRgU.jpg?width=1032&height=800",
+          "srcset": "https://framerusercontent.com/images/cQgSHLEJcg9JwD4sAChNyOWRgU.jpg?scale-down-to=512&width=1032&height=800 512w,https://framerusercontent.com/images/cQgSHLEJcg9JwD4sAChNyOWRgU.jpg?scale-down-to=1024&width=1032&height=800 1024w,https://framerusercontent.com/images/cQgSHLEJcg9JwD4sAChNyOWRgU.jpg?width=1032&height=800 1032w",
+          "alt": "",
+          "width": "1032",
+          "height": "800",
+          "path": [
+            "Features",
+            "1",
+            "FeatureCard",
+            "Images",
+            "Image 1"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/cQgSHLEJcg9JwD4sAChNyOWRgU.jpg?width=1032&height=800",
+          "srcset": "https://framerusercontent.com/images/cQgSHLEJcg9JwD4sAChNyOWRgU.jpg?scale-down-to=512&width=1032&height=800 512w,https://framerusercontent.com/images/cQgSHLEJcg9JwD4sAChNyOWRgU.jpg?scale-down-to=1024&width=1032&height=800 1024w,https://framerusercontent.com/images/cQgSHLEJcg9JwD4sAChNyOWRgU.jpg?width=1032&height=800 1032w",
+          "alt": "",
+          "width": "1032",
+          "height": "800",
+          "path": [
+            "Features",
+            "1 (Mobile)",
+            "FeatureCard",
+            "Images",
+            "Image 1"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/cQgSHLEJcg9JwD4sAChNyOWRgU.jpg?width=1032&height=800",
+          "srcset": "https://framerusercontent.com/images/cQgSHLEJcg9JwD4sAChNyOWRgU.jpg?scale-down-to=512&width=1032&height=800 512w,https://framerusercontent.com/images/cQgSHLEJcg9JwD4sAChNyOWRgU.jpg?scale-down-to=1024&width=1032&height=800 1024w,https://framerusercontent.com/images/cQgSHLEJcg9JwD4sAChNyOWRgU.jpg?width=1032&height=800 1032w",
+          "alt": "",
+          "width": "1032",
+          "height": "800",
+          "path": [
+            "Features",
+            "1",
+            "FeatureCard",
+            "Images",
+            "Image 1"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-17.svg",
+      "sourceUrl": "https://framerusercontent.com/images/y2inQNDM8kZ4u53nQ3uuTi3Js.svg?width=48&height=48",
+      "kind": "image",
+      "bytes": 361,
+      "sha256": "0bf2902d36510517f80463947258813d32c8aa2f8cf1d02b60d1dbe0ec21b602",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/y2inQNDM8kZ4u53nQ3uuTi3Js.svg?width=48&height=48",
+          "srcset": null,
+          "alt": "Back Arrow",
+          "width": "40",
+          "height": "40",
+          "path": [
+            "Testimonials"
+          ],
+          "inlineStyle": "",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/y2inQNDM8kZ4u53nQ3uuTi3Js.svg?width=48&height=48",
+          "srcset": null,
+          "alt": "Back Arrow",
+          "width": "40",
+          "height": "40",
+          "path": [
+            "Testimonials"
+          ],
+          "inlineStyle": "",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/y2inQNDM8kZ4u53nQ3uuTi3Js.svg?width=48&height=48",
+          "srcset": null,
+          "alt": "Back Arrow",
+          "width": "48",
+          "height": "48",
+          "path": [
+            "Testimonials"
+          ],
+          "inlineStyle": "",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-18.svg",
+      "sourceUrl": "https://framerusercontent.com/images/lOdRNaZh9wLtBjtYzydrJwPiCU.svg?width=48&height=48",
+      "kind": "image",
+      "bytes": 360,
+      "sha256": "8fa46ffa9f3a2a65dc1ef7d31f5ccc71abe6206c81c8b488d1776a83a052f2d4",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/lOdRNaZh9wLtBjtYzydrJwPiCU.svg?width=48&height=48",
+          "srcset": null,
+          "alt": "Next Arrow",
+          "width": "40",
+          "height": "40",
+          "path": [
+            "Testimonials"
+          ],
+          "inlineStyle": "",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/lOdRNaZh9wLtBjtYzydrJwPiCU.svg?width=48&height=48",
+          "srcset": null,
+          "alt": "Next Arrow",
+          "width": "40",
+          "height": "40",
+          "path": [
+            "Testimonials"
+          ],
+          "inlineStyle": "",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/lOdRNaZh9wLtBjtYzydrJwPiCU.svg?width=48&height=48",
+          "srcset": null,
+          "alt": "Next Arrow",
+          "width": "48",
+          "height": "48",
+          "path": [
+            "Testimonials"
+          ],
+          "inlineStyle": "",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-19.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/tWXpJzlIqUJNUp01qKLylcZ4s0.png?width=2493&height=1398",
+      "kind": "image",
+      "bytes": 373120,
+      "sha256": "04abcaa4843567608221a88ef0e6e79bd509c3333dd067283dd1ff8397c26343",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/tWXpJzlIqUJNUp01qKLylcZ4s0.png?width=2493&height=1398",
+          "srcset": "https://framerusercontent.com/images/tWXpJzlIqUJNUp01qKLylcZ4s0.png?scale-down-to=512&width=2493&height=1398 512w,https://framerusercontent.com/images/tWXpJzlIqUJNUp01qKLylcZ4s0.png?scale-down-to=1024&width=2493&height=1398 1024w,https://framerusercontent.com/images/tWXpJzlIqUJNUp01qKLylcZ4s0.png?scale-down-to=2048&width=2493&height=1398 2048w,https://framerusercontent.com/images/tWXpJzlIqUJNUp01qKLylcZ4s0.png?width=2493&height=1398 2493w",
+          "alt": "",
+          "width": "2493",
+          "height": "1398",
+          "path": [
+            "FinalCTA",
+            "Content",
+            "BG"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/images/source-20.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/ONjFjJOjmJKUkxsVtaYneUJVcnM.jpg?width=1024&height=1024",
+      "kind": "image",
+      "bytes": 535007,
+      "sha256": "be05b9dc6b0604caed7da6955b0a10036590131806d97c0a71eea0e8a0320a7e",
+      "sourceInstances": [
+        {
+          "src": "https://framerusercontent.com/images/ONjFjJOjmJKUkxsVtaYneUJVcnM.jpg?width=1024&height=1024",
+          "srcset": "https://framerusercontent.com/images/ONjFjJOjmJKUkxsVtaYneUJVcnM.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/ONjFjJOjmJKUkxsVtaYneUJVcnM.jpg?width=1024&height=1024 1024w",
+          "alt": "",
+          "width": "1024",
+          "height": "1024",
+          "path": [
+            "Desktop",
+            "LeftContent",
+            "Arthur",
+            "Pic"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/ONjFjJOjmJKUkxsVtaYneUJVcnM.jpg?width=1024&height=1024",
+          "srcset": "https://framerusercontent.com/images/ONjFjJOjmJKUkxsVtaYneUJVcnM.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/ONjFjJOjmJKUkxsVtaYneUJVcnM.jpg?width=1024&height=1024 1024w",
+          "alt": "",
+          "width": "1024",
+          "height": "1024",
+          "path": [
+            "Tablet",
+            "LeftContent",
+            "Arthur",
+            "Pic"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        },
+        {
+          "src": "https://framerusercontent.com/images/ONjFjJOjmJKUkxsVtaYneUJVcnM.jpg?width=1024&height=1024",
+          "srcset": "https://framerusercontent.com/images/ONjFjJOjmJKUkxsVtaYneUJVcnM.jpg?scale-down-to=512&width=1024&height=1024 512w,https://framerusercontent.com/images/ONjFjJOjmJKUkxsVtaYneUJVcnM.jpg?width=1024&height=1024 1024w",
+          "alt": "",
+          "width": "1024",
+          "height": "1024",
+          "path": [
+            "Mobile",
+            "LeftContent",
+            "Arthur",
+            "Pic"
+          ],
+          "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+          "box": null
+        }
+      ]
+    },
+    {
+      "file": "assets/js/gsap.min.js",
+      "kind": "caption-runtime",
+      "sourceUrl": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    {
+      "file": "screenshots/live-home.jpg",
+      "kind": "browser-capture",
+      "sourceUrl": "https://heymessage.framer.ai/",
+      "bytes": 143945,
+      "sha256": "fe3e86254592b8ba2aa26e5a8699c682de57c0421cda32ef8e8b3508b542d314",
+      "coverage": "Live preview opening at1363x936",
+      "viewport": {
+        "height": 936,
+        "width": 1363
+      },
+      "rasterPx": {
+        "width": 1348,
+        "height": 926
+      }
+    }
+  ],
+  "downloadFailures": [],
+  "imageExports": "Maximum2000px; original URLs retained.",
+  "fontScope": "Latin subsets where declared; font weights preserved.",
+  "unbundledMedia": []
+}

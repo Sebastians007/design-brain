@@ -1,0 +1,173 @@
+{
+  "name": "Chatassist Chatbot",
+  "source": "https://aichatbott.framer.website/",
+  "coverage": "Public source CSS + official marketplace images; live browser layout unverified.",
+  "colors": {
+    "canvas": "#ffffff",
+    "paper": "#f6f7f9",
+    "ink": "#111116",
+    "accent": "#5f09de",
+    "muted": "#3b3b3b"
+  },
+  "type": {
+    "body": "Satoshi",
+    "display": "Geist",
+    "roles": [
+      {
+        "role": "Hero heading and pricing title; base preset 1axqvbs",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 64,
+        "linePx": 76.8,
+        "tracking": "0em"
+      },
+      {
+        "role": "Section heading; base preset 13i0bgc",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 48,
+        "linePx": 57.6,
+        "tracking": "-1.5px"
+      },
+      {
+        "role": "Analytics heading; base preset 15hx2mj",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 32,
+        "linePx": 41.6,
+        "tracking": "-1px"
+      },
+      {
+        "role": "Feature/plan heading; base preset 1fgl26u",
+        "family": "Geist",
+        "weight": 500,
+        "sizePx": 24,
+        "linePx": 36,
+        "tracking": "-.5px"
+      },
+      {
+        "role": "Hero supporting copy; base preset 1rqbi8g",
+        "family": "Satoshi",
+        "weight": 500,
+        "sizePx": 18,
+        "linePx": 28.8,
+        "tracking": "0em"
+      },
+      {
+        "role": "Body copy; base preset jpkryk",
+        "family": "Satoshi",
+        "weight": 400,
+        "sizePx": 16,
+        "linePx": 28.8,
+        "tracking": "0em"
+      },
+      {
+        "role": "Navigation/action; base preset 1prc007",
+        "family": "Satoshi",
+        "weight": 500,
+        "sizePx": 16,
+        "linePx": 28.8,
+        "tracking": "0em"
+      },
+      {
+        "role": "Footer utility; base preset 2awvwz",
+        "family": "Satoshi",
+        "weight": 500,
+        "sizePx": 14,
+        "linePx": 18.2,
+        "tracking": "0em"
+      },
+      {
+        "role": "Small caption; base preset 189jd8d",
+        "family": "Satoshi",
+        "weight": 400,
+        "sizePx": 12,
+        "linePx": 20.4,
+        "tracking": "0em"
+      }
+    ],
+    "rolesEvidence": "All numeric roles are base public CSS declarations, not rendered measurements; em/percentage line heights are converted using their own declared pixel sizes. Geist normal 500/700 faces, Satoshi normal and italic 400/500/700/900 faces and Inter normal/italic support faces are declared. Preserve italic options and the explicit normal variation-axis values. Public GET /pricing was inspected separately; its declaration-only evidence excludes sample copy.",
+    "sourceRoleDetails": [
+      {
+        "role": "Hero heading",
+        "selector": "framer-styles-preset-1axqvbs",
+        "fontStyle": "normal",
+        "variationAxes": "normal",
+        "path": "Hero Section / Conteinar / Section Tittle / Text Content"
+      },
+      {
+        "role": "Navigation",
+        "selector": "framer-styles-preset-1prc007",
+        "fontStyle": "normal",
+        "variationAxes": "normal",
+        "path": "Desktop / Container / Links"
+      },
+      {
+        "role": "Plan title",
+        "selector": "framer-styles-preset-1fgl26u",
+        "fontStyle": "normal",
+        "variationAxes": "normal",
+        "path": "Pricing Section / Plan-card / Plan name"
+      }
+    ],
+    "variationAxes": {
+      "Geist": "normal in presets",
+      "Satoshi": "normal in presets"
+    }
+  },
+  "spacing": {
+    "desktopGutterPx": 32,
+    "componentGapPx": 24,
+    "evidence": "recommendation/image estimate"
+  },
+  "shape": {
+    "principalRadiusPx": 24,
+    "evidence": "Recommended starting radius; inspect CSS alternatives per component."
+  },
+  "breakpoints": {
+    "declaredBoundariesPx": [
+      1440,
+      810
+    ],
+    "mediaQueries": [
+      "@media(min-width: 1440px)",
+      "@media(min-width: 810px) and (max-width: 1439.98px)",
+      "@media(max-width: 809.98px)",
+      "@media (max-width: 809px)",
+      "@media (min-width: 810px) and (max-width: 1439px)",
+      "@media (max-width: 1439px) and (min-width: 810px)",
+      "@media (max-width: 809px) and (min-width: 0px)",
+      "@media (min-width: 810px) and (max-width: 1439.98px)",
+      "@media (max-width: 809.98px)"
+    ],
+    "evidence": "Public CSS declarations; no native viewport validation.",
+    "allParsedMediaQueryValuesPx": [
+      0,
+      809,
+      809.98,
+      810,
+      1439,
+      1439.98,
+      1440
+    ]
+  },
+  "motion": {
+    "evidence": "Source structures and still images; timing and playback unverified.",
+    "recommendedDurationMs": [
+      180,
+      280,
+      600
+    ],
+    "reducedMotion": "remove continuous movement, pinning and word-reveal concealment"
+  },
+  "geometryEvidence": "All selected starting gutter/radius/gap values are recommendations; source-declarations.json retains actual CSS alternatives without claiming rendered sizes.",
+  "category": {
+    "parent": "AI",
+    "branch": "Chatbot / support",
+    "fitEvidence": "The official listing positions ChatAssist for customer-service automation, conversational AI and SaaS support products, with integrations, support features and four pricing tiers."
+  },
+  "productDemonstrations": {
+    "integrationStatus": "Not tested; website demos and source marketing statements do not prove AI capability.",
+    "blueprint": "AI-PRODUCT-BLUEPRINT.md"
+  }
+}

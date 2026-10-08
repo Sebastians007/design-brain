@@ -1,0 +1,1599 @@
+{
+  "url": "https://plinthdev.framer.website/trust",
+  "routeKind": "trust center",
+  "coverage": "Public GET source declarations, not rendered or interactive verification",
+  "typeDeclarations": [
+    {
+      "selector": ".framer-iIE6Z .framer-styles-preset-1x6hz68:not(.rich-text-wrapper),.framer-iIE6Z .framer-styles-preset-1x6hz68.rich-text-wrapper p",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "15px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500, \"opsz\" 15",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-iIE6Z .framer-styles-preset-1x6hz68:not(.rich-text-wrapper),.framer-iIE6Z .framer-styles-preset-1x6hz68.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "15px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500, \"opsz\" 15",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-iIE6Z .framer-styles-preset-1x6hz68:not(.rich-text-wrapper),.framer-iIE6Z .framer-styles-preset-1x6hz68.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:640px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "15px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500, \"opsz\" 15",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-iIE6Z .framer-styles-preset-1x6hz68:not(.rich-text-wrapper),.framer-iIE6Z .framer-styles-preset-1x6hz68.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:639px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "15px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500, \"opsz\" 15",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".text-styles-preset-reset.framer-text",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-text-decoration-style": "none",
+        "--framer-text-decoration-color": "none",
+        "--framer-text-decoration-thickness": "none",
+        "--framer-text-decoration-skip-ink": "none",
+        "--framer-text-decoration-offset": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--framer-text-background-color": "initial",
+        "--framer-text-background-radius": "initial",
+        "--framer-text-background-corner-shape": "initial",
+        "--framer-text-background-padding": "initial"
+      }
+    },
+    {
+      "selector": "[data-framer-component-type=DeprecatedRichText] .text-styles-preset-reset",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+        "--framer-font-style": "normal",
+        "--framer-font-weight": "500",
+        "--framer-text-color": "#000",
+        "--framer-font-size": "16px",
+        "--framer-letter-spacing": "0",
+        "--framer-text-transform": "none",
+        "--framer-text-decoration": "none",
+        "--framer-line-height": "1.2em",
+        "--framer-text-alignment": "start",
+        "--framer-font-open-type-features": "normal",
+        "--font-variation-settings": "normal"
+      }
+    },
+    {
+      "selector": ".framer-aAFLe .framer-styles-preset-143ojst:not(.rich-text-wrapper),.framer-aAFLe .framer-styles-preset-143ojst.rich-text-wrapper p",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "15px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500, \"opsz\" 15",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-aAFLe .framer-styles-preset-143ojst:not(.rich-text-wrapper),.framer-aAFLe .framer-styles-preset-143ojst.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "15px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500, \"opsz\" 15",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-aAFLe .framer-styles-preset-143ojst:not(.rich-text-wrapper),.framer-aAFLe .framer-styles-preset-143ojst.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:640px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "15px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500, \"opsz\" 15",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-aAFLe .framer-styles-preset-143ojst:not(.rich-text-wrapper),.framer-aAFLe .framer-styles-preset-143ojst.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:639px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "15px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500, \"opsz\" 15",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-rhxno .framer-styles-preset-b2qp0o:not(.rich-text-wrapper),.framer-rhxno .framer-styles-preset-b2qp0o.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1439px) and (min-width:1200px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"JetBrains Mono Variable\", \"JetBrains Mono Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "12px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": ".07em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-rhxno .framer-styles-preset-b2qp0o:not(.rich-text-wrapper),.framer-rhxno .framer-styles-preset-b2qp0o.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"JetBrains Mono Variable\", \"JetBrains Mono Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "12px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": ".07em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-rhxno .framer-styles-preset-b2qp0o:not(.rich-text-wrapper),.framer-rhxno .framer-styles-preset-b2qp0o.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"JetBrains Mono Variable\", \"JetBrains Mono Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "12px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": ".07em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-RUuJh .framer-styles-preset-bbgwt2:not(.rich-text-wrapper),.framer-RUuJh .framer-styles-preset-bbgwt2.rich-text-wrapper h1",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "56px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 56",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.012em",
+        "--framer-line-height": "1.1em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-RUuJh .framer-styles-preset-bbgwt2:not(.rich-text-wrapper),.framer-RUuJh .framer-styles-preset-bbgwt2.rich-text-wrapper h1",
+      "mediaContext": [
+        "@media (max-width:1439px) and (min-width:1200px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "50px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 56",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.012em",
+        "--framer-line-height": "1.1em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-RUuJh .framer-styles-preset-bbgwt2:not(.rich-text-wrapper),.framer-RUuJh .framer-styles-preset-bbgwt2.rich-text-wrapper h1",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "44px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 56",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.012em",
+        "--framer-line-height": "1.1em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-RUuJh .framer-styles-preset-bbgwt2:not(.rich-text-wrapper),.framer-RUuJh .framer-styles-preset-bbgwt2.rich-text-wrapper h1",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "33px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 56",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.012em",
+        "--framer-line-height": "1.1em",
+        "--framer-paragraph-spacing": "0px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-YJj6C .framer-styles-preset-z0mhbb:not(.rich-text-wrapper),.framer-YJj6C .framer-styles-preset-z0mhbb.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1439px) and (min-width:1200px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "17px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 20",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.008em",
+        "--framer-line-height": "1.5em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-YJj6C .framer-styles-preset-z0mhbb:not(.rich-text-wrapper),.framer-YJj6C .framer-styles-preset-z0mhbb.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "17px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 20",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.008em",
+        "--framer-line-height": "1.5em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-YJj6C .framer-styles-preset-z0mhbb:not(.rich-text-wrapper),.framer-YJj6C .framer-styles-preset-z0mhbb.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "17px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 20",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.008em",
+        "--framer-line-height": "1.5em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-WXlGq .framer-styles-preset-1ic69ci:not(.rich-text-wrapper),.framer-WXlGq .framer-styles-preset-1ic69ci.rich-text-wrapper h2",
+      "mediaContext": [
+        "@media (max-width:1439px) and (min-width:1200px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "41px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 40",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.028em",
+        "--framer-line-height": "1.08em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-WXlGq .framer-styles-preset-1ic69ci:not(.rich-text-wrapper),.framer-WXlGq .framer-styles-preset-1ic69ci.rich-text-wrapper h2",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "29px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 40",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.028em",
+        "--framer-line-height": "1.08em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-WXlGq .framer-styles-preset-1ic69ci:not(.rich-text-wrapper),.framer-WXlGq .framer-styles-preset-1ic69ci.rich-text-wrapper h2",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "29px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 40",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.028em",
+        "--framer-line-height": "1.08em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-77Bft .framer-styles-preset-12e4ehq:not(.rich-text-wrapper),.framer-77Bft .framer-styles-preset-12e4ehq.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 16",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.002em",
+        "--framer-line-height": "1.6em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-77Bft .framer-styles-preset-12e4ehq:not(.rich-text-wrapper),.framer-77Bft .framer-styles-preset-12e4ehq.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:640px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 16",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.002em",
+        "--framer-line-height": "1.6em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-77Bft .framer-styles-preset-12e4ehq:not(.rich-text-wrapper),.framer-77Bft .framer-styles-preset-12e4ehq.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:639px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 16",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.002em",
+        "--framer-line-height": "1.6em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-n64ew .framer-styles-preset-bfthlo:not(.rich-text-wrapper),.framer-n64ew .framer-styles-preset-bfthlo.rich-text-wrapper h4",
+      "mediaContext": [
+        "@media (max-width:1439px) and (min-width:1200px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "18px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 18",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-n64ew .framer-styles-preset-bfthlo:not(.rich-text-wrapper),.framer-n64ew .framer-styles-preset-bfthlo.rich-text-wrapper h4",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "18px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 18",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-n64ew .framer-styles-preset-bfthlo:not(.rich-text-wrapper),.framer-n64ew .framer-styles-preset-bfthlo.rich-text-wrapper h4",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "18px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 18",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-n64ew .framer-styles-preset-bfthlo:not(.rich-text-wrapper),.framer-n64ew .framer-styles-preset-bfthlo.rich-text-wrapper h4",
+      "mediaContext": [
+        "@media (max-width:1439px) and (min-width:1200px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "18px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 18",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-n64ew .framer-styles-preset-bfthlo:not(.rich-text-wrapper),.framer-n64ew .framer-styles-preset-bfthlo.rich-text-wrapper h4",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "18px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 18",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-n64ew .framer-styles-preset-bfthlo:not(.rich-text-wrapper),.framer-n64ew .framer-styles-preset-bfthlo.rich-text-wrapper h4",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "18px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 18",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-77Bft .framer-styles-preset-12e4ehq:not(.rich-text-wrapper),.framer-77Bft .framer-styles-preset-12e4ehq.rich-text-wrapper p",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 16",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.002em",
+        "--framer-line-height": "1.6em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-77Bft .framer-styles-preset-12e4ehq:not(.rich-text-wrapper),.framer-77Bft .framer-styles-preset-12e4ehq.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 16",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.002em",
+        "--framer-line-height": "1.6em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-77Bft .framer-styles-preset-12e4ehq:not(.rich-text-wrapper),.framer-77Bft .framer-styles-preset-12e4ehq.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:640px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 16",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.002em",
+        "--framer-line-height": "1.6em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-77Bft .framer-styles-preset-12e4ehq:not(.rich-text-wrapper),.framer-77Bft .framer-styles-preset-12e4ehq.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:639px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "16px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 16",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.002em",
+        "--framer-line-height": "1.6em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-rhxno .framer-styles-preset-b2qp0o:not(.rich-text-wrapper),.framer-rhxno .framer-styles-preset-b2qp0o.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1439px) and (min-width:1200px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"JetBrains Mono Variable\", \"JetBrains Mono Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "12px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": ".07em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-rhxno .framer-styles-preset-b2qp0o:not(.rich-text-wrapper),.framer-rhxno .framer-styles-preset-b2qp0o.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"JetBrains Mono Variable\", \"JetBrains Mono Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "12px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": ".07em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-rhxno .framer-styles-preset-b2qp0o:not(.rich-text-wrapper),.framer-rhxno .framer-styles-preset-b2qp0o.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"JetBrains Mono Variable\", \"JetBrains Mono Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "12px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": ".07em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-WXlGq .framer-styles-preset-1ic69ci:not(.rich-text-wrapper),.framer-WXlGq .framer-styles-preset-1ic69ci.rich-text-wrapper h2",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "44px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 40",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.028em",
+        "--framer-line-height": "1.08em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-WXlGq .framer-styles-preset-1ic69ci:not(.rich-text-wrapper),.framer-WXlGq .framer-styles-preset-1ic69ci.rich-text-wrapper h2",
+      "mediaContext": [
+        "@media (max-width:1439px) and (min-width:1200px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "41px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 40",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.028em",
+        "--framer-line-height": "1.08em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-WXlGq .framer-styles-preset-1ic69ci:not(.rich-text-wrapper),.framer-WXlGq .framer-styles-preset-1ic69ci.rich-text-wrapper h2",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "29px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 40",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.028em",
+        "--framer-line-height": "1.08em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-WXlGq .framer-styles-preset-1ic69ci:not(.rich-text-wrapper),.framer-WXlGq .framer-styles-preset-1ic69ci.rich-text-wrapper h2",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "29px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 40",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.028em",
+        "--framer-line-height": "1.08em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-GzOW2 .framer-styles-preset-k1w9tg:not(.rich-text-wrapper),.framer-GzOW2 .framer-styles-preset-k1w9tg.rich-text-wrapper h2",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "37px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.028em",
+        "--framer-line-height": "1.12em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-GzOW2 .framer-styles-preset-k1w9tg:not(.rich-text-wrapper),.framer-GzOW2 .framer-styles-preset-k1w9tg.rich-text-wrapper h2",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "31px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.028em",
+        "--framer-line-height": "1.12em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-GzOW2 .framer-styles-preset-k1w9tg:not(.rich-text-wrapper),.framer-GzOW2 .framer-styles-preset-k1w9tg.rich-text-wrapper h2",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:640px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "28px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.028em",
+        "--framer-line-height": "1.12em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-GzOW2 .framer-styles-preset-k1w9tg:not(.rich-text-wrapper),.framer-GzOW2 .framer-styles-preset-k1w9tg.rich-text-wrapper h2",
+      "mediaContext": [
+        "@media (max-width:639px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "28px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.028em",
+        "--framer-line-height": "1.12em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-YJj6C .framer-styles-preset-z0mhbb:not(.rich-text-wrapper),.framer-YJj6C .framer-styles-preset-z0mhbb.rich-text-wrapper p",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "20px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 20",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.008em",
+        "--framer-line-height": "1.5em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-YJj6C .framer-styles-preset-z0mhbb:not(.rich-text-wrapper),.framer-YJj6C .framer-styles-preset-z0mhbb.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1439px) and (min-width:1200px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "17px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 20",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.008em",
+        "--framer-line-height": "1.5em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-YJj6C .framer-styles-preset-z0mhbb:not(.rich-text-wrapper),.framer-YJj6C .framer-styles-preset-z0mhbb.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "17px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 20",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.008em",
+        "--framer-line-height": "1.5em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-YJj6C .framer-styles-preset-z0mhbb:not(.rich-text-wrapper),.framer-YJj6C .framer-styles-preset-z0mhbb.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "17px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 20",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.008em",
+        "--framer-line-height": "1.5em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-rhxno .framer-styles-preset-b2qp0o:not(.rich-text-wrapper),.framer-rhxno .framer-styles-preset-b2qp0o.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1439px) and (min-width:1200px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"JetBrains Mono Variable\", \"JetBrains Mono Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "12px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": ".07em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-rhxno .framer-styles-preset-b2qp0o:not(.rich-text-wrapper),.framer-rhxno .framer-styles-preset-b2qp0o.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"JetBrains Mono Variable\", \"JetBrains Mono Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "12px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": ".07em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-rhxno .framer-styles-preset-b2qp0o:not(.rich-text-wrapper),.framer-rhxno .framer-styles-preset-b2qp0o.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"JetBrains Mono Variable\", \"JetBrains Mono Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "12px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": ".07em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-n64ew .framer-styles-preset-bfthlo:not(.rich-text-wrapper),.framer-n64ew .framer-styles-preset-bfthlo.rich-text-wrapper h4",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "18px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 18",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-n64ew .framer-styles-preset-bfthlo:not(.rich-text-wrapper),.framer-n64ew .framer-styles-preset-bfthlo.rich-text-wrapper h4",
+      "mediaContext": [
+        "@media (max-width:1439px) and (min-width:1200px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "18px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 18",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-n64ew .framer-styles-preset-bfthlo:not(.rich-text-wrapper),.framer-n64ew .framer-styles-preset-bfthlo.rich-text-wrapper h4",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "18px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 18",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-n64ew .framer-styles-preset-bfthlo:not(.rich-text-wrapper),.framer-n64ew .framer-styles-preset-bfthlo.rich-text-wrapper h4",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "18px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 600, \"opsz\" 18",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.01em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "40px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-HvViY .framer-styles-preset-1wr2kpj:not(.rich-text-wrapper),.framer-HvViY .framer-styles-preset-1wr2kpj.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "14px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 14",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.002em",
+        "--framer-line-height": "1.55em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-HvViY .framer-styles-preset-1wr2kpj:not(.rich-text-wrapper),.framer-HvViY .framer-styles-preset-1wr2kpj.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:640px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "14px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 14",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.002em",
+        "--framer-line-height": "1.55em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-HvViY .framer-styles-preset-1wr2kpj:not(.rich-text-wrapper),.framer-HvViY .framer-styles-preset-1wr2kpj.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:639px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "14px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 14",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.002em",
+        "--framer-line-height": "1.55em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-HvViY .framer-styles-preset-1wr2kpj:not(.rich-text-wrapper),.framer-HvViY .framer-styles-preset-1wr2kpj.rich-text-wrapper p",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "14px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 14",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.002em",
+        "--framer-line-height": "1.55em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-HvViY .framer-styles-preset-1wr2kpj:not(.rich-text-wrapper),.framer-HvViY .framer-styles-preset-1wr2kpj.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "14px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 14",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.002em",
+        "--framer-line-height": "1.55em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-HvViY .framer-styles-preset-1wr2kpj:not(.rich-text-wrapper),.framer-HvViY .framer-styles-preset-1wr2kpj.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:640px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "14px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 14",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.002em",
+        "--framer-line-height": "1.55em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-HvViY .framer-styles-preset-1wr2kpj:not(.rich-text-wrapper),.framer-HvViY .framer-styles-preset-1wr2kpj.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:639px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"Schibsted Grotesk Variable\", \"Schibsted Grotesk Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "14px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 400, \"opsz\" 14",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": "-.002em",
+        "--framer-line-height": "1.55em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-11ae37a7-9d14-478a-bbd6-414b45f03f64)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "none"
+      }
+    },
+    {
+      "selector": ".framer-rhxno .framer-styles-preset-b2qp0o:not(.rich-text-wrapper),.framer-rhxno .framer-styles-preset-b2qp0o.rich-text-wrapper p",
+      "mediaContext": [],
+      "declarations": {
+        "--framer-font-family": "\"JetBrains Mono Variable\", \"JetBrains Mono Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "12px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": ".07em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-rhxno .framer-styles-preset-b2qp0o:not(.rich-text-wrapper),.framer-rhxno .framer-styles-preset-b2qp0o.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1439px) and (min-width:1200px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"JetBrains Mono Variable\", \"JetBrains Mono Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "12px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": ".07em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-rhxno .framer-styles-preset-b2qp0o:not(.rich-text-wrapper),.framer-rhxno .framer-styles-preset-b2qp0o.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:1199px) and (min-width:810px)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"JetBrains Mono Variable\", \"JetBrains Mono Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "12px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": ".07em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    },
+    {
+      "selector": ".framer-rhxno .framer-styles-preset-b2qp0o:not(.rich-text-wrapper),.framer-rhxno .framer-styles-preset-b2qp0o.rich-text-wrapper p",
+      "mediaContext": [
+        "@media (max-width:809px) and (min-width:0)"
+      ],
+      "declarations": {
+        "--framer-font-family": "\"JetBrains Mono Variable\", \"JetBrains Mono Variable Placeholder\", sans-serif",
+        "--framer-font-open-type-features": "\"blwf\" on, \"cv03\" on, \"cv04\" on, \"cv09\" on, \"cv11\" on",
+        "--framer-font-size": "12px",
+        "--framer-font-style": "normal",
+        "--framer-font-variation-axes": "\"wght\" 500",
+        "--framer-font-weight": "400",
+        "--framer-letter-spacing": ".07em",
+        "--framer-line-height": "1.4em",
+        "--framer-paragraph-spacing": "20px",
+        "--framer-text-alignment": "start",
+        "--framer-text-color": "var(--token-7866f769-26ae-44e4-b3a0-3a188cd8fdf3)",
+        "--framer-text-decoration": "none",
+        "--framer-text-stroke-color": "initial",
+        "--framer-text-stroke-width": "initial",
+        "--framer-text-transform": "uppercase"
+      }
+    }
+  ],
+  "sectionOrder": [
+    "Nav / Desktop",
+    "Bar",
+    "Tablet",
+    "Phone",
+    "Lap",
+    "Section / Buyer Callout",
+    "Wrap",
+    "Section / Trust Ground",
+    "Wash",
+    "Wrap / Page Head",
+    "Wrap / Commitment",
+    "Section / Certifications",
+    "Section / Retention",
+    "Section / Sub-processors",
+    "Section / Controls",
+    "Section / Closing",
+    "Footer / Desktop",
+    "Top",
+    "Rule",
+    "Bottom",
+    "Light",
+    "Backdrop",
+    "Content",
+    "Border"
+  ],
+  "textSamplesOmitted": true
+}

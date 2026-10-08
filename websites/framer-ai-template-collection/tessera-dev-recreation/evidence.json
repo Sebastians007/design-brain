@@ -1,0 +1,1551 @@
+{
+  "template": "Tessera Dev",
+  "preview": "https://tessera-template.framer.website/",
+  "marketplace": "https://www.framer.com/marketplace/templates/tessera-dev/",
+  "creator": "Neeraj Verma",
+  "coverage": "Public preview HTML/CSS, official marketplace artwork and recorded live browser snapshots at1363x936. Phone/tablet layouts and backend behavior unverified.",
+  "viewport": {
+    "height": 936,
+    "width": 1363
+  },
+  "pageHeight": 6194,
+  "referenceCrops": [
+    {
+      "index": 1,
+      "file": "assets/reference-crops/01.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 1 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 2,
+      "file": "assets/reference-crops/02.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 2 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 3,
+      "file": "assets/reference-crops/03.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        80,
+        144,
+        1520,
+        1056
+      ],
+      "label": "Official image 3 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 4,
+      "file": "assets/reference-crops/04.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        102,
+        138,
+        1945,
+        1013
+      ],
+      "label": "Official image 4 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 5,
+      "file": "assets/reference-crops/05.jpg",
+      "sourceFile": "screenshots/official-reference-05.jpg",
+      "cropBox": [
+        102,
+        138,
+        1945,
+        1013
+      ],
+      "label": "Official image 5 / crop 1",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 6,
+      "file": "assets/reference-crops/06.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 1 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 7,
+      "file": "assets/reference-crops/07.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 2 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 8,
+      "file": "assets/reference-crops/08.jpg",
+      "sourceFile": "screenshots/official-reference-03.jpg",
+      "cropBox": [
+        160,
+        264,
+        927,
+        840
+      ],
+      "label": "Official image 3 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 9,
+      "file": "assets/reference-crops/09.jpg",
+      "sourceFile": "screenshots/official-reference-04.jpg",
+      "cropBox": [
+        204,
+        253,
+        1187,
+        806
+      ],
+      "label": "Official image 4 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 10,
+      "file": "assets/reference-crops/10.jpg",
+      "sourceFile": "screenshots/official-reference-05.jpg",
+      "cropBox": [
+        204,
+        253,
+        1187,
+        806
+      ],
+      "label": "Official image 5 / crop 2",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 11,
+      "file": "assets/reference-crops/11.jpg",
+      "sourceFile": "screenshots/official-reference-01.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 1 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    },
+    {
+      "index": 12,
+      "file": "assets/reference-crops/12.jpg",
+      "sourceFile": "screenshots/official-reference-02.jpg",
+      "cropBox": [
+        832,
+        240,
+        1472,
+        936
+      ],
+      "label": "Official image 2 / crop 3",
+      "evidence": "official-marketplace-image; not browser capture"
+    }
+  ],
+  "renderedTypeSamples": [],
+  "renderedFrameGeometry": [
+    {
+      "box": {
+        "height": 74,
+        "width": 1348,
+        "x": 0,
+        "y": 0
+      },
+      "name": "Navigation"
+    },
+    {
+      "box": {
+        "height": 74,
+        "width": 1348,
+        "x": 0,
+        "y": 0
+      },
+      "name": "Desktop"
+    },
+    {
+      "box": {
+        "height": 42,
+        "width": 1200,
+        "x": 74,
+        "y": 16
+      },
+      "name": "Nav Inner"
+    },
+    {
+      "box": {
+        "height": 28.3125,
+        "width": 102.4375,
+        "x": 74,
+        "y": 22.84375
+      },
+      "name": "Logo"
+    },
+    {
+      "box": {
+        "height": 22,
+        "width": 22,
+        "x": 74,
+        "y": 26
+      },
+      "name": "Logo Mark"
+    },
+    {
+      "box": {
+        "height": 10,
+        "width": 10,
+        "x": 74,
+        "y": 26
+      },
+      "name": "Tile"
+    },
+    {
+      "box": {
+        "height": 10,
+        "width": 10,
+        "x": 86,
+        "y": 26
+      },
+      "name": "Tile"
+    },
+    {
+      "box": {
+        "height": 10,
+        "width": 10,
+        "x": 74,
+        "y": 38
+      },
+      "name": "Tile"
+    },
+    {
+      "box": {
+        "height": 10,
+        "width": 10,
+        "x": 86,
+        "y": 38
+      },
+      "name": "Tile"
+    },
+    {
+      "box": {
+        "height": 28.3125,
+        "width": 70.4375,
+        "x": 106,
+        "y": 22.84375
+      },
+      "name": "Wordmark"
+    },
+    {
+      "box": {
+        "height": 16,
+        "width": 431.53125,
+        "x": 325.578125,
+        "y": 29
+      },
+      "name": "Nav Links"
+    },
+    {
+      "box": {
+        "height": 16,
+        "width": 56.890625,
+        "x": 325.578125,
+        "y": 29
+      },
+      "name": "Product"
+    },
+    {
+      "box": {
+        "height": 16,
+        "width": 37.3125,
+        "x": 414.46875,
+        "y": 29
+      },
+      "name": "Docs"
+    },
+    {
+      "box": {
+        "height": 16,
+        "width": 50.296875,
+        "x": 483.78125,
+        "y": 29
+      },
+      "name": "Pricing"
+    },
+    {
+      "box": {
+        "height": 16,
+        "width": 79.234375,
+        "x": 566.078125,
+        "y": 29
+      },
+      "name": "Customers"
+    },
+    {
+      "box": {
+        "height": 16,
+        "width": 79.796875,
+        "x": 677.3125,
+        "y": 29
+      },
+      "name": "Changelog"
+    },
+    {
+      "box": {
+        "height": 42,
+        "width": 367.765625,
+        "x": 906.234375,
+        "y": 16
+      },
+      "name": "Nav Actions"
+    },
+    {
+      "box": {
+        "height": 36,
+        "width": 36,
+        "x": 906.234375,
+        "y": 19
+      },
+      "name": "Theme Toggle"
+    },
+    {
+      "box": {
+        "height": 28,
+        "width": 82.390625,
+        "x": 962.234375,
+        "y": 23
+      },
+      "name": "GitHub Stars"
+    },
+    {
+      "box": {
+        "height": 16,
+        "width": 38.390625,
+        "x": 994.234375,
+        "y": 29
+      },
+      "name": "Star Count"
+    },
+    {
+      "box": {
+        "height": 16,
+        "width": 48.84375,
+        "x": 1064.625,
+        "y": 29
+      },
+      "name": "Sign in"
+    },
+    {
+      "box": {
+        "height": 42,
+        "width": 140.53125,
+        "x": 1133.46875,
+        "y": 16
+      },
+      "name": "Filled"
+    },
+    {
+      "box": {
+        "height": 20,
+        "width": 96.53125,
+        "x": 1155.46875,
+        "y": 27
+      },
+      "name": "Roll"
+    },
+    {
+      "box": {
+        "height": 40,
+        "width": 96.53125,
+        "x": 1155.46875,
+        "y": 27
+      },
+      "name": "Track"
+    },
+    {
+      "box": {
+        "height": 16,
+        "width": 96.53125,
+        "x": 1155.46875,
+        "y": 29
+      },
+      "name": "Label Roll"
+    },
+    {
+      "box": {
+        "height": 16,
+        "width": 96.53125,
+        "x": 1155.46875,
+        "y": 49
+      },
+      "name": "Label"
+    },
+    {
+      "box": {
+        "height": 600,
+        "width": 1348,
+        "x": 0,
+        "y": 74
+      },
+      "name": "Hero"
+    },
+    {
+      "box": {
+        "height": 600,
+        "width": 1200,
+        "x": 74,
+        "y": 74
+      },
+      "name": "Hero Stage"
+    },
+    {
+      "box": {
+        "height": 600,
+        "width": 669.328125,
+        "x": 74,
+        "y": 74
+      },
+      "name": "Hero Copy"
+    },
+    {
+      "box": {
+        "height": 42.40625,
+        "width": 281.25,
+        "x": 122,
+        "y": 194.984375
+      },
+      "name": "Install Chip"
+    },
+    {
+      "box": {
+        "height": 22.40625,
+        "width": 219.25,
+        "x": 140,
+        "y": 204.984375
+      },
+      "name": "Command"
+    },
+    {
+      "box": {
+        "height": 140.8125,
+        "width": 537.828125,
+        "x": 122,
+        "y": 265.390625
+      },
+      "name": "Headline"
+    },
+    {
+      "box": {
+        "height": 60.8125,
+        "width": 560,
+        "x": 122,
+        "y": 422.203125
+      },
+      "name": "Subheadline"
+    },
+    {
+      "box": {
+        "height": 42,
+        "width": 300.84375,
+        "x": 122,
+        "y": 511.015625
+      },
+      "name": "CTAs"
+    },
+    {
+      "box": {
+        "height": 42,
+        "width": 140.53125,
+        "x": 122,
+        "y": 511.015625
+      },
+      "name": "Filled"
+    },
+    {
+      "box": {
+        "height": 20,
+        "width": 96.53125,
+        "x": 144,
+        "y": 522.015625
+      },
+      "name": "Roll"
+    },
+    {
+      "box": {
+        "height": 40,
+        "width": 96.53125,
+        "x": 144,
+        "y": 522.015625
+      },
+      "name": "Track"
+    },
+    {
+      "box": {
+        "height": 16,
+        "width": 96.53125,
+        "x": 144,
+        "y": 524.015625
+      },
+      "name": "Label Roll"
+    },
+    {
+      "box": {
+        "height": 16,
+        "width": 96.53125,
+        "x": 144,
+        "y": 544.015625
+      },
+      "name": "Label"
+    },
+    {
+      "box": {
+        "height": 42,
+        "width": 148.3125,
+        "x": 274.53125,
+        "y": 511.015625
+      },
+      "name": "Ghost"
+    },
+    {
+      "box": {
+        "height": 20,
+        "width": 104.3125,
+        "x": 296.53125,
+        "y": 522.015625
+      },
+      "name": "Roll"
+    },
+    {
+      "box": {
+        "height": 40,
+        "width": 104.3125,
+        "x": 296.53125,
+        "y": 522.015625
+      },
+      "name": "Track"
+    },
+    {
+      "box": {
+        "height": 16,
+        "width": 104.3125,
+        "x": 296.53125,
+        "y": 524.015625
+      },
+      "name": "Label Roll"
+    },
+    {
+      "box": {
+        "height": 16,
+        "width": 104.3125,
+        "x": 296.53125,
+        "y": 544.015625
+      },
+      "name": "Label"
+    },
+    {
+      "box": {
+        "height": 600,
+        "width": 530.671875,
+        "x": 743.328125,
+        "y": 74
+      },
+      "name": "Hero Visual"
+    },
+    {
+      "box": {
+        "height": 568,
+        "width": 576,
+        "x": 719.328125,
+        "y": 90
+      },
+      "name": "Hero Tint"
+    },
+    {
+      "box": {
+        "height": 240,
+        "width": 280,
+        "x": 1019.328125,
+        "y": 90
+      },
+      "name": "Peach"
+    },
+    {
+      "box": {
+        "height": 230,
+        "width": 230,
+        "x": 1069.328125,
+        "y": 420
+      },
+      "name": "Coral"
+    },
+    {
+      "box": {
+        "height": 210,
+        "width": 230,
+        "x": 719.328125,
+        "y": 110
+      },
+      "name": "Mauve"
+    },
+    {
+      "box": {
+        "height": 180,
+        "width": 340,
+        "x": 799.328125,
+        "y": 480
+      },
+      "name": "Cream"
+    },
+    {
+      "box": {
+        "height": 488,
+        "width": 458.671875,
+        "x": 759.328125,
+        "y": 130
+      },
+      "name": "Hero Card"
+    },
+    {
+      "box": {
+        "height": 488,
+        "width": 458.671875,
+        "x": 759.328125,
+        "y": 130
+      },
+      "name": "Mosaic Table"
+    },
+    {
+      "box": {
+        "height": 147.59375,
+        "width": 1348,
+        "x": 0,
+        "y": 674
+      },
+      "name": "Logo Strip"
+    },
+    {
+      "box": {
+        "height": 147.59375,
+        "width": 1200,
+        "x": 74,
+        "y": 674
+      },
+      "name": "Strip Frame"
+    },
+    {
+      "box": {
+        "height": 19.59375,
+        "width": 174.921875,
+        "x": 586.53125,
+        "y": 702
+      },
+      "name": "Caption"
+    },
+    {
+      "box": {
+        "height": 52,
+        "width": 1200,
+        "x": 74,
+        "y": 741.59375
+      },
+      "name": "Ticker Window"
+    },
+    {
+      "box": {
+        "height": 28.796875,
+        "width": 1200,
+        "x": 74,
+        "y": 753.1875
+      },
+      "name": "Ticker"
+    },
+    {
+      "box": {
+        "height": 28.796875,
+        "width": 183.65625,
+        "x": 22.799999237060547,
+        "y": 753.1875
+      },
+      "name": "Northwind Labs"
+    },
+    {
+      "box": {
+        "height": 28.796875,
+        "width": 101.28125,
+        "x": 278.45623779296875,
+        "y": 753.1875
+      },
+      "name": "Loop & Co"
+    },
+    {
+      "box": {
+        "height": 28.796875,
+        "width": 95.75,
+        "x": 451.7374877929687,
+        "y": 753.1875
+      },
+      "name": "Fieldnote"
+    },
+    {
+      "box": {
+        "height": 28.796875,
+        "width": 145.765625,
+        "x": 619.4874877929688,
+        "y": 753.1875
+      },
+      "name": "HALCYON"
+    },
+    {
+      "box": {
+        "height": 28.796875,
+        "width": 57.609375,
+        "x": 837.2531127929688,
+        "y": 753.1875
+      },
+      "name": "kiln"
+    },
+    {
+      "box": {
+        "height": 28.796875,
+        "width": 81.07818603515625,
+        "x": 966.8624877929688,
+        "y": 753.1875
+      },
+      "name": "Marrow"
+    },
+    {
+      "box": {
+        "height": 28.796875,
+        "width": 90.359375,
+        "x": 1119.940673828125,
+        "y": 753.1875
+      },
+      "name": "oatmeal"
+    },
+    {
+      "box": {
+        "height": 28.796875,
+        "width": 110.046875,
+        "x": 1282.300048828125,
+        "y": 753.1875
+      },
+      "name": "BASALT"
+    },
+    {
+      "box": {
+        "height": 1040.40625,
+        "width": 1348,
+        "x": 0,
+        "y": 821.59375
+      },
+      "name": "How it works"
+    },
+    {
+      "box": {
+        "height": 1040.40625,
+        "width": 1200,
+        "x": 74,
+        "y": 821.59375
+      },
+      "name": "Frame"
+    },
+    {
+      "box": {
+        "height": 560,
+        "width": 818,
+        "x": 446,
+        "y": 1282
+      },
+      "name": "Sage Tint"
+    },
+    {
+      "box": {
+        "height": 240,
+        "width": 300,
+        "x": 966,
+        "y": 1282
+      },
+      "name": "Sage"
+    },
+    {
+      "box": {
+        "height": 180,
+        "width": 180,
+        "x": 1086,
+        "y": 1352
+      },
+      "name": "Olive"
+    },
+    {
+      "box": {
+        "height": 200,
+        "width": 300,
+        "x": 446,
+        "y": 1642
+      },
+      "name": "Teal"
+    },
+    {
+      "box": {
+        "height": 200,
+        "width": 220,
+        "x": 446,
+        "y": 1282
+      },
+      "name": "Sea"
+    },
+    {
+      "box": {
+        "height": 440.40625,
+        "width": 1200,
+        "x": 74,
+        "y": 821.59375
+      },
+      "name": "Head"
+    },
+    {
+      "box": {
+        "height": 19.59375,
+        "width": 1104,
+        "x": 122,
+        "y": 909.59375
+      },
+      "name": "Label"
+    },
+    {
+      "box": {
+        "height": 140.8125,
+        "width": 720,
+        "x": 122,
+        "y": 945.1875
+      },
+      "name": "Heading"
+    },
+    {
+      "box": {
+        "height": 54,
+        "width": 560,
+        "x": 122,
+        "y": 1102
+      },
+      "name": "Lede"
+    },
+    {
+      "box": {
+        "height": 42,
+        "width": 185.53125,
+        "x": 122,
+        "y": 1180
+      },
+      "name": "Quickstart Button"
+    },
+    {
+      "box": {
+        "height": 42,
+        "width": 185.53125,
+        "x": 122,
+        "y": 1180
+      },
+      "name": "Ghost"
+    },
+    {
+      "box": {
+        "height": 20,
+        "width": 141.53125,
+        "x": 144,
+        "y": 1191
+      },
+      "name": "Roll"
+    },
+    {
+      "box": {
+        "height": 40,
+        "width": 141.53125,
+        "x": 144,
+        "y": 1191
+      },
+      "name": "Track"
+    },
+    {
+      "box": {
+        "height": 16,
+        "width": 141.53125,
+        "x": 144,
+        "y": 1193
+      },
+      "name": "Label Roll"
+    },
+    {
+      "box": {
+        "height": 16,
+        "width": 141.53125,
+        "x": 144,
+        "y": 1213
+      },
+      "name": "Label"
+    },
+    {
+      "box": {
+        "height": 600,
+        "width": 1200,
+        "x": 74,
+        "y": 1262
+      },
+      "name": "How It Works Demo"
+    },
+    {
+      "box": {
+        "height": 1293.390625,
+        "width": 1348,
+        "x": 0,
+        "y": 1862
+      },
+      "name": "Customers"
+    },
+    {
+      "box": {
+        "height": 1293.390625,
+        "width": 1200,
+        "x": 74,
+        "y": 1862
+      },
+      "name": "Frame"
+    },
+    {
+      "box": {
+        "height": 1293.390625,
+        "width": 1200,
+        "x": 74,
+        "y": 1862
+      },
+      "name": "Panel"
+    },
+    {
+      "box": {
+        "height": 284.90625,
+        "width": 1200,
+        "x": 74,
+        "y": 1958
+      },
+      "name": "Head"
+    },
+    {
+      "box": {
+        "height": 19.59375,
+        "width": 1104,
+        "x": 122,
+        "y": 1958
+      },
+      "name": "Label"
+    },
+    {
+      "box": {
+        "height": 140.8125,
+        "width": 720,
+        "x": 314,
+        "y": 1993.59375
+      },
+      "name": "Heading"
+    },
+    {
+      "box": {
+        "height": 54,
+        "width": 560,
+        "x": 394,
+        "y": 2150.40625
+      },
+      "name": "Lede"
+    },
+    {
+      "box": {
+        "height": 22.5,
+        "width": 171.890625,
+        "x": 588.046875,
+        "y": 2228.40625
+      },
+      "name": "Link"
+    },
+    {
+      "box": {
+        "height": 496,
+        "width": 1144,
+        "x": 102,
+        "y": 2242.90625
+      },
+      "name": "Cards"
+    },
+    {
+      "box": {
+        "height": 520,
+        "width": 1136,
+        "x": 102,
+        "y": 2242.90625
+      },
+      "name": "Customers Tint"
+    },
+    {
+      "box": {
+        "height": 200,
+        "width": 260,
+        "x": 62,
+        "y": 2252.90625
+      },
+      "name": "Peach"
+    },
+    {
+      "box": {
+        "height": 190,
+        "width": 220,
+        "x": 392,
+        "y": 2572.90625
+      },
+      "name": "Blush"
+    },
+    {
+      "box": {
+        "height": 170,
+        "width": 240,
+        "x": 752,
+        "y": 2262.90625
+      },
+      "name": "Cream"
+    },
+    {
+      "box": {
+        "height": 190,
+        "width": 240,
+        "x": 1042,
+        "y": 2562.90625
+      },
+      "name": "Mauve"
+    },
+    {
+      "box": {
+        "height": 440,
+        "width": 344,
+        "x": 134,
+        "y": 2298.90625
+      },
+      "name": "Card"
+    },
+    {
+      "box": {
+        "height": 424,
+        "width": 328,
+        "x": 142,
+        "y": 2306.90625
+      },
+      "name": "Inner Frame"
+    },
+    {
+      "box": {
+        "height": 242,
+        "width": 240.796875,
+        "x": 229.203125,
+        "y": 2488.90625
+      },
+      "name": "Grid Patch"
+    }
+  ],
+  "fontsDeclaredInPublicSource": [
+    {
+      "family": "Newsreader",
+      "weight": "500",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/newsreader/v26/cY9kfjOCX1hbuyalUrK439vogqC9yFZCYg7oRZaLP4obnf7fTXglsMwaT9ZHFjQ.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/newsreader-500-0.woff2"
+    },
+    {
+      "family": "Newsreader",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/newsreader/v26/cY9qfjOCX1hbuyalUrK49dLac06G1ZGsZBtoBCzBDXXD9JVF438wSo_wC-ZF.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/newsreader-500-1.woff2"
+    },
+    {
+      "family": "Fragment Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/fragment-mono-400-2.woff2"
+    },
+    {
+      "family": "Newsreader",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/newsreader/v26/cY9qfjOCX1hbuyalUrK49dLac06G1ZGsZBtoBCzBDXXD9JVF438weI_ACexEPjCggA.woff2",
+      "range": "",
+      "file": "assets/fonts/newsreader-400-3.woff2"
+    },
+    {
+      "family": "Newsreader",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/newsreader/v26/cY9qfjOCX1hbuyalUrK49dLac06G1ZGsZBtoBCzBDXXD9JVF438wn4jACexEPjCggA.woff2",
+      "range": "",
+      "file": "assets/fonts/newsreader-700-4.woff2"
+    },
+    {
+      "family": "Newsreader",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/newsreader/v26/cY9kfjOCX1hbuyalUrK439vogqC9yFZCYg7oRZaLP4obnf7fTXglsMzPSOZFHDWwgECi.woff2",
+      "range": "",
+      "file": "assets/fonts/newsreader-700-5.woff2"
+    },
+    {
+      "family": "Newsreader",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://fonts.gstatic.com/s/newsreader/v26/cY9kfjOCX1hbuyalUrK439vogqC9yFZCYg7oRZaLP4obnf7fTXglsMwoT-ZFHDWwgECi.woff2",
+      "range": "",
+      "file": "assets/fonts/newsreader-400-6.woff2"
+    },
+    {
+      "family": "Newsreader Variable",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://fonts.gstatic.com/s/newsreader/v26/cY9AfjOCX1hbuyalUrK479z4jaBGNpY.woff2",
+      "range": "",
+      "file": "assets/fonts/newsreader-variable-400-7.woff2"
+    },
+    {
+      "family": "Inter Variable",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/7lw0VWkeXrGYJT05oB3DsFy8BaY.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-variable-400-8.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-9.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-10.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/ia3uin3hQWqDrVloC1zEtYHWw.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-700-11.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://framerusercontent.com/assets/pKRFNWFoZl77qYCAIp84lN1h944.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-400-12.woff2"
+    },
+    {
+      "family": "JetBrains Mono",
+      "weight": "400",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/TZ2PMVPWEVHUPJWOPNSWLOXAF6QPOEMZ/O4OZKA7ZLZGT4JOGT5IEKURK6U3RXYGM/EO5MKE3BUDOZN44BP4HDPXAJAC2BIMCD.woff2",
+      "range": "",
+      "file": "assets/fonts/jetbrains-mono-400-13.woff2"
+    },
+    {
+      "family": "JetBrains Mono",
+      "weight": "700",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/BTOY6STFL42WXJYET4IAFJ4R4NWQMPYV/SIRJV64UEOICTYN5EECZFJJ3ML2D6HVV/ATU2C7QZBG7GCVXROP265OYM5E55WHMK.woff2",
+      "range": "",
+      "file": "assets/fonts/jetbrains-mono-700-14.woff2"
+    },
+    {
+      "family": "JetBrains Mono",
+      "weight": "700",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/4UER7KOM5ELODXZSILS67WJ47ZOE75JQ/6CQXJGOZP6EVG2LPOOVWXH2KM6JHNSRY/UTZ3OSIQCH2DNRJBPY7UY3LB6YDOZNJX.woff2",
+      "range": "",
+      "file": "assets/fonts/jetbrains-mono-700-15.woff2"
+    },
+    {
+      "family": "JetBrains Mono",
+      "weight": "400",
+      "style": "italic",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/4CLQH4JOZMAJ6BPWKUFRQYNRRCIRLEBP/3KY6UMEKQ554PCGWM3CWW3ONMSYQ3ELX/O32TDYA5Q7PAMBBEUNMO44BILZFPSQXN.woff2",
+      "range": "",
+      "file": "assets/fonts/jetbrains-mono-400-16.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-600-17.woff2"
+    },
+    {
+      "family": "Inter",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/assets/UjlFhCnUjxhNfep4oYBPqnEssyo.woff2",
+      "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+      "file": "assets/fonts/inter-500-18.woff2"
+    },
+    {
+      "family": "JetBrains Mono",
+      "weight": "500",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/WAVZNL4Z7TESTS4B4IIRZFODLSPP6FXA/E36Y7HT2GFM2VKF4G73CRBOSSERR73SW/33ZCUAC3GU2QVDMGY6EP3BNWHET5IUK4.woff2",
+      "range": "",
+      "file": "assets/fonts/jetbrains-mono-500-19.woff2"
+    },
+    {
+      "family": "JetBrains Mono",
+      "weight": "600",
+      "style": "normal",
+      "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/46G6Z5EVCZ42UYB746MDPUHE5JNFO2H5/B3L443IEKEYZR6IUA5H7G3HXQY6MFJYR/C4X2AZFIU7APBBKUZ2X4AGSKANOLALFP.woff2",
+      "range": "",
+      "file": "assets/fonts/jetbrains-mono-600-20.woff2"
+    }
+  ],
+  "imagesDeclaredInSource": [
+    {
+      "src": "https://framerusercontent.com/images/zdwKQOud9kcJLr0vlG6JNLi1Zh4.svg?width=480&height=288",
+      "srcset": null,
+      "alt": "",
+      "width": "480",
+      "height": "288",
+      "path": [
+        "Customers",
+        "Frame",
+        "Panel",
+        "Cards",
+        "Card",
+        "Grid Patch"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:right bottom;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/o10EejhA97PpguJ4iSycEBQNnw.jpg?width=400&height=400",
+      "srcset": null,
+      "alt": "",
+      "width": "400",
+      "height": "400",
+      "path": [
+        "Customers",
+        "Frame",
+        "Panel",
+        "Cards",
+        "Card",
+        "Author",
+        "Avatar",
+        "Default",
+        "Photo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/zdwKQOud9kcJLr0vlG6JNLi1Zh4.svg?width=480&height=288",
+      "srcset": null,
+      "alt": "",
+      "width": "480",
+      "height": "288",
+      "path": [
+        "Customers",
+        "Frame",
+        "Panel",
+        "Cards",
+        "Card",
+        "Grid Patch"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:right bottom;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/sGlAREos3s82bEI7shEY6f2Y104.jpg?width=400&height=400",
+      "srcset": null,
+      "alt": "",
+      "width": "400",
+      "height": "400",
+      "path": [
+        "Customers",
+        "Frame",
+        "Panel",
+        "Cards",
+        "Card",
+        "Author",
+        "Avatar",
+        "Default",
+        "Photo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/zdwKQOud9kcJLr0vlG6JNLi1Zh4.svg?width=480&height=288",
+      "srcset": null,
+      "alt": "",
+      "width": "480",
+      "height": "288",
+      "path": [
+        "Customers",
+        "Frame",
+        "Panel",
+        "Cards",
+        "Card",
+        "Grid Patch"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:right bottom;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/c1mC3PvIp1QDv89jLFR8L8DkHA.jpg?width=400&height=400",
+      "srcset": null,
+      "alt": "",
+      "width": "400",
+      "height": "400",
+      "path": [
+        "Customers",
+        "Frame",
+        "Panel",
+        "Cards",
+        "Card",
+        "Author",
+        "Avatar",
+        "Default",
+        "Photo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/rP4QfPotz5hnEpMIq06Wp6DQ.jpg?width=400&height=400",
+      "srcset": null,
+      "alt": "",
+      "width": "400",
+      "height": "400",
+      "path": [
+        "Customers",
+        "Frame",
+        "Panel",
+        "Posts Window",
+        "Posts",
+        "Post",
+        "Header",
+        "Avatar",
+        "Default",
+        "Photo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/r2kOilEZcYhSlkmibKkXWjYb28.jpg?width=400&height=400",
+      "srcset": null,
+      "alt": "",
+      "width": "400",
+      "height": "400",
+      "path": [
+        "Customers",
+        "Frame",
+        "Panel",
+        "Posts Window",
+        "Posts",
+        "Post",
+        "Header",
+        "Avatar",
+        "Default",
+        "Photo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/VuyVildE3Bhq3bN518iVa9sjnYA.jpg?width=400&height=400",
+      "srcset": null,
+      "alt": "",
+      "width": "400",
+      "height": "400",
+      "path": [
+        "Customers",
+        "Frame",
+        "Panel",
+        "Posts Window",
+        "Posts",
+        "Post",
+        "Header",
+        "Avatar",
+        "Default",
+        "Photo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4F3nJRrp9DyL4PQCXMDKlhEQKeU.jpg?width=400&height=400",
+      "srcset": null,
+      "alt": "",
+      "width": "400",
+      "height": "400",
+      "path": [
+        "Customers",
+        "Frame",
+        "Panel",
+        "Posts Window",
+        "Posts",
+        "Post",
+        "Header",
+        "Avatar",
+        "Default",
+        "Photo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZMZvW7sMbPiQBVCTEGpYKA6nj6k.jpg?width=400&height=400",
+      "srcset": null,
+      "alt": "",
+      "width": "400",
+      "height": "400",
+      "path": [
+        "Customers",
+        "Frame",
+        "Panel",
+        "Posts Window",
+        "Posts",
+        "Post",
+        "Header",
+        "Avatar",
+        "Default",
+        "Photo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    },
+    {
+      "src": "https://framerusercontent.com/images/4sC1oXUUBGNqg9R9UryCfOTwY.jpg?width=400&height=400",
+      "srcset": null,
+      "alt": "",
+      "width": "400",
+      "height": "400",
+      "path": [
+        "Customers",
+        "Frame",
+        "Panel",
+        "Posts Window",
+        "Posts",
+        "Post",
+        "Header",
+        "Avatar",
+        "Default",
+        "Photo"
+      ],
+      "inlineStyle": "display:block;width:100%;height:100%;border-radius:inherit;corner-shape:inherit;object-position:center;object-fit:cover",
+      "box": null
+    }
+  ],
+  "videoReferences": [],
+  "linksDeclaredInSource": [
+    "https://github.com",
+    "https://tessera-template.framer.website/",
+    "https://tessera-template.framer.website/api-reference",
+    "https://tessera-template.framer.website/blog",
+    "https://tessera-template.framer.website/changelog",
+    "https://tessera-template.framer.website/customers",
+    "https://tessera-template.framer.website/docs",
+    "https://tessera-template.framer.website/docs/commands-reference",
+    "https://tessera-template.framer.website/docs/quickstart",
+    "https://tessera-template.framer.website/pricing",
+    "https://tessera-template.framer.website/product",
+    "https://www.framer.com"
+  ],
+  "limitations": [
+    "No source mobile viewport capture.",
+    "No animation timing trace.",
+    "Contact, billing and authentication backend behavior not verified.",
+    "Local guide received static validation; no claim of browser rendering.",
+    "No rendered DOM coordinates; all dimensions beyond declared typography are recommendations or image estimates.",
+    "Official images include marketplace framing that must be excluded from a website recreation."
+  ],
+  "sourceDeclarationsFile": "source-declarations.json",
+  "officialVisuals": [
+    {
+      "file": "screenshots/official-reference-01.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F33688c9d-2b23-4151-b5ee-9cc6a079435e%2F01a0eec9-6f0c-721c-b4b6-018e45b854bd.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-02.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F33688c9d-2b23-4151-b5ee-9cc6a079435e%2F01a0eec9-b735-77c6-a709-92d6bbf9f4db.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-03.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F33688c9d-2b23-4151-b5ee-9cc6a079435e%2F01a0eec9-cfc0-75bc-b947-324eac175fde.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-04.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F33688c9d-2b23-4151-b5ee-9cc6a079435e%2F01a0eec9-f269-7753-9d15-30122541af33.png&w=2048&q=80"
+    },
+    {
+      "file": "screenshots/official-reference-05.jpg",
+      "sourceUrl": "https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Fmedia%2F33688c9d-2b23-4151-b5ee-9cc6a079435e%2F01a0eeca-0b6e-7357-9e0b-1d08c0f79a69.png&w=2048&q=80"
+    }
+  ],
+  "category": {
+    "parent": "AI",
+    "branch": "Developer / API",
+    "marketplace": "https://www.framer.com/marketplace/templates/tessera-dev/",
+    "fitEvidence": "The official listing explicitly positions Tessera for backend platforms, APIs, databases, SDKs and infrastructure products. This is a developer-infrastructure visual reference; no AI inference backend is established."
+  },
+  "productBackendVerified": false,
+  "secondaryDeclarationsFile": "secondary-declarations.json",
+  "browserObservationsFile": "BROWSER-OBSERVATIONS.json",
+  "nativeBrowserCaptures": [
+    {
+      "file": "screenshots/live-home.jpg",
+      "description": "Home opening at recorded viewport"
+    },
+    {
+      "file": "screenshots/live-data-tab.jpg",
+      "description": "After Data selection; immediate transition state"
+    }
+  ],
+  "captureRasterPx": {
+    "width": 1348,
+    "height": 926
+  }
+}
