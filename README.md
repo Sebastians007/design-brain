@@ -20,7 +20,7 @@ Every collection is plain files: markdown specs the AI can read, plus HTML previ
 |---|---|---|---|
 | 🎬 | [**Hyperframes Catalog**](hyperframes-catalog) | 25 video looks: colors, type, components, caption styles | Live |
 | 📱 | [**App UI**](app-ui) | App screen designs to reference | Live |
-| 🌐 | [**Websites**](websites) | Full website looks specced for AI to rebuild (Soren) | Live |
+| 🌐 | [**Websites**](websites) | 52 full website looks specced for AI to rebuild (Soren, Ace and 50 Framer templates) | Live |
 | 🧭 | User journeys, customer experience and more | See the [roadmap](#roadmap) | Coming |
 
 ## Peek inside
